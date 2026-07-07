@@ -12,6 +12,7 @@ Użycie:
 from __future__ import annotations
 
 import argparse
+import logging
 import re
 from urllib.parse import urlencode, urljoin
 
@@ -87,6 +88,7 @@ class OlxIphoneSpider(Spider):
     """Spider OLX: tanie iPhone'y posortowane rosnąco po cenie."""
 
     name = "olx_iphones"
+    logging_level = logging.INFO
 
     def __init__(
         self,
@@ -154,6 +156,21 @@ class OlxIphoneSpider(Spider):
             yield response.follow(next_link)
 
 
+def scrape_iphones(
+    *,
+    max_price: int = 1000,
+    min_price: int = 100,
+    max_pages: int = 2,
+) -> list[dict]:
+    """Uruchamia spidera i zwraca posortowaną listę ogłoszeń."""
+    result = OlxIphoneSpider(
+        max_price=max_price,
+        min_price=min_price,
+        max_pages=max_pages,
+    ).start()
+    return sorted(result.items, key=lambda x: x.get("price_pln") or float("inf"))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Scrapuj tanie iPhone'y z OLX.pl (Scrapling Spider)",
@@ -186,18 +203,14 @@ def main() -> None:
     print(f"\n🔍 Szukam iPhone'ów na OLX: {args.min_price}–{args.max_price} zł")
     print(f"   Stron: {args.max_pages} | Sortowanie: cena rosnąco\n")
 
-    result = OlxIphoneSpider(
+    items = scrape_iphones(
         max_price=args.max_price,
         min_price=args.min_price,
         max_pages=args.max_pages,
-    ).start()
-
-    items = sorted(result.items, key=lambda x: x.get("price_pln") or float("inf"))
+    )
 
     print(f"{'=' * 60}")
     print(f"Znaleziono : {len(items)} ogłoszeń")
-    print(f"Requesty   : {result.stats.requests_count}")
-    print(f"Czas       : {result.stats.elapsed_seconds:.1f}s")
     print(f"{'=' * 60}\n")
 
     for index, item in enumerate(items[:20], 1):
