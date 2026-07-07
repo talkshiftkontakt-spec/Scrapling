@@ -1,0 +1,252 @@
+From 648f3614ec2e1d2e9e68a4441f52ab24eb5c8876 Mon Sep 17 00:00:00 2001
+From: Cursor Agent <cursoragent@cursor.com>
+Date: Tue, 7 Jul 2026 19:20:01 +0000
+Subject: [PATCH 1/2] feat: add Scrapling as self-hosted scraping alternative
+
+Registry entry, competitor-profiling skill update, and CLI script
+for competitor-profiles/raw/ layout.
+---
+ scripts/scrape-competitor-scrapling.py | 71 +++++++++++++++++++
+ skills/competitor-profiling/SKILL.md   | 15 +++-
+ tools/REGISTRY.md                      |  1 +
+ tools/integrations/scrapling.md        | 97 ++++++++++++++++++++++++++
+ 4 files changed, 181 insertions(+), 3 deletions(-)
+ create mode 100644 scripts/scrape-competitor-scrapling.py
+ create mode 100644 tools/integrations/scrapling.md
+
+diff --git a/scripts/scrape-competitor-scrapling.py b/scripts/scrape-competitor-scrapling.py
+new file mode 100644
+index 0000000..d73879f
+--- /dev/null
++++ b/scripts/scrape-competitor-scrapling.py
+@@ -0,0 +1,71 @@
++#!/usr/bin/env python3
++"""
++Scrape competitor pages with Scrapling → competitor-profiles/raw/ layout.
++
++Example (Lingology vs language-learning competitor):
++  python scripts/scrape-competitor-scrapling.py \\
++    --slug duolingo \\
++    --url https://www.duolingo.com \\
++    --pages /,/premium
++
++Requires: pip install "scrapling[fetchers]"
++Optional: scrapling install  (for --dynamic)
++"""
++
++from __future__ import annotations
++
++import argparse
++import re
++from datetime import date
++from pathlib import Path
++
++from scrapling.fetchers import DynamicFetcher, Fetcher
++
++
++def slugify(value: str) -> str:
++    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
++
++
++def fetch_page(url: str, *, dynamic: bool) -> str:
++    if dynamic:
++        page = DynamicFetcher.fetch(url, headless=True, network_idle=True, timeout=45000)
++    else:
++        page = Fetcher.get(url, stealthy_headers=True, timeout=30)
++    if page.status != 200:
++        raise RuntimeError(f"HTTP {page.status} for {url}")
++    return page.get_all_text(ignore_tags=("script", "style", "nav", "footer", "svg"))
++
++
++def main() -> None:
++    parser = argparse.ArgumentParser(description="Competitor scrape via Scrapling")
++    parser.add_argument("--slug", required=True, help="competitor-profiles slug, e.g. buki")
++    parser.add_argument("--url", required=True, help="Base URL, e.g. https://example.com")
++    parser.add_argument(
++        "--pages",
++        default="/,/pricing,/features",
++        help="Comma-separated paths (default: /,/pricing,/features)",
++    )
++    parser.add_argument("--dynamic", action="store_true", help="Use DynamicFetcher (SPAs)")
++    parser.add_argument("--out", default="competitor-profiles", help="Output root dir")
++    args = parser.parse_args()
++
++    base = args.url.rstrip("/")
++    day = date.today().isoformat()
++    out_dir = Path(args.out) / "raw" / args.slug / day / "scrapes"
++    out_dir.mkdir(parents=True, exist_ok=True)
++
++    for path in [p.strip() for p in args.pages.split(",") if p.strip()]:
++        page_url = base if path == "/" else f"{base}{path}"
++        name = "homepage" if path == "/" else slugify(path.strip("/")) or "page"
++        print(f"Scraping {page_url} → {name}.md")
++        text = fetch_page(page_url, dynamic=args.dynamic)
++        (out_dir / f"{name}.md").write_text(
++            f"# {page_url}\n\n{text[:50000]}",
++            encoding="utf-8",
++        )
++
++    print(f"Done. Raw scrapes: {out_dir}")
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/skills/competitor-profiling/SKILL.md b/skills/competitor-profiling/SKILL.md
+index 9b0ca70..3435e9d 100644
+--- a/skills/competitor-profiling/SKILL.md
++++ b/skills/competitor-profiling/SKILL.md
+@@ -63,7 +63,7 @@ Rules:
+ 
+ - `<competitor-slug>` is lowercase, hyphenated (e.g. `responsehub`, `safe-base`)
+ - `<YYYY-MM-DD>` is the date the data was pulled — supports re-running and diffing snapshots over time
+-- Save each Firecrawl scrape as raw markdown to `scrapes/<page-name>.md`
++- Save each Firecrawl scrape OR Scrapling page extract as raw markdown to `scrapes/<page-name>.md`
+ - Save each DataForSEO response as raw JSON to `seo/<endpoint-name>.json`
+ - Save each review source to `reviews/<source>.md` (cleaned text) or `.json` (raw)
+ - Always create the date folder fresh on a new run; never overwrite a prior date's data
+@@ -74,16 +74,25 @@ The synthesized profile (`<competitor-slug>.md`) should reference the raw data f
+ 
+ ## Research Process
+ 
+-### Phase 1: Site Scraping (Firecrawl)
++### Phase 1: Site Scraping (Firecrawl or Scrapling)
+ 
+ For each competitor URL, scrape key pages to extract positioning, features, pricing, and messaging.
+ 
++**Tool choice:**
++
++| Tool | When |
++|------|------|
++| **Firecrawl** | Managed API, markdown output, zero setup |
++| **Scrapling** | Self-hosted, no API cost, spiders + stealth fetchers — see `tools/integrations/scrapling.md` and `scripts/scrape-competitor-scrapling.py` |
++
+ #### Step 1: Map the site
+ 
+-Use **Firecrawl Map** to discover the competitor's site structure and identify key pages:
++Use **Firecrawl Map** OR a **Scrapling Spider** (`follow()` on internal links) to discover structure:
+ 
+ ```
+ firecrawl_map → competitor URL
++# OR
++python scripts/scrape-competitor-scrapling.py --slug <name> --url <url>
+ ```
+ 
+ From the map, identify and prioritize these page types:
+diff --git a/tools/REGISTRY.md b/tools/REGISTRY.md
+index 7f84be5..4452b26 100644
+--- a/tools/REGISTRY.md
++++ b/tools/REGISTRY.md
+@@ -65,6 +65,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
+ | truelist | Email Verification | ✓ | ✓ | - | ✓ | [truelist.md](integrations/truelist.md) |
+ | github | Developer Intent | ✓ | - | [✓](clis/github-prospects.js) | ✓ | [github.md](integrations/github.md) |
+ | firecrawl | Site Scraping | ✓ | ✓ | - | ✓ | [firecrawl.md](integrations/firecrawl.md) |
++| scrapling | Site Scraping | - | ✓ | ✓ | ✓ | [scrapling.md](integrations/scrapling.md) |
+ | browserbase | Site Scraping | ✓ | ✓ | - | ✓ | [browserbase.md](integrations/browserbase.md) |
+ | lemlist | Email Outreach | ✓ | - | [✓](clis/lemlist.js) | - | [lemlist.md](integrations/lemlist.md) |
+ | instantly | Email Outreach | ✓ | - | [✓](clis/instantly.js) | - | [instantly.md](integrations/instantly.md) |
+diff --git a/tools/integrations/scrapling.md b/tools/integrations/scrapling.md
+new file mode 100644
+index 0000000..b4f0050
+--- /dev/null
++++ b/tools/integrations/scrapling.md
+@@ -0,0 +1,97 @@
++# Scrapling
++
++Self-hosted Python web scraping framework (fetchers + spiders + optional MCP). Use when you want **Firecrawl-like page extraction without API cost**, especially for competitor homepages, pricing, and feature pages.
++
++## Capabilities
++
++| Integration | Available | Notes |
++|-------------|-----------|-------|
++| API | - | Library, not SaaS |
++| MCP | ✓ | `scrapling[ai]` — see Scrapling docs |
++| CLI | ✓ | `scrapling extract get <url>` |
++| SDK | ✓ | `pip install "scrapling[fetchers]"` |
++
++## Authentication
++
++None for public pages. Optional proxies via `ProxyRotator` for rate limits.
++
++## Setup
++
++```bash
++pip install "scrapling[fetchers]"
++scrapling install   # browsers — only for DynamicFetcher / StealthyFetcher
++```
++
++## Core Operations
++
++### Scrape a single page (fast HTTP)
++
++```python
++from scrapling.fetchers import Fetcher
++
++page = Fetcher.get("https://competitor.com/pricing", stealthy_headers=True)
++title = page.css("title::text").get()
++headings = page.css("h1::text, h2::text").getall()
++body_text = page.get_all_text(ignore_tags=("script", "style"))
++```
++
++### Scrape JS-heavy pages (SPAs)
++
++```python
++from scrapling.fetchers import DynamicFetcher
++
++page = DynamicFetcher.fetch(
++    "https://competitor.com",
++    headless=True,
++    network_idle=True,
++)
++markdown-ish = page.get_all_text(ignore_tags=("nav", "footer", "script", "style"))
++```
++
++### Multi-page competitor crawl
++
++```python
++from scrapling.spiders import Spider, Response
++
++class CompetitorSpider(Spider):
++    name = "competitor"
++    start_urls = ["https://competitor.com/"]
++    concurrent_requests = 2
++    download_delay = 1.0
++
++    async def parse(self, response: Response):
++        if response.url.count("/") <= 3:  # shallow pages only
++            yield {
++                "url": response.url,
++                "title": response.css("title::text").get(),
++                "h1": response.css("h1::text").getall(),
++            }
++        for href in response.css('a[href*="/pricing"]::attr(href), a[href*="/features"]::attr(href)').getall()[:5]:
++            yield response.follow(href)
++```
++
++Save output to `competitor-profiles/raw/<slug>/<date>/scrapes/` as markdown.
++
++## When to Use (vs Firecrawl / Browserbase)
++
++| Situation | Tool |
++|-----------|------|
++| Static marketing site, no API budget | **Scrapling Fetcher** |
++| React/Framer pricing page | **Scrapling DynamicFetcher** |
++| Cloudflare / heavy bot protection | **Scrapling StealthyFetcher** |
++| Managed API, zero ops | Firecrawl |
++| Login / form interaction | Browserbase |
++
++## Compliance
++
++Same rules as Firecrawl:
++
++- Scrape **competitor public marketing pages** only
++- Do **not** scrape LinkedIn, Google Maps, G2 listing pages at scale
++- Respect robots.txt when doing crawls (`Spider(robots_txt_obey=True)`)
++
++## Used By Skills
++
++- competitor-profiling (self-hosted scrape alternative)
++- seo-audit (JSON-LD in JS via DynamicFetcher)
++- programmatic-seo (comparison page research)
+-- 
+2.43.0
+
