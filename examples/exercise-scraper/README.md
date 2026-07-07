@@ -1,21 +1,24 @@
 # Exercise Scraper (PL + EN)
 
-Narzędzie CLI do wyszukiwania i scrapowania ćwiczeń gramatycznych z internetu w wersji **polskiej** i **angielskiej**, zbudowane na [Scrapling](https://github.com/D4Vinci/Scrapling).
+Narzędzie do wyszukiwania i scrapowania ćwiczeń gramatycznych z internetu w wersji **polskiej** i **angielskiej**, zbudowane na [Scrapling](https://github.com/D4Vinci/Scrapling).
+
+Dostępne jako **CLI**, **API** oraz **aplikacja webowa**.
 
 ## Co robi
 
 1. Buduje zapytania wyszukiwania (PL / EN / oba)
-2. Zbiera URL-e ze stron z ćwiczeniami
+2. Zbiera URL ze stron z ćwiczeniami
 3. Pobiera strony przez Scrapling Spider (z poszanowaniem `robots.txt`)
 4. Wyciąga pojedyncze zadania heurystykami
-5. Zapisuje wynik na dysk (JSON + Markdown)
+5. Zapisuje wynik na dysk i w bazie SQLite
 
 ## Instalacja
 
 ```bash
 # Z katalogu głównego repozytorium Scrapling
 pip install -e .
-pip install -e "examples/exercise-scraper[dev]"
+pip install -e "examples/exercise-scraper[api,dev]"
+cd examples/exercise-scraper/frontend && npm install
 ```
 
 Opcjonalnie SerpAPI (stabilniejsze wyszukiwanie):
@@ -25,7 +28,38 @@ pip install -e "examples/exercise-scraper[search]"
 export SERPAPI_KEY=your_key
 ```
 
-## Użycie
+## Aplikacja webowa
+
+Uruchom backend i frontend w dwóch terminalach:
+
+```bash
+# Terminal 1: API
+./examples/exercise-scraper/scripts/run-api.sh
+
+# Terminal 2: UI
+./examples/exercise-scraper/scripts/run-web.sh
+```
+
+Otwórz `http://localhost:3000`.
+
+Frontend łączy się z API pod `http://localhost:8000`. Możesz to zmienić w `frontend/.env.local`:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
+### API
+
+| Endpoint | Opis |
+|----------|------|
+| `GET /api/health` | Status serwera |
+| `POST /api/jobs` | Uruchom zbieranie |
+| `GET /api/jobs` | Lista zadań |
+| `GET /api/jobs/{id}` | Status zadania |
+| `GET /api/jobs/{id}/urls` | Znalezione strony |
+| `GET /api/jobs/{id}/exercises` | Zebrane ćwiczenia |
+
+## CLI
 
 ```bash
 # Obie wersje językowe (domyślnie)
@@ -97,13 +131,10 @@ pytest -q
 ## Architektura
 
 ```
-exercise_scraper/
-├── cli.py              # punkt wejścia
-├── queries/            # szablony zapytań PL + EN
-├── search/             # DuckDuckGo + SerpAPI
-├── crawl/spider.py     # Scrapling Spider
-├── extract/            # heurystyki ekstrakcji
-├── exporters/          # zapis JSON / MD
+exercise_scraper/       # silnik scrapowania
+backend/                # FastAPI + SQLite
+frontend/               # Next.js UI
+scripts/                # run-api.sh, run-web.sh
 ```
 
 ## Roadmap

@@ -1,0 +1,48 @@
+export type LangMode = "pl" | "en" | "both";
+export type ProviderMode = "duckduckgo" | "serpapi";
+export type JobStatus = "queued" | "running" | "completed" | "failed";
+
+export interface Job {
+  id: string;
+  topic: string;
+  lang: LangMode;
+  provider: ProviderMode;
+  max_pages: number;
+  status: JobStatus;
+  phase: string;
+  progress: Record<string, unknown>;
+  manifest: Record<string, unknown> | null;
+  error: string | null;
+  created_at: string;
+  updated_at: string;
+  finished_at: string | null;
+}
+
+export interface Exercise {
+  id: string;
+  job_id: string;
+  text: string;
+  topic: string;
+  language: string;
+  exercise_type: string;
+  confidence: number;
+  source_url: string;
+  source_title: string;
+  answers: string | null;
+  extracted_at: string;
+}
+
+export interface JobUrl {
+  url: string;
+  title: string;
+  query: string;
+}
+
+export interface CreateJobInput {
+  topic: string;
+  lang: LangMode;
+  provider: ProviderMode;
+  max_pages: number;
+  topic_en?: string;
+  topic_pl?: string;
+}

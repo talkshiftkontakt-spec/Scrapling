@@ -19,6 +19,7 @@ dependencies = [
 
 [project.optional-dependencies]
 search = ["google-search-results>=2.4"]
+api = ["fastapi>=0.115.0", "uvicorn[standard]>=0.32.0"]
 dev = ["pytest>=8.0", "pytest-asyncio>=0.24"]
 
 [project.scripts]
