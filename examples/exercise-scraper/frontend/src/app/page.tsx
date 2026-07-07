@@ -9,6 +9,7 @@ import {
   fetchJobs,
 } from "@/lib/api";
 import type { CreateJobInput, Exercise, Job } from "@/lib/types";
+import { ApiStatusBanner } from "@/components/api-status-banner";
 import { ExerciseList } from "@/components/exercise-list";
 import { JobStatusCard } from "@/components/job-status-card";
 import { RecentJobs } from "@/components/recent-jobs";
@@ -94,6 +95,8 @@ export default function HomePage() {
       {error ? (
         <p className="rounded-[1.25rem] bg-[#f6d9d1] px-4 py-3 text-[var(--accent-deep)]">{error}</p>
       ) : null}
+
+      <ApiStatusBanner />
 
       <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
         <SearchPanel loading={submitting} onSubmit={handleSubmit} />

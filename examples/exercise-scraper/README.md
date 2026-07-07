@@ -30,7 +30,13 @@ export SERPAPI_KEY=your_key
 
 ## Aplikacja webowa
 
-Uruchom backend i frontend w dwóch terminalach:
+### Szybki start (jeden terminal)
+
+```bash
+./examples/exercise-scraper/scripts/start.sh
+```
+
+### Ręcznie (dwa terminale)
 
 ```bash
 # Terminal 1: API
@@ -42,11 +48,16 @@ Uruchom backend i frontend w dwóch terminalach:
 
 Otwórz `http://localhost:3000`.
 
-Frontend łączy się z API pod `http://localhost:8000`. Możesz to zmienić w `frontend/.env.local`:
+Frontend przekierowuje `/api/*` do backendu (port 8000), więc nie musisz ręcznie ustawiać `NEXT_PUBLIC_API_URL` w przeglądarce.
 
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
-```
+### Rozwiązywanie problemów
+
+| Problem | Rozwiązanie |
+|---------|-------------|
+| „Brak połączenia z API” | Uruchom `run-api.sh` lub `start.sh` |
+| Pusty wynik zadań | Zwiększ limit stron (np. 15), spróbuj innej frazy |
+| `ModuleNotFoundError` | `pip install -e . && pip install -e "examples/exercise-scraper[api]"` |
+| `npm run dev` nie działa | `cd frontend && npm install` |
 
 ### API
 

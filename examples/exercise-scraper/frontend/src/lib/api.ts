@@ -1,23 +1,45 @@
 import type { CreateJobInput, Exercise, Job, JobUrl } from "./types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(`${API_BASE}${path}`, {
-    ...init,
-    headers: {
-      "Content-Type": "application/json",
-      ...(init?.headers ?? {}),
-    },
-    cache: "no-store",
-  });
+  let response: Response;
+  try {
+    response = await fetch(`${API_BASE}${path}`, {
+      ...init,
+      headers: {
+        "Content-Type": "application/json",
+        ...(init?.headers ?? {}),
+      },
+      cache: "no-store",
+    });
+  } catch {
+    throw new Error(
+      "Brak połączenia z API. Uruchom backend: ./examples/exercise-scraper/scripts/run-api.sh",
+    );
+  }
 
   if (!response.ok) {
-    const detail = await response.text();
-    throw new Error(detail || `Request failed with status ${response.status}`);
+    let detail = await response.text();
+    try {
+      const parsed = JSON.parse(detail) as { detail?: string };
+      if (parsed.detail) detail = parsed.detail;
+    } catch {
+      // keep raw text
+    }
+    throw new Error(detail || `Błąd serwera: ${response.status}`);
   }
 
   return response.json() as Promise<T>;
+}
+
+export async function checkApiHealth(): Promise<boolean> {
+  try {
+    const response = await fetch(`${API_BASE}/api/health`, { cache: "no-store" });
+    return response.ok;
+  } catch {
+    return false;
+  }
 }
 
 export async function createJob(input: CreateJobInput): Promise<Job> {
@@ -55,12 +77,12 @@ export async function fetchJobUrls(jobId: string): Promise<JobUrl[]> {
 
 export function phaseLabel(phase: string): string {
   const labels: Record<string, string> = {
-    queued: "Waiting in queue",
-    searching: "Searching the web",
-    urls_found: "Sources discovered",
-    crawling: "Reading pages",
-    completed: "Collection finished",
-    failed: "Collection failed",
+    queued: "Oczekiwanie w kolejce",
+    searching: "Wyszukiwanie w internecie",
+    urls_found: "Źródła znalezione",
+    crawling: "Pobieranie stron",
+    completed: "Zbieranie zakończone",
+    failed: "Zbieranie nie powiodło się",
   };
   return labels[phase] ?? phase;
 }

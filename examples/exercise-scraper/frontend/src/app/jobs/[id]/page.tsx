@@ -10,6 +10,7 @@ import {
   phaseLabel,
 } from "@/lib/api";
 import type { Exercise, Job, JobUrl } from "@/lib/types";
+import { ApiStatusBanner } from "@/components/api-status-banner";
 import { ExerciseList } from "@/components/exercise-list";
 import { JobStatusCard } from "@/components/job-status-card";
 
@@ -72,6 +73,8 @@ export default function JobPage() {
       {error ? (
         <p className="rounded-[1.25rem] bg-[#f6d9d1] px-4 py-3 text-[var(--accent-deep)]">{error}</p>
       ) : null}
+
+      <ApiStatusBanner />
 
       <JobStatusCard job={job} />
 
