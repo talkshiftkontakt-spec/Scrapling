@@ -108,3 +108,6 @@ output/*/index.html
 docs/_build
 public/
 web/
+
+# OLX watcher local state
+examples/olx_iphones/.olx_iphone_state.json
