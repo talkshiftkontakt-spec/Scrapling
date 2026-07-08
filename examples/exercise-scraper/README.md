@@ -48,6 +48,8 @@ export SERPAPI_KEY=your_key
 
 Otwórz `http://localhost:3000`.
 
+Jeśli wejdziesz na `http://localhost:8000`, zobaczysz tylko stronę backendu i linki do API. To nie jest główny interfejs aplikacji.
+
 Frontend przekierowuje `/api/*` do backendu (port 8000), więc nie musisz ręcznie ustawiać `NEXT_PUBLIC_API_URL` w przeglądarce.
 
 ### Rozwiązywanie problemów

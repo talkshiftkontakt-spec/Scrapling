@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
 from backend.store import start_job, store
@@ -16,6 +17,62 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/", response_class=HTMLResponse)
+def index() -> str:
+    return """
+    <!doctype html>
+    <html lang="pl">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Exercise Scraper API</title>
+        <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 40px 24px;
+            background: #f7f2e9;
+            color: #221d19;
+          }
+          main {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #fffdf8;
+            border: 1px solid #dccfbe;
+            border-radius: 18px;
+            padding: 28px;
+          }
+          code {
+            background: #f1e8da;
+            padding: 2px 8px;
+            border-radius: 999px;
+          }
+          a {
+            color: #a84632;
+          }
+        </style>
+      </head>
+      <body>
+        <main>
+          <h1>Exercise Scraper API działa</h1>
+          <p>To jest backend. Główny interfejs otwórz pod <code>http://localhost:3000</code>.</p>
+          <p>Przydatne endpointy:</p>
+          <ul>
+            <li><a href="/api/health">/api/health</a></li>
+            <li><a href="/docs">/docs</a></li>
+            <li><a href="/api/jobs">/api/jobs</a></li>
+          </ul>
+        </main>
+      </body>
+    </html>
+    """
+
+
+@app.get("/health")
+def health_alias() -> dict[str, str]:
+    return {"status": "ok"}
 
 
 class CreateJobBody(BaseModel):
