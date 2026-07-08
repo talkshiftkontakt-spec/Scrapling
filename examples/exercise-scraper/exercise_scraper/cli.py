@@ -11,6 +11,7 @@ from exercise_scraper.models import CrawlManifest
 from exercise_scraper.exporters.writer import make_output_dir, split_items, write_outputs
 from exercise_scraper.queries import build_queries
 from exercise_scraper.search import collect_urls, get_provider
+from exercise_scraper.validation.quality import select_top_exercises
 
 app = typer.Typer(
     name="exercise-scraper",
@@ -105,6 +106,7 @@ def scrape(
     result = spider.start()
 
     exercises, pages = split_items(list(result.items))
+    exercises = select_top_exercises(exercises, limit=3)
     manifest.urls_scraped = len(pages)
     manifest.urls_failed = max(0, len(urls) - len(pages))
     manifest.sources = [
@@ -124,6 +126,7 @@ def scrape(
         f"   Exercises: {manifest.exercises_total} "
         f"(PL: {manifest.exercises_pl}, EN: {manifest.exercises_en}, unknown: {manifest.exercises_unknown})"
     )
+    typer.echo("   Validator: kept top 3 highest-quality exercises")
     typer.echo(f"   Requests: {result.stats.requests_count}, time: {result.stats.elapsed_seconds:.1f}s")
 
 

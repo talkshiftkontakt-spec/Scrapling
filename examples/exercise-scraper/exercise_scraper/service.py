@@ -10,6 +10,7 @@ from exercise_scraper.exporters.writer import make_output_dir, split_items, writ
 from exercise_scraper.models import CrawlManifest, Exercise
 from exercise_scraper.queries import build_queries
 from exercise_scraper.search import collect_urls, get_provider
+from exercise_scraper.validation.quality import select_top_exercises
 
 LangMode = Literal["pl", "en", "both"]
 ProviderMode = Literal["duckduckgo", "serpapi"]
@@ -29,6 +30,7 @@ class ScrapeRequest:
     topic_pl: str | None = None
     output_base: Path = Path("output")
     dry_run: bool = False
+    top_exercises: int = 3
 
 
 @dataclass
@@ -127,6 +129,7 @@ def run_scrape(
     crawl_result = spider.start()
 
     exercises, pages = split_items(list(crawl_result.items))
+    ranked_exercises = select_top_exercises(exercises, limit=request.top_exercises)
     manifest.urls_scraped = len(pages)
     manifest.urls_failed = max(0, len(urls) - len(pages))
     manifest.sources = [
@@ -134,7 +137,7 @@ def run_scrape(
         for page in pages
     ]
 
-    write_outputs(output_dir, exercises, manifest, save_html=False)
+    write_outputs(output_dir, ranked_exercises, manifest, save_html=False)
     emit(
         "completed",
         {
@@ -142,12 +145,13 @@ def run_scrape(
             "exercises_pl": manifest.exercises_pl,
             "exercises_en": manifest.exercises_en,
             "output_dir": str(output_dir),
+            "top_exercises": request.top_exercises,
         },
     )
 
     return ScrapeResult(
         manifest=manifest,
-        exercises=exercises,
+        exercises=ranked_exercises,
         output_dir=output_dir,
         search_urls=search_urls,
         elapsed_seconds=crawl_result.stats.elapsed_seconds,

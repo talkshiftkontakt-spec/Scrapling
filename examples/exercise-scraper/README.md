@@ -12,6 +12,8 @@ Dostępne jako **CLI**, **API** oraz **aplikacja webowa**.
 4. Wyciąga pojedyncze zadania heurystykami
 5. Zapisuje wynik na dysk i w bazie SQLite
 
+Po scrapowaniu wynik przechodzi przez walidator jakości i finalnie zostają tylko **3 najwyżej ocenione zadania**.
+
 ## Instalacja
 
 ```bash
@@ -89,6 +91,16 @@ exercise-scraper "Present Perfect" --lang both --dry-run
 
 # SerpAPI zamiast DuckDuckGo
 exercise-scraper "Past Simple" --provider serpapi
+```
+
+### Walidacja wyników
+
+Możesz osobno przeliczyć zapisany plik `exercises.json` i wygenerować raport top 3:
+
+```bash
+python3 examples/exercise-scraper/scripts/validate_exercises.py \
+  examples/exercise-scraper/output/past-simple_2026-07-08/exercises.json \
+  --output validated.json
 ```
 
 ### Flagi

@@ -36,10 +36,14 @@ class Exercise:
     exercise_type: ExerciseType = "unknown"
     language: Language = "unknown"
     confidence: float = 0.0
+    validation_score: float = 0.0
+    validation_reasons: list[str] = field(default_factory=list)
     id: str = ""
     extracted_at: datetime = field(default_factory=_utc_now)
 
     def __post_init__(self) -> None:
+        if isinstance(self.extracted_at, str):
+            self.extracted_at = datetime.fromisoformat(self.extracted_at)
         if not self.id:
             self.id = content_hash(self.text)
 
