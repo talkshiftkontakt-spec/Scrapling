@@ -358,6 +358,25 @@ Output: REST API lub eksport CSV/JSON
 
 ---
 
+## Status implementacji
+
+Zaimplementowano pakiet `sportsdata/` zgodnie z planem:
+
+- `sportsdata/cli.py` — CLI (`fixtures`, `stats`, `odds`, `backfill`, `run-all`, `serve`)
+- `sportsdata/pipeline.py` — orchestracja jobów
+- `sportsdata/sources/` — Flashscore, Understat, SofaScore, OddsPortal, football-data.co.uk
+- `sportsdata/db/storage.py` — SQLite
+- `sportsdata/api/server.py` + `sportsdata/dashboard/` — API i prosty dashboard
+- `tests/test_sportsdata.py` — testy jednostkowe i integracyjne
+
+Szczegóły uruchomienia: `sportsdata/README.md`
+
 ## Następny krok
 
-Implementacja **Fazy 0**: spider Flashscore na Scraplingu — przyszłe mecze piłki nożnej i tenisu (najbliższe 7 dni), zapis do SQLite/JSON.
+Uruchom:
+
+```bash
+pip install -e ".[sportsdata]"
+sportsdata run-all
+sportsdata serve --port 8080
+```

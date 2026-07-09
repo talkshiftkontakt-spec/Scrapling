@@ -94,6 +94,12 @@ shell = [
 all = [
     "scrapling[ai,shell]",
 ]
+sportsdata = [
+    "curl_cffi>=0.15.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "scrapling[fetchers]",
+]
 
 [project.urls]
 Homepage = "https://github.com/D4Vinci/Scrapling"
@@ -106,6 +112,7 @@ Repository = "https://github.com/D4Vinci/Scrapling"
 
 [project.scripts]
 scrapling = "scrapling.cli:main"
+sportsdata = "sportsdata.cli:main"
 
 [tool.setuptools]
 zip-safe = false
@@ -113,7 +120,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["scrapling*"]
+include = ["scrapling*", "sportsdata*"]
 
 [tool.mypy]
 python_version = "3.10"
