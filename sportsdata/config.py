@@ -18,6 +18,7 @@ FOOTBALL_LEAGUE_PATTERNS: tuple[str, ...] = (
     "EUROPE: Champions League",
     "EUROPE: Europa League",
     "EUROPE: Conference League",
+    "WORLD: World Cup",
 )
 
 FLASHSCORE_FOOTBALL_LEAGUE_URLS: dict[str, str] = {
@@ -31,6 +32,7 @@ FLASHSCORE_FOOTBALL_LEAGUE_URLS: dict[str, str] = {
     "EUROPE: Champions League": "https://www.flashscore.com/football/europe/champions-league/fixtures/",
     "EUROPE: Europa League": "https://www.flashscore.com/football/europe/europa-league/fixtures/",
     "EUROPE: Conference League": "https://www.flashscore.com/football/europe/conference-league/fixtures/",
+    "WORLD: World Cup": "https://www.flashscore.com/football/world/world-cup/fixtures/",
 }
 
 TENNIS_TOUR_PATTERNS: tuple[str, ...] = (
