@@ -9,8 +9,10 @@ from sportsdata.config import DEFAULT_DB_PATH, PipelineConfig
 from sportsdata.db.storage import Storage
 from sportsdata.jobs.backfill import run_backfill
 from sportsdata.jobs.fixtures_sync import run_fixtures_sync
+from sportsdata.jobs.history_import import run_history_import
 from sportsdata.jobs.odds_snapshot import run_odds_snapshot
 from sportsdata.jobs.pre_match_boost import run_pre_match_boost
+from sportsdata.jobs.results_sync import run_results_sync
 from sportsdata.jobs.stats_enrich import run_stats_enrich
 from sportsdata.models import JobRunResult, Sport
 
@@ -32,6 +34,12 @@ class SportsDataPipeline:
     def run_pre_match_boost(self) -> JobRunResult:
         return run_pre_match_boost(self.storage, self.config)
 
+    def run_results_sync(self) -> JobRunResult:
+        return run_results_sync(self.storage, self.config)
+
+    def run_history_import(self) -> JobRunResult:
+        return run_history_import(self.storage, self.config)
+
     def run_backfill(self) -> JobRunResult:
         return run_backfill(self.storage, self.config)
 
@@ -40,7 +48,8 @@ class SportsDataPipeline:
             self.run_fixtures_sync(),
             self.run_stats_enrich(),
             self.run_odds_snapshot(),
-            self.run_backfill(),
+            self.run_results_sync(),
+            self.run_history_import(),
         ]
         return results
 
@@ -68,5 +77,8 @@ class SportsDataPipeline:
             "timestamp": datetime.now(tz=UTC).isoformat(),
             "db_path": str(self.config.db_path),
             "upcoming_events": len(upcoming),
+            "match_results": self.storage.count_match_results(),
+            "match_results_football": self.storage.count_match_results(Sport.FOOTBALL),
+            "match_results_tennis": self.storage.count_match_results(Sport.TENNIS),
             "failed_jobs": failed_jobs,
         }

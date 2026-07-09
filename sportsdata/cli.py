@@ -32,6 +32,8 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("odds", help="Snapshot odds")
     subparsers.add_parser("boost", help="Pre-match boost for games in next 2 hours")
     subparsers.add_parser("backfill", help="Import football-data.co.uk history")
+    subparsers.add_parser("results", help="Sync recent finished matches with stats")
+    subparsers.add_parser("history", help="Import full historical results (Understat + CSV)")
     subparsers.add_parser("health", help="Show pipeline health")
 
     export_parser = subparsers.add_parser("export", help="Export upcoming events to JSON")
@@ -79,6 +81,14 @@ def main() -> None:
 
     if args.command == "backfill":
         print(json.dumps(pipeline.run_backfill().to_dict(), indent=2))
+        return
+
+    if args.command == "results":
+        print(json.dumps(pipeline.run_results_sync().to_dict(), indent=2))
+        return
+
+    if args.command == "history":
+        print(json.dumps(pipeline.run_history_import().to_dict(), indent=2))
         return
 
     if args.command == "health":

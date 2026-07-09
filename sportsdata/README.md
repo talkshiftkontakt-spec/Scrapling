@@ -7,7 +7,14 @@ Implementacja planu z `docs/sports-data-scraping-plan.md`.
 - **Faza 0**: synchronizacja przyszłych meczów piłki i tenisu z Flashscore
 - **Faza 1**: statystyki przedmeczowe (forma, H2H, xG z Understat, best-effort SofaScore)
 - **Faza 2**: snapshoty kursów z OddsPortal + modelowe kursy z Understat
-- **Faza 3**: API, dashboard, monitoring jobów, backfill historyczny z football-data.co.uk
+- **Faza 3**: API, dashboard, monitoring jobów, historia rozegranych meczów
+
+## Dwa tryby danych
+
+| Tryb | Tabela | Co zawiera |
+|---|---|---|
+| **Nadchodzące mecze** | `events` + `event_stats_prematch` | forma, H2H, xG sezonowe *przed* meczem |
+| **Rozegrane mecze (analiza)** | `match_results` | pełne statystyki *z* meczu: xG, strzały, kursy, tenis serwis/return |
 
 ## Instalacja
 
@@ -29,6 +36,8 @@ sportsdata fixtures
 sportsdata stats
 sportsdata odds
 sportsdata backfill
+sportsdata history    # Understat xG + football-data.co.uk (wiele sezonów)
+sportsdata results    # ostatnie rozegrane mecze ze statystykami Flashscore
 
 # eksport JSON
 sportsdata export --output data/upcoming.json
@@ -41,7 +50,8 @@ sportsdata serve --port 8080
 
 - `GET /health`
 - `GET /upcoming?sport=football|tennis`
-- `GET /events/{id}`
+- `GET /results?sport=football|tennis&league=Wimbledon`
+- `GET /results/{id}`
 - `POST /jobs/{fixtures_sync|stats_enrich|odds_snapshot|pre_match_boost|backfill|all}`
 - `GET /dashboard/`
 
@@ -54,7 +64,7 @@ Tabele:
 - `event_stats_prematch`
 - `odds_snapshots`
 - `job_runs`
-- `historical_matches`
+- `match_results` — rozegrane mecze ze statystykami (Understat, football-data, Flashscore)
 
 ## Uwagi
 

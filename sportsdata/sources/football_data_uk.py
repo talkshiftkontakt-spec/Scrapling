@@ -4,7 +4,7 @@ import csv
 import io
 from typing import Any
 
-from sportsdata.config import FOOTBALL_DATA_URLS, PipelineConfig
+from sportsdata.config import FOOTBALL_DATA_LEAGUE_FILES, FOOTBALL_DATA_SEASONS, FOOTBALL_DATA_URLS, PipelineConfig
 from sportsdata.http import HttpClient
 
 
@@ -13,11 +13,15 @@ class FootballDataUkClient:
         self.config = config
         self.http = http or HttpClient(delay_seconds=config.request_delay_seconds)
 
-    def download_league_csv(self, league_code: str) -> str:
-        url = FOOTBALL_DATA_URLS[league_code]
+    def download_league_csv(self, league_code: str, season: str | None = None) -> str:
+        if season is None:
+            url = FOOTBALL_DATA_URLS[league_code]
+        else:
+            file_code = FOOTBALL_DATA_LEAGUE_FILES[league_code]
+            url = f"https://www.football-data.co.uk/mmz4281/{season}/{file_code}.csv"
         return self.http.get_text(url)
 
-    def parse_csv_rows(self, csv_text: str, league_code: str) -> list[dict[str, Any]]:
+    def parse_csv_rows(self, csv_text: str, league_code: str, season: str | None = None) -> list[dict[str, Any]]:
         reader = csv.DictReader(io.StringIO(csv_text))
         rows: list[dict[str, Any]] = []
         for row in reader:
@@ -47,6 +51,7 @@ class FootballDataUkClient:
                 {
                     "source": "football-data.co.uk",
                     "league_code": league_code,
+                    "season": season,
                     "match_date": row.get("Date"),
                     "home_team": row.get("HomeTeam"),
                     "away_team": row.get("AwayTeam"),
@@ -59,11 +64,16 @@ class FootballDataUkClient:
             )
         return rows
 
-    def import_all(self) -> list[dict[str, Any]]:
+    def import_all(self, seasons: tuple[str, ...] | None = None) -> list[dict[str, Any]]:
         imported: list[dict[str, Any]] = []
-        for league_code in FOOTBALL_DATA_URLS:
-            csv_text = self.download_league_csv(league_code)
-            imported.extend(self.parse_csv_rows(csv_text, league_code))
+        season_list = seasons or FOOTBALL_DATA_SEASONS
+        for season in season_list:
+            for league_code in FOOTBALL_DATA_LEAGUE_FILES:
+                try:
+                    csv_text = self.download_league_csv(league_code, season=season)
+                    imported.extend(self.parse_csv_rows(csv_text, league_code, season=season))
+                except Exception:
+                    continue
         return imported
 
 

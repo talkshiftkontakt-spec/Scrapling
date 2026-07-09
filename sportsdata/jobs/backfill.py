@@ -14,7 +14,7 @@ def run_backfill(storage: Storage, config: PipelineConfig) -> JobRunResult:
     counts = {"rows": 0}
 
     try:
-        rows = client.import_all()
+        rows = client.import_all(seasons=config.football_data_seasons)
         for row in rows:
             storage.save_historical_match(row)
         counts["rows"] = len(rows)

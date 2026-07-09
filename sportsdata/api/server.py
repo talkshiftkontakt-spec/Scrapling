@@ -53,6 +53,18 @@ def create_app(config: PipelineConfig | None = None):
             "odds": pipeline.storage.list_odds_for_event(event_id),
         }
 
+    @app.get("/results")
+    def list_results(sport: str | None = None, league: str | None = None, limit: int = 50) -> list[dict]:
+        sport_enum = Sport(sport) if sport else None
+        return pipeline.storage.list_match_results(sport=sport_enum, league=league, limit=limit)
+
+    @app.get("/results/{result_id}")
+    def get_result(result_id: int) -> dict:
+        row = pipeline.storage.get_match_result(result_id)
+        if row is None:
+            raise HTTPException(status_code=404, detail="Result not found")
+        return row
+
     @app.post("/jobs/{job_name}")
     def run_job(job_name: str) -> dict:
         mapping = {
@@ -60,6 +72,8 @@ def create_app(config: PipelineConfig | None = None):
             "stats_enrich": pipeline.run_stats_enrich,
             "odds_snapshot": pipeline.run_odds_snapshot,
             "pre_match_boost": pipeline.run_pre_match_boost,
+            "results_sync": pipeline.run_results_sync,
+            "history_import": pipeline.run_history_import,
             "backfill": pipeline.run_backfill,
             "all": pipeline.run_all,
         }

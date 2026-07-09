@@ -118,6 +118,48 @@ class UnderstatClient:
             )
         return upcoming
 
+    def played_matches(self, league_name: str, season: str | None = None) -> list[dict[str, Any]]:
+        season = season or self.config.understat_season
+        code = self._league_code(league_name)
+        if code is None:
+            return []
+
+        data = self.fetch_league_data(code, season=season)
+        if not data:
+            return []
+
+        played: list[dict[str, Any]] = []
+        for row in data.get("dates", []):
+            if not row.get("isResult"):
+                continue
+            dt_raw = row.get("datetime")
+            if not dt_raw:
+                continue
+            start_time = datetime.strptime(dt_raw, "%Y-%m-%d %H:%M:%S").replace(tzinfo=UTC)
+            home = row.get("h", {})
+            away = row.get("a", {})
+            goals = row.get("goals", {})
+            xg = row.get("xG", {})
+            played.append(
+                {
+                    "understat_id": row.get("id"),
+                    "datetime": start_time.isoformat(),
+                    "start_time": start_time,
+                    "home": home.get("title"),
+                    "away": away.get("title"),
+                    "home_short": home.get("short_title"),
+                    "away_short": away.get("short_title"),
+                    "home_goals": goals.get("h"),
+                    "away_goals": goals.get("a"),
+                    "home_xg": xg.get("h"),
+                    "away_xg": xg.get("a"),
+                    "forecast": row.get("forecast"),
+                    "league_code": code,
+                    "season": season,
+                }
+            )
+        return played
+
     @staticmethod
     def parse_embedded_dates(html: str) -> list[dict[str, Any]]:
         match = re.search(r"datesData\s*=\s*JSON\.parse\('(.+?)'\)", html)

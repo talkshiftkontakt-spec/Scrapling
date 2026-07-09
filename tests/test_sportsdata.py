@@ -73,8 +73,26 @@ def test_storage_roundtrip(tmp_path: Path) -> None:
     assert odds[0]["bookmaker"] == "understat_model"
 
 
-@pytest.mark.integration
-def test_live_flashscore_fetch() -> None:
+def test_match_result_dedupe_key() -> None:
+    from datetime import UTC, datetime
+
+    from sportsdata.models import MatchResult, Sport
+
+    result = MatchResult(
+        sport=Sport.FOOTBALL,
+        league="ENGLAND: Premier League",
+        home_participant="Arsenal",
+        away_participant="Chelsea",
+        start_time=datetime(2024, 8, 21, 20, 0, tzinfo=UTC),
+        home_score="2",
+        away_score="1",
+        source="understat",
+        xg_payload={"home_xg": 1.8, "away_xg": 0.9},
+    )
+    assert "understat" in result.dedupe_key
+    assert "arsenal" in result.dedupe_key
+
+
     pytest.importorskip("curl_cffi")
     config = PipelineConfig(days_ahead=1)
     client = FlashscoreClient(config)

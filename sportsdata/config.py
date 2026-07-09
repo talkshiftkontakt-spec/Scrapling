@@ -64,6 +64,19 @@ FOOTBALL_DATA_URLS: dict[str, str] = {
     "ligue-1": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
 }
 
+FOOTBALL_DATA_SEASONS: tuple[str, ...] = ("2425", "2324", "2223")
+
+FOOTBALL_DATA_LEAGUE_FILES: dict[str, str] = {
+    "premier-league": "E0",
+    "championship": "E1",
+    "la-liga": "SP1",
+    "serie-a": "I1",
+    "bundesliga": "D1",
+    "ligue-1": "F1",
+}
+
+UNDERSTAT_SEASONS: tuple[str, ...] = ("2024", "2025")
+
 ODDSPORTAL_LEAGUE_URLS: dict[str, str] = {
     "premier-league": "https://www.oddsportal.com/football/england/premier-league/",
     "la-liga": "https://www.oddsportal.com/football/spain/laliga/",
@@ -106,3 +119,6 @@ class PipelineConfig:
         default_factory=lambda: dict(FLASHSCORE_FOOTBALL_LEAGUE_URLS)
     )
     understat_season: str = "2025"
+    understat_seasons: tuple[str, ...] = UNDERSTAT_SEASONS
+    results_lookback_days: int = 14
+    football_data_seasons: tuple[str, ...] = FOOTBALL_DATA_SEASONS

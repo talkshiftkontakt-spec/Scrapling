@@ -261,6 +261,66 @@ class FlashscoreClient:
           return self.fetch_football_upcoming(days_ahead=days_ahead, include_live=include_live)
       return self.fetch_tennis_upcoming(days_ahead=days_ahead, include_live=include_live)
 
+  def fetch_recent_results(
+      self,
+      sport: Sport,
+      *,
+      days_back: int | None = None,
+  ) -> list[Event]:
+      days = days_back if days_back is not None else self.config.results_lookback_days
+      sport_code = "1" if sport is Sport.FOOTBALL else "2"
+      events: list[Event] = []
+      seen: set[str] = set()
+
+      for day_offset in range(0, days + 1):
+          feed_path = f"f_{sport_code}_{day_offset}_3_en_1"
+          text = self.fetch_feed(feed_path)
+          for fields in self.parse_feed(text):
+              status = FLASHSCORE_STATUS_MAP.get(fields.get("AB", ""), EventStatus.UNKNOWN)
+              if status is not EventStatus.FINISHED:
+                  continue
+              home_score = fields.get("AG")
+              away_score = fields.get("AH")
+              if not home_score or not away_score:
+                  continue
+              event = self._event_from_fields(fields, sport, skip_pattern_check=True)
+              if event is None:
+                  continue
+              if sport is Sport.TENNIS and not self._is_relevant_tennis_league(event.league):
+                  continue
+              if sport is Sport.FOOTBALL and not self._matches_patterns(
+                  event.league,
+                  self.config.football_league_patterns,
+                  exact=True,
+              ):
+                  # keep world cup, major leagues, and recognizable tournaments
+                  league_upper = event.league.upper()
+                  if not any(
+                      token in league_upper
+                      for token in ("WORLD", "EUROPE", "ENGLAND", "SPAIN", "ITALY", "GERMANY", "FRANCE", "POLAND")
+                  ):
+                      continue
+              event.status = EventStatus.FINISHED
+              event.home_score = home_score
+              event.away_score = away_score
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+
+      events.sort(key=lambda item: item.start_time, reverse=True)
+      return events
+
+  def match_statistics_payload(self, match_id: str, sport: Sport) -> dict[str, Any]:
+      stats = self.fetch_statistics(match_id, sport=sport)
+      flat: dict[str, Any] = {"groups": stats.get("groups", [])}
+      for group in stats.get("groups", []):
+          group_name = str(group.get("name", "unknown")).lower().replace(" ", "_")
+          for item in group.get("items", []):
+              key = f"{group_name}.{str(item.get('name', '')).lower().replace(' ', '_')}"
+              flat[key] = {"home": item.get("home"), "away": item.get("away")}
+      return flat
+
   def fetch_h2h(self, match_id: str, sport: Sport = Sport.FOOTBALL) -> list[dict[str, Any]]:
       cache_key = f"{sport.value}:{match_id}"
       if cache_key in self._h2h_cache:

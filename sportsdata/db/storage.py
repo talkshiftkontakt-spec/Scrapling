@@ -7,7 +7,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any, Iterator
 
-from sportsdata.models import Event, EventStatus, OddsSnapshot, PrematchStats, Sport
+from sportsdata.models import Event, EventStatus, MatchResult, OddsSnapshot, PrematchStats, Sport
 
 
 SCHEMA = """
@@ -86,6 +86,30 @@ CREATE TABLE IF NOT EXISTS historical_matches (
     odds_payload TEXT NOT NULL DEFAULT '{}',
     stats_payload TEXT NOT NULL DEFAULT '{}'
 );
+
+CREATE TABLE IF NOT EXISTS match_results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sport TEXT NOT NULL,
+    league TEXT NOT NULL,
+    home_participant TEXT NOT NULL,
+    away_participant TEXT NOT NULL,
+    start_time TEXT NOT NULL,
+    home_score TEXT,
+    away_score TEXT,
+    source TEXT NOT NULL,
+    stats_payload TEXT NOT NULL DEFAULT '{}',
+    xg_payload TEXT NOT NULL DEFAULT '{}',
+    odds_payload TEXT NOT NULL DEFAULT '{}',
+    external_ids TEXT NOT NULL DEFAULT '{}',
+    metadata TEXT NOT NULL DEFAULT '{}',
+    dedupe_key TEXT NOT NULL UNIQUE,
+    created_at TEXT NOT NULL,
+    updated_at TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_match_results_start_time ON match_results(start_time);
+CREATE INDEX IF NOT EXISTS idx_match_results_sport ON match_results(sport);
+CREATE INDEX IF NOT EXISTS idx_match_results_league ON match_results(league);
 
 CREATE INDEX IF NOT EXISTS idx_events_start_time ON events(start_time);
 CREATE INDEX IF NOT EXISTS idx_events_sport ON events(sport);
@@ -360,6 +384,103 @@ class Storage:
                     json.dumps(row.get("stats_payload", {})),
                 ),
             )
+
+    def upsert_match_result(self, result: MatchResult) -> int:
+        now = datetime.now(tz=UTC).isoformat()
+        payload = {
+            "sport": result.sport.value,
+            "league": result.league,
+            "home_participant": result.home_participant,
+            "away_participant": result.away_participant,
+            "start_time": result.start_time.isoformat(),
+            "home_score": result.home_score,
+            "away_score": result.away_score,
+            "source": result.source,
+            "stats_payload": json.dumps(result.stats_payload),
+            "xg_payload": json.dumps(result.xg_payload),
+            "odds_payload": json.dumps(result.odds_payload),
+            "external_ids": json.dumps(result.external_ids),
+            "metadata": json.dumps(result.metadata),
+            "dedupe_key": result.dedupe_key,
+            "created_at": now,
+            "updated_at": now,
+        }
+        with self.connection() as conn:
+            conn.execute(
+                """
+                INSERT INTO match_results (
+                    sport, league, home_participant, away_participant, start_time,
+                    home_score, away_score, source, stats_payload, xg_payload,
+                    odds_payload, external_ids, metadata, dedupe_key, created_at, updated_at
+                ) VALUES (
+                    :sport, :league, :home_participant, :away_participant, :start_time,
+                    :home_score, :away_score, :source, :stats_payload, :xg_payload,
+                    :odds_payload, :external_ids, :metadata, :dedupe_key, :created_at, :updated_at
+                )
+                ON CONFLICT(dedupe_key) DO UPDATE SET
+                    home_score = excluded.home_score,
+                    away_score = excluded.away_score,
+                    stats_payload = excluded.stats_payload,
+                    xg_payload = excluded.xg_payload,
+                    odds_payload = excluded.odds_payload,
+                    external_ids = excluded.external_ids,
+                    metadata = excluded.metadata,
+                    updated_at = excluded.updated_at
+                """,
+                payload,
+            )
+            row = conn.execute(
+                "SELECT id FROM match_results WHERE dedupe_key = ?",
+                (result.dedupe_key,),
+            ).fetchone()
+            return int(row["id"])
+
+    def list_match_results(
+        self,
+        *,
+        sport: Sport | None = None,
+        league: str | None = None,
+        limit: int = 100,
+    ) -> list[dict[str, Any]]:
+        query = "SELECT * FROM match_results WHERE 1=1"
+        params: list[Any] = []
+        if sport is not None:
+            query += " AND sport = ?"
+            params.append(sport.value)
+        if league is not None:
+            query += " AND league LIKE ?"
+            params.append(f"%{league}%")
+        query += " ORDER BY start_time DESC LIMIT ?"
+        params.append(limit)
+        with self.connection() as conn:
+            rows = conn.execute(query, params).fetchall()
+        results: list[dict[str, Any]] = []
+        for row in rows:
+            item = dict(row)
+            for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
+                item[key] = json.loads(item[key])
+            results.append(item)
+        return results
+
+    def count_match_results(self, sport: Sport | None = None) -> int:
+        query = "SELECT COUNT(*) AS c FROM match_results"
+        params: list[Any] = []
+        if sport is not None:
+            query += " WHERE sport = ?"
+            params.append(sport.value)
+        with self.connection() as conn:
+            row = conn.execute(query, params).fetchone()
+        return int(row["c"])
+
+    def get_match_result(self, result_id: int) -> dict[str, Any] | None:
+        with self.connection() as conn:
+            row = conn.execute("SELECT * FROM match_results WHERE id = ?", (result_id,)).fetchone()
+        if row is None:
+            return None
+        item = dict(row)
+        for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
+            item[key] = json.loads(item[key])
+        return item
 
     @staticmethod
     def _row_to_event_dict(row: sqlite3.Row) -> dict[str, Any]:

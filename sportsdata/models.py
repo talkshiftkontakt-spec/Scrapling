@@ -54,6 +54,43 @@ class Event:
 
 
 @dataclass
+class MatchResult:
+    sport: Sport
+    league: str
+    home_participant: str
+    away_participant: str
+    start_time: datetime
+    home_score: str | None = None
+    away_score: str | None = None
+    source: str = "flashscore"
+    stats_payload: dict[str, Any] = field(default_factory=dict)
+    xg_payload: dict[str, Any] = field(default_factory=dict)
+    odds_payload: dict[str, Any] = field(default_factory=dict)
+    external_ids: dict[str, str] = field(default_factory=dict)
+    metadata: dict[str, Any] = field(default_factory=dict)
+    id: int | None = None
+
+    @property
+    def dedupe_key(self) -> str:
+        return "|".join(
+            [
+                self.source,
+                self.sport.value,
+                self.league.lower().strip(),
+                self.home_participant.lower().strip(),
+                self.away_participant.lower().strip(),
+                self.start_time.strftime("%Y-%m-%d %H:%M"),
+            ]
+        )
+
+    def to_dict(self) -> dict[str, Any]:
+        data = asdict(self)
+        data["sport"] = self.sport.value
+        data["start_time"] = self.start_time.isoformat()
+        return data
+
+
+@dataclass
 class PrematchStats:
     event_id: int
     scraped_at: datetime
