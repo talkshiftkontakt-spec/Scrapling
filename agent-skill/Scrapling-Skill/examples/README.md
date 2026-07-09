@@ -21,6 +21,7 @@ scrapling install --force
 | `02_dynamic_session.py`  | `DynamicSession`  | Python - browser automation | Dynamic/SPA pages                     |
 | `03_stealthy_session.py` | `StealthySession` | Python - stealth browser    | Cloudflare, fingerprint bypass        |
 | `04_spider.py`           | `Spider`          | Python - auto-crawling      | Multi-page crawls, full-site scraping |
+| `05_football_match_photos_spider.py` | `Spider` + sessions | Python - domain example | Match action photos for FootballRoute-style sites |
 
 ## Running
 
@@ -31,6 +32,7 @@ python examples/01_fetcher_session.py
 python examples/02_dynamic_session.py  # Opens a visible browser
 python examples/03_stealthy_session.py # Opens a visible stealth browser
 python examples/04_spider.py           # Auto-crawls all pages, exports quotes.json
+python examples/05_football_match_photos_spider.py --download  # Match action photos (FootballRoute layout)
 ```
 
 ## Escalation Guide
