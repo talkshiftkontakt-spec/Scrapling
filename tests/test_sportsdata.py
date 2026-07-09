@@ -43,6 +43,18 @@ def test_tennis_league_filter_excludes_itf_and_doubles() -> None:
     assert not client._is_relevant_tennis_league("ATP - DOUBLES: Wimbledon (United Kingdom), grass")
 
 
+def test_flashscore_parse_results_embedded_feed() -> None:
+    sample = (
+        "initialFeeds['results'] = { data: `SA÷2¬~ZA÷ATP - SINGLES: Wimbledon¬"
+        "~AA÷abc123¬AD÷1787338800¬AE÷Sinner J.¬AF÷Djokovic N.¬AB÷3¬AG÷3¬AH÷1¬` };"
+    )
+    feeds = FlashscoreClient.parse_embedded_feeds(sample)
+    assert len(feeds) == 1
+    rows = FlashscoreClient.parse_feed(feeds[0])
+    assert rows[0]["AB"] == "3"
+    assert rows[0]["AG"] == "3"
+
+
 def test_storage_roundtrip(tmp_path: Path) -> None:
     db_path = tmp_path / "test.db"
     storage = Storage(db_path)
@@ -73,6 +85,15 @@ def test_storage_roundtrip(tmp_path: Path) -> None:
     assert odds[0]["bookmaker"] == "understat_model"
 
 
+def test_tennis_history_filter_allows_challenger() -> None:
+    client = FlashscoreClient(PipelineConfig())
+    assert client._is_relevant_tennis_league_with(
+        "CHALLENGER MEN - SINGLES: Newport (USA), grass",
+        ("DOUBLES", "BOYS", "GIRLS"),
+        ("ATP", "WTA", "CHALLENGER"),
+    )
+
+
 def test_match_result_dedupe_key() -> None:
     from datetime import UTC, datetime
 
@@ -93,6 +114,7 @@ def test_match_result_dedupe_key() -> None:
     assert "arsenal" in result.dedupe_key
 
 
+def test_live_flashscore_fetch() -> None:
     pytest.importorskip("curl_cffi")
     config = PipelineConfig(days_ahead=1)
     client = FlashscoreClient(config)

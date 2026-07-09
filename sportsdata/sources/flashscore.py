@@ -75,11 +75,34 @@ class FlashscoreClient:
 
   @staticmethod
   def parse_embedded_feed(html: str) -> str | None:
-      match = re.search(r"initialFeeds\['fixtures'\]\s*=\s*\{\s*data:\s*`([^`]+)`", html)
-      if match:
-          return match.group(1)
+      for feed_key in ("results", "fixtures"):
+          match = re.search(
+              rf"initialFeeds\['{feed_key}'\]\s*=\s*\{{\s*data:\s*`([^`]+)`",
+              html,
+          )
+          if match:
+              return match.group(1)
       match = re.search(r"data:\s*`(SA÷1[^`]+)`", html)
       return match.group(1) if match else None
+
+  @staticmethod
+  def parse_embedded_feeds(html: str) -> list[str]:
+      feeds: list[str] = []
+      seen: set[str] = set()
+      for feed_key in ("results", "fixtures"):
+          match = re.search(
+              rf"initialFeeds\['{feed_key}'\]\s*=\s*\{{\s*data:\s*`([^`]+)`",
+              html,
+          )
+          if match:
+              feed_text = match.group(1)
+              if feed_text not in seen:
+                  seen.add(feed_text)
+                  feeds.append(feed_text)
+      fallback = re.search(r"data:\s*`(SA÷1[^`]+)`", html)
+      if fallback and fallback.group(1) not in seen:
+          feeds.append(fallback.group(1))
+      return feeds
 
   @staticmethod
   def _matches_patterns(league: str, patterns: tuple[str, ...], *, exact: bool = False) -> bool:
@@ -166,12 +189,160 @@ class FlashscoreClient:
       return tournaments
 
   def _is_relevant_tennis_league(self, league: str) -> bool:
+      return self._is_relevant_tennis_league_with(
+          league,
+          self.config.tennis_exclude_patterns,
+          self.config.tennis_tour_patterns,
+      )
+
+  @staticmethod
+  def _is_relevant_tennis_league_with(
+      league: str,
+      exclude_patterns: tuple[str, ...],
+      include_patterns: tuple[str, ...],
+  ) -> bool:
       league_upper = league.upper()
-      if any(pattern.upper() in league_upper for pattern in self.config.tennis_exclude_patterns):
+      if any(pattern.upper() in league_upper for pattern in exclude_patterns):
           return False
       if "SINGLES" not in league_upper:
           return False
-      return self._matches_patterns(league, self.config.tennis_tour_patterns)
+      return any(pattern.upper() in league_upper for pattern in include_patterns)
+
+  def _finished_event_from_fields(
+      self,
+      fields: dict[str, str],
+      sport: Sport,
+      *,
+      league_name: str | None = None,
+  ) -> Event | None:
+      home_score = fields.get("AG")
+      away_score = fields.get("AH")
+      if not home_score or not away_score:
+          return None
+      status = FLASHSCORE_STATUS_MAP.get(fields.get("AB", ""), EventStatus.UNKNOWN)
+      if status not in (EventStatus.FINISHED, EventStatus.LIVE, EventStatus.UNKNOWN):
+          return None
+      event = self._event_from_fields(fields, sport, skip_pattern_check=True)
+      if event is None:
+          return None
+      event.status = EventStatus.FINISHED
+      event.home_score = home_score
+      event.away_score = away_score
+      if league_name:
+          event.league = league_name
+      return event
+
+  def _parse_finished_from_html(
+      self,
+      html: str,
+      sport: Sport,
+      *,
+      league_name: str | None = None,
+      tennis_filter: bool = False,
+  ) -> list[Event]:
+      events: list[Event] = []
+      seen: set[str] = set()
+      for feed_text in self.parse_embedded_feeds(html):
+          for fields in self.parse_feed(feed_text):
+              event = self._finished_event_from_fields(fields, sport, league_name=league_name)
+              if event is None:
+                  continue
+              if tennis_filter and not self._is_relevant_tennis_league_with(
+                  event.league,
+                  self.config.tennis_history_exclude_patterns,
+                  self.config.tennis_history_tour_patterns,
+              ):
+                  continue
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+      return events
+
+  def fetch_archive_results(
+      self,
+      page_url: str,
+      league_name: str,
+      sport: Sport,
+      *,
+      tennis_filter: bool = False,
+  ) -> list[Event]:
+      events: list[Event] = []
+      seen: set[str] = set()
+      base = page_url.rstrip("/") + "/"
+      for suffix in ("draw/", "results/", "", "fixtures/"):
+          url = base if not suffix else base + suffix
+          try:
+              html = self.http.get_text(url, headers={"Referer": self.BASE_SITE})
+          except Exception:
+              continue
+          for event in self._parse_finished_from_html(
+              html,
+              sport,
+              league_name=league_name,
+              tennis_filter=tennis_filter,
+          ):
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+      events.sort(key=lambda item: item.start_time, reverse=True)
+      return events
+
+  def discover_tennis_tournament_links(self, tour: str) -> list[str]:
+      html = self.http.get_text(
+          f"{self.BASE_SITE}/tennis/{tour}/",
+          headers={"Referer": self.BASE_SITE},
+      )
+      pattern = rf'href="(/tennis/{tour}/[^"]+/)"'
+      links = sorted(set(re.findall(pattern, html)))
+      return [f"{self.BASE_SITE}{link}" for link in links if "doubles" not in link.lower()]
+
+  def fetch_tennis_tournament_history(self) -> list[Event]:
+      events: list[Event] = []
+      seen: set[str] = set()
+
+      for league_name, page_url in self.config.flashscore_tennis_grand_slam_urls.items():
+          for event in self.fetch_archive_results(
+              page_url,
+              league_name,
+              Sport.TENNIS,
+              tennis_filter=True,
+          ):
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+
+      if self.config.crawl_tennis_tournaments:
+          for tour in ("atp-singles", "wta-singles"):
+              for page_url in self.discover_tennis_tournament_links(tour):
+                  slug = page_url.rstrip("/").split("/")[-1].replace("-", " ").title()
+                  league_name = f"{tour.upper()}: {slug}"
+                  for event in self.fetch_archive_results(
+                      page_url,
+                      league_name,
+                      Sport.TENNIS,
+                      tennis_filter=True,
+                  ):
+                      if event.dedupe_key in seen:
+                          continue
+                      seen.add(event.dedupe_key)
+                      events.append(event)
+
+      events.sort(key=lambda item: item.start_time, reverse=True)
+      return events
+
+  def fetch_football_archive_history(self) -> list[Event]:
+      events: list[Event] = []
+      seen: set[str] = set()
+      for league_name, page_url in self.config.flashscore_football_archive_urls.items():
+          for event in self.fetch_archive_results(page_url, league_name, Sport.FOOTBALL):
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+      return events
 
   def fetch_football_upcoming(
       self,
@@ -267,7 +438,10 @@ class FlashscoreClient:
       *,
       days_back: int | None = None,
   ) -> list[Event]:
-      days = days_back if days_back is not None else self.config.results_lookback_days
+      if sport is Sport.TENNIS:
+          days = days_back if days_back is not None else self.config.tennis_results_lookback_days
+      else:
+          days = days_back if days_back is not None else self.config.results_lookback_days
       sport_code = "1" if sport is Sport.FOOTBALL else "2"
       events: list[Event] = []
       seen: set[str] = set()
@@ -286,7 +460,11 @@ class FlashscoreClient:
               event = self._event_from_fields(fields, sport, skip_pattern_check=True)
               if event is None:
                   continue
-              if sport is Sport.TENNIS and not self._is_relevant_tennis_league(event.league):
+              if sport is Sport.TENNIS and not self._is_relevant_tennis_league_with(
+                  event.league,
+                  self.config.tennis_history_exclude_patterns,
+                  self.config.tennis_history_tour_patterns,
+              ):
                   continue
               if sport is Sport.FOOTBALL and not self._matches_patterns(
                   event.league,

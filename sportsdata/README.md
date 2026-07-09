@@ -36,8 +36,8 @@ sportsdata fixtures
 sportsdata stats
 sportsdata odds
 sportsdata backfill
-sportsdata history    # Understat xG + football-data.co.uk (wiele sezonów)
-sportsdata results    # ostatnie rozegrane mecze ze statystykami Flashscore
+sportsdata history    # Understat (5 sezonów) + football-data (12 lig × 5 sezonów) + archiwa WC/Euro/Grand Slam
+sportsdata results    # ostatnie 90 dni rozegranych meczów ze statystykami Flashscore
 
 # eksport JSON
 sportsdata export --output data/upcoming.json
@@ -66,6 +66,23 @@ Tabele:
 - `job_runs`
 - `match_results` — rozegrane mecze ze statystykami (Understat, football-data, Flashscore)
 
+## Historia rozegranych meczów (`history`)
+
+Źródła importowane do `match_results`:
+
+| Źródło | Zakres | Dane |
+|---|---|---|
+| **Understat** | EPL, La Liga, Serie A, Bundesliga, Ligue 1 — sezony 2021–2025 | xG per mecz, forecast |
+| **football-data.co.uk** | 12 lig × 5 sezonów (2425–2021) | strzały, rożne, kartki, kursy |
+| **Flashscore archiwum piłki** | World Cup 2026/2022/2018, Euro 2024/2020 | wyniki + statystyki meczu |
+| **Flashscore archiwum tenisa** | 8 Grand Slamów (ATP+WTA) + crawl turniejów ATP/WTA | wyniki + statystyki (serwis, return itd.) |
+
+Ligi football-data poza top-5: Szkocja, Holandia, Belgia, Portugalia, Turcja, Grecja (+ Championship).
+
+Opcja `crawl_tennis_tournaments` (domyślnie `true`) przeszukuje strony turniejów ATP/WTA — może trwać kilka minut; wyłącz w configu jeśli potrzebujesz tylko Grand Slamów.
+
+Import archiwum Flashscore pobiera statystyki meczu dla pierwszych 300 rekordów (`archive_stats_limit`); pełny backfill statystyk dla starszych meczów można powtórzyć z wyższym limitem.
+
 ## Uwagi
 
 - SofaScore API może zwracać `403` — pipeline działa dalej z Flashscore + Understat.
@@ -73,3 +90,4 @@ Tabele:
 - Understat daje xG i forecast dla wspieranych lig (EPL, La Liga, Serie A, Bundesliga, Ligue 1).
 - W przerwie sezonowej piłkarskiej domyślne okno 45 dni obejmuje start lig (EPL, La Liga itd.) oraz bieżące kwalifikacje UEFA.
 - Tenis: ATP/WTA/Challenger + Grand Slamy z aktywnego menu Flashscore; ITF i deble są domyślnie odfiltrowane.
+- Archiwa Flashscore (WC, Euro, Wimbledon) korzystają z feedu `results` na stronach `draw/` — pełny drabinkowy turniej (np. ~140 meczów Wimbledon ATP). Starsze edycje bez osobnej strony mogą być niekompletne; pełniejsza historia piłki pochodzi z Understat i football-data.

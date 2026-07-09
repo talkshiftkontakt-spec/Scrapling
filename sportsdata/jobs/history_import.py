@@ -4,7 +4,9 @@ from datetime import UTC, datetime
 
 from sportsdata.config import PipelineConfig, UNDERSTAT_LEAGUES
 from sportsdata.db.storage import Storage
+from sportsdata.jobs.flashscore_results import save_flashscore_events
 from sportsdata.models import JobRunResult, MatchResult, Sport
+from sportsdata.sources.flashscore import FlashscoreClient
 from sportsdata.sources.football_data_uk import FootballDataUkClient
 from sportsdata.sources.understat import UnderstatClient
 
@@ -24,7 +26,14 @@ def run_history_import(storage: Storage, config: PipelineConfig) -> JobRunResult
     started = datetime.now(tz=UTC)
     understat = UnderstatClient(config)
     football_data = FootballDataUkClient(config)
-    counts = {"understat": 0, "football_data": 0}
+    flashscore = FlashscoreClient(config)
+    counts: dict[str, int] = {
+        "understat": 0,
+        "football_data": 0,
+        "flashscore_football_archive": 0,
+        "flashscore_tennis_archive": 0,
+        "with_stats": 0,
+    }
 
     try:
         for league_name in UNDERSTAT_LEAGUES:
@@ -74,6 +83,28 @@ def run_history_import(storage: Storage, config: PipelineConfig) -> JobRunResult
             storage.upsert_match_result(result)
             storage.save_historical_match(row)
             counts["football_data"] += 1
+
+        football_archive = flashscore.fetch_football_archive_history()
+        save_flashscore_events(
+            storage,
+            flashscore,
+            football_archive,
+            counts=counts,
+            fetch_stats=config.archive_fetch_stats,
+            stats_limit=config.archive_stats_limit,
+        )
+        counts["flashscore_football_archive"] = len(football_archive)
+
+        tennis_archive = flashscore.fetch_tennis_tournament_history()
+        save_flashscore_events(
+            storage,
+            flashscore,
+            tennis_archive,
+            counts=counts,
+            fetch_stats=config.archive_fetch_stats,
+            stats_limit=config.archive_stats_limit,
+        )
+        counts["flashscore_tennis_archive"] = len(tennis_archive)
 
         finished = datetime.now(tz=UTC)
         result = JobRunResult(

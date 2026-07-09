@@ -64,7 +64,7 @@ FOOTBALL_DATA_URLS: dict[str, str] = {
     "ligue-1": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
 }
 
-FOOTBALL_DATA_SEASONS: tuple[str, ...] = ("2425", "2324", "2223")
+FOOTBALL_DATA_SEASONS: tuple[str, ...] = ("2425", "2324", "2223", "2122", "2021")
 
 FOOTBALL_DATA_LEAGUE_FILES: dict[str, str] = {
     "premier-league": "E0",
@@ -73,9 +73,46 @@ FOOTBALL_DATA_LEAGUE_FILES: dict[str, str] = {
     "serie-a": "I1",
     "bundesliga": "D1",
     "ligue-1": "F1",
+    "scotland-premiership": "SC0",
+    "netherlands-eredivisie": "N1",
+    "belgium-pro-league": "B1",
+    "portugal-liga": "P1",
+    "turkey-super-lig": "T1",
+    "greece-super-league": "G1",
 }
 
-UNDERSTAT_SEASONS: tuple[str, ...] = ("2024", "2025")
+UNDERSTAT_SEASONS: tuple[str, ...] = ("2021", "2022", "2023", "2024", "2025")
+
+FLASHSCORE_FOOTBALL_ARCHIVE_URLS: dict[str, str] = {
+    "WORLD: World Cup 2026": "https://www.flashscore.com/football/world/world-cup/",
+    "WORLD: World Cup 2022": "https://www.flashscore.com/football/world/world-cup-2022/",
+    "WORLD: World Cup 2018": "https://www.flashscore.com/football/world/world-cup-2018/",
+    "EUROPE: Euro 2024": "https://www.flashscore.com/football/europe/euro-2024/",
+    "EUROPE: Euro 2020": "https://www.flashscore.com/football/europe/euro-2020/",
+}
+
+FLASHSCORE_TENNIS_GRAND_SLAM_URLS: dict[str, str] = {
+    "ATP - SINGLES: Australian Open": "https://www.flashscore.com/tennis/atp-singles/australian-open/",
+    "ATP - SINGLES: French Open": "https://www.flashscore.com/tennis/atp-singles/french-open/",
+    "ATP - SINGLES: Wimbledon": "https://www.flashscore.com/tennis/atp-singles/wimbledon/",
+    "ATP - SINGLES: US Open": "https://www.flashscore.com/tennis/atp-singles/us-open/",
+    "WTA - SINGLES: Australian Open": "https://www.flashscore.com/tennis/wta-singles/australian-open/",
+    "WTA - SINGLES: French Open": "https://www.flashscore.com/tennis/wta-singles/french-open/",
+    "WTA - SINGLES: Wimbledon": "https://www.flashscore.com/tennis/wta-singles/wimbledon/",
+    "WTA - SINGLES: US Open": "https://www.flashscore.com/tennis/wta-singles/us-open/",
+}
+
+TENNIS_HISTORY_TOUR_PATTERNS: tuple[str, ...] = (
+    "ATP",
+    "WTA",
+    "CHALLENGER",
+    "GRAND SLAM",
+    "WIMBLEDON",
+    "ROLAND GARROS",
+    "FRENCH OPEN",
+    "US OPEN",
+    "AUSTRALIAN OPEN",
+)
 
 ODDSPORTAL_LEAGUE_URLS: dict[str, str] = {
     "premier-league": "https://www.oddsportal.com/football/england/premier-league/",
@@ -120,5 +157,17 @@ class PipelineConfig:
     )
     understat_season: str = "2025"
     understat_seasons: tuple[str, ...] = UNDERSTAT_SEASONS
-    results_lookback_days: int = 14
+    results_lookback_days: int = 90
+    tennis_results_lookback_days: int = 90
     football_data_seasons: tuple[str, ...] = FOOTBALL_DATA_SEASONS
+    flashscore_football_archive_urls: dict[str, str] = field(
+        default_factory=lambda: dict(FLASHSCORE_FOOTBALL_ARCHIVE_URLS)
+    )
+    flashscore_tennis_grand_slam_urls: dict[str, str] = field(
+        default_factory=lambda: dict(FLASHSCORE_TENNIS_GRAND_SLAM_URLS)
+    )
+    tennis_history_tour_patterns: tuple[str, ...] = TENNIS_HISTORY_TOUR_PATTERNS
+    tennis_history_exclude_patterns: tuple[str, ...] = ("DOUBLES", "BOYS", "GIRLS")
+    crawl_tennis_tournaments: bool = True
+    archive_fetch_stats: bool = True
+    archive_stats_limit: int = 300
