@@ -4,7 +4,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 DEFAULT_DB_PATH = Path("data/sportsdata.db")
-DEFAULT_DAYS_AHEAD = 7
+DEFAULT_DAYS_AHEAD = 45
+DEFAULT_TENNIS_DAYS_AHEAD = 14
 
 FOOTBALL_LEAGUE_PATTERNS: tuple[str, ...] = (
     "ENGLAND: Premier League",
@@ -85,13 +86,16 @@ BETCLIC_BOOKMAKER_NAMES: tuple[str, ...] = (
 class PipelineConfig:
     db_path: Path = DEFAULT_DB_PATH
     days_ahead: int = DEFAULT_DAYS_AHEAD
+    tennis_days_ahead: int = DEFAULT_TENNIS_DAYS_AHEAD
     football_league_patterns: tuple[str, ...] = FOOTBALL_LEAGUE_PATTERNS
     tennis_tour_patterns: tuple[str, ...] = TENNIS_TOUR_PATTERNS
+    tennis_exclude_patterns: tuple[str, ...] = ("DOUBLES", "ITF", "BOYS", "GIRLS")
     target_bookmakers: tuple[str, ...] = BETCLIC_BOOKMAKER_NAMES
     flashscore_fsign: str | None = None
-    request_delay_seconds: float = 0.75
-    stats_batch_size: int = 40
-    odds_h2h_limit: int = 15
+    request_delay_seconds: float = 0.4
+    stats_batch_size: int = 0
+    stats_max_age_hours: int = 12
+    odds_h2h_limit: int = 30
     enable_sofascore: bool = True
     enable_understat: bool = True
     enable_oddsportal: bool = True

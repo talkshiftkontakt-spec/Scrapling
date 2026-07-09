@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import sqlite3
 from contextlib import contextmanager
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -173,6 +173,21 @@ class Storage:
                 "UPDATE events SET external_ids = ?, updated_at = ? WHERE id = ?",
                 (json.dumps(external_ids), datetime.now(tz=UTC).isoformat(), event_id),
             )
+
+    def reconcile_past_events(self, *, grace_hours: int = 3) -> int:
+        cutoff = (datetime.now(tz=UTC) - timedelta(hours=grace_hours)).isoformat()
+        now = datetime.now(tz=UTC).isoformat()
+        with self.connection() as conn:
+            cursor = conn.execute(
+                """
+                UPDATE events
+                SET status = 'finished', updated_at = ?
+                WHERE datetime(start_time) < datetime(?)
+                  AND status IN ('scheduled', 'unknown')
+                """,
+                (now, cutoff),
+            )
+            return cursor.rowcount
 
     def list_upcoming_events(self, sport: Sport | None = None) -> list[dict[str, Any]]:
         query = """

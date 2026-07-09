@@ -16,7 +16,13 @@ def build_parser() -> argparse.ArgumentParser:
         "--days-ahead",
         type=int,
         default=None,
-        help="Include fixtures up to N days ahead (default: 7)",
+        help="Include football fixtures up to N days ahead (default: 45)",
+    )
+    parser.add_argument(
+        "--tennis-days-ahead",
+        type=int,
+        default=None,
+        help="Include tennis fixtures up to N days ahead (default: 14)",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -45,6 +51,8 @@ def main() -> None:
     config_kwargs: dict[str, object] = {"db_path": args.db}
     if args.days_ahead is not None:
         config_kwargs["days_ahead"] = args.days_ahead
+    if args.tennis_days_ahead is not None:
+        config_kwargs["tennis_days_ahead"] = args.tennis_days_ahead
     config = PipelineConfig(**config_kwargs)
     pipeline = SportsDataPipeline(config)
 

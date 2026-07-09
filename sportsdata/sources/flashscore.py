@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from datetime import UTC, datetime, timedelta
 from typing import Any
@@ -26,6 +27,8 @@ class FlashscoreClient:
       self.config = config
       self.http = http or HttpClient(delay_seconds=config.request_delay_seconds)
       self._fsign = config.flashscore_fsign
+      self._h2h_cache: dict[str, list[dict[str, Any]]] = {}
+      self._statistics_cache: dict[str, dict[str, Any]] = {}
 
   @property
   def fsign(self) -> str:
@@ -119,6 +122,8 @@ class FlashscoreClient:
           "surface": fields.get("KD") or fields.get("KE"),
           "round": fields.get("ER"),
           "country": fields.get("ZY"),
+          "home_player_id": fields.get("JA"),
+          "away_player_id": fields.get("JB"),
       }
       return Event(
           sport=sport,
@@ -132,6 +137,41 @@ class FlashscoreClient:
           external_ids={"flashscore": fields["AA"]},
           metadata=metadata,
       )
+
+  def _is_upcoming_event(self, event: Event, *, now: datetime, include_live: bool) -> bool:
+      if event.status is EventStatus.FINISHED or event.status is EventStatus.CANCELLED:
+          return False
+      if event.status is EventStatus.LIVE:
+          return include_live
+      return event.start_time >= now - timedelta(minutes=10)
+
+  def discover_tennis_tournament_pages(self) -> list[tuple[str, str]]:
+      html = self.http.get_text(f"{self.BASE_SITE}/tennis/", headers={"Referer": self.BASE_SITE})
+      match = re.search(r"leftMenuTopLeagues\s*=\s*(\{.*?\});", html)
+      if not match:
+          return []
+
+      tournaments: list[tuple[str, str]] = []
+      try:
+          data = json.loads(match.group(1))
+      except json.JSONDecodeError:
+          return []
+
+      for item in data.values():
+          title = str(item.get("title", "")).strip()
+          url = str(item.get("url", "")).strip()
+          if not title or not url:
+              continue
+          tournaments.append((title, f"{self.BASE_SITE}{url}"))
+      return tournaments
+
+  def _is_relevant_tennis_league(self, league: str) -> bool:
+      league_upper = league.upper()
+      if any(pattern.upper() in league_upper for pattern in self.config.tennis_exclude_patterns):
+          return False
+      if "SINGLES" not in league_upper:
+          return False
+      return self._matches_patterns(league, self.config.tennis_tour_patterns)
 
   def fetch_football_upcoming(
       self,
@@ -156,15 +196,56 @@ class FlashscoreClient:
                   continue
               if event.start_time > cutoff:
                   continue
-              if event.status is EventStatus.FINISHED:
-                  continue
-              if not include_live and event.status is EventStatus.LIVE:
+              if not self._is_upcoming_event(event, now=now, include_live=include_live):
                   continue
               event.league = league_name
               if event.dedupe_key in seen:
                   continue
               seen.add(event.dedupe_key)
               events.append(event)
+
+      events.sort(key=lambda item: item.start_time)
+      return events
+
+  def fetch_tennis_upcoming(
+      self,
+      *,
+      days_ahead: int | None = None,
+      include_live: bool = True,
+  ) -> list[Event]:
+      days = days_ahead if days_ahead is not None else self.config.tennis_days_ahead
+      now = datetime.now(tz=UTC)
+      cutoff = now + timedelta(days=days)
+      events: list[Event] = []
+      seen: set[str] = set()
+
+      def add_event(event: Event | None) -> None:
+          if event is None:
+              return
+          if event.start_time > cutoff:
+              return
+          if not self._is_upcoming_event(event, now=now, include_live=include_live):
+              return
+          if not self._is_relevant_tennis_league(event.league):
+              return
+          if event.dedupe_key in seen:
+              return
+          seen.add(event.dedupe_key)
+          events.append(event)
+
+      for _title, page_url in self.discover_tennis_tournament_pages():
+          html = self.http.get_text(page_url, headers={"Referer": self.BASE_SITE})
+          feed_text = self.parse_embedded_feed(html)
+          if not feed_text:
+              continue
+          for fields in self.parse_feed(feed_text):
+              add_event(self._event_from_fields(fields, Sport.TENNIS, skip_pattern_check=True))
+
+      for day_offset in range(0, days + 1):
+          feed_path = f"f_2_{day_offset}_3_en_1"
+          text = self.fetch_feed(feed_path)
+          for fields in self.parse_feed(text):
+              add_event(self._event_from_fields(fields, Sport.TENNIS))
 
       events.sort(key=lambda item: item.start_time)
       return events
@@ -178,33 +259,15 @@ class FlashscoreClient:
   ) -> list[Event]:
       if sport is Sport.FOOTBALL:
           return self.fetch_football_upcoming(days_ahead=days_ahead, include_live=include_live)
+      return self.fetch_tennis_upcoming(days_ahead=days_ahead, include_live=include_live)
 
-      days = days_ahead if days_ahead is not None else self.config.days_ahead
+  def fetch_h2h(self, match_id: str, sport: Sport = Sport.FOOTBALL) -> list[dict[str, Any]]:
+      cache_key = f"{sport.value}:{match_id}"
+      if cache_key in self._h2h_cache:
+          return self._h2h_cache[cache_key]
+
       sport_code = "1" if sport is Sport.FOOTBALL else "2"
-      events: list[Event] = []
-      seen: set[str] = set()
-
-      for day_offset in range(0, days + 1):
-          feed_path = f"f_{sport_code}_{day_offset}_3_en_1"
-          text = self.fetch_feed(feed_path)
-          for fields in self.parse_feed(text):
-              event = self._event_from_fields(fields, sport)
-              if event is None:
-                  continue
-              if event.status is EventStatus.FINISHED:
-                  continue
-              if not include_live and event.status is EventStatus.LIVE:
-                  continue
-              if event.dedupe_key in seen:
-                  continue
-              seen.add(event.dedupe_key)
-              events.append(event)
-
-      events.sort(key=lambda item: item.start_time)
-      return events
-
-  def fetch_h2h(self, match_id: str) -> list[dict[str, Any]]:
-      text = self.fetch_feed(f"df_hh_1_{match_id}")
+      text = self.fetch_feed(f"df_hh_{sport_code}_{match_id}")
       matches: list[dict[str, Any]] = []
       current_side = ""
       for raw_block in text.split("¬~"):
@@ -229,10 +292,16 @@ class FlashscoreClient:
                       "surface": fields.get("KD") or fields.get("KE"),
                   }
               )
+      self._h2h_cache[cache_key] = matches
       return matches
 
-  def fetch_statistics(self, match_id: str) -> dict[str, Any]:
-      text = self.fetch_feed(f"df_st_1_{match_id}")
+  def fetch_statistics(self, match_id: str, sport: Sport = Sport.FOOTBALL) -> dict[str, Any]:
+      cache_key = f"{sport.value}:{match_id}"
+      if cache_key in self._statistics_cache:
+          return self._statistics_cache[cache_key]
+
+      sport_code = "1" if sport is Sport.FOOTBALL else "2"
+      text = self.fetch_feed(f"df_st_{sport_code}_{match_id}")
       stats: dict[str, Any] = {"groups": []}
       current_group: dict[str, Any] | None = None
       current_stat: dict[str, Any] | None = None
@@ -255,7 +324,25 @@ class FlashscoreClient:
                   "away": fields.get("SI"),
               }
               current_group["items"].append(current_stat)
+      self._statistics_cache[cache_key] = stats
       return stats
+
+  def h2h_direct_matches(self, h2h: list[dict[str, Any]], home: str, away: str) -> list[dict[str, Any]]:
+      home_key = home.split()[0].lower()
+      away_key = away.split()[0].lower()
+      direct: list[dict[str, Any]] = []
+      for item in h2h:
+          context = (item.get("context") or "").lower()
+          if "head-to-head" not in context and "h2h" not in context:
+              continue
+          left = (item.get("home") or "").lower()
+          right = (item.get("away") or "").lower()
+          if home_key in left and away_key in right:
+              direct.append(item)
+              continue
+          if home_key in right and away_key in left:
+              direct.append(item)
+      return direct
 
   def form_from_h2h(self, h2h: list[dict[str, Any]], participant: str, limit: int = 5) -> list[dict[str, Any]]:
       participant_lower = participant.lower()

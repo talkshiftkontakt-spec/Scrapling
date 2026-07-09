@@ -18,8 +18,11 @@ pip install -e ".[sportsdata]"
 ## Uruchomienie
 
 ```bash
-# pełny pipeline
+# pełny pipeline (piłka: 45 dni, tenis: 14 dni)
 sportsdata run-all
+
+# węższe/szersze okno
+sportsdata fixtures --days-ahead 30 --tennis-days-ahead 7
 
 # pojedyncze joby
 sportsdata fixtures
@@ -58,4 +61,5 @@ Tabele:
 - SofaScore API może zwracać `403` — pipeline działa dalej z Flashscore + Understat.
 - Pełne kursy bukmacherskie z OddsPortal wymagają odszyfrowania feedów; obecnie zapisywane są metadane, payload i modelowe kursy.
 - Understat daje xG i forecast dla wspieranych lig (EPL, La Liga, Serie A, Bundesliga, Ligue 1).
-- W przerwie sezonowej (np. lipiec) w oknie 7 dni mogą być głównie mecze kwalifikacji UEFA bez xG — użyj `--days-ahead 60`, aby objąć start ligi.
+- W przerwie sezonowej piłkarskiej domyślne okno 45 dni obejmuje start lig (EPL, La Liga itd.) oraz bieżące kwalifikacje UEFA.
+- Tenis: ATP/WTA/Challenger + Grand Slamy z aktywnego menu Flashscore; ITF i deble są domyślnie odfiltrowane.

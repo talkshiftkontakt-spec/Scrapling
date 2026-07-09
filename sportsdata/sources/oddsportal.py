@@ -126,11 +126,8 @@ class OddsPortalClient:
                 )
             )
 
-        community = (
-            event_data.get("predictionData", {})
-            .get("communityData", {})
-            .get("count", {})
-        )
+        prediction = event_data.get("predictionData") or {}
+        community = (prediction.get("communityData") or {}).get("count") or {}
         for key, count in community.items():
             snapshots.append(
                 OddsSnapshot(
@@ -149,7 +146,7 @@ class OddsPortalClient:
                 event_id=event_id,
                 home=home,
                 away=away,
-                forecast=event_data.get("predictionData", {}).get("forecast"),
+                forecast=prediction.get("forecast"),
                 scraped_at=now,
                 source="oddsportal_meta",
             )

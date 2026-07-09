@@ -36,6 +36,13 @@ def test_flashscore_parse_feed_extracts_match() -> None:
     assert rows[0]["AE"] == "Arsenal"
 
 
+def test_tennis_league_filter_excludes_itf_and_doubles() -> None:
+    client = FlashscoreClient(PipelineConfig())
+    assert client._is_relevant_tennis_league("ATP - SINGLES: Wimbledon (United Kingdom), grass")
+    assert not client._is_relevant_tennis_league("ITF MEN - SINGLES: M15 Bucharest (Romania), clay")
+    assert not client._is_relevant_tennis_league("ATP - DOUBLES: Wimbledon (United Kingdom), grass")
+
+
 def test_storage_roundtrip(tmp_path: Path) -> None:
     db_path = tmp_path / "test.db"
     storage = Storage(db_path)

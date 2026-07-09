@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 from sportsdata.config import PipelineConfig
 from sportsdata.db.storage import Storage
@@ -19,6 +19,7 @@ def run_fixtures_sync(storage: Storage, config: PipelineConfig) -> JobRunResult:
             for event in events:
                 storage.upsert_event(event)
             counts[sport.value] = len(events)
+        counts["stale_marked_finished"] = storage.reconcile_past_events()
         finished = datetime.now(tz=UTC)
         return JobRunResult(
             job_name="fixtures_sync",

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 from sportsdata.config import PipelineConfig
 from sportsdata.db.storage import Storage
@@ -22,22 +22,33 @@ def run_stats_enrich(storage: Storage, config: PipelineConfig) -> JobRunResult:
         upcoming = storage.list_upcoming_events()
         counts["events"] = len(upcoming)
         processed = 0
+        max_age = timedelta(hours=config.stats_max_age_hours)
         for row in upcoming:
-            if processed >= config.stats_batch_size:
+            if config.stats_batch_size > 0 and processed >= config.stats_batch_size:
                 break
             event = storage.event_from_row(row)
             existing = storage.latest_prematch_stats(event.id or 0)
             if existing and event.id is not None:
-                processed += 1
-                continue
+                scraped_at = datetime.fromisoformat(existing["scraped_at"])
+                if datetime.now(tz=UTC) - scraped_at < max_age:
+                    processed += 1
+                    continue
             flashscore_id = event.external_ids.get("flashscore")
             h2h: list[dict] = []
             home_form: list[dict] = []
             away_form: list[dict] = []
+            match_statistics: dict = {}
             if flashscore_id:
-                h2h = flashscore.fetch_h2h(flashscore_id)
+                h2h = flashscore.fetch_h2h(flashscore_id, sport=event.sport)
                 home_form = flashscore.form_from_h2h(h2h, event.home_participant)
                 away_form = flashscore.form_from_h2h(h2h, event.away_participant)
+                match_statistics = flashscore.fetch_statistics(flashscore_id, sport=event.sport)
+                if event.sport is Sport.TENNIS:
+                    h2h = flashscore.h2h_direct_matches(
+                        h2h,
+                        event.home_participant,
+                        event.away_participant,
+                    )
 
             home_xg = away_xg = home_xga = away_xga = None
             if event.sport is Sport.FOOTBALL and config.enable_understat:
@@ -69,9 +80,15 @@ def run_stats_enrich(storage: Storage, config: PipelineConfig) -> JobRunResult:
                 home_season_xga=home_xga,
                 away_season_xga=away_xga,
                 surface=event.metadata.get("surface"),
-                surface_stats={"sofascore": sofa_payload},
+                surface_stats={"sofascore": sofa_payload, "flashscore": match_statistics},
                 injuries={},
-                raw_payload={"flashscore_id": flashscore_id},
+                raw_payload={
+                    "flashscore_id": flashscore_id,
+                    "player_ids": {
+                        "home": event.metadata.get("home_player_id"),
+                        "away": event.metadata.get("away_player_id"),
+                    },
+                },
             )
             if event.id is not None:
                 storage.save_prematch_stats(stats)
