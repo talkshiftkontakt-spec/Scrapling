@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:3001";
+const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:3101";
 
 const nextConfig: NextConfig = {
   typedRoutes: true,
@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "http",
         hostname: "127.0.0.1",
-        port: "3001",
+        port: "3101",
         pathname: "/static/**"
       }
     ]

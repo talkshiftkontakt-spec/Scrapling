@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 
 import type { PlatformStats, Reference } from "../lib/api";
-import { getApiUrl, localScreenshotPath, localThumbnailPath } from "../lib/api";
+import { getApiUrl, localScreenshotPath, resolveAssetUrl } from "../lib/api";
 
 interface ReferenceBrowserProps {
   references: Reference[];
@@ -102,7 +102,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
               <div className="card-media">
                 {reference.thumbnailDriveUrl ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={reference.thumbnailDriveUrl} alt={reference.websiteName} loading="lazy" />
+                  <img src={resolveAssetUrl(reference.thumbnailDriveUrl) ?? ""} alt={reference.websiteName} loading="lazy" />
                 ) : (
                   <div style={{ height: "100%", display: "grid", placeItems: "center", color: "#6b7280" }}>
                     Brak miniatury
@@ -166,7 +166,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
             {selected.screenshotDriveUrl ? (
               <div className="modal-shot">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={selected.screenshotDriveUrl} alt={`Screenshot ${selected.websiteName}`} />
+                <img src={resolveAssetUrl(selected.screenshotDriveUrl) ?? ""} alt={`Screenshot ${selected.websiteName}`} />
               </div>
             ) : null}
 
@@ -175,7 +175,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                 Otwórz stronę
               </a>
               {selected.screenshotDriveUrl ? (
-                <a className="btn" href={selected.screenshotDriveUrl} target="_blank" rel="noreferrer">
+                <a className="btn" href={resolveAssetUrl(selected.screenshotDriveUrl) ?? "#"} target="_blank" rel="noreferrer">
                   Otwórz screenshot
                 </a>
               ) : null}

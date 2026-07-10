@@ -11,7 +11,7 @@
     "build": "npm run build --workspaces --if-present",
     "db:migrate": "npm run db:migrate --workspace @design-intelligence/database",
     "dev:api": "npm run dev --workspace @design-intelligence/api",
-    "dev:dashboard": "npm run dev --workspace @design-intelligence/dashboard -- --port 3000",
+    "dev:dashboard": "npm run dev --workspace @design-intelligence/dashboard -- --port 3100 --hostname 0.0.0.0",
     "process:pending": "npm run process:pending --workspace @design-intelligence/worker",
     "references": "curl -s \"http://127.0.0.1:${PORT:-3001}/references?status=accepted&limit=20\"",
     "setup:first-references": "bash scripts/first-references.sh",
