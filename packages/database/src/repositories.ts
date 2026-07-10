@@ -224,6 +224,13 @@ export async function upsertDiscoveredWebsites(records: DiscoveredWebsite[]) {
 export async function claimPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
   const db = getDb();
 
+  await db.execute(sql`
+    UPDATE websites
+    SET processing_status = 'failed', updated_at = NOW()
+    WHERE processing_status = 'capture_pending'
+      AND updated_at < NOW() - INTERVAL '3 minutes'
+  `);
+
   const claimed = await db.transaction(async (tx) => {
     const picked = await tx.execute<{ id: string; website_name: string; canonical_url: string; normalized_url: string }>(sql`
       WITH picked AS (

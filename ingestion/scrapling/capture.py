@@ -57,7 +57,7 @@ class ScreenshotCaptureService:
                 capture_url,
                 headless=True,
                 network_idle=True,
-                timeout=60000,
+                timeout=45000,
                 page_action=page_action,
                 disable_resources=False,
             )
