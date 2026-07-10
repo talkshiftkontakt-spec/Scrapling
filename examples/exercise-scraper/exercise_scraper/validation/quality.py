@@ -8,7 +8,15 @@ from exercise_scraper.models import Exercise
 
 QUESTION_PATTERN = re.compile(r"\?|___|\.{3}|\([^)]+\)")
 SOLUTION_PATTERN = re.compile(r"\b(answer|odpowied|solution|klucz)\b", re.IGNORECASE)
-NAV_PATTERN = re.compile(r"\b(home|menu|subscribe|cookie|newsletter|login|sign up)\b", re.IGNORECASE)
+NAV_PATTERN = re.compile(
+    r"\b(home|menu|subscribe|cookie|newsletter|login|sign up|privacy policy|"
+    r"all lessons|pdf download|worksheets? page)\b",
+    re.IGNORECASE,
+)
+JUNK_PATTERN = re.compile(
+    r"(pdf downloads? of all|click here to|read more|table of contents|copyright)",
+    re.IGNORECASE,
+)
 VERB_PATTERN = re.compile(r"\b(go|went|watch|watched|buy|bought|be|was|were|did|do)\b", re.IGNORECASE)
 
 
@@ -51,6 +59,10 @@ def validate_exercise(exercise: Exercise) -> Exercise:
     if NAV_PATTERN.search(lower):
         score -= 0.35
         reasons.append("navigation-noise")
+
+    if JUNK_PATTERN.search(lower):
+        score -= 0.4
+        reasons.append("junk-content")
 
     if exercise.answers:
         score += 0.05

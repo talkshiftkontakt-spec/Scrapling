@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from exercise_scraper.models import Exercise
+from exercise_scraper.validation.pipeline import run_validation_pipeline
 from exercise_scraper.validation.quality import rank_exercises, select_top_exercises, validate_file
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -29,6 +30,16 @@ def test_select_top_exercises_returns_three() -> None:
     top = select_top_exercises(exercises, limit=3)
     assert len(top) == 3
     assert all("subscribe" not in exercise.text.lower() for exercise in top)
+
+
+def test_pipeline_rejects_high_confidence_noise() -> None:
+    exercises = [
+        Exercise(text="1. She ___ (go) to school yesterday.", topic="Past Simple", source_url="https://a.test", exercise_type="fill_blank", confidence=0.8, language="en"),
+        Exercise(text="Home | Subscribe | Newsletter", topic="Past Simple", source_url="https://noise.test", confidence=0.95, language="unknown"),
+    ]
+    result = run_validation_pipeline(exercises, validator_names=["past_simple"], top_n=1)
+    assert len(result.top) == 1
+    assert result.top[0].source_url == "https://a.test"
 
 
 def test_validate_file_outputs_top_three(tmp_path: Path) -> None:

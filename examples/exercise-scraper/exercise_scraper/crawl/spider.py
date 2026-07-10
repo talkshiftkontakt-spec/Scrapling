@@ -4,6 +4,7 @@ from typing import Any, AsyncGenerator
 
 from scrapling.spiders import Response, Spider
 
+from exercise_scraper.extract.domain_rules import load_domain_rules
 from exercise_scraper.extract.heuristics import extract_exercises
 
 
@@ -25,6 +26,7 @@ class ExerciseSpider(Spider):
         self.topic = topic
         self.min_confidence = min_confidence
         self.download_delay = download_delay
+        self.domain_rules = load_domain_rules()
         self.start_urls = urls
         super().__init__(crawldir=crawldir)
 
@@ -33,6 +35,7 @@ class ExerciseSpider(Spider):
             response,
             topic=self.topic,
             min_confidence=self.min_confidence,
+            domain_rules=self.domain_rules,
         )
         for exercise in exercises:
             yield exercise.to_dict()

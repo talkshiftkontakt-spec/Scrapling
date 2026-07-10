@@ -1,0 +1,23 @@
+# Dictionary track — separate from grammar spider.
+# Phase 4: scrape definitions / import open word lists.
+
+tracks:
+  - id: en-pl-a1
+    level: A1
+    language_pair: [en, pl]
+    source: open_wordlist
+    description: "Core A1 English–Polish vocabulary"
+
+  - id: en-pl-a2
+    level: A2
+    language_pair: [en, pl]
+    source: open_wordlist
+    description: "A2 vocabulary expansion"
+
+  - id: en-cefr-b1
+    level: B1
+    language_pair: [en]
+    source: selective_scrape
+    allowed_domains:
+      - dictionary.cambridge.org
+    description: "B1 definitions (selective, robots-respecting)"

@@ -56,6 +56,66 @@ def deduplicate_exercises(exercises: list[Exercise]) -> list[Exercise]:
     return unique
 
 
+def write_corpus_outputs(
+    output_dir: Path,
+    validation: "ValidationPipelineResult",
+    manifest: CrawlManifest,
+    *,
+    search_urls: list[dict[str, str]] | None = None,
+    save_rejected: bool = True,
+    top_n: int = 3,
+    save_html: bool = False,
+) -> None:
+    from exercise_scraper.validation.pipeline import ValidationPipelineResult
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    pages_dir = output_dir / "pages"
+    pages_dir.mkdir(exist_ok=True)
+
+    top = deduplicate_exercises(validation.top)
+    passed = deduplicate_exercises(validation.passed)
+    rejected = deduplicate_exercises(validation.rejected)
+
+    manifest.exercises_total = len(top)
+    manifest.exercises_pl = len([ex for ex in top if ex.language == "pl"])
+    manifest.exercises_en = len([ex for ex in top if ex.language == "en"])
+    manifest.exercises_unknown = len([ex for ex in top if ex.language == "unknown"])
+    manifest.finished_at = datetime.now(timezone.utc)
+
+    top_filename = f"exercises_top{top_n}.json"
+    _write_json(output_dir / top_filename, [ex.to_dict() for ex in top])
+    _write_json(output_dir / "exercises.json", [ex.to_dict() for ex in top])
+    _write_json(output_dir / "exercises_validated.json", [ex.to_dict() for ex in passed])
+    if save_rejected:
+        _write_json(output_dir / "exercises_rejected.json", [ex.to_dict() for ex in rejected])
+    _write_json(
+        output_dir / "validation_report.json",
+        validation.to_report(top_n=top_n),
+    )
+    if search_urls is not None:
+        _write_json(output_dir / "sources.json", search_urls)
+    _write_json(output_dir / "manifest.json", manifest.to_dict())
+
+    for index, exercise in enumerate(top, start=1):
+        _append_markdown_page(pages_dir, index, exercise)
+
+    _write_report(output_dir / "report.txt", manifest, top, extra_lines=_validation_report_lines(validation, top_n))
+
+    if save_html:
+        (output_dir / "raw_html").mkdir(exist_ok=True)
+
+
+def _validation_report_lines(validation: "ValidationPipelineResult", top_n: int) -> list[str]:
+    return [
+        "",
+        "Validation:",
+        f"  Raw extracted: {validation.raw_total}",
+        f"  Passed: {len(validation.passed)}",
+        f"  Rejected: {len(validation.rejected)}",
+        f"  Top {top_n} saved: {len(validation.top)}",
+    ]
+
+
 def write_outputs(
     output_dir: Path,
     exercises: list[Exercise],
@@ -86,7 +146,7 @@ def write_outputs(
     for index, exercise in enumerate(exercises, start=1):
         _append_markdown_page(pages_dir, index, exercise)
 
-    _write_report(output_dir / "report.txt", manifest, exercises)
+    _write_report(output_dir / "report.txt", manifest, exercises, extra_lines=None)
 
     if save_html:
         (output_dir / "raw_html").mkdir(exist_ok=True)
@@ -118,7 +178,12 @@ def _append_markdown_page(pages_dir: Path, index: int, exercise: Exercise) -> No
     path.write_text(content, encoding="utf-8")
 
 
-def _write_report(path: Path, manifest: CrawlManifest, exercises: list[Exercise]) -> None:
+def _write_report(
+    path: Path,
+    manifest: CrawlManifest,
+    exercises: list[Exercise],
+    extra_lines: list[str] | None = None,
+) -> None:
     lines = [
         "Exercise Scraper Report",
         "=======================",
@@ -142,5 +207,8 @@ def _write_report(path: Path, manifest: CrawlManifest, exercises: list[Exercise]
 
     for host, count in sorted(source_counts.items(), key=lambda item: item[1], reverse=True)[:10]:
         lines.append(f"  - {host}: {count}")
+
+    if extra_lines:
+        lines.extend(extra_lines)
 
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

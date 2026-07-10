@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from typing import TYPE_CHECKING
 
+from exercise_scraper.extract.domain_rules import match_domain_rule
 from exercise_scraper.config import EXERCISE_KEYWORDS_EN, EXERCISE_KEYWORDS_PL
 from exercise_scraper.models import Exercise, Language
 
@@ -16,18 +17,7 @@ NOISE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-EXERCISE_SELECTORS = [
-    "ol li",
-    "ul li",
-    ".exercise",
-    ".exercises li",
-    ".question",
-    ".task",
-    ".zadanie",
-    "#exercises li",
-    "table tr",
-    "p",
-]
+from exercise_scraper.extract.selectors import EXERCISE_SELECTORS
 
 
 def detect_language(text: str) -> Language:
@@ -100,20 +90,25 @@ def extract_exercises(
     *,
     topic: str,
     min_confidence: float = 0.4,
+    domain_rules: dict | None = None,
 ) -> list[Exercise]:
     source_url = response.url
     source_title = _page_title(response)
     candidates: list[tuple[str, float]] = []
     seen_text: set[str] = set()
 
-    for selector in EXERCISE_SELECTORS:
+    rule = match_domain_rule(source_url, domain_rules)
+    selectors = rule.selectors if rule else EXERCISE_SELECTORS
+    effective_min = rule.min_confidence if rule and rule.min_confidence is not None else min_confidence
+
+    for selector in selectors:
         for node in response.css(selector):
             text = _element_text(node)
             if not text or text in seen_text:
                 continue
             seen_text.add(text)
             confidence = score_exercise(text)
-            if confidence >= min_confidence:
+            if confidence >= effective_min:
                 candidates.append((text, confidence))
 
     if not candidates:
@@ -128,7 +123,7 @@ def extract_exercises(
                     continue
                 seen_text.add(text)
                 confidence = score_exercise(text)
-                if confidence >= min_confidence:
+                if confidence >= effective_min:
                     candidates.append((text, confidence))
 
     exercises: list[Exercise] = []

@@ -1,16 +1,19 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable, Literal
 
 from exercise_scraper.config import Settings
 from exercise_scraper.crawl.spider import ExerciseSpider
-from exercise_scraper.exporters.writer import make_output_dir, split_items, write_outputs
+from exercise_scraper.corpus.paths import resolve_output_dir
+from exercise_scraper.drive.sync import drive_configured, upload_topic_folder
+from exercise_scraper.exporters.writer import split_items, write_corpus_outputs
 from exercise_scraper.models import CrawlManifest, Exercise
 from exercise_scraper.queries import build_queries
 from exercise_scraper.search import collect_urls, get_provider
-from exercise_scraper.validation.quality import select_top_exercises
+from exercise_scraper.taxonomy import GrammarTopic, load_grammar_taxonomy
+from exercise_scraper.validation.pipeline import ValidationPipelineResult, run_validation_pipeline
 
 LangMode = Literal["pl", "en", "both"]
 ProviderMode = Literal["duckduckgo", "serpapi"]
@@ -31,6 +34,11 @@ class ScrapeRequest:
     output_base: Path = Path("output")
     dry_run: bool = False
     top_exercises: int = 3
+    topic_id: str | None = None
+    use_corpus_layout: bool = False
+    validator_names: list[str] = field(default_factory=list)
+    save_rejected: bool = True
+    sync_drive: bool = False
 
 
 @dataclass
@@ -41,6 +49,14 @@ class ScrapeResult:
     search_urls: list[dict[str, str]]
     elapsed_seconds: float
     requests_count: int
+    validation: ValidationPipelineResult | None = None
+    drive_sync: dict | None = None
+
+
+def _resolve_topic(request: ScrapeRequest) -> GrammarTopic | None:
+    if not request.topic_id:
+        return None
+    return load_grammar_taxonomy().get(request.topic_id)
 
 
 def run_scrape(
@@ -58,6 +74,9 @@ def run_scrape(
 
     if request.provider == "serpapi" and not settings.serpapi_key:
         raise ValueError("SERPAPI_KEY is required when provider is serpapi")
+
+    topic_entry = _resolve_topic(request)
+    validator_names = request.validator_names or (topic_entry.validators if topic_entry else [])
 
     def emit(phase: str, payload: dict | None = None) -> None:
         if on_progress:
@@ -81,6 +100,17 @@ def run_scrape(
         max_pages=max_pages,
         results_per_query=settings.results_per_query,
     )
+
+    if topic_entry:
+        seen = {result.url for result in search_results}
+        for url in topic_entry.seed_urls:
+            if url not in seen:
+                from exercise_scraper.models import SearchResult
+
+                search_results.append(
+                    SearchResult(url=url, title=topic_entry.primary_en, query="seed", snippet="")
+                )
+                seen.add(url)
 
     if not search_results:
         raise ValueError("No URLs found for this topic. Try another phrase or provider.")
@@ -108,7 +138,12 @@ def run_scrape(
             requests_count=0,
         )
 
-    output_dir = make_output_dir(request.output_base, request.topic)
+    output_dir = resolve_output_dir(
+        request.output_base,
+        topic=topic_entry,
+        query=request.topic,
+        use_corpus_layout=request.use_corpus_layout or request.topic_id is not None,
+    )
     manifest = CrawlManifest(
         query=request.topic,
         lang_mode=request.lang,
@@ -129,7 +164,15 @@ def run_scrape(
     crawl_result = spider.start()
 
     exercises, pages = split_items(list(crawl_result.items))
-    ranked_exercises = select_top_exercises(exercises, limit=request.top_exercises)
+    emit("validating", {"raw_count": len(exercises)})
+
+    validation = run_validation_pipeline(
+        exercises,
+        topic_id=request.topic_id,
+        validator_names=validator_names,
+        top_n=request.top_exercises,
+    )
+
     manifest.urls_scraped = len(pages)
     manifest.urls_failed = max(0, len(urls) - len(pages))
     manifest.sources = [
@@ -137,7 +180,24 @@ def run_scrape(
         for page in pages
     ]
 
-    write_outputs(output_dir, ranked_exercises, manifest, save_html=False)
+    write_corpus_outputs(
+        output_dir,
+        validation,
+        manifest,
+        search_urls=search_urls,
+        save_rejected=request.save_rejected,
+        top_n=request.top_exercises,
+    )
+
+    drive_sync: dict | None = None
+    if request.sync_drive and topic_entry and drive_configured():
+        emit("drive_sync", {"topic_id": topic_entry.id})
+        drive_sync = upload_topic_folder(
+            output_dir,
+            topic_id=topic_entry.id,
+            level=topic_entry.level,
+        )
+
     emit(
         "completed",
         {
@@ -146,14 +206,18 @@ def run_scrape(
             "exercises_en": manifest.exercises_en,
             "output_dir": str(output_dir),
             "top_exercises": request.top_exercises,
+            "passed": len(validation.passed),
+            "rejected": len(validation.rejected),
         },
     )
 
     return ScrapeResult(
         manifest=manifest,
-        exercises=ranked_exercises,
+        exercises=validation.top,
         output_dir=output_dir,
         search_urls=search_urls,
         elapsed_seconds=crawl_result.stats.elapsed_seconds,
         requests_count=crawl_result.stats.requests_count,
+        validation=validation,
+        drive_sync=drive_sync,
     )

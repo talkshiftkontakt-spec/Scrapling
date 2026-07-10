@@ -6,7 +6,9 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
 from backend.store import start_job, store
-from exercise_scraper.service import ScrapeRequest
+from exercise_scraper.corpus.orchestrator import run_corpus_batch, run_corpus_topic
+from exercise_scraper.service import ScrapeRequest, run_scrape
+from exercise_scraper.taxonomy import load_grammar_taxonomy
 
 app = FastAPI(title="Exercise Scraper API", version="0.1.0")
 
@@ -82,6 +84,17 @@ class CreateJobBody(BaseModel):
     max_pages: int = Field(default=15, ge=1, le=60)
     topic_en: str | None = None
     topic_pl: str | None = None
+    topic_id: str | None = None
+    top_exercises: int = Field(default=3, ge=1, le=100)
+    sync_drive: bool = False
+
+
+class CorpusRunBody(BaseModel):
+    lang: str = Field(default="both", pattern="^(pl|en|both)$")
+    provider: str = Field(default="duckduckgo", pattern="^(duckduckgo|serpapi)$")
+    max_pages: int = Field(default=15, ge=1, le=60)
+    top_exercises: int = Field(default=3, ge=1, le=100)
+    sync_drive: bool = False
 
 
 @app.get("/api/health")
@@ -104,7 +117,17 @@ def create_job(body: CreateJobBody) -> dict:
         max_pages=body.max_pages,
         topic_en=body.topic_en,
         topic_pl=body.topic_pl,
+        topic_id=body.topic_id,
+        top_exercises=body.top_exercises,
+        use_corpus_layout=bool(body.topic_id),
+        sync_drive=body.sync_drive,
     )
+    if body.topic_id:
+        entry = load_grammar_taxonomy().get(body.topic_id)
+        if entry:
+            request.validator_names = entry.validators
+            request.topic_en = entry.primary_en
+            request.topic_pl = entry.primary_pl
     start_job(job["id"], request)
     return {"job": store.get_job(job["id"])}
 
@@ -141,3 +164,83 @@ def _ensure_job(job_id: str) -> None:
         store.get_job(job_id)
     except KeyError as exc:
         raise HTTPException(status_code=404, detail="Job not found") from exc
+
+
+@app.get("/api/corpus/topics")
+def list_corpus_topics() -> dict:
+    taxonomy = load_grammar_taxonomy()
+    return {
+        "topics": [
+            {
+                "id": topic.id,
+                "level": topic.level,
+                "en": topic.en,
+                "pl": topic.pl,
+                "validators": topic.validators,
+            }
+            for topic in taxonomy.topics
+        ]
+    }
+
+
+@app.post("/api/corpus/topics/{topic_id}/run", status_code=201)
+def run_corpus_topic_endpoint(topic_id: str, body: CorpusRunBody) -> dict:
+    taxonomy = load_grammar_taxonomy()
+    topic = taxonomy.get(topic_id)
+    if topic is None:
+        raise HTTPException(status_code=404, detail="Unknown topic_id")
+
+    job = store.create_job(
+        {
+            "topic": topic.primary_en,
+            "lang": body.lang,
+            "provider": body.provider,
+            "max_pages": body.max_pages,
+        }
+    )
+    request = ScrapeRequest(
+        topic=topic.primary_en,
+        lang=body.lang,  # type: ignore[arg-type]
+        provider=body.provider,  # type: ignore[arg-type]
+        max_pages=body.max_pages,
+        topic_en=topic.primary_en,
+        topic_pl=topic.primary_pl,
+        topic_id=topic.id,
+        top_exercises=body.top_exercises,
+        use_corpus_layout=True,
+        validator_names=topic.validators,
+        sync_drive=body.sync_drive,
+    )
+    start_job(job["id"], request)
+    return {"job": store.get_job(job["id"]), "topic_id": topic_id}
+
+
+@app.post("/api/corpus/run-all", status_code=201)
+def run_corpus_all(body: CorpusRunBody, limit: int = Query(default=20, ge=1, le=50)) -> dict:
+    taxonomy = load_grammar_taxonomy()
+    jobs: list[dict] = []
+    for topic in taxonomy.topics[:limit]:
+        job = store.create_job(
+            {
+                "topic": topic.primary_en,
+                "lang": body.lang,
+                "provider": body.provider,
+                "max_pages": body.max_pages,
+            }
+        )
+        request = ScrapeRequest(
+            topic=topic.primary_en,
+            lang=body.lang,  # type: ignore[arg-type]
+            provider=body.provider,  # type: ignore[arg-type]
+            max_pages=body.max_pages,
+            topic_en=topic.primary_en,
+            topic_pl=topic.primary_pl,
+            topic_id=topic.id,
+            top_exercises=body.top_exercises,
+            use_corpus_layout=True,
+            validator_names=topic.validators,
+            sync_drive=body.sync_drive,
+        )
+        start_job(job["id"], request)
+        jobs.append({"job_id": job["id"], "topic_id": topic.id})
+    return {"queued": len(jobs), "jobs": jobs}

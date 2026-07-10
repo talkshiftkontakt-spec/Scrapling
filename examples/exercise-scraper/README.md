@@ -16,11 +16,20 @@ Po scrapowaniu wynik przechodzi przez walidator jakości i finalnie zostają tyl
 
 ## Plan: pełny korpus gramatyczny (multi-agent)
 
-Jeśli chcesz scrapować **wszystkie klasy gramatyczne** + słownik, walidatory per temat i sync z **Google Drive**, zobacz:
+- **[docs/MULTI-AGENT-PLAN.md](docs/MULTI-AGENT-PLAN.md)** — plan 9 agentów, fazy 0–5  
+- **[docs/IMPLEMENTATION-STATUS.md](docs/IMPLEMENTATION-STATUS.md)** — co jest zrobione vs co dalej
 
-**[docs/MULTI-AGENT-PLAN.md](docs/MULTI-AGENT-PLAN.md)**
+```bash
+# Temat z taksonomii + walidator gramatyczny
+exercise-scraper scrape "Past Simple" --topic-id past-simple --top-n 3
 
-Plan obejmuje: reality check, 9 agentów, layout folderów, fazy 0–5 i kolejność pracy.
+# Korpus: jeden temat / wszystkie
+exercise-scraper corpus topics
+exercise-scraper corpus run-topic past-simple
+exercise-scraper corpus run-all --limit 5 --max-pages 8
+```
+
+API korpusu: `GET /api/corpus/topics`, `POST /api/corpus/topics/{id}/run`, `POST /api/corpus/run-all`
 
 ## Instalacja
 

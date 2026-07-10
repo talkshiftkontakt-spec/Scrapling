@@ -6,12 +6,9 @@ from typing import Literal, Optional
 import typer
 
 from exercise_scraper.config import Settings
-from exercise_scraper.crawl.spider import ExerciseSpider
-from exercise_scraper.models import CrawlManifest
-from exercise_scraper.exporters.writer import make_output_dir, split_items, write_outputs
-from exercise_scraper.queries import build_queries
-from exercise_scraper.search import collect_urls, get_provider
-from exercise_scraper.validation.quality import select_top_exercises
+from exercise_scraper.corpus.orchestrator import run_corpus_batch, run_corpus_topic
+from exercise_scraper.service import ScrapeRequest, run_scrape
+from exercise_scraper.taxonomy import load_grammar_taxonomy
 
 app = typer.Typer(
     name="exercise-scraper",
@@ -19,8 +16,36 @@ app = typer.Typer(
     add_completion=False,
 )
 
+corpus_app = typer.Typer(help="Grammar corpus builder (taxonomy-driven).")
+app.add_typer(corpus_app, name="corpus")
+
 LangMode = Literal["pl", "en", "both"]
 ProviderMode = Literal["duckduckgo", "serpapi"]
+
+
+def _base_request(
+    *,
+    lang: LangMode,
+    max_pages: Optional[int],
+    output: Path,
+    delay: Optional[float],
+    min_confidence: Optional[float],
+    provider: ProviderMode,
+    top_n: int,
+    sync_drive: bool,
+) -> ScrapeRequest:
+    settings = Settings.from_env()
+    return ScrapeRequest(
+        topic="",
+        lang=lang,
+        max_pages=max_pages or settings.max_pages,
+        delay=delay if delay is not None else settings.download_delay,
+        min_confidence=min_confidence if min_confidence is not None else settings.min_confidence,
+        provider=provider,
+        output_base=output,
+        top_exercises=top_n,
+        sync_drive=sync_drive,
+    )
 
 
 @app.command()
@@ -38,96 +63,137 @@ def scrape(
     ),
     topic_en: Optional[str] = typer.Option(None, "--topic-en", help="Override English search phrase"),
     topic_pl: Optional[str] = typer.Option(None, "--topic-pl", help="Override Polish search phrase"),
+    topic_id: Optional[str] = typer.Option(
+        None, "--topic-id", help="Grammar taxonomy id (enables topic validators + corpus layout)"
+    ),
+    top_n: int = typer.Option(3, "--top-n", min=1, max=100, help="Keep top N validated exercises"),
     dry_run: bool = typer.Option(False, "--dry-run", help="Only list URLs, do not scrape"),
     save_html: bool = typer.Option(False, "--save-html", help="Reserve raw_html/ directory"),
+    sync_drive: bool = typer.Option(False, "--sync-drive", help="Upload to Google Drive after scrape"),
     verbose: bool = typer.Option(False, "--verbose", help="Show detailed progress"),
 ) -> None:
     """Search the web for exercises and save extracted tasks to disk."""
     settings = Settings.from_env()
-    max_pages = max_pages or settings.max_pages
-    delay = delay if delay is not None else settings.download_delay
-    min_confidence = min_confidence if min_confidence is not None else settings.min_confidence
-
     if provider == "serpapi" and not settings.serpapi_key:
         typer.secho("SERPAPI_KEY is not set. Use --provider duckduckgo or export SERPAPI_KEY.", fg=typer.colors.RED)
         raise typer.Exit(code=1)
 
-    query_pairs = build_queries(
-        topic,
-        lang,
+    request = ScrapeRequest(
+        topic=topic,
+        lang=lang,
+        max_pages=max_pages or settings.max_pages,
+        delay=delay if delay is not None else settings.download_delay,
+        min_confidence=min_confidence if min_confidence is not None else settings.min_confidence,
+        provider=provider,
         topic_en=topic_en,
         topic_pl=topic_pl,
-        limit_per_lang=settings.queries_per_lang,
-    )
-    queries_used = [query for query, _ in query_pairs]
-
-    typer.echo(f'🔍 Wyszukiwanie / Searching: "{topic}" (lang={lang})')
-    if verbose:
-        for query in queries_used:
-            typer.echo(f"   • {query}")
-
-    search_provider = get_provider(provider, settings)
-    search_results = collect_urls(
-        search_provider,
-        query_pairs,
-        max_pages=max_pages,
-        results_per_query=settings.results_per_query,
+        output_base=output,
+        dry_run=dry_run,
+        top_exercises=top_n,
+        topic_id=topic_id,
+        use_corpus_layout=bool(topic_id),
+        sync_drive=sync_drive,
     )
 
-    if not search_results:
-        typer.secho("No URLs found. Try a different topic or provider.", fg=typer.colors.YELLOW)
-        raise typer.Exit(code=1)
+    if topic_id:
+        taxonomy = load_grammar_taxonomy()
+        entry = taxonomy.get(topic_id)
+        if entry is None:
+            typer.secho(f"Unknown topic_id: {topic_id}", fg=typer.colors.RED)
+            raise typer.Exit(code=1)
+        request.validator_names = entry.validators
+        request.topic_en = entry.primary_en
+        request.topic_pl = entry.primary_pl
 
-    typer.echo(f"   Found {len(search_results)} unique URLs")
+    def on_progress(phase: str, payload: dict) -> None:
+        if verbose:
+            typer.echo(f"[{phase}] {payload}")
+
+    typer.echo(f'🔍 Searching: "{topic}" (lang={lang}, top_n={top_n})')
+    result = run_scrape(request, settings=settings, on_progress=on_progress if verbose else None)
 
     if dry_run:
-        for index, result in enumerate(search_results, start=1):
-            typer.echo(f"{index:>3}. {result.title}\n     {result.url}")
+        for index, item in enumerate(result.search_urls, start=1):
+            typer.echo(f"{index:>3}. {item['title']}\n     {item['url']}")
         raise typer.Exit()
 
-    output_dir = make_output_dir(output, topic)
-    manifest = CrawlManifest(
-        query=topic,
-        lang_mode=lang,
-        output_dir=str(output_dir),
-        urls_found=len(search_results),
-        queries_used=queries_used,
-    )
+    typer.secho("\n✅ Done", fg=typer.colors.GREEN, bold=True)
+    typer.echo(f"   Output: {result.output_dir}")
+    if result.validation:
+        typer.echo(
+            f"   Validation: {result.validation.raw_total} raw → "
+            f"{len(result.validation.passed)} passed → top {len(result.exercises)}"
+        )
+    typer.echo(f"   Requests: {result.requests_count}, time: {result.elapsed_seconds:.1f}s")
+    if result.drive_sync:
+        typer.echo(f"   Drive: {result.drive_sync.get('uploaded', False)}")
 
-    urls = [result.url for result in search_results]
-    spider = ExerciseSpider(
-        urls=urls,
-        topic=topic,
+
+@corpus_app.command("topics")
+def corpus_topics() -> None:
+    """List grammar topics from taxonomy."""
+    taxonomy = load_grammar_taxonomy()
+    for topic in taxonomy.topics:
+        typer.echo(f"{topic.level:3}  {topic.id:28}  {topic.primary_en}")
+
+
+@corpus_app.command("run-topic")
+def corpus_run_topic(
+    topic_id: str = typer.Argument(..., help="Taxonomy topic id, e.g. past-simple"),
+    lang: LangMode = typer.Option("both", "--lang"),
+    max_pages: Optional[int] = typer.Option(None, "--max-pages"),
+    output: Path = typer.Option(Path("output"), "--output"),
+    delay: Optional[float] = typer.Option(None, "--delay"),
+    min_confidence: Optional[float] = typer.Option(None, "--min-confidence"),
+    provider: ProviderMode = typer.Option("duckduckgo", "--provider"),
+    top_n: int = typer.Option(3, "--top-n", min=1, max=100),
+    sync_drive: bool = typer.Option(False, "--sync-drive"),
+    dry_run: bool = typer.Option(False, "--dry-run"),
+) -> None:
+    """Run full corpus pipeline for one taxonomy topic."""
+    request = _base_request(
+        lang=lang,
+        max_pages=max_pages,
+        output=output,
+        delay=delay,
         min_confidence=min_confidence,
-        download_delay=delay,
+        provider=provider,
+        top_n=top_n,
+        sync_drive=sync_drive,
     )
+    request.dry_run = dry_run
+    run = run_corpus_topic(topic_id, request)
+    if not run.success:
+        typer.secho(f"Failed: {run.error}", fg=typer.colors.RED)
+        raise typer.Exit(code=1)
+    typer.secho(f"✅ {topic_id} → {run.scrape_result.output_dir if run.scrape_result else ''}", fg=typer.colors.GREEN)
 
-    typer.echo(f"📥 Crawling {len(urls)} pages (delay={delay}s)...")
-    result = spider.start()
 
-    exercises, pages = split_items(list(result.items))
-    exercises = select_top_exercises(exercises, limit=3)
-    manifest.urls_scraped = len(pages)
-    manifest.urls_failed = max(0, len(urls) - len(pages))
-    manifest.sources = [
-        {
-            "url": page.url,
-            "title": page.title,
-            "count": page.exercise_count,
-        }
-        for page in pages
-    ]
-
-    write_outputs(output_dir, exercises, manifest, save_html=save_html)
-
-    typer.secho("\n✅ Done / Gotowe", fg=typer.colors.GREEN, bold=True)
-    typer.echo(f"   Output: {output_dir}")
-    typer.echo(
-        f"   Exercises: {manifest.exercises_total} "
-        f"(PL: {manifest.exercises_pl}, EN: {manifest.exercises_en}, unknown: {manifest.exercises_unknown})"
+@corpus_app.command("run-all")
+def corpus_run_all(
+    lang: LangMode = typer.Option("both", "--lang"),
+    max_pages: Optional[int] = typer.Option(5, "--max-pages", help="URLs per topic (keep low for batch)"),
+    output: Path = typer.Option(Path("output"), "--output"),
+    top_n: int = typer.Option(3, "--top-n", min=1, max=100),
+    provider: ProviderMode = typer.Option("duckduckgo", "--provider"),
+    sync_drive: bool = typer.Option(False, "--sync-drive"),
+    limit: Optional[int] = typer.Option(None, "--limit", help="Max topics to run"),
+) -> None:
+    """Run corpus pipeline for all taxonomy topics."""
+    taxonomy = load_grammar_taxonomy()
+    topic_ids = taxonomy.ids()[: limit or len(taxonomy.topics)]
+    request = _base_request(
+        lang=lang,
+        max_pages=max_pages,
+        output=output,
+        delay=None,
+        min_confidence=None,
+        provider=provider,
+        top_n=top_n,
+        sync_drive=sync_drive,
     )
-    typer.echo("   Validator: kept top 3 highest-quality exercises")
-    typer.echo(f"   Requests: {result.stats.requests_count}, time: {result.stats.elapsed_seconds:.1f}s")
+    batch = run_corpus_batch(request, topic_ids=topic_ids)
+    typer.echo(f"Batch: {batch.completed}/{batch.started} ok, {batch.failed} failed")
 
 
 if __name__ == "__main__":
