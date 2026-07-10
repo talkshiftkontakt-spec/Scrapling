@@ -6,8 +6,8 @@ from ingestion.scrapling.providers.one_page_love import OnePageLoveProvider
 
 ALL_PROVIDERS = [
     AwwwardsProvider,
+    OnePageLoveProvider,
     LandbookProvider,
     GodlyProvider,
     LapaNinjaProvider,
-    OnePageLoveProvider,
 ]

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from ingestion.scrapling.contracts import DiscoveredWebsiteRecord
 from ingestion.scrapling.providers.base import SourceProvider
+from ingestion.scrapling.url_resolver import extract_title_from_url, resolve_awwwards_external
 
 
 class AwwwardsProvider(SourceProvider):
@@ -11,19 +12,40 @@ class AwwwardsProvider(SourceProvider):
     def discover(self) -> list[DiscoveredWebsiteRecord]:
         page = self.fetch_catalog()
         records: list[DiscoveredWebsiteRecord] = []
-        for card in page.css(".js-grid-item"):
-            target = card.css("a::attr(href)").get()
-            if not target:
+        seen_details: set[str] = set()
+
+        for card in page.css('a[href*="/sites/"]'):
+            target = card.attrib.get("href")
+            if not target or "/sites/" not in target:
                 continue
-            name = card.css("h3::text").get("Awwwards reference").strip()
+
+            slug = target.split("/sites/", 1)[-1].strip("/")
+            if not slug or "/" in slug:
+                continue
+
+            detail_url = self.normalize_url(f"/sites/{slug}")
+            if detail_url in seen_details:
+                continue
+            seen_details.add(detail_url)
+
+            name = " ".join(text.strip() for text in card.css("::text").getall() if text.strip())
+            if not name:
+                name = extract_title_from_url(detail_url)
+
+            external_url = resolve_awwwards_external(detail_url)
+            if not external_url:
+                continue
+
             records.append(
                 DiscoveredWebsiteRecord(
                     website_name=name,
-                    url=self.normalize_url(target),
+                    url=external_url,
                     source=self.slug,
-                    categories=card.css(".category::text").getall(),
-                    tags=card.css(".awards a::text").getall(),
-                    provider_reference=target,
+                    categories=[],
+                    tags=[],
+                    provider_reference=detail_url,
+                    metadata={"detailUrl": detail_url},
                 )
             )
+
         return records

@@ -10,12 +10,19 @@ from scrapling.fetchers import DynamicFetcher
 from ingestion.scrapling.contracts import ScreenshotArtifactRecord
 from ingestion.scrapling.storage import create_storage
 
+# Full-page design screenshots can exceed Pillow's default bomb threshold.
+Image.MAX_IMAGE_PIXELS = 300_000_000
+
+
+from ingestion.scrapling.url_resolver import resolve_capture_url
+
 
 class ScreenshotCaptureService:
     def __init__(self) -> None:
         self.storage = create_storage()
 
-    def capture(self, website_id: str, url: str) -> ScreenshotArtifactRecord:
+    def capture(self, website_id: str, url: str, source: str | None = None) -> ScreenshotArtifactRecord:
+        capture_url = resolve_capture_url(url, source)
         with TemporaryDirectory(prefix="design-intelligence-") as temp_dir:
             temp_dir_path = Path(temp_dir)
             screenshot_path = temp_dir_path / f"{website_id}.png"
@@ -46,7 +53,7 @@ class ScreenshotCaptureService:
                 page.screenshot(path=str(screenshot_path), full_page=True)
 
             DynamicFetcher.fetch(
-                url,
+                capture_url,
                 headless=True,
                 network_idle=True,
                 timeout=60000,
@@ -73,5 +80,5 @@ class ScreenshotCaptureService:
                 width=dimensions["width"],
                 height=dimensions["height"],
                 checksum_sha256=checksum,
-                metadata={"sourceUrl": url, "storageMode": "local"},
+                metadata={"sourceUrl": capture_url, "catalogUrl": url, "storageMode": "local"},
             )

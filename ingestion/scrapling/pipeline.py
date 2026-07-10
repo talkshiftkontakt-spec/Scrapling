@@ -13,11 +13,18 @@ class DesignIngestionPipeline:
         self.capture_service = ScreenshotCaptureService()
 
     def discover_all(self, limit: int = 50) -> dict[str, object]:
-        records = []
+        records: list = []
+        seen_urls: set[str] = set()
+
         for provider_cls in ALL_PROVIDERS:
             provider = provider_cls()
-            discovered = provider.discover()
-            records.extend(discovered)
+            for discovered in provider.discover():
+                if discovered.url in seen_urls:
+                    continue
+                seen_urls.add(discovered.url)
+                records.append(discovered)
+                if len(records) >= limit:
+                    break
             if len(records) >= limit:
                 break
 
@@ -31,8 +38,9 @@ class DesignIngestionPipeline:
         for item in pending:
             website_id = item["websiteId"]
             url = item["canonicalUrl"]
+            source = item.get("source")
             try:
-                artifact = self.capture_service.capture(website_id=website_id, url=url)
+                artifact = self.capture_service.capture(website_id=website_id, url=url, source=source)
                 response = self.api_client.submit_screenshot(artifact)
                 results.append({"websiteId": website_id, "url": url, "status": "captured", "response": response})
             except Exception as exc:  # noqa: BLE001 - surface per-site failures in batch output

@@ -5,6 +5,10 @@ from datetime import datetime, timezone
 from typing import Any
 
 
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+
+
 @dataclass(slots=True)
 class DiscoveredWebsiteRecord:
     website_name: str
@@ -13,7 +17,7 @@ class DiscoveredWebsiteRecord:
     categories: list[str]
     tags: list[str]
     provider_reference: str
-    discovered_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
+    discovered_at: str = field(default_factory=utc_now_iso)
     metadata: dict[str, Any] = field(default_factory=dict)
 
     def to_payload(self) -> dict[str, Any]:
@@ -39,7 +43,7 @@ class ScreenshotArtifactRecord:
     width: int
     height: int
     checksum_sha256: str
-    captured_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
+    captured_at: str = field(default_factory=utc_now_iso)
     metadata: dict[str, Any] = field(default_factory=dict)
 
     def to_payload(self) -> dict[str, Any]:
