@@ -2,6 +2,9 @@
 site/*
 local_tests/*
 .mcpregistry_*
+DesignLibrary/
+scrapling/.scrapling_dependencies_installed
+node_modules/
 
 # AI related files
 .claude/*
