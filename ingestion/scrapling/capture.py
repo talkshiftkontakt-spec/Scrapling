@@ -15,8 +15,8 @@ from ingestion.scrapling.url_resolver import resolve_capture_url
 # Full-page design screenshots can exceed Pillow's default bomb threshold.
 Image.MAX_IMAGE_PIXELS = 300_000_000
 
-MAX_CAPTURE_HEIGHT_PX = 14_000
-VIEWPORT_CAPTURE = os.environ.get("CAPTURE_MODE", "viewport").lower() != "fullpage"
+MAX_CAPTURE_HEIGHT_PX = 20_000
+VIEWPORT_CAPTURE = os.environ.get("CAPTURE_MODE", "fullpage").lower() == "viewport"
 
 
 class ScreenshotCaptureService:
@@ -59,11 +59,12 @@ class ScreenshotCaptureService:
                 )
                 page.screenshot(path=str(screenshot_path), full_page=True)
 
+            timeout_ms = 30_000 if VIEWPORT_CAPTURE else 90_000
             DynamicFetcher.fetch(
                 capture_url,
                 headless=True,
                 network_idle=True,
-                timeout=30000,
+                timeout=timeout_ms,
                 page_action=page_action,
                 disable_resources=False,
             )
@@ -90,5 +91,10 @@ class ScreenshotCaptureService:
                 width=dimensions["width"],
                 height=dimensions["height"],
                 checksum_sha256=checksum,
-                metadata={"sourceUrl": capture_url, "catalogUrl": url, "storageMode": "local"},
+                metadata={
+                    "sourceUrl": capture_url,
+                    "catalogUrl": url,
+                    "storageMode": "local",
+                    "captureMode": "viewport" if VIEWPORT_CAPTURE else "fullpage",
+                },
             )

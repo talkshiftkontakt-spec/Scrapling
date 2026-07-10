@@ -20,6 +20,9 @@ class IngestionApiClient:
     def mark_website_status(self, website_id: str, status: str) -> dict[str, Any]:
         return self._post_json(f"/ingestion/mark-status/{website_id}", {"status": status})
 
+    def list_references(self, status: str = "accepted", limit: int = 200) -> list[dict[str, object]]:
+        return self._get_json(f"/references?status={status}&limit={limit}")
+
     def get_pending_capture(self, limit: int = 20) -> list[dict[str, Any]]:
         return self._get_json(f"/ingestion/pending-capture?limit={limit}")
 

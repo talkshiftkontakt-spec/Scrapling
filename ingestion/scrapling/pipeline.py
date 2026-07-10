@@ -49,6 +49,23 @@ class DesignIngestionPipeline:
 
         return results
 
+    def recapture_batch(self, limit: int = 10, status: str = "accepted") -> list[dict[str, object]]:
+        references = self.api_client.list_references(status=status, limit=limit)
+        results: list[dict[str, object]] = []
+
+        for item in references:
+            website_id = item["websiteId"]
+            url = item["canonicalUrl"]
+            source = item.get("source")
+            try:
+                artifact = self.capture_service.capture(website_id=website_id, url=url, source=source)
+                response = self.api_client.submit_screenshot(artifact)
+                results.append({"websiteId": website_id, "url": url, "status": "recaptured", "response": response})
+            except Exception as exc:  # noqa: BLE001
+                results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
+
+        return results
+
     def capture_website(self, website_id: str, url: str) -> dict[str, object]:
         artifact = self.capture_service.capture(website_id=website_id, url=url)
         return self.api_client.submit_screenshot(artifact)
