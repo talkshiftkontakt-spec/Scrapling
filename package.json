@@ -17,6 +17,7 @@
     "setup:first-references": "bash scripts/first-references.sh",
     "collect:references": "bash scripts/collect-to-target.sh",
     "recapture:pages": "bash scripts/recapture-pages.sh",
+    "recapture:all-pages": "bash scripts/recapture-all-pages.sh",
     "lint": "npm run lint --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present"

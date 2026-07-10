@@ -47,6 +47,9 @@ class IngestionApiClient:
     def get_pending_capture(self, limit: int = 20) -> list[dict[str, Any]]:
         return self._get_json(f"/ingestion/pending-capture?limit={limit}")
 
+    def get_needs_page_capture(self, limit: int = 20) -> list[dict[str, Any]]:
+        return self._get_json(f"/ingestion/needs-page-capture?limit={limit}")
+
     def _get_json(self, path: str) -> Any:
         req = request.Request(f"{self.base_url}{path}", method="GET")
         with request.urlopen(req, timeout=60) as response:

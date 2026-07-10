@@ -25,6 +25,12 @@ def main() -> int:
     recapture_parser.add_argument("--limit", type=int, default=20)
     recapture_parser.add_argument("--status", type=str, default="accepted")
 
+    missing_parser = subparsers.add_parser(
+        "recapture-missing",
+        help="Capture per-page screenshots for sites that only have legacy single screenshots",
+    )
+    missing_parser.add_argument("--limit", type=int, default=10)
+
     args = parser.parse_args()
     pipeline = DesignIngestionPipeline(api_base_url=os.environ.get("INGESTION_API_URL", "http://127.0.0.1:3101"))
 
@@ -40,6 +46,11 @@ def main() -> int:
 
     if args.command == "recapture":
         result = pipeline.recapture_batch(limit=args.limit, status=args.status)
+        print(json.dumps(result, indent=2))
+        return 0
+
+    if args.command == "recapture-missing":
+        result = pipeline.recapture_missing_pages(limit=args.limit)
         print(json.dumps(result, indent=2))
         return 0
 

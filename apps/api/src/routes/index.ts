@@ -13,6 +13,7 @@ import {
   getWebsiteById,
   getWebsiteStats,
   getScreenshotForWebsite,
+  listNeedsPageCapture,
   listBrowsableReferences,
   listPageScreenshotsForWebsite,
   listPendingCapture,
@@ -57,6 +58,11 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
   app.get("/ingestion/pending-capture", async (request) => {
     const limit = Number((request.query as { limit?: string }).limit ?? "20");
     return listPendingCapture(Number.isFinite(limit) ? limit : 20);
+  });
+
+  app.get("/ingestion/needs-page-capture", async (request) => {
+    const limit = Number((request.query as { limit?: string }).limit ?? "20");
+    return listNeedsPageCapture(Number.isFinite(limit) ? limit : 20);
   });
 
   app.post("/ingestion/mark-status/:websiteId", async (request) => {

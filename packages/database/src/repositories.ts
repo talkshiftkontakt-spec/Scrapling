@@ -294,6 +294,41 @@ export async function claimPendingCapture(limit = 20): Promise<PendingCaptureWeb
   return results;
 }
 
+export async function listNeedsPageCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
+  const db = getDb();
+  const rows = await db
+    .select({
+      websiteId: websites.id,
+      websiteName: websites.websiteName,
+      canonicalUrl: websites.canonicalUrl,
+      normalizedUrl: websites.normalizedUrl
+    })
+    .from(websites)
+    .innerJoin(screenshots, eq(screenshots.websiteId, websites.id))
+    .where(
+      and(
+        sql`NOT EXISTS (SELECT 1 FROM page_screenshots ps WHERE ps.website_id = ${websites.id})`,
+        inArray(websites.processingStatus, ["captured", "accepted", "analyzed"])
+      )
+    )
+    .limit(limit);
+
+  const results: PendingCaptureWebsite[] = [];
+  for (const row of rows) {
+    results.push({
+      websiteId: row.websiteId,
+      websiteName: row.websiteName,
+      canonicalUrl: row.canonicalUrl,
+      normalizedUrl: row.normalizedUrl,
+      source: await getWebsiteSource(row.websiteId),
+      categories: await getWebsiteCategories(row.websiteId),
+      tags: await getWebsiteTags(row.websiteId)
+    });
+  }
+
+  return results;
+}
+
 export async function listPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
   return claimPendingCapture(limit);
 }

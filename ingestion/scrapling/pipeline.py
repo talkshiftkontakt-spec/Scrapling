@@ -78,5 +78,21 @@ class DesignIngestionPipeline:
 
         return results
 
+    def recapture_missing_pages(self, limit: int = 10) -> list[dict[str, object]]:
+        pending = self.api_client.get_needs_page_capture(limit)
+        results: list[dict[str, object]] = []
+
+        for item in pending:
+            website_id = item["websiteId"]
+            url = item["canonicalUrl"]
+            source = item.get("source")
+            try:
+                capture_result = self._capture_and_persist(website_id=website_id, url=url, source=source)
+                results.append({**capture_result, "status": "recaptured"})
+            except Exception as exc:  # noqa: BLE001
+                results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
+
+        return results
+
     def capture_website(self, website_id: str, url: str) -> dict[str, object]:
         return self._capture_and_persist(website_id=website_id, url=url)

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import type { PageScreenshot, PlatformStats, Reference } from "../lib/api";
-import { fetchPageScreenshots, getApiUrl, localScreenshotPath, resolveAssetUrl } from "../lib/api";
+import { fetchPageScreenshots, getApiUrl, resolveAssetUrl } from "../lib/api";
 
 interface ReferenceBrowserProps {
   references: Reference[];
@@ -17,6 +17,8 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
   const [pageScreenshots, setPageScreenshots] = useState<PageScreenshot[]>([]);
   const [viewportFilter, setViewportFilter] = useState<"desktop" | "mobile">("desktop");
   const [pagesLoading, setPagesLoading] = useState(false);
+  const [pagesError, setPagesError] = useState<string | null>(null);
+  const [expandedUrl, setExpandedUrl] = useState<string | null>(null);
 
   const sources = useMemo(
     () => Array.from(new Set(references.map((item) => item.source).filter(Boolean))) as string[],
@@ -40,30 +42,43 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
   }, [query, references, sourceFilter]);
 
   const visiblePages = useMemo(() => {
-    const byViewport = pageScreenshots.filter((page) => page.viewport === viewportFilter);
-    const uniquePaths = new Map<string, PageScreenshot>();
-    for (const page of byViewport) {
-      if (!uniquePaths.has(page.pagePath)) {
-        uniquePaths.set(page.pagePath, page);
-      }
-    }
-    return Array.from(uniquePaths.values());
+    return pageScreenshots
+      .filter((page) => page.viewport === viewportFilter)
+      .sort((left, right) => left.pagePath.localeCompare(right.pagePath));
   }, [pageScreenshots, viewportFilter]);
 
   useEffect(() => {
     if (!selected) {
       setPageScreenshots([]);
+      setPagesError(null);
+      setExpandedUrl(null);
       return;
     }
 
     let cancelled = false;
     setPagesLoading(true);
-    void fetchPageScreenshots(selected.websiteId).then((pages) => {
-      if (!cancelled) {
+    setPagesError(null);
+
+    void fetchPageScreenshots(selected.websiteId)
+      .then((pages) => {
+        if (cancelled) {
+          return;
+        }
         setPageScreenshots(pages);
-        setPagesLoading(false);
-      }
-    });
+        if (pages.length === 0 && (selected.pageScreenshotCount ?? 0) === 0) {
+          setPagesError("Per-page screenshots are still being captured for this site. Refresh in a few minutes.");
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setPagesError("Could not load screenshots. Check that the API is running on port 3101.");
+        }
+      })
+      .finally(() => {
+        if (!cancelled) {
+          setPagesLoading(false);
+        }
+      });
 
     return () => {
       cancelled = true;
@@ -71,13 +86,17 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
   }, [selected]);
 
   useEffect(() => {
-    if (!selected) {
+    if (!selected && !expandedUrl) {
       return;
     }
 
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
-        setSelected(null);
+        if (expandedUrl) {
+          setExpandedUrl(null);
+        } else {
+          setSelected(null);
+        }
       }
     };
 
@@ -87,10 +106,10 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
       document.body.style.overflow = "";
       window.removeEventListener("keydown", onKeyDown);
     };
-  }, [selected]);
+  }, [selected, expandedUrl]);
 
   const fallbackScreenshotUrl = selected ? resolveAssetUrl(selected.screenshotDriveUrl) : null;
-  const hasPageGallery = pageScreenshots.length > 0;
+  const hasPageGallery = visiblePages.length > 0;
   const desktopCount = pageScreenshots.filter((page) => page.viewport === "desktop").length;
   const mobileCount = pageScreenshots.filter((page) => page.viewport === "mobile").length;
 
@@ -101,7 +120,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
           <p className="eyebrow">Design Intelligence</p>
           <h1 className="title">Reference Library</h1>
           <p className="subtitle">
-            Per-page design references — desktop and mobile viewport screenshots for AI-ready design intelligence.
+            Click any reference to see every page screenshot — full size, desktop and mobile.
           </p>
         </div>
 
@@ -173,11 +192,11 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                 {reference.finalScore ? <span className="card-score">{reference.finalScore.toFixed(2)}</span> : null}
                 {reference.pageScreenshotCount ? (
                   <span className="card-score" style={{ right: "auto", left: 12, background: "rgba(212,168,83,0.9)", color: "#111" }}>
-                    {reference.pageScreenshotCount} pages
+                    {reference.pageScreenshotCount} shots
                   </span>
                 ) : (
                   <span className="card-score" style={{ right: "auto", left: 12, opacity: 0.75 }}>
-                    legacy
+                    capturing…
                   </span>
                 )}
               </div>
@@ -195,29 +214,13 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
         </section>
       )}
 
-      <section className="storage-panel">
-        <h2>Where screenshots are stored</h2>
-        <p>
-          Files live in <code>DesignLibrary/</code> (<code>DESIGN_LIBRARY_PATH</code> in <code>.env</code>).
-        </p>
-        <p>
-          Per-page captures: <code>DesignLibrary/PageScreenshots/&lt;websiteId&gt;/desktop|mobile/&lt;page&gt;.png</code>
-        </p>
-        <p>
-          Primary thumbnail: <code>DesignLibrary/Thumbnails/&lt;websiteId&gt;-thumb.png</code>
-        </p>
-        <p>
-          API serves them at <code>{getApiUrl()}/static/PageScreenshots/…</code>
-        </p>
-      </section>
-
       {selected ? (
-        <div className="modal-backdrop" onClick={() => setSelected(null)} role="presentation">
-          <div className="modal modal-wide" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
+        <div className="modal-backdrop modal-backdrop-full" onClick={() => setSelected(null)} role="presentation">
+          <div className="modal modal-full" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
             <div className="modal-header">
               <div>
                 <p className="eyebrow">{selected.source?.replaceAll("_", " ") ?? "reference"}</p>
-                <h2 className="title" style={{ fontSize: "2rem" }}>
+                <h2 className="title" style={{ fontSize: "1.75rem" }}>
                   {selected.websiteName}
                 </h2>
                 <p className="subtitle">{selected.canonicalUrl}</p>
@@ -227,75 +230,107 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
               </button>
             </div>
 
-            {hasPageGallery ? (
-              <>
-                <div className="page-toolbar">
-                  <div className="chip-row">
-                    <button
-                      type="button"
-                      className={`chip ${viewportFilter === "desktop" ? "chip-active" : ""}`}
-                      onClick={() => setViewportFilter("desktop")}
-                    >
-                      Desktop ({desktopCount})
-                    </button>
-                    <button
-                      type="button"
-                      className={`chip ${viewportFilter === "mobile" ? "chip-active" : ""}`}
-                      onClick={() => setViewportFilter("mobile")}
-                    >
-                      Mobile ({mobileCount})
-                    </button>
-                  </div>
-                  <p className="page-toolbar-hint">
-                    {visiblePages.length} page{visiblePages.length === 1 ? "" : "s"} · viewport screenshot (not full scroll)
-                  </p>
-                </div>
-                <div className="page-gallery">
-                  {visiblePages.map((page) => {
-                    const imageUrl = resolveAssetUrl(page.screenshotDriveUrl);
-                    return (
-                      <article key={page.id} className="page-shot-card">
-                        <div
-                          className={`page-shot-frame ${viewportFilter === "mobile" ? "page-shot-frame-mobile" : "page-shot-frame-desktop"}`}
-                        >
-                          {imageUrl ? (
-                            // eslint-disable-next-line @next/next/no-img-element
-                            <img
-                              src={imageUrl}
-                              alt={`${page.pageType} ${page.pagePath}`}
-                              onClick={() => window.open(imageUrl, "_blank", "noopener,noreferrer")}
-                              title="Click to open full image"
-                            />
-                          ) : null}
+            <div className="page-toolbar">
+              <div className="chip-row">
+                <button
+                  type="button"
+                  className={`chip ${viewportFilter === "desktop" ? "chip-active" : ""}`}
+                  onClick={() => setViewportFilter("desktop")}
+                >
+                  Desktop ({desktopCount || "—"})
+                </button>
+                <button
+                  type="button"
+                  className={`chip ${viewportFilter === "mobile" ? "chip-active" : ""}`}
+                  onClick={() => setViewportFilter("mobile")}
+                >
+                  Mobile ({mobileCount || "—"})
+                </button>
+              </div>
+              <p className="page-toolbar-hint">
+                {hasPageGallery
+                  ? `${visiblePages.length} full screenshots — scroll to see every page`
+                  : "Full-size viewport captures"}
+              </p>
+            </div>
+
+            {pagesLoading ? (
+              <div className="empty modal-body-empty">Loading all page screenshots…</div>
+            ) : hasPageGallery ? (
+              <div className="screenshot-stack">
+                {visiblePages.map((page) => {
+                  const imageUrl = resolveAssetUrl(page.screenshotDriveUrl);
+                  if (!imageUrl) {
+                    return null;
+                  }
+
+                  return (
+                    <section key={page.id} className="screenshot-panel">
+                      <header className="screenshot-panel-header">
+                        <div>
+                          <h3>{page.pageTitle ?? page.pagePath}</h3>
+                          <p>
+                            {page.pagePath} · {page.pageType} · {page.width}×{page.height}px
+                          </p>
                         </div>
-                        <div className="page-shot-meta">
-                          <strong>{page.pageTitle ?? page.pagePath}</strong>
-                          <span className="badge">{page.pageType}</span>
-                          <span className="badge">{page.pagePath}</span>
-                          <span className="badge">
-                            {page.width} × {page.height}px
-                          </span>
+                        <div className="screenshot-panel-actions">
+                          <button type="button" className="btn" onClick={() => setExpandedUrl(imageUrl)}>
+                            Expand
+                          </button>
+                          <a className="btn" href={imageUrl} target="_blank" rel="noreferrer">
+                            Open PNG
+                          </a>
+                          <a className="btn" href={page.pageUrl} target="_blank" rel="noreferrer">
+                            Live page
+                          </a>
                         </div>
-                      </article>
-                    );
-                  })}
-                </div>
-              </>
-            ) : pagesLoading ? (
-              <div className="empty" style={{ margin: "24px" }}>
-                Loading page screenshots…
+                      </header>
+                      <div className={`screenshot-panel-frame ${viewportFilter === "mobile" ? "screenshot-panel-frame-mobile" : ""}`}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={imageUrl}
+                          alt={`${page.pageType} ${page.pagePath}`}
+                          onClick={() => setExpandedUrl(imageUrl)}
+                          loading="lazy"
+                        />
+                      </div>
+                    </section>
+                  );
+                })}
               </div>
             ) : fallbackScreenshotUrl ? (
-              <div className="modal-shot-scroll">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={fallbackScreenshotUrl}
-                  alt={`Screenshot ${selected.websiteName}`}
-                  onClick={() => window.open(fallbackScreenshotUrl, "_blank", "noopener,noreferrer")}
-                  title="Legacy single screenshot — run recapture for per-page shots"
-                />
+              <div className="screenshot-stack">
+                {pagesError ? <div className="empty modal-body-empty">{pagesError}</div> : null}
+                <section className="screenshot-panel">
+                  <header className="screenshot-panel-header">
+                    <div>
+                      <h3>Homepage (legacy capture)</h3>
+                      <p>Per-page screenshots are being generated for this site.</p>
+                    </div>
+                    <div className="screenshot-panel-actions">
+                      <button type="button" className="btn" onClick={() => setExpandedUrl(fallbackScreenshotUrl)}>
+                        Expand
+                      </button>
+                      <a className="btn" href={fallbackScreenshotUrl} target="_blank" rel="noreferrer">
+                        Open PNG
+                      </a>
+                    </div>
+                  </header>
+                  <div className="screenshot-panel-frame">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={fallbackScreenshotUrl}
+                      alt={`Screenshot ${selected.websiteName}`}
+                      onClick={() => setExpandedUrl(fallbackScreenshotUrl)}
+                    />
+                  </div>
+                </section>
               </div>
-            ) : null}
+            ) : (
+              <div className="empty modal-body-empty">
+                {pagesError ?? "No screenshots available yet for this reference."}
+              </div>
+            )}
 
             <div className="modal-footer">
               <a className="btn btn-primary" href={selected.canonicalUrl} target="_blank" rel="noreferrer">
@@ -303,11 +338,21 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
               </a>
               <span className="badge">Score {selected.finalScore?.toFixed(2) ?? "—"}</span>
               {selected.pageScreenshotCount ? (
-                <span className="badge">{selected.pageScreenshotCount} page screenshots</span>
+                <span className="badge">{selected.pageScreenshotCount} screenshots</span>
               ) : null}
-              <span className="badge">{localScreenshotPath(selected.websiteId)}</span>
+              <span className="badge">API {getApiUrl()}</span>
             </div>
           </div>
+        </div>
+      ) : null}
+
+      {expandedUrl ? (
+        <div className="lightbox-backdrop" onClick={() => setExpandedUrl(null)} role="presentation">
+          <button type="button" className="lightbox-close" onClick={() => setExpandedUrl(null)} aria-label="Close">
+            ×
+          </button>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={expandedUrl} alt="Full screenshot" onClick={(event) => event.stopPropagation()} />
         </div>
       ) : null}
     </div>
