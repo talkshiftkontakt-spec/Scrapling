@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SportsData Dashboard</title>
+  <link rel="stylesheet" href="/dashboard/style.css" />
+</head>
+<body>
+  <header>
+    <h1>SportsData</h1>
+    <p>Przyszłe mecze piłki nożnej i tenisa — statystyki i kursy</p>
+    <div class="actions">
+      <button id="refreshBtn">Odśwież</button>
+      <select id="sportFilter">
+        <option value="">Wszystkie sporty</option>
+        <option value="football">Piłka nożna</option>
+        <option value="tennis">Tenis</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section id="health" class="card"></section>
+    <section id="events" class="card"></section>
+  </main>
+  <script src="/dashboard/app.js"></script>
+</body>
+</html>

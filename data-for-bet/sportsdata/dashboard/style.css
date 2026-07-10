@@ -1,0 +1,61 @@
+body {
+  font-family: Inter, system-ui, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+header, main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+button, select {
+  background: #1e293b;
+  color: inherit;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.event {
+  border-top: 1px solid #334155;
+  padding: 1rem 0;
+}
+
+.event:first-child {
+  border-top: none;
+}
+
+.meta, .odds, .stats {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #1d4ed8;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  margin-right: 0.35rem;
+  font-size: 0.8rem;
+}
