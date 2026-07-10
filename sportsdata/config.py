@@ -114,6 +114,13 @@ TENNIS_HISTORY_TOUR_PATTERNS: tuple[str, ...] = (
     "AUSTRALIAN OPEN",
 )
 
+TENNIS_CRAWL_TOURS: tuple[str, ...] = (
+    "atp-singles",
+    "wta-singles",
+    "challenger-men-singles",
+    "challenger-women-singles",
+)
+
 ODDSPORTAL_LEAGUE_URLS: dict[str, str] = {
     "premier-league": "https://www.oddsportal.com/football/england/premier-league/",
     "la-liga": "https://www.oddsportal.com/football/spain/laliga/",
@@ -168,6 +175,10 @@ class PipelineConfig:
     )
     tennis_history_tour_patterns: tuple[str, ...] = TENNIS_HISTORY_TOUR_PATTERNS
     tennis_history_exclude_patterns: tuple[str, ...] = ("DOUBLES", "BOYS", "GIRLS")
+    tennis_crawl_tours: tuple[str, ...] = TENNIS_CRAWL_TOURS
+    tennis_probe_wta_from_atp_slugs: bool = True
+    tennis_results_use_homepage_tournaments: bool = True
     crawl_tennis_tournaments: bool = True
     archive_fetch_stats: bool = True
     archive_stats_limit: int = 300
+    tennis_archive_stats_limit: int = 500

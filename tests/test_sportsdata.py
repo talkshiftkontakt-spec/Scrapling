@@ -55,6 +55,31 @@ def test_flashscore_parse_results_embedded_feed() -> None:
     assert rows[0]["AG"] == "3"
 
 
+def test_normalize_tournament_url_strips_subpages() -> None:
+    client = FlashscoreClient(PipelineConfig())
+    url = client._normalize_tournament_url("/tennis/wta-singles/wimbledon/draw/")
+    assert url == "https://www.flashscore.com/tennis/wta-singles/wimbledon/"
+    assert client._normalize_tournament_url("/tennis/atp-singles/rome/doubles/") is None
+
+
+def test_discover_all_tennis_urls_includes_wta_mirrors() -> None:
+    client = FlashscoreClient(PipelineConfig())
+
+    def fake_atp_links(tour: str) -> list[str]:
+        if tour == "atp-singles":
+            return ["https://www.flashscore.com/tennis/atp-singles/rome/"]
+        return []
+
+    def fake_homepage() -> list[str]:
+        return []
+
+    client.discover_tennis_tournament_links = fake_atp_links  # type: ignore[method-assign]
+    client.discover_tennis_homepage_tournament_urls = fake_homepage  # type: ignore[method-assign]
+    urls = client.discover_all_tennis_tournament_urls()
+    assert "https://www.flashscore.com/tennis/atp-singles/rome/" in urls
+    assert "https://www.flashscore.com/tennis/wta-singles/rome/" in urls
+
+
 def test_storage_roundtrip(tmp_path: Path) -> None:
     db_path = tmp_path / "test.db"
     storage = Storage(db_path)

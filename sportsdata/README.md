@@ -75,11 +75,13 @@ Tabele:
 | **Understat** | EPL, La Liga, Serie A, Bundesliga, Ligue 1 — sezony 2021–2025 | xG per mecz, forecast |
 | **football-data.co.uk** | 12 lig × 5 sezonów (2425–2021) | strzały, rożne, kartki, kursy |
 | **Flashscore archiwum piłki** | World Cup 2026/2022/2018, Euro 2024/2020 | wyniki + statystyki meczu |
-| **Flashscore archiwum tenisa** | 8 Grand Slamów (ATP+WTA) + crawl turniejów ATP/WTA | wyniki + statystyki (serwis, return itd.) |
+| **Flashscore archiwum tenisa** | ATP/WTA/Challenger — pełny crawl turniejów + Grand Slamy | wyniki + statystyki (serwis, return itd.) |
+
+**Tenis — jak działa zbieranie rozegranych meczów:** zamiast bezużytecznego daily feedu, pipeline pobiera feed `results` ze stron `draw/` każdego turnieju. Odkrywa turnieje z homepage Flashscore, kalendarza ATP oraz lustrzanych URL-i WTA (`wta-singles/{slug}` dla każdego turnieju ATP). Job `results` (90 dni) daje ~2000+ meczów; `history` z pełnym crawlem — ~10k+.
 
 Ligi football-data poza top-5: Szkocja, Holandia, Belgia, Portugalia, Turcja, Grecja (+ Championship).
 
-Opcja `crawl_tennis_tournaments` (domyślnie `true`) przeszukuje strony turniejów ATP/WTA — może trwać kilka minut; wyłącz w configu jeśli potrzebujesz tylko Grand Slamów.
+Opcja `crawl_tennis_tournaments` (domyślnie `true`) włącza pełny crawl ~220 turniejów (ATP + lustrzane WTA + Challenger) w jobie `history`; job `results` używa szybszej listy z homepage (~120 turniejów).
 
 Import archiwum Flashscore pobiera statystyki meczu dla pierwszych 300 rekordów (`archive_stats_limit`); pełny backfill statystyk dla starszych meczów można powtórzyć z wyższym limitem.
 

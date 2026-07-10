@@ -22,6 +22,11 @@ FLASHSCORE_STATUS_MAP = {
 class FlashscoreClient:
   BASE_FEED = "https://global.flashscore.ninja/2/x/feed"
   BASE_SITE = "https://www.flashscore.com"
+  TENNIS_TOUR_URL_PATTERN = re.compile(
+      r'href="(/tennis/(?:atp-singles|wta-singles|challenger-men-singles|challenger-women-singles)/[^"]+/)"',
+      re.IGNORECASE,
+  )
+  TENNIS_TOURNAMENT_SUBPAGES = frozenset({"draw", "results", "fixtures", "news", "odds", "archive"})
 
   def __init__(self, config: PipelineConfig, http: HttpClient | None = None) -> None:
       self.config = config
@@ -228,7 +233,7 @@ class FlashscoreClient:
       event.status = EventStatus.FINISHED
       event.home_score = home_score
       event.away_score = away_score
-      if league_name:
+      if league_name and (not event.league or event.league == "Unknown"):
           event.league = league_name
       return event
 
@@ -289,6 +294,103 @@ class FlashscoreClient:
       events.sort(key=lambda item: item.start_time, reverse=True)
       return events
 
+  def _normalize_tournament_url(self, url: str) -> str | None:
+      normalized = url if url.startswith("http") else f"{self.BASE_SITE}{url}"
+      normalized = normalized.rstrip("/") + "/"
+      if "doubles" in normalized.lower():
+          return None
+      path = normalized.replace(self.BASE_SITE, "").strip("/")
+      parts = path.split("/")
+      if len(parts) > 3 and parts[-1] in self.TENNIS_TOURNAMENT_SUBPAGES:
+          normalized = f"{self.BASE_SITE}/{'/'.join(parts[:3])}/"
+      return normalized
+
+  def discover_tennis_homepage_tournament_urls(self) -> list[str]:
+      html = self.http.get_text(f"{self.BASE_SITE}/tennis/", headers={"Referer": self.BASE_SITE})
+      seen: set[str] = set()
+      urls: list[str] = []
+      for match in self.TENNIS_TOUR_URL_PATTERN.finditer(html):
+          normalized = self._normalize_tournament_url(match.group(1))
+          if normalized and normalized not in seen:
+              seen.add(normalized)
+              urls.append(normalized)
+      return urls
+
+  def discover_all_tennis_tournament_urls(self) -> list[str]:
+      seen: set[str] = set()
+      urls: list[str] = []
+
+      def add(url: str) -> None:
+          normalized = self._normalize_tournament_url(url)
+          if normalized and normalized not in seen:
+              seen.add(normalized)
+              urls.append(normalized)
+
+      for page_url in self.config.flashscore_tennis_grand_slam_urls.values():
+          add(page_url)
+
+      for tour in self.config.tennis_crawl_tours:
+          for link in self.discover_tennis_tournament_links(tour):
+              add(link)
+
+      if self.config.tennis_probe_wta_from_atp_slugs:
+          for link in self.discover_tennis_tournament_links("atp-singles"):
+              slug = link.rstrip("/").split("/")[-1]
+              add(f"{self.BASE_SITE}/tennis/wta-singles/{slug}/")
+
+      for link in self.discover_tennis_homepage_tournament_urls():
+          add(link)
+
+      return urls
+
+  def _fetch_finished_from_tournament_urls(
+      self,
+      tournament_urls: list[str],
+      *,
+      days_back: int | None = None,
+      tennis_filter: bool = True,
+  ) -> list[Event]:
+      cutoff = (
+          datetime.now(tz=UTC) - timedelta(days=days_back)
+          if days_back is not None
+          else None
+      )
+      events: list[Event] = []
+      seen: set[str] = set()
+
+      for page_url in tournament_urls:
+          draw_url = page_url.rstrip("/") + "/draw/"
+          try:
+              html = self.http.get_text(draw_url, headers={"Referer": self.BASE_SITE})
+          except Exception:
+              continue
+          for event in self._parse_finished_from_html(
+              html,
+              Sport.TENNIS,
+              tennis_filter=tennis_filter,
+          ):
+              if cutoff is not None and event.start_time < cutoff:
+                  continue
+              if event.dedupe_key in seen:
+                  continue
+              seen.add(event.dedupe_key)
+              events.append(event)
+
+      events.sort(key=lambda item: item.start_time, reverse=True)
+      return events
+
+  def fetch_tennis_finished_results(self, *, days_back: int | None = None) -> list[Event]:
+      if days_back is not None and self.config.tennis_results_use_homepage_tournaments:
+          tournament_urls = self.discover_tennis_homepage_tournament_urls()
+      elif self.config.crawl_tennis_tournaments:
+          tournament_urls = self.discover_all_tennis_tournament_urls()
+      else:
+          tournament_urls = list(self.config.flashscore_tennis_grand_slam_urls.values())
+      return self._fetch_finished_from_tournament_urls(
+          tournament_urls,
+          days_back=days_back,
+      )
+
   def discover_tennis_tournament_links(self, tour: str) -> list[str]:
       html = self.http.get_text(
           f"{self.BASE_SITE}/tennis/{tour}/",
@@ -299,39 +401,7 @@ class FlashscoreClient:
       return [f"{self.BASE_SITE}{link}" for link in links if "doubles" not in link.lower()]
 
   def fetch_tennis_tournament_history(self) -> list[Event]:
-      events: list[Event] = []
-      seen: set[str] = set()
-
-      for league_name, page_url in self.config.flashscore_tennis_grand_slam_urls.items():
-          for event in self.fetch_archive_results(
-              page_url,
-              league_name,
-              Sport.TENNIS,
-              tennis_filter=True,
-          ):
-              if event.dedupe_key in seen:
-                  continue
-              seen.add(event.dedupe_key)
-              events.append(event)
-
-      if self.config.crawl_tennis_tournaments:
-          for tour in ("atp-singles", "wta-singles"):
-              for page_url in self.discover_tennis_tournament_links(tour):
-                  slug = page_url.rstrip("/").split("/")[-1].replace("-", " ").title()
-                  league_name = f"{tour.upper()}: {slug}"
-                  for event in self.fetch_archive_results(
-                      page_url,
-                      league_name,
-                      Sport.TENNIS,
-                      tennis_filter=True,
-                  ):
-                      if event.dedupe_key in seen:
-                          continue
-                      seen.add(event.dedupe_key)
-                      events.append(event)
-
-      events.sort(key=lambda item: item.start_time, reverse=True)
-      return events
+      return self.fetch_tennis_finished_results(days_back=None)
 
   def fetch_football_archive_history(self) -> list[Event]:
       events: list[Event] = []
@@ -440,8 +510,9 @@ class FlashscoreClient:
   ) -> list[Event]:
       if sport is Sport.TENNIS:
           days = days_back if days_back is not None else self.config.tennis_results_lookback_days
-      else:
-          days = days_back if days_back is not None else self.config.results_lookback_days
+          return self.fetch_tennis_finished_results(days_back=days)
+
+      days = days_back if days_back is not None else self.config.results_lookback_days
       sport_code = "1" if sport is Sport.FOOTBALL else "2"
       events: list[Event] = []
       seen: set[str] = set()
@@ -459,12 +530,6 @@ class FlashscoreClient:
                   continue
               event = self._event_from_fields(fields, sport, skip_pattern_check=True)
               if event is None:
-                  continue
-              if sport is Sport.TENNIS and not self._is_relevant_tennis_league_with(
-                  event.league,
-                  self.config.tennis_history_exclude_patterns,
-                  self.config.tennis_history_tour_patterns,
-              ):
                   continue
               if sport is Sport.FOOTBALL and not self._matches_patterns(
                   event.league,

@@ -102,7 +102,7 @@ def run_history_import(storage: Storage, config: PipelineConfig) -> JobRunResult
             tennis_archive,
             counts=counts,
             fetch_stats=config.archive_fetch_stats,
-            stats_limit=config.archive_stats_limit,
+            stats_limit=config.tennis_archive_stats_limit,
         )
         counts["flashscore_tennis_archive"] = len(tennis_archive)
 
