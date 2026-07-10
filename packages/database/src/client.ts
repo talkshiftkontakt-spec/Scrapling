@@ -1,10 +1,26 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 
-import { readEnv } from "@design-intelligence/shared";
+import { readDatabaseEnv } from "@design-intelligence/shared";
 
-const env = readEnv();
-const pool = new Pool({ connectionString: env.DATABASE_URL });
+let database: ReturnType<typeof drizzle> | null = null;
+let pool: Pool | null = null;
 
-export const db = drizzle(pool);
-export { pool };
+export function getPool(): Pool {
+  if (pool) {
+    return pool;
+  }
+
+  const env = readDatabaseEnv();
+  pool = new Pool({ connectionString: env.DATABASE_URL });
+  return pool;
+}
+
+export function getDb() {
+  if (database) {
+    return database;
+  }
+
+  database = drizzle(getPool());
+  return database;
+}

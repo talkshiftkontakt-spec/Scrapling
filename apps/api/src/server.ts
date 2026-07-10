@@ -1,8 +1,9 @@
+import { readServerEnv } from "@design-intelligence/shared";
+
 import { buildApp } from "./app.js";
-import { readEnv } from "@design-intelligence/shared";
 
 const app = buildApp();
-const env = readEnv();
+const env = readServerEnv();
 
 async function main() {
   await app.listen({ host: "0.0.0.0", port: env.PORT });

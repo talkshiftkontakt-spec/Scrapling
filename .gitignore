@@ -50,6 +50,7 @@ venv.bak/
 # Packages
 node_modules/
 .next/
+*.tsbuildinfo
 *.egg
 *.egg-info
 dist

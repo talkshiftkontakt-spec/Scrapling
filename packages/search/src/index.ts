@@ -1,6 +1,6 @@
 import { QdrantClient } from "@qdrant/js-client-rest";
 
-import { readEnv, type ComponentAsset, type ReferencePack } from "@design-intelligence/shared";
+import { readSearchEnv, type ComponentAsset, type ReferencePack } from "@design-intelligence/shared";
 
 export type SearchTarget = "websites" | "components" | "styles";
 
@@ -18,19 +18,22 @@ export interface SearchQuery {
   filter?: Record<string, unknown>;
 }
 
-const env = readEnv();
-
 export class DesignSearchIndex {
-  private readonly client = new QdrantClient(
-    env.QDRANT_API_KEY
-      ? {
-          url: env.QDRANT_URL,
-          apiKey: env.QDRANT_API_KEY
-        }
-      : {
-          url: env.QDRANT_URL
-        }
-  );
+  private readonly client: QdrantClient;
+
+  public constructor() {
+    const env = readSearchEnv();
+    this.client = new QdrantClient(
+      env.QDRANT_API_KEY
+        ? {
+            url: env.QDRANT_URL,
+            apiKey: env.QDRANT_API_KEY
+          }
+        : {
+            url: env.QDRANT_URL
+          }
+    );
+  }
 
   public async upsertDocuments(collection: SearchTarget, documents: SearchDocument[]): Promise<void> {
     if (documents.length === 0) {
@@ -58,9 +61,7 @@ export class DesignSearchIndex {
       searchRequest.score_threshold = query.minScore;
     }
 
-    const results = await this.client.search(query.collection, searchRequest);
-
-    return results;
+    return this.client.search(query.collection, searchRequest);
   }
 
   public buildComponentPayload(component: ComponentAsset) {

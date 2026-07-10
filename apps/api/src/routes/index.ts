@@ -6,6 +6,7 @@ import {
   discoveredWebsiteSchema,
   screenshotArtifactSchema
 } from "@design-intelligence/shared";
+import { upsertDiscoveredWebsites, storeScreenshotArtifact } from "@design-intelligence/database";
 import {
   ComponentExtractionService,
   DesignCriticService,
@@ -25,20 +26,19 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
 
   app.post("/ingestion/discovered-websites", async (request) => {
     const payload = discoveredWebsiteSchema.array().parse(request.body);
+    const records = await upsertDiscoveredWebsites(payload);
     return {
-      accepted: payload.length,
-      records: payload.map((record: (typeof payload)[number]) => ({
-        normalizedUrl: new URL(record.url).toString(),
-        source: record.source
-      }))
+      accepted: records.length,
+      records
     };
   });
 
   app.post("/ingestion/screenshots", async (request) => {
     const payload = screenshotArtifactSchema.parse(request.body);
+    const screenshot = await storeScreenshotArtifact(payload);
     return {
       accepted: true,
-      screenshot: payload
+      screenshot
     };
   });
 

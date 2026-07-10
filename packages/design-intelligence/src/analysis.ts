@@ -4,12 +4,10 @@ import { GoogleGenAI } from "@google/genai";
 import {
   analysisResultSchema,
   AppError,
-  readEnv,
+  readAiEnv,
   type AnalysisResult,
   type ScreenshotArtifact
 } from "@design-intelligence/shared";
-
-const env = readEnv();
 
 export interface AnalysisInput {
   websiteId: string;
@@ -18,8 +16,14 @@ export interface AnalysisInput {
 }
 
 export class VisualAnalysisService {
-  private readonly openAi = env.OPENAI_API_KEY ? new OpenAI({ apiKey: env.OPENAI_API_KEY }) : null;
-  private readonly gemini = env.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: env.GEMINI_API_KEY }) : null;
+  private readonly openAi: OpenAI | null;
+  private readonly gemini: GoogleGenAI | null;
+
+  public constructor() {
+    const env = readAiEnv();
+    this.openAi = env.OPENAI_API_KEY ? new OpenAI({ apiKey: env.OPENAI_API_KEY }) : null;
+    this.gemini = env.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: env.GEMINI_API_KEY }) : null;
+  }
 
   public async analyze(provider: "openai" | "gemini", input: AnalysisInput): Promise<AnalysisResult> {
     const rawResponse = provider === "openai"
@@ -49,9 +53,7 @@ export class VisualAnalysisService {
         },
         {
           role: "user",
-          content: [
-            { type: "input_text", text: `Analyze screenshot for website ${input.websiteId}: ${input.screenshot.screenshotDriveUrl}` }
-          ]
+          content: [{ type: "input_text", text: `Analyze screenshot for website ${input.websiteId}: ${input.screenshot.screenshotDriveUrl}` }]
         }
       ],
       text: {
