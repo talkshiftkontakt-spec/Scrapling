@@ -89,6 +89,11 @@ export default function HomePage() {
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--ink-soft)]">
           Wpisz temat gramatyki, wybierz język źródeł i pobierz gotowe zadania zapisane w bazie oraz w plikach JSON.
+          Albo przejdź do{" "}
+          <a href="/corpus" className="font-semibold text-[var(--accent)] hover:text-[var(--accent-deep)]">
+            korpusu 20 tematów
+          </a>
+          .
         </p>
       </header>
 

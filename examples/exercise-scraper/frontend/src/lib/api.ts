@@ -1,4 +1,14 @@
-import type { CreateJobInput, Exercise, Job, JobUrl } from "./types";
+import type {
+  CorpusBatchJob,
+  CorpusRunAllResult,
+  CorpusRunInput,
+  CorpusRunTopicResult,
+  CorpusTopic,
+  CreateJobInput,
+  Exercise,
+  Job,
+  JobUrl,
+} from "./types";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "";
 
@@ -75,14 +85,70 @@ export async function fetchJobUrls(jobId: string): Promise<JobUrl[]> {
   return data.urls;
 }
 
+export async function fetchCorpusTopics(): Promise<CorpusTopic[]> {
+  const data = await request<{ topics: CorpusTopic[] }>("/api/corpus/topics");
+  return data.topics;
+}
+
+export async function runCorpusTopic(
+  topicId: string,
+  input: CorpusRunInput,
+): Promise<CorpusRunTopicResult> {
+  return request<CorpusRunTopicResult>(`/api/corpus/topics/${topicId}/run`, {
+    method: "POST",
+    body: JSON.stringify(input),
+  });
+}
+
+export async function runCorpusAll(
+  input: CorpusRunInput,
+  limit: number,
+): Promise<CorpusRunAllResult> {
+  const params = new URLSearchParams({ limit: String(limit) });
+  return request<CorpusRunAllResult>(`/api/corpus/run-all?${params.toString()}`, {
+    method: "POST",
+    body: JSON.stringify(input),
+  });
+}
+
+export async function fetchJobsByIds(jobIds: string[]): Promise<Job[]> {
+  const jobs = await Promise.all(jobIds.map((id) => fetchJob(id)));
+  return jobs;
+}
+
 export function phaseLabel(phase: string): string {
   const labels: Record<string, string> = {
     queued: "Oczekiwanie w kolejce",
     searching: "Wyszukiwanie w internecie",
     urls_found: "Źródła znalezione",
     crawling: "Pobieranie stron",
+    validating: "Walidacja zadań",
+    drive_sync: "Synchronizacja z Google Drive",
     completed: "Zbieranie zakończone",
     failed: "Zbieranie nie powiodło się",
   };
   return labels[phase] ?? phase;
 }
+
+export function levelLabel(level: string): string {
+  return level;
+}
+
+export function groupTopicsByLevel(topics: CorpusTopic[]): Record<string, CorpusTopic[]> {
+  const grouped: Record<string, CorpusTopic[]> = {};
+  for (const topic of topics) {
+    grouped[topic.level] = grouped[topic.level] ?? [];
+    grouped[topic.level].push(topic);
+  }
+  const order = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  const sorted: Record<string, CorpusTopic[]> = {};
+  for (const level of order) {
+    if (grouped[level]) sorted[level] = grouped[level];
+  }
+  for (const level of Object.keys(grouped)) {
+    if (!sorted[level]) sorted[level] = grouped[level];
+  }
+  return sorted;
+}
+
+export type { CorpusBatchJob };

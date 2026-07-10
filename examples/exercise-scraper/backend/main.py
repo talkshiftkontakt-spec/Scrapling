@@ -109,7 +109,7 @@ def list_jobs(limit: int = Query(default=20, ge=1, le=100)) -> dict:
 
 @app.post("/api/jobs", status_code=201)
 def create_job(body: CreateJobBody) -> dict:
-    job = store.create_job(body.model_dump())
+    job = store.create_job({**body.model_dump(), "topic_id": body.topic_id})
     request = ScrapeRequest(
         topic=body.topic,
         lang=body.lang,  # type: ignore[arg-type]
@@ -196,6 +196,7 @@ def run_corpus_topic_endpoint(topic_id: str, body: CorpusRunBody) -> dict:
             "lang": body.lang,
             "provider": body.provider,
             "max_pages": body.max_pages,
+            "topic_id": topic.id,
         }
     )
     request = ScrapeRequest(
@@ -226,6 +227,7 @@ def run_corpus_all(body: CorpusRunBody, limit: int = Query(default=20, ge=1, le=
                 "lang": body.lang,
                 "provider": body.provider,
                 "max_pages": body.max_pages,
+                "topic_id": topic.id,
             }
         )
         request = ScrapeRequest(

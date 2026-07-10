@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Fraunces } from "next/font/google";
 import "./globals.css";
+import { SiteHeader } from "@/components/site-header";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -24,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl" className={`${fraunces.variable} ${dmSans.variable} h-full`}>
-      <body className="min-h-full antialiased">{children}</body>
+      <body className="min-h-full antialiased">
+        <SiteHeader />
+        {children}
+      </body>
     </html>
   );
 }

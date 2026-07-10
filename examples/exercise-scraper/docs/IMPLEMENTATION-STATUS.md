@@ -22,6 +22,13 @@ Last updated: 2026-07-10
 | 3 | Google Drive sync module (`drive/sync.py`, `--sync-drive`) | ✅ (needs credentials) |
 | 4 | `config/dictionary_taxonomy.yaml` stub | ✅ |
 | 9 | Tests (21 passing) | ✅ |
+| 9 | Frontend corpus UI (`/corpus`) | ✅ |
+
+## Web UI
+
+- **`/`** — wyszukiwanie z opcjonalnym `topic_id`, top N, Google Drive
+- **`/corpus`** — siatka 20 tematów, batch, śledzenie postępu
+- **`/jobs/[id]`** — szczegóły zadania, źródła, ćwiczenia
 
 ## Output files per topic run
 

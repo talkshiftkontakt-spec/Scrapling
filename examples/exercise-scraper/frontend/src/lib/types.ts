@@ -8,6 +8,7 @@ export interface Job {
   lang: LangMode;
   provider: ProviderMode;
   max_pages: number;
+  topic_id: string | null;
   status: JobStatus;
   phase: string;
   progress: Record<string, unknown>;
@@ -45,4 +46,38 @@ export interface CreateJobInput {
   max_pages: number;
   topic_en?: string;
   topic_pl?: string;
+  topic_id?: string;
+  top_exercises?: number;
+  sync_drive?: boolean;
+}
+
+export interface CorpusTopic {
+  id: string;
+  level: string;
+  en: string[];
+  pl: string[];
+  validators: string[];
+}
+
+export interface CorpusRunInput {
+  lang: LangMode;
+  provider: ProviderMode;
+  max_pages: number;
+  top_exercises: number;
+  sync_drive: boolean;
+}
+
+export interface CorpusBatchJob {
+  job_id: string;
+  topic_id: string;
+}
+
+export interface CorpusRunTopicResult {
+  job: Job;
+  topic_id: string;
+}
+
+export interface CorpusRunAllResult {
+  queued: number;
+  jobs: CorpusBatchJob[];
 }

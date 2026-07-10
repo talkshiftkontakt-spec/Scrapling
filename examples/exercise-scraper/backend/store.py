@@ -42,6 +42,7 @@ class JobStore:
                     lang TEXT NOT NULL,
                     provider TEXT NOT NULL,
                     max_pages INTEGER NOT NULL,
+                    topic_id TEXT,
                     status TEXT NOT NULL,
                     phase TEXT NOT NULL,
                     progress_json TEXT NOT NULL,
@@ -53,6 +54,9 @@ class JobStore:
                 )
                 """
             )
+            columns = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
+            if "topic_id" not in columns:
+                conn.execute("ALTER TABLE jobs ADD COLUMN topic_id TEXT")
             conn.execute(
                 """
                 CREATE TABLE IF NOT EXISTS exercises (
@@ -93,9 +97,9 @@ class JobStore:
             conn.execute(
                 """
                 INSERT INTO jobs (
-                    id, topic, lang, provider, max_pages, status, phase,
+                    id, topic, lang, provider, max_pages, topic_id, status, phase,
                     progress_json, created_at, updated_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     job_id,
@@ -103,6 +107,7 @@ class JobStore:
                     payload["lang"],
                     payload["provider"],
                     payload["max_pages"],
+                    payload.get("topic_id"),
                     "queued",
                     "queued",
                     json.dumps({"message": "Waiting to start"}),
@@ -266,6 +271,10 @@ def start_job(job_id: str, request: ScrapeRequest) -> None:
                         "exercises_en": result.manifest.exercises_en,
                         "elapsed_seconds": result.elapsed_seconds,
                         "requests_count": result.requests_count,
+                        "top_exercises": request.top_exercises,
+                        "passed": len(result.validation.passed) if result.validation else None,
+                        "rejected": len(result.validation.rejected) if result.validation else None,
+                        "output_dir": str(result.output_dir),
                     }
                 ),
                 finished_at=_utc_now(),

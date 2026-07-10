@@ -23,7 +23,10 @@ export function RecentJobs({ jobs }: RecentJobsProps) {
             >
               <div>
                 <p className="font-semibold text-[var(--ink)]">{job.topic}</p>
-                <p className="text-sm text-[var(--ink-soft)]">{job.lang} · {job.status}</p>
+                <p className="text-sm text-[var(--ink-soft)]">
+                  {job.lang} · {job.status}
+                  {job.topic_id ? ` · ${job.topic_id}` : ""}
+                </p>
               </div>
               <span className="text-sm text-[var(--ink-soft)]">
                 {new Date(job.created_at).toLocaleString("pl-PL")}

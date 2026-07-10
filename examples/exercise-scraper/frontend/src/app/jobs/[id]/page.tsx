@@ -63,10 +63,15 @@ export default function JobPage() {
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-10">
-      <div className="flex items-center justify-between gap-4">
-        <Link href="/" className="text-sm font-semibold text-[var(--accent)] hover:text-[var(--accent-deep)]">
-          Wróć do strony głównej
-        </Link>
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div className="flex flex-wrap gap-4">
+          <Link href="/" className="text-sm font-semibold text-[var(--accent)] hover:text-[var(--accent-deep)]">
+            Szukaj
+          </Link>
+          <Link href="/corpus" className="text-sm font-semibold text-[var(--accent)] hover:text-[var(--accent-deep)]">
+            Korpus
+          </Link>
+        </div>
         {job ? <span className="chip bg-[var(--paper-deep)] text-[var(--ink-soft)]">{phaseLabel(job.phase)}</span> : null}
       </div>
 

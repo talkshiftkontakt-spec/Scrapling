@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import type { CreateJobInput, LangMode, ProviderMode } from "@/lib/types";
+import { useEffect, useState } from "react";
+import { fetchCorpusTopics } from "@/lib/api";
+import type { CorpusTopic, CreateJobInput, LangMode, ProviderMode } from "@/lib/types";
 
 interface SearchPanelProps {
   loading: boolean;
@@ -12,9 +13,28 @@ export function SearchPanel({ loading, onSubmit }: SearchPanelProps) {
   const [topic, setTopic] = useState("Past Simple");
   const [topicPl, setTopicPl] = useState("");
   const [topicEn, setTopicEn] = useState("");
+  const [topicId, setTopicId] = useState("");
+  const [taxonomy, setTaxonomy] = useState<CorpusTopic[]>([]);
   const [lang, setLang] = useState<LangMode>("both");
   const [provider, setProvider] = useState<ProviderMode>("duckduckgo");
   const [maxPages, setMaxPages] = useState(15);
+  const [topN, setTopN] = useState(3);
+  const [syncDrive, setSyncDrive] = useState(false);
+
+  useEffect(() => {
+    fetchCorpusTopics()
+      .then(setTaxonomy)
+      .catch(() => undefined);
+  }, []);
+
+  useEffect(() => {
+    if (!topicId) return;
+    const entry = taxonomy.find((item) => item.id === topicId);
+    if (!entry) return;
+    setTopic(entry.en[0] ?? topic);
+    setTopicEn(entry.en[0] ?? "");
+    setTopicPl(entry.pl[0] ?? "");
+  }, [topicId, taxonomy, topic]);
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -25,6 +45,9 @@ export function SearchPanel({ loading, onSubmit }: SearchPanelProps) {
       max_pages: maxPages,
       topic_pl: topicPl || undefined,
       topic_en: topicEn || undefined,
+      topic_id: topicId || undefined,
+      top_exercises: topN,
+      sync_drive: syncDrive,
     });
   }
 
@@ -34,11 +57,29 @@ export function SearchPanel({ loading, onSubmit }: SearchPanelProps) {
         <p className="chip bg-[var(--sage-soft)] text-[var(--sage)]">Nowe zbieranie</p>
         <h2 className="display-title mt-4 text-4xl text-[var(--ink)]">Wpisz temat gramatyki</h2>
         <p className="mt-3 max-w-2xl text-base leading-7 text-[var(--ink-soft)]">
-          Narzędzie przeszuka internet, pobierze strony z ćwiczeniami i zapisze gotowe zadania w jednym miejscu.
+          Opcjonalnie wybierz temat z taksonomii — włączy walidator gramatyczny i zapis do korpusu.
         </p>
       </div>
 
       <div className="grid gap-5">
+        <label className="grid gap-2">
+          <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
+            Temat z taksonomii (opcjonalnie)
+          </span>
+          <select
+            value={topicId}
+            onChange={(event) => setTopicId(event.target.value)}
+            className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none ring-[var(--accent)] transition focus:ring-2"
+          >
+            <option value="">— dowolna fraza —</option>
+            {taxonomy.map((entry) => (
+              <option key={entry.id} value={entry.id}>
+                {entry.level} · {entry.en[0]} ({entry.id})
+              </option>
+            ))}
+          </select>
+        </label>
+
         <label className="grid gap-2">
           <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
             Główna fraza
@@ -77,7 +118,7 @@ export function SearchPanel({ loading, onSubmit }: SearchPanelProps) {
           </label>
         </div>
 
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           <label className="grid gap-2">
             <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
               Język źródeł
@@ -120,7 +161,31 @@ export function SearchPanel({ loading, onSubmit }: SearchPanelProps) {
               className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none ring-[var(--accent)] transition focus:ring-2"
             />
           </label>
+
+          <label className="grid gap-2">
+            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
+              Top N zadań
+            </span>
+            <input
+              type="number"
+              min={1}
+              max={100}
+              value={topN}
+              onChange={(event) => setTopN(Number(event.target.value))}
+              className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none ring-[var(--accent)] transition focus:ring-2"
+            />
+          </label>
         </div>
+
+        <label className="flex items-center gap-3 rounded-2xl border border-[var(--line)] bg-white px-4 py-3">
+          <input
+            type="checkbox"
+            checked={syncDrive}
+            onChange={(event) => setSyncDrive(event.target.checked)}
+            className="h-5 w-5 accent-[var(--accent)]"
+          />
+          <span className="text-sm font-medium text-[var(--ink)]">Synchronizuj z Google Drive po zakończeniu</span>
+        </label>
       </div>
 
       <button
