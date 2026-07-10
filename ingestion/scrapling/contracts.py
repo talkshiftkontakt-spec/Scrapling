@@ -34,6 +34,48 @@ class DiscoveredWebsiteRecord:
 
 
 @dataclass(slots=True)
+class PageScreenshotArtifactRecord:
+    website_id: str
+    page_url: str
+    page_path: str
+    page_title: str | None
+    page_type: str
+    viewport: str
+    viewport_width: int
+    viewport_height: int
+    screenshot_drive_file_id: str
+    screenshot_drive_url: str
+    thumbnail_drive_file_id: str
+    thumbnail_drive_url: str
+    width: int
+    height: int
+    checksum_sha256: str
+    captured_at: str = field(default_factory=utc_now_iso)
+    metadata: dict[str, Any] = field(default_factory=dict)
+
+    def to_payload(self) -> dict[str, Any]:
+        return {
+            "websiteId": self.website_id,
+            "pageUrl": self.page_url,
+            "pagePath": self.page_path,
+            "pageTitle": self.page_title,
+            "pageType": self.page_type,
+            "viewport": self.viewport,
+            "viewportWidth": self.viewport_width,
+            "viewportHeight": self.viewport_height,
+            "screenshotDriveFileId": self.screenshot_drive_file_id,
+            "screenshotDriveUrl": self.screenshot_drive_url,
+            "thumbnailDriveFileId": self.thumbnail_drive_file_id,
+            "thumbnailDriveUrl": self.thumbnail_drive_url,
+            "width": self.width,
+            "height": self.height,
+            "checksumSha256": self.checksum_sha256,
+            "capturedAt": self.captured_at,
+            "metadata": self.metadata,
+        }
+
+
+@dataclass(slots=True)
 class ScreenshotArtifactRecord:
     website_id: str
     screenshot_drive_file_id: str

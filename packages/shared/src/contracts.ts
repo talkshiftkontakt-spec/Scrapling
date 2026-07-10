@@ -46,6 +46,22 @@ export const discoveredWebsiteSchema = z.object({
   metadata: z.record(z.string(), z.union([z.string(), z.number(), z.boolean()])).default({})
 });
 
+export const viewportKindSchema = z.enum(["desktop", "mobile"]);
+
+export const pageTypeSchema = z.enum([
+  "home",
+  "pricing",
+  "about",
+  "features",
+  "contact",
+  "blog",
+  "login",
+  "dashboard",
+  "legal",
+  "careers",
+  "page"
+]);
+
 export const screenshotArtifactSchema = z.object({
   websiteId: z.string().uuid(),
   screenshotDriveFileId: z.string().min(1),
@@ -58,6 +74,32 @@ export const screenshotArtifactSchema = z.object({
   capturedAt: z.string().datetime(),
   localTempPath: z.string().optional(),
   metadata: z.record(z.string(), z.union([z.string(), z.number(), z.boolean()])).default({})
+});
+
+export const pageScreenshotArtifactSchema = z.object({
+  websiteId: z.string().uuid(),
+  pageUrl: z.string().url(),
+  pagePath: z.string().min(1),
+  pageTitle: z.string().optional(),
+  pageType: pageTypeSchema.default("page"),
+  viewport: viewportKindSchema,
+  viewportWidth: z.number().int().positive(),
+  viewportHeight: z.number().int().positive(),
+  screenshotDriveFileId: z.string().min(1),
+  screenshotDriveUrl: z.string().url(),
+  thumbnailDriveFileId: z.string().min(1),
+  thumbnailDriveUrl: z.string().url(),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  checksumSha256: z.string().min(32),
+  capturedAt: z.string().datetime(),
+  metadata: z.record(z.string(), z.union([z.string(), z.number(), z.boolean()])).default({})
+});
+
+export const pageScreenshotBatchSchema = z.object({
+  websiteId: z.string().uuid(),
+  pages: z.array(pageScreenshotArtifactSchema).min(1),
+  primaryScreenshot: screenshotArtifactSchema.optional()
 });
 
 export const analysisResultSchema = z.object({
@@ -134,6 +176,10 @@ export type ComponentKind = z.infer<typeof componentKindSchema>;
 export type ProviderName = z.infer<typeof providerNameSchema>;
 export type DiscoveredWebsite = z.infer<typeof discoveredWebsiteSchema>;
 export type ScreenshotArtifact = z.infer<typeof screenshotArtifactSchema>;
+export type PageScreenshotArtifact = z.infer<typeof pageScreenshotArtifactSchema>;
+export type PageScreenshotBatch = z.infer<typeof pageScreenshotBatchSchema>;
+export type ViewportKind = z.infer<typeof viewportKindSchema>;
+export type PageType = z.infer<typeof pageTypeSchema>;
 export type AnalysisResult = z.infer<typeof analysisResultSchema>;
 export type QualityScore = z.infer<typeof qualityScoreSchema>;
 export type ComponentAsset = z.infer<typeof componentAssetSchema>;

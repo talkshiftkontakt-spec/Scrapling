@@ -17,6 +17,27 @@ class IngestionApiClient:
         payload = artifact.to_payload() if hasattr(artifact, "to_payload") else artifact
         return self._post_json("/ingestion/screenshots", payload)
 
+    def submit_page_screenshots(
+        self,
+        website_id: str,
+        pages: list[Any],
+        primary_screenshot: Any | None = None,
+    ) -> dict[str, Any]:
+        payload = {
+            "websiteId": website_id,
+            "pages": [page.to_payload() if hasattr(page, "to_payload") else page for page in pages],
+        }
+        if primary_screenshot is not None:
+            payload["primaryScreenshot"] = (
+                primary_screenshot.to_payload()
+                if hasattr(primary_screenshot, "to_payload")
+                else primary_screenshot
+            )
+        return self._post_json("/ingestion/page-screenshots", payload)
+
+    def list_page_screenshots(self, website_id: str) -> list[dict[str, Any]]:
+        return self._get_json(f"/references/{website_id}/pages")
+
     def mark_website_status(self, website_id: str, status: str) -> dict[str, Any]:
         return self._post_json(f"/ingestion/mark-status/{website_id}", {"status": status})
 

@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-import type { PlatformStats, Reference } from "../lib/api";
-import { getApiUrl, localScreenshotPath, resolveAssetUrl } from "../lib/api";
+import type { PageScreenshot, PlatformStats, Reference } from "../lib/api";
+import { fetchPageScreenshots, getApiUrl, localScreenshotPath, resolveAssetUrl } from "../lib/api";
 
 interface ReferenceBrowserProps {
   references: Reference[];
@@ -14,6 +14,9 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
   const [query, setQuery] = useState("");
   const [sourceFilter, setSourceFilter] = useState<string>("all");
   const [selected, setSelected] = useState<Reference | null>(null);
+  const [pageScreenshots, setPageScreenshots] = useState<PageScreenshot[]>([]);
+  const [viewportFilter, setViewportFilter] = useState<"desktop" | "mobile">("desktop");
+  const [pagesLoading, setPagesLoading] = useState(false);
 
   const sources = useMemo(
     () => Array.from(new Set(references.map((item) => item.source).filter(Boolean))) as string[],
@@ -36,6 +39,37 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
     });
   }, [query, references, sourceFilter]);
 
+  const visiblePages = useMemo(() => {
+    const byViewport = pageScreenshots.filter((page) => page.viewport === viewportFilter);
+    const uniquePaths = new Map<string, PageScreenshot>();
+    for (const page of byViewport) {
+      if (!uniquePaths.has(page.pagePath)) {
+        uniquePaths.set(page.pagePath, page);
+      }
+    }
+    return Array.from(uniquePaths.values());
+  }, [pageScreenshots, viewportFilter]);
+
+  useEffect(() => {
+    if (!selected) {
+      setPageScreenshots([]);
+      return;
+    }
+
+    let cancelled = false;
+    setPagesLoading(true);
+    void fetchPageScreenshots(selected.websiteId).then((pages) => {
+      if (!cancelled) {
+        setPageScreenshots(pages);
+        setPagesLoading(false);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [selected]);
+
   useEffect(() => {
     if (!selected) {
       return;
@@ -55,9 +89,10 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
     };
   }, [selected]);
 
-  const screenshotUrl = selected ? resolveAssetUrl(selected.screenshotDriveUrl) : null;
-  const isFullPage = selected?.height ? selected.height > 1200 : false;
-  const pageEstimate = selected?.height ? Math.max(1, Math.round(selected.height / 900)) : null;
+  const fallbackScreenshotUrl = selected ? resolveAssetUrl(selected.screenshotDriveUrl) : null;
+  const hasPageGallery = pageScreenshots.length > 0;
+  const desktopCount = pageScreenshots.filter((page) => page.viewport === "desktop").length;
+  const mobileCount = pageScreenshots.filter((page) => page.viewport === "mobile").length;
 
   return (
     <div className="shell">
@@ -66,7 +101,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
           <p className="eyebrow">Design Intelligence</p>
           <h1 className="title">Reference Library</h1>
           <p className="subtitle">
-            Przeglądaj zaakceptowane referencje designu — screenshoty, scoring i metadane w jednym miejscu.
+            Per-page design references — desktop and mobile viewport screenshots for AI-ready design intelligence.
           </p>
         </div>
 
@@ -85,7 +120,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
       <div className="toolbar">
         <input
           className="search"
-          placeholder="Szukaj po nazwie, URL, stylu, branży…"
+          placeholder="Search by name, URL, style, industry…"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
         />
@@ -95,7 +130,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
             className={`chip ${sourceFilter === "all" ? "chip-active" : ""}`}
             onClick={() => setSourceFilter("all")}
           >
-            Wszystkie
+            All
           </button>
           {sources.map((source) => (
             <button
@@ -111,7 +146,7 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
       </div>
 
       {filtered.length === 0 ? (
-        <div className="empty">Brak referencji pasujących do filtrów.</div>
+        <div className="empty">No references match your filters.</div>
       ) : (
         <section className="grid">
           {filtered.map((reference) => (
@@ -128,13 +163,13 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                   <img src={resolveAssetUrl(reference.thumbnailDriveUrl) ?? ""} alt={reference.websiteName} loading="lazy" />
                 ) : (
                   <div style={{ height: "100%", display: "grid", placeItems: "center", color: "#6b7280" }}>
-                    Brak miniatury
+                    No thumbnail
                   </div>
                 )}
                 {reference.finalScore ? <span className="card-score">{reference.finalScore.toFixed(2)}</span> : null}
-                {reference.height && reference.height > 1200 ? (
+                {reference.pageScreenshotCount ? (
                   <span className="card-score" style={{ right: "auto", left: 12 }}>
-                    {Math.round(reference.height / 1000)}k px
+                    {reference.pageScreenshotCount} shots
                   </span>
                 ) : null}
               </div>
@@ -153,31 +188,24 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
       )}
 
       <section className="storage-panel">
-        <h2>Gdzie są zapisane screenshoty?</h2>
+        <h2>Where screenshots are stored</h2>
         <p>
-          Pliki leżą lokalnie w katalogu projektu <code>DesignLibrary/</code> (zmienna <code>DESIGN_LIBRARY_PATH</code>
-          w <code>.env</code>).
+          Files live in <code>DesignLibrary/</code> (<code>DESIGN_LIBRARY_PATH</code> in <code>.env</code>).
         </p>
         <p>
-          Pełne screenshoty: <code>DesignLibrary/Screenshots/&lt;websiteId&gt;.png</code>
+          Per-page captures: <code>DesignLibrary/PageScreenshots/&lt;websiteId&gt;/desktop|mobile/&lt;page&gt;.png</code>
         </p>
         <p>
-          Miniatury: <code>DesignLibrary/Thumbnails/&lt;websiteId&gt;-thumb.png</code>
+          Primary thumbnail: <code>DesignLibrary/Thumbnails/&lt;websiteId&gt;-thumb.png</code>
         </p>
         <p>
-          API serwuje je pod <code>{getApiUrl()}/static/Screenshots/…</code> i{" "}
-          <code>{getApiUrl()}/static/Thumbnails/…</code>
+          API serves them at <code>{getApiUrl()}/static/PageScreenshots/…</code>
         </p>
-        {selected ? (
-          <p>
-            Przykład dla wybranej karty: <code>{localScreenshotPath(selected.websiteId)}</code>
-          </p>
-        ) : null}
       </section>
 
       {selected ? (
         <div className="modal-backdrop" onClick={() => setSelected(null)} role="presentation">
-          <div className="modal" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
+          <div className="modal modal-wide" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
             <div className="modal-header">
               <div>
                 <p className="eyebrow">{selected.source?.replaceAll("_", " ") ?? "reference"}</p>
@@ -186,44 +214,88 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                 </h2>
                 <p className="subtitle">{selected.canonicalUrl}</p>
               </div>
-              <button type="button" className="modal-close" onClick={() => setSelected(null)} aria-label="Zamknij">
+              <button type="button" className="modal-close" onClick={() => setSelected(null)} aria-label="Close">
                 ×
               </button>
             </div>
 
-            {screenshotUrl ? (
+            {hasPageGallery ? (
               <>
-                {isFullPage ? (
-                  <p className="modal-scroll-hint">
-                    Pełna strona{pageEstimate ? ` · ~${pageEstimate} ekranów` : ""} — przewiń w dół w tym panelu
+                <div className="page-toolbar">
+                  <div className="chip-row">
+                    <button
+                      type="button"
+                      className={`chip ${viewportFilter === "desktop" ? "chip-active" : ""}`}
+                      onClick={() => setViewportFilter("desktop")}
+                    >
+                      Desktop ({desktopCount})
+                    </button>
+                    <button
+                      type="button"
+                      className={`chip ${viewportFilter === "mobile" ? "chip-active" : ""}`}
+                      onClick={() => setViewportFilter("mobile")}
+                    >
+                      Mobile ({mobileCount})
+                    </button>
+                  </div>
+                  <p className="page-toolbar-hint">
+                    {visiblePages.length} page{visiblePages.length === 1 ? "" : "s"} · viewport screenshot (not full scroll)
                   </p>
-                ) : null}
-                <div className="modal-shot-scroll">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={screenshotUrl}
-                    alt={`Screenshot ${selected.websiteName}`}
-                    onClick={() => window.open(screenshotUrl, "_blank", "noopener,noreferrer")}
-                    title="Kliknij aby otworzyć pełny obraz w nowej karcie"
-                  />
+                </div>
+                <div className="page-gallery">
+                  {visiblePages.map((page) => {
+                    const imageUrl = resolveAssetUrl(page.screenshotDriveUrl);
+                    return (
+                      <article key={page.id} className="page-shot-card">
+                        <div
+                          className={`page-shot-frame ${viewportFilter === "mobile" ? "page-shot-frame-mobile" : "page-shot-frame-desktop"}`}
+                        >
+                          {imageUrl ? (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              src={imageUrl}
+                              alt={`${page.pageType} ${page.pagePath}`}
+                              onClick={() => window.open(imageUrl, "_blank", "noopener,noreferrer")}
+                              title="Click to open full image"
+                            />
+                          ) : null}
+                        </div>
+                        <div className="page-shot-meta">
+                          <strong>{page.pageTitle ?? page.pagePath}</strong>
+                          <span className="badge">{page.pageType}</span>
+                          <span className="badge">{page.pagePath}</span>
+                          <span className="badge">
+                            {page.width} × {page.height}px
+                          </span>
+                        </div>
+                      </article>
+                    );
+                  })}
                 </div>
               </>
+            ) : pagesLoading ? (
+              <div className="empty" style={{ margin: "24px" }}>
+                Loading page screenshots…
+              </div>
+            ) : fallbackScreenshotUrl ? (
+              <div className="modal-shot-scroll">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={fallbackScreenshotUrl}
+                  alt={`Screenshot ${selected.websiteName}`}
+                  onClick={() => window.open(fallbackScreenshotUrl, "_blank", "noopener,noreferrer")}
+                  title="Legacy single screenshot — run recapture for per-page shots"
+                />
+              </div>
             ) : null}
 
             <div className="modal-footer">
               <a className="btn btn-primary" href={selected.canonicalUrl} target="_blank" rel="noreferrer">
-                Otwórz stronę
+                Open website
               </a>
-              {screenshotUrl ? (
-                <a className="btn" href={screenshotUrl} target="_blank" rel="noreferrer">
-                  Pełny screenshot (nowa karta)
-                </a>
-              ) : null}
               <span className="badge">Score {selected.finalScore?.toFixed(2) ?? "—"}</span>
-              {selected.width && selected.height ? (
-                <span className="badge">
-                  {selected.width} × {selected.height}px
-                </span>
+              {selected.pageScreenshotCount ? (
+                <span className="badge">{selected.pageScreenshotCount} page screenshots</span>
               ) : null}
               <span className="badge">{localScreenshotPath(selected.websiteId)}</span>
             </div>

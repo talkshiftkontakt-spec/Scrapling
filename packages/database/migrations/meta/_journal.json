@@ -8,6 +8,13 @@
       "when": 1783677502412,
       "tag": "0000_mixed_random",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1783680000000,
+      "tag": "0001_page_screenshots",
+      "breakpoints": true
     }
   ]
 }

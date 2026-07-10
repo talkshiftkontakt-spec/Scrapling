@@ -3,6 +3,7 @@ import { and, desc, eq, inArray, isNull, or, sql } from "drizzle-orm";
 import type {
   AnalysisResult,
   DiscoveredWebsite,
+  PageScreenshotArtifact,
   ProcessingStatus,
   ProviderName,
   QualityScore,
@@ -13,6 +14,7 @@ import { getDb } from "./client.js";
 import {
   analysisRuns,
   categories,
+  pageScreenshots,
   providers,
   qualityScores,
   screenshots,
@@ -60,6 +62,24 @@ export interface ReferenceSummary {
   width: number | null;
   height: number | null;
   capturedAt: string | null;
+  pageScreenshotCount: number | null;
+}
+
+export interface PageScreenshotSummary {
+  id: string;
+  websiteId: string;
+  pageUrl: string;
+  pagePath: string;
+  pageTitle: string | null;
+  pageType: string;
+  viewport: "desktop" | "mobile";
+  viewportWidth: number;
+  viewportHeight: number;
+  screenshotDriveUrl: string;
+  thumbnailDriveUrl: string;
+  width: number;
+  height: number;
+  capturedAt: string;
 }
 
 function normalizeUrl(url: string): string {
@@ -390,6 +410,103 @@ export async function storeScreenshotArtifact(artifact: ScreenshotArtifact) {
   return stored;
 }
 
+export async function storePageScreenshots(
+  websiteId: string,
+  pages: PageScreenshotArtifact[],
+  primaryScreenshot?: ScreenshotArtifact
+) {
+  const db = getDb();
+
+  for (const page of pages) {
+    await db
+      .insert(pageScreenshots)
+      .values({
+        websiteId: page.websiteId,
+        pageUrl: page.pageUrl,
+        pagePath: page.pagePath,
+        pageTitle: page.pageTitle ?? null,
+        pageType: page.pageType,
+        viewport: page.viewport,
+        viewportWidth: page.viewportWidth,
+        viewportHeight: page.viewportHeight,
+        screenshotDriveFileId: page.screenshotDriveFileId,
+        screenshotDriveUrl: page.screenshotDriveUrl,
+        thumbnailDriveFileId: page.thumbnailDriveFileId,
+        thumbnailDriveUrl: page.thumbnailDriveUrl,
+        width: page.width,
+        height: page.height,
+        checksumSha256: page.checksumSha256,
+        capturedAt: new Date(page.capturedAt),
+        metadata: page.metadata
+      })
+      .onConflictDoUpdate({
+        target: [pageScreenshots.websiteId, pageScreenshots.pagePath, pageScreenshots.viewport],
+        set: {
+          pageUrl: page.pageUrl,
+          pageTitle: page.pageTitle ?? null,
+          pageType: page.pageType,
+          viewportWidth: page.viewportWidth,
+          viewportHeight: page.viewportHeight,
+          screenshotDriveFileId: page.screenshotDriveFileId,
+          screenshotDriveUrl: page.screenshotDriveUrl,
+          thumbnailDriveFileId: page.thumbnailDriveFileId,
+          thumbnailDriveUrl: page.thumbnailDriveUrl,
+          width: page.width,
+          height: page.height,
+          checksumSha256: page.checksumSha256,
+          capturedAt: new Date(page.capturedAt),
+          metadata: page.metadata
+        }
+      });
+  }
+
+  if (primaryScreenshot) {
+    await storeScreenshotArtifact(primaryScreenshot);
+  } else {
+    await updateWebsiteStatus(websiteId, "captured");
+  }
+
+  return {
+    websiteId,
+    pageCount: pages.length
+  };
+}
+
+export async function listPageScreenshotsForWebsite(websiteId: string): Promise<PageScreenshotSummary[]> {
+  const db = getDb();
+  const rows = await db
+    .select()
+    .from(pageScreenshots)
+    .where(eq(pageScreenshots.websiteId, websiteId))
+    .orderBy(pageScreenshots.pagePath, pageScreenshots.viewport);
+
+  return rows.map((row) => ({
+    id: row.id,
+    websiteId: row.websiteId,
+    pageUrl: row.pageUrl,
+    pagePath: row.pagePath,
+    pageTitle: row.pageTitle,
+    pageType: row.pageType,
+    viewport: row.viewport,
+    viewportWidth: row.viewportWidth,
+    viewportHeight: row.viewportHeight,
+    screenshotDriveUrl: row.screenshotDriveUrl,
+    thumbnailDriveUrl: row.thumbnailDriveUrl,
+    width: row.width,
+    height: row.height,
+    capturedAt: row.capturedAt.toISOString()
+  }));
+}
+
+export async function getPageScreenshotCount(websiteId: string): Promise<number> {
+  const db = getDb();
+  const [row] = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(pageScreenshots)
+    .where(eq(pageScreenshots.websiteId, websiteId));
+  return row?.count ?? 0;
+}
+
 export async function storeAnalysisRun(analysis: AnalysisResult) {
   const db = getDb();
 
@@ -505,7 +622,8 @@ export async function listReferences(options: { status?: ProcessingStatus; limit
       industry: row.industry,
       width: row.width,
       height: row.height,
-      capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null
+      capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null,
+      pageScreenshotCount: await getPageScreenshotCount(row.websiteId)
     });
   }
 
@@ -553,7 +671,8 @@ export async function getReferenceById(websiteId: string): Promise<ReferenceSumm
     industry: row.industry,
     width: row.width,
     height: row.height,
-    capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null
+    capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null,
+    pageScreenshotCount: await getPageScreenshotCount(row.websiteId)
   };
 }
 

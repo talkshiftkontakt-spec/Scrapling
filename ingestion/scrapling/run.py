@@ -18,7 +18,10 @@ def main() -> int:
     capture_parser = subparsers.add_parser("capture", help="Capture screenshots for pending websites")
     capture_parser.add_argument("--limit", type=int, default=10)
 
-    recapture_parser = subparsers.add_parser("recapture", help="Re-capture full-page screenshots for existing references")
+    recapture_parser = subparsers.add_parser(
+        "recapture",
+        help="Re-capture per-page desktop/mobile viewport screenshots for existing references",
+    )
     recapture_parser.add_argument("--limit", type=int, default=20)
     recapture_parser.add_argument("--status", type=str, default="accepted")
 

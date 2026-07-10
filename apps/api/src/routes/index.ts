@@ -4,6 +4,7 @@ import {
   analysisResultSchema,
   componentAssetSchema,
   discoveredWebsiteSchema,
+  pageScreenshotBatchSchema,
   processingStatusSchema,
   screenshotArtifactSchema
 } from "@design-intelligence/shared";
@@ -12,9 +13,11 @@ import {
   getWebsiteById,
   getWebsiteStats,
   getScreenshotForWebsite,
+  listPageScreenshotsForWebsite,
   listPendingCapture,
   listReferences,
   storeAnalysisRun,
+  storePageScreenshots,
   storeQualityScore,
   storeScreenshotArtifact,
   updateWebsiteStatus,
@@ -69,6 +72,15 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
     return {
       accepted: true,
       screenshot
+    };
+  });
+
+  app.post("/ingestion/page-screenshots", async (request) => {
+    const payload = pageScreenshotBatchSchema.parse(request.body);
+    const result = await storePageScreenshots(payload.websiteId, payload.pages, payload.primaryScreenshot);
+    return {
+      accepted: true,
+      ...result
     };
   });
 
@@ -138,6 +150,15 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
       return reply.status(404).send({ error: "reference_not_found" });
     }
     return reference;
+  });
+
+  app.get("/references/:websiteId/pages", async (request, reply) => {
+    const { websiteId } = request.params as { websiteId: string };
+    const reference = await getReferenceById(websiteId);
+    if (!reference) {
+      return reply.status(404).send({ error: "reference_not_found" });
+    }
+    return listPageScreenshotsForWebsite(websiteId);
   });
 
   app.get("/search/references", async (request) => {

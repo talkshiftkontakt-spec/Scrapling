@@ -38,6 +38,22 @@ export const providerEnum = pgEnum("provider_name", [
   "one_page_love"
 ]);
 
+export const viewportEnum = pgEnum("viewport_kind", ["desktop", "mobile"]);
+
+export const pageTypeEnum = pgEnum("page_type", [
+  "home",
+  "pricing",
+  "about",
+  "features",
+  "contact",
+  "blog",
+  "login",
+  "dashboard",
+  "legal",
+  "careers",
+  "page"
+]);
+
 export const componentKindEnum = pgEnum("component_kind", [
   "hero",
   "navigation",
@@ -123,6 +139,32 @@ export const websiteTags = pgTable("website_tags", {
   tagId: uuid("tag_id").references(() => tags.id, { onDelete: "cascade" }).notNull()
 }, (table) => ({
   pk: primaryKey({ columns: [table.websiteId, table.tagId] })
+}));
+
+export const pageScreenshots = pgTable("page_screenshots", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  websiteId: uuid("website_id").references(() => websites.id, { onDelete: "cascade" }).notNull(),
+  pageUrl: text("page_url").notNull(),
+  pagePath: text("page_path").notNull(),
+  pageTitle: varchar("page_title", { length: 512 }),
+  pageType: pageTypeEnum("page_type").default("page").notNull(),
+  viewport: viewportEnum("viewport").notNull(),
+  viewportWidth: integer("viewport_width").notNull(),
+  viewportHeight: integer("viewport_height").notNull(),
+  screenshotDriveFileId: text("screenshot_drive_file_id").notNull(),
+  screenshotDriveUrl: text("screenshot_drive_url").notNull(),
+  thumbnailDriveFileId: text("thumbnail_drive_file_id").notNull(),
+  thumbnailDriveUrl: text("thumbnail_drive_url").notNull(),
+  width: integer("width").notNull(),
+  height: integer("height").notNull(),
+  checksumSha256: varchar("checksum_sha256", { length: 128 }).notNull(),
+  capturedAt: timestamp("captured_at", { withTimezone: true }).notNull(),
+  metadata: jsonb("metadata").default(sql`'{}'::jsonb`).notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull()
+}, (table) => ({
+  pageScreenshotUniqueIdx: uniqueIndex("page_screenshots_unique_idx").on(table.websiteId, table.pagePath, table.viewport),
+  pageScreenshotWebsiteIdx: index("page_screenshots_website_idx").on(table.websiteId),
+  pageScreenshotTypeIdx: index("page_screenshots_type_idx").on(table.pageType)
 }));
 
 export const screenshots = pgTable("screenshots", {

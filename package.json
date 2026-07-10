@@ -16,6 +16,7 @@
     "references": "curl -s \"http://127.0.0.1:${PORT:-3001}/references?status=accepted&limit=20\"",
     "setup:first-references": "bash scripts/first-references.sh",
     "collect:references": "bash scripts/collect-to-target.sh",
+    "recapture:pages": "bash scripts/recapture-pages.sh",
     "lint": "npm run lint --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present"
