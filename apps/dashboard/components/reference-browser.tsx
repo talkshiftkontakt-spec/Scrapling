@@ -107,12 +107,16 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
 
         <div className="stats">
           <div className="stat">
-            <span className="stat-value">{stats.accepted ?? references.length}</span>
-            <span className="stat-label">Accepted</span>
+            <span className="stat-value">{references.length}</span>
+            <span className="stat-label">References</span>
           </div>
           <div className="stat">
-            <span className="stat-value">{stats.discovered ?? "—"}</span>
-            <span className="stat-label">In queue</span>
+            <span className="stat-value">{stats.withPageScreenshots ?? references.filter((r) => (r.pageScreenshotCount ?? 0) > 0).length}</span>
+            <span className="stat-label">Per-page</span>
+          </div>
+          <div className="stat">
+            <span className="stat-value">{stats.totalPageScreenshots ?? "—"}</span>
+            <span className="stat-label">Screenshots</span>
           </div>
         </div>
       </header>
@@ -168,10 +172,14 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                 )}
                 {reference.finalScore ? <span className="card-score">{reference.finalScore.toFixed(2)}</span> : null}
                 {reference.pageScreenshotCount ? (
-                  <span className="card-score" style={{ right: "auto", left: 12 }}>
-                    {reference.pageScreenshotCount} shots
+                  <span className="card-score" style={{ right: "auto", left: 12, background: "rgba(212,168,83,0.9)", color: "#111" }}>
+                    {reference.pageScreenshotCount} pages
                   </span>
-                ) : null}
+                ) : (
+                  <span className="card-score" style={{ right: "auto", left: 12, opacity: 0.75 }}>
+                    legacy
+                  </span>
+                )}
               </div>
               <div className="card-body">
                 <h2 className="card-title">{reference.websiteName}</h2>

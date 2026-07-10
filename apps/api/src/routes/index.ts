@@ -13,6 +13,7 @@ import {
   getWebsiteById,
   getWebsiteStats,
   getScreenshotForWebsite,
+  listBrowsableReferences,
   listPageScreenshotsForWebsite,
   listPendingCapture,
   listReferences,
@@ -132,8 +133,15 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
   });
 
   app.get("/references", async (request) => {
-    const query = request.query as { status?: "accepted" | "rejected"; limit?: string };
+    const query = request.query as { status?: "accepted" | "rejected" | "captured"; limit?: string; browse?: string };
     const limit = Number(query.limit ?? "50");
+
+    if (query.browse === "1" || query.browse === "true") {
+      return listBrowsableReferences({
+        limit: Number.isFinite(limit) ? Math.min(limit, 200) : 50
+      });
+    }
+
     const options: Parameters<typeof listReferences>[0] = {
       limit: Number.isFinite(limit) ? Math.min(limit, 200) : 50
     };
@@ -154,8 +162,8 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
 
   app.get("/references/:websiteId/pages", async (request, reply) => {
     const { websiteId } = request.params as { websiteId: string };
-    const reference = await getReferenceById(websiteId);
-    if (!reference) {
+    const website = await getWebsiteById(websiteId);
+    if (!website) {
       return reply.status(404).send({ error: "reference_not_found" });
     }
     return listPageScreenshotsForWebsite(websiteId);

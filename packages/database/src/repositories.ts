@@ -576,6 +576,68 @@ export async function storeQualityScore(score: QualityScore) {
   return stored;
 }
 
+export async function listBrowsableReferences(options: { limit?: number } = {}): Promise<ReferenceSummary[]> {
+  const db = getDb();
+  const limit = options.limit ?? 50;
+
+  const rows = await db
+    .select({
+      websiteId: websites.id,
+      websiteName: websites.websiteName,
+      canonicalUrl: websites.canonicalUrl,
+      processingStatus: websites.processingStatus,
+      finalScore: qualityScores.finalScore,
+      thumbnailDriveUrl: screenshots.thumbnailDriveUrl,
+      screenshotDriveUrl: screenshots.screenshotDriveUrl,
+      width: screenshots.width,
+      height: screenshots.height,
+      capturedAt: screenshots.capturedAt,
+      style: analysisRuns.style,
+      industry: analysisRuns.industry,
+      pageScreenshotCount: sql<number>`(
+        SELECT count(*)::int
+        FROM page_screenshots ps
+        WHERE ps.website_id = ${websites.id}
+      )`
+    })
+    .from(websites)
+    .innerJoin(screenshots, eq(screenshots.websiteId, websites.id))
+    .leftJoin(qualityScores, eq(qualityScores.websiteId, websites.id))
+    .leftJoin(analysisRuns, eq(analysisRuns.websiteId, websites.id))
+    .where(inArray(websites.processingStatus, ["captured", "accepted", "analyzed", "scoring_pending"]))
+    .orderBy(
+      desc(sql`(
+        SELECT count(*)::int
+        FROM page_screenshots ps
+        WHERE ps.website_id = ${websites.id}
+      )`),
+      desc(screenshots.capturedAt)
+    )
+    .limit(limit);
+
+  const results: ReferenceSummary[] = [];
+  for (const row of rows) {
+    results.push({
+      websiteId: row.websiteId,
+      websiteName: row.websiteName,
+      canonicalUrl: row.canonicalUrl,
+      processingStatus: row.processingStatus as ProcessingStatus,
+      finalScore: row.finalScore ? Number(row.finalScore) : null,
+      thumbnailDriveUrl: row.thumbnailDriveUrl,
+      screenshotDriveUrl: row.screenshotDriveUrl,
+      source: await getWebsiteSource(row.websiteId),
+      style: row.style,
+      industry: row.industry,
+      width: row.width,
+      height: row.height,
+      capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null,
+      pageScreenshotCount: row.pageScreenshotCount ?? 0
+    });
+  }
+
+  return results;
+}
+
 export async function listReferences(options: { status?: ProcessingStatus; limit?: number } = {}) {
   const db = getDb();
   const limit = options.limit ?? 50;
@@ -686,5 +748,16 @@ export async function getWebsiteStats() {
     .from(websites)
     .groupBy(websites.processingStatus);
 
-  return Object.fromEntries(rows.map((row) => [row.status, row.count]));
+  const [pageRow] = await db
+    .select({
+      websitesWithPageScreenshots: sql<number>`count(distinct ${pageScreenshots.websiteId})::int`,
+      totalPageScreenshots: sql<number>`count(*)::int`
+    })
+    .from(pageScreenshots);
+
+  return {
+    ...Object.fromEntries(rows.map((row) => [row.status, row.count])),
+    withPageScreenshots: pageRow?.websitesWithPageScreenshots ?? 0,
+    totalPageScreenshots: pageRow?.totalPageScreenshots ?? 0
+  };
 }
