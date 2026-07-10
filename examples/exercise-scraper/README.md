@@ -14,6 +14,14 @@ Dostępne jako **CLI**, **API** oraz **aplikacja webowa**.
 
 Po scrapowaniu wynik przechodzi przez walidator jakości i finalnie zostają tylko **3 najwyżej ocenione zadania**.
 
+## Plan: pełny korpus gramatyczny (multi-agent)
+
+Jeśli chcesz scrapować **wszystkie klasy gramatyczne** + słownik, walidatory per temat i sync z **Google Drive**, zobacz:
+
+**[docs/MULTI-AGENT-PLAN.md](docs/MULTI-AGENT-PLAN.md)**
+
+Plan obejmuje: reality check, 9 agentów, layout folderów, fazy 0–5 i kolejność pracy.
+
 ## Instalacja
 
 ```bash
