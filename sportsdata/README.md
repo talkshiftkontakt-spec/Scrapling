@@ -83,7 +83,7 @@ Ligi football-data poza top-5: Szkocja, Holandia, Belgia, Portugalia, Turcja, Gr
 
 Opcja `crawl_tennis_tournaments` (domyślnie `true`) włącza pełny crawl ~220 turniejów (ATP + lustrzane WTA + Challenger) w jobie `history`; job `results` używa szybszej listy z homepage (~120 turniejów).
 
-Import archiwum Flashscore pobiera statystyki meczu dla pierwszych 300 rekordów (`archive_stats_limit`); pełny backfill statystyk dla starszych meczów można powtórzyć z wyższym limitem.
+Import archiwum Flashscore pobiera statystyki meczu bez limitu (`archive_stats_limit=0`). Brakujące statystyki uzupełnij: `sportsdata stats-backfill --sport tennis`.
 
 ## Uwagi
 

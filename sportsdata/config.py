@@ -180,5 +180,6 @@ class PipelineConfig:
     tennis_results_use_homepage_tournaments: bool = True
     crawl_tennis_tournaments: bool = True
     archive_fetch_stats: bool = True
-    archive_stats_limit: int = 300
-    tennis_archive_stats_limit: int = 500
+    archive_stats_limit: int = 0
+    tennis_archive_stats_limit: int = 0
+    stats_backfill_batch_size: int = 0

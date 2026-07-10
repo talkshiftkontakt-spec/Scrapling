@@ -420,7 +420,11 @@ class Storage:
                 ON CONFLICT(dedupe_key) DO UPDATE SET
                     home_score = excluded.home_score,
                     away_score = excluded.away_score,
-                    stats_payload = excluded.stats_payload,
+                    stats_payload = CASE
+                        WHEN excluded.stats_payload IN ('{}', '{"groups": []}')
+                        THEN match_results.stats_payload
+                        ELSE excluded.stats_payload
+                    END,
                     xg_payload = excluded.xg_payload,
                     odds_payload = excluded.odds_payload,
                     external_ids = excluded.external_ids,
@@ -461,6 +465,83 @@ class Storage:
                 item[key] = json.loads(item[key])
             results.append(item)
         return results
+
+    def list_match_results_missing_stats(
+        self,
+        *,
+        source: str = "flashscore",
+        sport: Sport | None = None,
+        limit: int | None = None,
+    ) -> list[dict[str, Any]]:
+        query = """
+            SELECT * FROM match_results
+            WHERE source = ?
+              AND (
+                stats_payload = '{}'
+                OR stats_payload = '{"groups": []}'
+                OR stats_payload NOT LIKE '%"groups":%'
+              )
+        """
+        params: list[Any] = [source]
+        if sport is not None:
+            query += " AND sport = ?"
+            params.append(sport.value)
+        query += " ORDER BY start_time DESC"
+        if limit is not None:
+            query += " LIMIT ?"
+            params.append(limit)
+        with self.connection() as conn:
+            rows = conn.execute(query, params).fetchall()
+        results: list[dict[str, Any]] = []
+        for row in rows:
+            item = dict(row)
+            for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
+                item[key] = json.loads(item[key])
+            if self._stats_payload_has_groups(item.get("stats_payload", {})):
+                continue
+            results.append(item)
+        return results
+
+    @staticmethod
+    def _stats_payload_has_groups(stats_payload: object) -> bool:
+        if not isinstance(stats_payload, dict):
+            return False
+        groups = stats_payload.get("groups")
+        return isinstance(groups, list) and len(groups) > 0
+
+    def update_match_result_stats(self, result_id: int, stats_payload: dict[str, Any]) -> None:
+        now = datetime.now(tz=UTC).isoformat()
+        with self.connection() as conn:
+            conn.execute(
+                """
+                UPDATE match_results
+                SET stats_payload = ?, updated_at = ?
+                WHERE id = ?
+                """,
+                (json.dumps(stats_payload), now, result_id),
+            )
+
+    def count_match_results_with_stats(
+        self,
+        *,
+        sport: Sport | None = None,
+        source: str | None = None,
+    ) -> int:
+        query = """
+            SELECT COUNT(*) AS c FROM match_results
+            WHERE stats_payload LIKE '%"groups":%'
+              AND stats_payload NOT IN ('{}', '{"groups": []}')
+        """
+        params: list[Any] = []
+        if sport is not None:
+            query += " AND sport = ?"
+            params.append(sport.value)
+        if source is not None:
+            query += " AND source = ?"
+            params.append(source)
+        with self.connection() as conn:
+            row = conn.execute(query, params).fetchone()
+        return int(row["c"])
 
     def count_match_results(self, sport: Sport | None = None) -> int:
         query = "SELECT COUNT(*) AS c FROM match_results"

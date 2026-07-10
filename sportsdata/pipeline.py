@@ -13,6 +13,7 @@ from sportsdata.jobs.history_import import run_history_import
 from sportsdata.jobs.odds_snapshot import run_odds_snapshot
 from sportsdata.jobs.pre_match_boost import run_pre_match_boost
 from sportsdata.jobs.results_sync import run_results_sync
+from sportsdata.jobs.stats_backfill import run_stats_backfill
 from sportsdata.jobs.stats_enrich import run_stats_enrich
 from sportsdata.models import JobRunResult, Sport
 
@@ -39,6 +40,9 @@ class SportsDataPipeline:
 
     def run_history_import(self) -> JobRunResult:
         return run_history_import(self.storage, self.config)
+
+    def run_stats_backfill(self, *, sport: Sport | None = Sport.TENNIS) -> JobRunResult:
+        return run_stats_backfill(self.storage, self.config, sport=sport)
 
     def run_backfill(self) -> JobRunResult:
         return run_backfill(self.storage, self.config)

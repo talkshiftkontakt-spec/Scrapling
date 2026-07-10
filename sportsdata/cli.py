@@ -34,6 +34,21 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("backfill", help="Import football-data.co.uk history")
     subparsers.add_parser("results", help="Sync recent finished matches with stats")
     subparsers.add_parser("history", help="Import full historical results (Understat + CSV)")
+    stats_backfill_parser = subparsers.add_parser(
+        "stats-backfill",
+        help="Backfill Flashscore per-match statistics for results missing stats",
+    )
+    stats_backfill_parser.add_argument(
+        "--sport",
+        choices=[sport.value for sport in Sport],
+        default=Sport.TENNIS.value,
+    )
+    stats_backfill_parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Max matches to backfill (default: all missing)",
+    )
     subparsers.add_parser("health", help="Show pipeline health")
 
     export_parser = subparsers.add_parser("export", help="Export upcoming events to JSON")
@@ -89,6 +104,18 @@ def main() -> None:
 
     if args.command == "history":
         print(json.dumps(pipeline.run_history_import().to_dict(), indent=2))
+        return
+
+    if args.command == "stats-backfill":
+        sport = Sport(args.sport)
+        config = PipelineConfig(
+            **{
+                **config_kwargs,
+                **({"stats_backfill_batch_size": args.limit} if args.limit is not None else {}),
+            }
+        )
+        pipeline = SportsDataPipeline(config)
+        print(json.dumps(pipeline.run_stats_backfill(sport=sport).to_dict(), indent=2))
         return
 
     if args.command == "health":
