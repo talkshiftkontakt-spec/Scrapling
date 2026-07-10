@@ -1,0 +1,28 @@
+{
+  "name": "design-intelligence-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Hybrid design intelligence platform built around Scrapling ingestion.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:api": "npm run dev --workspace @design-intelligence/api",
+    "dev:dashboard": "npm run dev --workspace @design-intelligence/dashboard",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}

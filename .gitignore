@@ -48,6 +48,8 @@ venv.bak/
 *.code-workspace
 
 # Packages
+node_modules/
+.next/
 *.egg
 *.egg-info
 dist
