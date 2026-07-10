@@ -17,6 +17,9 @@ class IngestionApiClient:
         payload = artifact.to_payload() if hasattr(artifact, "to_payload") else artifact
         return self._post_json("/ingestion/screenshots", payload)
 
+    def mark_website_status(self, website_id: str, status: str) -> dict[str, Any]:
+        return self._post_json(f"/ingestion/mark-status/{website_id}", {"status": status})
+
     def get_pending_capture(self, limit: int = 20) -> list[dict[str, Any]]:
         return self._get_json(f"/ingestion/pending-capture?limit={limit}")
 

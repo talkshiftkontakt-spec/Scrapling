@@ -231,7 +231,7 @@ export async function claimPendingCapture(limit = 20): Promise<PendingCaptureWeb
         FROM websites w
         LEFT JOIN screenshots s ON s.website_id = w.id
         WHERE s.id IS NULL
-          AND w.processing_status IN ('discovered', 'failed', 'capture_pending')
+          AND w.processing_status IN ('discovered', 'failed')
         ORDER BY w.discovered_at ASC
         LIMIT ${limit}
         FOR UPDATE OF w SKIP LOCKED

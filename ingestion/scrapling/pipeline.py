@@ -44,6 +44,7 @@ class DesignIngestionPipeline:
                 response = self.api_client.submit_screenshot(artifact)
                 results.append({"websiteId": website_id, "url": url, "status": "captured", "response": response})
             except Exception as exc:  # noqa: BLE001 - surface per-site failures in batch output
+                self.api_client.mark_website_status(website_id, "failed")
                 results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
 
         return results

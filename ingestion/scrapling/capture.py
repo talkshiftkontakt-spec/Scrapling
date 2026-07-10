@@ -62,6 +62,9 @@ class ScreenshotCaptureService:
                 disable_resources=False,
             )
 
+            if not screenshot_path.exists():
+                raise RuntimeError(f"Screenshot was not created for {capture_url}")
+
             with Image.open(screenshot_path) as image:
                 dimensions["width"], dimensions["height"] = image.size
                 image.thumbnail((480, 1200))
