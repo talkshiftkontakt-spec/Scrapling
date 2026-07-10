@@ -53,8 +53,13 @@ export interface ReferenceSummary {
   processingStatus: ProcessingStatus;
   finalScore: number | null;
   thumbnailDriveUrl: string | null;
+  screenshotDriveUrl: string | null;
+  source: ProviderName | null;
   style: string | null;
   industry: string | null;
+  width: number | null;
+  height: number | null;
+  capturedAt: string | null;
 }
 
 function normalizeUrl(url: string): string {
@@ -470,6 +475,10 @@ export async function listReferences(options: { status?: ProcessingStatus; limit
       processingStatus: websites.processingStatus,
       finalScore: qualityScores.finalScore,
       thumbnailDriveUrl: screenshots.thumbnailDriveUrl,
+      screenshotDriveUrl: screenshots.screenshotDriveUrl,
+      width: screenshots.width,
+      height: screenshots.height,
+      capturedAt: screenshots.capturedAt,
       style: analysisRuns.style,
       industry: analysisRuns.industry
     })
@@ -481,16 +490,71 @@ export async function listReferences(options: { status?: ProcessingStatus; limit
     .orderBy(desc(sql`COALESCE(${qualityScores.finalScore}, 0)`))
     .limit(limit);
 
-  return rows.map((row) => ({
+  const results: ReferenceSummary[] = [];
+  for (const row of rows) {
+    results.push({
+      websiteId: row.websiteId,
+      websiteName: row.websiteName,
+      canonicalUrl: row.canonicalUrl,
+      processingStatus: row.processingStatus as ProcessingStatus,
+      finalScore: row.finalScore ? Number(row.finalScore) : null,
+      thumbnailDriveUrl: row.thumbnailDriveUrl,
+      screenshotDriveUrl: row.screenshotDriveUrl,
+      source: await getWebsiteSource(row.websiteId),
+      style: row.style,
+      industry: row.industry,
+      width: row.width,
+      height: row.height,
+      capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null
+    });
+  }
+
+  return results;
+}
+
+export async function getReferenceById(websiteId: string): Promise<ReferenceSummary | null> {
+  const db = getDb();
+  const [row] = await db
+    .select({
+      websiteId: websites.id,
+      websiteName: websites.websiteName,
+      canonicalUrl: websites.canonicalUrl,
+      processingStatus: websites.processingStatus,
+      finalScore: qualityScores.finalScore,
+      thumbnailDriveUrl: screenshots.thumbnailDriveUrl,
+      screenshotDriveUrl: screenshots.screenshotDriveUrl,
+      width: screenshots.width,
+      height: screenshots.height,
+      capturedAt: screenshots.capturedAt,
+      style: analysisRuns.style,
+      industry: analysisRuns.industry
+    })
+    .from(websites)
+    .leftJoin(qualityScores, eq(qualityScores.websiteId, websites.id))
+    .leftJoin(screenshots, eq(screenshots.websiteId, websites.id))
+    .leftJoin(analysisRuns, eq(analysisRuns.websiteId, websites.id))
+    .where(eq(websites.id, websiteId))
+    .limit(1);
+
+  if (!row) {
+    return null;
+  }
+
+  return {
     websiteId: row.websiteId,
     websiteName: row.websiteName,
     canonicalUrl: row.canonicalUrl,
     processingStatus: row.processingStatus as ProcessingStatus,
     finalScore: row.finalScore ? Number(row.finalScore) : null,
     thumbnailDriveUrl: row.thumbnailDriveUrl,
+    screenshotDriveUrl: row.screenshotDriveUrl,
+    source: await getWebsiteSource(row.websiteId),
     style: row.style,
-    industry: row.industry
-  })) satisfies ReferenceSummary[];
+    industry: row.industry,
+    width: row.width,
+    height: row.height,
+    capturedAt: row.capturedAt ? row.capturedAt.toISOString() : null
+  };
 }
 
 export async function getWebsiteStats() {

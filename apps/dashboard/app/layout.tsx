@@ -1,11 +1,27 @@
 import type { ReactNode } from "react";
+import { DM_Sans, Fraunces } from "next/font/google";
+
+import "./globals.css";
+
+const sans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans"
+});
+
+const display = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-display"
+});
+
+export const metadata = {
+  title: "Design Intelligence — Reference Library",
+  description: "Premium dashboard for browsing curated design references"
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body style={{ margin: 0, fontFamily: "Inter, Arial, sans-serif", background: "#0b1020", color: "#f4f7fb" }}>
-        {children}
-      </body>
+    <html lang="pl" className={`${sans.variable} ${display.variable}`}>
+      <body style={{ fontFamily: "var(--font-sans), system-ui, sans-serif" }}>{children}</body>
     </html>
   );
 }

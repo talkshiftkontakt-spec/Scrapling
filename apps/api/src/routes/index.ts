@@ -8,6 +8,7 @@ import {
   screenshotArtifactSchema
 } from "@design-intelligence/shared";
 import {
+  getReferenceById,
   getWebsiteById,
   getWebsiteStats,
   getScreenshotForWebsite,
@@ -122,12 +123,21 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
     const query = request.query as { status?: "accepted" | "rejected"; limit?: string };
     const limit = Number(query.limit ?? "50");
     const options: Parameters<typeof listReferences>[0] = {
-      limit: Number.isFinite(limit) ? limit : 50
+      limit: Number.isFinite(limit) ? Math.min(limit, 200) : 50
     };
     if (query.status) {
       options.status = query.status;
     }
     return listReferences(options);
+  });
+
+  app.get("/references/:websiteId", async (request, reply) => {
+    const { websiteId } = request.params as { websiteId: string };
+    const reference = await getReferenceById(websiteId);
+    if (!reference) {
+      return reply.status(404).send({ error: "reference_not_found" });
+    }
+    return reference;
   });
 
   app.get("/search/references", async (request) => {
