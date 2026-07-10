@@ -22,7 +22,7 @@ export class DeduplicationService {
   }
 
   public compareByAnalysis(left: AnalysisResult, right: AnalysisResult): DuplicateCandidate | null {
-    const overlap = left.designKeywords.filter((keyword) => right.designKeywords.includes(keyword)).length;
+    const overlap = left.designKeywords.filter((keyword: string) => right.designKeywords.includes(keyword)).length;
     const score = overlap / Math.max(left.designKeywords.length, right.designKeywords.length, 1);
 
     if (score < 0.6) {

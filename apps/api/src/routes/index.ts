@@ -1,6 +1,11 @@
 import type { FastifyInstance } from "fastify";
 
-import { componentAssetSchema, discoveredWebsiteSchema, screenshotArtifactSchema } from "@design-intelligence/shared";
+import {
+  analysisResultSchema,
+  componentAssetSchema,
+  discoveredWebsiteSchema,
+  screenshotArtifactSchema
+} from "@design-intelligence/shared";
 import {
   ComponentExtractionService,
   DesignCriticService,
@@ -9,7 +14,7 @@ import {
   RetrievalService
 } from "@design-intelligence/design-intelligence";
 
-export function registerRoutes(app: FastifyInstance): void {
+export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
   const componentExtractionService = new ComponentExtractionService();
   const specificationService = new DesignSpecificationService();
   const criticService = new DesignCriticService();
@@ -22,7 +27,10 @@ export function registerRoutes(app: FastifyInstance): void {
     const payload = discoveredWebsiteSchema.array().parse(request.body);
     return {
       accepted: payload.length,
-      records: payload.map((record) => ({ normalizedUrl: new URL(record.url).toString(), source: record.source }))
+      records: payload.map((record: (typeof payload)[number]) => ({
+        normalizedUrl: new URL(record.url).toString(),
+        source: record.source
+      }))
     };
   });
 
@@ -45,7 +53,7 @@ export function registerRoutes(app: FastifyInstance): void {
 
   app.post("/components/extract-preview", async (request) => {
     const body = request.body as { analysis: unknown; screenshot: unknown };
-    const analysis = body.analysis as Parameters<ComponentExtractionService["extract"]>[0];
+    const analysis = analysisResultSchema.parse(body.analysis);
     const screenshot = screenshotArtifactSchema.parse(body.screenshot);
     const components = componentExtractionService.extract(analysis, screenshot);
 

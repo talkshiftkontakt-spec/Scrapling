@@ -5,13 +5,12 @@ import { createLogger, readEnv } from "@design-intelligence/shared";
 import { registerRoutes } from "./routes/index.js";
 
 export function buildApp() {
-  const env = readEnv();
   const logger = createLogger("design-intelligence-api");
 
-  const app = Fastify({ logger });
-  app.decorate("appEnv", env);
+  const app = Fastify({ loggerInstance: logger });
+  readEnv();
 
-  registerRoutes(app);
+  registerRoutes(app as never);
 
   return app;
 }

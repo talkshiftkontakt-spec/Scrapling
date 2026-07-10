@@ -21,10 +21,16 @@ export interface SearchQuery {
 const env = readEnv();
 
 export class DesignSearchIndex {
-  private readonly client = new QdrantClient({
-    url: env.QDRANT_URL,
-    apiKey: env.QDRANT_API_KEY
-  });
+  private readonly client = new QdrantClient(
+    env.QDRANT_API_KEY
+      ? {
+          url: env.QDRANT_URL,
+          apiKey: env.QDRANT_API_KEY
+        }
+      : {
+          url: env.QDRANT_URL
+        }
+  );
 
   public async upsertDocuments(collection: SearchTarget, documents: SearchDocument[]): Promise<void> {
     if (documents.length === 0) {
@@ -42,12 +48,17 @@ export class DesignSearchIndex {
   }
 
   public async search(query: SearchQuery) {
-    const results = await this.client.search(query.collection, {
+    const searchRequest: Parameters<QdrantClient["search"]>[1] = {
       vector: query.vector,
       limit: query.limit ?? 8,
-      score_threshold: query.minScore,
       filter: query.filter as never
-    });
+    };
+
+    if (query.minScore !== undefined) {
+      searchRequest.score_threshold = query.minScore;
+    }
+
+    const results = await this.client.search(query.collection, searchRequest);
 
     return results;
   }
