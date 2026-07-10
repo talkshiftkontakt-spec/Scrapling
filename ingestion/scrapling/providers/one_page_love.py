@@ -8,22 +8,33 @@ from ingestion.scrapling.contracts import DiscoveredWebsiteRecord
 from ingestion.scrapling.providers.base import SourceProvider
 from ingestion.scrapling.url_resolver import extract_title_from_url, resolve_one_page_love_visit, strip_tracking_params
 
+SITEMAP_URLS = [
+    "https://onepagelove.com/post_part1.xml",
+    "https://onepagelove.com/post_part2.xml",
+]
+
 
 class OnePageLoveProvider(SourceProvider):
     slug = "one_page_love"
     source_url = "https://onepagelove.com/feed"
+    max_posts = 80
 
     def discover(self) -> list[DiscoveredWebsiteRecord]:
-        page = Fetcher.get(self.source_url, timeout=30000)
-        content = page.body.decode("utf-8", errors="ignore") if isinstance(page.body, bytes) else str(page.body)
-        detail_urls = []
+        detail_urls: list[str] = []
         seen: set[str] = set()
 
-        for match in re.findall(r"<link>(https://onepagelove\.com/[a-z0-9-]+)</link>", content):
-            if match in seen or match.endswith("onepagelove.com"):
-                continue
-            seen.add(match)
-            detail_urls.append(match)
+        for sitemap_url in SITEMAP_URLS:
+            page = Fetcher.get(sitemap_url, timeout=30000)
+            content = page.body.decode("utf-8", errors="ignore") if isinstance(page.body, bytes) else str(page.body)
+            for match in re.findall(r"<loc>(https://onepagelove\.com/[a-z0-9-]+)</loc>", content):
+                if match in seen:
+                    continue
+                seen.add(match)
+                detail_urls.append(match)
+                if len(detail_urls) >= self.max_posts:
+                    break
+            if len(detail_urls) >= self.max_posts:
+                break
 
         records: list[DiscoveredWebsiteRecord] = []
         for detail_url in detail_urls:
