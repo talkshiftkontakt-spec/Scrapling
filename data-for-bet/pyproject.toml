@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-for-bet"
+version = "1.0.0"
+description = "Sports data API and scraping pipeline for football and tennis betting analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "curl_cffi>=0.15.0",
+    "scrapling @ git+https://github.com/talkshiftkontakt-spec/Scrapling.git@cursor/tennis-data-fix-d6f1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+sportsdata = "sportsdata.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sportsdata*"]
+
+[tool.setuptools.package-data]
+sportsdata = ["api/dashboard/*", "api/dashboard/**/*"]
