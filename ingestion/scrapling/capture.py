@@ -4,22 +4,23 @@ import hashlib
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+from PIL import Image
 from scrapling.fetchers import DynamicFetcher
 
 from ingestion.scrapling.contracts import ScreenshotArtifactRecord
-from ingestion.scrapling.drive import GoogleDriveStorage
+from ingestion.scrapling.storage import create_storage
 
 
 class ScreenshotCaptureService:
-    def __init__(self, drive_storage: GoogleDriveStorage | None = None) -> None:
-        self.drive_storage = drive_storage or GoogleDriveStorage()
+    def __init__(self) -> None:
+        self.storage = create_storage()
 
     def capture(self, website_id: str, url: str) -> ScreenshotArtifactRecord:
         with TemporaryDirectory(prefix="design-intelligence-") as temp_dir:
             temp_dir_path = Path(temp_dir)
-            screenshot_path = temp_dir_path / "screenshot.png"
-            thumbnail_path = temp_dir_path / "thumbnail.png"
-            captured: dict[str, int] = {"width": 1440, "height": 4000}
+            screenshot_path = temp_dir_path / f"{website_id}.png"
+            thumbnail_path = temp_dir_path / f"{website_id}-thumb.png"
+            dimensions = {"width": 1440, "height": 900}
 
             def page_action(page) -> None:
                 page.set_viewport_size({"width": 1440, "height": 1600})
@@ -48,16 +49,20 @@ class ScreenshotCaptureService:
                 url,
                 headless=True,
                 network_idle=True,
-                timeout=45000,
+                timeout=60000,
                 page_action=page_action,
                 disable_resources=False,
             )
 
+            with Image.open(screenshot_path) as image:
+                dimensions["width"], dimensions["height"] = image.size
+                image.thumbnail((480, 1200))
+                image.save(thumbnail_path, format="PNG", optimize=True)
+
             screenshot_bytes = screenshot_path.read_bytes()
-            thumbnail_path.write_bytes(screenshot_bytes)
             checksum = hashlib.sha256(screenshot_bytes).hexdigest()
-            screenshot_upload = self.drive_storage.upload_file(screenshot_path, "Screenshots")
-            thumbnail_upload = self.drive_storage.upload_file(thumbnail_path, "Thumbnails")
+            screenshot_upload = self.storage.upload_file(screenshot_path, "Screenshots", f"{website_id}.png")
+            thumbnail_upload = self.storage.upload_file(thumbnail_path, "Thumbnails", f"{website_id}-thumb.png")
 
             return ScreenshotArtifactRecord(
                 website_id=website_id,
@@ -65,8 +70,8 @@ class ScreenshotCaptureService:
                 screenshot_drive_url=screenshot_upload.web_url,
                 thumbnail_drive_file_id=thumbnail_upload.file_id,
                 thumbnail_drive_url=thumbnail_upload.web_url,
-                width=captured["width"],
-                height=captured["height"],
+                width=dimensions["width"],
+                height=dimensions["height"],
                 checksum_sha256=checksum,
-                metadata={"sourceUrl": url},
+                metadata={"sourceUrl": url, "storageMode": "local"},
             )

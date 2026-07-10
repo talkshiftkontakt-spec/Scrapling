@@ -5,7 +5,10 @@ const baseEnvSchema = z.object({
 });
 
 const serverEnvSchema = baseEnvSchema.extend({
-  PORT: z.coerce.number().int().positive().default(3001)
+  PORT: z.coerce.number().int().positive().default(3001),
+  STORAGE_MODE: z.enum(["local", "drive"]).default("local"),
+  DESIGN_LIBRARY_PATH: z.string().default("./DesignLibrary"),
+  STATIC_BASE_URL: z.string().url().default("http://127.0.0.1:3001/static")
 });
 
 const databaseEnvSchema = baseEnvSchema.extend({

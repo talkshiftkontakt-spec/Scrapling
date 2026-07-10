@@ -62,7 +62,7 @@ export const screenshotArtifactSchema = z.object({
 
 export const analysisResultSchema = z.object({
   websiteId: z.string().uuid(),
-  modelProvider: z.enum(["openai", "gemini"]),
+  modelProvider: z.enum(["openai", "gemini", "heuristic"]),
   model: z.string().min(1),
   style: z.string().min(1),
   industry: z.string().min(1),
