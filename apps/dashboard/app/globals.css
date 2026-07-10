@@ -301,7 +301,9 @@ button {
 .modal {
   width: min(1100px, 100%);
   max-height: 92vh;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   border-radius: 22px;
   border: 1px solid var(--border-strong);
   background: var(--bg-elevated);
@@ -313,7 +315,35 @@ button {
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
-  padding: 22px 24px 0;
+  padding: 22px 24px 12px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.modal-scroll-hint {
+  flex-shrink: 0;
+  padding: 10px 24px 0;
+  font-size: 13px;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-scroll-hint::after {
+  content: "↓";
+  animation: bounce-down 1.4s ease-in-out infinite;
+}
+
+@keyframes bounce-down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
 }
 
 .modal-close {
@@ -325,17 +355,24 @@ button {
   border-radius: 12px;
 }
 
-.modal-shot {
-  margin: 18px 24px 0;
+.modal-shot-scroll {
+  flex: 1;
+  min-height: 0;
+  margin: 12px 24px 0;
   border-radius: 16px;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   border: 1px solid var(--border);
   background: #0c0e15;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
 }
 
-.modal-shot img {
+.modal-shot-scroll img {
   width: 100%;
+  height: auto;
   display: block;
+  cursor: zoom-in;
 }
 
 .modal-footer {
@@ -343,6 +380,9 @@ button {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  flex-shrink: 0;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
 }
 
 .btn {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import type { PlatformStats, Reference } from "../lib/api";
 import { getApiUrl, localScreenshotPath, resolveAssetUrl } from "../lib/api";
@@ -35,6 +35,29 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
       return matchesQuery && matchesSource;
     });
   }, [query, references, sourceFilter]);
+
+  useEffect(() => {
+    if (!selected) {
+      return;
+    }
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setSelected(null);
+      }
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [selected]);
+
+  const screenshotUrl = selected ? resolveAssetUrl(selected.screenshotDriveUrl) : null;
+  const isFullPage = selected?.height ? selected.height > 1200 : false;
+  const pageEstimate = selected?.height ? Math.max(1, Math.round(selected.height / 900)) : null;
 
   return (
     <div className="shell">
@@ -109,6 +132,11 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
                   </div>
                 )}
                 {reference.finalScore ? <span className="card-score">{reference.finalScore.toFixed(2)}</span> : null}
+                {reference.height && reference.height > 1200 ? (
+                  <span className="card-score" style={{ right: "auto", left: 12 }}>
+                    {Math.round(reference.height / 1000)}k px
+                  </span>
+                ) : null}
               </div>
               <div className="card-body">
                 <h2 className="card-title">{reference.websiteName}</h2>
@@ -163,20 +191,32 @@ export function ReferenceBrowser({ references, stats }: ReferenceBrowserProps) {
               </button>
             </div>
 
-            {selected.screenshotDriveUrl ? (
-              <div className="modal-shot">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={resolveAssetUrl(selected.screenshotDriveUrl) ?? ""} alt={`Screenshot ${selected.websiteName}`} />
-              </div>
+            {screenshotUrl ? (
+              <>
+                {isFullPage ? (
+                  <p className="modal-scroll-hint">
+                    Pełna strona{pageEstimate ? ` · ~${pageEstimate} ekranów` : ""} — przewiń w dół w tym panelu
+                  </p>
+                ) : null}
+                <div className="modal-shot-scroll">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={screenshotUrl}
+                    alt={`Screenshot ${selected.websiteName}`}
+                    onClick={() => window.open(screenshotUrl, "_blank", "noopener,noreferrer")}
+                    title="Kliknij aby otworzyć pełny obraz w nowej karcie"
+                  />
+                </div>
+              </>
             ) : null}
 
             <div className="modal-footer">
               <a className="btn btn-primary" href={selected.canonicalUrl} target="_blank" rel="noreferrer">
                 Otwórz stronę
               </a>
-              {selected.screenshotDriveUrl ? (
-                <a className="btn" href={resolveAssetUrl(selected.screenshotDriveUrl) ?? "#"} target="_blank" rel="noreferrer">
-                  Otwórz screenshot
+              {screenshotUrl ? (
+                <a className="btn" href={screenshotUrl} target="_blank" rel="noreferrer">
+                  Pełny screenshot (nowa karta)
                 </a>
               ) : null}
               <span className="badge">Score {selected.finalScore?.toFixed(2) ?? "—"}</span>
