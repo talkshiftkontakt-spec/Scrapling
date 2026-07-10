@@ -77,7 +77,7 @@ pip install -e "examples/exercise-scraper[drive]"
 | Priority | Item |
 |----------|------|
 | High | More topic validators (present_continuous, articles, modals, …) |
-| High | Frontend UI for corpus topics + batch run |
+| High | Frontend UI for corpus topics + batch run | ✅ done (`/corpus`) |
 | Medium | SQLite corpus index (topic, hash, score) across runs |
 | Medium | Cross-crawl dedup in batch mode |
 | Medium | Dictionary scraper package (separate from grammar) |
