@@ -48,7 +48,7 @@ def create_app(config: PipelineConfig | None = None, api_settings: ApiSettings |
         description="Football and tennis data API for upcoming fixtures, prematch stats, and played match history.",
     )
     pipeline = SportsDataPipeline(config)
-    dashboard_dir = Path(__file__).resolve().parent / "dashboard"
+    dashboard_dir = Path(__file__).resolve().parent.parent / "dashboard"
 
     app.add_middleware(
         CORSMiddleware,
