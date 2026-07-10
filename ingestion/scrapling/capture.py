@@ -9,12 +9,12 @@ from scrapling.fetchers import DynamicFetcher
 
 from ingestion.scrapling.contracts import ScreenshotArtifactRecord
 from ingestion.scrapling.storage import create_storage
+from ingestion.scrapling.url_resolver import resolve_capture_url
 
 # Full-page design screenshots can exceed Pillow's default bomb threshold.
 Image.MAX_IMAGE_PIXELS = 300_000_000
 
-
-from ingestion.scrapling.url_resolver import resolve_capture_url
+MAX_CAPTURE_HEIGHT_PX = 14_000
 
 
 class ScreenshotCaptureService:
@@ -32,22 +32,23 @@ class ScreenshotCaptureService:
             def page_action(page) -> None:
                 page.set_viewport_size({"width": 1440, "height": 1600})
                 page.evaluate(
-                    """
-                    async () => {
-                      await new Promise((resolve) => {
+                    f"""
+                    async () => {{
+                      const maxHeight = {MAX_CAPTURE_HEIGHT_PX};
+                      await new Promise((resolve) => {{
                         let totalHeight = 0;
-                        const distance = 600;
-                        const timer = setInterval(() => {
-                          const scrollHeight = document.body.scrollHeight;
+                        const distance = 800;
+                        const timer = setInterval(() => {{
+                          const scrollHeight = Math.min(document.body.scrollHeight, maxHeight);
                           window.scrollBy(0, distance);
                           totalHeight += distance;
-                          if (totalHeight >= scrollHeight) {
+                          if (totalHeight >= scrollHeight) {{
                             clearInterval(timer);
                             resolve();
-                          }
-                        }, 150);
-                      });
-                    }
+                          }}
+                        }}, 100);
+                      }});
+                    }}
                     """
                 )
                 page.screenshot(path=str(screenshot_path), full_page=True)

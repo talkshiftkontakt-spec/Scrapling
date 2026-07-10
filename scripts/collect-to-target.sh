@@ -6,7 +6,7 @@ cd "$ROOT"
 
 TARGET="${1:-100}"
 DISCOVER_BATCH="${DISCOVER_BATCH:-120}"
-CAPTURE_BATCH="${CAPTURE_BATCH:-10}"
+CAPTURE_BATCH="${CAPTURE_BATCH:-15}"
 
 set -a
 source .env
@@ -18,7 +18,11 @@ accepted_count() {
 }
 
 pending_capture_count() {
-  curl -sf "http://127.0.0.1:${PORT:-3001}/ingestion/pending-capture?limit=1" | python3 -c "import json,sys; data=json.load(sys.stdin); print(len(data))"
+  curl -sf "http://127.0.0.1:${PORT:-3001}/ingestion/pending-capture?limit=250" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))"
+}
+
+discovered_count() {
+  curl -sf "http://127.0.0.1:${PORT:-3001}/stats" | python3 -c "import json,sys; print(json.load(sys.stdin).get('discovered', 0))"
 }
 
 echo "==> Target: ${TARGET} accepted references"
@@ -26,7 +30,7 @@ echo "==> Target: ${TARGET} accepted references"
 current="$(accepted_count)"
 echo "==> Current accepted: ${current}"
 
-if [ "$current" -lt "$TARGET" ]; then
+if [ "$current" -lt "$TARGET" ] && [ "$(discovered_count)" -lt 20 ]; then
   echo "==> Discovering up to ${DISCOVER_BATCH} websites"
   python3 -m ingestion.scrapling.run discover --limit "$DISCOVER_BATCH"
 fi
