@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import os
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -15,6 +16,7 @@ from ingestion.scrapling.url_resolver import resolve_capture_url
 Image.MAX_IMAGE_PIXELS = 300_000_000
 
 MAX_CAPTURE_HEIGHT_PX = 14_000
+VIEWPORT_CAPTURE = os.environ.get("CAPTURE_MODE", "viewport").lower() != "fullpage"
 
 
 class ScreenshotCaptureService:
@@ -30,7 +32,11 @@ class ScreenshotCaptureService:
             dimensions = {"width": 1440, "height": 900}
 
             def page_action(page) -> None:
-                page.set_viewport_size({"width": 1440, "height": 1600})
+                page.set_viewport_size({"width": 1440, "height": 900})
+                if VIEWPORT_CAPTURE:
+                    page.screenshot(path=str(screenshot_path), full_page=False)
+                    return
+
                 page.evaluate(
                     f"""
                     async () => {{
@@ -57,7 +63,7 @@ class ScreenshotCaptureService:
                 capture_url,
                 headless=True,
                 network_idle=True,
-                timeout=45000,
+                timeout=30000,
                 page_action=page_action,
                 disable_resources=False,
             )
