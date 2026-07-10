@@ -221,39 +221,49 @@ export async function upsertDiscoveredWebsites(records: DiscoveredWebsite[]) {
   return acceptedRecords;
 }
 
-export async function listPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
+export async function claimPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
   const db = getDb();
-  const rows = await db
-    .select({
-      websiteId: websites.id,
-      websiteName: websites.websiteName,
-      canonicalUrl: websites.canonicalUrl,
-      normalizedUrl: websites.normalizedUrl
-    })
-    .from(websites)
-    .leftJoin(screenshots, eq(screenshots.websiteId, websites.id))
-    .where(
-      and(
-        isNull(screenshots.id),
-        inArray(websites.processingStatus, ["discovered", "capture_pending", "failed"])
+
+  const claimed = await db.transaction(async (tx) => {
+    const picked = await tx.execute<{ id: string; website_name: string; canonical_url: string; normalized_url: string }>(sql`
+      WITH picked AS (
+        SELECT w.id
+        FROM websites w
+        LEFT JOIN screenshots s ON s.website_id = w.id
+        WHERE s.id IS NULL
+          AND w.processing_status IN ('discovered', 'failed', 'capture_pending')
+        ORDER BY w.discovered_at ASC
+        LIMIT ${limit}
+        FOR UPDATE OF w SKIP LOCKED
       )
-    )
-    .limit(limit);
+      UPDATE websites w
+      SET processing_status = 'capture_pending', updated_at = NOW()
+      FROM picked
+      WHERE w.id = picked.id
+      RETURNING w.id, w.website_name, w.canonical_url, w.normalized_url
+    `);
+
+    return picked.rows;
+  });
 
   const results: PendingCaptureWebsite[] = [];
-  for (const row of rows) {
+  for (const row of claimed) {
     results.push({
-      websiteId: row.websiteId,
-      websiteName: row.websiteName,
-      canonicalUrl: row.canonicalUrl,
-      normalizedUrl: row.normalizedUrl,
-      source: await getWebsiteSource(row.websiteId),
-      categories: await getWebsiteCategories(row.websiteId),
-      tags: await getWebsiteTags(row.websiteId)
+      websiteId: row.id,
+      websiteName: row.website_name,
+      canonicalUrl: row.canonical_url,
+      normalizedUrl: row.normalized_url,
+      source: await getWebsiteSource(row.id),
+      categories: await getWebsiteCategories(row.id),
+      tags: await getWebsiteTags(row.id)
     });
   }
 
   return results;
+}
+
+export async function listPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
+  return claimPendingCapture(limit);
 }
 
 export async function listPendingProcessing(limit = 20): Promise<PendingProcessingWebsite[]> {
