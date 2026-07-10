@@ -213,20 +213,95 @@ class Storage:
             )
             return cursor.rowcount
 
-    def list_upcoming_events(self, sport: Sport | None = None) -> list[dict[str, Any]]:
+    def list_upcoming_events(
+        self,
+        sport: Sport | None = None,
+        *,
+        league: str | None = None,
+        participant: str | None = None,
+        from_date: datetime | None = None,
+        to_date: datetime | None = None,
+        limit: int | None = None,
+        offset: int = 0,
+    ) -> list[dict[str, Any]]:
         query = """
             SELECT * FROM events
             WHERE datetime(start_time) >= datetime('now')
               AND status IN ('scheduled', 'live', 'unknown')
         """
         params: list[Any] = []
-        if sport is not None:
-            query += " AND sport = ?"
-            params.append(sport.value)
+        query, params = self._append_event_filters(
+            query,
+            params,
+            sport=sport,
+            league=league,
+            participant=participant,
+            from_date=from_date,
+            to_date=to_date,
+        )
         query += " ORDER BY start_time ASC"
+        if limit is not None:
+            query += " LIMIT ? OFFSET ?"
+            params.extend([limit, offset])
         with self.connection() as conn:
             rows = conn.execute(query, params).fetchall()
         return [self._row_to_event_dict(row) for row in rows]
+
+    def count_upcoming_events(
+        self,
+        sport: Sport | None = None,
+        *,
+        league: str | None = None,
+        participant: str | None = None,
+        from_date: datetime | None = None,
+        to_date: datetime | None = None,
+    ) -> int:
+        query = """
+            SELECT COUNT(*) AS c FROM events
+            WHERE datetime(start_time) >= datetime('now')
+              AND status IN ('scheduled', 'live', 'unknown')
+        """
+        params: list[Any] = []
+        query, params = self._append_event_filters(
+            query,
+            params,
+            sport=sport,
+            league=league,
+            participant=participant,
+            from_date=from_date,
+            to_date=to_date,
+        )
+        with self.connection() as conn:
+            row = conn.execute(query, params).fetchone()
+        return int(row["c"])
+
+    @staticmethod
+    def _append_event_filters(
+        query: str,
+        params: list[Any],
+        *,
+        sport: Sport | None,
+        league: str | None,
+        participant: str | None,
+        from_date: datetime | None,
+        to_date: datetime | None,
+    ) -> tuple[str, list[Any]]:
+        if sport is not None:
+            query += " AND sport = ?"
+            params.append(sport.value)
+        if league:
+            query += " AND league LIKE ?"
+            params.append(f"%{league}%")
+        if participant:
+            query += " AND (home_participant LIKE ? OR away_participant LIKE ?)"
+            params.extend([f"%{participant}%", f"%{participant}%"])
+        if from_date is not None:
+            query += " AND datetime(start_time) >= datetime(?)"
+            params.append(from_date.isoformat())
+        if to_date is not None:
+            query += " AND datetime(start_time) <= datetime(?)"
+            params.append(to_date.isoformat())
+        return query, params
 
     def get_event(self, event_id: int) -> dict[str, Any] | None:
         with self.connection() as conn:
@@ -444,27 +519,104 @@ class Storage:
         *,
         sport: Sport | None = None,
         league: str | None = None,
+        participant: str | None = None,
+        source: str | None = None,
+        from_date: datetime | None = None,
+        to_date: datetime | None = None,
+        has_stats: bool | None = None,
         limit: int = 100,
+        offset: int = 0,
     ) -> list[dict[str, Any]]:
         query = "SELECT * FROM match_results WHERE 1=1"
         params: list[Any] = []
+        query, params = self._append_match_result_filters(
+            query,
+            params,
+            sport=sport,
+            league=league,
+            participant=participant,
+            source=source,
+            from_date=from_date,
+            to_date=to_date,
+            has_stats=has_stats,
+        )
+        query += " ORDER BY start_time DESC LIMIT ? OFFSET ?"
+        params.extend([limit, offset])
+        with self.connection() as conn:
+            rows = conn.execute(query, params).fetchall()
+        return [self._decode_match_result_row(row) for row in rows]
+
+    def count_match_results_filtered(
+        self,
+        *,
+        sport: Sport | None = None,
+        league: str | None = None,
+        participant: str | None = None,
+        source: str | None = None,
+        from_date: datetime | None = None,
+        to_date: datetime | None = None,
+        has_stats: bool | None = None,
+    ) -> int:
+        query = "SELECT COUNT(*) AS c FROM match_results WHERE 1=1"
+        params: list[Any] = []
+        query, params = self._append_match_result_filters(
+            query,
+            params,
+            sport=sport,
+            league=league,
+            participant=participant,
+            source=source,
+            from_date=from_date,
+            to_date=to_date,
+            has_stats=has_stats,
+        )
+        with self.connection() as conn:
+            row = conn.execute(query, params).fetchone()
+        return int(row["c"])
+
+    @staticmethod
+    def _append_match_result_filters(
+        query: str,
+        params: list[Any],
+        *,
+        sport: Sport | None,
+        league: str | None,
+        participant: str | None,
+        source: str | None,
+        from_date: datetime | None,
+        to_date: datetime | None,
+        has_stats: bool | None,
+    ) -> tuple[str, list[Any]]:
         if sport is not None:
             query += " AND sport = ?"
             params.append(sport.value)
-        if league is not None:
+        if league:
             query += " AND league LIKE ?"
             params.append(f"%{league}%")
-        query += " ORDER BY start_time DESC LIMIT ?"
-        params.append(limit)
-        with self.connection() as conn:
-            rows = conn.execute(query, params).fetchall()
-        results: list[dict[str, Any]] = []
-        for row in rows:
-            item = dict(row)
-            for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
-                item[key] = json.loads(item[key])
-            results.append(item)
-        return results
+        if participant:
+            query += " AND (home_participant LIKE ? OR away_participant LIKE ?)"
+            params.extend([f"%{participant}%", f"%{participant}%"])
+        if source:
+            query += " AND source = ?"
+            params.append(source)
+        if from_date is not None:
+            query += " AND datetime(start_time) >= datetime(?)"
+            params.append(from_date.isoformat())
+        if to_date is not None:
+            query += " AND datetime(start_time) <= datetime(?)"
+            params.append(to_date.isoformat())
+        if has_stats is True:
+            query += " AND stats_payload LIKE '%\"groups\":%' AND stats_payload NOT IN ('{}', '{\"groups\": []}')"
+        elif has_stats is False:
+            query += " AND (stats_payload = '{}' OR stats_payload NOT LIKE '%\"groups\":%')"
+        return query, params
+
+    @staticmethod
+    def _decode_match_result_row(row: sqlite3.Row) -> dict[str, Any]:
+        item = dict(row)
+        for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
+            item[key] = json.loads(item[key])
+        return item
 
     def list_match_results_missing_stats(
         self,
@@ -558,10 +710,7 @@ class Storage:
             row = conn.execute("SELECT * FROM match_results WHERE id = ?", (result_id,)).fetchone()
         if row is None:
             return None
-        item = dict(row)
-        for key in ("stats_payload", "xg_payload", "odds_payload", "external_ids", "metadata"):
-            item[key] = json.loads(item[key])
-        return item
+        return self._decode_match_result_row(row)
 
     @staticmethod
     def _row_to_event_dict(row: sqlite3.Row) -> dict[str, Any]:

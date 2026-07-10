@@ -1,0 +1,23 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPORTSDATA_HOST: 0.0.0.0
+      SPORTSDATA_PORT: 8080
+      SPORTSDATA_CORS_ORIGINS: ${SPORTSDATA_CORS_ORIGINS:-*}
+      SPORTSDATA_API_KEY: ${SPORTSDATA_API_KEY:-}
+      SPORTSDATA_REQUIRE_API_KEY: ${SPORTSDATA_REQUIRE_API_KEY:-false}
+    volumes:
+      - ./data:/app/data
+    command: ["sportsdata", "serve", "--host", "0.0.0.0", "--port", "8080"]
+
+  sync:
+    build: .
+    profiles: ["jobs"]
+    environment:
+      SPORTSDATA_DB_PATH: data/sportsdata.db
+    volumes:
+      - ./data:/app/data
+    command: ["sportsdata", "run-all"]

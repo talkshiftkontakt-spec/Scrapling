@@ -80,6 +80,34 @@ def test_discover_all_tennis_urls_includes_wta_mirrors() -> None:
     assert "https://www.flashscore.com/tennis/wta-singles/rome/" in urls
 
 
+def test_match_results_pagination_and_filters(tmp_path: Path) -> None:
+    from datetime import UTC, datetime
+
+    from sportsdata.models import MatchResult, Sport
+
+    storage = Storage(tmp_path / "pagination.db")
+    for index in range(3):
+        storage.upsert_match_result(
+            MatchResult(
+                sport=Sport.TENNIS,
+                league="ATP - SINGLES: Rome",
+                home_participant=f"Player A{index}",
+                away_participant=f"Player B{index}",
+                start_time=datetime(2025, 5, index + 1, tzinfo=UTC),
+                home_score="2",
+                away_score="1",
+                source="flashscore",
+                stats_payload={"groups": [{"name": "Service", "items": []}]},
+            )
+        )
+
+    total = storage.count_match_results_filtered(sport=Sport.TENNIS, league="Rome")
+    page = storage.list_match_results(sport=Sport.TENNIS, league="Rome", limit=2, offset=0)
+    assert total == 3
+    assert len(page) == 2
+    assert storage.count_match_results_filtered(sport=Sport.TENNIS, has_stats=True) == 3
+
+
 def test_storage_roundtrip(tmp_path: Path) -> None:
     db_path = tmp_path / "test.db"
     storage = Storage(db_path)
