@@ -13,11 +13,13 @@ import {
   getWebsiteById,
   getWebsiteStats,
   getScreenshotForWebsite,
+  recordPageCaptureFailure,
   listNeedsPageCapture,
   listBrowsableReferences,
   listPageScreenshotsForWebsite,
   listPendingCapture,
   listReferences,
+  recordPageCaptureFailure,
   storeAnalysisRun,
   storePageScreenshots,
   storeQualityScore,
@@ -71,6 +73,13 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
     const status = processingStatusSchema.parse(body.status);
     await updateWebsiteStatus(websiteId, status);
     return { ok: true, websiteId, status };
+  });
+
+  app.post("/ingestion/page-capture-failure/:websiteId", async (request) => {
+    const { websiteId } = request.params as { websiteId: string };
+    const body = request.body as { error?: string };
+    await recordPageCaptureFailure(websiteId, body.error ?? "unknown");
+    return { ok: true, websiteId };
   });
 
   app.post("/ingestion/screenshots", async (request) => {

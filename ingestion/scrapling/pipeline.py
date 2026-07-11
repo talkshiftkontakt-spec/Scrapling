@@ -74,6 +74,7 @@ class DesignIngestionPipeline:
                 capture_result = self._capture_and_persist(website_id=website_id, url=url, source=source)
                 results.append({**capture_result, "status": "recaptured"})
             except Exception as exc:  # noqa: BLE001
+                self.api_client.record_page_capture_failure(website_id, str(exc))
                 results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
 
         return results
@@ -90,6 +91,7 @@ class DesignIngestionPipeline:
                 capture_result = self._capture_and_persist(website_id=website_id, url=url, source=source)
                 results.append({**capture_result, "status": "recaptured"})
             except Exception as exc:  # noqa: BLE001
+                self.api_client.record_page_capture_failure(website_id, str(exc))
                 results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
 
         return results

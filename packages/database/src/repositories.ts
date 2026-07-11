@@ -294,6 +294,25 @@ export async function claimPendingCapture(limit = 20): Promise<PendingCaptureWeb
   return results;
 }
 
+export async function recordPageCaptureFailure(websiteId: string, error: string) {
+  const db = getDb();
+  const [row] = await db.select({ metadata: websites.metadata }).from(websites).where(eq(websites.id, websiteId)).limit(1);
+  const current = (row?.metadata ?? {}) as Record<string, unknown>;
+  const failures = Number(current.pageCaptureFailures ?? 0) + 1;
+
+  await db
+    .update(websites)
+    .set({
+      metadata: {
+        ...current,
+        pageCaptureFailures: failures,
+        lastPageCaptureError: error.slice(0, 500)
+      },
+      updatedAt: new Date()
+    })
+    .where(eq(websites.id, websiteId));
+}
+
 export async function listNeedsPageCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
   const db = getDb();
   const rows = await db
@@ -308,9 +327,11 @@ export async function listNeedsPageCapture(limit = 20): Promise<PendingCaptureWe
     .where(
       and(
         sql`NOT EXISTS (SELECT 1 FROM page_screenshots ps WHERE ps.website_id = ${websites.id})`,
-        inArray(websites.processingStatus, ["captured", "accepted", "analyzed"])
+        inArray(websites.processingStatus, ["captured", "accepted", "analyzed"]),
+        sql`COALESCE((${websites.metadata}->>'pageCaptureFailures')::int, 0) < 3`
       )
     )
+    .orderBy(websites.updatedAt)
     .limit(limit);
 
   const results: PendingCaptureWebsite[] = [];

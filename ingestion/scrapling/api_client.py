@@ -41,6 +41,9 @@ class IngestionApiClient:
     def mark_website_status(self, website_id: str, status: str) -> dict[str, Any]:
         return self._post_json(f"/ingestion/mark-status/{website_id}", {"status": status})
 
+    def record_page_capture_failure(self, website_id: str, error: str) -> dict[str, Any]:
+        return self._post_json(f"/ingestion/page-capture-failure/{website_id}", {"error": error})
+
     def list_references(self, status: str = "accepted", limit: int = 200) -> list[dict[str, object]]:
         return self._get_json(f"/references?status={status}&limit={limit}")
 

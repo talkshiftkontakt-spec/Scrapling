@@ -4,8 +4,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-WORKERS="${1:-4}"
-BATCH="${2:-2}"
+WORKERS="${1:-8}"
+BATCH="${2:-3}"
 
 set -a
 # shellcheck disable=SC1091
@@ -20,7 +20,7 @@ for worker in $(seq 1 "$WORKERS"); do
   SESSION="page-capture-worker-${worker}"
   tmux -f /exec-daemon/tmux.portal.conf kill-session -t "$SESSION" 2>/dev/null || true
   tmux -f /exec-daemon/tmux.portal.conf new-session -d -s "$SESSION" -c "$ROOT" -- "${SHELL:-zsh}" -l
-  tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION:0.0" "cd $ROOT && set -a && source .env && set +a && export CAPTURE_MODE=viewport MAX_PAGES_PER_SITE=5 && while true; do python3 -m ingestion.scrapling.run recapture-missing --limit $BATCH || true; sleep 3; done" C-m
+  tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION:0.0" "cd $ROOT && set -a && source .env && set +a && export CAPTURE_MODE=viewport MAX_PAGES_PER_SITE=6 PAGE_CAPTURE_TIMEOUT_MS=60000 && while true; do python3 -m ingestion.scrapling.run recapture-missing --limit $BATCH || true; sleep 2; done" C-m
   echo "Started $SESSION"
 done
 

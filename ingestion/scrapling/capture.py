@@ -37,6 +37,19 @@ def slug_for_path(page_path: str) -> str:
     return slug or "page"
 
 
+def navigate_for_capture(page, url: str) -> None:
+    last_error: Exception | None = None
+    for wait_until in ("domcontentloaded", "load", "commit"):
+        try:
+            page.goto(url, wait_until=wait_until, timeout=PAGE_CAPTURE_TIMEOUT_MS)
+            page.wait_for_timeout(1500)
+            return
+        except Exception as exc:  # noqa: BLE001 - try progressively looser load strategies
+            last_error = exc
+    if last_error:
+        raise last_error
+
+
 def is_valid_page(page) -> bool:
     title = (page.title() or "").lower()
     if "404" in title or "not found" in title or "page introuvable" in title:
@@ -80,7 +93,7 @@ class ScreenshotCaptureService:
             def page_action(page) -> None:
                 nonlocal primary_artifact
                 page.set_viewport_size(DESKTOP_VIEWPORT)
-                page.goto(capture_url, wait_until="networkidle", timeout=PAGE_CAPTURE_TIMEOUT_MS)
+                navigate_for_capture(page, capture_url)
 
                 discovered_pages = discover_pages_in_browser(page, capture_url, max_pages=MAX_PAGES_PER_SITE)
                 if not discovered_pages:
@@ -117,7 +130,7 @@ class ScreenshotCaptureService:
             DynamicFetcher.fetch(
                 capture_url,
                 headless=True,
-                network_idle=True,
+                network_idle=False,
                 timeout=PAGE_CAPTURE_TIMEOUT_MS * max(2, MAX_PAGES_PER_SITE * 2),
                 page_action=page_action,
                 disable_resources=False,
@@ -143,8 +156,11 @@ class ScreenshotCaptureService:
         catalog_url: str,
     ) -> PageScreenshotArtifactRecord | None:
         page.set_viewport_size(viewport_size)
-        response = page.goto(discovered.page_url, wait_until="networkidle", timeout=PAGE_CAPTURE_TIMEOUT_MS)
-        if response is not None and response.status >= 400 and discovered.page_path != "/":
+        try:
+            navigate_for_capture(page, discovered.page_url)
+        except Exception:
+            if discovered.page_path == "/":
+                raise
             return None
         if discovered.page_path != "/" and not is_valid_page(page):
             return None
