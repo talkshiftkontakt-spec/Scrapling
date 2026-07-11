@@ -33,7 +33,8 @@ Last updated: 2026-07-11
 ## Web UI
 
 - **`/`** — wyszukiwanie z opcjonalnym `topic_id`, top N, Google Drive
-- **`/corpus`** — siatka 20 tematów, batch, śledzenie postępu
+- **`/corpus`** — czasy (8) i struktury (12), batch, postęp
+- **`/dictionary`** — słówka A1/A2/B1, ćwiczenia leksykalne
 - **`/jobs/[id]`** — szczegóły zadania, źródła, ćwiczenia
 
 ## Output files per topic run
@@ -84,9 +85,7 @@ pip install -e "examples/exercise-scraper[drive]"
 
 | Priority | Item |
 |----------|------|
-| Medium | SQLite corpus index (topic, hash, score) across runs |
-| Medium | Cross-crawl dedup in batch mode |
-| Medium | Dictionary scraper package (separate from grammar) |
 | Low | LLM validator for edge cases |
 | Low | PDF exercise extraction |
 | Low | Export to Google Sheets |
+| Low | Rozszerzyć listy słówek (C1/C2) |
