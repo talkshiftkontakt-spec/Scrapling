@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import {
   fetchCorpusTopics,
   fetchJob,
+  groupTopicsByCategory,
   groupTopicsByLevel,
   runCorpusAll,
   runCorpusTopic,
@@ -26,6 +27,7 @@ const DEFAULT_SETTINGS: CorpusRunInput = {
 
 export default function CorpusPage() {
   const router = useRouter();
+  const [category, setCategory] = useState<"tenses" | "structures">("tenses");
   const [topics, setTopics] = useState<CorpusTopic[]>([]);
   const [settings, setSettings] = useState<CorpusRunInput>(DEFAULT_SETTINGS);
   const [batchLimit, setBatchLimit] = useState(5);
@@ -37,7 +39,10 @@ export default function CorpusPage() {
   const [topicJobs, setTopicJobs] = useState<Record<string, Job>>({});
   const [batchJobMap, setBatchJobMap] = useState<Record<string, Job>>({});
 
-  const grouped = useMemo(() => groupTopicsByLevel(topics), [topics]);
+  const grouped = useMemo(() => {
+    const filtered = topics.filter((topic) => topic.category === category);
+    return groupTopicsByLevel(filtered);
+  }, [topics, category]);
   const topicNames = useMemo(() => {
     const map: Record<string, string> = {};
     for (const topic of topics) {
@@ -135,13 +140,31 @@ export default function CorpusPage() {
         <header className="animate-rise">
           <p className="chip bg-[var(--sage-soft)] text-[var(--sage)]">Grammar Corpus</p>
           <h1 className="display-title mt-5 max-w-3xl text-5xl leading-tight text-[var(--ink)] sm:text-6xl">
-            Korpus gramatyczny — 20 tematów z walidatorami
+            Czasy i struktury — 20 tematów z walidatorami
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--ink-soft)]">
-            Wybierz klasę gramatyczną lub uruchom batch. Każdy temat przechodzi przez walidator,
-            zapisuje top N zadań i trafia do folderu{" "}
+            Wybierz temat gramatyczny: <strong>czasy</strong> (8) lub <strong>struktury</strong> (12).
+            Każdy temat zapisuje ćwiczenia do{" "}
             <code className="rounded bg-[var(--paper-deep)] px-2 py-0.5 text-sm">grammar-corpus/grammar/</code>.
+            Słownictwo jest w zakładce{" "}
+            <a href="/dictionary" className="font-semibold text-[var(--accent)]">Słówka</a>.
           </p>
+          <div className="mt-6 flex flex-wrap gap-2">
+            {(["tenses", "structures"] as const).map((key) => (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setCategory(key)}
+                className={`rounded-full px-5 py-2.5 text-sm font-semibold transition ${
+                  category === key
+                    ? "bg-[var(--accent)] text-white"
+                    : "bg-[var(--card)] text-[var(--ink-soft)] ring-1 ring-[var(--line)]"
+                }`}
+              >
+                {key === "tenses" ? "Czasy" : "Struktury"}
+              </button>
+            ))}
+          </div>
         </header>
 
         {error ? (

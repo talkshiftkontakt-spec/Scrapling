@@ -8,6 +8,25 @@ import yaml
 
 from exercise_scraper.config_paths import CONFIG_DIR
 
+TENSE_TOPIC_IDS = frozenset(
+    {
+        "present-simple",
+        "past-simple",
+        "present-continuous",
+        "past-continuous",
+        "present-perfect",
+        "past-perfect",
+        "future-simple",
+        "going-to-future",
+    }
+)
+
+
+def infer_grammar_category(topic_id: str, explicit: str | None = None) -> str:
+    if explicit:
+        return explicit
+    return "tenses" if topic_id in TENSE_TOPIC_IDS else "structures"
+
 
 @dataclass
 class GrammarTopic:
@@ -18,6 +37,7 @@ class GrammarTopic:
     validators: list[str] = field(default_factory=list)
     exercise_types: list[str] = field(default_factory=list)
     seed_urls: list[str] = field(default_factory=list)
+    category: str = ""
 
     @property
     def primary_en(self) -> str:
@@ -26,6 +46,10 @@ class GrammarTopic:
     @property
     def primary_pl(self) -> str:
         return self.pl[0] if self.pl else self.id
+
+    @property
+    def grammar_category(self) -> str:
+        return self.category or infer_grammar_category(self.id)
 
 
 @dataclass
@@ -56,12 +80,22 @@ def load_dictionary_taxonomy(path: Path | None = None) -> list[dict[str, Any]]:
 
 
 def _parse_topic(item: dict[str, Any]) -> GrammarTopic:
+    topic_id = item["id"]
     return GrammarTopic(
-        id=item["id"],
+        id=topic_id,
         level=item["level"],
         en=list(item.get("en", [])),
         pl=list(item.get("pl", [])),
         validators=list(item.get("validators", [])),
         exercise_types=list(item.get("exercise_types", [])),
         seed_urls=list(item.get("seed_urls", [])),
+        category=item.get("category") or infer_grammar_category(topic_id),
     )
+
+
+def group_topics_by_category(topics: list[GrammarTopic]) -> dict[str, list[GrammarTopic]]:
+    grouped: dict[str, list[GrammarTopic]] = {"tenses": [], "structures": []}
+    for topic in topics:
+        key = topic.grammar_category
+        grouped.setdefault(key, []).append(topic)
+    return grouped

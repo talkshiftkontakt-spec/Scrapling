@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "Szukaj" },
-  { href: "/corpus", label: "Korpus gramatyki" },
+  { href: "/corpus", label: "Czasy i struktury" },
+  { href: "/dictionary", label: "Słówka" },
 ];
 
 export function SiteHeader() {

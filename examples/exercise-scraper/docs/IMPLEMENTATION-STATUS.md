@@ -21,8 +21,13 @@ Last updated: 2026-07-11
 | 2 | API: `GET /api/corpus/topics`, `POST .../run`, `POST /api/corpus/run-all` | ✅ |
 | 3 | Google Drive sync module (`drive/sync.py`, `--sync-drive`) | ✅ |
 | 3 | `GET /api/drive/status` + setup doc + UI banner | ✅ |
-| 4 | `config/dictionary_taxonomy.yaml` stub | ✅ |
-| 9 | Tests (**27** passing) | ✅ |
+| 4 | `config/dictionary_taxonomy.yaml` + wordlists A1/A2/B1 | ✅ |
+| 4 | Dictionary scraper (`dictionary/` package) | ✅ |
+| 4 | API `GET/POST /api/dictionary/tracks` | ✅ |
+| 4 | UI `/dictionary` — słówka | ✅ |
+| 2 | Grammar categories: tenses (8) + structures (12) | ✅ |
+| 2 | Corpus index dedup (`corpus/index.py`) | ✅ |
+| 9 | Tests (**32** passing) | ✅ |
 | 9 | Frontend corpus UI (`/corpus`) | ✅ |
 
 ## Web UI

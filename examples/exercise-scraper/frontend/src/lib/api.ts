@@ -5,10 +5,13 @@ import type {
   CorpusRunTopicResult,
   CorpusTopic,
   CreateJobInput,
+  DictionaryRunInput,
+  DictionaryTrack,
   DriveStatus,
   Exercise,
   Job,
   JobUrl,
+  VocabularyExercise,
 } from "./types";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "";
@@ -154,6 +157,36 @@ export function groupTopicsByLevel(topics: CorpusTopic[]): Record<string, Corpus
     if (!sorted[level]) sorted[level] = grouped[level];
   }
   return sorted;
+}
+
+export function groupTopicsByCategory(topics: CorpusTopic[]): Record<string, CorpusTopic[]> {
+  const grouped: Record<string, CorpusTopic[]> = { tenses: [], structures: [] };
+  for (const topic of topics) {
+    const key = topic.category || "structures";
+    grouped[key] = grouped[key] ?? [];
+    grouped[key].push(topic);
+  }
+  return grouped;
+}
+
+export async function fetchDictionaryTracks(): Promise<DictionaryTrack[]> {
+  const data = await request<{ tracks: DictionaryTrack[] }>("/api/dictionary/tracks");
+  return data.tracks;
+}
+
+export async function runDictionaryTrack(
+  trackId: string,
+  input: DictionaryRunInput,
+): Promise<{ job: Job; track_id: string }> {
+  return request<{ job: Job; track_id: string }>(`/api/dictionary/tracks/${trackId}/run`, {
+    method: "POST",
+    body: JSON.stringify(input),
+  });
+}
+
+export async function fetchVocabularyExercises(jobId: string): Promise<VocabularyExercise[]> {
+  const data = await request<{ exercises: VocabularyExercise[] }>(`/api/jobs/${jobId}/vocabulary`);
+  return data.exercises;
 }
 
 export type { CorpusBatchJob };

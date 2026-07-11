@@ -1,0 +1,93 @@
+# A2 English–Polish vocabulary expansion
+
+words:
+  - en: airport
+    pl: lotnisko
+    pos: noun
+  - en: hospital
+    pl: szpital
+    pos: noun
+  - en: weather
+    pl: pogoda
+    pos: noun
+  - en: journey
+    pl: podróż
+    pos: noun
+  - en: expensive
+    pl: drogi
+    pos: adjective
+  - en: cheap
+    pl: tani
+    pos: adjective
+  - en: difficult
+    pl: trudny
+    pos: adjective
+  - en: easy
+    pl: łatwy
+    pos: adjective
+  - en: remember
+    pl: pamiętać
+    pos: verb
+  - en: forget
+    pl: zapominać
+    pos: verb
+  - en: borrow
+    pl: pożyczać
+    pos: verb
+  - en: lend
+    pl: pożyczać komuś
+    pos: verb
+  - en: arrive
+    pl: przyjechać
+    pos: verb
+  - en: leave
+    pl: wyjeżdżać
+    pos: verb
+  - en: sometimes
+    pl: czasami
+    pos: adverb
+  - en: never
+    pl: nigdy
+    pos: adverb
+  - en: already
+    pl: już
+    pos: adverb
+  - en: yet
+    pl: jeszcze
+    pos: adverb
+  - en: enough
+    pl: wystarczająco
+    pos: adverb
+  - en: broken
+    pl: zepsuty
+    pos: adjective
+  - en: healthy
+    pl: zdrowy
+    pos: adjective
+  - en: appointment
+    pl: spotkanie
+    pos: noun
+  - en: neighbour
+    pl: sąsiad
+    pos: noun
+  - en: countryside
+    pl: wieś
+    pos: noun
+  - en: pollution
+    pl: zanieczyszczenie
+    pos: noun
+  - en: improve
+    pl: poprawiać
+    pos: verb
+  - en: decide
+    pl: decydować
+    pos: verb
+  - en: explain
+    pl: wyjaśniać
+    pos: verb
+  - en: suggest
+    pl: sugerować
+    pos: verb
+  - en: although
+    pl: chociaż
+    pos: conjunction

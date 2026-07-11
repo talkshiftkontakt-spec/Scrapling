@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
-from backend.store import start_job, store
+from backend.store import start_dictionary_job, start_job, store
 from exercise_scraper.corpus.orchestrator import run_corpus_batch, run_corpus_topic
 from exercise_scraper.service import ScrapeRequest, run_scrape
 from exercise_scraper.taxonomy import load_grammar_taxonomy
@@ -166,6 +166,66 @@ def _ensure_job(job_id: str) -> None:
         raise HTTPException(status_code=404, detail="Job not found") from exc
 
 
+class DictionaryRunBody(BaseModel):
+    provider: str = Field(default="duckduckgo", pattern="^(duckduckgo|serpapi)$")
+    max_pages: int = Field(default=12, ge=1, le=40)
+    top_exercises: int = Field(default=5, ge=1, le=50)
+
+
+@app.get("/api/dictionary/tracks")
+def list_dictionary_tracks() -> dict:
+    from exercise_scraper.dictionary.taxonomy import load_dictionary_tracks, load_wordlist
+
+    tracks = load_dictionary_tracks()
+    return {
+        "tracks": [
+            {
+                "id": track.id,
+                "level": track.level,
+                "language_pair": track.language_pair,
+                "description": track.description,
+                "word_count": len(load_wordlist(track.wordlist)) if track.wordlist else 0,
+            }
+            for track in tracks
+        ]
+    }
+
+
+@app.post("/api/dictionary/tracks/{track_id}/run", status_code=201)
+def run_dictionary_track_endpoint(track_id: str, body: DictionaryRunBody) -> dict:
+    from exercise_scraper.dictionary.service import DictionaryRunRequest
+    from exercise_scraper.dictionary.taxonomy import get_dictionary_track
+
+    track = get_dictionary_track(track_id)
+    if track is None:
+        raise HTTPException(status_code=404, detail="Unknown dictionary track")
+
+    job = store.create_job(
+        {
+            "topic": track.description,
+            "lang": "both",
+            "provider": body.provider,
+            "max_pages": body.max_pages,
+            "topic_id": track.id,
+        }
+    )
+    request = DictionaryRunRequest(
+        track_id=track.id,
+        provider=body.provider,  # type: ignore[arg-type]
+        max_pages=body.max_pages,
+        top_exercises=body.top_exercises,
+    )
+    start_dictionary_job(job["id"], request)
+    return {"job": store.get_job(job["id"]), "track_id": track_id}
+
+
+@app.get("/api/jobs/{job_id}/vocabulary")
+def get_job_vocabulary(job_id: str, limit: int = Query(default=200, ge=1, le=500)) -> dict:
+    _ensure_job(job_id)
+    items = store.list_vocabulary_exercises(job_id, limit=limit)
+    return {"exercises": items, "total": len(items)}
+
+
 @app.get("/api/drive/status")
 def drive_status() -> dict:
     from exercise_scraper.drive.sync import drive_status_detail
@@ -188,6 +248,7 @@ def list_corpus_topics() -> dict:
             {
                 "id": topic.id,
                 "level": topic.level,
+                "category": topic.grammar_category,
                 "en": topic.en,
                 "pl": topic.pl,
                 "validators": topic.validators,

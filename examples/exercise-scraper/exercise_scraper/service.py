@@ -6,6 +6,7 @@ from typing import Callable, Literal
 
 from exercise_scraper.config import Settings
 from exercise_scraper.crawl.spider import ExerciseSpider
+from exercise_scraper.corpus.index import CorpusIndex
 from exercise_scraper.corpus.paths import resolve_output_dir
 from exercise_scraper.drive.sync import drive_configured, upload_topic_folder
 from exercise_scraper.exporters.writer import split_items, write_corpus_outputs
@@ -172,6 +173,24 @@ def run_scrape(
         validator_names=validator_names,
         top_n=request.top_exercises,
     )
+
+    if request.topic_id:
+        index = CorpusIndex(request.output_base / "grammar-corpus" / "manifests" / "corpus_index.db")
+        deduped_top: list = []
+        for exercise in validation.top:
+            if index.has_seen(kind="grammar", topic_key=request.topic_id, text=exercise.text):
+                continue
+            deduped_top.append(exercise)
+            index.register(
+                kind="grammar",
+                topic_key=request.topic_id,
+                text=exercise.text,
+                source_url=exercise.source_url,
+                validation_score=exercise.validation_score,
+            )
+        if deduped_top:
+            validation.top = deduped_top
+            validation.ranked = deduped_top
 
     manifest.urls_scraped = len(pages)
     manifest.urls_failed = max(0, len(urls) - len(pages))

@@ -54,6 +54,7 @@ export interface CreateJobInput {
 export interface CorpusTopic {
   id: string;
   level: string;
+  category: string;
   en: string[];
   pl: string[];
   validators: string[];
@@ -89,4 +90,31 @@ export interface DriveStatus {
   credentials_available: boolean;
   install_hint: string;
   setup_doc: string;
+}
+
+export interface DictionaryTrack {
+  id: string;
+  level: string;
+  language_pair: string[];
+  description: string;
+  word_count: number;
+}
+
+export interface DictionaryRunInput {
+  provider: ProviderMode;
+  max_pages: number;
+  top_exercises: number;
+}
+
+export interface VocabularyExercise {
+  id: string;
+  text: string;
+  track_id: string;
+  matched_word: string;
+  matched_translation: string;
+  language: string;
+  confidence: number;
+  validation_score: number;
+  source_url: string;
+  extracted_at: string;
 }

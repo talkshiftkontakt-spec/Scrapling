@@ -7,6 +7,8 @@ import typer
 
 from exercise_scraper.config import Settings
 from exercise_scraper.corpus.orchestrator import run_corpus_batch, run_corpus_topic
+from exercise_scraper.dictionary.service import DictionaryRunRequest, run_dictionary_track
+from exercise_scraper.dictionary.taxonomy import load_dictionary_tracks
 from exercise_scraper.service import ScrapeRequest, run_scrape
 from exercise_scraper.taxonomy import load_grammar_taxonomy
 
@@ -17,7 +19,9 @@ app = typer.Typer(
 )
 
 corpus_app = typer.Typer(help="Grammar corpus builder (taxonomy-driven).")
+dictionary_app = typer.Typer(help="Vocabulary / słówka track.")
 app.add_typer(corpus_app, name="corpus")
+app.add_typer(dictionary_app, name="dictionary")
 
 LangMode = Literal["pl", "en", "both"]
 ProviderMode = Literal["duckduckgo", "serpapi"]
@@ -130,11 +134,14 @@ def scrape(
 
 
 @corpus_app.command("topics")
-def corpus_topics() -> None:
+def corpus_topics(category: Optional[str] = typer.Option(None, "--category", help="tenses|structures")) -> None:
     """List grammar topics from taxonomy."""
     taxonomy = load_grammar_taxonomy()
-    for topic in taxonomy.topics:
-        typer.echo(f"{topic.level:3}  {topic.id:28}  {topic.primary_en}")
+    topics = taxonomy.topics
+    if category:
+        topics = [topic for topic in topics if topic.grammar_category == category]
+    for topic in topics:
+        typer.echo(f"{topic.grammar_category:10} {topic.level:3}  {topic.id:28}  {topic.primary_en}")
 
 
 @corpus_app.command("run-topic")
@@ -194,6 +201,36 @@ def corpus_run_all(
     )
     batch = run_corpus_batch(request, topic_ids=topic_ids)
     typer.echo(f"Batch: {batch.completed}/{batch.started} ok, {batch.failed} failed")
+
+
+@dictionary_app.command("tracks")
+def dictionary_tracks() -> None:
+    """List vocabulary tracks."""
+    for track in load_dictionary_tracks():
+        typer.echo(f"{track.level:3}  {track.id:12}  {track.description}")
+
+
+@dictionary_app.command("run-track")
+def dictionary_run_track(
+    track_id: str = typer.Argument(..., help="e.g. en-pl-a1"),
+    max_pages: Optional[int] = typer.Option(12, "--max-pages"),
+    output: Path = typer.Option(Path("output"), "--output"),
+    provider: ProviderMode = typer.Option("duckduckgo", "--provider"),
+    top_n: int = typer.Option(5, "--top-n", min=1, max=50),
+    dry_run: bool = typer.Option(False, "--dry-run"),
+) -> None:
+    """Scrape vocabulary exercises for a dictionary track."""
+    request = DictionaryRunRequest(
+        track_id=track_id,
+        max_pages=max_pages,
+        provider=provider,
+        output_base=output,
+        top_exercises=top_n,
+        dry_run=dry_run,
+    )
+    result = run_dictionary_track(request)
+    typer.secho(f"✅ {track_id} → {result.output_dir}", fg=typer.colors.GREEN)
+    typer.echo(f"   Words: {result.words_count}, exercises: {len(result.exercises_top)}")
 
 
 if __name__ == "__main__":

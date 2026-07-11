@@ -7,9 +7,10 @@ import {
   fetchExercises,
   fetchJob,
   fetchJobUrls,
+  fetchVocabularyExercises,
   phaseLabel,
 } from "@/lib/api";
-import type { Exercise, Job, JobUrl } from "@/lib/types";
+import type { Exercise, Job, JobUrl, VocabularyExercise } from "@/lib/types";
 import { ApiStatusBanner } from "@/components/api-status-banner";
 import { ExerciseList } from "@/components/exercise-list";
 import { JobStatusCard } from "@/components/job-status-card";
@@ -20,6 +21,7 @@ export default function JobPage() {
   const [job, setJob] = useState<Job | null>(null);
   const [urls, setUrls] = useState<JobUrl[]>([]);
   const [exercises, setExercises] = useState<Exercise[]>([]);
+  const [vocabulary, setVocabulary] = useState<VocabularyExercise[]>([]);
   const [filter, setFilter] = useState("all");
   const [loadingExercises, setLoadingExercises] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -55,11 +57,18 @@ export default function JobPage() {
 
   useEffect(() => {
     if (!jobId || job?.status !== "completed") return;
+    const isDictionary = (job.progress as { job_kind?: string })?.job_kind === "dictionary";
     setLoadingExercises(true);
+    if (isDictionary) {
+      fetchVocabularyExercises(jobId)
+        .then(setVocabulary)
+        .finally(() => setLoadingExercises(false));
+      return;
+    }
     fetchExercises(jobId, filter)
       .then((data) => setExercises(data.exercises))
       .finally(() => setLoadingExercises(false));
-  }, [jobId, job?.status, filter]);
+  }, [jobId, job?.status, job?.progress, filter]);
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-10">
@@ -100,7 +109,28 @@ export default function JobPage() {
         </section>
       ) : null}
 
-      {job?.status === "completed" ? (
+      {job?.status === "completed" && (job.progress as { job_kind?: string })?.job_kind === "dictionary" ? (
+        <section className="card-surface rounded-[2rem] p-8">
+          <p className="chip bg-[#f8e7cf] text-[#9a6a1d]">Słówka</p>
+          <h3 className="display-title mt-4 text-3xl">Ćwiczenia leksykalne</h3>
+          {loadingExercises ? (
+            <p className="mt-4 text-[var(--ink-soft)]">Ładuję...</p>
+          ) : (
+            <ul className="mt-6 grid gap-3">
+              {vocabulary.map((item) => (
+                <li key={item.id} className="rounded-[1.25rem] border border-[var(--line)] bg-[var(--paper)] p-4">
+                  <p className="font-medium">{item.text}</p>
+                  <p className="mt-2 text-sm text-[var(--ink-soft)]">
+                    {item.matched_word} → {item.matched_translation} · score {item.validation_score.toFixed(2)}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      ) : null}
+
+      {job?.status === "completed" && (job.progress as { job_kind?: string })?.job_kind !== "dictionary" ? (
         <ExerciseList
           exercises={exercises}
           loading={loadingExercises}

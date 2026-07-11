@@ -88,6 +88,25 @@ class JobStore:
                 )
                 """
             )
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS vocabulary_exercises (
+                    id TEXT NOT NULL,
+                    job_id TEXT NOT NULL,
+                    text TEXT NOT NULL,
+                    track_id TEXT NOT NULL,
+                    matched_word TEXT NOT NULL,
+                    matched_translation TEXT NOT NULL,
+                    language TEXT NOT NULL,
+                    confidence REAL NOT NULL,
+                    validation_score REAL NOT NULL,
+                    source_url TEXT NOT NULL,
+                    extracted_at TEXT NOT NULL,
+                    PRIMARY KEY (job_id, id),
+                    FOREIGN KEY (job_id) REFERENCES jobs(id)
+                )
+                """
+            )
             conn.commit()
 
     def create_job(self, payload: dict[str, Any]) -> dict[str, Any]:
@@ -213,6 +232,47 @@ class JobStore:
         with self._connect() as conn:
             return int(conn.execute(query, params).fetchone()[0])
 
+    def save_vocabulary_exercises(self, job_id: str, exercises: list[dict[str, Any]]) -> None:
+        with self._connect() as conn:
+            conn.executemany(
+                """
+                INSERT OR REPLACE INTO vocabulary_exercises (
+                    id, job_id, text, track_id, matched_word, matched_translation,
+                    language, confidence, validation_score, source_url, extracted_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                [
+                    (
+                        item["id"],
+                        job_id,
+                        item["text"],
+                        item["track_id"],
+                        item["matched_word"],
+                        item["matched_translation"],
+                        item["language"],
+                        item["confidence"],
+                        item["validation_score"],
+                        item["source_url"],
+                        item["extracted_at"],
+                    )
+                    for item in exercises
+                ],
+            )
+            conn.commit()
+
+    def list_vocabulary_exercises(self, job_id: str, limit: int = 200) -> list[dict[str, Any]]:
+        with self._connect() as conn:
+            rows = conn.execute(
+                """
+                SELECT * FROM vocabulary_exercises
+                WHERE job_id = ?
+                ORDER BY validation_score DESC
+                LIMIT ?
+                """,
+                (job_id, limit),
+            ).fetchall()
+        return [dict(row) for row in rows]
+
     @staticmethod
     def _row_to_job(row: sqlite3.Row) -> dict[str, Any]:
         job = dict(row)
@@ -287,6 +347,81 @@ def start_job(job_id: str, request: ScrapeRequest) -> None:
                 phase="failed",
                 error=str(exc),
                 progress_json=json.dumps({"phase": "failed", "error": str(exc)}),
+                finished_at=_utc_now(),
+            )
+        finally:
+            with _active_lock:
+                _active_jobs.discard(job_id)
+
+    thread = threading.Thread(target=worker, daemon=True)
+    thread.start()
+
+
+def start_dictionary_job(job_id: str, request) -> None:
+    from exercise_scraper.dictionary.service import DictionaryRunRequest, run_dictionary_track
+
+    with _active_lock:
+        if job_id in _active_jobs:
+            return
+        _active_jobs.add(job_id)
+
+    def worker() -> None:
+        try:
+            store.update_job(
+                job_id,
+                status="running",
+                phase="searching",
+                progress_json=json.dumps({"message": "Searching vocabulary sources", "job_kind": "dictionary"}),
+            )
+
+            def on_progress(phase: str, payload: dict) -> None:
+                store.update_job(
+                    job_id,
+                    phase=phase,
+                    progress_json=json.dumps({"phase": phase, "job_kind": "dictionary", **payload}),
+                )
+                if phase == "urls_found" and "urls" in payload:
+                    store.save_urls(job_id, payload["urls"])
+
+            request.output_base = OUTPUT_DIR
+            result = run_dictionary_track(request, settings=Settings.from_env(), on_progress=on_progress)
+            store.save_urls(job_id, result.search_urls)
+            store.save_vocabulary_exercises(job_id, [item.to_dict() for item in result.exercises_top])
+
+            store.update_job(
+                job_id,
+                status="completed",
+                phase="completed",
+                manifest_json=json.dumps(
+                    {
+                        "track_id": result.track_id,
+                        "level": result.level,
+                        "output_dir": str(result.output_dir),
+                        "words_count": result.words_count,
+                        "exercises_raw": result.exercises_raw,
+                        "exercises_top": len(result.exercises_top),
+                    }
+                ),
+                progress_json=json.dumps(
+                    {
+                        "phase": "completed",
+                        "job_kind": "dictionary",
+                        "track_id": result.track_id,
+                        "words_count": result.words_count,
+                        "exercises_total": len(result.exercises_top),
+                        "output_dir": str(result.output_dir),
+                        "elapsed_seconds": result.elapsed_seconds,
+                    }
+                ),
+                finished_at=_utc_now(),
+            )
+        except Exception as exc:
+            store.update_job(
+                job_id,
+                status="failed",
+                phase="failed",
+                error=str(exc),
+                progress_json=json.dumps({"phase": "failed", "job_kind": "dictionary", "error": str(exc)}),
                 finished_at=_utc_now(),
             )
         finally:
