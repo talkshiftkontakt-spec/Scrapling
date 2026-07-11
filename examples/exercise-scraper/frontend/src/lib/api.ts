@@ -5,6 +5,7 @@ import type {
   CorpusRunTopicResult,
   CorpusTopic,
   CreateJobInput,
+  DriveStatus,
   Exercise,
   Job,
   JobUrl,
@@ -83,6 +84,10 @@ export async function fetchExercises(
 export async function fetchJobUrls(jobId: string): Promise<JobUrl[]> {
   const data = await request<{ urls: JobUrl[] }>(`/api/jobs/${jobId}/urls`);
   return data.urls;
+}
+
+export async function fetchDriveStatus(): Promise<DriveStatus> {
+  return request<DriveStatus>("/api/drive/status");
 }
 
 export async function fetchCorpusTopics(): Promise<CorpusTopic[]> {

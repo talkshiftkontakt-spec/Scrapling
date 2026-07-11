@@ -81,3 +81,12 @@ export interface CorpusRunAllResult {
   queued: number;
   jobs: CorpusBatchJob[];
 }
+
+export interface DriveStatus {
+  configured: boolean;
+  package_installed: boolean;
+  root_folder_id_set: boolean;
+  credentials_available: boolean;
+  install_hint: string;
+  setup_doc: string;
+}

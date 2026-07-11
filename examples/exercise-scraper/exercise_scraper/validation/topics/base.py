@@ -8,10 +8,11 @@ from exercise_scraper.models import Exercise
 BLANK_PATTERN = re.compile(r"_{2,}|\.{3}|\(\s*[^)]+\s*\)")
 NUMBERED_PATTERN = re.compile(r"^\s*\d+[\.\):\-]\s+")
 NAV_PATTERN = re.compile(
-    r"\b(home|menu|subscribe|cookie|newsletter|login|sign up|privacy policy|"
+    r"\b(menu|subscribe|cookie|newsletter|login|sign up|privacy policy|"
     r"all lessons|pdf download|worksheets? page|next page|previous page)\b",
     re.IGNORECASE,
 )
+HOME_MENU_PATTERN = re.compile(r"(^|\|)\s*home\s*(\||$)", re.IGNORECASE)
 PAGE_LABEL_PATTERN = re.compile(
     r"^(home|menu|exercises?|grammar|worksheets?|lessons?)(\s*\||\s*[-–—]\s*)",
     re.IGNORECASE,
@@ -29,6 +30,8 @@ class TopicValidation:
 def reject_navigation(text: str) -> TopicValidation | None:
     lower = text.lower().strip()
     if NAV_PATTERN.search(lower):
+        return TopicValidation(False, -0.5, ["topic-nav-noise"])
+    if HOME_MENU_PATTERN.search(lower):
         return TopicValidation(False, -0.5, ["topic-nav-noise"])
     if PAGE_LABEL_PATTERN.match(lower):
         return TopicValidation(False, -0.5, ["topic-page-label"])

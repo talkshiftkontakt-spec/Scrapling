@@ -17,6 +17,29 @@ def drive_configured() -> bool:
     )
 
 
+def drive_status_detail() -> dict:
+    """Return Drive integration status for API/UI."""
+    try:
+        import googleapiclient  # noqa: F401
+
+        package_installed = True
+    except ImportError:
+        package_installed = False
+
+    has_creds_file = bool(os.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
+    has_creds_json = bool(os.getenv("GOOGLE_DRIVE_CREDENTIALS_JSON"))
+    root_id = os.getenv("GOOGLE_DRIVE_ROOT_FOLDER_ID")
+
+    return {
+        "configured": drive_configured(),
+        "package_installed": package_installed,
+        "root_folder_id_set": bool(root_id),
+        "credentials_available": has_creds_file or has_creds_json,
+        "install_hint": "pip install -e 'examples/exercise-scraper[drive]'",
+        "setup_doc": "examples/exercise-scraper/docs/GOOGLE-DRIVE-SETUP.md",
+    }
+
+
 def upload_topic_folder(local_dir: Path, *, topic_id: str, level: str) -> dict:
     """Upload a local topic folder to Google Drive under grammar/<level>/<topic_id>/."""
     if not drive_configured():

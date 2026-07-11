@@ -28,6 +28,7 @@ export function JobStatusCard({ job }: JobStatusProps) {
   const passed = progress.passed != null ? Number(progress.passed) : null;
   const rejected = progress.rejected != null ? Number(progress.rejected) : null;
   const topN = progress.top_exercises != null ? Number(progress.top_exercises) : null;
+  const driveSync = progress.drive_sync as { uploaded?: boolean; reason?: string } | undefined;
 
   return (
     <div className="card-surface animate-rise rounded-[2rem] p-8">
@@ -80,6 +81,16 @@ export function JobStatusCard({ job }: JobStatusProps) {
               <dd className="mt-2 text-base text-[var(--ink)]">
                 {passed} przeszło · {rejected ?? 0} odrzucono
                 {topN != null ? ` · top ${topN} zapisano` : null}
+              </dd>
+            </div>
+          ) : null}
+          {driveSync ? (
+            <div className="rounded-[1.25rem] bg-[var(--paper)] p-4 sm:col-span-3">
+              <dt className="text-sm text-[var(--ink-soft)]">Google Drive</dt>
+              <dd className="mt-2 text-base text-[var(--ink)]">
+                {driveSync.uploaded
+                  ? "Zsynchronizowano folder tematu"
+                  : driveSync.reason ?? "Synchronizacja nie wykonana"}
               </dd>
             </div>
           ) : null}

@@ -166,6 +166,20 @@ def _ensure_job(job_id: str) -> None:
         raise HTTPException(status_code=404, detail="Job not found") from exc
 
 
+@app.get("/api/drive/status")
+def drive_status() -> dict:
+    from exercise_scraper.drive.sync import drive_status_detail
+
+    return drive_status_detail()
+
+
+@app.get("/api/corpus/validators")
+def list_validators() -> dict:
+    from exercise_scraper.validation.registry import registered_validator_names
+
+    return {"validators": registered_validator_names()}
+
+
 @app.get("/api/corpus/topics")
 def list_corpus_topics() -> dict:
     taxonomy = load_grammar_taxonomy()

@@ -1,6 +1,6 @@
 # Implementation status vs multi-agent plan
 
-Last updated: 2026-07-10
+Last updated: 2026-07-11
 
 ## Done in this branch
 
@@ -13,15 +13,16 @@ Last updated: 2026-07-10
 | 0 | Stronger junk/nav filtering | ✅ |
 | 1 | `config/grammar_taxonomy.yaml` (20 topics) | ✅ |
 | 1 | Corpus folder layout `grammar-corpus/grammar/<level>/<topic>/` | ✅ |
-| 1 | Topic validators: `past_simple`, `present_perfect` + generic fallback | ✅ |
+| 1 | Topic validators: **all 19** registered for 20 taxonomy topics | ✅ |
 | 1 | Validation pipeline + `validation_report.json` | ✅ |
 | 2 | `config/domain_rules.yaml` (9 domains) | ✅ |
 | 2 | Domain-aware extraction in spider | ✅ |
 | 2 | Corpus orchestrator (`corpus run-topic`, `run-all`) | ✅ |
 | 2 | API: `GET /api/corpus/topics`, `POST .../run`, `POST /api/corpus/run-all` | ✅ |
-| 3 | Google Drive sync module (`drive/sync.py`, `--sync-drive`) | ✅ (needs credentials) |
+| 3 | Google Drive sync module (`drive/sync.py`, `--sync-drive`) | ✅ |
+| 3 | `GET /api/drive/status` + setup doc + UI banner | ✅ |
 | 4 | `config/dictionary_taxonomy.yaml` stub | ✅ |
-| 9 | Tests (21 passing) | ✅ |
+| 9 | Tests (**27** passing) | ✅ |
 | 9 | Frontend corpus UI (`/corpus`) | ✅ |
 
 ## Web UI

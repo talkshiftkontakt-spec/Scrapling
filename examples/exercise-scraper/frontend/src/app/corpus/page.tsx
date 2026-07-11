@@ -11,6 +11,7 @@ import {
 } from "@/lib/api";
 import type { CorpusBatchJob, CorpusRunInput, CorpusTopic, Job } from "@/lib/types";
 import { ApiStatusBanner } from "@/components/api-status-banner";
+import { DriveStatusBanner } from "@/components/drive-status-banner";
 import { CorpusBatchTracker } from "@/components/corpus-batch-tracker";
 import { CorpusSettingsPanel } from "@/components/corpus-settings-panel";
 import { CorpusTopicGrid } from "@/components/corpus-topic-grid";
@@ -148,6 +149,7 @@ export default function CorpusPage() {
         ) : null}
 
         <ApiStatusBanner />
+        <DriveStatusBanner />
 
         <CorpusSettingsPanel
           settings={settings}

@@ -10,6 +10,7 @@ import {
 } from "@/lib/api";
 import type { CreateJobInput, Exercise, Job } from "@/lib/types";
 import { ApiStatusBanner } from "@/components/api-status-banner";
+import { DriveStatusBanner } from "@/components/drive-status-banner";
 import { ExerciseList } from "@/components/exercise-list";
 import { JobStatusCard } from "@/components/job-status-card";
 import { RecentJobs } from "@/components/recent-jobs";
@@ -102,6 +103,7 @@ export default function HomePage() {
       ) : null}
 
       <ApiStatusBanner />
+      <DriveStatusBanner />
 
       <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
         <SearchPanel loading={submitting} onSubmit={handleSubmit} />

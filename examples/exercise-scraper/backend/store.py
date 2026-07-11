@@ -275,6 +275,7 @@ def start_job(job_id: str, request: ScrapeRequest) -> None:
                         "passed": len(result.validation.passed) if result.validation else None,
                         "rejected": len(result.validation.rejected) if result.validation else None,
                         "output_dir": str(result.output_dir),
+                        "drive_sync": result.drive_sync,
                     }
                 ),
                 finished_at=_utc_now(),
