@@ -65,7 +65,9 @@ exercise-scraper corpus run-all --limit 3 --max-pages 5
 exercise-scraper corpus run-topic past-simple --sync-drive
 ```
 
-## Google Drive env vars
+## Google Drive
+
+See **[GOOGLE-DRIVE-SETUP.md](GOOGLE-DRIVE-SETUP.md)**. Status endpoint: `GET /api/drive/status`. UI shows a banner when not configured.
 
 ```bash
 export GOOGLE_DRIVE_ROOT_FOLDER_ID=your_folder_id
@@ -77,8 +79,6 @@ pip install -e "examples/exercise-scraper[drive]"
 
 | Priority | Item |
 |----------|------|
-| High | More topic validators (present_continuous, articles, modals, …) |
-| High | Frontend UI for corpus topics + batch run | ✅ done (`/corpus`) |
 | Medium | SQLite corpus index (topic, hash, score) across runs |
 | Medium | Cross-crawl dedup in batch mode |
 | Medium | Dictionary scraper package (separate from grammar) |
