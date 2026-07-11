@@ -10,7 +10,7 @@ from ingestion.scrapling.url_resolver import extract_title_from_url
 class LandbookProvider(SourceProvider):
     slug = "landbook"
     source_url = "https://land-book.com/"
-    max_pages = 8
+    max_pages = 30
 
     def discover(self) -> list[DiscoveredWebsiteRecord]:
         records: list[DiscoveredWebsiteRecord] = []
