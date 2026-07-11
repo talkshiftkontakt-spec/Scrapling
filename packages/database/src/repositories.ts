@@ -299,12 +299,13 @@ export async function recordPageCaptureFailure(websiteId: string, error: string)
   const [row] = await db.select({ metadata: websites.metadata }).from(websites).where(eq(websites.id, websiteId)).limit(1);
   const current = (row?.metadata ?? {}) as Record<string, unknown>;
   const failures = Number(current.pageCaptureFailures ?? 0) + 1;
+  const { pageCaptureClaimedAt: _claimed, ...rest } = current;
 
   await db
     .update(websites)
     .set({
       metadata: {
-        ...current,
+        ...rest,
         pageCaptureFailures: failures,
         lastPageCaptureError: error.slice(0, 500)
       },
@@ -313,41 +314,60 @@ export async function recordPageCaptureFailure(websiteId: string, error: string)
     .where(eq(websites.id, websiteId));
 }
 
-export async function listNeedsPageCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
+export async function claimNeedsPageCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
   const db = getDb();
-  const rows = await db
-    .select({
-      websiteId: websites.id,
-      websiteName: websites.websiteName,
-      canonicalUrl: websites.canonicalUrl,
-      normalizedUrl: websites.normalizedUrl
-    })
-    .from(websites)
-    .innerJoin(screenshots, eq(screenshots.websiteId, websites.id))
-    .where(
-      and(
-        sql`NOT EXISTS (SELECT 1 FROM page_screenshots ps WHERE ps.website_id = ${websites.id})`,
-        inArray(websites.processingStatus, ["captured", "accepted", "analyzed"]),
-        sql`COALESCE((${websites.metadata}->>'pageCaptureFailures')::int, 0) < 3`
+
+  await db.execute(sql`
+    UPDATE websites
+    SET metadata = metadata - 'pageCaptureClaimedAt',
+        updated_at = NOW()
+    WHERE metadata ? 'pageCaptureClaimedAt'
+      AND (metadata->>'pageCaptureClaimedAt')::timestamptz < NOW() - INTERVAL '10 minutes'
+  `);
+
+  const claimed = await db.transaction(async (tx) => {
+    const picked = await tx.execute<{ id: string; website_name: string; canonical_url: string; normalized_url: string }>(sql`
+      WITH picked AS (
+        SELECT w.id
+        FROM websites w
+        INNER JOIN screenshots s ON s.website_id = w.id
+        WHERE NOT EXISTS (SELECT 1 FROM page_screenshots ps WHERE ps.website_id = w.id)
+          AND COALESCE((w.metadata->>'pageCaptureFailures')::int, 0) < 3
+          AND w.processing_status IN ('captured', 'accepted', 'analyzed')
+          AND NOT (w.metadata ? 'pageCaptureClaimedAt')
+        ORDER BY w.updated_at ASC
+        LIMIT ${limit}
+        FOR UPDATE OF w SKIP LOCKED
       )
-    )
-    .orderBy(websites.updatedAt)
-    .limit(limit);
+      UPDATE websites w
+      SET metadata = COALESCE(w.metadata, '{}'::jsonb) || jsonb_build_object('pageCaptureClaimedAt', NOW()::text),
+          updated_at = NOW()
+      FROM picked
+      WHERE w.id = picked.id
+      RETURNING w.id, w.website_name, w.canonical_url, w.normalized_url
+    `);
+
+    return picked.rows;
+  });
 
   const results: PendingCaptureWebsite[] = [];
-  for (const row of rows) {
+  for (const row of claimed) {
     results.push({
-      websiteId: row.websiteId,
-      websiteName: row.websiteName,
-      canonicalUrl: row.canonicalUrl,
-      normalizedUrl: row.normalizedUrl,
-      source: await getWebsiteSource(row.websiteId),
-      categories: await getWebsiteCategories(row.websiteId),
-      tags: await getWebsiteTags(row.websiteId)
+      websiteId: row.id,
+      websiteName: row.website_name,
+      canonicalUrl: row.canonical_url,
+      normalizedUrl: row.normalized_url,
+      source: await getWebsiteSource(row.id),
+      categories: await getWebsiteCategories(row.id),
+      tags: await getWebsiteTags(row.id)
     });
   }
 
   return results;
+}
+
+export async function listNeedsPageCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
+  return claimNeedsPageCapture(limit);
 }
 
 export async function listPendingCapture(limit = 20): Promise<PendingCaptureWebsite[]> {
@@ -521,6 +541,13 @@ export async function storePageScreenshots(
   } else {
     await updateWebsiteStatus(websiteId, "captured");
   }
+
+  await db
+    .update(websites)
+    .set({
+      metadata: sql`COALESCE(${websites.metadata}, '{}'::jsonb) - 'pageCaptureClaimedAt'`
+    })
+    .where(eq(websites.id, websiteId));
 
   return {
     websiteId,
