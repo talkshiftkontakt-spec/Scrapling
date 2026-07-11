@@ -1,0 +1,32 @@
+# Dictionary tracks — vocabulary exercises (separate from grammar spider)
+
+tracks:
+  - id: en-pl-a1
+    level: A1
+    language_pair: [en, pl]
+    source: open_wordlist
+    wordlist: wordlists/a1-en-pl.yaml
+    description: "Podstawowe słownictwo A1 EN–PL"
+    search_queries:
+      en: ["A1 vocabulary exercises english polish", "basic english words worksheet"]
+      pl: ["słownictwo A1 angielski ćwiczenia", "podstawowe słówka angielski test"]
+
+  - id: en-pl-a2
+    level: A2
+    language_pair: [en, pl]
+    source: open_wordlist
+    wordlist: wordlists/a2-en-pl.yaml
+    description: "Słownictwo A2 EN–PL"
+    search_queries:
+      en: ["A2 vocabulary exercises english", "pre-intermediate word test"]
+      pl: ["słownictwo A2 angielski ćwiczenia", "słówka A2 test"]
+
+  - id: en-pl-b1
+    level: B1
+    language_pair: [en, pl]
+    source: open_wordlist
+    wordlist: wordlists/b1-en-pl.yaml
+    description: "Słownictwo B1 EN–PL"
+    search_queries:
+      en: ["B1 vocabulary exercises", "intermediate english words worksheet"]
+      pl: ["słownictwo B1 angielski", "słówka B1 ćwiczenia"]

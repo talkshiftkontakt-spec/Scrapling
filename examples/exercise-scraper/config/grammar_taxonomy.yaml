@@ -1,0 +1,166 @@
+# Grammar curriculum — single source of truth for corpus scraper agents.
+# Levels: A1, A2, B1, B2, C1, C2
+
+topics:
+  - id: present-simple
+    level: A1
+    en: ["Present Simple", "Simple Present"]
+    pl: ["Present Simple", "czas teraźniejszy prosty"]
+    validators: ["present_simple"]
+    exercise_types: [fill_blank, multiple_choice, rewrite]
+    seed_urls: []
+
+  - id: past-simple
+    level: A2
+    en: ["Past Simple", "Simple Past"]
+    pl: ["Past Simple", "czas przeszły prosty", "czas Past Simple"]
+    validators: ["past_simple"]
+    exercise_types: [fill_blank, rewrite, multiple_choice]
+    seed_urls:
+      - https://www.perfect-english-grammar.com/past-simple-exercises.html
+      - https://www.agendaweb.org/verbs/past_simple.html
+
+  - id: present-continuous
+    level: A2
+    en: ["Present Continuous", "Present Progressive"]
+    pl: ["Present Continuous", "czas teraźniejszy ciągły"]
+    validators: ["present_continuous"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: past-continuous
+    level: A2
+    en: ["Past Continuous"]
+    pl: ["Past Continuous", "czas przeszły ciągły"]
+    validators: ["past_continuous"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: present-perfect
+    level: B1
+    en: ["Present Perfect"]
+    pl: ["Present Perfect", "czas present perfect"]
+    validators: ["present_perfect"]
+    exercise_types: [fill_blank, rewrite, multiple_choice]
+    seed_urls:
+      - https://www.perfect-english-grammar.com/present-perfect-exercises.html
+
+  - id: past-perfect
+    level: B1
+    en: ["Past Perfect", "Pluperfect"]
+    pl: ["Past Perfect", "czas past perfect"]
+    validators: ["past_perfect"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: future-simple
+    level: A2
+    en: ["Future Simple", "will future"]
+    pl: ["Future Simple", "czas przyszły prosty"]
+    validators: ["future_simple"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: going-to-future
+    level: A2
+    en: ["going to future", "be going to"]
+    pl: ["going to", "konstrukcja going to"]
+    validators: ["going_to"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: modals
+    level: B1
+    en: ["modal verbs", "can could must should"]
+    pl: ["czasowniki modalne", "modal verbs"]
+    validators: ["modals"]
+    exercise_types: [fill_blank, multiple_choice]
+    seed_urls: []
+
+  - id: articles
+    level: A2
+    en: ["articles a an the"]
+    pl: ["artykuły a an the", "rodzajniki"]
+    validators: ["articles"]
+    exercise_types: [fill_blank, multiple_choice]
+    seed_urls: []
+
+  - id: comparatives-superlatives
+    level: A2
+    en: ["comparatives superlatives"]
+    pl: ["stopniowanie przymiotników", "comparatives"]
+    validators: ["comparatives"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: passive-voice
+    level: B1
+    en: ["passive voice"]
+    pl: ["strona bierna", "passive voice"]
+    validators: ["passive_voice"]
+    exercise_types: [rewrite, fill_blank]
+    seed_urls: []
+
+  - id: reported-speech
+    level: B1
+    en: ["reported speech", "indirect speech"]
+    pl: ["mowa zależna", "reported speech"]
+    validators: ["reported_speech"]
+    exercise_types: [rewrite]
+    seed_urls: []
+
+  - id: conditionals-zero-first
+    level: B1
+    en: ["zero conditional", "first conditional"]
+    pl: ["zero conditional", "first conditional", "warunkowy"]
+    validators: ["conditionals"]
+    exercise_types: [rewrite, fill_blank]
+    seed_urls: []
+
+  - id: conditionals-second-third
+    level: B2
+    en: ["second conditional", "third conditional"]
+    pl: ["second conditional", "third conditional"]
+    validators: ["conditionals"]
+    exercise_types: [rewrite, fill_blank]
+    seed_urls: []
+
+  - id: relative-clauses
+    level: B1
+    en: ["relative clauses", "who which that"]
+    pl: ["zdanie względne", "relative clauses"]
+    validators: ["relative_clauses"]
+    exercise_types: [fill_blank, rewrite]
+    seed_urls: []
+
+  - id: gerunds-infinitives
+    level: B1
+    en: ["gerund infinitive", "-ing vs to"]
+    pl: ["gerund", "bezokolicznik", "ing vs to"]
+    validators: ["gerunds_infinitives"]
+    exercise_types: [fill_blank, multiple_choice]
+    seed_urls: []
+
+  - id: prepositions
+    level: A2
+    en: ["prepositions of time place"]
+    pl: ["przyimki", "prepositions"]
+    validators: ["prepositions"]
+    exercise_types: [fill_blank, multiple_choice]
+    seed_urls: []
+
+  - id: question-tags
+    level: B1
+    en: ["question tags"]
+    pl: ["question tags", "dopowiedzenia"]
+    validators: ["question_tags"]
+    exercise_types: [rewrite, fill_blank]
+    seed_urls: []
+
+  - id: phrasal-verbs
+    level: B2
+    en: ["phrasal verbs"]
+    pl: ["phrasal verbs", "czasowniki frazowe"]
+    validators: ["phrasal_verbs"]
+    exercise_types: [fill_blank, multiple_choice]
+    seed_urls: []

@@ -1,0 +1,93 @@
+# A1 core English–Polish vocabulary (seed list for exercise discovery)
+
+words:
+  - en: hello
+    pl: cześć
+    pos: interjection
+  - en: goodbye
+    pl: do widzenia
+    pos: interjection
+  - en: please
+    pl: proszę
+    pos: adverb
+  - en: thank you
+    pl: dziękuję
+    pos: phrase
+  - en: yes
+    pl: tak
+    pos: adverb
+  - en: no
+    pl: nie
+    pos: adverb
+  - en: water
+    pl: woda
+    pos: noun
+  - en: bread
+    pl: chleb
+    pos: noun
+  - en: house
+    pl: dom
+    pos: noun
+  - en: school
+    pl: szkoła
+    pos: noun
+  - en: book
+    pl: książka
+    pos: noun
+  - en: cat
+    pl: kot
+    pos: noun
+  - en: dog
+    pl: pies
+    pos: noun
+  - en: mother
+    pl: matka
+    pos: noun
+  - en: father
+    pl: ojciec
+    pos: noun
+  - en: big
+    pl: duży
+    pos: adjective
+  - en: small
+    pl: mały
+    pos: adjective
+  - en: good
+    pl: dobry
+    pos: adjective
+  - en: bad
+    pl: zły
+    pos: adjective
+  - en: go
+    pl: iść
+    pos: verb
+  - en: eat
+    pl: jeść
+    pos: verb
+  - en: drink
+    pl: pić
+    pos: verb
+  - en: read
+    pl: czytać
+    pos: verb
+  - en: write
+    pl: pisać
+    pos: verb
+  - en: one
+    pl: jeden
+    pos: number
+  - en: two
+    pl: dwa
+    pos: number
+  - en: red
+    pl: czerwony
+    pos: adjective
+  - en: blue
+    pl: niebieski
+    pos: adjective
+  - en: today
+    pl: dzisiaj
+    pos: adverb
+  - en: tomorrow
+    pl: jutro
+    pos: adverb

@@ -1,0 +1,64 @@
+# Per-domain CSS selectors and extraction hints.
+# Matched by hostname (www. stripped).
+
+domains:
+  agendaweb.org:
+    selectors:
+      - "#content li"
+      - "#content p"
+      - ".exercise"
+    min_confidence: 0.35
+
+  perfect-english-grammar.com:
+    selectors:
+      - ".entry-content li"
+      - ".entry-content p"
+      - "article li"
+    min_confidence: 0.35
+
+  test-english.com:
+    selectors:
+      - "#main li"
+      - "#main p"
+      - ".content li"
+    min_confidence: 0.35
+
+  english-grammar.at:
+    selectors:
+      - "#content li"
+      - "#content p"
+      - "table tr"
+    min_confidence: 0.35
+
+  englisch-hilfen.de:
+    selectors:
+      - "#inhalt li"
+      - "#inhalt p"
+      - ".uebung li"
+    min_confidence: 0.35
+
+  learnenglish.britishcouncil.org:
+    selectors:
+      - "article li"
+      - "article p"
+      - ".field-item li"
+    min_confidence: 0.4
+
+  ego4u.com:
+    selectors:
+      - "#content li"
+      - "#content p"
+    min_confidence: 0.35
+
+  ang.pl:
+    selectors:
+      - ".entry-content li"
+      - ".entry-content p"
+      - "article li"
+    min_confidence: 0.35
+
+  angielskie-slowka.pl:
+    selectors:
+      - ".entry-content li"
+      - "article p"
+    min_confidence: 0.35
