@@ -47,6 +47,12 @@ class IngestionApiClient:
     def list_references(self, status: str = "accepted", limit: int = 200) -> list[dict[str, object]]:
         return self._get_json(f"/references?status={status}&limit={limit}")
 
+    def get_known_urls(self) -> list[str]:
+        payload = self._get_json("/ingestion/known-urls")
+        if isinstance(payload, dict):
+            return payload.get("urls", [])
+        return []
+
     def get_pending_capture(self, limit: int = 20) -> list[dict[str, Any]]:
         return self._get_json(f"/ingestion/pending-capture?limit={limit}")
 

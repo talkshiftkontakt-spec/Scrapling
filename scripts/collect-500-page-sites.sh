@@ -43,8 +43,9 @@ echo "==> Current: $(page_sites_count) sites | $(page_shots_count) shots | $(tot
 # Scale workers
 bash "$ROOT/scripts/scale-scrape-workers.sh" "$WORKERS" "$BATCH" "$NEW_SITE_WORKERS" "$DISCOVER_WORKERS"
 
-echo "==> Bulk discover kickoff (up to 400 new sites)"
-python3 -m ingestion.scrapling.run discover --limit 400 || true
+echo "==> Bulk discover kickoff — landbook first (600+ fresh URLs)"
+python3 -m ingestion.scrapling.run discover --limit 300 --provider landbook || true
+python3 -m ingestion.scrapling.run discover --limit 100 --provider awwwards || true
 
 while [ "$(page_sites_count)" -lt "$TARGET" ]; do
   current="$(page_sites_count)"
@@ -57,8 +58,12 @@ while [ "$(page_sites_count)" -lt "$TARGET" ]; do
 
   if [ "$pending" -lt 20 ]; then
     discover_batch=$((gap < 150 ? gap + 50 : 200))
-    echo "==> Discovering ${discover_batch} more websites..."
-    python3 -m ingestion.scrapling.run discover --limit "$discover_batch" || true
+    echo "==> Discovering ${discover_batch} from landbook (fresh URLs)..."
+    python3 -m ingestion.scrapling.run discover --limit "$discover_batch" --provider landbook || true
+    echo "==> Discovering ${discover_batch} from awwwards..."
+    python3 -m ingestion.scrapling.run discover --limit "$discover_batch" --provider awwwards || true
+    echo "==> Discovering ${discover_batch} from one_page_love..."
+    python3 -m ingestion.scrapling.run discover --limit "$discover_batch" --provider one_page_love || true
     pending="$(pending_capture_count)"
     if [ "$pending" -eq 0 ] && [ "$total" -lt "$((TARGET + 50))" ]; then
       echo "==> Providers exhausted at ${total} websites — trying another discover pass"

@@ -14,6 +14,7 @@ def main() -> int:
 
     discover_parser = subparsers.add_parser("discover", help="Discover websites from curated providers")
     discover_parser.add_argument("--limit", type=int, default=50)
+    discover_parser.add_argument("--provider", type=str, default=None, help="awwwards, landbook, one_page_love, godly, lapa_ninja")
 
     capture_parser = subparsers.add_parser("capture", help="Capture screenshots for pending websites")
     capture_parser.add_argument("--limit", type=int, default=10)
@@ -35,7 +36,7 @@ def main() -> int:
     pipeline = DesignIngestionPipeline(api_base_url=os.environ.get("INGESTION_API_URL", "http://127.0.0.1:3101"))
 
     if args.command == "discover":
-        result = pipeline.discover_all(limit=args.limit)
+        result = pipeline.discover_all(limit=args.limit, provider=args.provider)
         print(json.dumps(result, indent=2))
         return 0
 

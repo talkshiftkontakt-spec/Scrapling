@@ -183,6 +183,12 @@ export async function updateWebsiteStatus(websiteId: string, status: ProcessingS
     .where(eq(websites.id, websiteId));
 }
 
+export async function listKnownNormalizedUrls(): Promise<string[]> {
+  const db = getDb();
+  const rows = await db.select({ normalizedUrl: websites.normalizedUrl }).from(websites);
+  return rows.map((row) => row.normalizedUrl);
+}
+
 export async function upsertDiscoveredWebsites(records: DiscoveredWebsite[]) {
   const db = getDb();
   const acceptedRecords: Array<{

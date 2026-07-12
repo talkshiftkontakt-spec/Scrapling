@@ -1,10 +1,20 @@
 from __future__ import annotations
 
 import os
+from urllib.parse import urlparse
 
 from ingestion.scrapling.api_client import IngestionApiClient
 from ingestion.scrapling.capture import ScreenshotCaptureService
 from ingestion.scrapling.providers import ALL_PROVIDERS
+
+
+def normalize_url(url: str) -> str:
+    parsed = urlparse(url)
+    parsed = parsed._replace(fragment="")
+    normalized = parsed.geturl()
+    if normalized.endswith("/"):
+        normalized = normalized[:-1]
+    return normalized
 
 
 class DesignIngestionPipeline:
@@ -12,14 +22,22 @@ class DesignIngestionPipeline:
         self.api_client = IngestionApiClient(api_base_url or os.environ.get("INGESTION_API_URL", "http://127.0.0.1:3101"))
         self.capture_service = ScreenshotCaptureService()
 
-    def discover_all(self, limit: int = 50) -> dict[str, object]:
+    def discover_all(self, limit: int = 50, provider: str | None = None) -> dict[str, object]:
+        known_urls = set(self.api_client.get_known_urls())
         records: list = []
         seen_urls: set[str] = set()
 
-        for provider_cls in ALL_PROVIDERS:
-            provider = provider_cls()
-            for discovered in provider.discover():
-                if discovered.url in seen_urls:
+        provider_classes = ALL_PROVIDERS
+        if provider:
+            provider_classes = [cls for cls in ALL_PROVIDERS if cls().slug == provider]
+            if not provider_classes:
+                raise ValueError(f"Unknown provider: {provider}")
+
+        for provider_cls in provider_classes:
+            provider_instance = provider_cls()
+            for discovered in provider_instance.discover():
+                normalized = normalize_url(discovered.url)
+                if discovered.url in seen_urls or normalized in known_urls:
                     continue
                 seen_urls.add(discovered.url)
                 records.append(discovered)
@@ -29,6 +47,9 @@ class DesignIngestionPipeline:
                 break
 
         trimmed = records[:limit]
+        if not trimmed:
+            return {"accepted": 0, "records": [], "skippedKnown": len(known_urls)}
+
         return self.api_client.submit_discovered_websites(trimmed)
 
     def _capture_and_persist(self, website_id: str, url: str, source: str | None = None) -> dict[str, object]:
@@ -56,7 +77,7 @@ class DesignIngestionPipeline:
             try:
                 capture_result = self._capture_and_persist(website_id=website_id, url=url, source=source)
                 results.append({**capture_result, "status": "captured"})
-            except Exception as exc:  # noqa: BLE001 - surface per-site failures in batch output
+            except Exception as exc:  # noqa: BLE001
                 self.api_client.mark_website_status(website_id, "failed")
                 results.append({"websiteId": website_id, "url": url, "status": "failed", "error": str(exc)})
 

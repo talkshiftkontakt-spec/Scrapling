@@ -14,6 +14,7 @@ import {
   getWebsiteStats,
   getScreenshotForWebsite,
   recordPageCaptureFailure,
+  listKnownNormalizedUrls,
   listNeedsPageCapture,
   listBrowsableReferences,
   listPageScreenshotsForWebsite,
@@ -55,6 +56,11 @@ export function registerRoutes<TApp extends FastifyInstance>(app: TApp): void {
       accepted: records.length,
       records
     };
+  });
+
+  app.get("/ingestion/known-urls", async () => {
+    const urls = await listKnownNormalizedUrls();
+    return { count: urls.length, urls };
   });
 
   app.get("/ingestion/pending-capture", async (request) => {

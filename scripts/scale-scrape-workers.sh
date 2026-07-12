@@ -40,7 +40,7 @@ for worker in $(seq 1 "$DISCOVER_WORKERS"); do
   SESSION="discover-worker-${worker}"
   tmux -f /exec-daemon/tmux.portal.conf kill-session -t "$SESSION" 2>/dev/null || true
   tmux -f /exec-daemon/tmux.portal.conf new-session -d -s "$SESSION" -c "$ROOT" -- "${SHELL:-zsh}" -l
-  tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION:0.0" "cd $ROOT && set -a && source .env && set +a && while true; do python3 -m ingestion.scrapling.run discover --limit 40 || true; sleep 30; done" C-m
+  tmux -f /exec-daemon/tmux.portal.conf send-keys -t "$SESSION:0.0" "cd $ROOT && set -a && source .env && set +a && while true; do python3 -m ingestion.scrapling.run discover --limit 50 --provider landbook || true; python3 -m ingestion.scrapling.run discover --limit 30 --provider awwwards || true; sleep 20; done" C-m
 done
 
 # Legacy single worker name cleanup
