@@ -14,8 +14,8 @@ export default function HomePage() {
         <OurDay theme={theme} />
         <p className="caption">
           {theme === "paper-ink"
-            ? "Paper & Ink — cream journal, serif hero, sketch warmth."
-            : "Sunday Morning — peach blush, dual-partner colors, playful pills."}
+            ? "Paper & Ink — rysowany hero z animacją słońca/chmur + count-up 763."
+            : "Sunday Morning — fale, sun/cloud bob, carousel Our Day + sparkles."}
         </p>
       </div>
     </main>

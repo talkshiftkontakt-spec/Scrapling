@@ -4,90 +4,118 @@ import { useEffect, useState } from "react";
 
 export type ThemeId = "paper-ink" | "sunday-morning";
 
-const AGENDA = [
+type AgendaItem = {
+  id: string;
+  title: string;
+  meta: string;
+  tag: string;
+  owners: Array<"a" | "b">;
+  done: boolean;
+  icon: "calendar" | "check" | "dinner" | "coffee";
+};
+
+const PAPER_AGENDA: AgendaItem[] = [
   {
     id: "anniv",
-    title: "Anniversary celebration",
-    meta: "Tonight · both",
+    title: "3 Year Anniversary",
+    meta: "All day",
     tag: "EVENT",
-    owners: ["a", "b"] as const,
-    done: false
+    owners: ["a", "b"],
+    done: false,
+    icon: "calendar"
   },
   {
     id: "flowers",
     title: "Pick up flowers",
-    meta: "Emily",
+    meta: "Shared",
     tag: "TASK",
-    owners: ["a"] as const,
-    done: false
+    owners: ["a", "b"],
+    done: false,
+    icon: "check"
   },
   {
     id: "dinner",
-    title: "Book dinner table",
-    meta: "Jakub",
-    tag: "TASK",
-    owners: ["b"] as const,
-    done: true
+    title: "Dinner reservation at Luma",
+    meta: "7:30 PM",
+    tag: "EVENT",
+    owners: ["b"],
+    done: true,
+    icon: "dinner"
   },
   {
     id: "coffee",
-    title: "Coffee or tea together?",
-    meta: "Soft suggestion",
+    title: "Coffee together",
+    meta: "Suggestion",
     tag: "SUGGESTION",
-    owners: ["a", "b"] as const,
-    done: false
+    owners: ["a", "b"],
+    done: false,
+    icon: "coffee"
   }
+];
+
+const SUNDAY_CARDS = [
+  { id: "anniv", tone: "coral", tag: "EVENT", title: "Anniversary", meta: "All day", done: false },
+  { id: "flowers", tone: "peach", tag: "TASK", title: "Flowers", meta: "You · E", done: false },
+  { id: "dinner", tone: "sky", tag: "TASK", title: "Dinner", meta: "Completed", done: true },
+  { id: "coffee", tone: "blue", tag: "SUGGESTION", title: "Coffee", meta: "Plan together", done: false }
 ] as const;
 
-function SunIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" />
-      <path
-        d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M17.2 6.8l1.6-1.6M5.2 18.8l1.6-1.6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
+function useCountUp(target: number, active: boolean) {
+  const [value, setValue] = useState(active ? 0 : target);
+
+  useEffect(() => {
+    if (!active) {
+      setValue(target);
+      return;
+    }
+    setValue(0);
+    const started = performance.now();
+    const duration = 1100;
+    let frame = 0;
+
+    const tick = (now: number) => {
+      const progress = Math.min(1, (now - started) / duration);
+      const eased = 1 - (1 - progress) ** 3;
+      setValue(Math.round(target * eased));
+      if (progress < 1) {
+        frame = requestAnimationFrame(tick);
+      }
+    };
+
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [active, target]);
+
+  return value;
 }
 
-type TabName = "Our Day" | "Plan" | "Together" | "Wellbeing" | "Memories";
-
-function TabIcon({ name }: { name: TabName }) {
+function LineIcon({ name }: { name: AgendaItem["icon"] }) {
   switch (name) {
-    case "Our Day":
+    case "calendar":
       return (
-        <svg viewBox="0 0 24 24" fill="none">
-          <path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-5H10v5H5a1 1 0 0 1-1-1v-8.5Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" strokeWidth="1.5" />
+          <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
-    case "Plan":
+    case "check":
       return (
-        <svg viewBox="0 0 24 24" fill="none">
-          <rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" strokeWidth="1.6" />
-          <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" strokeWidth="1.5" />
+          <path d="m8 12 2.5 2.5L16 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
-    case "Together":
+    case "dinner":
       return (
-        <svg viewBox="0 0 24 24" fill="none">
-          <path d="M8 14a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7ZM16 14a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z" stroke="currentColor" strokeWidth="1.6" />
-          <path d="M3.5 19c.6-2.2 2.5-3.5 4.5-3.5h1c1.1 0 2.1.3 2.9.9M13.1 16.4c.8-.6 1.8-.9 2.9-.9h1c2 0 3.9 1.3 4.5 3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M7 4v9M7 13v7M5 4v5a2 2 0 0 0 4 0V4M15 4c2 2 2 5 2 9v7M15 4v8h3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
-    case "Wellbeing":
+    case "coffee":
       return (
-        <svg viewBox="0 0 24 24" fill="none">
-          <path d="M12 20c4-3.2 7-6 7-9.5A4.5 4.5 0 0 0 12 7a4.5 4.5 0 0 0-7 3.5C5 14 8 16.8 12 20Z" stroke="currentColor" strokeWidth="1.6" />
-        </svg>
-      );
-    case "Memories":
-      return (
-        <svg viewBox="0 0 24 24" fill="none">
-          <rect x="4" y="6" width="16" height="13" rx="2" stroke="currentColor" strokeWidth="1.6" />
-          <path d="M4 15l4-3 3 2 4-4 5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9h10v5a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V9Z" stroke="currentColor" strokeWidth="1.5" />
+          <path d="M16 10h2a2 2 0 0 1 0 4h-2M8 19h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
     default: {
@@ -97,135 +125,93 @@ function TabIcon({ name }: { name: TabName }) {
   }
 }
 
-function Mascot({ theme }: { theme: ThemeId }) {
-  if (theme === "paper-ink") {
-    return (
-      <svg className="mascot" viewBox="0 0 74 62" aria-hidden="true">
-        <ellipse cx="38" cy="34" rx="24" ry="16" fill="#edd7cb" />
-        <circle cx="30" cy="32" r="2" fill="#2a231c" />
-        <circle cx="44" cy="32" r="2" fill="#2a231c" />
-        <path d="M30 40c3 3 11 3 14 0" stroke="#c05b33" strokeWidth="2" strokeLinecap="round" fill="none" />
-        <path d="M18 22c4-10 16-14 28-8" stroke="#7c9070" strokeWidth="2" strokeLinecap="round" fill="none" />
-      </svg>
-    );
-  }
-
-  return (
-    <svg className="mascot" viewBox="0 0 74 62" aria-hidden="true">
-      <circle cx="40" cy="30" r="20" fill="#ffd8c4" />
-      <circle cx="33" cy="28" r="2.2" fill="#2c221c" />
-      <circle cx="47" cy="28" r="2.2" fill="#2c221c" />
-      <path d="M33 36c3.5 3.5 12 3.5 15.5 0" stroke="#e07a52" strokeWidth="2.2" strokeLinecap="round" fill="none" />
-      <path d="M18 18l4 2M58 16l-4 2M14 34h4M62 30h4" stroke="#5f86ad" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  );
-}
-
-function IllustratedHero({ days }: { days: string }) {
-  return (
-    <section className="hero hero-illustrated" aria-label="Days together">
-      <div className="hero-art" aria-hidden="true">
-        <img className="hero-base" src="/illustrations/hero-base.png" alt="" />
-        <img className="layer sun" src="/illustrations/sun.png" alt="" />
-        <img className="layer cloud cloud-a" src="/illustrations/cloud.png" alt="" />
-        <img className="layer cloud cloud-b" src="/illustrations/cloud.png" alt="" />
-        <div className="hero-wash" />
-      </div>
-      <div className="hero-copy">
-        <div className="hero-kicker">We have been sharing</div>
-        <h1 className="hero-days">{days} days</h1>
-        <p className="hero-sub">together as one.</p>
-      </div>
-    </section>
-  );
-}
-
-function CompactHero({ theme, days }: { theme: ThemeId; days: string }) {
-  return (
-    <section className="hero" aria-label="Days together">
-      <div className="hero-kicker">We have been sharing</div>
-      <h1 className="hero-days">{days} days</h1>
-      <p className="hero-sub">together as one.</p>
-      <Mascot theme={theme} />
-    </section>
-  );
-}
-
-export function OurDay({ theme }: { theme: ThemeId }) {
+function PaperScreen() {
+  const days = useCountUp(763, true);
   const [done, setDone] = useState<Record<string, boolean>>(() =>
-    Object.fromEntries(AGENDA.map((item) => [item.id, item.done]))
+    Object.fromEntries(PAPER_AGENDA.map((item) => [item.id, item.done]))
   );
   const [note, setNote] = useState("");
   const [toast, setToast] = useState("");
 
-  useEffect(() => {
-    setToast("");
-    setNote("");
-  }, [theme]);
-
-  function toggle(id: string) {
-    setDone((prev) => ({ ...prev, [id]: !prev[id] }));
-  }
-
-  function shareNote() {
-    if (!note.trim()) {
-      setToast("Write a tiny note first — even one word counts.");
-      return;
-    }
-    setToast("Shared with Jakub. Soft and private.");
-    setNote("");
-  }
-
   return (
-    <div className="phone" key={theme}>
+    <div className="phone paper-screen">
       <div className="screen">
-        <header className="topbar">
-          <div className="brand">
+        <header className="topbar paper-top">
+          <div className="brand paper-brand">
+            <span className="heart-mark" aria-hidden="true">
+              ♥
+            </span>
             Us<span>.</span>
           </div>
           <div className="top-actions">
-            <button className="icon-btn" aria-label="Theme cue" type="button">
-              <SunIcon />
+            <button className="icon-btn" type="button" aria-label="Daylight">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" />
+                <path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M17.1 6.9l1.4-1.4M5.5 18.5l1.4-1.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
             </button>
             <div className="avatar">
-              <i />
+              <img src="/avatars/emily.png" alt="" />
               Emily
             </div>
           </div>
         </header>
 
-        {theme === "paper-ink" ? <IllustratedHero days="763" /> : <CompactHero theme={theme} days="763" />}
+        <section className="hero-illustrated paper-hero" aria-label="Days together">
+          <div className="hero-art" aria-hidden="true">
+            <img className="hero-base" src="/illustrations/hero-base.png" alt="" />
+            <img className="layer sun" src="/illustrations/sun.png" alt="" />
+            <img className="layer cloud cloud-a" src="/illustrations/cloud.png" alt="" />
+            <img className="layer cloud cloud-b" src="/illustrations/cloud.png" alt="" />
+            <span className="float-heart">♥</span>
+            <div className="hero-wash" />
+          </div>
+          <div className="hero-copy">
+            <div className="hero-kicker">We have been sharing</div>
+            <h1 className="hero-days">
+              <span className="count">{days}</span> days
+            </h1>
+            <p className="hero-sub">together as one.</p>
+          </div>
+        </section>
 
         <h2 className="section-title">Our Day Today</h2>
-        <div className="agenda">
-          {AGENDA.map((item) => {
+        <div className="agenda paper-agenda">
+          {PAPER_AGENDA.map((item) => {
             const isDone = done[item.id];
             return (
               <button
                 key={item.id}
                 type="button"
-                className={`agenda-item${isDone ? " done" : ""}`}
-                onClick={() => toggle(item.id)}
+                className={`agenda-row${isDone ? " done" : ""}`}
+                onClick={() => setDone((prev) => ({ ...prev, [item.id]: !prev[item.id] }))}
               >
-                <span className="check" aria-hidden="true">
-                  {isDone ? "✓" : ""}
+                <span className="row-icon">
+                  <LineIcon name={item.icon} />
                 </span>
                 <span className="agenda-body">
                   <strong>{item.title}</strong>
                   <span className="meta">
                     {item.owners.map((owner) => (
-                      <span key={owner} className={`dot ${owner}`} />
+                      <span key={owner} className={`mini ${owner}`}>
+                        {owner === "a" ? "E" : "J"}
+                      </span>
                     ))}
                     {item.meta}
                   </span>
                 </span>
-                <span className="tag">{item.tag}</span>
+                <span className="chev" aria-hidden="true">
+                  ›
+                </span>
               </button>
             );
           })}
         </div>
 
-        <section className="prompt">
+        <section className="prompt paper-prompt">
+          <div className="prompt-ornament" aria-hidden="true">
+            ✦
+          </div>
           <h3>Daily Prompt</h3>
           <p>What is one small thing you appreciate about your partner today?</p>
           <div className="prompt-row">
@@ -234,13 +220,19 @@ export function OurDay({ theme }: { theme: ThemeId }) {
               onChange={(event) => setNote(event.target.value)}
               placeholder="Write your note..."
               aria-label="Appreciation note"
-              onKeyDown={(event) => {
-                if (event.key === "Enter") {
-                  shareNote();
-                }
-              }}
             />
-            <button className="share" type="button" onClick={shareNote}>
+            <button
+              className="share"
+              type="button"
+              onClick={() => {
+                if (!note.trim()) {
+                  setToast("Even one word is enough.");
+                  return;
+                }
+                setToast("Shared softly with Jakub.");
+                setNote("");
+              }}
+            >
               Share
             </button>
           </div>
@@ -250,16 +242,164 @@ export function OurDay({ theme }: { theme: ThemeId }) {
         </section>
       </div>
 
-      <nav className="tabbar" aria-label="Main">
-        {(["Our Day", "Plan", "Together", "Wellbeing", "Memories"] as const).map((tab) => (
-          <button key={tab} type="button" className={`tab${tab === "Our Day" ? " active" : ""}`}>
-            <TabIcon name={tab} />
-            {tab}
+      <nav className="tabbar paper-tabs" aria-label="Main">
+        {(
+          [
+            ["Our Day", "sun"],
+            ["Plan", "cal"],
+            ["Together", "hearts"],
+            ["Wellbeing", "leaf"],
+            ["Memories", "photo"]
+          ] as const
+        ).map(([label], index) => (
+          <button key={label} type="button" className={`tab${index === 0 ? " active" : ""}`}>
+            <span className="tab-glyph" aria-hidden="true">
+              {index === 0 ? "☀" : index === 1 ? "▦" : index === 2 ? "♡" : index === 3 ? "☘" : "▤"}
+            </span>
+            {label}
           </button>
         ))}
       </nav>
     </div>
   );
+}
+
+function SundayScreen() {
+  const days = useCountUp(763, true);
+  const [note, setNote] = useState("");
+  const [toast, setToast] = useState("");
+  const [activeCard, setActiveCard] = useState(0);
+  const [done, setDone] = useState<Record<string, boolean>>(() =>
+    Object.fromEntries(SUNDAY_CARDS.map((card) => [card.id, card.done]))
+  );
+
+  const digits = String(days).padStart(3, "0").slice(-3).split("");
+
+  return (
+    <div className="phone sunday-screen">
+      <div className="screen">
+        <header className="sunday-top">
+          <button className="ghost-icon" type="button" aria-label="Gifts">
+            ▤
+          </button>
+          <div className="sunday-logo">
+            Us<span>.</span>
+            <i>♥</i>
+          </div>
+          <img className="sunday-avatar" src="/avatars/emily.png" alt="Emily" />
+        </header>
+
+        <section className="sunday-hero" aria-label="Days together">
+          <div className="wave wave-a" aria-hidden="true" />
+          <div className="wave wave-b" aria-hidden="true" />
+          <img className="float-asset sun-smile" src="/illustrations/sun-smile.png" alt="" />
+          <img className="float-asset cloud-smile" src="/illustrations/cloud-smile.png" alt="" />
+          <span className="spark s1">✦</span>
+          <span className="spark s2">✧</span>
+
+          <div className="pair">
+            <figure>
+              <img src="/avatars/you.png" alt="" />
+              <figcaption className="tag a">You</figcaption>
+            </figure>
+            <figure>
+              <img src="/avatars/emily.png" alt="" />
+              <figcaption className="tag b">Emily</figcaption>
+            </figure>
+          </div>
+
+          <div className="sunday-count" aria-label={`${days} days together`}>
+            <span className="d0">{digits[0]}</span>
+            <span className="d1">{digits[1]}</span>
+            <span className="d2">{digits[2]}</span>
+          </div>
+          <p className="sunday-sub">days together</p>
+          <p className="sunday-script">
+            as one <span>♥</span>
+          </p>
+        </section>
+
+        <div className="sunday-section-head">
+          <h2>Our Day Today</h2>
+          <span aria-hidden="true">///</span>
+        </div>
+
+        <div className="carousel" role="list">
+          {SUNDAY_CARDS.map((card, index) => (
+            <button
+              key={card.id}
+              type="button"
+              role="listitem"
+              className={`day-card tone-${card.tone}${done[card.id] ? " done" : ""}${activeCard === index ? " focus" : ""}`}
+              onClick={() => {
+                setActiveCard(index);
+                setDone((prev) => ({ ...prev, [card.id]: !prev[card.id] }));
+              }}
+            >
+              <span className="day-tag">{card.tag}</span>
+              <strong>{card.title}</strong>
+              <em>{card.meta}</em>
+            </button>
+          ))}
+        </div>
+        <div className="dots" aria-hidden="true">
+          {SUNDAY_CARDS.map((card, index) => (
+            <i key={card.id} className={activeCard === index ? "on" : ""} />
+          ))}
+        </div>
+
+        <section className="sunday-prompt">
+          <img className="prompt-art" src="/illustrations/coffee-prompt.png" alt="" />
+          <div>
+            <h3>
+              Daily Prompt <span>♥</span>
+            </h3>
+            <p>What’s one thing you’re grateful for about us today?</p>
+            <div className="prompt-row">
+              <input
+                value={note}
+                onChange={(event) => setNote(event.target.value)}
+                placeholder="Write your note..."
+                aria-label="Gratitude note"
+              />
+              <button
+                className="share"
+                type="button"
+                onClick={() => {
+                  if (!note.trim()) {
+                    setToast("A tiny thank-you still counts.");
+                    return;
+                  }
+                  setToast("Sent with a soft ping.");
+                  setNote("");
+                }}
+              >
+                Share
+              </button>
+            </div>
+            <div className="toast" aria-live="polite">
+              {toast}
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <nav className="tabbar sunday-tabs" aria-label="Main">
+        {(["Home", "Our Day", "Connect", "Grow", "Chats"] as const).map((label, index) => (
+          <button key={label} type="button" className={`tab${index === 1 ? " active" : ""}`}>
+            <span className="tab-glyph" aria-hidden="true">
+              {index === 0 ? "⌂" : index === 1 ? "☀" : index === 2 ? "♡" : index === 3 ? "☘" : "💬"}
+            </span>
+            {label}
+          </button>
+        ))}
+      </nav>
+    </div>
+  );
+}
+
+export function OurDay({ theme }: { theme: ThemeId }) {
+  return theme === "paper-ink" ? <PaperScreen /> : <SundayScreen />;
 }
 
 export function ThemePicker({
