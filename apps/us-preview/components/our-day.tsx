@@ -2,56 +2,60 @@
 
 import { useEffect, useState } from "react";
 
+import layerManifest from "./layer-manifest.json";
+
 export type ThemeId = "paper-ink" | "sunday-morning";
 
-function LivingMock({ theme }: { theme: ThemeId }) {
+type LayerInfo = {
+  file: string;
+  leftPct: number;
+  topPct: number;
+  widthPct: number;
+  heightPct: number;
+  anim?: string;
+};
+
+function PaperLayered() {
   const [note, setNote] = useState("");
   const [toast, setToast] = useState("");
-
-  const isPaper = theme === "paper-ink";
-  const topSrc = isPaper ? "/mockups/paper-ink-top.png" : "/mockups/sunday-top.png";
-  const navSrc = isPaper ? "/mockups/paper-ink-nav.png" : "/mockups/sunday-nav.png";
-
-  useEffect(() => {
-    setNote("");
-    setToast("");
-  }, [theme]);
+  const layers = Object.entries(layerManifest.layers as Record<string, LayerInfo>);
 
   function share() {
     if (!note.trim()) {
-      setToast(isPaper ? "Even one word is enough." : "A tiny thank-you still counts.");
+      setToast("Even one word is enough.");
       return;
     }
-    setToast(isPaper ? "Shared softly with Jakub." : "Sent with a soft ping.");
+    setToast("Shared softly with Jakub.");
     setNote("");
   }
 
   return (
-    <div className={`phone living ${theme}`}>
+    <div className="phone living paper-ink">
       <div className="living-stage">
-        <div className="art-wrap">
-          <img className="mock-exact" src={topSrc} alt="" />
-          <div className="fx" aria-hidden="true">
-            <span className="orb o1" />
-            <span className="orb o2" />
-            <span className="orb o3" />
-            <span className="spark sp1">✦</span>
-            <span className="spark sp2">✧</span>
-            <span className="spark sp3">♥</span>
-            <span className="spark sp4">✦</span>
-          </div>
+        <div className="art-wrap layered-hero">
+          <img className="mock-exact" src="/mockups/layers/paper-top-clean.png" alt="" />
+          {layers.map(([name, layer]) => (
+            <img
+              key={name}
+              className={`cut-layer anim-${layer.anim ?? "float"}`}
+              src={layer.file}
+              alt=""
+              style={{
+                left: `${layer.leftPct}%`,
+                top: `${layer.topPct}%`,
+                width: `${layer.widthPct}%`,
+                height: `${layer.heightPct}%`
+              }}
+            />
+          ))}
         </div>
 
-        <section className={`live-prompt ${theme}`}>
+        <section className="live-prompt paper-ink">
           <div className="live-prompt-head">
-            <span aria-hidden="true">{isPaper ? "🌿" : "♡"}</span>
+            <span aria-hidden="true">🌿</span>
             <h3>Daily Prompt</h3>
           </div>
-          <p>
-            {isPaper
-              ? "What is one small thing you appreciate about your partner today?"
-              : "What’s one thing you’re grateful for about us today?"}
-          </p>
+          <p>What is one small thing you appreciate about your partner today?</p>
           <div className="prompt-row">
             <input
               value={note}
@@ -73,14 +77,78 @@ function LivingMock({ theme }: { theme: ThemeId }) {
           </div>
         </section>
 
-        <img className="mock-nav" src={navSrc} alt="" />
+        <img className="mock-nav" src="/mockups/paper-ink-nav.png" alt="" />
+      </div>
+    </div>
+  );
+}
+
+function SundayLiving() {
+  const [note, setNote] = useState("");
+  const [toast, setToast] = useState("");
+
+  useEffect(() => {
+    setNote("");
+    setToast("");
+  }, []);
+
+  function share() {
+    if (!note.trim()) {
+      setToast("A tiny thank-you still counts.");
+      return;
+    }
+    setToast("Sent with a soft ping.");
+    setNote("");
+  }
+
+  return (
+    <div className="phone living sunday-morning">
+      <div className="living-stage">
+        <div className="art-wrap">
+          <img className="mock-exact" src="/mockups/sunday-top.png" alt="" />
+          <div className="fx" aria-hidden="true">
+            <span className="orb o1" />
+            <span className="orb o2" />
+            <span className="spark sp1">✦</span>
+            <span className="spark sp2">✧</span>
+          </div>
+        </div>
+
+        <section className="live-prompt sunday-morning">
+          <div className="live-prompt-head">
+            <span aria-hidden="true">♡</span>
+            <h3>Daily Prompt</h3>
+          </div>
+          <p>What’s one thing you’re grateful for about us today?</p>
+          <div className="prompt-row">
+            <input
+              value={note}
+              onChange={(event) => setNote(event.target.value)}
+              placeholder="Write your note..."
+              aria-label="Daily prompt note"
+              onKeyDown={(event) => {
+                if (event.key === "Enter") {
+                  share();
+                }
+              }}
+            />
+            <button type="button" className="share" onClick={share}>
+              Share
+            </button>
+          </div>
+          <div className="toast" aria-live="polite">
+            {toast}
+          </div>
+        </section>
+
+        <img className="mock-nav" src="/mockups/sunday-nav.png" alt="" />
       </div>
     </div>
   );
 }
 
 export function OurDay({ theme }: { theme: ThemeId }) {
-  return <LivingMock key={theme} theme={theme} />;
+  return theme === "paper-ink" ? <PaperLayered /> : <SundayLiving />;
 }
 
 export function ThemePicker({
