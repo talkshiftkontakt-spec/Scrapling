@@ -14,8 +14,8 @@ export default function HomePage() {
         <OurDay theme={theme} />
         <p className="caption">
           {theme === "paper-ink"
-            ? "Paper & Ink — warstwy wycięte z PNG (słońce/chmura/wzgórza) są animowane."
-            : "Sunday Morning — oryginalna grafika + działający Daily Prompt."}
+            ? "Paper & Ink — czysty oryginalny PNG (bez zepsutych wycinek)."
+            : "Sunday Morning — czysty oryginalny PNG + działający Daily Prompt."}
         </p>
       </div>
     </main>

@@ -121,74 +121,43 @@ img {
   display: grid;
 }
 
-.layered-hero {
-  isolation: isolate;
+.fx.soft-only .orb {
+  display: none;
 }
 
+.fx.soft-only .spark {
+  opacity: 0.55;
+  mix-blend-mode: multiply;
+}
+
+.sp1 {
+  top: 12%;
+  left: 58%;
+}
+
+.sp2 {
+  top: 9%;
+  right: 18%;
+  animation-delay: -0.7s;
+}
+
+.sp3 {
+  top: 30%;
+  left: 46%;
+  animation-delay: -1.2s;
+  font-size: 0.75rem;
+  color: #c05b33;
+}
+
+/* disable broken cut-layer path if leftover styles exist */
 .cut-layer {
-  position: absolute;
-  object-fit: contain;
-  pointer-events: none;
-  user-select: none;
-  transform-origin: center center;
-  will-change: transform;
+  display: none !important;
 }
 
-.anim-sun-spin {
-  animation: sun-spin 10s ease-in-out infinite;
-}
-
-.anim-cloud-drift {
-  animation: cloud-drift 12s ease-in-out infinite;
-}
-
-.anim-sway {
-  animation: plant-sway 7s ease-in-out infinite;
-  transform-origin: center bottom;
-}
-
-.anim-float {
-  animation: float-heart 3.2s ease-in-out infinite;
-}
-
-@keyframes sun-spin {
-  0%,
-  100% {
-    transform: rotate(-2deg) scale(1);
-  }
-  50% {
-    transform: rotate(3deg) scale(1.04);
-  }
-}
-
-@keyframes cloud-drift {
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(18px, -10px, 0);
-  }
-}
-
-@keyframes plant-sway {
-  0%,
-  100% {
-    transform: translateX(0) rotate(0deg);
-  }
-  50% {
-    transform: translateX(4px) rotate(0.6deg);
-  }
-}
-
-@keyframes float-heart {
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(-10px) scale(1.08);
-  }
+.mock-exact {
+  width: 100%;
+  height: auto;
+  animation: none;
 }
 
 .mock-exact {
