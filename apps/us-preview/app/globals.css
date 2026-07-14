@@ -386,6 +386,263 @@ img {
   margin: 0;
 }
 
+.screen-rail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.screen-rail button,
+.mode-row button {
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.screen-rail button[aria-pressed="true"],
+.mode-row button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: transparent;
+  color: #fffaf4;
+}
+
+.mode-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.phone.image-phone,
+.phone.living-hero {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  border-radius: 34px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fbf6ee;
+  position: relative;
+  animation: rise-in 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sunday-morning.phone.image-phone,
+.sunday-morning.phone.living-hero {
+  background: #fff7f1;
+}
+
+.screen-frame {
+  position: relative;
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.screen-frame.is-out {
+  opacity: 0.35;
+  transform: scale(0.985);
+}
+
+.screen-frame.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.screen-art {
+  width: 100%;
+  height: auto;
+}
+
+.tab-hotspots {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 1.5%;
+  height: 9.5%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.tab-hotspots button,
+.splash-cta {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+.splash-cta {
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  bottom: 12%;
+  height: 8%;
+}
+
+.hero-paper {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background:
+    radial-gradient(80% 50% at 70% 18%, #ffe7c8 0%, transparent 55%),
+    linear-gradient(180deg, #f7efe2 0%, #fbf6ee 48%, #e8f0df 100%);
+}
+
+.sunday-morning .hero-paper {
+  background:
+    radial-gradient(70% 45% at 70% 16%, #ffd4ba 0%, transparent 55%),
+    linear-gradient(180deg, #fff3ea 0%, #fff8f3 50%, #dce9f5 100%);
+}
+
+.living-hero .layer {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+
+.living-hero .hills {
+  left: -4%;
+  right: -4%;
+  bottom: 18%;
+  width: 108%;
+  animation: hills-drift 10s ease-in-out infinite;
+}
+
+.living-hero .clouds {
+  width: 52%;
+  top: 10%;
+  left: 4%;
+  opacity: 0.95;
+  animation: cloud-drift 14s ease-in-out infinite;
+}
+
+.living-hero .sun {
+  width: 42%;
+  top: 6%;
+  right: 2%;
+  animation: sun-glow 8s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.living-hero .hearts {
+  width: 28%;
+  top: 22%;
+  left: 36%;
+  animation: float-soft 5.5s ease-in-out infinite;
+}
+
+.living-hero .stars {
+  width: 34%;
+  top: 4%;
+  left: 34%;
+  opacity: 0.85;
+  animation: sparkle-layers 3.2s ease-in-out infinite;
+}
+
+.living-hero .plane {
+  width: 18%;
+  top: 28%;
+  right: 18%;
+  animation: plane-fly 11s ease-in-out infinite;
+}
+
+.hero-copy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8%;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-eyebrow {
+  margin: 0;
+  color: #6f8a64;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  margin: 4px 0 0;
+  font-family: var(--font-display);
+  font-size: 3.4rem;
+  color: var(--accent);
+  line-height: 1;
+}
+
+@keyframes sun-glow {
+  0%,
+  100% {
+    transform: rotate(-2deg) scale(1);
+  }
+  50% {
+    transform: rotate(3deg) scale(1.04);
+  }
+}
+
+@keyframes cloud-drift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(18px);
+  }
+}
+
+@keyframes hills-drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
+@keyframes sparkle-layers {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes plane-fly {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(-8deg);
+  }
+  50% {
+    transform: translate(-22px, -16px) rotate(6deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .living-hero .layer {
+    animation: none !important;
+  }
+}
+
 @keyframes soft-pop {
   from {
     opacity: 0;

@@ -113,4 +113,6 @@ output/*/index.html
 # Sphinx
 docs/_build
 public/
+!apps/us-preview/public/
+!apps/us-preview/public/**
 web/
