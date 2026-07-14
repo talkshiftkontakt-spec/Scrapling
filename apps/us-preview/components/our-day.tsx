@@ -121,6 +121,36 @@ function Mascot({ theme }: { theme: ThemeId }) {
   );
 }
 
+function IllustratedHero({ days }: { days: string }) {
+  return (
+    <section className="hero hero-illustrated" aria-label="Days together">
+      <div className="hero-art" aria-hidden="true">
+        <img className="hero-base" src="/illustrations/hero-base.png" alt="" />
+        <img className="layer sun" src="/illustrations/sun.png" alt="" />
+        <img className="layer cloud cloud-a" src="/illustrations/cloud.png" alt="" />
+        <img className="layer cloud cloud-b" src="/illustrations/cloud.png" alt="" />
+        <div className="hero-wash" />
+      </div>
+      <div className="hero-copy">
+        <div className="hero-kicker">We have been sharing</div>
+        <h1 className="hero-days">{days} days</h1>
+        <p className="hero-sub">together as one.</p>
+      </div>
+    </section>
+  );
+}
+
+function CompactHero({ theme, days }: { theme: ThemeId; days: string }) {
+  return (
+    <section className="hero" aria-label="Days together">
+      <div className="hero-kicker">We have been sharing</div>
+      <h1 className="hero-days">{days} days</h1>
+      <p className="hero-sub">together as one.</p>
+      <Mascot theme={theme} />
+    </section>
+  );
+}
+
 export function OurDay({ theme }: { theme: ThemeId }) {
   const [done, setDone] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(AGENDA.map((item) => [item.id, item.done]))
@@ -164,12 +194,7 @@ export function OurDay({ theme }: { theme: ThemeId }) {
           </div>
         </header>
 
-        <section className="hero" aria-label="Days together">
-          <div className="hero-kicker">We have been sharing</div>
-          <h1 className="hero-days">763 days</h1>
-          <p className="hero-sub">together as one.</p>
-          <Mascot theme={theme} />
-        </section>
+        {theme === "paper-ink" ? <IllustratedHero days="763" /> : <CompactHero theme={theme} days="763" />}
 
         <h2 className="section-title">Our Day Today</h2>
         <div className="agenda">
