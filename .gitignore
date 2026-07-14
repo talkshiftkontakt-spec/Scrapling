@@ -2,6 +2,9 @@
 site/*
 local_tests/*
 .mcpregistry_*
+DesignLibrary/
+scrapling/.scrapling_dependencies_installed
+node_modules/
 
 # AI related files
 .claude/*
@@ -48,6 +51,9 @@ venv.bak/
 *.code-workspace
 
 # Packages
+node_modules/
+.next/
+*.tsbuildinfo
 *.egg
 *.egg-info
 dist
@@ -107,4 +113,6 @@ output/*/index.html
 # Sphinx
 docs/_build
 public/
+!apps/us-preview/public/
+!apps/us-preview/public/**
 web/

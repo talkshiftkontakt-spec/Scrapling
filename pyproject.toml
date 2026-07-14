@@ -113,7 +113,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["scrapling*"]
+include = ["scrapling*", "ingestion*"]
 
 [tool.mypy]
 python_version = "3.10"
@@ -124,5 +124,5 @@ check_untyped_defs = true
 [tool.pyright]
 pythonVersion = "3.10"
 typeCheckingMode = "basic"
-include = ["scrapling"]
+include = ["scrapling", "ingestion"]
 ignore = ["tests", "benchmarks.py"]
