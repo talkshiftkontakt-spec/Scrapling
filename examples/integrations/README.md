@@ -38,11 +38,15 @@ Patches: `ai-website-cloner/patches/` (1 commit — preflight script + docs)
 
 **Test:** `python scripts/scrapling-preflight.py https://www.lingology.pl`
 
-## Lingology / TutorApp promo flow (OpenShorts)
+## Lingology / LingoTutor marketing pack
 
-1. Deploy OpenShorts with Scrapling integration merged
-2. Open **AI Shorts** → paste `https://www.lingology.pl` or TutorApp URL
-3. Scrapling extracts copy → Gemini writes script → fal.ai renders video
+Full research + content + runbooks (no VPS):
+
+→ [`examples/marketing/lingology/`](../marketing/lingology/)
+
+OpenShorts promo URLs:
+- `https://www.lingology.pl` (kursanci)
+- `https://www.lingotutor.pl/welcome` (korepetytorzy)
 
 ## Dependencies
 
