@@ -1,0 +1,19 @@
+{
+  "name": "@design-intelligence/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "process:pending": "tsx src/process-pending.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@design-intelligence/database": "^0.1.0",
+    "@design-intelligence/design-intelligence": "^0.1.0",
+    "@design-intelligence/shared": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1"
+  }
+}

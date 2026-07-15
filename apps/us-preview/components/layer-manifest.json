@@ -1,0 +1,38 @@
+{
+  "width": 1024,
+  "height": 1018,
+  "layers": {
+    "sun": {
+      "file": "/mockups/layers/sun.png",
+      "leftPct": 64.746,
+      "topPct": 14.538,
+      "widthPct": 17.285,
+      "heightPct": 19.155,
+      "anim": "sun-spin"
+    },
+    "cloud-mid": {
+      "file": "/mockups/layers/cloud-mid.png",
+      "leftPct": 48.828,
+      "topPct": 22.004,
+      "widthPct": 27.344,
+      "heightPct": 14.637,
+      "anim": "cloud-drift"
+    },
+    "hills": {
+      "file": "/mockups/layers/hills.png",
+      "leftPct": 7.617,
+      "topPct": 27.505,
+      "widthPct": 90.039,
+      "heightPct": 16.699,
+      "anim": "sway"
+    },
+    "heart": {
+      "file": "/mockups/layers/heart.png",
+      "leftPct": 45.9,
+      "topPct": 31.4,
+      "widthPct": 6.8,
+      "heightPct": 6.9,
+      "anim": "float"
+    }
+  }
+}

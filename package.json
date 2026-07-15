@@ -1,0 +1,39 @@
+{
+  "name": "design-intelligence-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Hybrid design intelligence platform built around Scrapling ingestion.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "db:migrate": "npm run db:migrate --workspace @design-intelligence/database",
+    "dev:api": "npm run dev --workspace @design-intelligence/api",
+    "dev:dashboard": "npm run dev --workspace @design-intelligence/dashboard -- --port 3100 --hostname 0.0.0.0",
+    "dev:us": "npm run dev --workspace @design-intelligence/us-preview",
+    "process:pending": "npm run process:pending --workspace @design-intelligence/worker",
+    "references": "curl -s \"http://127.0.0.1:${PORT:-3001}/references?status=accepted&limit=20\"",
+    "setup:first-references": "bash scripts/first-references.sh",
+    "collect:references": "bash scripts/collect-to-target.sh",
+    "recapture:pages": "bash scripts/recapture-pages.sh",
+    "recapture:all-pages": "bash scripts/recapture-all-pages.sh",
+    "collect:150-pages": "bash scripts/collect-150-page-sites.sh",
+    "collect:500-pages": "bash scripts/collect-500-page-sites.sh",
+    "scale:scrape": "bash scripts/scale-scrape-workers.sh",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.2"
+  }
+}
