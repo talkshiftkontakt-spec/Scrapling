@@ -108,3 +108,13 @@ output/*/index.html
 docs/_build
 public/
 web/
+
+# OLX watcher local state
+examples/olx_iphones/.olx_iphone_state.json
+examples/olx_korepetycje/.korepetycje_state.json
+
+# Local integration worktrees (patches live in examples/integrations/)
+openshorts-work/
+marketingskills-work/
+cloner-work/
+korepetycje.json

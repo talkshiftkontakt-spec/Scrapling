@@ -1,0 +1,25 @@
+From 3c05a436b619e10aa482205294406afd4baadb85 Mon Sep 17 00:00:00 2001
+From: Cursor Agent <cursoragent@cursor.com>
+Date: Tue, 7 Jul 2026 19:21:02 +0000
+Subject: [PATCH 2/2] docs: mention Scrapling in AI Shorts pipeline README
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 6b14e2a..e904d54 100644
+--- a/README.md
++++ b/README.md
+@@ -71,7 +71,7 @@ All generated videos and avatars are saved to a public gallery with SEO pages fo
+ - **AI Video Effects**: Gemini-generated FFmpeg filters for professional effects
+ 
+ ### AI Shorts Pipeline
+-1. **Analyze**: Scrape website URL + web research, or generate from manual description
++1. **Analyze**: Scrape website URL via **Scrapling** (auto static/dynamic) + web research, or generate from manual description — see [docs/SCRAPLING.md](docs/SCRAPLING.md)
+ 2. **Script**: AI writes viral scripts (hook - problem - solution - CTA format)
+ 3. **Actor**: Generate AI actors with Flux 2 Pro or select from shared gallery
+ 4. **Voice**: ElevenLabs TTS voiceover (English/Spanish, male/female)
+-- 
+2.43.0
+
