@@ -5,6 +5,14 @@
 **Data:** 17 lipca 2026  
 **Aktualizacja:** wiarygodność (psychologia UJ / 1200+ lekcji), lejek po konsultacji, tracking, RODO, urgency, testy 3 kreacji równolegle
 
+### Dokumenty towarzyszące (gotowe do wykonania)
+
+| Plik | Zawartość |
+|------|-----------|
+| [`lingology-dzien-0-checklist.md`](./lingology-dzien-0-checklist.md) | Checklist techniczny + prompty do Cursora; **Plan B** gdy brak slotów w Lingotutor |
+| [`lingology-meta-ads-texts.md`](./lingology-meta-ads-texts.md) | 3 kreatywy A/B/C + UTM — gotowe do wklejenia w Meta Ads Manager |
+| [`lingology-skrypt-konsultacji.md`](./lingology-skrypt-konsultacji.md) | Skrypt 20 min + **SMS/mail follow-up 2h** + triage solo operator |
+
 ---
 
 ## 1. Strategia w jednym zdaniu
@@ -358,6 +366,8 @@ To prawda, nie fake scarcity.
 
 ## 16. Checklist techniczny PRZED płatnym ruchem
 
+> **Pełna wersja z promptami do Cursora i Plan B (brak slotów):** [`lingology-dzien-0-checklist.md`](./lingology-dzien-0-checklist.md)
+
 Sprawdź / przejdź jak użytkownik na telefonie:
 
 1. [ ] Link Lingotutor działa **bez logowania na mobile**; ile kliknięć/pól do potwierdzenia terminu?
@@ -371,7 +381,8 @@ Sprawdź / przejdź jak użytkownik na telefonie:
 9. [ ] UTM-y przygotowane dla każdego źródła
 10. [ ] Arkusz leadów gotowy
 11. [ ] Sekcja wiarygodności (UJ + 1200) na stronie
-12. [ ] Skrypt konsultacji + szablon follow-upu 2h gotowe
+12. [ ] Skrypt konsultacji + szablon follow-upu 2h gotowe → [`lingology-skrypt-konsultacji.md`](./lingology-skrypt-konsultacji.md)
+13. [ ] Min. 3 sloty konsultacji w najbliższych 7 dniach; Plan B gdy Lingotutor pusty (komunikat + formularz backup)
 
 ---
 
