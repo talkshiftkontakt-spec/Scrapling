@@ -1,14 +1,16 @@
 # LingoLogy — Plan poprawy strony + marketing (7 dni)
 **Budżet:** do 500 zł  
 **Kontekst:** ~20 uczniów, grafik NIE pełny → cel = więcej konsultacji i nowych płatnych uczniów  
-**Data:** 17 lipca 2026
+**Cel tygodnia (dolny próg):** **min. 10 leadów** (konsultacji umówionych) → 3–5 płatnych uczniów  
+**Data:** 17 lipca 2026  
+**Aktualizacja:** wiarygodność (psychologia UJ / 1200+ lekcji), lejek po konsultacji, tracking, RODO, urgency, testy 3 kreacji równolegle
 
 ---
 
 ## 1. Strategia w jednym zdaniu
 
-Nie budujesz marketplace’u. LingoLogy to **system 1:1 dla dorosłych (mówienie + App między lekcjami)**.  
-Najbliższe 7 dni = **łatwiejsze umawianie + jasna cena + reklamy Meta + opinie** — nie nowe funkcje App.
+Nie budujesz marketplace’u. LingoLogy to **system 1:1 dla dorosłych (mówienie + App między lekcjami)** + **Ty jako dowód** (psychologia UJ, 1200+ lekcji).  
+Najbliższe 7 dni = **Lingotutor CTA + wiarygodność na stronie + Meta Ads (3 kreacje) + tracking + domknięcie konsultacji → płatny uczeń**.
 
 ---
 
@@ -22,6 +24,7 @@ Najbliższe 7 dni = **łatwiejsze umawianie + jasna cena + reklamy Meta + opinie
 | Cena od ~80 zł / 55 min | Przejrzystość vs Student Pass / kredyty |
 | „Nie dla Ciebie jeśli…” | Filtruje złych leadów |
 | **Lingotutor** — własne umawianie terminów | Calendly zbędny |
+| **Psychologia UJ + 1200+ lekcji** | Najsilniejsza karta trust — używaj wprost |
 
 ---
 
@@ -34,95 +37,131 @@ Calendly = ktoś klika wolny slot, podaje dane, dostaje potwierdzenie.
 
 1. CTA na stronie → **bezpośrednio do Lingotutor** (jeden klik do wolnego slotu konsultacji).
 2. Link musi działać na mobile, być krótki, **bez logowania przed wyborem terminu** (jeśli da się uniknąć).
-3. Hero + reklamy Meta + Stories = **ten sam link Lingotutor**.
-4. Formularz „napisz, odezwę się mailem” = tylko backup, nie główne CTA.
+3. Hero + reklamy Meta + Stories = **ten sam link Lingotutor** (z UTM-ami — sekcja 14).
+4. Formularz „napisz, odezwę się mailem” = tylko backup, **nie konkuruje wizualnie** z CTA Lingotutor.
 
 ---
 
-## 4. Plan 7 dni
+## 4. Twoja wiarygodność — najsilniejsza karta (MUSI być na stronie i w ads)
+
+Przy audience 25–45 lat ktoś sprawdzi **„kto mnie uczy”** zanim kliknie Lingotutor. Metoda i App nie wystarczą bez Ciebie.
+
+### Co dodać do hero / sekcji „O mnie” / reklam
+
+| Element | Jak użyć |
+|---------|----------|
+| **Psychologia UJ** | Narracja: rozumiesz barierę mówienia nie tylko językowo, ale psychologicznie — pasuje 1:1 do testu bariery |
+| **3+ lata / 1200+ lekcji** | Liczba > „doświadczony lektor”. Ludzie ufają liczbom |
+| **Zdanie łączące** | Gotowiec poniżej |
+
+**Gotowe zdanie (strona + bio + ads):**
+
+> Uczę angielskiego od 3 lat (1200+ lekcji), a jako student psychologii UJ wiem, że bariera mówienia rzadko jest językowa — częściej to strach przed oceną. Dlatego pracujemy nad obiema rzeczami naraz.
+
+**Hook reklamowy nr 6 (osobny kreatyw — patrz sekcja 8):**  
+„Psychologia UJ + 1200 lekcji” — angle wiarygodności, obok bariery mówienia.
+
+---
+
+## 5. Plan 7 dni
 
 | Dzień | Co robisz | Koszt |
 |-------|-----------|-------|
-| **1** | CTA strony → Lingotutor; jedna jasna cena na hero | 0 zł |
-| **1–2** | Zdjęcia (lista niżej) + prośba do uczniów o opinie Google | 0–150 zł |
-| **2** | Skróć homepage (sekcja 6) | 0 zł |
-| **3** | Post + Stories: test bariery + link Lingotutor | 0 zł |
-| **3–7** | Meta Ads (FB + IG) — jedna kampania | **300–350 zł** |
-| **4–7** | 5 wiadomości dziennie (LinkedIn / grupy FB) + follow-up starych zapytań | 0 zł |
-| **4–7** | Prośba do ~20 uczniów: opinia Google + polecenie | 0 zł |
-| **7** | Podsumowanie metryk (sekcja 9) | — |
+| **0 / przed startem** | Checklist techniczny (sekcja 16) — zanim puścisz płatny ruch | 0 zł |
+| **1** | CTA → Lingotutor; cena na hero; sekcja wiarygodności (UJ + 1200); urgency; UTM + Pixel + arkusz | 0 zł |
+| **1–2** | Zdjęcia (sekcja 9) + prośba o opinie Google | 0–150 zł |
+| **2** | Skróć homepage; skrypt konsultacji + szablon follow-upu 2h | 0 zł |
+| **3** | Start Meta Ads: **3 kreacje równolegle** (sekcja 8); post + Stories organicznie | **~50 zł/dzień** |
+| **3–4** | Pierwsza ocena ads (koszt/klik + UTM → zapisy); realokacja budżetu | w ramach 350 zł |
+| **4–7** | 5 wiadomości/dzień (LinkedIn / grupy FB) + **follow-up starych zapytań** + opinie/polecenia | 0 zł |
+| **5–7** | Druga fala ads jeśli <5 konsultacji po dniu 4 | w ramach 350 zł |
+| **Codziennie** | Checklist dzienna (sekcja 17) + arkusz leadów | 5 min |
+| **7** | Podsumowanie metryk (sekcja 12) | — |
 
 ---
 
-## 5. Budżet (≤ 500 zł)
+## 6. Budżet (≤ 500 zł)
 
 | Pozycja | Kwota |
 |---------|-------|
-| Meta Ads (Facebook + Instagram) | **350 zł** |
-| Zdjęcia (opcjonalnie: ktoś z aparatem / drobna sesja) | **0–150 zł** |
-| Narzędzia (Canva free, Lingotutor już masz) | **0 zł** |
+| Meta Ads (Facebook + Instagram) | **350 zł** (~50 zł/dzień) |
+| Zdjęcia (opcjonalnie) | **0–150 zł** |
+| Narzędzia (Canva free, Lingotutor masz) | **0 zł** |
 | **Razem** | **≤ 500 zł** |
 
-**Nie wydawaj teraz na:** Google Ads, TikTok Ads, Preply/Superprof prowizje, stock photo, Calendly paid, redesign całej App.
+**Nie wydawaj teraz na:** Google Ads, TikTok Ads, Preply/Superprof, stock photo, Calendly paid, redesign App.
+
+**Zasada zmiany budżetu Meta:** nie zmieniaj budżetu dziennego więcej niż **raz na 2 dni** i nie więcej niż o **20–30%** na raz (gwałtowne zmiany resetują optymalizację).
 
 ---
 
-## 6. Poprawy strony (dzień 1–2, ~2–3 h)
+## 7. Poprawy strony (dzień 1–2, ~2–3 h)
 
-1. **Hero CTA** → tylko „Umów konsultację” → link **Lingotutor**.
-2. **Cena na hero:** np. `od 80 zł / 55 min · raz w tygodniu` (nie chowaj za „Zapytaj o szczegóły”).
-3. **Skróć homepage** — zostaw:
+1. **Hero CTA** → tylko „Umów konsultację” → **Lingotutor** (+ UTM).
+2. **Cena na hero (widoczna bez scrolla na mobile):** `od 80 zł / 55 min · raz w tygodniu`.
+3. **Sekcja wiarygodności** (portret + psychologia UJ + 1200+ lekcji + zdanie łączące).
+4. **Urgency (prawdziwa):** np. „Ograniczona liczba miejsc w tym miesiącu” — masz wolne sloty, ale ograniczoną pojemność; to nie sztuczna presja.
+5. **Skróć homepage** — zostaw:
    - problem (rozumiem, ale nie mówię),
+   - **Ty / wiarygodność**,
    - metoda (1:1 + mówienie),
    - App między lekcjami,
-   - cena,
+   - cena + urgency,
    - 3–5 opinii,
    - FAQ krótkie,
    - CTA Lingotutor.
-4. Nad CTA: jasny tekst typu „Wybierz wolny termin konsultacji (20 min, 0 zł)”.
-5. Pozycjonowanie vs konkurencja (krótko na stronie lub osobny landing później):
-   - vs Tutlo: jeden stały prowadzący, nie pakiet sprzedażowy / losowy lektor;
-   - vs Preply: bez subskrypcji i wygasających lekcji;
-   - vs e-korepetycje: system nauki, nie samo ogłoszenie.
+6. Formularz backup „napisz” — **wizualnie słabszy** niż CTA Lingotutor (nie dwa równe przyciski).
+7. Kontrast vs konkurencja (**bez ataku na ludzi/marki**):
+   - „Bez subskrypcji. Bez losowego lektora. Bez grupy 8 osób.”
+   - Nie: „przeciwko nauczycielom” / hejt na Tutlo po nazwie w adsach płatnych.
 
 ### Linia brandu (używaj wszędzie)
 
 > Angielski 1:1 dla dorosłych, którzy rozumieją, ale nie mówią — z planem między lekcjami, bez abonamentu i bez grupy.
 
----
+### Ton w reklamach i contentcie
 
-## 7. Jakie zdjęcia potrzebujesz
+| OK (kontrast / problem) | Unikaj (atak) |
+|-------------------------|---------------|
+| „Nikt Ci nie powiedział, że umiesz angielski — po prostu bałeś się mówić” | Atakowanie konkretnych lektorów/marek |
+| „Kolejny kurs z certyfikatem, którego nikt nie sprawdza” | „Przeciwko nauczycielom” |
+| „Bez subskrypcji. Bez losowego lektora. Bez grupy.” | Kłótnie w komentarzach |
 
-Telefon + światło dzienne wystarczy. Bez studia i stocków.
-
-| # | Zdjęcie | Do czego |
-|---|---------|----------|
-| 1 | Portret Kuby (twarz, spokojne tło, uśmiech) | Trust / „O mnie” / Ads |
-| 2 | Przy laptopie (lekcja online, słuchawki) | Hero + Meta Ads |
-| 3 | Ekran App (laptop/telefon; dane uczniów rozmazane) | Dowód systemu |
-| 4 | Biurko: notatki / plan tygodnia | Metoda |
-| 5 | 2–3 ujęcia naturalne (kawa + laptop) | Stories / Reels |
-
-**Nie używaj:** stocków, zdjęć dzieci, sali szkolnej, stockowych „happy students”.
+Jesteś studentem psychologii UJ pod prawdziwym nazwiskiem — pazerny ton zostaw na **opcjonalny eksperyment organiczny** (Stories), nie jako główną strategię płatną.
 
 ---
 
-## 8. Gdzie się reklamować
+## 8. Meta Ads — struktura i testy (3 kreatywy równolegle)
 
-### Główny kanał (płatny): Meta Ads — Facebook + Instagram
+Przy budżecie ~50 zł/dzień i celu **10+ leadów w 7 dni** nie testuj 1 kreacji szeregowo.  
+**1 kampania → 1 ad set → 3 kreatywy jednocześnie.**
 
-Przy 500 zł **tylko Meta**. Reszta przy tym budżecie marnuje pieniądze.
+### Dlaczego 3, nie 1 i nie 6
 
-**Ustawienia kampanii:**
-- Cel: **Wiadomości** albo **Ruch na link Lingotutor** (nie „rozpoznawalność marki”)
-- Budżet: ~50 zł/dzień × 7 dni ≈ **350 zł** (albo 50 zł × 6–7 dni)
-- Audience: 25–45 lat, Polska  
-  Zainteresowania: angielski, nauka języków, kariera, praca zdalna, LinkedIn, rozwój zawodowy
-- **Wyklucz:** rodzice małych dzieci / edukacja dzieci (nie Twoja oferta)
-- Kreatyw: zdjęcie #2 + tekst bariery mówienia
-- CTA: „Umów darmową konsultację 20 min” → **Lingotutor**
+- **1** = nie wiesz, czy słaby wynik to kreacja czy target.
+- **5+** = budżet rozjeżdża się; żadna kreacja nie zbierze sygnału do wyjścia z learning phase.
+- **3** = sweet spot przy ~50 zł/dzień.
 
-**Gotowy tekst reklamy:**
+### Cel kampanii
+
+**Ruch / konwersje na link Lingotutor** — **nie „Wiadomości”**.  
+Chcecie kliknięć w Lingotutor i zapisów, nie DM-ów (te cele się gryzą).
+
+### Audience
+
+- 25–45 lat, Polska  
+- Zainteresowania: angielski, nauka języków, kariera, praca zdalna, LinkedIn, rozwój zawodowy  
+- **Wyklucz:** rodzice małych dzieci / edukacja dzieci
+
+### Fala 1 — dni 1–3 (3 kreatywy równolegle)
+
+| Kreatyw | Hook | Zdjęcie |
+|---------|------|---------|
+| **A** | Bariera mówienia (główny) | #2 przy laptopie |
+| **B** | Psychologia UJ + 1200 lekcji (wiarygodność) | #1 portret |
+| **C** | Powrót po długiej przerwie | #5 kawa + laptop |
+
+**Tekst bazowy (A):**
 
 ```
 Rozumiesz angielski, ale blokujesz się w rozmowie?
@@ -130,79 +169,250 @@ Rozumiesz angielski, ale blokujesz się w rozmowie?
 1:1 online dla dorosłych + plan między lekcjami w aplikacji.
 Bez grupy. Bez abonamentu.
 
-20 min konsultacji za 0 zł → [link Lingotutor]
+Ograniczona liczba miejsc w tym miesiącu.
+20 min konsultacji za 0 zł → [Lingotutor + UTM]
 ```
 
-**Warianty hooków do testu (zmieniaj co 2–3 dni, jeśli słabo idzie):**
-1. Bariera mówienia (główny)
-2. Angielski do pracy / spotkania
-3. Rozmowa kwalifikacyjna
-4. Powrót po długiej przerwie
+**Tekst bazowy (B — wiarygodność):**
+
+```
+1200 lekcji nauczyło mnie jednego: bariera mówienia to nie gramatyka.
+
+Uczę 1:1 dorosłych — psychologia UJ + plan między lekcjami w App.
+Bez subskrypcji. Bez grupy.
+
+20 min konsultacji za 0 zł → [Lingotutor + UTM]
+```
+
+### Dzień 3–4: pierwsza ocena i selekcja
+
+Patrz w Ads Manager: **koszt/klik w link** + w arkuszu: **umówione konsultacje per UTM** (bez UTM widzisz tylko kliknięcia).
+
+| Wynik | Decyzja |
+|-------|---------|
+| Jedna kreacja wyraźnie wygrywa (np. 2× niższy koszt/klik lub więcej zapisów) | **70% budżetu** na zwycięzcę, **30%** na 2 pozostałe jako kontrola |
+| Wszystkie podobne | Zostaw; nie resetuj learning bez powodu |
+| Wszystkie słabe | Podmień **1** kreację na nowy hook (np. rozmowa kwalifikacyjna) — **nie wszystkie trzy naraz** |
+
+### Fala 2 — dni 5–7 (jeśli po dniu 4 < 5 konsultacji)
+
+- Zwycięski hook + **inna jedna zmienna** (inne zdjęcie LUB inny pierwszy wiersz tekstu).
+- Opcjonalnie: drugi ad set węższy (tylko praca zdalna + rozwój zawodowy), jeśli dużo klików, mało umówień.
+
+### Test tekstu (dni 5–7, przy tym samym zwycięskim zdjęciu)
+
+1. Pytanie: „Rozumiesz, ale nie mówisz?”
+2. Liczba/dowód: „1200 lekcji nauczyły mnie jednego: bariera mówienia to nie gramatyka.”
+3. Pilność: „Ostatnie miejsca w tym miesiącu — 20 min konsultacji za 0 zł.”
+
+### Zasada testów
+
+> 3 kreatywy równolegle od startu → ocena dnia 3–4 na UTM + konwersjach → realokacja do zwycięzcy → **jedna zmienna na raz**.
 
 ### Za darmo (równolegle)
 
-- 1 post dziennie na FB + Stories (test bariery, opinia ucznia, fragment metody)
-- Grupy FB (kariera, angielski dla dorosłych, BPO/IT) — wartość + link, **bez spamu**
-- LinkedIn: 3–5 wiadomości dziennie do osób, które mogą potrzebować angielskiego w pracy
-- Do ~20 uczniów: prośba o **opinię Google** + polecenie znajomemu  
-  Opcja: 1 lekcja gratis za 2 płatne polecenia, które doszły do pierwszej lekcji
+- 1 post dziennie + Stories
+- Grupy FB (wartość + link, bez spamu)
+- LinkedIn: 3–5 DM / dzień
+- ~20 uczniów: opinia Google + polecenia (opcjonalnie: 1 lekcja gratis za 2 płatne polecenia)
 
 ### Nie teraz
 
-- Google Ads (za drogie przy 500 zł)
-- TikTok Ads (za dużo testów)
-- OLX
-- Preply / Superprof (prowizja + nie ten model)
-- Calendly (masz Lingotutor)
+Google Ads, TikTok Ads, OLX, Preply/Superprof, Calendly.
 
 ---
 
-## 9. Cele na 7 dni
+## 9. Jakie zdjęcia potrzebujesz
+
+Telefon + światło dzienne. Bez stocków.
+
+| # | Zdjęcie | Do czego |
+|---|---------|----------|
+| 1 | Portret Kuby (twarz, spokojne tło) | Trust / O mnie / **kreatyw B** |
+| 2 | Przy laptopie (lekcja, słuchawki) | Hero / **kreatyw A** |
+| 3 | Ekran App (**dane uczniów naprawdę nieczytelne**) | Dowód systemu + RODO |
+| 4 | Biurko: notatki / plan tygodnia | Metoda |
+| 5 | Naturalne (kawa + laptop) | Stories / **kreatyw C** |
+
+**Nie używaj:** stocków, dzieci, sali szkolnej, stockowych „happy students”.
+
+---
+
+## 10. Co się dzieje PO konsultacji (lejek konsultacja → płatny)
+
+Plan nie kończy się na „umów konsultację”. Bez domknięcia 8–12 konsultacji nie da 3–5 uczniów.
+
+### Target konwersji
+
+| Etap | Target |
+|------|--------|
+| Konsultacje umówione | **min. 10** (przedział 8–12, celuj w górę) |
+| Konsultacja → płatny uczeń | **~40–50%** (mocny skrypt wymagany) |
+| Nowi płatni | **3–5** |
+
+### Skrypt / checklista konsultacji 20 min
+
+1. Cel ucznia (praca / bariera / powrót / rozmowa kwalifikacyjna) — 3 min  
+2. Krótka diagnoza mówienia / bariery — 5–7 min  
+3. Pokaż jak działa system (lekcja + App + plan) — 3 min  
+4. Cena + częstotliwość (jasno) — 2 min  
+5. **Domknięcie na miejscu:** „Zróbmy pierwszą płatną lekcję **w tym tygodniu**” — wybór slotu w Lingotutor **teraz**, nie „napiszę do Ciebie”  
+6. Jeśli nie dziś: umów follow-up rozmowę / wyślij link płatności w ciągu 2h
+
+### Follow-up w ciągu 2h po konsultacji (obowiązkowy)
+
+Mail lub SMS:
+- podziękowanie + 1 zdanie z diagnozy,
+- link do **pierwszej płatnej lekcji / płatności**,
+- jasna cena,
+- urgency: ograniczone miejsca w tym miesiącu.
+
+**Brak follow-upu = najczęstsza dziura w lejku małych szkół.**
+
+---
+
+## 11. Tracking (bez tego nie wiesz, co działa)
+
+### UTM-y na Lingotutor (osobne źródła)
+
+Przykłady:
+
+| Źródło | Przykład UTM |
+|--------|----------------|
+| Meta Ads kreatyw A | `?utm_source=meta&utm_medium=paid&utm_campaign=7d&utm_content=barrier_a` |
+| Meta Ads kreatyw B | `...&utm_content=creds_b` |
+| Meta Ads kreatyw C | `...&utm_content=comeback_c` |
+| Post organiczny | `?utm_source=facebook&utm_medium=organic&utm_campaign=7d` |
+| Grupy FB | `?utm_source=fb_group&utm_medium=social&utm_campaign=7d` |
+| LinkedIn DM | `?utm_source=linkedin&utm_medium=dm&utm_campaign=7d` |
+| Polecenie uczniów | `?utm_source=referral&utm_medium=student&utm_campaign=7d` |
+
+### Meta Pixel
+
+- Pixel na **lingology.pl**
+- Event na kliknięcie CTA Lingotutor
+- Jeśli Lingotutor = inna domena/subdomena → Pixel musi być też tam (inaczej Meta nie optymalizuje pod zapis)
+
+### Arkusz leadów (5 min/dzień)
+
+Kolumny: **data | źródło (UTM) | imię | status**  
+Statusy: `umówiona` → `odbyta` → `płatny` / `odpadł`  
+Bez arkusza nie zweryfikujesz celu z sekcji 12.
+
+### Analityka
+
+- GA4 (lub podobne) na stronie — skąd realnie przychodzi ruch, nie tylko Ads Manager
+- Meta title / description / **OG image** — linki w Stories/postach wyglądają profesjonalnie
+
+---
+
+## 12. Cele na 7 dni
 
 | Metryka | Target |
 |---------|--------|
-| Konsultacje umówione (Lingotutor) | **8–12** |
+| Leady / konsultacje umówione | **min. 10** (8–12, celuj w górę) |
+| Konsultacja → płatny | **~40–50%** |
 | Nowi płatni uczniowie | **3–5** |
 | Opinie Google | **5+** |
 | Wydane na Meta Ads | **≤ 350 zł** |
 
-**Jeśli po 7 dniach < 5 konsultacji:** zmień kreację / hook ads (nie buduj nowych funkcji App).  
-**Jeśli grafik się zapełni:** dopiero wtedy myśl o 1–2 lektorach pod metodą LingoLogy albo App jako osobnym produkcie.
+**Dzień 3–4:** jeśli z Meta < 3–4 leady do tej pory → **zmień kreację/hook tego samego dnia**, nie czekaj do dnia 7.  
+**Dzień 4:** jeśli łącznie < 5 konsultacji → fala 2 ads + więcej organicznych DM.  
+**Jeśli grafik się zapełni:** dopiero wtedy 1–2 lektorzy pod metodą albo App jako produkt.
 
 ---
 
-## 10. Czego NIE robić w tym tygodniu
+## 13. RODO / zgody
 
-- Marketplace wielu przedmiotów / wielu lektorów „na otwarto”
-- Oferta dla dzieci / matury (rozmywa brand)
-- Pakiety z trudną rezygnacją (ryzyko jak Tutlo / UOKiK)
-- Dłuższy homepage i nowe sekcje „na wszelki wypadek”
-- Wdrażanie Calendly obok Lingotutor
-- Duży redesign App zamiast leadów
+- Krótka informacja o przetwarzaniu danych przy Lingotutor (jeśli jeszcze nie ma).
+- Screen App w marketingu: dane uczniów **naprawdę nieczytelne**, nie „subiektywnie ok”.
+- Zgody marketingowe tylko tam, gdzie potrzebne; nie blokuj umawiania konsultacji zbędnymi checkboxami.
 
 ---
 
-## 11. Checklist startu (dzień 1)
+## 14. Urgency (ograniczony grafik = argument sprzedażowy)
 
-- [ ] Link Lingotutor działa na telefonie
-- [ ] Hero CTA prowadzi do Lingotutor
-- [ ] Cena widoczna na hero
-- [ ] 5 zdjęć zrobionych / wybrane
-- [ ] Kampania Meta utworzona (budżet dzienny ustawiony)
-- [ ] Wiadomość do uczniów o opinie Google wysłana
-- [ ] Stare zapytania z maila/FB odpisane + link Lingotutor
+Masz wolne miejsca, ale **ograniczoną pojemność** — użyj tego:
+
+- Na stronie: „Ograniczona liczba miejsc w tym miesiącu”
+- W ads: „Ostatnie miejsca w tym miesiącu — 20 min konsultacji za 0 zł”
+- Po konsultacji: „Zróbmy pierwszą lekcję w tym tygodniu, zanim zajmę sloty”
+
+To prawda, nie fake scarcity.
 
 ---
 
-## 12. Podsumowanie
+## 15. Czego NIE robić w tym tygodniu
 
-| Priorytet | Działanie |
-|-----------|-----------|
-| 1 | Lingotutor jako jedyne CTA umawiania |
-| 2 | Jasna cena na stronie |
-| 3 | Meta Ads 350 zł |
-| 4 | Zdjęcia + opinie Google |
-| 5 | Skrócona strona + codzienny organiczny post |
+- Marketplace / wielu lektorów „na otwarto”
+- Oferta dla dzieci / matury
+- Pakiety z trudną rezygnacją
+- Dłuższy homepage
+- Calendly obok Lingotutor
+- Redesign App zamiast leadów
+- Atakujący ton w płatnych adsach (ryzyko odrzucenia + wizerunek)
+- Cel kampanii „Wiadomości” zamiast ruchu na Lingotutor
+- 1 kreatyw szeregowo bez porównania
 
-**Cel tygodnia:** więcej umówionych konsultacji → 3–5 nowych płatnych uczniów.  
+---
+
+## 16. Checklist techniczny PRZED płatnym ruchem
+
+Sprawdź / przejdź jak użytkownik na telefonie:
+
+1. [ ] Link Lingotutor działa **bez logowania na mobile**; ile kliknięć/pól do potwierdzenia terminu?
+2. [ ] Strona ładuje się szybko na mobile (PageSpeed / Lighthouse) — wolna strona = zmarnowany budżet
+3. [ ] Meta Pixel + event kliknięcia CTA; Pixel też na domenie Lingotutor jeśli osobna
+4. [ ] Hero CTA → Lingotutor, nie stary formularz/mail
+5. [ ] Cena widoczna **bez scrollowania na mobile**
+6. [ ] Formularz backup nie konkuruje wizualnie z CTA Lingotutor
+7. [ ] GA4 (lub podobne) działa
+8. [ ] Meta title, description, **OG image** OK przy udostępnianiu
+9. [ ] UTM-y przygotowane dla każdego źródła
+10. [ ] Arkusz leadów gotowy
+11. [ ] Sekcja wiarygodności (UJ + 1200) na stronie
+12. [ ] Skrypt konsultacji + szablon follow-upu 2h gotowe
+
+---
+
+## 17. Codzienna checklista (dowieźć min. 10 leadów)
+
+- [ ] Policz leady **ze wszystkich źródeł łącznie** (Meta + LinkedIn + grupy + polecenia + stare zapytania)
+- [ ] Uzupełnij arkusz (data / źródło / imię / status)
+- [ ] Follow-up do konsultacji z ostatnich 2h (jeśli były)
+- [ ] 1 post / Stories
+- [ ] 3–5 DM LinkedIn lub wartościowy wpis w grupie
+- [ ] Odpisz na stare/zimne zapytania (najtańsze leady tygodnia)
+- [ ] Dzień 3–4: jeśli Meta < 3–4 leady → zmiana kreacji **dziś**
+- [ ] Nie zmieniaj budżetu ads >1× / 2 dni i >30% naraz
+
+---
+
+## 18. Checklist startu (dzień 1) — skrót
+
+- [ ] Lingotutor CTA na hero (+ UTM)
+- [ ] Cena + urgency na mobile above the fold
+- [ ] Wiarygodność: UJ + 1200+ lekcji
+- [ ] 5 zdjęć
+- [ ] Pixel + GA4 + OG image
+- [ ] Kampania Meta: 1 ad set, **3 kreatywy**, cel = ruch na Lingotutor
+- [ ] Arkusz leadów
+- [ ] Skrypt konsultacji + follow-up 2h
+- [ ] Prośba o opinie Google do uczniów
+- [ ] Stare zapytania + link Lingotutor
+
+---
+
+## 19. Podsumowanie priorytetów
+
+| # | Działanie |
+|---|-----------|
+| 1 | Lingotutor jako jedyne główne CTA (+ UTM) |
+| 2 | Wiarygodność na stronie i w ads (UJ + 1200) |
+| 3 | Meta Ads 350 zł — **3 kreatywy równolegle**, cel = ruch |
+| 4 | Domknięcie konsultacji → płatny + follow-up 2h |
+| 5 | Tracking (Pixel, UTM, arkusz) + opinie Google |
+| 6 | Urgency + skrócona strona + kontrast bez ataku |
+
+**Cel tygodnia:** min. **10 leadów** → **3–5 płatnych** przy ~40–50% konwersji konsultacji.  
 Skalowanie (lektorzy / App SaaS) dopiero przy pełniejszym grafiku.
