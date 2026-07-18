@@ -1,0 +1,74 @@
+/* Szafapilot — Direction E: Editorial Craft */
+
+:root {
+  --sp-font-display: "Instrument Serif", "Newsreader", "Fraunces", Georgia, serif;
+  --sp-font-body: "Satoshi", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-bg: #f3f1ec;
+  --sp-surface: #fffcf7;
+  --sp-text: #141414;
+  --sp-text-muted: #5c5a55;
+  --sp-border: #e4e0d8;
+  --sp-accent: #1d4ed8; /* ALBO lime #c8f542 — wybierz jeden */
+  --sp-band: #1e3a8a;   /* textured band (Arc-like) */
+  --sp-cta-bg: #141414;
+  --sp-cta-fg: #fafaf9;
+
+  --sp-radius-control: 10px;
+  --sp-radius-button: 999px;
+  --sp-radius-stage: 22px;
+
+  --sp-shadow-stage: 0 28px 70px rgba(20, 20, 20, 0.14);
+  --sp-h1-size: clamp(2.75rem, 6vw, 5rem);
+  --sp-h1-tracking: -0.015em;
+  --sp-body-size: 1.0625rem;
+  --sp-body-leading: 1.65;
+}
+
+body {
+  margin: 0;
+  background: var(--sp-bg);
+  color: var(--sp-text);
+  font-family: var(--sp-font-body);
+  font-size: var(--sp-body-size);
+  line-height: var(--sp-body-leading);
+}
+
+h1, .display {
+  font-family: var(--sp-font-display);
+  font-size: var(--sp-h1-size);
+  letter-spacing: var(--sp-h1-tracking);
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+/* Serif NIE idzie do buttonów */
+.btn-primary {
+  font-family: var(--sp-font-body);
+  background: var(--sp-cta-bg);
+  color: var(--sp-cta-fg);
+  border-radius: var(--sp-radius-button);
+  border: 0;
+  padding: 0.9rem 1.35rem;
+  font-weight: 600;
+}
+
+.stage {
+  background: var(--sp-surface);
+  border: 1px solid var(--sp-border);
+  border-radius: var(--sp-radius-stage);
+  box-shadow: var(--sp-shadow-stage);
+}
+
+.band {
+  background: var(--sp-band);
+  color: #f8fafc;
+  /* dodaj noise texture jako overlay PNG/SVG — nie CSS glow */
+}
+
+.accent-edge {
+  box-shadow: inset 3px 0 0 var(--sp-accent);
+}
+
+.muted { color: var(--sp-text-muted); }

@@ -1,0 +1,70 @@
+/* Szafapilot — Direction C: Atmospheric Commerce */
+
+:root {
+  --sp-font-display: "Satoshi", "Switzer", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-body: "Satoshi", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+
+  --sp-overlay: rgba(0, 0, 0, 0.42);
+  --sp-text-on-media: #ffffff;
+  --sp-text-muted-on-media: rgba(255, 255, 255, 0.78);
+  --sp-accent: #4f46e5; /* podmień na brand */
+  --sp-cta-bg: #ffffff;
+  --sp-cta-fg: #0c0a09;
+  --sp-cta-ghost-border: rgba(255, 255, 255, 0.55);
+
+  --sp-below-bg: #0a0a0a;
+  --sp-radius-button: 999px;
+  --sp-radius-stage: 32px;
+
+  --sp-h1-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  --sp-h1-tracking: -0.025em;
+}
+
+.hero-media {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: var(--sp-text-on-media);
+  font-family: var(--sp-font-body);
+}
+
+.hero-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--sp-overlay);
+}
+
+.hero-media > * { position: relative; z-index: 1; }
+
+.hero-media h1 {
+  font-family: var(--sp-font-display);
+  font-size: var(--sp-h1-size);
+  letter-spacing: var(--sp-h1-tracking);
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.btn-primary {
+  background: var(--sp-cta-bg);
+  color: var(--sp-cta-fg);
+  border-radius: var(--sp-radius-button);
+  border: 0;
+  padding: 0.9rem 1.4rem;
+  font-weight: 600;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--sp-text-on-media);
+  border-radius: var(--sp-radius-button);
+  border: 1px solid var(--sp-cta-ghost-border);
+  padding: 0.9rem 1.4rem;
+}
+
+.section-stage {
+  background: var(--sp-below-bg);
+  border-radius: var(--sp-radius-stage);
+  color: #fafafa;
+}

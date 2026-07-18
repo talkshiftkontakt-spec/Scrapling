@@ -1,0 +1,92 @@
+/* Szafapilot — Direction D: Agent Canvas (anty-rainbow) */
+
+:root {
+  --sp-font-display: "Satoshi", "Switzer", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-body: "Source Sans 3", "General Sans", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Light variant — przełącz na dark commentując poniżej */
+  --sp-bg: #f7f6f3;
+  --sp-surface: #ffffff;
+  --sp-text: #1c1917;
+  --sp-text-muted: #57534e;
+  --sp-border: #e7e5e4;
+  --sp-accent: #0c0a09;
+  --sp-focus: #2563eb;
+
+  --sp-composer-min-h: 56px;
+  --sp-radius-composer: 18px;
+  --sp-radius-button: 999px;
+
+  --sp-h1-size: clamp(2rem, 4vw, 3.25rem);
+  --sp-h1-tracking: -0.03em;
+}
+
+/* Dark variant example:
+:root {
+  --sp-bg: #12110f;
+  --sp-surface: #1c1b18;
+  --sp-text: #f5f5f4;
+  --sp-text-muted: #a8a29e;
+  --sp-border: rgba(255,255,255,0.12);
+  --sp-accent: #fafaf9;
+  --sp-focus: #38bdf8;
+}
+*/
+
+body {
+  margin: 0;
+  background: var(--sp-bg);
+  color: var(--sp-text);
+  font-family: var(--sp-font-body);
+}
+
+h1 {
+  font-family: var(--sp-font-display);
+  font-size: var(--sp-h1-size);
+  letter-spacing: var(--sp-h1-tracking);
+  font-weight: 650;
+}
+
+.composer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: var(--sp-composer-min-h);
+  padding: 0.65rem 0.75rem 0.65rem 1.1rem;
+  background: var(--sp-surface);
+  border: 1px solid var(--sp-border);
+  border-radius: var(--sp-radius-composer);
+  box-shadow: 0 10px 40px rgba(28, 25, 23, 0.08);
+}
+
+.composer:focus-within {
+  border-color: color-mix(in srgb, var(--sp-focus) 55%, var(--sp-border));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--sp-focus) 18%, transparent);
+}
+
+.composer input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+}
+
+.composer-send {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: 0;
+  background: var(--sp-accent);
+  color: #fafaf9;
+}
+
+.agent-meta {
+  font-family: var(--sp-font-mono);
+  font-size: 0.75rem;
+  color: var(--sp-text-muted);
+}
+
+/* NIE: wielokolorowy animated gradient border jako default */

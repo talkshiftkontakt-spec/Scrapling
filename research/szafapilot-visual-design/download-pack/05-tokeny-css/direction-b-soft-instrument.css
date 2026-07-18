@@ -1,0 +1,81 @@
+/* Szafapilot — Direction B: Soft Instrument */
+
+:root {
+  --sp-font-display: "Satoshi", "Switzer", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-body: "General Sans", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-bg: #f7f6f3;
+  --sp-bg-surface: #ffffff;
+  --sp-text: #1c1917;
+  --sp-text-muted: #57534e;
+  --sp-border: #e7e5e4;
+  --sp-accent: #0c0a09; /* ink CTA — podmień na brand hue jeśli masz */
+  --sp-cta-bg: #0c0a09;
+  --sp-cta-fg: #fafaf9;
+  --sp-cta-secondary-bg: #ffffff;
+  --sp-cta-secondary-border: #d6d3d1;
+  --sp-aura: rgba(59, 130, 246, 0.08);
+
+  --sp-radius-control: 10px;
+  --sp-radius-button: 999px;
+  --sp-radius-stage: 20px;
+
+  --sp-shadow-stage: 0 30px 80px rgba(28, 25, 23, 0.12);
+  --sp-space-section: 104px;
+  --sp-content-max: 1080px;
+
+  --sp-h1-size: clamp(2.5rem, 5vw, 4.25rem);
+  --sp-h1-tracking: -0.03em;
+  --sp-body-size: 1.0625rem;
+  --sp-body-leading: 1.6;
+}
+
+body {
+  margin: 0;
+  background: var(--sp-bg);
+  color: var(--sp-text);
+  font-family: var(--sp-font-body);
+  font-size: var(--sp-body-size);
+  line-height: var(--sp-body-leading);
+}
+
+h1, .display {
+  font-family: var(--sp-font-display);
+  font-size: var(--sp-h1-size);
+  letter-spacing: var(--sp-h1-tracking);
+  font-weight: 650;
+  line-height: 1.08;
+  color: var(--sp-text);
+}
+
+.btn-primary {
+  background: var(--sp-cta-bg);
+  color: var(--sp-cta-fg);
+  border-radius: var(--sp-radius-button);
+  border: 0;
+  padding: 0.9rem 1.35rem;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background: var(--sp-cta-secondary-bg);
+  color: var(--sp-text);
+  border-radius: var(--sp-radius-button);
+  border: 1px solid var(--sp-cta-secondary-border);
+  padding: 0.9rem 1.35rem;
+}
+
+.stage {
+  background: var(--sp-bg-surface);
+  border: 1px solid var(--sp-border);
+  border-radius: var(--sp-radius-stage);
+  box-shadow: var(--sp-shadow-stage);
+}
+
+.hero-aura {
+  background: radial-gradient(ellipse at center bottom, var(--sp-aura), transparent 60%);
+}
+
+.muted { color: var(--sp-text-muted); }
+.mono { font-family: var(--sp-font-mono); }
