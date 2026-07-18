@@ -1,0 +1,282 @@
+{
+  "name": "perplexity",
+  "url": "https://www.perplexity.ai",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/perplexity-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/perplexity-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/perplexity-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/perplexity-full.png",
+  "design": {
+    "url": "https://www.perplexity.ai/",
+    "title": "Just a moment...",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 900
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(242, 242, 242)",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(242, 242, 242)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "flex",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(49, 49, 49)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(49, 49, 49)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": null,
+      "style": null,
+      "navLinks": []
+    },
+    "footer": {
+      "box": {
+        "tag": "div",
+        "id": null,
+        "classes": [
+          "footer"
+        ],
+        "text": "Ray ID: a1d0c279fa0eabbf Performance and Security by Cloudflare Privacy",
+        "top": 831,
+        "left": 240,
+        "width": 960,
+        "height": 69
+      },
+      "style": {
+        "color": "rgb(242, 242, 242)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(242, 242, 242)",
+        "padding": "0px 32px",
+        "margin": "0px 240px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "960px",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "body",
+        "id": null,
+        "classes": [],
+        "text": "www.perplexity.ai Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you ar",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "sections": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "www.perplexity.ai",
+        "style": {
+          "color": "rgb(242, 242, 242)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "40px",
+          "fontWeight": "600",
+          "lineHeight": "50px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(242, 242, 242)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [],
+          "text": "www.perplexity.ai",
+          "top": 128,
+          "left": 328,
+          "width": 362,
+          "height": 50
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Performing security verification",
+        "style": {
+          "color": "rgb(242, 242, 242)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(242, 242, 242)",
+          "padding": "0px",
+          "margin": "8px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "Mvkfj9",
+          "classes": [
+            "Aeikt8",
+            "LmLSi7"
+          ],
+          "text": "Performing security verification",
+          "top": 186,
+          "left": 272,
+          "width": 896,
+          "height": 30
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Verification successful. Waiting for www.perplexity.ai to respond",
+        "style": {
+          "color": "rgb(242, 242, 242)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(242, 242, 242)",
+          "padding": "0px",
+          "margin": "32px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "WYQVP9",
+          "classes": [
+            "LNCh3"
+          ],
+          "text": "Verification successful. Waiting for www.perplexity.ai to respond",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://www.perplexity.ai/favicon.ico",
+        "alt": "Icon for www.perplexity.ai",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "GTCh1"
+          ],
+          "text": "",
+          "top": 137,
+          "left": 272,
+          "width": 32,
+          "height": 32
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(242, 242, 242)",
+        "count": 36
+      },
+      {
+        "value": "rgb(130, 182, 255)",
+        "count": 4
+      },
+      {
+        "value": "rgb(182, 182, 182)",
+        "count": 2
+      }
+    ],
+    "fonts": [
+      {
+        "value": "system-ui",
+        "count": 20
+      },
+      {
+        "value": "monospace",
+        "count": 1
+      }
+    ],
+    "radii": [],
+    "shadows": [],
+    "cssVars": {},
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"MGZG4\"><img src=\"/favicon.ico\" class=\"GTCh1\" alt=\"Icon for www.perplexity.ai\"><h1>www.perplexity.ai</h1></div>",
+    "footerHtml": null
+  },
+  "status": 403,
+  "final_url": "https://www.perplexity.ai/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 2,
+    "section_count": 0,
+    "nav_count": 0,
+    "button_count": 0,
+    "img_count": 1,
+    "footer_count": 0
+  }
+}

@@ -1,0 +1,3571 @@
+{
+  "name": "shopify",
+  "url": "https://www.shopify.com",
+  "category": "ecommerce",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/shopify-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/shopify-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/shopify-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/shopify-full.png",
+  "design": {
+    "url": "https://www.shopify.com/",
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 11336
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(229, 231, 235)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(229, 231, 235)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "bk-header",
+          "font-base",
+          "flex",
+          "w-full",
+          "z-50",
+          "text-component-header-content",
+          "sm:px-margin",
+          "sm:max-lg:pe-[calc(var(--spacing-margin)-13px)]"
+        ],
+        "text": "Why Shopify Get started fast You could be selling by tomorrow. Switch to Shopify Get more customers. Make more sales. Trusted by enterprise brands No matter your size, comple",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 72
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(229, 231, 235)",
+        "padding": "0px 90px",
+        "margin": "0px 0px -72px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Get started fast\n\nYou could be selling by tomorrow.",
+        "Switch to Shopify\n\nGet more customers. Make more sales.",
+        "Trusted by enterprise brands\n\nNo matter your size, complexity, or ambition.",
+        "World's best checkout\n\nProven to convert better.",
+        "Sidekick\n\nYour commerce-obsessed AI assistant.",
+        "Website Builder",
+        "Themes",
+        "Domains",
+        "Customer Accounts",
+        "Sidekick",
+        "Online",
+        "AI Chats",
+        "Point of Sale",
+        "Shop App",
+        "Social & Marketplaces",
+        "Global",
+        "B2B",
+        "Across Markets",
+        "Advertising & Campaigns",
+        "Email & Customer Chat",
+        "Discounts",
+        "Analytics",
+        "Orders & Inventory",
+        "Shipping",
+        "Finances & Funding",
+        "Workflow Automation",
+        "Mobile",
+        "Checkout",
+        "Payments"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "[&_a]:underline",
+          "mt-4",
+          "text-sm",
+          "md:mt-8",
+          "md:text-lg"
+        ],
+        "text": "Jessica Wise CEO, Hell Babes",
+        "top": 9783,
+        "left": 282,
+        "width": 390,
+        "height": 56
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(229, 231, 235)",
+        "padding": "0px",
+        "margin": "32px 0px 0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main",
+        "classes": [
+          "focus-visible:outline-none",
+          "overflow-y-hidden"
+        ],
+        "text": "Be the next AI all-star Be the next store they line up for AI all-star household name solo-preneur category creator global empire store they line up for big thing ",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 10779
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "grid-cols-full",
+          "pb-0",
+          "bg-section-dark-bg",
+          "text-section-dark-text",
+          "relative"
+        ],
+        "top": -1,
+        "height": 824,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": "url(\"https://cdn.shopify.com/b/shopify-brochure2-assets/7ecd57f2fa3d7b997d29181a62c954ee.png?originalWidth=1920&originalHeight=1080\")",
+        "heading": "Be the next\nAI all-star",
+        "headingTag": "h1",
+        "childCount": 2
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [],
+        "top": 822,
+        "height": 653,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "bg-section-dark-bg",
+          "text-section-dark-text",
+          "pt-0"
+        ],
+        "top": 822,
+        "height": 653,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-2xl",
+          "bg-section-dark-bg",
+          "text-section-dark-text"
+        ],
+        "top": 1474,
+        "height": 653,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": "Your brand has entered the\u00a0chat",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-2xl",
+          "bg-section-dark-bg",
+          "text-section-dark-text"
+        ],
+        "top": 2126,
+        "height": 1477,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": "Sell more in more places",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-2xl",
+          "bg-section-dark-bg",
+          "text-section-dark-text"
+        ],
+        "top": 3602,
+        "height": 828,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": "Grow around the\u00a0world",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-4xl",
+          "bg-section-dark-bg",
+          "text-section-dark-text"
+        ],
+        "top": 4429,
+        "height": 931,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": "For anyone from entrepreneurs to enterprise",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "bg-section-dark-bg",
+          "text-section-dark-text",
+          "rounded-t-4xl"
+        ],
+        "top": 5359,
+        "height": 857,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": "linear-gradient(in oklab, rgb(44, 0, 127) 42.49%, rgb(0, 10, 29) 100%)",
+        "heading": "Meet your secret weapon,\u00a0Sidekick",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "classes": [
+          "bg-coal-black",
+          "isolate"
+        ],
+        "top": 6215,
+        "height": 625,
+        "width": 1440,
+        "backgroundColor": "rgb(2, 9, 10)",
+        "backgroundImage": null,
+        "heading": "Customize everything with\u00a0apps",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "text-section-dark-text",
+          "pt-0",
+          "bg-deep-navy"
+        ],
+        "top": 6215,
+        "height": 625,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 10, 30)",
+        "backgroundImage": null,
+        "heading": "Customize everything with\u00a0apps",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-4xl",
+          "text-section-dark-text",
+          "pt-0"
+        ],
+        "top": 6839,
+        "height": 757,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 10, 30)",
+        "backgroundImage": null,
+        "heading": "Hyperdriven by AI. Commerce to the\u00a0core.",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "classes": [
+          "bg-deep-navy"
+        ],
+        "top": 7595,
+        "height": 223,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 10, 30)",
+        "backgroundImage": null,
+        "heading": "There\u2019s no better place for you to\u00a0build",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "text-section-dark-text",
+          "rounded-t-4xl",
+          "md:rounded-t-5xl"
+        ],
+        "top": 7595,
+        "height": 223,
+        "width": 1440,
+        "backgroundColor": "rgb(4, 30, 24)",
+        "backgroundImage": null,
+        "heading": "There\u2019s no better place for you to\u00a0build",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "text-section-dark-text",
+          "overflow-x-clip",
+          "bg-deep-pine"
+        ],
+        "top": 7817,
+        "height": 668,
+        "width": 1440,
+        "backgroundColor": "rgb(4, 30, 24)",
+        "backgroundImage": null,
+        "heading": "The world\u2019s best-converting\u00a0checkout",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-0",
+          "text-section-dark-text",
+          "relative"
+        ],
+        "top": 8484,
+        "height": 778,
+        "width": 1440,
+        "backgroundColor": "rgb(4, 30, 24)",
+        "backgroundImage": null,
+        "heading": "Rock steady. Blazing\u00a0fast.",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "text-section-dark-text",
+          "bg-deep-pine",
+          "py-3xl"
+        ],
+        "top": 9260,
+        "height": 744,
+        "width": 1440,
+        "backgroundColor": "rgb(4, 30, 24)",
+        "backgroundImage": null,
+        "heading": "Shopify has your\u00a0back",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "classes": [
+          "bg-deep-pine"
+        ],
+        "top": 10003,
+        "height": 776,
+        "width": 1440,
+        "backgroundColor": "rgb(4, 30, 24)",
+        "backgroundImage": null,
+        "heading": "Build fast on\u00a0Shopify",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 17,
+        "tag": "section",
+        "classes": [
+          "grid",
+          "gap-y-2xl",
+          "grid-cols-full",
+          "pb-4xl",
+          "text-section-dark-text",
+          "rounded-t-4xl"
+        ],
+        "top": 10003,
+        "height": 776,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(2, 8, 8, 0.5), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 90%, rgba(2, 8, 8, 0.5)), radial-gradient(at 87% 84%, rgba(2, 8, 8, 0.9) 0px, rgba(0, 0, 0, 0) 50%), radial-gradient(at 10% 8",
+        "heading": "Build fast on\u00a0Shopify",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Be the next\nAI all-star",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "96px",
+          "fontWeight": "400",
+          "lineHeight": "96px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 64px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-dsp",
+            "mb-lg",
+            "md:mb-2xl"
+          ],
+          "text": "Be the next AI all-star",
+          "top": 295,
+          "left": 89,
+          "width": 1,
+          "height": 192
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "store they line up for",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "96px",
+          "fontWeight": "400",
+          "lineHeight": "96px",
+          "letterSpacing": "2.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-dsp",
+            "min-h-32",
+            "sm:min-h-0",
+            "opacity-0",
+            "user-select-none",
+            "tracking-wide",
+            "pointer-events-none",
+            "mb-lg"
+          ],
+          "text": "store they line up for",
+          "top": 392,
+          "left": 90,
+          "width": 1260,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Your brand has entered the\u00a0chat",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3",
+            "text-white",
+            "text-balance"
+          ],
+          "text": "Your brand has entered the chat",
+          "top": 1788,
+          "left": 130,
+          "width": 550,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Sell more in more places",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3",
+            "inline-block",
+            "text-pretty"
+          ],
+          "text": "Sell more in more places",
+          "top": 2190,
+          "left": 90,
+          "width": 527,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Grow around the\u00a0world",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3"
+          ],
+          "text": "Grow around the world",
+          "top": 3666,
+          "left": 90,
+          "width": 1260,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "For anyone from entrepreneurs to enterprise",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3",
+            "inline-block",
+            "text-pretty"
+          ],
+          "text": "For anyone from entrepreneurs to enterprise",
+          "top": 4493,
+          "left": 90,
+          "width": 724,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Meet your secret weapon,\u00a0Sidekick",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3"
+          ],
+          "text": "Meet your secret weapon, Sidekick",
+          "top": 5459,
+          "left": 90,
+          "width": 1260,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Your very own commerce AI",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "0.3px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-t7",
+            "mb-sm",
+            "md:mb-xs",
+            "text-pretty",
+            "flex",
+            "flex-col-reverse",
+            "sm:block"
+          ],
+          "text": "Your very own commerce AI",
+          "top": 6002,
+          "left": 122,
+          "width": 554,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "What winning looks like",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "0.3px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-t7",
+            "mb-sm",
+            "md:mb-xs",
+            "text-pretty"
+          ],
+          "text": "What winning looks like",
+          "top": 6002,
+          "left": 970,
+          "width": 348,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Customize everything with\u00a0apps",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3",
+            "mb-md",
+            "text-pretty"
+          ],
+          "text": "Customize everything with apps",
+          "top": 6279,
+          "left": 90,
+          "width": 608,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Hyperdriven by AI. Commerce to the\u00a0core.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t3"
+          ],
+          "text": "Hyperdriven by AI. Commerce to the core.",
+          "top": 6839,
+          "left": 90,
+          "width": 793,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "There\u2019s no better place for you to\u00a0build",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "70px",
+          "fontWeight": "330",
+          "lineHeight": "70px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px 0px 3px",
+          "margin": "0px 210px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t2",
+            "sm:mx-auto",
+            "sm:text-center",
+            "md:w-3/4",
+            "lg:w-2/3",
+            "xl:w-1/2",
+            "text-pretty"
+          ],
+          "text": "There\u2019s no better place for you to build",
+          "top": 7675,
+          "left": 300,
+          "width": 840,
+          "height": 143
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "The world\u2019s best-converting\u00a0checkout",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "330",
+          "lineHeight": "54.72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t4"
+          ],
+          "text": "The world\u2019s best-converting checkout",
+          "top": 7945,
+          "left": 90,
+          "width": 618,
+          "height": 109
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Rock steady. Blazing\u00a0fast.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "330",
+          "lineHeight": "54.72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t4",
+            "mb-md",
+            "md:w-2/3"
+          ],
+          "text": "Rock steady. Blazing fast.",
+          "top": 8746,
+          "left": 930,
+          "width": 280,
+          "height": 109
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Shopify has your\u00a0back",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "330",
+          "lineHeight": "54.72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "richtext",
+            "text-t4",
+            "mb-md"
+          ],
+          "text": "Shopify has your back",
+          "top": 9388,
+          "left": 839,
+          "width": 511,
+          "height": 55
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Build fast on\u00a0Shopify",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "55px",
+          "fontWeight": "330",
+          "lineHeight": "64px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "conversion-heading",
+          "classes": [
+            "richtext",
+            "text-t3"
+          ],
+          "text": "Build fast on Shopify",
+          "top": 10083,
+          "left": 90,
+          "width": 1260,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Shopify",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-xl",
+            "leading-[20px]",
+            "font-medium",
+            "mb-6",
+            "text-white"
+          ],
+          "text": "Shopify",
+          "top": 10859,
+          "left": 347,
+          "width": 233,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Ecosystem",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-xl",
+            "leading-[20px]",
+            "font-medium",
+            "mb-6",
+            "text-white"
+          ],
+          "text": "Ecosystem",
+          "top": 10859,
+          "left": 604,
+          "width": 233,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-xl",
+            "leading-[20px]",
+            "font-medium",
+            "mb-6",
+            "text-white"
+          ],
+          "text": "Resources",
+          "top": 10859,
+          "left": 860,
+          "width": 233,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Support",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-xl",
+            "leading-[20px]",
+            "font-medium",
+            "mb-6",
+            "text-white"
+          ],
+          "text": "Support",
+          "top": 10859,
+          "left": 1117,
+          "width": 233,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Choose a region & language",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "450",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-lg",
+            "font-medium"
+          ],
+          "text": "Choose a region & language",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Skip to Content",
+        "href": "#main",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "550",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "2px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 20px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "inline-block",
+            "self-center",
+            "overflow-hidden",
+            "max-w-full",
+            "px-button-px",
+            "py-button-py",
+            "ring-inset",
+            "rounded-button"
+          ],
+          "text": "Skip to Content",
+          "top": -80,
+          "left": 8,
+          "width": 161,
+          "height": 44
+        }
+      },
+      {
+        "text": "",
+        "href": "/",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "inline-block",
+            "shrink-0",
+            "relative",
+            "z-20"
+          ],
+          "text": "",
+          "top": 18,
+          "left": 90,
+          "width": 126,
+          "height": 36
+        }
+      },
+      {
+        "text": "Get started fast\n\nYou could be selling by tomorrow.",
+        "href": "/start",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "max-sm:pe-4",
+            "max-md:grid",
+            "max-md:grid-cols-[min-content_1fr]",
+            "max-md:grid-rows-[min-content]",
+            "max-md:gap-x-3",
+            "max-md:py-6",
+            "max-md:ps-4"
+          ],
+          "text": "Get started fast You could be selling by tomorrow.",
+          "top": -161,
+          "left": 90,
+          "width": 292,
+          "height": 44
+        }
+      },
+      {
+        "text": "Switch to Shopify\n\nGet more customers. Make more sales.",
+        "href": "/sell",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "max-sm:pe-4",
+            "max-md:grid",
+            "max-md:grid-cols-[min-content_1fr]",
+            "max-md:grid-rows-[min-content]",
+            "max-md:gap-x-3",
+            "max-md:py-6",
+            "max-md:ps-4"
+          ],
+          "text": "Switch to Shopify Get more customers. Make more sales.",
+          "top": -161,
+          "left": 406,
+          "width": 292,
+          "height": 44
+        }
+      },
+      {
+        "text": "Trusted by enterprise brands\n\nNo matter your size, complexity, or ambition.",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "max-sm:pe-4",
+            "max-md:grid",
+            "max-md:grid-cols-[min-content_1fr]",
+            "max-md:grid-rows-[min-content]",
+            "max-md:gap-x-3",
+            "max-md:py-6",
+            "max-md:ps-4"
+          ],
+          "text": "Trusted by enterprise brands No matter your size, complexity, or ambition.",
+          "top": -161,
+          "left": 722,
+          "width": 292,
+          "height": 62
+        }
+      },
+      {
+        "text": "World's best checkout\n\nProven to convert better.",
+        "href": "/checkout",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "gap-y-1",
+            "max-sm:flex",
+            "max-sm:flex-col",
+            "max-sm:min-h-[176px]",
+            "sm:max-lg:grid",
+            "sm:max-lg:grid-cols-[1.5fr_1fr]",
+            "sm:max-lg:grid-rows-[auto]"
+          ],
+          "text": "World's best checkout Proven to convert better.",
+          "top": -123,
+          "left": 1094,
+          "width": 190,
+          "height": 44
+        }
+      },
+      {
+        "text": "Sidekick\n\nYour commerce-obsessed AI assistant.",
+        "href": "/sidekick",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "gap-y-1",
+            "max-sm:flex",
+            "max-sm:flex-col",
+            "max-sm:min-h-[176px]",
+            "sm:max-lg:grid",
+            "sm:max-lg:grid-cols-[1.5fr_1fr]",
+            "sm:max-lg:grid-rows-[auto]"
+          ],
+          "text": "Sidekick Your commerce-obsessed AI assistant.",
+          "top": -55,
+          "left": 1094,
+          "width": 190,
+          "height": 62
+        }
+      },
+      {
+        "text": "Website Builder",
+        "href": "/website/builder",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Website Builder",
+          "top": -539,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Themes",
+        "href": "https://themes.shopify.com/",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Themes",
+          "top": -499,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Domains",
+        "href": "/domains",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Domains",
+          "top": -459,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Customer Accounts",
+        "href": "/customer-accounts",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Customer Accounts",
+          "top": -419,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Sidekick",
+        "href": "/sidekick",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Sidekick",
+          "top": -379,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Online",
+        "href": "/online",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Online",
+          "top": -539,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "AI Chats",
+        "href": "/agentic-storefronts",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "AI Chats",
+          "top": -499,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Point of Sale",
+        "href": "/pos",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Point of Sale",
+          "top": -459,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Shop App",
+        "href": "/shop",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Shop App",
+          "top": -419,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Social & Marketplaces",
+        "href": "/channels",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Social & Marketplaces",
+          "top": -379,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Global",
+        "href": "/international",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Global",
+          "top": -339,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "B2B",
+        "href": "/plus/solutions/b2b-ecommerce",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "B2B",
+          "top": -299,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Across Markets",
+        "href": "/markets",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Across Markets",
+          "top": -259,
+          "left": 408,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Advertising & Campaigns",
+        "href": "/marketing",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Advertising & Campaigns",
+          "top": -539,
+          "left": 727,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Email & Customer Chat",
+        "href": "/marketing-automation-tools",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Email & Customer Chat",
+          "top": -499,
+          "left": 727,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Discounts",
+        "href": "/discounts",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Discounts",
+          "top": -459,
+          "left": 727,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Analytics",
+        "href": "/analytics",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Analytics",
+          "top": -419,
+          "left": 727,
+          "width": 278,
+          "height": 40
+        }
+      },
+      {
+        "text": "Orders & Inventory",
+        "href": "/orders",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter-Variable, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "420",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "10px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "level3-link",
+            "flex",
+            "items-center",
+            "sm:items-start",
+            "gap-x-4",
+            "py-2.5",
+            "will-change-[opacity]",
+            "max-sm:text-base"
+          ],
+          "text": "Orders & Inventory",
+          "top": -271,
+          "left": 90,
+          "width": 278,
+          "height": 40
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(2, 9, 10)",
+          "backgroundImage": "url(\"https://cdn.shopify.com/b/shopify-brochure2-assets/7ecd57f2fa3d7b997d29181a62c954ee.png?originalWidth=1920&originalHeight=1080\")",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "72px 0px 0px",
+          "margin": "-1px 0px",
+          "display": "grid",
+          "gap": "0px normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "grid",
+            "grid-cols-full",
+            "pb-0",
+            "bg-section-dark-bg",
+            "text-section-dark-text",
+            "relative",
+            "pt-hero-top",
+            "bg-cover"
+          ],
+          "text": "Be the next AI all-star Be the next store they line up for AI all-star household name solo-preneur category creator global empire store they line up for big thing ",
+          "top": -1,
+          "left": 0,
+          "width": 1440,
+          "height": 824
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgb(10, 44, 48), rgb(6, 21, 24) 80%)",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-[linear-gradient(0deg,#061518_20%,#0a2c30)]",
+            "safari-specific:bg-none",
+            "safari-specific:bg-deep-green",
+            "rounded-xl",
+            "overflow-hidden",
+            "flex",
+            "flex-col",
+            "justify-between"
+          ],
+          "text": "",
+          "top": 2318,
+          "left": 90,
+          "width": 1260,
+          "height": 550
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "relative",
+            "rounded-xl",
+            "overflow-hidden",
+            "flex",
+            "flex-col",
+            "min-h-[400px]",
+            "sm:min-h-0",
+            "justify-between"
+          ],
+          "text": "Sell on every channel Put your products where shoppers search, shop, and scroll with multichannel integration.",
+          "top": 2883,
+          "left": 90,
+          "width": 409,
+          "height": 655
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "rounded-xl",
+            "overflow-hidden",
+            "flex",
+            "flex-col",
+            "min-h-[400px]",
+            "sm:min-h-0",
+            "justify-between",
+            "border-t"
+          ],
+          "text": "Sell face to face Sell in person and keep online and in-store sales in sync with Shopify POS.",
+          "top": 2883,
+          "left": 515,
+          "width": 409,
+          "height": 655
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "relative",
+            "rounded-xl",
+            "overflow-hidden",
+            "flex",
+            "flex-col",
+            "min-h-[400px]",
+            "sm:min-h-0",
+            "justify-between"
+          ],
+          "text": "Sell to 250M+ shoppers with Shop Automatically show up on the Shop app. Reach millions of pre-verified shoppers.",
+          "top": 2883,
+          "left": 941,
+          "width": 409,
+          "height": 655
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+          "border": "",
+          "padding": "24px 32px 32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "24px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "rounded-xl",
+            "overflow-hidden",
+            "flex",
+            "flex-col",
+            "justify-between",
+            "border-t",
+            "border-hairline-green",
+            "shadow-card"
+          ],
+          "text": "Buy now \ud83c\uddfa\ud83c\uddf8 Order for $125.00 Buy now \ud83c\uddfa\ud83c\uddf8 Order for $125.00 Buy now \ud83c\uddfa\ud83c\uddf8 Order for $125.00 Buy now \ud83c\uddfa\ud83c\uddf8 Order for $125.00 Buy now \ud83c\uddfa\ud83c\uddf8 Order for $125.00 Buy now \ud83c\uddfa\ud83c\uddf8 Or",
+          "top": 3770,
+          "left": 90,
+          "width": 1260,
+          "height": 596
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "bg-white",
+            "absolute",
+            "inset-0",
+            "w-full",
+            "h-full",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Buy now",
+          "top": 3876,
+          "left": 447,
+          "width": 169,
+          "height": 221
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgb(36, 71, 73) 0%, rgb(24, 46, 47) 100%)",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20.8px",
+          "letterSpacing": "0.28px",
+          "borderRadius": "4px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.03) 0px 0.929px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.929px, rgba(0, 0, 0, 0.1) 0px 1.858px 1.858px 0px, rgba(0, 0, 0, 0.1) 0px 3.717px 3.717px 0px",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "p-1",
+            "min-h-10",
+            "md:min-h-12",
+            "lg:min-h-14",
+            "text-b6",
+            "flex",
+            "items-center",
+            "rounded"
+          ],
+          "text": "Buy now",
+          "top": 4046,
+          "left": 458,
+          "width": 146,
+          "height": 40
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-overlay",
+            "absolute",
+            "inset-0",
+            "bg-deep-green",
+            "transition-opacity"
+          ],
+          "text": "",
+          "top": 3876,
+          "left": 447,
+          "width": 169,
+          "height": 221
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "bg-white",
+            "absolute",
+            "inset-0",
+            "w-full",
+            "h-full",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Buy now",
+          "top": 3858,
+          "left": 334,
+          "width": 197,
+          "height": 258
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgb(36, 71, 73) 0%, rgb(24, 46, 47) 100%)",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20.8px",
+          "letterSpacing": "0.28px",
+          "borderRadius": "4px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.03) 0px 0.929px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.929px, rgba(0, 0, 0, 0.1) 0px 1.858px 1.858px 0px, rgba(0, 0, 0, 0.1) 0px 3.717px 3.717px 0px",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "p-1",
+            "min-h-10",
+            "md:min-h-12",
+            "lg:min-h-14",
+            "text-b6",
+            "flex",
+            "items-center",
+            "rounded"
+          ],
+          "text": "Buy now",
+          "top": 4056,
+          "left": 348,
+          "width": 170,
+          "height": 47
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-overlay",
+            "absolute",
+            "inset-0",
+            "bg-deep-green",
+            "transition-opacity"
+          ],
+          "text": "",
+          "top": 3858,
+          "left": 334,
+          "width": 197,
+          "height": 258
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "bg-white",
+            "absolute",
+            "inset-0",
+            "w-full",
+            "h-full",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Buy now",
+          "top": 3832,
+          "left": 413,
+          "width": 236,
+          "height": 310
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgb(36, 71, 73) 0%, rgb(24, 46, 47) 100%)",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20.8px",
+          "letterSpacing": "0.28px",
+          "borderRadius": "4px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.03) 0px 0.929px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.929px, rgba(0, 0, 0, 0.1) 0px 1.858px 1.858px 0px, rgba(0, 0, 0, 0.1) 0px 3.717px 3.717px 0px",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "p-1",
+            "min-h-10",
+            "md:min-h-12",
+            "lg:min-h-14",
+            "text-b6",
+            "flex",
+            "items-center",
+            "rounded"
+          ],
+          "text": "Buy now",
+          "top": 4070,
+          "left": 429,
+          "width": 204,
+          "height": 56
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(6, 26, 28)",
+          "backgroundImage": "none",
+          "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(229, 231, 235)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-overlay",
+            "absolute",
+            "inset-0",
+            "bg-deep-green",
+            "transition-opacity"
+          ],
+          "text": "",
+          "top": 3832,
+          "left": 413,
+          "width": 236,
+          "height": 310
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/d9340911ca8c679b148dd4a205ad2ffa.svg",
+        "alt": "Shopify",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-9",
+            "w-full"
+          ],
+          "text": "",
+          "top": 18,
+          "left": 90,
+          "width": 126,
+          "height": 36
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/35d24a52160348807e95f1d335e9e295.png?width=421",
+        "alt": "Get started fast",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-full",
+            "object-cover",
+            "lg:hover:scale-125",
+            "lg:transition-transform",
+            "lg:duration-500"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/b4995abc3f73dd8442f579e10023a4df.png?width=421",
+        "alt": "Switch to Shopify",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-full",
+            "object-cover",
+            "lg:hover:scale-125",
+            "lg:transition-transform",
+            "lg:duration-500"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/91fd2e27323b7a94d9fdb2a7973e668e.png?width=421",
+        "alt": "Trusted by enterprise brands",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-full",
+            "object-cover",
+            "lg:hover:scale-125",
+            "lg:transition-transform",
+            "lg:duration-500"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/5a751065b0c61a7ef84271640431b54a.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "rounded-lg",
+            "pointer-coarse:pointer-events-none",
+            "max-sm:w-full",
+            "lg:hidden",
+            "lg:transition-[display]",
+            "lg:transition-discrete",
+            "lg:duration-[450ms]",
+            "lg:[.level1-item:hover_&]:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/ecabe88f01662a8048799d22f2c6aa99.svg",
+        "alt": "World's best checkout",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "relative",
+            "z-10",
+            "w-[118px]",
+            "aspect-[3.333]",
+            "rounded",
+            "max-sm:mt-auto",
+            "sm:row-start-[span_2]",
+            "sm:self-center"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/99ded60def529a689cecaea5a18e7284.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "rounded-lg",
+            "pointer-coarse:pointer-events-none",
+            "max-sm:w-full",
+            "lg:hidden",
+            "lg:transition-[display]",
+            "lg:transition-discrete",
+            "lg:duration-[450ms]",
+            "lg:[.level1-item:hover_&]:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/bed4594e2c394553b2f03d9da43cb685.png?width=160",
+        "alt": "Sidekick",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "relative",
+            "z-10",
+            "w-[70px]",
+            "aspect-square",
+            "max-sm:translate-y-2.5",
+            "max-sm:-mt-2.5",
+            "sm:w-[80px]",
+            "sm:self-center"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/18871a9adc9ac5eef5156560faf3cafd.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "rounded-lg",
+            "pointer-coarse:pointer-events-none",
+            "max-sm:w-full",
+            "lg:hidden",
+            "lg:transition-[display]",
+            "lg:transition-discrete",
+            "lg:duration-[450ms]",
+            "lg:[.level1-item:hover_&]:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/d35240ac8553d40d3c6f986b3a47e8bb.png?originalWidth=36&originalHeight=36",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-[18px]",
+            "h-[18px]",
+            "shrink-0",
+            "pointer-events-none",
+            "-translate-y-[.5px]"
+          ],
+          "text": "",
+          "top": 27,
+          "left": 719,
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "tag": "video",
+        "src": "blob:https://www.shopify.com/c4a6eb30-cc60-4236-97f2-ba38544e463f",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "absolute",
+            "size-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": -1,
+          "left": 0,
+          "width": 1440,
+          "height": 824
+        }
+      },
+      {
+        "tag": "video",
+        "src": "blob:https://www.shopify.com/c4a6eb30-cc60-4236-97f2-ba38544e463f",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-[107px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/67e4b3ae607f6a12adb615c0ec0af3b4.jpg?originalWidth=1046&originalHeight=800&width=1000",
+        "alt": "Image of Steve Madden website selling shoes and accessories",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "[transform:_translateZ(0px)]",
+            "max-lg:h-full",
+            "max-lg:w-auto"
+          ],
+          "text": "",
+          "top": 1014,
+          "left": 90,
+          "width": 498,
+          "height": 381
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/a011f79527438e06c77694dc9e48f9b2.jpg?originalWidth=454&originalHeight=800&width=400",
+        "alt": "Image of Ornot website selling cycling apparel",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "[transform:_translateZ(0px)]",
+            "max-lg:h-full",
+            "max-lg:w-auto"
+          ],
+          "text": "",
+          "top": 1014,
+          "left": 604,
+          "width": 216,
+          "height": 381
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/4f34cdb8ec9c120b80b8be143d0791d7.jpg?originalWidth=1046&originalHeight=800&width=1000",
+        "alt": "Image of Glossier website selling beauty products",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "[transform:_translateZ(0px)]",
+            "max-lg:h-full",
+            "max-lg:w-auto"
+          ],
+          "text": "",
+          "top": 1014,
+          "left": 836,
+          "width": 498,
+          "height": 381
+        }
+      },
+      {
+        "tag": "video",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "transition-opacity",
+            "ease-out-cubic",
+            "duration-300",
+            "opacity-100",
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 1538,
+          "left": 720,
+          "width": 630,
+          "height": 525
+        }
+      },
+      {
+        "tag": "video",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "opacity-0",
+            "transition-opacity",
+            "ease-out-cubic",
+            "duration-300",
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full"
+          ],
+          "text": "",
+          "top": 2319,
+          "left": 138,
+          "width": 1164,
+          "height": 549
+        }
+      },
+      {
+        "tag": "video",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "transition-opacity",
+            "ease-out-cubic",
+            "duration-300",
+            "opacity-100",
+            "h-full",
+            "object-contain",
+            "sm:h-auto",
+            "sm:object-fill"
+          ],
+          "text": "",
+          "top": 3053,
+          "left": 145,
+          "width": 300,
+          "height": 150
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/e9b1787b05cc3141b4aec50b024ad68c.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "relative",
+            "z-[1]",
+            "w-6",
+            "h-[1.1rem]",
+            "transition-opacity",
+            "sm:w-10",
+            "sm:h-[1.8rem]",
+            "md:w-8"
+          ],
+          "text": "",
+          "top": 4137,
+          "left": 146,
+          "width": 40,
+          "height": 29
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.shopify.com/b/shopify-brochure2-assets/c87d3ea84d6b07cc56c44653ed8911f5.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "relative",
+            "z-[1]",
+            "w-6",
+            "h-[1.1rem]",
+            "transition-opacity",
+            "sm:w-10",
+            "sm:h-[1.8rem]",
+            "md:w-8"
+          ],
+          "text": "",
+          "top": 3225,
+          "left": 146,
+          "width": 40,
+          "height": 29
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(229, 231, 235)",
+        "count": 938
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 787
+      },
+      {
+        "value": "rgb(161, 161, 170)",
+        "count": 77
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 70
+      },
+      {
+        "value": "rgb(54, 244, 164)",
+        "count": 20
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "count": 13
+      },
+      {
+        "value": "rgb(6, 26, 28)",
+        "count": 11
+      },
+      {
+        "value": "rgb(157, 171, 173)",
+        "count": 11
+      },
+      {
+        "value": "rgb(151, 151, 162)",
+        "count": 11
+      },
+      {
+        "value": "rgb(2, 9, 10)",
+        "count": 10
+      },
+      {
+        "value": "rgb(153, 179, 173)",
+        "count": 10
+      },
+      {
+        "value": "rgb(228, 228, 231)",
+        "count": 9
+      },
+      {
+        "value": "oklab(0.202157 -0.0241444 -0.0107363 / 0.2)",
+        "count": 6
+      },
+      {
+        "value": "rgb(244, 244, 245)",
+        "count": 6
+      },
+      {
+        "value": "rgb(30, 44, 49)",
+        "count": 5
+      },
+      {
+        "value": "rgb(189, 189, 202)",
+        "count": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 5
+      },
+      {
+        "value": "rgb(4, 30, 24)",
+        "count": 5
+      }
+    ],
+    "fonts": [
+      {
+        "value": "NeueHaasGrotesk",
+        "count": 553
+      },
+      {
+        "value": "Inter-Variable",
+        "count": 416
+      },
+      {
+        "value": "ui-monospace",
+        "count": 4
+      }
+    ],
+    "radii": [
+      {
+        "value": "12px",
+        "count": 26
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 22
+      },
+      {
+        "value": "4px",
+        "count": 16
+      },
+      {
+        "value": "8px",
+        "count": 8
+      },
+      {
+        "value": "9999px",
+        "count": 7
+      },
+      {
+        "value": "340px",
+        "count": 6
+      },
+      {
+        "value": "20px 20px 0px 0px",
+        "count": 4
+      },
+      {
+        "value": "5px",
+        "count": 3
+      },
+      {
+        "value": "0px 0px 12px 12px",
+        "count": 3
+      },
+      {
+        "value": "48px 48px 0px 0px",
+        "count": 3
+      },
+      {
+        "value": "100%",
+        "count": 3
+      },
+      {
+        "value": "16px",
+        "count": 2
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 0px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.2) 0px 5px 10px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 8px 8px 0px, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px, rgba(0, 0, 0, 0.1) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.03) 0px 0.929px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.929px, rgba(0, 0, 0, 0.1) 0px 1.858px 1.858px 0px, rgba(0, 0, 0, 0.1) 0px 3.717px 3.717px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px"
+    ],
+    "cssVars": {},
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"bk-header font-base flex w-full z-50 text-component-header-content sm:px-margin sm:max-lg:pe-[calc(var(--spacing-margin)-13px)] xl:px-auto-xl before:bg-gradient-to-b before:from-component-header-bg before:to-transparent before:absolute before:top-0 before:start-0 before:will-change-[opacity] before:pointer-events-none before:h-10 before:w-full before:z-100 before:transition-opacity before:duration-200 before:opacity-0 before:translate-y-global-header max-lg:[&amp;:has(nav_.peer/l1\u2026",
+    "heroHtml": "<div class=\"sr-only js-disabled:not-sr-only motion-reduce:not-sr-only\"><h1 class=\"richtext text-dsp mb-lg md:mb-2xl\">Be the next<br>AI all-star</h1></div>",
+    "footerHtml": "<footer class=\"[&amp;_a]:underline mt-4 text-sm md:mt-8 md:text-lg\"><p>Jessica Wise</p><p>CEO, <a data-component-name=\"cta-hell-babes\" href=\"https://hellbabes.co/\" target=\"_blank\" rel=\"noopener noreferrer\">Hell Babes</a></p></footer>"
+  },
+  "status": 200,
+  "final_url": "https://www.shopify.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 5,
+    "section_count": 14,
+    "nav_count": 1,
+    "button_count": 6,
+    "img_count": 55,
+    "footer_count": 2
+  }
+}

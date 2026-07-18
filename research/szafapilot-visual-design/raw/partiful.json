@@ -1,0 +1,1979 @@
+{
+  "name": "partiful",
+  "url": "https://partiful.com",
+  "category": "marketplace",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/partiful-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/partiful-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/partiful-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/partiful-full.png",
+  "design": {
+    "url": "https://partiful.com/",
+    "title": "Partiful - Free Online Invitations with RSVP Tracking",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 9714
+    },
+    "themeGuess": "light",
+    "luminance": 0.9999999999999999,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "framer-FfZA6",
+          "framer-r1oUA",
+          "framer-4tqUv",
+          "framer-VT5lg",
+          "framer-X1SUh",
+          "framer-jEaks",
+          "framer-jw29f",
+          "framer-1jw35f4"
+        ],
+        "text": "Summer Parties Birthdays Dinners Explore Housewarmings For Orgs Login Create \ud83c\udf9f\ufe0f \ud83c\udf9f\ufe0f New! Sell tickets on Partiful",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 128
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Summer Parties",
+        "Birthdays",
+        "Dinners",
+        "Explore",
+        "Housewarmings",
+        "For Orgs",
+        "Login",
+        "Create",
+        "\ud83c\udf9f\ufe0f\n\ud83c\udf9f\ufe0f\nNew! Sell tickets on Partiful"
+      ]
+    },
+    "footer": {
+      "box": null,
+      "style": null
+    },
+    "main": {
+      "box": {
+        "tag": "body",
+        "id": null,
+        "classes": [],
+        "text": "Summer Parties Birthdays Dinners Explore Housewarmings For Orgs Login Create \ud83c\udf9f\ufe0f \ud83c\udf9f\ufe0f New! Sell tickets on Partiful 200k+ ratings Parties are back The easiest way to get your g",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 9714
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [],
+        "top": 1819,
+        "height": 100,
+        "width": 1400,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [],
+        "top": 2224,
+        "height": 288,
+        "width": 1360,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Summer Parties",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "Summer Parties",
+          "top": 69,
+          "left": 411,
+          "width": 124,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Birthdays",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "Birthdays",
+          "top": 69,
+          "left": 554,
+          "width": 74,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Dinners",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "Dinners",
+          "top": 69,
+          "left": 648,
+          "width": 60,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Explore",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "Explore",
+          "top": 69,
+          "left": 963,
+          "width": 59,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Housewarmings",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "Housewarmings",
+          "top": 69,
+          "left": 728,
+          "width": 127,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "For Orgs",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-b3ae6l"
+          ],
+          "text": "For Orgs",
+          "top": 69,
+          "left": 875,
+          "width": 68,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "\ud83c\udf9f\ufe0f",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "\ud83c\udf9f\ufe0f",
+          "top": 4,
+          "left": 599,
+          "width": 29,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "\ud83c\udf9f\ufe0f",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "\ud83c\udf9f\ufe0f",
+          "top": 4,
+          "left": 812,
+          "width": 29,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "New! Sell tickets on Partiful",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "700",
+          "lineHeight": "16.8px",
+          "letterSpacing": "-0.56px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "New! Sell tickets on Partiful",
+          "top": 10,
+          "left": 638,
+          "width": 164,
+          "height": 17
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Parties are back",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 850\", sans-serif",
+          "fontSize": "112px",
+          "fontWeight": "825",
+          "lineHeight": "89.6px",
+          "letterSpacing": "-3.36px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Parties are back",
+          "top": 262,
+          "left": 55,
+          "width": 464,
+          "height": 179
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The easiest way to get your guests \non the same page",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "The easiest way to get your guests on the same page",
+          "top": 465,
+          "left": 55,
+          "width": 545,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Fun, modern invites in 1-click",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "lineHeight": "43.2px",
+          "letterSpacing": "-1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-1lu7xow"
+          ],
+          "text": "Fun, modern invites in 1-click",
+          "top": 880,
+          "left": 495,
+          "width": 451,
+          "height": 43
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trending Templates",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Trending Templates",
+          "top": 2119,
+          "left": 40,
+          "width": 378,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "For every occasion, \nevery vibe \ud83c\udf89",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "400",
+          "lineHeight": "50.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-18l03sa"
+          ],
+          "text": "For every occasion, every vibe \ud83c\udf89",
+          "top": 2825,
+          "left": 60,
+          "width": 420,
+          "height": 101
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "We're not like other invites",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-kdq587"
+          ],
+          "text": "We're not like other invites",
+          "top": 3412,
+          "left": 425,
+          "width": 590,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "New! Sell tickets for your event \ud83c\udf9f\ufe0f",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "New! Sell tickets for your event \ud83c\udf9f\ufe0f",
+          "top": 3672,
+          "left": 160,
+          "width": 616,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "See who's going \ud83d\udc40",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "See who's going \ud83d\udc40",
+          "top": 4173,
+          "left": 827,
+          "width": 380,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Text Blast your guests",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "Text Blast your guests",
+          "top": 4744,
+          "left": 160,
+          "width": 380,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Powerful features, easy events",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-kdq587"
+          ],
+          "text": "Powerful features, easy events",
+          "top": 5243,
+          "left": 370,
+          "width": 700,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Send invites on any platform \ud83d\udceb",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "Send invites on any platform \ud83d\udceb",
+          "top": 6074,
+          "left": 679,
+          "width": 601,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Get a shareable photo album \ud83e\udd33",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "Get a shareable photo album \ud83e\udd33",
+          "top": 6509,
+          "left": 160,
+          "width": 540,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Real reviews, from real users",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-kdq587"
+          ],
+          "text": "Real reviews, from real users",
+          "top": 7139,
+          "left": 200,
+          "width": 500,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Let\u2019s get the party started",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "lineHeight": "43.2px",
+          "letterSpacing": "-1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-1lu7xow"
+          ],
+          "text": "Let\u2019s get the party started",
+          "top": 8171,
+          "left": 521,
+          "width": 398,
+          "height": 43
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "psst\u2026fresh off the press \ud83d\ude2e\u200d\ud83d\udca8",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-pxb4su"
+          ],
+          "text": "psst\u2026fresh off the press \ud83d\ude2e\u200d\ud83d\udca8",
+          "top": 8501,
+          "left": 580,
+          "width": 279,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The Rise of Unserious Events: A Lookback at the Timoth\u00e9e Chalamet Lookalike Contest",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fhdagm"
+          ],
+          "text": "The Rise of Unserious Events: A Lookback at the Timoth\u00e9e Chalamet Lookalike Contest",
+          "top": 8926,
+          "left": 160,
+          "width": 347,
+          "height": 125
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Luis Ocampo",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "700",
+          "lineHeight": "14.4px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Luis Ocampo",
+          "top": 9148,
+          "left": 188,
+          "width": 70,
+          "height": 14
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Griffin Maxwell Brooks: \"To be a snob is to be a good DJ\"",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fhdagm"
+          ],
+          "text": "Griffin Maxwell Brooks: \"To be a snob is to be a good DJ\"",
+          "top": 8926,
+          "left": 547,
+          "width": 347,
+          "height": 62
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Rosa Jisoo Pyo",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "700",
+          "lineHeight": "14.4px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Rosa Jisoo Pyo",
+          "top": 9085,
+          "left": 575,
+          "width": 78,
+          "height": 14
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Why We Need Fuckbois",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Partiful Display Medium\", \"Partiful Display Medium Placeholder\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fhdagm"
+          ],
+          "text": "Why We Need Fuckbois",
+          "top": 8926,
+          "left": 933,
+          "width": 347,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Neighborhood Watch",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"TWK Lausanne Pan 700\", \"TWK Lausanne Pan 700 Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "700",
+          "lineHeight": "14.4px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Neighborhood Watch",
+          "top": 9029,
+          "left": 961,
+          "width": 113,
+          "height": 14
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "href": "./",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-1bhqnsh",
+            "framer-qlum0w"
+          ],
+          "text": "",
+          "top": 67,
+          "left": 34,
+          "width": 129,
+          "height": 26
+        }
+      },
+      {
+        "text": "Login",
+        "href": "./",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0.1)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-Eknfr",
+            "framer-xm6lsq",
+            "framer-v-i2ivi0",
+            "framer-tfggh6"
+          ],
+          "text": "Login",
+          "top": 56,
+          "left": 1224,
+          "width": 88,
+          "height": 48
+        }
+      },
+      {
+        "text": "Create",
+        "href": "./",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-Eknfr",
+            "framer-xm6lsq",
+            "framer-v-1a3ad5a",
+            "framer-tfggh6"
+          ],
+          "text": "Create",
+          "top": 56,
+          "left": 1319,
+          "width": 97,
+          "height": 48
+        }
+      },
+      {
+        "text": "\ud83c\udf9f\ufe0f\n\ud83c\udf9f\ufe0f\nNew! Sell tickets on Partiful",
+        "href": "./ticketing",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgb(248, 196, 255) 0%, rgb(240, 182, 224) 100%)",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-obaubg",
+            "framer-qlum0w"
+          ],
+          "text": "\ud83c\udf9f\ufe0f \ud83c\udf9f\ufe0f New! Sell tickets on Partiful",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 36
+        }
+      },
+      {
+        "text": "Create invite",
+        "href": "https://partiful.com/create",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-Eknfr",
+            "framer-xm6lsq",
+            "framer-v-1a3ad5a",
+            "framer-tfggh6"
+          ],
+          "text": "Create invite",
+          "top": 546,
+          "left": 55,
+          "width": 138,
+          "height": 48
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/uV3wiWfeIANjUyX33t7w2SrMw.png?width=1230&height=692",
+        "alt": "Abstract gradient with soft pink and blue hues blending together, creating a vibrant, colorful background.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 800
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/hCu4ZL2ciyiTfyLf9Eeiw8oc.png?width=1554&height=1398",
+        "alt": "Two women laugh and embrace, surrounded by dim lights and a festive atmosphere. Their joy is palpable.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 600,
+          "width": 840,
+          "height": 800
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/ZInjfqtV3Ckclz04kJqgrtmyc.png?width=643&height=409",
+        "alt": "Graphic with pastel background, featuring event details and an RSVP button at the bottom.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 540,
+          "left": 1101,
+          "width": 339,
+          "height": 232
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://assets.getpartiful.com/landing_page/BackgroundChangeVideo.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1089,
+          "left": 215,
+          "width": 1010,
+          "height": 630
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/xPQ5wQsnTQ7E2nD0DaL5QNyFsYM.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 40,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/jehIeE9DpKEGlNArZdJJ1AthjWs.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 484,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/bhfTobWcecd6Qj9eADI8QUofqQ.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 928,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/OjYAQbJykHYYseJ8DoSELPjmhP8.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 1372,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/JWrVG2PQt89pYsNuc0EzB2HsNw.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 1816,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/u0PtCMTR9eIYnHWAIQ0sn9rf3II.png?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 2260,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/RGyJWBkjKC0LgNu8osJkewN9lo.png?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 2704,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/BNjUj8qSiChq9pcqVjgMfyQrBSg.jpg?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 3148,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/yeEdq0PS1desH2eAWShKUMVFU.png?width=840&height=576",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2224,
+          "left": 3592,
+          "width": 432,
+          "height": 288
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2348,
+          "left": 60,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2348,
+          "left": 1340,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/mDujPgVpSZmkyGD0xAnwEuvcS3A.jpg?scale-down-to=512&width=920&height=920",
+        "alt": "Text on a blue background reads \"Almost Married\" in a decorative, elegant font.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3647,
+          "left": 604,
+          "width": 277,
+          "height": 277
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/KkfEjZAm3Ggh7jjPGphtGsc08.png?scale-down-to=512&width=767&height=767",
+        "alt": "A colorful, pink glass with miniature figures sitting around a round table, appearing to share a meal.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3840,
+          "left": 776,
+          "width": 280,
+          "height": 280
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/yQq8h95eZFL5YTgPUWSCezp5QI.png?scale-down-to=512&width=767&height=767",
+        "alt": "A whimsical illustration featuring a figure standing amidst clouds, surrounded by colorful balloons and birthday text.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3977,
+          "left": 1019,
+          "width": 250,
+          "height": 250
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/zRn8GH3mMPjenNBVHamu1w7g2I.jpg?scale-down-to=512&width=920&height=920",
+        "alt": "Illustration of a dinner party invitation with playful designs and the text \"DINNER PARTY\" prominently displayed.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 4032,
+          "left": 1294,
+          "width": 210,
+          "height": 210
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/KUVwdtvjv90DS9kfIj7MYdmqVGU.jpg?scale-down-to=512&width=920&height=920",
+        "alt": "A blue folder icon titled \"personas 4\" on a blurred pastel background.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3953,
+          "left": 1521,
+          "width": 262,
+          "height": 262
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1799
+      },
+      {
+        "value": "rgb(0, 0, 238)",
+        "count": 446
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.6)",
+        "count": 114
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 54
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.8)",
+        "count": 42
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.4)",
+        "count": 34
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3)",
+        "count": 10
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05)",
+        "count": 7
+      },
+      {
+        "value": "rgb(156, 215, 255)",
+        "count": 2
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.1)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.3)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "sans-serif",
+        "count": 1048
+      },
+      {
+        "value": "TWK Lausanne Pan 550",
+        "count": 68
+      },
+      {
+        "value": "TWK Lausanne Pan 400",
+        "count": 43
+      },
+      {
+        "value": "TWK Lausanne Pan 700",
+        "count": 28
+      },
+      {
+        "value": ".SFNSDisplay",
+        "count": 16
+      },
+      {
+        "value": "Partiful Display Medium",
+        "count": 8
+      },
+      {
+        "value": ".SFNSDisplay-Semibold",
+        "count": 8
+      },
+      {
+        "value": ".SFNSText",
+        "count": 8
+      },
+      {
+        "value": "TWK Lausanne Pan 600",
+        "count": 4
+      },
+      {
+        "value": "TWK Lausanne Pan 650",
+        "count": 3
+      },
+      {
+        "value": "TWK Lausanne Pan",
+        "count": 1
+      },
+      {
+        "value": "TWK Lausanne Pan 850",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "12px",
+        "count": 30
+      },
+      {
+        "value": "4px",
+        "count": 16
+      },
+      {
+        "value": "8px",
+        "count": 9
+      },
+      {
+        "value": "12px 12px 0px 0px",
+        "count": 6
+      },
+      {
+        "value": "16px",
+        "count": 5
+      },
+      {
+        "value": "960px",
+        "count": 4
+      },
+      {
+        "value": "40px",
+        "count": 2
+      },
+      {
+        "value": "6px",
+        "count": 2
+      },
+      {
+        "value": "30px",
+        "count": 1
+      },
+      {
+        "value": "16px 0px 0px",
+        "count": 1
+      },
+      {
+        "value": "20px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px, rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px, rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px, rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px",
+      "rgba(0, 0, 0, 0.1) 0px 0px 20px 0px",
+      "rgba(0, 0, 0, 0.1) 0px 0px 6px 0px"
+    ],
+    "cssVars": {
+      "--token-ee57ee6e-75f2-4bfa-bdcc-d25557fe6d9b": "#fff",
+      "--token-c867f3ef-7af8-42a0-9e3c-e58fe0344a42": "#fffc",
+      "--token-5b9e7f7b-edea-47f9-8416-541664cc5cf2": "#ffffff4d",
+      "--token-51665894-ab04-470a-b217-0073fc9ce4bf": "#ffffff1a",
+      "--token-952bcc8f-ed8c-4ebe-9f86-3e59d8545f48": "#000",
+      "--token-9998a424-8c9b-4783-b981-586cde48e3f8": "#000c",
+      "--token-4574407f-bd51-43d3-98df-5b455dfe492c": "#0009",
+      "--token-21bd8d23-81fa-425b-9c37-9f465f09ca49": "#0000004d",
+      "--token-fccb152a-b133-4472-bb98-e0bbbce335ad": "#0000001a",
+      "--token-6cc2d33f-4832-4d49-a650-2cf3c05b1a8b": "#0000000d",
+      "--token-4a9a2f31-6e1d-4b7d-b8b4-061a2384cc55": "#000",
+      "--token-219fe39e-d3b4-4070-8caa-83aa3feee848": "#0009",
+      "--token-b1612e26-4319-4b1c-adaf-cb0c4cc8b484": "#000c",
+      "--token-81463af5-fdd0-4688-a4f9-149f34a332a5": "#fffc",
+      "--token-d375c68c-1748-492a-bfeb-29ea3c4c8976": "#fff",
+      "--token-f8d4a63e-1d93-4d78-ab65-c47901df5ad0": "#0009",
+      "--token-171e1dbe-c994-4aab-80e8-6e05474cf05a": "#31c431",
+      "--token-9943b4ad-06fb-4ade-b8f3-136bdddc5aa4": "#ffae00",
+      "--token-8e90b899-0aa9-4bae-93a9-270b256c152c": "red",
+      "--token-0d375d48-bd01-4302-ab51-0f9952dfbd54": "#f57e2a66",
+      "--token-73d49074-7cb1-4544-8200-13a6de5ede41": "#001666",
+      "--token-0ba7cc43-9dd6-43f5-bf85-fd56e07a2fea": "#2a3132",
+      "--token-440020f8-b9e1-49ea-9687-1ea12b43b3de": "#000",
+      "--token-c465f8c5-7fa9-436d-b203-2cb129c31fb1": "#ededed",
+      "--token-9a7303fe-2324-4aa1-bbd4-e1f1d449de82": "#ffffff1f",
+      "--token-893bfe41-6001-43f4-8c20-c30f5948d20d": "#fff6",
+      "--token-20608b9f-0145-4a1e-b971-ee948ebbb015": "#fff",
+      "--token-49629486-5e3f-44d5-9f6a-fe8eb1b79aa7": "red",
+      "--text-decoration": "var(--framer-text-decoration-style,solid)var(--framer-text-decoration,none)var(--framer-text-decoration-color,currentcol",
+      "--text-decoration-skip-ink": "var(--framer-text-decoration-skip-ink)",
+      "--text-underline-offset": "var(--framer-text-decoration-offset)",
+      "--font-family": "var(--framer-font-family)",
+      "--font-style": "var(--framer-font-style)",
+      "--font-weight": "var(--framer-font-weight)",
+      "--text-color": "var(--framer-text-color)",
+      "--letter-spacing": "var(--framer-letter-spacing)",
+      "--font-size": "var(--framer-font-size)",
+      "--text-transform": "var(--framer-text-transform)",
+      "--line-height": "var(--framer-line-height)",
+      "--framer-paragraph-spacing": "0px",
+      "--framer-link-text-color": "#09f",
+      "--framer-link-text-decoration": "underline",
+      "--framer-font-family": "\"TWK Lausanne Pan 700\",\"TWK Lausanne Pan 700 Placeholder\",sans-serif",
+      "--framer-font-open-type-features": "normal",
+      "--framer-font-size": "36px",
+      "--framer-font-style": "normal",
+      "--framer-font-variation-axes": "normal",
+      "--framer-font-weight": "400",
+      "--framer-letter-spacing": "-.04em",
+      "--framer-line-height": "120%",
+      "--framer-text-alignment": "left",
+      "--framer-text-color": "var(--token-4a9a2f31-6e1d-4b7d-b8b4-061a2384cc55,#000)",
+      "--framer-text-decoration": "none",
+      "--framer-text-stroke-color": "initial",
+      "--framer-text-stroke-width": "initial",
+      "--framer-text-transform": "none",
+      "--framer-font-family-bold": "\"Partiful Display Bold\",\"Partiful Display Bold Placeholder\",sans-serif",
+      "--framer-font-style-bold": "normal",
+      "--framer-font-weight-bold": "700",
+      "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+      "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+      "--framer-font-style-bold-italic": "italic",
+      "--framer-font-style-italic": "italic",
+      "--framer-font-weight-bold-italic": "700",
+      "--framer-font-weight-italic": "400",
+      "--framer-will-change-override": "none",
+      "--framer-will-change-filter-override": "none",
+      "--framer-text-decoration-style": "none",
+      "--framer-text-decoration-color": "none",
+      "--framer-text-decoration-thickness": "none",
+      "--framer-text-decoration-skip-ink": "none",
+      "--framer-text-decoration-offset": "none",
+      "--framer-text-background-color": "initial",
+      "--framer-text-background-radius": "initial",
+      "--framer-text-background-corner-shape": "initial",
+      "--framer-text-background-padding": "initial",
+      "--list-style-type": "decimal",
+      "--font-variation-settings": "normal",
+      "--framer-link-hover-text-color": "#0099ff4d"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"framer-1t11blr\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-gdpscs: var(--token-ee57ee6e-75f2-4bfa-bdcc-d25557fe6d9b, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\"><h1 dir=\"auto\" class=\"framer-text\" style=\"--font-selector:Q1VTVE9NVjI7VFdLIExhdXNhbm5lIFBhbiA4NTA=;--framer-font-family:&quot;TWK Lausanne Pan 850&quot;, sans-serif;--framer-font-open-type-features:&quot;blwf&qu\u2026",
+    "footerHtml": null
+  },
+  "status": 200,
+  "final_url": "https://partiful.com/",
+  "html_signals": {
+    "h1_count": 6,
+    "h2_count": 14,
+    "section_count": 2,
+    "nav_count": 1,
+    "button_count": 2,
+    "img_count": 91,
+    "footer_count": 0
+  }
+}

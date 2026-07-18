@@ -1,0 +1,2292 @@
+{
+  "name": "mercury",
+  "url": "https://mercury.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/mercury-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/mercury-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/mercury-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/mercury-full.png",
+  "design": {
+    "url": "https://mercury.com/",
+    "title": "Online Business Banking For Startups, Small Businesses & Scaling Companies",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 12814
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "arcadia, \"arcadia Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "center",
+          "relative",
+          "z-navbar-z-index",
+          "m-0",
+          "h-navbar-height",
+          "min-h-navbar-height",
+          "w-full",
+          "list-none"
+        ],
+        "text": "Products Solutions Resources About Pricing Log in Open account",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 72
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "arcadia, \"arcadia Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(0, 0, 0)",
+        "padding": "16px 32px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Try the demo",
+        "Checking & Savings",
+        "Working Capital Loans",
+        "Venture Debt",
+        "Treasury by Mercury Advisory",
+        "Business Credit Cards",
+        "Expense Management",
+        "Payments",
+        "Invoicing",
+        "Accounting Automations",
+        "Command",
+        "Insights",
+        "API",
+        "TechSpend less time on money management and more time building.",
+        "EcommerceGet everything you need to grow your brand at every stage.",
+        "Agencies, Consultants & FirmsSimplify your finances across every client and project.",
+        "VC FundsManage investments in all your portfolio companies in one place.",
+        "CryptoRun everything from a fast, compliant hub built for the speed of crypto.",
+        "Accounting FirmsBring clarity to your clients and efficiency to your firm.",
+        "LLCs",
+        "Life Science",
+        "Climate",
+        "Real Estate & Construction",
+        "Healthcare Services",
+        "BlogPractical resources, insights, and inspiration.",
+        "Starting A Business",
+        "Scaling & Growing",
+        "Stories"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "col-span-full",
+          "lg:col-span-12",
+          "lg:col-start-3"
+        ],
+        "text": "Banking Business Checking & Savings Treasury Business Credit Cards Working Capital Loans Venture Debt Personal Banking Platform Pricing Switch to Mercury Command Insights API Secur",
+        "top": 10970,
+        "left": 208,
+        "width": 1024,
+        "height": 657
+      },
+      "style": {
+        "color": "rgb(237, 237, 243)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "arcadia, \"arcadia Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "22.4px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(237, 237, 243)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [],
+        "text": "Radically different banking Apply online in 10 minutes to experience banking unlike anything that\u2019s come before. Enter your email Open account Launch demo Mercury will occasionall",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 10842
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "sticky",
+          "inset-0",
+          "z-navbar-z-index"
+        ],
+        "top": 0,
+        "height": 72,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "group-has-[#navbar-banner]/page-layout-container:-top-navbar-banner-height"
+        ],
+        "top": 0,
+        "height": 2250,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Radically different banking",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [],
+        "top": 2250,
+        "height": 972,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Business banking & more",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [],
+        "top": 3222,
+        "height": 393,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Loved by 300K+ of the most ambitious entrepreneurs on the planet",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [],
+        "top": 3615,
+        "height": 668,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [],
+        "top": 4283,
+        "height": 1130,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [],
+        "top": 5413,
+        "height": 338,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [],
+        "top": 5752,
+        "height": 732,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Apply online in 10 minutes",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [],
+        "top": 6484,
+        "height": 712,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Send no-fee USD payments around the globe",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [],
+        "top": 7196,
+        "height": 1045,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [],
+        "top": 8240,
+        "height": 449,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "You\u2019re creating something to stand the test of time. So are we.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [],
+        "top": 8689,
+        "height": 744,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [],
+        "top": 9434,
+        "height": 621,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Mercury hits $5.2B valuation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [],
+        "top": 10055,
+        "height": 787,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Banking \u2013 redesigned from the ground up.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "dark-neutral-theme",
+          "dark-neutral-theme",
+          "bg-background-default"
+        ],
+        "top": 11707,
+        "height": 1107,
+        "width": 1440,
+        "backgroundColor": "rgb(23, 23, 33)",
+        "backgroundImage": null,
+        "heading": "Disclaimers and footnotes",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Radically different banking",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "49.3472px",
+          "fontWeight": "480",
+          "lineHeight": "54.2819px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "grid",
+            "text-text-default",
+            "arcadia-display-3"
+          ],
+          "text": "Radically different banking",
+          "top": 144,
+          "left": 384,
+          "width": 672,
+          "height": 54
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Business banking & more",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Business banking & more",
+          "top": -1864,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Cards & expense management",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Cards & expense management",
+          "top": -1730,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Payments & invoicing",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Payments & invoicing",
+          "top": -1684,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Accounting",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Accounting",
+          "top": -1637,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Loved by 300K+ of the most ambitious entrepreneurs on the planet",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "42px",
+          "fontWeight": "480",
+          "lineHeight": "48.3px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "grid",
+            "text-text-default",
+            "arcadia-heading-1"
+          ],
+          "text": "Loved by 300K+ of the most ambitious entrepreneurs on the planet",
+          "top": 3424,
+          "left": 384,
+          "width": 672,
+          "height": 145
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Apply online in 10 minutes",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Apply online in 10 minutes",
+          "top": 6329,
+          "left": 176,
+          "width": 528,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Get a credit card instantly",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Get a credit card instantly",
+          "top": 6440,
+          "left": 176,
+          "width": 528,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Tackle banking tasks in seconds",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Tackle banking tasks in seconds",
+          "top": 6487,
+          "left": 176,
+          "width": 528,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Send no-fee USD payments around the globe",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Send no-fee USD payments around the globe",
+          "top": 7041,
+          "left": 720,
+          "width": 512,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Earn 1.5% cashback on credit spend",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Earn 1.5% cashback on credit spend",
+          "top": 7152,
+          "left": 720,
+          "width": 512,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Earn up to 3.64% yield with Mercury Treasury",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "flex"
+          ],
+          "text": "Earn up to 3.64% yield with Mercury Treasury",
+          "top": 7199,
+          "left": 720,
+          "width": 512,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "You\u2019re creating something to stand the test of time. So are we.",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "42px",
+          "fontWeight": "480",
+          "lineHeight": "48.3px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "grid",
+            "text-text-default",
+            "arcadia-heading-1"
+          ],
+          "text": "You\u2019re creating something to stand the test of time. So are we.",
+          "top": 8442,
+          "left": 384,
+          "width": 672,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mercury hits $5.2B valuation",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "480",
+          "lineHeight": "33.6px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "arcadia-heading-5",
+            "text-text-default"
+          ],
+          "text": "Mercury hits $5.2B valuation",
+          "top": 9892,
+          "left": 240,
+          "width": 256,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "$650M in annual revenue and profitable",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "480",
+          "lineHeight": "33.6px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "arcadia-heading-5",
+            "text-text-default"
+          ],
+          "text": "$650M in annual revenue and profitable",
+          "top": 9892,
+          "left": 592,
+          "width": 256,
+          "height": 101
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mercury lands $300M Series C",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "480",
+          "lineHeight": "33.6px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "arcadia-heading-5",
+            "text-text-default"
+          ],
+          "text": "Mercury lands $300M Series C",
+          "top": 9892,
+          "left": 944,
+          "width": 256,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Banking \u2013 redesigned from the ground up.",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "42px",
+          "fontWeight": "480",
+          "lineHeight": "48.3px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "grid",
+            "text-text-default",
+            "arcadia-heading-1"
+          ],
+          "text": "Banking \u2013 redesigned from the ground up.",
+          "top": 10257,
+          "left": 384,
+          "width": 672,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mercury for business",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "480",
+          "lineHeight": "33.6px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "arcadia-heading-5",
+            "text-text-default"
+          ],
+          "text": "Mercury for business",
+          "top": 10537,
+          "left": 240,
+          "width": 264,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mercury for personal",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "480",
+          "lineHeight": "33.6px",
+          "letterSpacing": "0.42px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "arcadia-heading-5",
+            "text-text-default"
+          ],
+          "text": "Mercury for personal",
+          "top": 10537,
+          "left": 768,
+          "width": 268,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Disclaimers and footnotes",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "16.8px",
+          "letterSpacing": "0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "md:col-span-4"
+          ],
+          "text": "Disclaimers and footnotes",
+          "top": 11868,
+          "left": 208,
+          "width": 341,
+          "height": 818
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "href": "/",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "fit-content",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "w-full",
+            "max-w-fit",
+            "items-center",
+            "rounded",
+            "fill-icon-default",
+            "text-text-default",
+            "outline-none",
+            "hover:fill-icon-subdued"
+          ],
+          "text": "",
+          "top": 20,
+          "left": 32,
+          "width": 139,
+          "height": 32
+        }
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_39cav5uiv6lb_-trigger-radix-_R_5b9cav5uiv6lb_",
+          "classes": [
+            "group",
+            "inline-flex",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default"
+          ],
+          "text": "Products",
+          "top": 16,
+          "left": 414,
+          "width": 125,
+          "height": 40
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_39cav5uiv6lb_-trigger-radix-_R_9b9cav5uiv6lb_",
+          "classes": [
+            "group",
+            "inline-flex",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default"
+          ],
+          "text": "Solutions",
+          "top": 16,
+          "left": 547,
+          "width": 127,
+          "height": 40
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_39cav5uiv6lb_-trigger-radix-_R_db9cav5uiv6lb_",
+          "classes": [
+            "group",
+            "inline-flex",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default"
+          ],
+          "text": "Resources",
+          "top": 16,
+          "left": 681,
+          "width": 135,
+          "height": 40
+        }
+      },
+      {
+        "text": "About",
+        "href": null,
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_39cav5uiv6lb_-trigger-radix-_R_hb9cav5uiv6lb_",
+          "classes": [
+            "group",
+            "inline-flex",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default"
+          ],
+          "text": "About",
+          "top": 16,
+          "left": 824,
+          "width": 103,
+          "height": 40
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "inline-flex",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default"
+          ],
+          "text": "Pricing",
+          "top": 16,
+          "left": 936,
+          "width": 90,
+          "height": 40
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "https://app.mercury.com/login",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 237, 243)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "text-text-default",
+            "outline-offset-4"
+          ],
+          "text": "Log in",
+          "top": 16,
+          "left": 1168,
+          "width": 83,
+          "height": 40
+        }
+      },
+      {
+        "text": "Open account",
+        "href": "https://app.mercury.com/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(82, 102, 235)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "32px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "outline-offset-4",
+            "outline-border-focus",
+            "transition-colors"
+          ],
+          "text": "Open account",
+          "top": 16,
+          "left": 1264,
+          "width": 145,
+          "height": 40
+        }
+      },
+      {
+        "text": "Open account",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(82, 102, 235)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "32px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "group",
+            "w-fit",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "whitespace-nowrap",
+            "outline-offset-4",
+            "outline-border-focus"
+          ],
+          "text": "Open account",
+          "top": 311,
+          "left": 702,
+          "width": 145,
+          "height": 40
+        }
+      },
+      {
+        "text": "Launch demo",
+        "href": "https://demo.mercury.com/dashboard",
+        "style": {
+          "color": "rgb(237, 237, 243)",
+          "backgroundColor": "rgba(175, 178, 206, 0.2)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "420",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "40px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(175, 178, 206, 0.36)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "arcadia-ui-1",
+            "text-text-default",
+            "outline-offset-4",
+            "outline-border-focus"
+          ],
+          "text": "Launch demo",
+          "top": 311,
+          "left": 859,
+          "width": 141,
+          "height": 40
+        }
+      },
+      {
+        "text": "Business banking & more",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_d4ncav5uiv6lb_",
+          "classes": [
+            "flex",
+            "flex-1",
+            "items-center",
+            "group",
+            "rounded",
+            "text-left",
+            "outline-border-focus",
+            "transition-colors"
+          ],
+          "text": "Business banking & more",
+          "top": -1864,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "text": "Cards & expense management",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_l4ncav5uiv6lb_",
+          "classes": [
+            "flex",
+            "flex-1",
+            "items-center",
+            "group",
+            "rounded",
+            "text-left",
+            "outline-border-focus",
+            "transition-colors"
+          ],
+          "text": "Cards & expense management",
+          "top": -1730,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "text": "Payments & invoicing",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_t4ncav5uiv6lb_",
+          "classes": [
+            "flex",
+            "flex-1",
+            "items-center",
+            "group",
+            "rounded",
+            "text-left",
+            "outline-border-focus",
+            "transition-colors"
+          ],
+          "text": "Payments & invoicing",
+          "top": -1684,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      },
+      {
+        "text": "Accounting",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_154ncav5uiv6lb_",
+          "classes": [
+            "flex",
+            "flex-1",
+            "items-center",
+            "group",
+            "rounded",
+            "text-left",
+            "outline-border-focus",
+            "transition-colors"
+          ],
+          "text": "Accounting",
+          "top": -1637,
+          "left": 120,
+          "width": 496,
+          "height": 35
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "32px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "col-span-full",
+            "lg:col-span-12",
+            "lg:col-start-3",
+            "card-type-container",
+            "flex",
+            "flex-col",
+            "gap-column-gap-listings",
+            "sm:flex-row"
+          ],
+          "text": "Mercury hits $5.2B valuation $650M in annual revenue and profitable Mercury lands $300M Series C",
+          "top": 9657,
+          "left": 208,
+          "width": 1024,
+          "height": 447
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "arcadia, \"arcadia Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "32px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "col-span-full",
+            "lg:col-span-12",
+            "lg:col-start-3",
+            "card-type-container",
+            "flex",
+            "flex-col",
+            "gap-column-gap-listings",
+            "sm:flex-row"
+          ],
+          "text": "Mercury for business For $0/month, get started with business banking that helps you accomplish everything you want to do with your money. Explore demo Mercury for personal Level",
+          "top": 10505,
+          "left": 208,
+          "width": 1024,
+          "height": 258
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://mercury.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero_start_frame_xl.42d06f20.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "relative",
+            "left-1/2",
+            "h-full",
+            "w-full",
+            "-translate-x-1/2",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/hero-scrub-lg.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "col-start-1",
+            "row-start-1",
+            "m-auto",
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://mercury.com/_next/static/media/hero_end_frame_xl.30ad39be.jpg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover",
+            "lg:w-fit"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/flow_1.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover",
+            "transition-[opacity,filter]",
+            "duration-400",
+            "ease-out",
+            "group-data-[active=false]:opacity-0",
+            "group-data-[active=false]:blur-sm"
+          ],
+          "text": "",
+          "top": -2250,
+          "left": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://mercury.com/_next/static/media/hero_end_frame_xl.30ad39be.jpg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover",
+            "lg:w-fit"
+          ],
+          "text": "",
+          "top": -2250,
+          "left": 0,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/flow_1.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/flow_2.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/flow_3.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://mercury.com/videos/hero/flow_4.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764095939-2025_fem_testimonial-linear_2x1.webp?ar64=Mjox&auto=format&fit=crop",
+        "alt": "Portrait of a man sitting indoors next to a testimonial about Mercury\u2019s speed and ease of use.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3737,
+          "left": 208,
+          "width": 1024,
+          "height": 512
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764095998-2025_fem_testimonial-linear_9x16.webp?ar64=OToxNg&auto=format&fit=crop",
+        "alt": "Portrait of a man sitting indoors next to a testimonial about Mercury\u2019s speed and ease of use.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764169450-2025_fem_homepage-testimonial-gainful_4x5.webp?ar64=Mjox&auto=format&fit=crop",
+        "alt": "Portrait of two founders next to a testimonial about how Mercury keeps pace with company-building.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3737,
+          "left": 1648,
+          "width": 1024,
+          "height": 512
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764173362-2025_fem_testimonial-gainful_9x16.webp?ar64=OToxNg&auto=format&fit=crop",
+        "alt": "Portrait of two founders next to a testimonial about how Mercury keeps pace with company-building.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764096101-2025_fem_testimonial-ways-and-means_2x1.webp?ar64=Mjox&auto=format&fit=crop",
+        "alt": "Portrait of a woman indoors next to a testimonial about Mercury\u2019s built-in permissions.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3737,
+          "left": 1648,
+          "width": 1024,
+          "height": 512
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764096181-2025_fem_testimonial-ways-and-means_9x16-webp.webp?ar64=OToxNg&auto=format&fit=crop",
+        "alt": "Portrait of a woman indoors next to a testimonial about Mercury\u2019s built-in permissions.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764181747-2025_fem_homepage-virtual-cards_3x2.webp?auto=format&fit=crop",
+        "alt": "Animation that rotates through multiple credit cards stacking.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 4543,
+          "left": 208,
+          "width": 496,
+          "height": 331
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgFCgoFBQwFBQUFBREJCgUMFxMZGBYTFhUaHysjGh0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLBQUFEAUFEC8cFhwvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIABAAGAMBIgACEQEDEQH/xAAVAAEBAAAAAAAAAAAAAAAAAAAAB//EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKyAJACT/9k=",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "object-cover",
+            "col-start-1",
+            "col-end-auto",
+            "row-start-1",
+            "row-end-auto",
+            "h-full",
+            "min-h-0"
+          ],
+          "text": "",
+          "top": 4543,
+          "left": 736,
+          "width": 496,
+          "height": 331
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764016774-2025_fem_homepage-invoicing_3x2.webp?auto=format&fit=crop",
+        "alt": "Illustration of the Invoicing flow with the date, payment terms, and repeat settings.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 5023,
+          "left": 208,
+          "width": 496,
+          "height": 331
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgFCgoFBQwFBQUFBREJCgUMFxMZGBYTFhUaHysjGh0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLBQUFEAUFEC8cFhwvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIABAAGAMBIgACEQEDEQH/xAAVAAEBAAAAAAAAAAAAAAAAAAAAB//EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKoARACT/9k=",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "object-cover",
+            "col-start-1",
+            "col-end-auto",
+            "row-start-1",
+            "row-end-auto",
+            "h-full",
+            "min-h-0"
+          ],
+          "text": "",
+          "top": 5023,
+          "left": 736,
+          "width": 496,
+          "height": 331
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.datocms-assets.com/115132/1764189457-2025_fem_homepage-apply-online_1x1.webp?ar64=MTox&auto=format&fit=crop",
+        "alt": "Abstract illustration depicting multiple points converging into a single focal point, suggesting simplicity and streamlined finances.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(237, 237, 243)",
+        "count": 1188
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 813
+      },
+      {
+        "value": "rgb(195, 195, 204)",
+        "count": 243
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 18
+      },
+      {
+        "value": "rgba(175, 178, 206, 0.36)",
+        "count": 14
+      },
+      {
+        "value": "rgb(30, 30, 42)",
+        "count": 9
+      },
+      {
+        "value": "rgb(23, 23, 33)",
+        "count": 6
+      },
+      {
+        "value": "rgba(175, 178, 206, 0.2)",
+        "count": 6
+      },
+      {
+        "value": "rgb(244, 245, 249)",
+        "count": 6
+      },
+      {
+        "value": "rgba(156, 180, 232, 0.2)",
+        "count": 6
+      },
+      {
+        "value": "rgb(112, 112, 125)",
+        "count": 4
+      },
+      {
+        "value": "rgb(82, 102, 235)",
+        "count": 3
+      },
+      {
+        "value": "rgb(205, 221, 255)",
+        "count": 3
+      },
+      {
+        "value": "rgb(39, 39, 53)",
+        "count": 2
+      },
+      {
+        "value": "rgba(112, 115, 147, 0.22)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "arcadia",
+        "count": 1110
+      },
+      {
+        "value": "arcadiaDisplay",
+        "count": 55
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 104
+      },
+      {
+        "value": "12px",
+        "count": 28
+      },
+      {
+        "value": "8px",
+        "count": 13
+      },
+      {
+        "value": "40px",
+        "count": 10
+      },
+      {
+        "value": "32px",
+        "count": 5
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 5
+      },
+      {
+        "value": "32px 0px 0px 32px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 28, 35, 0.02) 0px 10px 16px 0px, rgba(28, 28, 35, 0.04) 0px 6px 10px 0px, rgba(28, 28, 35, 0.09) 0px 0px 3px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 3px 0px, rgba(0, 0, 0, 0.05) 0px 8px 12px 0px, rgba(0, 0, 0, 0.05) 0px 12px 20px 0px"
+    ],
+    "cssVars": {
+      "--font-arcadia": "\"arcadia\",\"arcadia Fallback\"",
+      "--font-arcadia-display": "\"arcadiaDisplay\",\"arcadiaDisplay Fallback\"",
+      "--font-tiempos-headline": "\"tiemposHeadline\",\"tiemposHeadline Fallback\"",
+      "--wipeOut-duration": ".15s",
+      "--tab-fade-duration": ".3s",
+      "--media-tab-fade-duration": ".5s",
+      "--testimonial-overlay-gradient-angle": "180deg",
+      "--testimonial-overlay-gradient": "var(--testimonial-overlay-gradient-angle),#0000 0%,#0000 6.67%,#00000005 13.33%,#0000000d 20%,#00000014 26.67%,#00000021",
+      "--tw-leading": "var(--leading-140\\%)",
+      "--tw-font-weight": "var(--font-weight-400)",
+      "--tw-tracking": "var(--tracking-3\\%)",
+      "--tw-duration": ".3s",
+      "--tw-ease": "var(--ease-out)",
+      "--tw-border-style": "solid",
+      "--tw-content": "\"\"",
+      "--media-object-fit": "cover",
+      "--media-object-position": "center",
+      "--controls": "none",
+      "--media-background-color": "transparent",
+      "--base-color": "#ebebeb",
+      "--highlight-color": "#f5f5f5",
+      "--animation-duration": "1.5s",
+      "--animation-direction": "normal",
+      "--pseudo-element-display": "block"
+    },
+    "metaTheme": "#171721"
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"flex flex-col\"><h1 class=\"grid text-text-default arcadia-display-3\"><span>Radically different banking</span></h1><div class=\"mt-s12 space-y-[1em] arcadia-body-1 text-text-subdued [&amp;&gt;span]:block mx-auto max-w-688 [&amp;&gt;span]:text-balance\"><div class=\"text-text-default\"><span>Apply online in 10 minutes to experience banking<a aria-describedby=\"footnote-business-not-a-bank-2026\" aria-label=\"Footnote 1\" href=\"#footnote-business-not-a-bank-2026\" class=\"outline-border-focus [cou\u2026",
+    "footerHtml": "<footer class=\"col-span-full lg:col-span-12 lg:col-start-3\"><div class=\"grid w-full grid-cols-2 items-start gap-x-gap-xl gap-y-s9 md:grid-cols-4\"><div class=\"grid grid-cols-1 items-start gap-s12\"><span class=\"arcadia-body-3 text-text-subdued\">Banking</span><a data-analytics-event-name=\"homepage-bank-accounts\" class=\"group w-full max-w-fit flex-row items-center rounded text-text-default decoration-border-subdued decoration-1 underline-offset-4 outline-offset-4 outline-border-focus group-[.bg-surf\u2026"
+  },
+  "status": 200,
+  "final_url": "https://mercury.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 9,
+    "section_count": 14,
+    "nav_count": 2,
+    "button_count": 37,
+    "img_count": 39,
+    "footer_count": 1
+  }
+}

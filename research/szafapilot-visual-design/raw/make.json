@@ -1,0 +1,3429 @@
+{
+  "name": "make",
+  "url": "https://www.make.com",
+  "category": "automation",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/make-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/make-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/make-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/make-full.png",
+  "design": {
+    "url": "https://www.make.com/en",
+    "title": "AI Workflow Automation Software & Tools | Make",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 7145
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(34, 0, 65)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(34, 0, 65)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "Header-module-scss-module__6uf8Pa__Header",
+          "Header-module-scss-module__6uf8Pa__Header___transparent"
+        ],
+        "text": "What is Make Product overview Find out more about the Make platform Apps Browse our library of over +3,000 pre-built apps Enterprise Scale securely with visual-first AI-powered ent",
+        "top": 54,
+        "left": 0,
+        "width": 1440,
+        "height": 80
+      },
+      "style": {
+        "color": "rgb(34, 0, 65)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, \"Inter Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(34, 0, 65)",
+        "padding": "16px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "20px",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Talk to sales",
+        "Sign in",
+        "Get started free",
+        "Product overview\nFind out more about the Make platform",
+        "Apps\nBrowse our library of over +3,000 pre-built apps",
+        "Enterprise\nScale securely with visual-first AI-powered enterprise automation",
+        "Make Grid\nTake control of your whole automation landscape",
+        "What\u2019s new in Make\nKeep up with our latest developments",
+        "Learn about Make\nLearn more about our mission and values",
+        "Automation with AI\nRevolutionize your work with AI and Make",
+        "Agentic automation\nAI-powered automation that adapts in real time to your business needs",
+        "Make AI Agents\nBuild transparent AI agents that take action and orchestrate complex workflows across 3,000+ apps",
+        "Library of Agents\nExplore ready-made AI agents you can deploy and adapt instantly",
+        "Make MCP Server\nConnect your AI to real business actions securely and visually",
+        "Make AI apps\nDiscover AI apps to power your next Make automation",
+        "Marketing\nDrive faster growth with marketing automation",
+        "Sales\nLevel up your sales cycle to close more deals faster",
+        "Operations\nGet teams and tools working together smoothly",
+        "Customer Experience\nTake better care of customers with automation",
+        "Finance\nManage time as well as you manage money",
+        "Information Technology\nEfficiently scale and control your IT workflows",
+        "People\nGet your HR processes running smoothly",
+        "Workplace Productivity\nAutomate busy work to focus on what matters",
+        "Social Media Posting\nScale your online presence",
+        "Lead Management\nMore leads, less effort",
+        "Email Marketing\nBoost conversion rates",
+        "Content Creation\nYour voice, scaled with AI",
+        "Blog\nAccess popular guides, tips & stories about automation",
+        "Success stories\nHow Make has helped organizations just like yours"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "Footer-module-scss-module__oqOhjW__Footer"
+        ],
+        "text": "Realize your business\u2019s full potential Talk to sales Get started free Subscribe to news updates* * By submitting this form, you confirm that you agree to the storing and processin",
+        "top": 6219,
+        "left": 0,
+        "width": 1440,
+        "height": 926
+      },
+      "style": {
+        "color": "rgb(34, 0, 65)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, \"Inter Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(34, 0, 65)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "PageLayout-module-scss-module__aOwoqa__PageLayout_content"
+        ],
+        "text": "The visual AI automation platform Connect any app, data source, or AI model. Build and manage automations and AI agents \u2013 visually, in code, or with a prompt. Get started free Ta",
+        "top": 134,
+        "left": 0,
+        "width": 1440,
+        "height": 6085
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-solid",
+          "dark-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 134,
+        "height": 772,
+        "width": 1440,
+        "backgroundColor": "rgb(34, 0, 65)",
+        "backgroundImage": null,
+        "heading": "The visual AI automation platform",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-solid",
+          "dark-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 230,
+        "height": 439,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The visual AI automation platform",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-solid",
+          "dark-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 284,
+        "height": 332,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The visual AI automation platform",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-solid",
+          "dark-solid"
+        ],
+        "top": 765,
+        "height": 45,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 906,
+        "height": 905,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "The platform to build and manage all your AI agents and automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1082,
+        "height": 68,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1082,
+        "height": 68,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1246,
+        "height": 549,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The platform to build and manage all your AI agents and automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_wrapper___reducedWidth",
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1246,
+        "height": 96,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The platform to build and manage all your AI agents and automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1398,
+        "height": 289,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1743,
+        "height": 52,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid"
+        ],
+        "top": 1811,
+        "height": 1011,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Adapt at speed with visual-first automation and AI",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_wrapper___reducedWidth",
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 1987,
+        "height": 206,
+        "width": 576,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Adapt at speed with visual-first automation and AI",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 2365,
+        "height": 441,
+        "width": 1184,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "IT automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 2467,
+        "height": 237,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "IT automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Operations automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 16,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Operations automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 17,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Marketing automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 18,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Marketing automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 19,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Sales automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 20,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Sales automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 21,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Finance automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 22,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Finance automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 23,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "CX automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 24,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "CX automation",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 25,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "People",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 26,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "People",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 27,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid"
+        ],
+        "top": 2822,
+        "height": 689,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "3,000+ pre-built apps. Limitless integration.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 28,
+        "tag": "section",
+        "classes": [
+          "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_wrapper___reducedWidth",
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 2998,
+        "height": 233,
+        "width": 576,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "3,000+ pre-built apps. Limitless integration.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 29,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 3511,
+        "height": 775,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Built on strong foundations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 30,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 3687,
+        "height": 277,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Built on strong foundations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 31,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 3687,
+        "height": 277,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Built on strong foundations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 32,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 4060,
+        "height": 210,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "About us",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 33,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 4060,
+        "height": 210,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "About us",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 34,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-gradient",
+          "dark-gradient"
+        ],
+        "top": 4286,
+        "height": 962,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "radial-gradient(90% 106.38% at 122.89% 49.97%, rgb(130, 0, 250) 0%, rgb(114, 0, 220) 9%, rgb(90, 0, 173) 25%, rgb(69, 0, 134) 41%, rgb(54, 0, 103) 56%, rgb(43, 0, 82) 72%, rgb(36, 0, 69) 86%, rgb(34, ",
+        "heading": "Automation success stories",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 35,
+        "tag": "section",
+        "classes": [
+          "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_wrapper___reducedWidth",
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__dark-gradient",
+          "dark-gradient",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 4462,
+        "height": 185,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Automation success stories",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 36,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 5248,
+        "height": 971,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Scale and orchestrate your AI automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 37,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 5424,
+        "height": 341,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Scale and orchestrate your AI automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 38,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 5432,
+        "height": 325,
+        "width": 576,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Scale and orchestrate your AI automations",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 39,
+        "tag": "section",
+        "classes": [
+          "Section-module-scss-module__sX6ybW__Section",
+          "Section-module-scss-module__sX6ybW__white-solid",
+          "white-solid",
+          "Section-module-scss-module__sX6ybW__Section___dynamicHeight"
+        ],
+        "top": 5861,
+        "height": 341,
+        "width": 1184,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Automation and AI impact for enterprise",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The visual AI automation platform",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "60px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left",
+            "Alignment-module-scss-module__CdTCxq__Alignment___hero"
+          ],
+          "text": "The visual AI automation platform",
+          "top": 284,
+          "left": 128,
+          "width": 576,
+          "height": 120
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The platform to build and manage all your AI agents and automations",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___center"
+          ],
+          "text": "The platform to build and manage all your AI agents and automations",
+          "top": 1246,
+          "left": 432,
+          "width": 576,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Adapt at speed with visual-first automation and AI",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___center"
+          ],
+          "text": "Adapt at speed with visual-first automation and AI",
+          "top": 2027,
+          "left": 432,
+          "width": 576,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "IT automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "IT automation",
+          "top": 2467,
+          "left": 736,
+          "width": 576,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Operations automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Operations automation",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Marketing automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Marketing automation",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sales automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Sales automation",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Finance automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Finance automation",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "CX automation",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "CX automation",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "People",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px auto 16px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "People",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "3,000+ pre-built apps. Limitless integration.",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___center"
+          ],
+          "text": "3,000+ pre-built apps. Limitless integration.",
+          "top": 3038,
+          "left": 432,
+          "width": 576,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Built on strong foundations",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Built on strong foundations",
+          "top": 3727,
+          "left": 128,
+          "width": 576,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "About us",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 112px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___center"
+          ],
+          "text": "About us",
+          "top": 4060,
+          "left": 240,
+          "width": 960,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Automation success stories",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___center"
+          ],
+          "text": "Automation success stories",
+          "top": 4502,
+          "left": 432,
+          "width": 576,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Scale and orchestrate your AI automations",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Scale and orchestrate your AI automations",
+          "top": 5472,
+          "left": 128,
+          "width": 576,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Automation and AI impact for enterprise",
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Automation and AI impact for enterprise",
+          "top": 5909,
+          "left": 736,
+          "width": 576,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Realize your business\u2019s full potential",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.28px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "PreFooter-module-scss-module___KqyDa__PreFooter_title"
+          ],
+          "text": "Realize your business\u2019s full potential",
+          "top": 6317,
+          "left": 128,
+          "width": 521,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Privacy Preference Center",
+        "style": {
+          "color": "rgb(105, 105, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(105, 105, 105)",
+          "padding": "0px",
+          "margin": "10px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "ot-pc-title",
+          "classes": [],
+          "text": "Privacy Preference Center",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Manage Consent Preferences",
+        "style": {
+          "color": "rgb(105, 105, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "20.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(105, 105, 105)",
+          "padding": "0px 0px 10px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "ot-category-title",
+          "classes": [],
+          "text": "Manage Consent Preferences",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Cookie List",
+        "style": {
+          "color": "rgb(105, 105, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "20.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(105, 105, 105)",
+          "padding": "0px",
+          "margin": "0px 0px 0px 15px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Cookie List",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Home",
+        "href": "/en",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Header-module-scss-module__6uf8Pa__Logo",
+            "Header-module-scss-module__6uf8Pa__Logo___whiteLogo"
+          ],
+          "text": "",
+          "top": 69,
+          "left": 16,
+          "width": 130,
+          "height": 51
+        }
+      },
+      {
+        "text": "Product overview\nFind out more about the Make platform",
+        "href": "/en/product",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Product overview Find out more about the Make platform",
+          "top": 176,
+          "left": 178,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Apps\nBrowse our library of over +3,000 pre-built apps",
+        "href": "/en/integrations?community=1&verified=1",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Apps Browse our library of over +3,000 pre-built apps",
+          "top": 252,
+          "left": 178,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Enterprise\nScale securely with visual-first AI-powered enterprise automation",
+        "href": "/en/enterprise",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Enterprise Scale securely with visual-first AI-powered enterprise automation",
+          "top": 329,
+          "left": 178,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Make Grid\nTake control of your whole automation landscape",
+        "href": "/en/grid",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Make Grid Take control of your whole automation landscape",
+          "top": 405,
+          "left": 178,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "What\u2019s new in Make\nKeep up with our latest developments",
+        "href": "/en/whats-new",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "What\u2019s new in Make Keep up with our latest developments",
+          "top": 481,
+          "left": 178,
+          "width": 252,
+          "height": 40
+        }
+      },
+      {
+        "text": "Learn about Make\nLearn more about our mission and values",
+        "href": "/en/about",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Learn about Make Learn more about our mission and values",
+          "top": 541,
+          "left": 178,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Automation with AI\nRevolutionize your work with AI and Make",
+        "href": "/en/ai-automation",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Automation with AI Revolutionize your work with AI and Make",
+          "top": 176,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Agentic automation\nAI-powered automation that adapts in real time to your busine",
+        "href": "/en/agentic-automation",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Agentic automation AI-powered automation that adapts in real time to your business needs",
+          "top": 252,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Make AI Agents\nBuild transparent AI agents that take action and orchestrate comp",
+        "href": "/en/ai-agents",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Make AI Agents Build transparent AI agents that take action and orchestrate complex workflows across 3,000+ apps",
+          "top": 329,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Library of Agents\nExplore ready-made AI agents you can deploy and adapt instantl",
+        "href": "/en/ai-agents-library",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Library of Agents Explore ready-made AI agents you can deploy and adapt instantly",
+          "top": 405,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Make MCP Server\nConnect your AI to real business actions securely and visually",
+        "href": "/en/mcp",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Make MCP Server Connect your AI to real business actions securely and visually",
+          "top": 481,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Make AI apps\nDiscover AI apps to power your next Make automation",
+        "href": "/en/integrations/category/ai",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Make AI apps Discover AI apps to power your next Make automation",
+          "top": 557,
+          "left": 328,
+          "width": 252,
+          "height": 56
+        }
+      },
+      {
+        "text": "Marketing\nDrive faster growth with marketing automation",
+        "href": "/en/solutions/automate-marketing",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Marketing Drive faster growth with marketing automation",
+          "top": 224,
+          "left": 222,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Sales\nLevel up your sales cycle to close more deals faster",
+        "href": "/en/solutions/automate-sales",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Sales Level up your sales cycle to close more deals faster",
+          "top": 224,
+          "left": 412,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Operations\nGet teams and tools working together smoothly",
+        "href": "/en/solutions/automate-operations",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Operations Get teams and tools working together smoothly",
+          "top": 224,
+          "left": 602,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Customer Experience\nTake better care of customers with automation",
+        "href": "/en/solutions/automate-customer-experience",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Customer Experience Take better care of customers with automation",
+          "top": 224,
+          "left": 792,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Finance\nManage time as well as you manage money",
+        "href": "/en/solutions/automate-finance",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Finance Manage time as well as you manage money",
+          "top": 324,
+          "left": 222,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Information Technology\nEfficiently scale and control your IT workflows",
+        "href": "/en/solutions/automate-it",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Information Technology Efficiently scale and control your IT workflows",
+          "top": 324,
+          "left": 412,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "People\nGet your HR processes running smoothly",
+        "href": "/en/solutions/automate-hr",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "People Get your HR processes running smoothly",
+          "top": 324,
+          "left": 602,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Workplace Productivity\nAutomate busy work to focus on what matters",
+        "href": "/en/solutions/automate-productivity",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Workplace Productivity Automate busy work to focus on what matters",
+          "top": 324,
+          "left": 792,
+          "width": 166,
+          "height": 76
+        }
+      },
+      {
+        "text": "Social Media Posting\nScale your online presence",
+        "href": "/en/automate/social-media-management",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Social Media Posting Scale your online presence",
+          "top": 459,
+          "left": 222,
+          "width": 166,
+          "height": 40
+        }
+      },
+      {
+        "text": "Lead Management\nMore leads, less effort",
+        "href": "/en/automate/lead-generation-processing",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Lead Management More leads, less effort",
+          "top": 459,
+          "left": 412,
+          "width": 166,
+          "height": 40
+        }
+      },
+      {
+        "text": "Email Marketing\nBoost conversion rates",
+        "href": "/en/automate/lifecycle-marketing",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Email Marketing Boost conversion rates",
+          "top": 459,
+          "left": 602,
+          "width": 166,
+          "height": 40
+        }
+      },
+      {
+        "text": "Content Creation\nYour voice, scaled with AI",
+        "href": "/en/automate/content-creation",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Content Creation Your voice, scaled with AI",
+          "top": 459,
+          "left": 792,
+          "width": 166,
+          "height": 40
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard"
+          ],
+          "text": "Adopt AI across your business. Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1414,
+          "left": 144,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_outerWrapper"
+          ],
+          "text": "Adopt AI across your business. Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1414,
+          "left": 144,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(123.59deg, rgba(229, 233, 236, 0.1) 0.85%, rgba(115, 2, 213, 0.05) 100%)",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "24px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Card2025-module-scss-module__COW6xW__Card2025"
+          ],
+          "text": "Adopt AI across your business. Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1414,
+          "left": 144,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "24px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_container",
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_container___horizontal"
+          ],
+          "text": "Adopt AI across your business. Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1414,
+          "left": 144,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 246.656px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_imageWrapper",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 176,
+          "width": 52,
+          "height": 57
+        }
+      },
+      {
+        "style": {
+          "color": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_image"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 176,
+          "width": 52,
+          "height": 52
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_content",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "Adopt AI across your business. Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1527,
+          "left": 176,
+          "width": 299,
+          "height": 112
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_title"
+          ],
+          "text": "Adopt AI across your business.",
+          "top": 1527,
+          "left": 176,
+          "width": 299,
+          "height": 60
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "300",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_description"
+          ],
+          "text": "Deploy AI agents and workflows, using 3,000+ integrations.",
+          "top": 1595,
+          "left": 176,
+          "width": 299,
+          "height": 44
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard"
+          ],
+          "text": "From idea to live automation. Fast. Build by prompt, drag-and-drop or via MCP.",
+          "top": 1414,
+          "left": 539,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_outerWrapper"
+          ],
+          "text": "From idea to live automation. Fast. Build by prompt, drag-and-drop or via MCP.",
+          "top": 1414,
+          "left": 539,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(123.59deg, rgba(229, 233, 236, 0.1) 0.85%, rgba(115, 2, 213, 0.05) 100%)",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "24px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Card2025-module-scss-module__COW6xW__Card2025"
+          ],
+          "text": "From idea to live automation. Fast. Build by prompt, drag-and-drop or via MCP.",
+          "top": 1414,
+          "left": 539,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "24px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_container",
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_container___horizontal"
+          ],
+          "text": "From idea to live automation. Fast. Build by prompt, drag-and-drop or via MCP.",
+          "top": 1414,
+          "left": 539,
+          "width": 363,
+          "height": 257
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(34, 0, 65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(34, 0, 65)",
+          "padding": "0px",
+          "margin": "0px 246.656px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_imageWrapper",
+            "Alignment-module-scss-module__CdTCxq__Alignment___left"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 571,
+          "width": 52,
+          "height": 57
+        }
+      },
+      {
+        "style": {
+          "color": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_image"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 571,
+          "width": 52,
+          "height": 52
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F5drzJqeJykwoS5uqQRr4in%2F6a1e399130f279aee935213d5df437a5%2FCopy_of_Logo-RGB-Color_2x.png&w=750&q=75",
+        "alt": "Make Logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 69,
+          "left": 16,
+          "width": 130,
+          "height": 46
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://videos.ctfassets.net/un655fb9wln6/3wNElEdBiFdK2eauJB7wMp/4112a64b3b6e6a4d1b3c997e9bad2984/Homepage-hero-video.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "AnimationVideo-module-scss-module__QiGs2q__AnimationVideo"
+          ],
+          "text": "",
+          "top": 230,
+          "left": 736,
+          "width": 576,
+          "height": 439
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F4xvvQRxsGrf1PDUfih9MWr%2F1fff91d7b81be088d717d60f5fd937aa%2FBamboo_HR_logo__1_.png&w=750&q=75",
+        "alt": "bamboo hr",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 1252,
+          "width": 107,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F5WZ3LxhApvvyrG9ut6X9oB%2F874b99a06135673bafceb93d1a68aaf0%2FBNY_logo_2x.png&w=750&q=75",
+        "alt": "bny",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": -93,
+          "width": 90,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F3wLWeKWCOjUVZ0EZitAhpO%2F0c1f7a05c0994d3cfe98912727fb906d%2FBolt_logo_2x.png&w=750&q=75",
+        "alt": "Bolt",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 91,
+          "width": 61,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F5pym1hndbtYSPFlKHXll5W%2F6a96ad0b5f09a08d39d71e0c8c075ae6%2FFinn_logo_2x.png&w=750&q=75",
+        "alt": "finn",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 257,
+          "width": 66,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F487ZBvq02qxgOmwmDeIFx7%2F1050288e0e1ed344130037bd60ed42be%2Ffonds-finanz_2x.png&w=750&q=75",
+        "alt": "Fonds Finanz",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 426,
+          "width": 67,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F1O17lYx1I26hUOI4A19GFT%2Ff1ecc67908406f96f261a78766a530c0%2Fgojob_2x.png&w=750&q=75",
+        "alt": "Gojob",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 596,
+          "width": 66,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F536TUTdgbiv5DULv3d6MdG%2Fdcac65a88d8b7c1f3ba6d087c413b94b%2Ftally_2x.png&w=750&q=75",
+        "alt": "tally.so",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 765,
+          "width": 67,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F2CYAerIePRtzcSgUxzkqj3%2Fa80cc382bf2f9f3164b88f19fb7d9380%2Fperk_logo__.png&w=750&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 928,
+          "width": 78,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F1yAfSU0FLPMHOFoESvoQsu%2Fde018c6e4c88f51eb9731d3cc242dec9%2Foutput-smallpngtools__5_.png&w=750&q=75",
+        "alt": "stellantis logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "CarouselImage-module-scss-module__PG-W9W__CarouselImage_element___small"
+          ],
+          "text": "",
+          "top": 765,
+          "left": 1068,
+          "width": 137,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/un655fb9wln6/4mVJAYXotWJeKG66H1xcLo/52b0a64dd7ee9104df1c8abd545e3467/capterra-1_1.svg",
+        "alt": "Capterra logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1091,
+          "left": 192,
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/un655fb9wln6/6m5yU9NimAwnAuEZRPZgVU/c513be077aad5437318b221fcd61a7fa/g2-reviews_1.svg",
+        "alt": "G2 logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1091,
+          "left": 536,
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/un655fb9wln6/lNwhYnHtxjylTAAJbV5b8/ebb141a29cd8ad5dc38ca6edcc8e2cdb/Frame_2147238296.svg",
+        "alt": "Getapp logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1091,
+          "left": 820,
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/un655fb9wln6/1E2wzFWbHDQTCj22j5ZOU4/b86d738c2aa480a2852d05fb5edcc152/IT_1.svg",
+        "alt": "Gartner logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1091,
+          "left": 1128,
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F6VxuX1WeSVngWJ7h7EmN0V%2Fac8ea15c9aec6d1dd1794cb2eec61528%2FIconWrapper__6_.png&w=750&q=75",
+        "alt": "A powerful collaboration engine",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_image"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 176,
+          "width": 52,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F1f1y4zg8Hbiu3WKsklwt63%2Ff6448433c0487984605c678ac69ef3da%2FFrame_2147238204.png&w=750&q=75",
+        "alt": "Your automation headquarters",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_image"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 571,
+          "width": 52,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F1o55lpuiX3hCRQpLoxYJYo%2Ff95d0ae5dde450f5259cd27ee0818768%2FIconWrapper__5_.png&w=750&q=75",
+        "alt": "Visible and scalable impact",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ContentBlockCard2025-module-scss-module__V6THDa__ContentBlockCard_image"
+          ],
+          "text": "",
+          "top": 1446,
+          "left": 965,
+          "width": 52,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2F3bqyuQ9DSp3SOrS5SnZLOa%2F86d67c56e813d1e0dc45be0222b24257%2FIT.png&w=3840&q=75",
+        "alt": "IT",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2365,
+          "left": 128,
+          "width": 576,
+          "height": 441
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.make.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fun655fb9wln6%2FKbbV2p0qcyg3PUcq2itz6%2Fd0c56742b7fe5da9006b3b4d59c2bacc%2FOperations_.png&w=3840&q=75",
+        "alt": "Operations",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(34, 0, 65)",
+        "count": 1056
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 524
+      },
+      {
+        "value": "rgb(0, 0, 238)",
+        "count": 154
+      },
+      {
+        "value": "rgb(240, 36, 246)",
+        "count": 44
+      },
+      {
+        "value": "rgb(68, 189, 50)",
+        "count": 12
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.75)",
+        "count": 3
+      },
+      {
+        "value": "rgba(116, 38, 185, 0.698)",
+        "count": 1
+      },
+      {
+        "value": "rgb(255, 0, 154)",
+        "count": 1
+      },
+      {
+        "value": "rgb(16, 163, 127)",
+        "count": 1
+      },
+      {
+        "value": "rgb(255, 122, 89)",
+        "count": 1
+      },
+      {
+        "value": "rgb(251, 39, 93)",
+        "count": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1
+      },
+      {
+        "value": "rgb(1, 156, 220)",
+        "count": 1
+      },
+      {
+        "value": "rgb(74, 21, 75)",
+        "count": 1
+      },
+      {
+        "value": "rgb(139, 61, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(32, 128, 141)",
+        "count": 1
+      },
+      {
+        "value": "rgb(77, 107, 254)",
+        "count": 1
+      },
+      {
+        "value": "rgb(106, 170, 228)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter",
+        "count": 919
+      }
+    ],
+    "radii": [
+      {
+        "value": "24px",
+        "count": 15
+      },
+      {
+        "value": "12px",
+        "count": 12
+      },
+      {
+        "value": "50%",
+        "count": 12
+      },
+      {
+        "value": "10px",
+        "count": 11
+      },
+      {
+        "value": "100px",
+        "count": 6
+      },
+      {
+        "value": "16px",
+        "count": 5
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "rgba(0, 0, 0, 0.01) 0px 13px 5px 0px, rgba(0, 0, 0, 0.02) 0px 7px 4px 0px, rgba(0, 0, 0, 0.04) 0px 3px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "rgba(0, 0, 0, 0.04) 0px 5px 12px 0px",
+      "rgba(119, 13, 136, 0.063) 0px 5px 5px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px"
+    ],
+    "cssVars": {
+      "--link-text-decoration": "underline",
+      "--select-search-highlight": "#ee2fee0d",
+      "--link-color": "#f024f6",
+      "--close": "false",
+      "--container2025-padding-top": "0",
+      "--container2025-padding-bottom": "0",
+      "--container-global-padding-top": "0",
+      "--container-global-padding-bottom": "0",
+      "--container-global-padding-inline": "0",
+      "--card-display": "flex",
+      "--card-background-color": "transparent",
+      "--section-background-color": "transparent",
+      "--container2025-padding-inline": "0",
+      "--gap": "2rem",
+      "--section-height": "auto",
+      "--chip-list-align": "flex-start",
+      "--card-padding": "5rem 2rem",
+      "--button-padding": "1.6rem min(20vw,10rem)",
+      "--default-common-form-margin-right": "auto",
+      "--aspect-ratio": "56.25%",
+      "--ot-footer-space": "160px",
+      "--bprogress-color": "#f024f6",
+      "--bprogress-height": "4px",
+      "--bprogress-spinner-size": "18px",
+      "--bprogress-spinner-animation-duration": "400ms",
+      "--bprogress-spinner-border-size": "2px",
+      "--bprogress-box-shadow": "0 0 10px #f024f6, 0 0 5px #f024f6",
+      "--bprogress-z-index": "99999",
+      "--bprogress-spinner-top": "15px",
+      "--bprogress-spinner-bottom": "auto",
+      "--bprogress-spinner-right": "15px",
+      "--bprogress-spinner-left": "auto"
+    },
+    "metaTheme": "#ffffff"
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"Header-module-scss-module__6uf8Pa__Header Header-module-scss-module__6uf8Pa__Header___transparent\"><a aria-label=\"Home\" data-testid=\"header-logo\" class=\"Header-module-scss-module__6uf8Pa__Logo Header-module-scss-module__6uf8Pa__Logo___whiteLogo\" data-role=\"Nav:TopLink\" data-cta=\"Logo\" href=\"/en\"><img alt=\"Make Logo\" loading=\"lazy\" width=\"2462\" height=\"870\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" sizes=\"(max-width: 1024px) 100vw, 25vw\" srcset=\"/_next/image?url=http\u2026",
+    "heroHtml": "<div class=\"ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_container ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock___darkMode\"><h1 class=\"ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_title Alignment-module-scss-module__CdTCxq__Alignment___left Alignment-module-scss-module__CdTCxq__Alignment___hero\"><span class=\"ContentBlock2025-module-scss-module__jZhQ6q__ContentBlock_titleText\">The visual AI automation platform</span></h1><div class=\"ContentBlock2025-module-s\u2026",
+    "footerHtml": "<footer class=\"Footer-module-scss-module__oqOhjW__Footer\"><section class=\"dark-background Section-module-scss-module__sX6ybW__Section Section-module-scss-module__sX6ybW__gradient-dark gradient-dark\"><div class=\"container2025Redesign AnimatedSectionWrapper-module-scss-module__4Dy2TG__scroll\"><div class=\"Footer-module-scss-module__oqOhjW__Footer_content\"><div class=\"container2025Redesign PreFooter-module-scss-module___KqyDa__PreFooter AnimatedSectionWrapper-module-scss-module__4Dy2TG__scroll\" data\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.make.com/en",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 17,
+    "section_count": 46,
+    "nav_count": 1,
+    "button_count": 31,
+    "img_count": 44,
+    "footer_count": 1
+  }
+}

@@ -1,0 +1,3413 @@
+{
+  "name": "stripe",
+  "url": "https://stripe.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/stripe-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/stripe-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/stripe-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/stripe-full.png",
+  "design": {
+    "url": "https://stripe.com/",
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 14620
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "hds-color-mode",
+          "navigation",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "text": "Products Solutions Developers Resources Pricing Sign in Sign in Contact sales",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 76
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Pricing",
+        "Sign in",
+        "Start now",
+        "Contact sales",
+        "Sign in\nSign in",
+        "Contact sales",
+        "Stripe for enterprises",
+        "Stripe for startups",
+        "Stripe for platforms"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "hds-color-mode",
+          "footer",
+          "section",
+          "hds-mode--light"
+        ],
+        "text": "Products and pricing Pricing Atlas Authorization Boost Billing Capital Capital for platforms Checkout Climate Connect Crypto Crypto Onramp Data Pipeline Elements Financial Connecti",
+        "top": 13566,
+        "left": 0,
+        "width": 1440,
+        "height": 1054
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(248, 250, 253)",
+        "backgroundImage": "none",
+        "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px 16px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main-content",
+        "classes": [],
+        "text": "Global GDP running on Stripe: 1.68290294% 1.68290294% Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014",
+        "top": 76,
+        "left": 0,
+        "width": 1440,
+        "height": 13490
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "navigation-menu-footer"
+        ],
+        "top": 915,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(255, 255, 255, 0.8)",
+        "backgroundImage": "radial-gradient(66.35% 66.35%, rgba(255, 255, 255, 0.9) 0px, rgba(255, 255, 255, 0) 100%), none",
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "navigation-menu-header"
+        ],
+        "top": 915,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "hero-section-container",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 76,
+        "height": 685,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue m",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 761,
+        "height": 2196,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Flexible solutions for every business model.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 2957,
+        "height": 560,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "stats-section",
+          "stats-section--time-sunrise",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 3517,
+        "height": 977,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "The backbone of\u00a0global commerce",
+        "headingTag": "h2",
+        "childCount": 4
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "business-sizes-section",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 4494,
+        "height": 4610,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Powering businesses of all sizes.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "section-row",
+          "section-row-gap"
+        ],
+        "top": 4789,
+        "height": 1388,
+        "width": 1232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Transform your enterprise with agile financial infrastructure",
+        "headingTag": "h3",
+        "childCount": 3
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "section-row",
+          "section-row-gap"
+        ],
+        "top": 6337,
+        "height": 1026,
+        "width": 1232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build a foundation for your startup that enables faster growth",
+        "headingTag": "h3",
+        "childCount": 3
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "startups-carousel"
+        ],
+        "top": 6491,
+        "height": 624,
+        "width": 1232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "section-row",
+          "section-row-gap"
+        ],
+        "top": 7523,
+        "height": 1533,
+        "width": 1232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Make your SaaS platform a complete financial operating system",
+        "headingTag": "h3",
+        "childCount": 3
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "section",
+          "hds-mode--dark"
+        ],
+        "top": 9104,
+        "height": 2341,
+        "width": 1440,
+        "backgroundColor": "rgb(13, 23, 56)",
+        "backgroundImage": null,
+        "heading": "Reliable, extensible infrastructure for every stack.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "section",
+          "section--white",
+          "hds-mode--light"
+        ],
+        "top": 11445,
+        "height": 1741,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "What\u2019s happening",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "section-row",
+          "section-row-gap"
+        ],
+        "top": 11541,
+        "height": 701,
+        "width": 1232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "What\u2019s happening",
+        "headingTag": "h2",
+        "childCount": 4
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "hds-color-mode",
+          "section",
+          "hds-mode--light"
+        ],
+        "top": 13186,
+        "height": 380,
+        "width": 1440,
+        "backgroundColor": "rgb(248, 250, 253)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "classes": [],
+        "top": 915,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014from your firs",
+        "style": {
+          "color": "rgb(129, 184, 26)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "55.2px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(129, 184, 26)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "958.466px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hero-section__title",
+            "hero-section__title--background",
+            "hds-heading--xl"
+          ],
+          "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014from your first transaction to your billionth.",
+          "top": 258,
+          "left": 208,
+          "width": 958,
+          "height": 221
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014from your firs",
+        "style": {
+          "color": "rgba(0, 14, 255, 0.5)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "55.2px",
+          "letterSpacing": "-0.96px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgba(0, 14, 255, 0.5)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "958.466px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hero-section__title",
+            "hero-section__title--foreground",
+            "hds-heading--xl"
+          ],
+          "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014from your first transaction to your billionth.",
+          "top": 258,
+          "left": 208,
+          "width": 958,
+          "height": 221
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Flexible solutions for every business model.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--lg",
+            "hds-heading--inline"
+          ],
+          "text": "Flexible solutions for every business model.",
+          "top": 854,
+          "left": 104,
+          "width": 593,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Accept and optimize payments globally\u2014online and in person",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-payments",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Accept and optimize payments globally\u2014online and in person",
+          "top": 1051,
+          "left": 128,
+          "width": 628,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Enable any billing model",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-billing",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Enable any billing model",
+          "top": 1051,
+          "left": 960,
+          "width": 274,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Monetize through agentic commerce",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-agentic-commerce",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Monetize through agentic commerce",
+          "top": 1743,
+          "left": 128,
+          "width": 284,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Create a card issuing program",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-issuing",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Create a card issuing program",
+          "top": 1743,
+          "left": 544,
+          "width": 284,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Access borderless money movement with stablecoins and crypto",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-crypto",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Access borderless money movement with stablecoins and crypto",
+          "top": 1743,
+          "left": 960,
+          "width": 284,
+          "height": 87
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Embed payments in your platform",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-connect",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Embed payments in your platform",
+          "top": 2435,
+          "left": 128,
+          "width": 284,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The backbone of\u00a0global commerce",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "300",
+          "lineHeight": "57.68px",
+          "letterSpacing": "-1.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "489.216px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "stats-section__title",
+            "hds-heading--xxl"
+          ],
+          "text": "The backbone of global commerce",
+          "top": 3597,
+          "left": 475,
+          "width": 489,
+          "height": 115
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Powering businesses of all sizes.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "business-sizes__title",
+            "hds-heading--lg",
+            "hds-heading--inline"
+          ],
+          "text": "Powering businesses of all sizes.",
+          "top": 4587,
+          "left": 104,
+          "width": 444,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Transform your enterprise with agile financial infrastructure",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "504px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "section-header__title",
+            "hds-heading--md"
+          ],
+          "text": "Transform your enterprise with agile financial infrastructure",
+          "top": 4789,
+          "left": 104,
+          "width": 504,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Hertz unifies commerce with Stripe.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "summary-customer-content-Hertz",
+          "classes": [
+            "hds-heading",
+            "customer-stories__customer-summary-description",
+            "hds-heading--sm"
+          ],
+          "text": "Hertz unifies commerce with Stripe.",
+          "top": 4992,
+          "left": 160,
+          "width": 994,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "URBN consolidates $5 billion in online and in-store revenue onto Stripe.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "summary-customer-content-URBN",
+          "classes": [
+            "hds-heading",
+            "customer-stories__customer-summary-description",
+            "hds-heading--sm"
+          ],
+          "text": "URBN consolidates $5 billion in online and in-store revenue onto Stripe.",
+          "top": 5690,
+          "left": 160,
+          "width": 1120,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Instacart powers online grocery delivery with Stripe.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "summary-customer-content-Instacart",
+          "classes": [
+            "hds-heading",
+            "customer-stories__customer-summary-description",
+            "hds-heading--sm"
+          ],
+          "text": "Instacart powers online grocery delivery with Stripe.",
+          "top": 5763,
+          "left": 160,
+          "width": 1120,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Le Monde improves local and international payments with Stripe.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "summary-customer-content-LeMonde",
+          "classes": [
+            "hds-heading",
+            "customer-stories__customer-summary-description",
+            "hds-heading--sm"
+          ],
+          "text": "Le Monde improves local and international payments with Stripe.",
+          "top": 5836,
+          "left": 160,
+          "width": 1120,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build a foundation for your startup that enables faster growth",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "504px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "section-header__title",
+            "hds-heading--md"
+          ],
+          "text": "Build a foundation for your startup that enables faster growth",
+          "top": 6337,
+          "left": 104,
+          "width": 504,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Make your SaaS platform a complete financial operating system",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "504px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "section-header__title",
+            "hds-heading--md"
+          ],
+          "text": "Make your SaaS platform a complete financial operating system",
+          "top": 7523,
+          "left": 104,
+          "width": 504,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Reliable, extensible infrastructure for every stack.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--lg",
+            "hds-heading--inline"
+          ],
+          "text": "Reliable, extensible infrastructure for every stack.",
+          "top": 9197,
+          "left": 104,
+          "width": 670,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Connect to existing systems.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--md",
+            "hds-heading--inline"
+          ],
+          "text": "Connect to existing systems.",
+          "top": 9477,
+          "left": 104,
+          "width": 328,
+          "height": 33
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Scale with confidence.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--md",
+            "hds-heading--inline"
+          ],
+          "text": "Scale with confidence.",
+          "top": 10143,
+          "left": 104,
+          "width": 256,
+          "height": 33
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Choose an integration path.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--md",
+            "hds-heading--inline"
+          ],
+          "text": "Choose an integration path.",
+          "top": 10782,
+          "left": 104,
+          "width": 316,
+          "height": 33
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "What\u2019s happening",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "858.626px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "events-carousel__header-title",
+            "hds-heading--lg"
+          ],
+          "text": "What\u2019s happening",
+          "top": 11541,
+          "left": 104,
+          "width": 348,
+          "height": 35
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Businesses on Stripe generated $1.9T in 2025.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "Businesses on Stripe generated $1.9T in 2025.",
+          "top": 12166,
+          "left": 104,
+          "width": 442,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "150K+ users have their best day ever on Stripe.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "150K+ users have their best day ever on Stripe.",
+          "top": 12166,
+          "left": 104,
+          "width": 448,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Tidemark\u2019s vertical and SMB SaaS benchmark report.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "Tidemark\u2019s vertical and SMB SaaS benchmark report.",
+          "top": 12166,
+          "left": 104,
+          "width": 511,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Shopify\u2019s Tobi L\u00fctke sits down with John Collison.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "Shopify\u2019s Tobi L\u00fctke sits down with John Collison.",
+          "top": 12166,
+          "left": 104,
+          "width": 469,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "New tools to process payments outside app stores.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "New tools to process payments outside app stores.",
+          "top": 12166,
+          "left": 104,
+          "width": 489,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Crypto.com partners with Stripe to enable better crypto payments.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "Crypto.com partners with Stripe to enable better crypto payments.",
+          "top": 12166,
+          "left": 104,
+          "width": 636,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Make your products shoppable through AI platforms.",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "24.2px",
+          "letterSpacing": "-0.22px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "hds-heading",
+            "hds-heading--sm",
+            "hds-heading--inline"
+          ],
+          "text": "Make your products shoppable through AI platforms.",
+          "top": 12166,
+          "left": 104,
+          "width": 508,
+          "height": 28
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Stripe homepage",
+        "href": "/",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link",
+            "navigation-menu-home-link"
+          ],
+          "text": "",
+          "top": 26,
+          "left": 105,
+          "width": 60,
+          "height": 25
+        }
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-navigation-menu__trigger",
+            "hds-button--transparent"
+          ],
+          "text": "Products",
+          "top": 18,
+          "left": 193,
+          "width": 77,
+          "height": 40
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-navigation-menu__trigger",
+            "hds-button--transparent"
+          ],
+          "text": "Solutions",
+          "top": 18,
+          "left": 294,
+          "width": 78,
+          "height": 40
+        }
+      },
+      {
+        "text": "Developers",
+        "href": null,
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-navigation-menu__trigger",
+            "hds-button--transparent"
+          ],
+          "text": "Developers",
+          "top": 18,
+          "left": 396,
+          "width": 91,
+          "height": 40
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-navigation-menu__trigger",
+            "hds-button--transparent"
+          ],
+          "text": "Resources",
+          "top": 18,
+          "left": 511,
+          "width": 86,
+          "height": 40
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-navigation-menu__trigger",
+            "hds-button--transparent"
+          ],
+          "text": "Pricing",
+          "top": 19,
+          "left": 621,
+          "width": 44,
+          "height": 38
+        }
+      },
+      {
+        "text": "Sign in\nSign in",
+        "href": "https://dashboard.stripe.com/login",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(255, 255, 255)",
+          "padding": "11.5px 20px 12.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "navigation-cta-button",
+            "navigation-item__sign-in",
+            "hds-button--secondary-on-quiet"
+          ],
+          "text": "Sign in Sign in",
+          "top": 18,
+          "left": 1106,
+          "width": 84,
+          "height": 40
+        }
+      },
+      {
+        "text": "Contact sales",
+        "href": "/contact/sales",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(83, 58, 253)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "15.5px 20px 16.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "navigation-cta-button",
+            "navigation-item__contact-sales",
+            "hds-button--primary"
+          ],
+          "text": "Contact sales",
+          "top": 18,
+          "left": 1198,
+          "width": 137,
+          "height": 40
+        }
+      },
+      {
+        "text": "Get started",
+        "href": "https://dashboard.stripe.com/register",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(83, 58, 253)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "15.5px 24px 16.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hds-button--primary"
+          ],
+          "text": "Get started",
+          "top": 519,
+          "left": 208,
+          "width": 141,
+          "height": 48
+        }
+      },
+      {
+        "text": "Sign up with Google",
+        "href": "https://dashboard.stripe.com/login/oauth/google/init",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(255, 255, 255, 0.65)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(185, 185, 249)",
+          "padding": "14.5px 24px 15.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-button",
+            "hero-section__button--google",
+            "hds-button--secondary"
+          ],
+          "text": "Sign up with Google",
+          "top": 519,
+          "left": 357,
+          "width": 212,
+          "height": 48
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/stripe-openai-instant-checkout",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 103,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/amazon",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 275,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/nvidia-collaboration-with-stripe",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 447,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/stripe-ford-agreement",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 619,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/google-and-stripe",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 963,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/shopify",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 1135,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/mindbody",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 1307,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/ramp",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 1651,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/figma",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 1995,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/woo",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 2167,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/stripe-and-uber",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 2511,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/anthropic",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 2683,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/lightspeed-terminal",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 2855,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/customers/cursor",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 3027,
+          "width": 142,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/newsroom/news/stripe-openai-instant-checkout",
+        "style": {
+          "color": "rgb(83, 58, 253)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(83, 58, 253)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hds-link"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 3199,
+          "width": 142,
+          "height": 34
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "816px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card",
+            "modular-solutions-bento__card-payments"
+          ],
+          "text": "Accept and optimize payments globally\u2014online and in person Pay Roastery Cartsy bezahlen Showflix \u306b\u652f\u6255\u3046 Pay Roastery $5.46 \u20ac26.89 \u00a55,000 $5.46 Tap, insert, or swipe to pay Zum Bezahl",
+          "top": 1027,
+          "left": 104,
+          "width": 816,
+          "height": 676
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__dialog-entry"
+          ],
+          "text": "",
+          "top": 1043,
+          "left": 866,
+          "width": 38,
+          "height": 38
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__dialog-entry-wrapper"
+          ],
+          "text": "",
+          "top": 1043,
+          "left": 866,
+          "width": 38,
+          "height": 38
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px 60px 0px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "687.961px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__text"
+          ],
+          "text": "Accept and optimize payments globally\u2014online and in person",
+          "top": 1051,
+          "left": 128,
+          "width": 688,
+          "height": 58
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(6, 27, 49)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "29.12px",
+          "letterSpacing": "-0.26px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(6, 27, 49)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": "bento-card-title-payments",
+          "classes": [
+            "hds-heading",
+            "modular-solutions-bento-card__title",
+            "hds-heading--md"
+          ],
+          "text": "Accept and optimize payments globally\u2014online and in person",
+          "top": 1051,
+          "left": 128,
+          "width": 628,
+          "height": 58
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(229, 237, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__border"
+          ],
+          "text": "",
+          "top": 1022,
+          "left": 98,
+          "width": 828,
+          "height": 686
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__border-color"
+          ],
+          "text": "",
+          "top": 827,
+          "left": -26,
+          "width": 1076,
+          "height": 1076
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "radial-gradient(circle, rgb(127, 125, 252), rgb(244, 75, 204) 33%, rgb(229, 237, 245) 66%)",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__border-color-gradient"
+          ],
+          "text": "",
+          "top": 650,
+          "left": 135,
+          "width": 753,
+          "height": 753
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__inner"
+          ],
+          "text": "Pay Roastery Cartsy bezahlen Showflix \u306b\u652f\u6255\u3046 Pay Roastery $5.46 \u20ac26.89 \u00a55,000 $5.46 Tap, insert, or swipe to pay Zum Bezahlen Karte auflegen, einf\u00fchren oder durchziehen \u30bf\u30c3\u30d7\u3001\u633f\u5165\u3001\u307e\u305f\u306f\u30b9\u30ef\u30a4",
+          "top": 1023,
+          "left": 99,
+          "width": 826,
+          "height": 684
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "5px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__content"
+          ],
+          "text": "Pay Roastery Cartsy bezahlen Showflix \u306b\u652f\u6255\u3046 Pay Roastery $5.46 \u20ac26.89 \u00a55,000 $5.46 Tap, insert, or swipe to pay Zum Bezahlen Karte auflegen, einf\u00fchren oder durchziehen \u30bf\u30c3\u30d7\u3001\u633f\u5165\u3001\u307e\u305f\u306f\u30b9\u30ef\u30a4",
+          "top": 1023,
+          "left": 99,
+          "width": 826,
+          "height": 684
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__content-inner"
+          ],
+          "text": "Pay Roastery Cartsy bezahlen Showflix \u306b\u652f\u6255\u3046 Pay Roastery $5.46 \u20ac26.89 \u00a55,000 $5.46 Tap, insert, or swipe to pay Zum Bezahlen Karte auflegen, einf\u00fchren oder durchziehen \u30bf\u30c3\u30d7\u3001\u633f\u5165\u3001\u307e\u305f\u306f\u30b9\u30ef\u30a4",
+          "top": 1023,
+          "left": 99,
+          "width": 826,
+          "height": 684
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "modular-solutions-bento-card__graphic"
+          ],
+          "text": "Pay Roastery Cartsy bezahlen Showflix \u306b\u652f\u6255\u3046 Pay Roastery $5.46 \u20ac26.89 \u00a55,000 $5.46 Tap, insert, or swipe to pay Zum Bezahlen Karte auflegen, einf\u00fchren oder durchziehen \u30bf\u30c3\u30d7\u3001\u633f\u5165\u3001\u307e\u305f\u306f\u30b9\u30ef\u30a4",
+          "top": 1023,
+          "left": 99,
+          "width": 826,
+          "height": 684
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px 5px 0px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "payments-graphic__checkout-payment-methods-item-icon",
+            "payments-graphic__checkout-payment-methods-item-icon--card"
+          ],
+          "text": "",
+          "top": 1448,
+          "left": 463,
+          "width": 19,
+          "height": 11
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "payments-graphic__checkout-payment-methods-card-icons"
+          ],
+          "text": "",
+          "top": 1448,
+          "left": 463,
+          "width": 14,
+          "height": 11
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(60, 79, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+          "fontSize": "10px",
+          "fontWeight": "300",
+          "lineHeight": "8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(60, 79, 105)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "payments-graphic__checkout-payment-methods-item-label",
+            "payments-graphic__checkout-payment-methods-item-label--card"
+          ],
+          "text": "Card Karte \u30ab\u30fc\u30c9 Card",
+          "top": 1449,
+          "left": 482,
+          "width": 32,
+          "height": 8
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "hero-wave-animation__canvas"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 337,
+          "width": 1393,
+          "height": 761
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/115d4Vd5LVAsqFGDR1ClAv/0ceb2c44a7a7182cd624262420af7544/wave-fallback-desktop.png?w=2784&fm=webp&q=60",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": -107,
+          "left": 337,
+          "width": 1392,
+          "height": 975
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/1Vf8oT9Fm6dEwpnEx5PgK1/055956f38d7fd8b0cc7419692ef29778/bento-terminal.png?w=616&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1181,
+          "left": 117,
+          "width": 280,
+          "height": 477
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/6BTjJGdjfGVA8brPwj7p3M/fcf084ff85142366e118fe85ee78b632/payments-electric-kettle.jpg?w=160&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1347,
+          "left": 751,
+          "width": 80,
+          "height": 86
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/5Dr3Oc550drIrxyzzXgFbq/f6e4fb0b8b4b40d73e94fdf7c9bc7028/payments-hoodie.jpg?w=80&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1347,
+          "left": 929,
+          "width": 80,
+          "height": 86
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/1UE1lPgwbfQRH586XfTWKM/f90bfc79f87b3e60a4189cc0f5a03228/showflix-streaming.jpg?w=80&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1347,
+          "left": 1107,
+          "width": 80,
+          "height": 86
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/6BTjJGdjfGVA8brPwj7p3M/fcf084ff85142366e118fe85ee78b632/payments-electric-kettle.jpg?w=160&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1347,
+          "left": 1285,
+          "width": 80,
+          "height": 86
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/vYmk6v8n7oDAwbDpwhjV6/846f9b3e214549b8f14e2b8c8cfe9343/payment-bento-background.jpg?w=1720&fm=webp&q=80",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 994,
+          "left": 99,
+          "width": 860,
+          "height": 712
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/m9HBEK464p46FeNIhs2PV/f5054a93c8a0a6aabdd1c47675d610ae/wave_crop.jpg?w=296&q=80",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 915,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/2rL4pJabxq9Yo0haXwK2HO/83c05122b463c882c8c89111154d77ec/shirt-blue.png?w=320&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2077,
+          "left": 191,
+          "width": 92,
+          "height": 92
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/6KmB7XGsUbTefNew25WF4T/6a949fbf5567dcd145339f5fcf207fae/hoodie-navy.png?w=320&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2077,
+          "left": 325,
+          "width": 92,
+          "height": 92
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "agentic-graphic__background-canvas"
+          ],
+          "text": "",
+          "top": 1693,
+          "left": 80,
+          "width": 447,
+          "height": 728
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "issuing-graphic__background-canvas"
+          ],
+          "text": "",
+          "top": 1693,
+          "left": 496,
+          "width": 447,
+          "height": 728
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "globe__canvas"
+          ],
+          "text": "",
+          "top": 1693,
+          "left": 912,
+          "width": 447,
+          "height": 728
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/1j4wM9h2bBsyRFvTv6Wsn0/07f4b9b1e1e17fdc509d9087454dd8bc/ConnectBentoBackground.jpg?w=2484&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2409,
+          "left": 99,
+          "width": 1243,
+          "height": 454
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/43eqkFV1GG5GqcbNNeEzVp/8f4705b1b80a4c835c2960ed8055d649/ConnectMobileBackground.jpg?w=296&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 915,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/2YFdgdFPeIiDpmQbhHPAx8/186752498bf713fea245f31bcec84f8a/sessions-2026-on-demand-bg.png?w=2464&fm=webp&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "sessions-on-demand-background-image"
+          ],
+          "text": "",
+          "top": 3037,
+          "left": 104,
+          "width": 1232,
+          "height": 400
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/52qeQQDMQNJ3CmnFPjHbTi/1a3a3acd4f027175a863fafcc29a4d9a/sessions-2026-on-demand-bg-mobile.png?w=368&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "sessions-on-demand-background-image"
+          ],
+          "text": "",
+          "top": 915,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/63zO5Z4CABvFl3pLLhnu3l/a9c12c883f820dc29d29fa0b9dcb0814/DatavizStatic3x.png?w=768&q=90",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 915,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.stripeassets.com/fzn2n1nzq965/24BNV3GGtvCprFLrYovyaa/b2eac20a1d5ec75e4bff3888b998d163/enterprise-accordion-hertz.png?w=296&q=90",
+        "alt": "Aerial view of a street intersection where the crosswalks form a slanted parallelogram, imitating the Stripe logo.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 5040,
+          "left": 104,
+          "width": 1232,
+          "height": 531
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1957
+      },
+      {
+        "value": "rgb(83, 58, 253)",
+        "count": 700
+      },
+      {
+        "value": "rgb(6, 27, 49)",
+        "count": 486
+      },
+      {
+        "value": "rgb(80, 97, 122)",
+        "count": 252
+      },
+      {
+        "value": "rgb(100, 116, 141)",
+        "count": 196
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 150
+      },
+      {
+        "value": "rgb(0, 0, 238)",
+        "count": 66
+      },
+      {
+        "value": "rgb(255, 97, 24)",
+        "count": 37
+      },
+      {
+        "value": "rgb(127, 125, 252)",
+        "count": 37
+      },
+      {
+        "value": "rgb(60, 79, 105)",
+        "count": 36
+      },
+      {
+        "value": "rgb(102, 118, 145)",
+        "count": 36
+      },
+      {
+        "value": "rgb(39, 57, 81)",
+        "count": 32
+      },
+      {
+        "value": "rgb(26, 44, 68)",
+        "count": 28
+      },
+      {
+        "value": "rgb(115, 137, 255)",
+        "count": 24
+      },
+      {
+        "value": "rgb(229, 237, 245)",
+        "count": 23
+      },
+      {
+        "value": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(229, 237, 245)",
+        "count": 18
+      },
+      {
+        "value": "rgb(229, 237, 245) rgb(6, 27, 49) rgb(6, 27, 49)",
+        "count": 15
+      },
+      {
+        "value": "rgb(125, 139, 164)",
+        "count": 14
+      }
+    ],
+    "fonts": [
+      {
+        "value": "sohne-var",
+        "count": 2065
+      }
+    ],
+    "radii": [
+      {
+        "value": "6px",
+        "count": 54
+      },
+      {
+        "value": "4px",
+        "count": 54
+      },
+      {
+        "value": "1px",
+        "count": 31
+      },
+      {
+        "value": "5px",
+        "count": 6
+      },
+      {
+        "value": "8px",
+        "count": 4
+      },
+      {
+        "value": "6px 6px 0px 0px",
+        "count": 3
+      },
+      {
+        "value": "100%",
+        "count": 3
+      },
+      {
+        "value": "16px",
+        "count": 2
+      },
+      {
+        "value": "3px",
+        "count": 2
+      },
+      {
+        "value": "4.51px",
+        "count": 2
+      },
+      {
+        "value": "2px",
+        "count": 2
+      },
+      {
+        "value": "0px 0px 6px 6px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.1) 0px 30px 60px -50px, rgba(50, 50, 93, 0.25) 0px 30px 60px -10px",
+      "rgba(23, 23, 23, 0.08) 0px 15px 35px 0px",
+      "rgba(23, 23, 23, 0.06) 0px 3px 6px 0px",
+      "rgba(50, 50, 93, 0.12) 0px 16px 32px 0px",
+      "rgba(0, 0, 0, 0.1) 0px 20.187px 40.374px -20.187px",
+      "rgba(50, 50, 93, 0.12) 0px 15.931px 31.863px 0px",
+      "rgba(50, 50, 93, 0.12) 0px 4px 48.8px -30px, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px",
+      "rgba(0, 0, 0, 0.1) 0px 2px 5px 0px",
+      "rgba(50, 50, 93, 0.12) 0px 15.931px 31.863px -8px"
+    ],
+    "cssVars": {},
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"hds-color-mode navigation section section--white hds-mode--light\" data-floating-ui-inert=\"\" aria-hidden=\"true\"><div class=\"section-container navigation__layout\"><nav class=\"hds-navigation-menu navigation-menu navigation-menu--homepage\" id=\"navigation-menu\"><a class=\"hds-link navigation-menu-home-link\" href=\"/\" data-analytics-label=\"Stripe Logo\" aria-label=\"Stripe homepage\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"25\" fill=\"#031323\" viewBox=\"0 0 60 25\" aria-label=\u2026",
+    "heroHtml": "<div class=\"hero-section__layout-grid\"><div class=\"hero-section__eyebrow\" aria-hidden=\"true\"><span class=\"hero-section__eyebrow-label\">Global GDP running on Stripe:</span> <span class=\"hero-section__eyebrow-value tabular-nums--tight\"><span class=\"hero-section__eyebrow-value__content-outgoing\"><span class=\"\" style=\"\">1</span><span class=\"\" style=\"\">.</span><span class=\"\" style=\"\">6</span><span class=\"\" style=\"\">8</span><span class=\"\" style=\"\">2</span><span class=\"\" style=\"\">9</span><span class=\"\"\u2026",
+    "footerHtml": "<footer class=\"hds-color-mode footer section hds-mode--light\" data-floating-ui-inert=\"\" aria-hidden=\"true\"><div class=\"section-container footer__container\"><div class=\"footer-links-section\"><div class=\"section-row footer-links-section__content section-row-gap\" style=\"--section-row-gap-mb:var(--hds-space-core-500);--section-row-gap-tb:var(--hds-space-core-600);--section-row-gap-dt:var(--hds-space-core-800)\"><div class=\"footer-links-block\"><span class=\"hds-heading footer-links-block__title hds-hea\u2026"
+  },
+  "status": 200,
+  "final_url": "https://stripe.com/",
+  "html_signals": {
+    "h1_count": 2,
+    "h2_count": 5,
+    "section_count": 15,
+    "nav_count": 1,
+    "button_count": 30,
+    "img_count": 46,
+    "footer_count": 1
+  }
+}

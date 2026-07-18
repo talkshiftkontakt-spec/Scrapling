@@ -1,0 +1,2504 @@
+{
+  "name": "granola",
+  "url": "https://www.granola.ai",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/granola-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/granola-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/granola-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/granola-full.png",
+  "design": {
+    "url": "https://www.granola.ai/",
+    "title": "Granola \u2014 The AI Notepad for back-to-back meetings",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 14310
+    },
+    "themeGuess": "light",
+    "luminance": 0.9999999999999999,
+    "bodyStyle": {
+      "color": "rgb(41, 41, 41)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "fontFamily": "melange, \"melange Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(227, 227, 227)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "melange, \"melange Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(227, 227, 227)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "navbar-header"
+        ],
+        "text": "Features Notepad The AI notepad for people in back-to-back meetings Chat AI chat that already knows what you're working on Granola for mobile Meeting notes on the go and for ",
+        "top": 8,
+        "left": 0,
+        "width": 1440,
+        "height": 56
+      },
+      "style": {
+        "color": "rgb(41, 41, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "melange, \"melange Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(227, 227, 227)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Notepad\n\nThe AI notepad for people in back-to-back meetings",
+        "Chat\n\nAI chat that already knows what you're working on",
+        "How Granola approaches transparency and keeps attendees informed\nLearn more \u2192",
+        "Enterprise",
+        "Pricing",
+        "Blog",
+        "Careers",
+        "Download"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "mt-16"
+        ],
+        "text": "Features Notepad Chat Mobile Product Pricing Enterprise AI notepad vs notetaker For sales For product management Explore more\u2026 Company Customers Careers Press Events Startup progra",
+        "top": 13482,
+        "left": 0,
+        "width": 1440,
+        "height": 828
+      },
+      "style": {
+        "color": "rgb(41, 41, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "melange, \"melange Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(227, 227, 227)",
+        "padding": "0px",
+        "margin": "64px 0px 0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "flex-1",
+          "w-full",
+          "lg:mx-auto"
+        ],
+        "text": "The AI notepad for back-to-back meetings Notes, actions and memory. Without a meeting bot. Download for free Available for macOS, Windows, iOS, Android Effortless notes, enhan",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 13418
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "flex",
+          "flex-col",
+          "items-center",
+          "w-full",
+          "py-0",
+          "text-primary"
+        ],
+        "top": 0,
+        "height": 13418,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The AI notepad for back-to-back meetings",
+        "headingTag": "h1",
+        "childCount": 11
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "flex",
+          "flex-col",
+          "max-w-7xl",
+          "mx-auto",
+          "w-full",
+          "px-4"
+        ],
+        "top": 0,
+        "height": 900,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The AI notepad for back-to-back meetings",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "h-screen",
+          "flex",
+          "flex-col",
+          "items-center",
+          "justify-center",
+          "max-w-7xl"
+        ],
+        "top": 900,
+        "height": 900,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Effortless notes, enhanced instantly.",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "flex-col",
+          "mx-auto",
+          "w-full",
+          "sticky",
+          "top-24",
+          "lg:top-12"
+        ],
+        "top": 48,
+        "height": 900,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "flex",
+          "flex-col",
+          "items-center",
+          "justify-center",
+          "max-w-7xl",
+          "mx-auto"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Effortless notes, enhanced instantly.",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "doers-scope",
+          "relative"
+        ],
+        "top": 1800,
+        "height": 709,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "For the doers",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "flex",
+          "flex-col",
+          "items-center",
+          "justify-center",
+          "max-w-7xl",
+          "mx-auto"
+        ],
+        "top": 2509,
+        "height": 464,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Granola helps you before, during and after your meetings.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "how-it-works-progress-scope",
+          "relative",
+          "hidden",
+          "md:grid",
+          "grid-cols-2",
+          "max-w-7xl"
+        ],
+        "top": 2973,
+        "height": 2452,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Start your meeting prepared",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "w-full",
+          "overflow-x-clip",
+          "bg-oats-green-300",
+          "py-20",
+          "text-ink-primary"
+        ],
+        "top": 5425,
+        "height": 582,
+        "width": 1440,
+        "backgroundColor": "rgb(178, 194, 72)",
+        "backgroundImage": null,
+        "heading": "Perfect\nmeeting\nmemory",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "w-full",
+          "overflow-hidden",
+          "bg-fill-primary",
+          "py-20",
+          "md:py-28"
+        ],
+        "top": 6007,
+        "height": 848,
+        "width": 1440,
+        "backgroundColor": "rgb(41, 41, 41)",
+        "backgroundImage": null,
+        "heading": "Helping busy people through busy days",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "w-full",
+          "bg-white",
+          "px-4",
+          "py-20",
+          "text-ink-primary",
+          "md:px-10"
+        ],
+        "top": 6855,
+        "height": 4663,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Works everywhere you do, how you do",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "w-full",
+          "bg-surface",
+          "py-20",
+          "text-ink-primary",
+          "md:py-32"
+        ],
+        "top": 11518,
+        "height": 1151,
+        "width": 1440,
+        "backgroundColor": "rgb(247, 247, 242)",
+        "backgroundImage": null,
+        "heading": "Use your meeting notes anywhere",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "w-full",
+          "overflow-hidden"
+        ],
+        "top": 12669,
+        "height": 749,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Unlimited meeting notes for free",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "flex",
+          "overflow-visible",
+          "relative",
+          "flex-col",
+          "w-full",
+          "items-center"
+        ],
+        "top": 13482,
+        "height": 828,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The AI notepad for back-to-back meetings",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "86.4px",
+          "fontWeight": "400",
+          "lineHeight": "80.352px",
+          "letterSpacing": "-1.728px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "561.54px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "text-5xl",
+            "sm:text-7xl",
+            "font-quadrant",
+            "text-ink-primary",
+            "lg:text-[clamp(68px,6vw,110px)]",
+            "leading-[0.93]",
+            "tracking-[-0.02em]",
+            "max-w-[10ch]"
+          ],
+          "text": "The AI notepad for back-to-back meetings",
+          "top": 237,
+          "left": 120,
+          "width": 562,
+          "height": 321
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Effortless notes, enhanced instantly.",
+        "style": {
+          "color": "rgb(14, 15, 12)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px 0px 0px 40px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "748.801px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "col-start-1",
+            "row-start-2",
+            "text-4xl",
+            "font-quadrant",
+            "lg:text-5xl",
+            "3xl:text-6xl",
+            "max-w-[24ch]",
+            "text-balance"
+          ],
+          "text": "Effortless notes, enhanced instantly.",
+          "top": 1134,
+          "left": 80,
+          "width": 640,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Effortless notes, enhanced instantly.",
+        "style": {
+          "color": "rgb(14, 15, 12)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px 0px 0px 40px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "748.801px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "col-start-1",
+            "row-start-2",
+            "text-4xl",
+            "font-quadrant",
+            "lg:text-5xl",
+            "3xl:text-6xl",
+            "max-w-[24ch]",
+            "text-balance"
+          ],
+          "text": "Effortless notes, enhanced instantly.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "For the doers",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "160px",
+          "fontWeight": "400",
+          "lineHeight": "160px",
+          "letterSpacing": "-2.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "doers-headline",
+            "whitespace-nowrap",
+            "text-center",
+            "font-quadrant",
+            "text-[min(12vw,160px)]",
+            "leading-none",
+            "tracking-[-0.015em]",
+            "text-ink-primary"
+          ],
+          "text": "For the doers",
+          "top": 1824,
+          "left": 223,
+          "width": 995,
+          "height": 160
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Granola helps you before, during and after your meetings.",
+        "style": {
+          "color": "rgb(14, 15, 12)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-4xl",
+            "lg:text-5xl",
+            "3xl:text-6xl",
+            "tracking-[-0.015em]",
+            "text-balance"
+          ],
+          "text": "Granola helps you before, during and after your meetings.",
+          "top": 2669,
+          "left": 720,
+          "width": 600,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Start your meeting prepared",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "8px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary",
+            "mt-2"
+          ],
+          "text": "Start your meeting prepared",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Give your full attention",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "8px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary",
+            "mt-2"
+          ],
+          "text": "Give your full attention",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Post-meeting admin, done",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "8px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary",
+            "mt-2"
+          ],
+          "text": "Post-meeting admin, done",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Start your meeting prepared",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary"
+          ],
+          "text": "Start your meeting prepared",
+          "top": 3021,
+          "left": 720,
+          "width": 600,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Give your full attention",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary"
+          ],
+          "text": "Give your full attention",
+          "top": 3846,
+          "left": 720,
+          "width": 600,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Post-meeting admin, done",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "font-normal",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "text-ink-primary"
+          ],
+          "text": "Post-meeting admin, done",
+          "top": 4671,
+          "left": 720,
+          "width": 600,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Perfect\nmeeting\nmemory",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "108px",
+          "fontWeight": "400",
+          "lineHeight": "104.76px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-6xl",
+            "leading-[0.97]",
+            "tracking-[-0.02em]",
+            "md:text-7xl",
+            "lg:text-[clamp(72px,7.5vw,120px)]"
+          ],
+          "text": "Perfect meeting memory",
+          "top": 5581,
+          "left": 120,
+          "width": 584,
+          "height": 314
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Helping busy people through busy days",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "60px",
+          "fontWeight": "400",
+          "lineHeight": "60px",
+          "letterSpacing": "-0.9px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px 40px",
+          "margin": "0px 252.016px 64px 252px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "935.999px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "mx-auto",
+            "mb-12",
+            "max-w-[24ch]",
+            "text-balance",
+            "px-4",
+            "text-center",
+            "font-quadrant",
+            "text-4xl"
+          ],
+          "text": "Helping busy people through busy days",
+          "top": 6119,
+          "left": 252,
+          "width": 936,
+          "height": 120
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Works everywhere you do, how you do",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "108px",
+          "fontWeight": "400",
+          "lineHeight": "104.76px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1053px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[15ch]",
+            "font-quadrant",
+            "text-6xl",
+            "leading-[0.97]",
+            "tracking-[-0.02em]",
+            "md:text-7xl",
+            "lg:text-[clamp(72px,7.5vw,120px)]"
+          ],
+          "text": "Works everywhere you do, how you do",
+          "top": 7027,
+          "left": 80,
+          "width": 1053,
+          "height": 210
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Humans in the room, not bots",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-pretty",
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]"
+          ],
+          "text": "Humans in the room, not bots",
+          "top": 7477,
+          "left": 80,
+          "width": 820,
+          "height": 89
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Works with all meeting apps",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-pretty",
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]"
+          ],
+          "text": "Works with all meeting apps",
+          "top": 8266,
+          "left": 80,
+          "width": 820,
+          "height": 89
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Private by default, ready to share",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-pretty",
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]"
+          ],
+          "text": "Private by default, ready to share",
+          "top": 9055,
+          "left": 80,
+          "width": 820,
+          "height": 89
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Made for in-person meetings too",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-pretty",
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]"
+          ],
+          "text": "Made for in-person meetings too",
+          "top": 9843,
+          "left": 80,
+          "width": 820,
+          "height": 89
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Syncs with your calendar",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-pretty",
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]"
+          ],
+          "text": "Syncs with your calendar",
+          "top": 10712,
+          "left": 80,
+          "width": 820,
+          "height": 119
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Use your meeting notes anywhere",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "108px",
+          "fontWeight": "400",
+          "lineHeight": "104.76px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1193.4px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[17ch]",
+            "font-quadrant",
+            "text-6xl",
+            "leading-[0.97]",
+            "tracking-[-0.02em]",
+            "md:text-7xl",
+            "lg:text-[clamp(72px,7.5vw,120px)]"
+          ],
+          "text": "Use your meeting notes anywhere",
+          "top": 11690,
+          "left": 120,
+          "width": 1193,
+          "height": 210
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "No more copy-pasting meeting transcripts into AI tools.",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "624.001px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-quadrant",
+            "text-2xl",
+            "leading-[1.05]",
+            "tracking-[-0.01em]",
+            "md:text-[32px]",
+            "max-w-[30ch]"
+          ],
+          "text": "No more copy-pasting meeting transcripts into AI tools.",
+          "top": 12140,
+          "left": 120,
+          "width": 624,
+          "height": 119
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Unlimited meeting notes for free",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "88px",
+          "fontWeight": "400",
+          "lineHeight": "86.24px",
+          "letterSpacing": "-0.88px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-quadrant",
+            "text-4xl",
+            "leading-[0.98]",
+            "tracking-[-0.01em]",
+            "text-ink-primary",
+            "sm:text-5xl",
+            "md:text-6xl"
+          ],
+          "text": "Unlimited meeting notes for free",
+          "top": 12863,
+          "left": 384,
+          "width": 672,
+          "height": 259
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "OK with Cookies?",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "quadrant, \"quadrant Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px",
+          "margin": "0px 0px 2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "iubenda-cs-title",
+          "classes": [],
+          "text": "OK with Cookies?",
+          "top": 702,
+          "left": 144,
+          "width": 868,
+          "height": 25
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Granola home",
+        "href": "/",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "0px 0px 0px 4px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "md:pl-1"
+          ],
+          "text": "",
+          "top": 21,
+          "left": 121,
+          "width": 120,
+          "height": 30
+        }
+      },
+      {
+        "text": "Notepad\n\nThe AI notepad for people in back-to-back meetings",
+        "href": "/",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "18px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "10px 48px 10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "flex",
+            "relative",
+            "gap-4",
+            "items-center",
+            "justify-between",
+            "md:px-4",
+            "md:pr-12",
+            "md:py-2.5"
+          ],
+          "text": "Notepad The AI notepad for people in back-to-back meetings",
+          "top": 102,
+          "left": 401,
+          "width": 291,
+          "height": 70
+        }
+      },
+      {
+        "text": "Chat\n\nAI chat that already knows what you're working on",
+        "href": "/chat",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "18px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "10px 48px 10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "flex",
+            "relative",
+            "gap-4",
+            "items-center",
+            "justify-between",
+            "md:px-4",
+            "md:pr-12",
+            "md:py-2.5"
+          ],
+          "text": "Chat AI chat that already knows what you're working on",
+          "top": 172,
+          "left": 401,
+          "width": 291,
+          "height": 70
+        }
+      },
+      {
+        "text": "Granola for mobile\n\nMeeting notes on the go and for your phone calls",
+        "href": null,
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "18px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "10px 48px 10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "flex",
+            "relative",
+            "gap-4",
+            "items-center",
+            "justify-between",
+            "w-full",
+            "text-left",
+            "md:px-4"
+          ],
+          "text": "Granola for mobile Meeting notes on the go and for your phone calls",
+          "top": 242,
+          "left": 401,
+          "width": 291,
+          "height": 70
+        }
+      },
+      {
+        "text": "How Granola approaches transparency and keeps attendees informed\nLearn more \u2192",
+        "href": "/transparency",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "12px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "p-3",
+            "bg-white",
+            "rounded-lg",
+            "hover:bg-oats-neutral-100",
+            "transition-colors",
+            "group",
+            "flex-1"
+          ],
+          "text": "How Granola approaches transparency and keeps attendees informed Learn more \u2192",
+          "top": 102,
+          "left": 692,
+          "width": 291,
+          "height": 231
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "6px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hidden",
+            "select-none",
+            "px-3",
+            "md:flex",
+            "group",
+            "items-center",
+            "font-melange",
+            "text-base"
+          ],
+          "text": "Enterprise",
+          "top": 17,
+          "left": 614,
+          "width": 92,
+          "height": 38
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "6px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hidden",
+            "select-none",
+            "px-3",
+            "md:flex",
+            "group",
+            "items-center",
+            "font-melange",
+            "text-base"
+          ],
+          "text": "Pricing",
+          "top": 17,
+          "left": 706,
+          "width": 71,
+          "height": 38
+        }
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "6px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hidden",
+            "select-none",
+            "px-3",
+            "md:flex",
+            "group",
+            "items-center",
+            "font-melange",
+            "text-base"
+          ],
+          "text": "Blog",
+          "top": 17,
+          "left": 776,
+          "width": 55,
+          "height": 38
+        }
+      },
+      {
+        "text": "Careers",
+        "href": "/jobs",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "6px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hidden",
+            "select-none",
+            "px-3",
+            "md:flex",
+            "group",
+            "items-center",
+            "font-melange",
+            "text-base"
+          ],
+          "text": "Careers",
+          "top": 17,
+          "left": 832,
+          "width": 76,
+          "height": 38
+        }
+      },
+      {
+        "text": "Download",
+        "href": "https://notes.granola.ai/download",
+        "style": {
+          "color": "rgb(41, 41, 41)",
+          "backgroundColor": "rgba(98, 90, 34, 0.06)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px 0px 0px 4px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "select-none",
+            "flex",
+            "items-center",
+            "font-melange",
+            "text-base",
+            "font-normal",
+            "leading-6",
+            "tracking-[0.01em]"
+          ],
+          "text": "Download",
+          "top": 16,
+          "left": 1205,
+          "width": 115,
+          "height": 40
+        }
+      },
+      {
+        "text": "Download for free",
+        "href": "https://notes.granola.ai/download",
+        "style": {
+          "color": "rgb(252, 252, 248)",
+          "backgroundColor": "rgb(91, 111, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "melange, \"melange Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "430",
+          "lineHeight": "18px",
+          "letterSpacing": "0.16px",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(227, 227, 227)",
+          "padding": "9px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "rounded-full",
+            "font-book",
+            "ring-focus-ring",
+            "outline-none",
+            "disabled:opacity-100"
+          ],
+          "text": "Download for free",
+          "top": 679,
+          "left": 120,
+          "width": 199,
+          "height": 56
+        }
+      },
+      {
+        "text": "Manage my preferences",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(215, 215, 215)",
+          "backgroundImage": "none",
+          "fontFamily": "-apple-system, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "700",
+          "lineHeight": "19.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "64px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "8px 32px",
+          "margin": "4px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-customize-btn"
+          ],
+          "text": "Manage my preferences",
+          "top": 828,
+          "left": 1064,
+          "width": 232,
+          "height": 36
+        }
+      },
+      {
+        "text": "Save and continue",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "-apple-system, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "700",
+          "lineHeight": "19.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "64px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "8px 32px",
+          "margin": "4px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-accept-btn",
+            "iubenda-cs-btn-primary"
+          ],
+          "text": "Save and continue",
+          "top": 785,
+          "left": 1064,
+          "width": 232,
+          "height": 36
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/nav-icon-notes-rebrand.png",
+        "alt": "Notepad icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-[44px]",
+            "h-[44px]",
+            "shrink-0",
+            "rounded-md"
+          ],
+          "text": "",
+          "top": 115,
+          "left": 417,
+          "width": 44,
+          "height": 44
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/nav-icon-chat-rebrand.png",
+        "alt": "Chat icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-[44px]",
+            "h-[44px]",
+            "shrink-0",
+            "rounded-md"
+          ],
+          "text": "",
+          "top": 185,
+          "left": 417,
+          "width": 44,
+          "height": 44
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/nav-icon-ios-rebrand.png",
+        "alt": "Granola for mobile icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-[44px]",
+            "h-[44px]",
+            "shrink-0",
+            "rounded-md"
+          ],
+          "text": "",
+          "top": 255,
+          "left": 417,
+          "width": 44,
+          "height": 44
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FenterpriseAssets%2Ftransparency-nav-image.webp&w=1920&q=75",
+        "alt": "How Granola approaches transparency and keeps attendees informed",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-auto",
+            "object-cover",
+            "rounded-md",
+            "shadow-xs",
+            "group-hover:shadow-sm",
+            "transition-shadow"
+          ],
+          "text": "",
+          "top": 114,
+          "left": 704,
+          "width": 267,
+          "height": 140
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-1.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-2.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-3.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-4.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-5.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffooter%2Ffooter-6.jpg&w=3840&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 640,
+          "left": 0,
+          "width": 1440,
+          "height": 260
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/homepageAssets/intro-icons/roboto.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "size-[50px]",
+            "shrink-0",
+            "object-contain"
+          ],
+          "text": "",
+          "top": 1341,
+          "left": 120,
+          "width": 50,
+          "height": 50
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/homepageAssets/intro-icons/lock.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "size-[50px]",
+            "shrink-0",
+            "object-contain"
+          ],
+          "text": "",
+          "top": 1421,
+          "left": 120,
+          "width": 50,
+          "height": 50
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/homepageAssets/intro-icons/tick.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "size-[50px]",
+            "shrink-0",
+            "object-contain"
+          ],
+          "text": "",
+          "top": 1501,
+          "left": 120,
+          "width": 50,
+          "height": 50
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgrey.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 228,
+          "left": 992,
+          "width": 461,
+          "height": 819
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fexplosion.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 92,
+          "left": 978,
+          "width": 530,
+          "height": 663
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgreen-poster.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 187,
+          "left": 795,
+          "width": 378,
+          "height": 687
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgrey.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fexplosion.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.granola.ai/_next/image?url=%2FhomepageAssets%2Ffloating-items%2Fgreen-poster.jpg&w=1080&q=75",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "rounded-[4px]",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "z-0",
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 503,
+          "left": 1288,
+          "width": 117,
+          "height": 117
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(227, 227, 227)",
+        "count": 872
+      },
+      {
+        "value": "rgb(41, 41, 41)",
+        "count": 364
+      },
+      {
+        "value": "rgb(14, 15, 12)",
+        "count": 319
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 150
+      },
+      {
+        "value": "rgb(114, 114, 110)",
+        "count": 82
+      },
+      {
+        "value": "oklab(0 0 0 / 0.1)",
+        "count": 61
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 24
+      },
+      {
+        "value": "rgba(71, 67, 42, 0.2)",
+        "count": 23
+      },
+      {
+        "value": "rgb(247, 247, 242)",
+        "count": 17
+      },
+      {
+        "value": "rgb(252, 252, 248)",
+        "count": 16
+      },
+      {
+        "value": "rgb(172, 173, 168)",
+        "count": 11
+      },
+      {
+        "value": "rgb(213, 213, 210)",
+        "count": 10
+      },
+      {
+        "value": "rgb(222, 222, 222)",
+        "count": 10
+      },
+      {
+        "value": "rgb(78, 77, 75)",
+        "count": 7
+      },
+      {
+        "value": "rgb(178, 194, 72)",
+        "count": 6
+      },
+      {
+        "value": "rgb(33, 33, 33)",
+        "count": 6
+      },
+      {
+        "value": "rgba(0, 0, 0, 0) rgb(120, 140, 21) rgb(120, 140, 21)",
+        "count": 4
+      },
+      {
+        "value": "rgb(72, 72, 68)",
+        "count": 4
+      }
+    ],
+    "fonts": [
+      {
+        "value": "melange",
+        "count": 943
+      },
+      {
+        "value": "quadrant",
+        "count": 46
+      },
+      {
+        "value": "-apple-system",
+        "count": 15
+      }
+    ],
+    "radii": [
+      {
+        "value": "3.35544e+07px",
+        "count": 84
+      },
+      {
+        "value": "4px",
+        "count": 13
+      },
+      {
+        "value": "8px",
+        "count": 8
+      },
+      {
+        "value": "16px",
+        "count": 7
+      },
+      {
+        "value": "6px",
+        "count": 4
+      },
+      {
+        "value": "24px",
+        "count": 3
+      },
+      {
+        "value": "28px",
+        "count": 3
+      },
+      {
+        "value": "18%",
+        "count": 3
+      },
+      {
+        "value": "12px",
+        "count": 2
+      },
+      {
+        "value": "64px",
+        "count": 2
+      },
+      {
+        "value": "9999px",
+        "count": 1
+      },
+      {
+        "value": "1px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 36px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(71, 67, 42, 0.05) 0px 0px 0px 6px"
+    ],
+    "cssVars": {
+      "--oats-border-focus": "#b2c24899",
+      "--oats-border-hairline": "#47432a33",
+      "--oats-fill-accent": "#5b6f00",
+      "--oats-fill-accent-highlight": "#788c1526",
+      "--oats-fill-accent-highlight-strong": "#5b6f0033",
+      "--oats-fill-accent-hover": "#4c5616",
+      "--oats-fill-danger": "#e95d3d",
+      "--oats-fill-danger-hover": "#bd4a30",
+      "--oats-fill-disabled": "#d5d5d2",
+      "--oats-fill-highlight": "#625a220f",
+      "--oats-fill-highlight-inverse": "#ffffff0f",
+      "--oats-fill-highlight-strong": "#56512e1f",
+      "--oats-fill-highlight-strong-inverse": "#ffffff26",
+      "--oats-fill-input": "#fff",
+      "--oats-fill-input-disabled": "#f7f7f2",
+      "--oats-fill-neutral": "#acada8",
+      "--oats-fill-primary": "#292929",
+      "--oats-fill-primary-hover": "#4e4d4b",
+      "--oats-fill-soft": "#625a220f",
+      "--oats-fill-soft-hover": "#56512e1f",
+      "--oats-fill-soft-opaque": "#eaebe5",
+      "--oats-fill-soft-opaque-hover": "#d5d5d2",
+      "--oats-ink-accent": "#788c15",
+      "--oats-ink-accent-strong": "#5b6f00",
+      "--oats-ink-danger": "#bd4a30",
+      "--oats-ink-primary": "#292929",
+      "--oats-ink-primary-inverse": "#fcfcf8",
+      "--oats-ink-primary-inverse-static": "#fcfcf8",
+      "--oats-ink-primary-static": "#292929",
+      "--oats-ink-secondary": "#72726e",
+      "--oats-ink-secondary-inverse": "#9e9e99",
+      "--oats-ink-secondary-inverse-static": "#9e9e99",
+      "--oats-ink-secondary-static": "#72726e",
+      "--oats-ink-secondary-strong": "#4e4d4b",
+      "--oats-ink-secondary-strong-inverse-static": "#acada8",
+      "--oats-ink-secondary-strong-static": "#4e4d4b",
+      "--oats-ink-tertiary": "#acada8",
+      "--oats-ink-tertiary-static": "#acada8",
+      "--oats-surface": "#f7f7f2",
+      "--oats-surface-accent-blue": "#eaf4fe",
+      "--oats-surface-accent-green": "#f2f6e1",
+      "--oats-surface-accent-purple": "#f3f0fa",
+      "--oats-surface-elevated": "#fff",
+      "--oats-surface-overlay": "#818179",
+      "--oats-surface-raised": "#fff",
+      "--oats-surface-sunken": "#f2f2ec",
+      "--oats-surface-tooltip": "#363635",
+      "--oats-system-dancing-bars": "#74bd00",
+      "--oats-surface-tint-accent": "#e5eacd",
+      "--oats-surface-tint-neutral": "#625a220f",
+      "--tw-prose-body": "var(--color-primary)",
+      "--tw-prose-headings": "var(--color-strong)",
+      "--tw-prose-links": "var(--color-accent)",
+      "--tw-prose-counters": "var(--color-primary)",
+      "--tw-prose-bullets": "var(--color-primary)",
+      "--tw-prose-code": "white",
+      "--sh-class": "#2d5e9d",
+      "--sh-identifier": "#354150",
+      "--sh-sign": "#8996a3",
+      "--sh-string": "#007f7a",
+      "--sh-keyword": "#e02518",
+      "--sh-comment": "#a19595",
+      "--sh-jsxliterals": "#6266d1",
+      "--sh-property": "#e25a1c",
+      "--sh-entity": "#e25a1c",
+      "--background": "0 0% 100%",
+      "--foreground": "0 0% 0%",
+      "--card": "0 0% 100%",
+      "--card-foreground": "0 0% 0%",
+      "--popover": "0 0% 100%",
+      "--popover-foreground": "0 0% 0%",
+      "--primary": "0 0% 5%",
+      "--primary-foreground": "0 0% 100%",
+      "--secondary": "0 0% 27%",
+      "--secondary-foreground": "0 0% 100%",
+      "--muted": "0 0% 96%",
+      "--muted-foreground": "0 0% 45%",
+      "--accent": "109 82% 72%",
+      "--accent-foreground": "120 82% 25%",
+      "--destructive": "0 84% 60%"
+    },
+    "metaTheme": "#ffffff"
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"navbar-header\"><div class=\"mx-auto w-full max-w-7xl px-4 md:px-10 2xl:px-0\"><nav data-scrolled=\"false\" class=\"navbar-pill flex items-center flex-none h-14 text-content-primary\"><div class=\"flex gap-1 xs:gap-2 items-center w-full md:gap-px py-2\"><div class=\"flex flex-1 items-center\"><a aria-label=\"Granola home\" class=\"md:pl-1\" href=\"/\"><div class=\"relative\"><svg version=\"1.1\" viewBox=\"0 0 5017 1350\" class=\"mr-3 h-7 relative top-px mb-0.5 relative z-[70]\" xmlns=\"http://www.w3.org/20\u2026",
+    "heroHtml": "<div class=\"flex flex-col gap-8 items-start\"><h1 class=\"text-5xl sm:text-7xl font-quadrant text-ink-primary lg:text-[clamp(68px,6vw,110px)] leading-[0.93] tracking-[-0.02em] max-w-[10ch] text-balance\">The AI notepad for back-to-back meetings</h1><div class=\"text-lg lg:text-xl 3xl:text-2xl\"><p>Notes, actions and memory.</p><p>Without a meeting bot.</p></div><div class=\"flex flex-col items-start gap-6\"><div class=\"flex flex-col items-start gap-3\"><a href=\"https://notes.granola.ai/download\" role=\"b\u2026",
+    "footerHtml": "<footer class=\"mt-16\"><section id=\"footer\" class=\"flex overflow-visible relative flex-col w-full items-center px-4 md:px-10 2xl:px-0 lg:max-w-7xl justify-center !pb-0 mx-auto text-center gap-16 md:gap-20 lg:gap-28\"><div class=\"w-full text-left text-ink-primary text-base leading-[0.95] tracking-[0.02em]\"><div class=\"grid grid-cols-2 gap-x-6 gap-y-8 md:flex md:justify-between\"><div class=\"flex flex-col gap-1.5 items-start\"><div class=\"mb-2 py-1 font-quadrant text-2xl leading-[0.95] tracking-[-0.01\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.granola.ai/",
+  "html_signals": {
+    "h1_count": 3,
+    "h2_count": 8,
+    "section_count": 13,
+    "nav_count": 1,
+    "button_count": 11,
+    "img_count": 122,
+    "footer_count": 1
+  }
+}

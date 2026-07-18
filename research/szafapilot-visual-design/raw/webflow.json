@@ -1,0 +1,3392 @@
+{
+  "name": "webflow",
+  "url": "https://webflow.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/webflow-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/webflow-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/webflow-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/webflow-full.png",
+  "design": {
+    "url": "https://webflow.com/",
+    "title": "Webflow: The agentic web platform for modern businesses",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 10859
+    },
+    "themeGuess": "dark",
+    "luminance": 0.03137254901960784,
+    "bodyStyle": {
+      "color": "rgb(8, 8, 8)",
+      "backgroundColor": "rgb(8, 8, 8)",
+      "backgroundImage": "none",
+      "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(8, 8, 8)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(8, 8, 8)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "div",
+        "id": null,
+        "classes": [
+          "nav",
+          "w-nav"
+        ],
+        "text": "SKIP TO MAIN CONTENT Platform Solutions Resources Enterprise Pricing Log in Contact Sales Start for free",
+        "top": 46,
+        "left": 0,
+        "width": 1440,
+        "height": 68
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(8, 8, 8)",
+        "backgroundImage": "none",
+        "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Design",
+        "Edit content",
+        "Interactions",
+        "Collaboration",
+        "Page building",
+        "CMS",
+        "Hosting",
+        "Localize",
+        "Security",
+        "Shared Libraries",
+        "Analyze",
+        "Optimize",
+        "SEO",
+        "AEO new",
+        "Apps",
+        "Figma to Webflow",
+        "Webflow Cloud",
+        "DevLink",
+        "Learn more about Platform",
+        "Learn more about Ai",
+        "Marketer",
+        "Designer",
+        "Developer",
+        "Agency",
+        "Brand",
+        "Performance",
+        "Digital Experience",
+        "Ops",
+        "Engineering leaders",
+        "Developers"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "section",
+          "cc-footer"
+        ],
+        "text": "Product Platform Design Edit content Interactions GSAP Page building Shared Libraries Collaboration CMS Hosting Localize Security Ecommerce Analyze Optimize SEO AEO NEW Webflow Clo",
+        "top": 9603,
+        "left": 0,
+        "width": 1440,
+        "height": 1257
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(8, 8, 8)",
+        "backgroundImage": "none",
+        "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "80px 0px 32px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main",
+        "classes": [
+          "page-main"
+        ],
+        "text": "Make your website a growth engine Build your brand. Rank in AI search. Drive real revenue. All with Webflow. Enterprise Advanced collaboration, security, and scale for teams. \u2192",
+        "top": 114,
+        "left": 0,
+        "width": 1440,
+        "height": 9488
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "psz-home",
+          "cc-control"
+        ],
+        "top": 114,
+        "height": 8363,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Make your website a growth engine",
+        "headingTag": "h1",
+        "childCount": 4
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 1234,
+        "height": 1134,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Webflow is the agentic web marketing platform for high-performing brands",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 2369,
+        "height": 467,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 3788,
+        "height": 1170,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "300,000+ brands move \u2028the needle with Webflow",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 4958,
+        "height": 285,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "From idea to impact, faster",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 5244,
+        "height": 1079,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "section"
+        ],
+        "top": 6323,
+        "height": 2155,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Everything marketing teams love about webflow",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "section",
+          "u-mode-dark",
+          "u-overflow-hidden"
+        ],
+        "top": 8478,
+        "height": 1125,
+        "width": 1440,
+        "backgroundColor": "rgb(8, 8, 8)",
+        "backgroundImage": null,
+        "heading": "Make your website your competitive edge",
+        "headingTag": "h2",
+        "childCount": 4
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Platform",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-lg",
+            "u-mb-0"
+          ],
+          "text": "Platform",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Build",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav",
+            "cc-first"
+          ],
+          "text": "Build",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Manage",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Manage",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Optimize",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Optimize",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Extend",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Extend",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Platform Overview",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "41.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-xl"
+          ],
+          "text": "Platform Overview",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Webflow AI",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "41.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-xl"
+          ],
+          "text": "Webflow AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Solutions",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-lg",
+            "u-mb-0"
+          ],
+          "text": "Solutions",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Marketing",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav",
+            "cc-first"
+          ],
+          "text": "Marketing",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Engineering",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav",
+            "cc-first"
+          ],
+          "text": "Engineering",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Service Providers",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav",
+            "cc-first"
+          ],
+          "text": "Service Providers",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Enterprise",
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "41.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-xl"
+          ],
+          "text": "Enterprise",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "AEO",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "41.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-xl"
+          ],
+          "text": "AEO",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Resources",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-lg",
+            "u-mb-0"
+          ],
+          "text": "Resources",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Get started",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav",
+            "cc-first"
+          ],
+          "text": "Get started",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Learn",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Learn",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Discover",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Discover",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Get help",
+        "style": {
+          "color": "rgb(171, 171, 171)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(171, 171, 171)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading",
+            "cc-nav"
+          ],
+          "text": "Get help",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Site Settings",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "subheading-lg",
+            "u-mb-0"
+          ],
+          "text": "Site Settings",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Make your website a growth engine",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "600",
+          "lineHeight": "83.2px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "u-pointer-auto",
+            "u-text-balance"
+          ],
+          "text": "Make your website a growth engine",
+          "top": 194,
+          "left": 310,
+          "width": 821,
+          "height": 166
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Make websites that drive results",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "600",
+          "lineHeight": "83.2px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "none",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "u-pointer-auto",
+            "u-text-balance"
+          ],
+          "text": "Make websites that drive results",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Webflow is the agentic web marketing platform for high-performing brands",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "600",
+          "lineHeight": "58.24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "u-text-center",
+            "u-mb-0"
+          ],
+          "text": "Webflow is the agentic web marketing platform for high-performing brands",
+          "top": 1314,
+          "left": 293,
+          "width": 853,
+          "height": 175
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build together",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h6"
+          ],
+          "text": "Build together",
+          "top": 2141,
+          "left": 72,
+          "width": 411,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Publish at scale",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h6"
+          ],
+          "text": "Publish at scale",
+          "top": 2141,
+          "left": 515,
+          "width": 411,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Optimize for growth",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h6"
+          ],
+          "text": "Optimize for growth",
+          "top": 2141,
+          "left": 957,
+          "width": 411,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "300,000+ brands move \u2028the needle with Webflow",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "600",
+          "lineHeight": "58.24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "672.656px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "u-max-20ch",
+            "u-mb-0"
+          ],
+          "text": "300,000+ brands move the needle with Webflow",
+          "top": 3868,
+          "left": 72,
+          "width": 673,
+          "height": 116
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "From idea to impact, faster",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "radial-gradient(circle farthest-side at 0% 0%, rgb(202, 177, 255) 5%, rgb(20, 110, 245) 10%, rgb(255, 255, 255) 20%)",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "600",
+          "lineHeight": "58.24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "5.6px 0px",
+          "margin": "-5.6px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "u-mb-0"
+          ],
+          "text": "From idea to impact, faster",
+          "top": 5033,
+          "left": 72,
+          "width": 521,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h5"
+          ],
+          "text": "Build",
+          "top": 6119,
+          "left": 72,
+          "width": 416,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Manage",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h5"
+          ],
+          "text": "Manage",
+          "top": 6119,
+          "left": 512,
+          "width": 416,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Optimize",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "h5"
+          ],
+          "text": "Optimize",
+          "top": 6119,
+          "left": 952,
+          "width": 416,
+          "height": 31
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "New for Enterprise: Webflow AEO. Own your visibility in AI search \u2192",
+        "href": "/feature/aeo",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 110, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "22.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 100px inset",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "12px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-banner",
+            "w-inline-block"
+          ],
+          "text": "New for Enterprise: Webflow AEO. Own your visibility in AI search \u2192",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 46
+        }
+      },
+      {
+        "text": "SKIP TO MAIN CONTENT",
+        "href": "#main",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 110, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "500",
+          "lineHeight": "12px",
+          "letterSpacing": "0.6px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "9.6px 18px",
+          "margin": "-96px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": "skip-link",
+          "classes": [
+            "nav-skip-link",
+            "w--current"
+          ],
+          "text": "SKIP TO MAIN CONTENT",
+          "top": -50,
+          "left": 625,
+          "width": 190,
+          "height": 36
+        }
+      },
+      {
+        "text": "Home Page",
+        "href": "https://webflow.com/?r=0",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-logo_link",
+            "w-nav-brand"
+          ],
+          "text": "",
+          "top": 66,
+          "left": 72,
+          "width": 124,
+          "height": 25
+        }
+      },
+      {
+        "text": "Platform",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "dropdown_toggle_0",
+          "classes": [
+            "nav-link",
+            "cc-dropdown-btn",
+            "cc-js"
+          ],
+          "text": "Platform",
+          "top": 46,
+          "left": 225,
+          "width": 64,
+          "height": 67
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "dropdown_toggle_1",
+          "classes": [
+            "nav-link",
+            "cc-dropdown-btn",
+            "cc-js"
+          ],
+          "text": "Solutions",
+          "top": 46,
+          "left": 314,
+          "width": 70,
+          "height": 67
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "dropdown_toggle_2",
+          "classes": [
+            "nav-link",
+            "cc-dropdown-btn",
+            "cc-js"
+          ],
+          "text": "Resources",
+          "top": 46,
+          "left": 410,
+          "width": 80,
+          "height": 67
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "https://webflow.com/enterprise",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-link",
+            "w-nav-link"
+          ],
+          "text": "Enterprise",
+          "top": 46,
+          "left": 515,
+          "width": 77,
+          "height": 67
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "https://webflow.com/pricing",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-link",
+            "w-nav-link"
+          ],
+          "text": "Pricing",
+          "top": 46,
+          "left": 617,
+          "width": 52,
+          "height": 67
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "https://webflow.com/login",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-link",
+            "cc-secondary",
+            "cc-login",
+            "w-nav-link"
+          ],
+          "text": "Log in",
+          "top": 47,
+          "left": 1028,
+          "width": 45,
+          "height": 66
+        }
+      },
+      {
+        "text": "Contact Sales",
+        "href": "https://webflow.com/enterprise/contact-sales",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "15.9808px",
+          "fontWeight": "500",
+          "lineHeight": "25.5693px",
+          "letterSpacing": "-0.159808px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "20.775px 0px 19.177px",
+          "margin": "0px 12.7808px",
+          "display": "inline-flex",
+          "gap": "4.79424px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav-link",
+            "cc-secondary"
+          ],
+          "text": "Contact Sales",
+          "top": 47,
+          "left": 1098,
+          "width": 105,
+          "height": 66
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "https://webflow.com/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 110, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "19.2px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6.4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": "continue-nav",
+          "classes": [
+            "btn",
+            "w-button"
+          ],
+          "text": "Start for free",
+          "top": 54,
+          "left": 1224,
+          "width": 144,
+          "height": 51
+        }
+      },
+      {
+        "text": "Learn about Webflow Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-cover",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 479,
+          "left": 72,
+          "width": 421,
+          "height": 168
+        }
+      },
+      {
+        "text": "Explore Webflow AEO",
+        "href": "/feature/aeo",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-cover",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 479,
+          "left": 509,
+          "width": 421,
+          "height": 168
+        }
+      },
+      {
+        "text": "View webinar series",
+        "href": "https://webflow.com/resources/series/the-answer-engine",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-cover",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 479,
+          "left": 947,
+          "width": 421,
+          "height": 168
+        }
+      },
+      {
+        "text": "ncr logo",
+        "href": "https://webflow.com/customers/ncr",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 11,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "dropbox",
+        "href": "https://webflow.com/customers/dropbox-sign",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 650,
+          "left": 559,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "orangetheory fitness logo",
+        "href": "https://webflow.com/customers/orangetheory-fitness",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 1015,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "walker & dunlop logo",
+        "href": "https://webflow.com/customers/walker-dunlop",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 1479,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "docusign logo",
+        "href": "https://webflow.com/customers/docusign",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 1783,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "abm logo",
+        "href": "https://webflow.com/customers/abm",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 623,
+          "left": 1935,
+          "width": 158,
+          "height": 197
+        }
+      },
+      {
+        "text": "lattice logo",
+        "href": "https://webflow.com/customers/lattice",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 2723,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "ncr logo",
+        "href": "https://webflow.com/customers/ncr",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 3027,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "dropbox",
+        "href": "https://webflow.com/customers/dropbox-sign",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 650,
+          "left": 3659,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "orangetheory fitness logo",
+        "href": "https://webflow.com/customers/orangetheory-fitness",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 4115,
+          "width": 158,
+          "height": 171
+        }
+      },
+      {
+        "text": "walker & dunlop logo",
+        "href": "https://webflow.com/customers/walker-dunlop",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "u-link-overlay",
+            "u-z-index-1",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 649,
+          "left": 4571,
+          "width": 158,
+          "height": 171
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 110, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(54, 54, 54)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "cc-nav-ctas"
+          ],
+          "text": "Platform OverviewExplore the power of the Webflow platformLearn more about Platform",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(8, 8, 8)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav-card-overlay",
+            "u-img-overlay"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-body"
+          ],
+          "text": "Platform OverviewExplore the power of the Webflow platform",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 110, 245)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(54, 54, 54)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "cc-nav-ctas"
+          ],
+          "text": "Webflow AIElevate web experiences with the power of AILearn more about Ai",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(8, 8, 8)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav-card-overlay",
+            "u-img-overlay"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-body"
+          ],
+          "text": "Webflow AIElevate web experiences with the power of AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(216, 216, 216)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "u-mode-light"
+          ],
+          "text": "EnterpriseAdvanced collaboration workflows and enterprise-grade scalability.Learn more about Enterprise",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-body"
+          ],
+          "text": "EnterpriseAdvanced collaboration workflows and enterprise-grade scalability.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(8, 8, 8)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(54, 54, 54)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "u-mode-dark"
+          ],
+          "text": "AEOShow up in AI-driven search with the power of Webflow.Learn more about AEO",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card-body"
+          ],
+          "text": "AEOShow up in AI-driven search with the power of Webflow.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "50%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "accordion-icon_line",
+            "cc-horizontal",
+            "cc-accordion-card"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "50%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "accordion-icon_line",
+            "cc-vertical",
+            "cc-accordion-card"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "50%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "accordion-icon_line",
+            "cc-horizontal",
+            "cc-accordion-card"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "50%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "accordion-icon_line",
+            "cc-vertical",
+            "cc-accordion-card"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(8, 8, 8)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(8, 8, 8)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "50%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "accordion-icon_line",
+            "cc-horizontal",
+            "cc-accordion-card"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439d0_webflow-desktop.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-image-img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439e5_webflow-tablet.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-image-img",
+            "cc-tablet"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439dc_ideo-logo.svg",
+        "alt": "Ideo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439c8_monday.com.svg",
+        "alt": "Monday.com",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439db_bbdo-logo.svg",
+        "alt": "BBDO",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439d9_nytimes.svg",
+        "alt": "The New York Times",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439d8_TED.svg",
+        "alt": "Ted",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/68c9a39c128261b2128439c9_Docusign-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "g-modal-logos_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/69f3b3ffe1fae88ba6e4a705_creation-thumbnail__enterprise.avif",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 503,
+          "left": 349,
+          "width": 120,
+          "height": 144
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/69f3b524f5cc19a27dce3c0a_creation-method_overlay_avatars.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method_img-overlay",
+            "cc-avatars"
+          ],
+          "text": "",
+          "top": 579,
+          "left": 409,
+          "width": 148,
+          "height": 37
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904db1c61b3c12d43405059_creation-thumbnail_aisb.avif",
+        "alt": "A mockup of a website home page built with Webflow's AI site builder.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 503,
+          "left": 787,
+          "width": 120,
+          "height": 144
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/69f3b52401727704a9d85ae1_creation-method_overlay_schema.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method_img-overlay",
+            "cc-aeo"
+          ],
+          "text": "",
+          "top": 579,
+          "left": 815,
+          "width": 344,
+          "height": 37
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/69f3b9ed3bcae5e63e5187ae_creation-thumbnail__webinars.avif",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 503,
+          "left": 1224,
+          "width": 120,
+          "height": 144
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904db1c61b3c12d43405059_creation-thumbnail_aisb.avif",
+        "alt": "A mockup of a website home page built with Webflow's AI site builder.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904ede61383abf07b42d079_creation-method_overlay-img_generate.avif",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method_img-overlay"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904db1cdf3e06f9fe7c5377_creation-thumbnail_maeve-template.avif",
+        "alt": "A screenshot of a Webflow template called, \"Maeve.\"",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904db1cabdf76211061ba36_creation-thumbnail_blank.svg",
+        "alt": "An abstract representation of a blank Webflow project.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method-btn_img"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904ede6d610d2415108577b_creation-method_overlay-img_section-block.avif",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method_img-overlay",
+            "cc-section-block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/6904ede6fe836900bb0ce7d9_grab-cursor.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "creation-method_img-overlay",
+            "cc-cursor"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://dhygzobemt712.cloudfront.net/Web/logos/dark/verifone.svg",
+        "alt": "verifone logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "logo-component"
+          ],
+          "text": "",
+          "top": 828,
+          "left": -142,
+          "width": 120,
+          "height": 24
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 2043
+      },
+      {
+        "value": "rgb(108, 167, 255)",
+        "count": 194
+      },
+      {
+        "value": "rgb(8, 8, 8)",
+        "count": 126
+      },
+      {
+        "value": "rgb(255, 166, 102)",
+        "count": 84
+      },
+      {
+        "value": "rgb(171, 171, 171)",
+        "count": 56
+      },
+      {
+        "value": "rgb(96, 237, 118)",
+        "count": 24
+      },
+      {
+        "value": "rgb(23, 23, 23)",
+        "count": 19
+      },
+      {
+        "value": "rgb(54, 54, 54)",
+        "count": 18
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgb(54, 54, 54)",
+        "count": 13
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 12
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 11
+      },
+      {
+        "value": "rgb(20, 110, 245)",
+        "count": 10
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.4)",
+        "count": 6
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "count": 3
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgba(0, 0, 0, 0)",
+        "count": 3
+      },
+      {
+        "value": "rgba(20, 110, 245, 0.1)",
+        "count": 3
+      },
+      {
+        "value": "rgb(41, 41, 41)",
+        "count": 3
+      },
+      {
+        "value": "rgb(34, 34, 34)",
+        "count": 3
+      }
+    ],
+    "fonts": [
+      {
+        "value": "WF Visual Sans Variable",
+        "count": 975
+      },
+      {
+        "value": "WFVisualSans-Mono",
+        "count": 310
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 62
+      },
+      {
+        "value": "4px",
+        "count": 30
+      },
+      {
+        "value": "50%",
+        "count": 11
+      },
+      {
+        "value": "2px 2px 0px 0px",
+        "count": 6
+      },
+      {
+        "value": "0px 0px 8px 8px",
+        "count": 6
+      },
+      {
+        "value": "0px 2px 2px 0px",
+        "count": 3
+      },
+      {
+        "value": "2px",
+        "count": 2
+      },
+      {
+        "value": "0px 0px 4px 4px",
+        "count": 1
+      },
+      {
+        "value": "4px 0px 0px 4px",
+        "count": 1
+      },
+      {
+        "value": "0px 4px 0px 0px",
+        "count": 1
+      },
+      {
+        "value": "4px 0px 0px",
+        "count": 1
+      },
+      {
+        "value": "0px 0px 4px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 100px inset",
+      "rgba(0, 0, 0, 0) 0px 84px 24px 0px, rgba(0, 0, 0, 0.01) 0px 54px 22px 0px, rgba(0, 0, 0, 0.04) 0px 30px 18px 0px, rgba(0, 0, 0, 0.08) 0px 13px 13px 0px, rgba(0, 0, 0, 0.09) 0px 3px 7px 0px",
+      "rgba(0, 0, 0, 0) 0px 105px 30px 0px, rgba(0, 0, 0, 0.02) 0px 67px 27px 0px, rgba(0, 0, 0, 0.06) 0px 38px 23px 0px, rgba(0, 0, 0, 0.1) 0px 17px 17px 0px, rgba(0, 0, 0, 0.12) 0px 4px 9px 0px",
+      "rgba(0, 0, 0, 0.01) 0px 148px 42px 0px, rgba(0, 0, 0, 0.04) 0px 95px 38px 0px, rgba(0, 0, 0, 0.15) 0px 53px 32px 0px, rgba(0, 0, 0, 0.26) 0px 24px 24px 0px, rgba(0, 0, 0, 0.29) 0px 6px 13px 0px"
+    ],
+    "cssVars": {
+      "--colors--background": "var(--_color---neutral--white)",
+      "--_typography---paragraph-body--font": "var(--_typography---fonts--primary-font)",
+      "--_color---neutral--black": "#080808",
+      "--_typography---paragraph-body--font-size": "1rem",
+      "--_typography---paragraph-body--line-height": "1.6",
+      "--_typography---paragraph-body--font-weight": "400",
+      "--_typography---paragraph-body--letter-spacing": "0em",
+      "--_typography---h1--bottom-margin": "var(--_layout---spacing--margin-md)",
+      "--_typography---h1--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h1--font-size": "clamp(2.75*1rem,((2.75 - ((5 - 2.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--",
+      "--_typography---h1--line-height": "1.04",
+      "--_typography---h1--font-weight": "600",
+      "--_typography---h1--letter-spacing": "-.01em",
+      "--_typography---h2--bottom-margin": "var(--_layout---spacing--margin-md)",
+      "--_typography---h2--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h2--font-size": "clamp(2*1rem,((2 - ((3.5 - 2)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*",
+      "--_typography---h2--line-height": "1.04",
+      "--_typography---h2--font-weight": "600",
+      "--_typography---h2--letter-spacing": "0em",
+      "--_typography---h3--bottom-margin": "var(--_layout---spacing--margin-sm)",
+      "--_typography---h3--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h3--font-size": "clamp(1.75*1rem,((1.75 - ((2.5 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid",
+      "--_typography---h3--line-height": "1.2",
+      "--_typography---h3--font-weight": "600",
+      "--_typography---h3--letter-spacing": "0em",
+      "--_typography---h4--bottom-margin": "var(--_layout---spacing--margin-xs)",
+      "--_typography---h4--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h4--font-size": "clamp(1.375*1rem,((1.375 - ((2 - 1.375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---flui",
+      "--_typography---h4--line-height": "1.2",
+      "--_typography---h4--font-weight": "600",
+      "--_typography---h4--letter-spacing": "0em",
+      "--_typography---h5--bottom-margin": "var(--_layout---spacing--margin-sm)",
+      "--_typography---h5--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h5--font-size": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid",
+      "--_typography---h5--line-height": "1.3",
+      "--_typography---h5--font-weight": "600",
+      "--_typography---h5--letter-spacing": "0em",
+      "--_typography---h6--bottom-margin": "var(--_layout---spacing--margin-xs)",
+      "--_typography---h6--font": "var(--_typography---fonts--primary-font)",
+      "--_typography---h6--font-size": "clamp(1.125*1rem,((1.125 - ((1.25 - 1.125)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---f",
+      "--_typography---h6--line-height": "1.4",
+      "--_typography---h6--font-weight": "600",
+      "--_typography---h6--letter-spacing": "0em",
+      "--_typography---paragraph-body--bottom-margin": "var(--_layout---spacing--margin-sm)",
+      "--colors--primary-accent": "var(--_color---primary--webflow-blue)",
+      "--_layout---section-spacing--small": "clamp(3*1rem,((3 - ((5 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1r",
+      "--colors--text": "var(--_color---neutral--black)",
+      "--colors--border": "var(--_color---neutral--gray-200)",
+      "--_layout---spacing--margin-xl": "clamp(2.25*1rem,((2.25 - ((3 - 2.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--",
+      "--colors--secondary-background": "var(--_color---neutral--gray-100)",
+      "--_layout---spacing--margin-md": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid",
+      "--_layout---section-spacing--medium": "clamp(3*1rem,((3 - ((9 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1r",
+      "--_components---nav--height": "4.25rem",
+      "--_layout---spacing--margin-sm": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--",
+      "--_layout---section-spacing--extra-large": "clamp(10*1rem,((10 - ((28 - 10)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min))",
+      "--_layout---spacing--margin-lg": "clamp(1.75*1rem,((1.75 - ((2 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--",
+      "--_layout---container--max-width": "calc(var(--_layout---fluid--max)*1rem)",
+      "--_layout---grid--gap-md": "var(--_layout---spacing--margin-md)",
+      "--_layout---grid--gap-main": "var(--_layout---spacing--margin-lg)",
+      "--_layout---grid--gap-sm": "var(--_layout---spacing--margin-sm)",
+      "--_layout---grid--gap-lg": "var(--_layout---spacing--margin-xl)",
+      "--_layout---grid--gap-xs": "var(--_layout---spacing--margin-xs)",
+      "--_layout---grid--gap-xl": "clamp(2.5*1rem,((2.5 - ((5 - 2.5)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min",
+      "--_color---secondary--purple": "#7a3dff",
+      "--_color---secondary--pink": "#ed52cb",
+      "--_components---button--vertical-padding": "1em",
+      "--_components---button--horizontal-padding": "1.5em",
+      "--_components---button--border-radius": ".25rem",
+      "--_components---button--font": "var(--_typography---fonts--primary-font)",
+      "--_color---neutral--white": "white",
+      "--_components---button--font-size": "1rem",
+      "--_components---button--line-height": "1.2em",
+      "--_components---button--font-weight": "500",
+      "--_components---button--letter-spacing": "-.01em",
+      "--_color---primary--webflow-blue": "#146ef5",
+      "--colors--text-secondary": "var(--_color---neutral--gray-600)",
+      "--_color---neutral--gray-700": "#363636",
+      "--_components---card--border-radius": ".5rem",
+      "--_components---card--padding": "clamp(1*1rem,((1 - ((1.5 - 1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*",
+      "--_components---input--bottom-margin": "var(--_layout---grid--gap-md)"
+    },
+    "metaTheme": "#146EF5"
+  },
+  "snippets": {
+    "headerHtml": "<div data-nav=\"\" data-animation=\"default\" class=\"nav w-nav\" data-easing2=\"ease\" data-easing=\"ease\" aria-label=\"Primary\" data-collapse=\"medium\" data-wf--nav--variant=\"base\" role=\"banner\" data-duration=\"0\" data-doc-height=\"1\"><div class=\"u-embed-css w-embed\"><style>  \n  /* Mobile menu button animation */\n  [class*=\"nav-menu_btn\"].w--open [class*=\"cc-top\"] {\n    transform: translateY(0.375rem) rotate(45deg);\n  }\n  [class*=\"nav-menu_btn\"].w--open [class*=\"cc-middle\"] {\n    opacity: 0;\n    transform:\u2026",
+    "heroHtml": "<div data-wf--heading--alignment=\"left-align\" class=\"heading-component\"><h1 class=\"u-pointer-auto u-text-balance\">Make your website a growth engine</h1></div>",
+    "footerHtml": "<footer data-wf--footer--layout=\"full\" class=\"section cc-footer\"><div class=\"u-svg-clip w-embed\"><style>\n  /* Hover */\n  @media (hover: hover) and (pointer: fine) {\n    .g-footer-brand:hover .g-brand-logo_img-container {\n      opacity: 1;\n    }\n  }\n  @media (prefers-reduced-motion: reduce) {\n    .g-footer-brand:hover .g-brand-logo_img-container {\n      opacity: 0;\n    }\n  }\n\n  /* Clip SVG */\n  .svg {\n    position: absolute;\n    width: 0;\n    height: 0;\n  }\n</style>\n<svg class=\"svg\">\n  <clipPath \u2026"
+  },
+  "status": 200,
+  "final_url": "https://webflow.com/",
+  "html_signals": {
+    "h1_count": 2,
+    "h2_count": 31,
+    "section_count": 7,
+    "nav_count": 9,
+    "button_count": 48,
+    "img_count": 177,
+    "footer_count": 1
+  }
+}

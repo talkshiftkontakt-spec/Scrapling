@@ -1,0 +1,2000 @@
+{
+  "name": "framer",
+  "url": "https://www.framer.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/framer-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/framer-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/framer-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/framer-full.png",
+  "design": {
+    "url": "https://www.framer.com/",
+    "title": "Framer: AI website builder for professional sites",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 10923
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "framer-fUUGb",
+          "framer-7t3YM",
+          "framer-140pdlc",
+          "framer-v-140pdlc"
+        ],
+        "text": "Framer Product Community Resources Enterprise Pricing Log in Sign up Copy logo SVG Brand guidelines",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 64
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px 20px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Get started for free",
+        "Download app",
+        "Framer 3.0\n\nEverything we shipped",
+        "See Framer sites",
+        "Start with agents",
+        "Browse the community",
+        "Read stories"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "framer-6IRPH",
+          "framer-LAek5",
+          "framer-3wgpx",
+          "framer-v-3wgpx"
+        ],
+        "text": "Framer Product AI NEW Agents NEW External Agents NEW Design Collaborate NEW CMS Hosting Performance SEO Convert Publish Updates NEW Community Marketplace Templ",
+        "top": 10285,
+        "left": 100,
+        "width": 1240,
+        "height": 638
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "20px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "100%",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "framer-1xjqbme"
+        ],
+        "text": "Framer is the AI website builder for standout sites Get started for free Download app Framer 3.0 Everything we shipped Canvas Site \u00b7 main 12 Invite Publish Pages Layer",
+        "top": 64,
+        "left": 0,
+        "width": 1440,
+        "height": 9561
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "framer-os8nm6"
+        ],
+        "top": 64,
+        "height": 1193,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Framer is the AI website builder for standout sites",
+        "headingTag": "h1",
+        "childCount": 2
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "framer-1d2612y"
+        ],
+        "top": 1257,
+        "height": 1358,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Shipped with Framer",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "framer-p36991"
+        ],
+        "top": 2615,
+        "height": 3157,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Agents that work alongside you, not instead of you",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "framer-7ubwi2"
+        ],
+        "top": 5772,
+        "height": 1817,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Not just vibes, a full platform",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "framer-126qlmq"
+        ],
+        "top": 7589,
+        "height": 1217,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Built on a community that isn\u2019t going anywhere",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "framer-rqnlak"
+        ],
+        "top": 8806,
+        "height": 819,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Trusted by teams shipping big sites",
+        "headingTag": "h2",
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Framer is the AI website builder for standout sites",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "500",
+          "lineHeight": "54px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-1gzpg4m"
+          ],
+          "text": "Framer is the AI website builder for standout sites",
+          "top": 164,
+          "left": 120,
+          "width": 607,
+          "height": 108
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Shipped with Framer",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fbtpvo"
+          ],
+          "text": "Shipped with Framer",
+          "top": 1457,
+          "left": 120,
+          "width": 400,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Agents that work alongside you, not instead of you",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fbtpvo"
+          ],
+          "text": "Agents that work alongside you, not instead of you",
+          "top": 2775,
+          "left": 120,
+          "width": 520,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Design with an agent",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-ojsfn5"
+          ],
+          "text": "Design with an agent",
+          "top": 3425,
+          "left": 130,
+          "width": 640,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Run your CMS with an agent",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-ojsfn5"
+          ],
+          "text": "Run your CMS with an agent",
+          "top": 4125,
+          "left": 130,
+          "width": 640,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Code with an agent",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-ojsfn5"
+          ],
+          "text": "Code with an agent",
+          "top": 4825,
+          "left": 130,
+          "width": 733,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Connect to any AI",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-ojsfn5"
+          ],
+          "text": "Connect to any AI",
+          "top": 5525,
+          "left": 130,
+          "width": 620,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Not just vibes, a full platform",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fbtpvo"
+          ],
+          "text": "Not just vibes, a full platform",
+          "top": 5892,
+          "left": 120,
+          "width": 270,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Performance",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Performance",
+          "top": 6460,
+          "left": 145,
+          "width": 107,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "CMS",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "CMS",
+          "top": 6460,
+          "left": 545,
+          "width": 40,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "SEO",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "SEO",
+          "top": 6940,
+          "left": 145,
+          "width": 35,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Collaboration",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Collaboration",
+          "top": 6700,
+          "left": 545,
+          "width": 110,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Localization",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Localization",
+          "top": 6940,
+          "left": 545,
+          "width": 99,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Hosting",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Hosting",
+          "top": 6700,
+          "left": 945,
+          "width": 63,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Security",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Security",
+          "top": 6940,
+          "left": 945,
+          "width": 68,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Analytics",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "Analytics",
+          "top": 7420,
+          "left": 145,
+          "width": 76,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "A/B Testing",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24.3px",
+          "letterSpacing": "-0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "framer-text"
+          ],
+          "text": "A/B Testing",
+          "top": 7420,
+          "left": 945,
+          "width": 95,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Built on a community that isn\u2019t going anywhere",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fbtpvo"
+          ],
+          "text": "Built on a community that isn\u2019t going anywhere",
+          "top": 7709,
+          "left": 120,
+          "width": 500,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by teams shipping big sites",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-fbtpvo"
+          ],
+          "text": "Trusted by teams shipping big sites",
+          "top": 8926,
+          "left": 120,
+          "width": 330,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Your next idea starts here",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "500",
+          "lineHeight": "54px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "framer-text",
+            "framer-styles-preset-1gzpg4m"
+          ],
+          "text": "Your next idea starts here",
+          "top": 9764,
+          "left": 379,
+          "width": 682,
+          "height": 54
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Framer",
+        "href": "./",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-WFgEA",
+            "framer-qdeek2",
+            "framer-v-qdeek2",
+            "framer-4n26gx"
+          ],
+          "text": "Framer",
+          "top": 19,
+          "left": 120,
+          "width": 72,
+          "height": 26
+        }
+      },
+      {
+        "text": "Product",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-1e0zr5a",
+            "framer-1fczci3"
+          ],
+          "text": "Product",
+          "top": 20,
+          "left": 217,
+          "width": 61,
+          "height": 24
+        }
+      },
+      {
+        "text": "Community",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-1e0zr5a",
+            "framer-1fczci3"
+          ],
+          "text": "Community",
+          "top": 20,
+          "left": 293,
+          "width": 85,
+          "height": 24
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-1e0zr5a",
+            "framer-1fczci3"
+          ],
+          "text": "Resources",
+          "top": 20,
+          "left": 392,
+          "width": 78,
+          "height": 24
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "./enterprise/",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-1e0zr5a",
+            "framer-1fczci3"
+          ],
+          "text": "Enterprise",
+          "top": 20,
+          "left": 486,
+          "width": 76,
+          "height": 24
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "./pricing",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-1e0zr5a",
+            "framer-1fczci3"
+          ],
+          "text": "Pricing",
+          "top": 20,
+          "left": 577,
+          "width": 55,
+          "height": 24
+        }
+      },
+      {
+        "text": "Sign up",
+        "href": "https://www.framer.com/r/signup/",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-16mrjhl",
+            "framer-enysp5"
+          ],
+          "text": "Sign up",
+          "top": 17,
+          "left": 1254,
+          "width": 66,
+          "height": 30
+        }
+      },
+      {
+        "text": "Copy logo SVG",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "15px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "15px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-ly7rus",
+            "framer-1fczci3"
+          ],
+          "text": "Copy logo SVG",
+          "top": 67,
+          "left": 130,
+          "width": 154,
+          "height": 44
+        }
+      },
+      {
+        "text": "Brand guidelines",
+        "href": "./brand",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "15px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "15px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-urTWV",
+            "framer-ly7rus",
+            "framer-v-ly7rus",
+            "framer-1fczci3"
+          ],
+          "text": "Brand guidelines",
+          "top": 111,
+          "left": 130,
+          "width": 154,
+          "height": 44
+        }
+      },
+      {
+        "text": "Get started for free",
+        "href": "https://framer.com/r/signup/",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "10px 14px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "7px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-HvFij",
+            "framer-qkzqfa",
+            "framer-v-qkzqfa",
+            "framer-lt5xhr"
+          ],
+          "text": "Get started for free",
+          "top": 298,
+          "left": 120,
+          "width": 149,
+          "height": 34
+        }
+      },
+      {
+        "text": "Download app",
+        "href": "https://updates.framer.com/electron/darwin/arm64/Framer.zip?_ga=2.113395847.1447313862.1646043056-273660571.1642151053",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0.1)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "10px 14px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "7px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-HvFij",
+            "framer-qkzqfa",
+            "framer-v-qkzqfa",
+            "framer-lt5xhr"
+          ],
+          "text": "Download app",
+          "top": 297,
+          "left": 279,
+          "width": 142,
+          "height": 35
+        }
+      },
+      {
+        "text": "Learn how our AI agents work",
+        "href": "./#agents",
+        "style": {
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 238)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "3px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "framer-7AfXl",
+            "framer-1yj9q62",
+            "framer-v-1yo7lad",
+            "framer-fbfhdw"
+          ],
+          "text": "Learn how our AI agents work",
+          "top": 1212,
+          "left": 630,
+          "width": 180,
+          "height": 25
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/UnfUTFiycUvyLiWVaZSTQX3S7kA.png?width=335&height=335",
+        "alt": "Interface preview in 2026 UI/Canvas UI/App UI Top Bar.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 402,
+          "left": 1085,
+          "width": 30,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/23W7URwXzeyNBGr6KAR1Ovou6V4.png?width=475&height=475",
+        "alt": "Interface preview in 2026 UI/Canvas UI/App UI Top Bar.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 402,
+          "left": 1065,
+          "width": 30,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/HpuIynUBjhAJSaXjaIesR9XZ7fM.png?scale-down-to=512&width=2160&height=2160",
+        "alt": "Interface preview in 2026 UI/Canvas UI/App UI Top Bar.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 402,
+          "left": 1045,
+          "width": 30,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/tYCN0QonegUXVR55WmrQ7jG3nLo.jpg?scale-down-to=2048&width=2240&height=140",
+        "alt": "HAUS Logo interface preview in 2026 Frontpage/Home Hero Site Desktop.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 542,
+          "left": 455,
+          "width": 530,
+          "height": 33
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/CvGf2WB8Q3Q9xFTMPzlPIpuqL4o.jpg?scale-down-to=2048&width=2240&height=740",
+        "alt": "HAUS About interface preview in 2026 Frontpage/Home Hero Site Desktop.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 575,
+          "left": 455,
+          "width": 530,
+          "height": 175
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://framerusercontent.com/assets/Eu34w3qmcwIMwxWCvCWBKaHtrw.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 750,
+          "left": 455,
+          "width": 530,
+          "height": 284
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/ZFCF3yK98ckn0QgDMmKrJXXURVQ.jpg?scale-down-to=2048&width=2240&height=900",
+        "alt": "Image interface preview in 2026 Frontpage/Home Hero Site Desktop.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1034,
+          "left": 455,
+          "width": 530,
+          "height": 213
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/NSyL5fO3XPhUYlHmNfv0May8LM.jpg?width=2240&height=140",
+        "alt": "Interface preview in 2026 Frontpage/Home Hero Site Desktop.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1247,
+          "left": 455,
+          "width": 530,
+          "height": 33
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/ICi2m2zyPai1LKwz9XZEkgSzQ.jpg?scale-down-to=1024&width=1620&height=140",
+        "alt": "Default interface preview in 2026 Frontpage/Home Hero Site Tablet.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 542,
+          "left": 1020,
+          "width": 380,
+          "height": 33
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://framerusercontent.com/assets/tIWm3IhzJNTfEtVL9lEqnFZAy58.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 575,
+          "left": 1020,
+          "width": 380,
+          "height": 188
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/HMvEeofMOWYzHDwChgXFgpYcs.jpg?scale-down-to=1024&width=1620&height=370",
+        "alt": "About interface preview in 2026 Frontpage/Home Hero Site Tablet.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 762,
+          "left": 1020,
+          "width": 380,
+          "height": 87
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/VDou7Mwa4dcffjzYvoa80Cmi74.jpg?scale-down-to=1024&width=1620&height=960",
+        "alt": "Hero Video interface preview in 2026 Frontpage/Home Hero Site Tablet.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 849,
+          "left": 1020,
+          "width": 380,
+          "height": 225
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/MvPPd7I4xJxeNO5ievRfaoAE.jpg?scale-down-to=1024&width=1620&height=1180",
+        "alt": "List interface preview in 2026 Frontpage/Home Hero Site Tablet.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1074,
+          "left": 1020,
+          "width": 380,
+          "height": 277
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/I4HWeSzUbC3vy22QykEaieasPY.jpg?width=1620&height=140",
+        "alt": "Interface preview in 2026 Frontpage/Home Hero Site Tablet.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1351,
+          "left": 1020,
+          "width": 380,
+          "height": 33
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/9fmhLlnuVij5WJGb7AKAPHd8K4.jpg?width=450&height=450",
+        "alt": "Website canvas preview inside the Framer app interface",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 622,
+          "left": 1080,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/FnIAILjnZeFuwBoETfTs4DaTubU.jpg?width=450&height=450",
+        "alt": "Design preview inside the Framer app interface",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 622,
+          "left": 1125,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/GjvoTAZBS3bbZCkT9BvgvSP3Tio.jpg?width=450&height=450",
+        "alt": "Website screenshot preview inside the Framer app interface",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 622,
+          "left": 1170,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/QSALLMZz20lUztB4mySTDLq6mE.png?scale-down-to=2048&width=2800&height=1804",
+        "alt": "Site image in 2026 Frontpage/Sites.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1545,
+          "left": 110,
+          "width": 700,
+          "height": 450
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/ordt7SZDaUEWKA368UbAGtdIno.png?width=884&height=1894",
+        "alt": "Maggie Site",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1545,
+          "left": 820,
+          "width": 220,
+          "height": 450
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://framerusercontent.com/images/a1daVaOmbl26jqNCw1Q0P3vhWZQ.png?scale-down-to=2048&width=2796&height=1808",
+        "alt": "Midlife Engineering",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1545,
+          "left": 1050,
+          "width": 700,
+          "height": 450
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 3880
+      },
+      {
+        "value": "rgb(153, 153, 153)",
+        "count": 346
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 278
+      },
+      {
+        "value": "rgb(0, 0, 238)",
+        "count": 222
+      },
+      {
+        "value": "rgb(102, 102, 102)",
+        "count": 56
+      },
+      {
+        "value": "rgb(36, 36, 36)",
+        "count": 44
+      },
+      {
+        "value": "rgb(0, 153, 255)",
+        "count": 38
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 26
+      },
+      {
+        "value": "rgb(17, 17, 17)",
+        "count": 20
+      },
+      {
+        "value": "rgb(0, 187, 136)",
+        "count": 20
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.6)",
+        "count": 18
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.4)",
+        "count": 18
+      },
+      {
+        "value": "rgb(30, 30, 30)",
+        "count": 16
+      },
+      {
+        "value": "rgb(204, 204, 204)",
+        "count": 14
+      },
+      {
+        "value": "rgba(0, 187, 136, 0.1)",
+        "count": 10
+      },
+      {
+        "value": "rgb(214, 122, 92)",
+        "count": 10
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.06)",
+        "count": 8
+      },
+      {
+        "value": "rgb(48, 48, 48)",
+        "count": 7
+      }
+    ],
+    "fonts": [
+      {
+        "value": "sans-serif",
+        "count": 2041
+      },
+      {
+        "value": "Inter",
+        "count": 271
+      },
+      {
+        "value": "Inter Variable",
+        "count": 70
+      },
+      {
+        "value": "Input Mono Regular",
+        "count": 28
+      },
+      {
+        "value": "GT Walsheim Medium",
+        "count": 8
+      },
+      {
+        "value": "Input Mono Bold",
+        "count": 6
+      },
+      {
+        "value": "Inter Medium",
+        "count": 4
+      },
+      {
+        "value": "JetBrains Mono",
+        "count": 2
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 145
+      },
+      {
+        "value": "15px",
+        "count": 82
+      },
+      {
+        "value": "6px",
+        "count": 35
+      },
+      {
+        "value": "5px",
+        "count": 30
+      },
+      {
+        "value": "4px",
+        "count": 26
+      },
+      {
+        "value": "20px",
+        "count": 26
+      },
+      {
+        "value": "100px",
+        "count": 18
+      },
+      {
+        "value": "10px",
+        "count": 13
+      },
+      {
+        "value": "25px",
+        "count": 9
+      },
+      {
+        "value": "18px",
+        "count": 6
+      },
+      {
+        "value": "1px",
+        "count": 4
+      },
+      {
+        "value": "50px",
+        "count": 3
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.15) 0px 10px 20px 0px, rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+      "rgb(17, 17, 17) 0px 0px 0px 2px",
+      "rgb(17, 17, 17) 0px 0px 0px 1.5px",
+      "rgba(0, 153, 255, 0.15) 0px 1px 2px 0px, rgba(0, 153, 255, 0.2) 0px 2px 4px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 26px 41.6px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 35.8995px 57.4392px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 40px 64px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 16.1005px 25.7608px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 12px 19.2px 0px",
+      "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px",
+      "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+      "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px"
+    ],
+    "cssVars": {
+      "--token-c534b380-e14e-4ddc-9802-ad88d1f94f8e": "#ffffff1a",
+      "--token-6ecb0037-dab8-4348-b657-00f38b638028": "#cbff00",
+      "--token-1ef30da2-9620-422c-b321-d10088e14610": "#000",
+      "--token-3d980185-7d0f-4837-b1d0-e3a68e16a293": "#0000001a",
+      "--token-5e0b3b72-9a97-43f8-96f2-85d741f3d8ca": "#1a1a1a",
+      "--token-958e2cd1-b113-4aa3-9235-7a2b959c8feb": "#000",
+      "--token-26e3cb56-8447-4a64-9b7d-37f16a9909d4": "#fff",
+      "--token-289cb3ad-ad59-4cce-aee5-0850b842d9c8": "#fffc",
+      "--token-8f5eb515-7a13-452b-a4ab-f35e2208a3f3": "#fff9",
+      "--token-f5637926-8ee6-41cb-a320-ec3462d62cd5": "#fff6",
+      "--token-bd71055c-0a2c-4476-8cc9-4310acba652d": "#09f",
+      "--token-eb0d9e00-7216-491c-99d5-7c1c2f3d0dbe": "#05f",
+      "--token-0245ad54-dffa-4280-9b49-9d43ad68acaa": "#60f",
+      "--token-66dfdba2-b084-43a3-a18d-237c2893b6a7": "#90f",
+      "--token-0c4c4e00-f4fc-4e6a-9a97-509a95a3e5d4": "#f06",
+      "--token-88cad303-8ee5-4c22-877f-e434faf14eee": "#f02",
+      "--token-61e699c7-742b-47d0-bb16-f42065b06637": "#fd7702",
+      "--token-be530db7-18b2-4273-89ab-17e94ce4aa9f": "#fb0",
+      "--token-ee053477-e115-4fec-a5f5-cdc637ed6ddc": "#0cf",
+      "--token-893b117c-1037-4f46-becb-94bc264ede3a": "#2dd",
+      "--token-2fbf5c4b-adb8-4940-91a4-ad94f8d791ba": "#141414",
+      "--token-281f665e-69f0-4f4c-a171-f40f50fe70d5": "#4cd963",
+      "--token-81eeded8-7d17-49fd-8f9d-4b09d4083be5": "#ffffff12",
+      "--token-5e2a9781-f258-43f3-ae02-0a76276a5519": "#111",
+      "--token-94a5bf9a-16a4-4639-b671-271526647eef": "#333",
+      "--token-a1269b3c-6c48-45d9-9f35-32a6df13b5e0": "#383838",
+      "--token-0670237f-f1ec-47e8-98e0-ecdf93f4467c": "#888",
+      "--token-ea0a2ab8-ce16-4a61-995f-9a3f03b39cf7": "#fff3",
+      "--token-5964e09d-3671-4c80-a557-31c1772b6c22": "#999",
+      "--token-4a5ab9b5-071f-4390-82c0-81f9558f671f": "#fff",
+      "--token-8015ce2b-ef6f-4fe0-944b-b61f872d0501": "#999",
+      "--token-e0051992-b662-4a7c-a4c8-9cd5b5125f7a": "#171717",
+      "--token-1ff51228-9678-411c-9a08-00381f0fc70b": "#fff",
+      "--token-3ead4217-f562-484f-ae35-d367de8b213a": "#09f",
+      "--token-e6ff4111-cae9-48d6-82e5-a990cf837703": "#ffffff12",
+      "--token-bed18f81-9cf1-4e2e-871f-69719f53f1d4": "#ffffff1a",
+      "--token-d4634443-ffec-443d-a754-10b0a24f2eba": "#fff",
+      "--token-c728f732-7c78-48e8-94a1-513a91a25137": "#fff6",
+      "--token-70c17056-82cb-4934-97c9-7213cf77c853": "#ffffff1a",
+      "--token-f6d5743a-73c0-417f-973c-02f663387ec8": "#ffffff80",
+      "--token-393d758b-714b-4628-a487-3e2609e109b7": "#242424",
+      "--token-ef3d81b5-78dc-4f92-b13e-1e8b0e28ba8c": "#212121",
+      "--token-bf566e33-485f-437d-9c8a-97c626fb8093": "#ffffff12",
+      "--token-1073b3db-8e72-4239-ada0-89e67ba85817": "#171717",
+      "--token-50d3edc6-ca3e-4e24-b5b6-95a9ef291fd3": "#00000012",
+      "--token-373c4b2f-375a-4a63-bd70-20575308a06b": "#303030",
+      "--token-a90119e0-cc91-4f7c-8117-a4827837d154": "#242424",
+      "--token-3326ab02-a399-4a0a-90ca-823d3eeec36a": "#404040",
+      "--token-023e584d-eb9f-45d0-a9bf-d481c0b53395": "#bbb",
+      "--token-e81b27a0-dbec-444a-a842-619222fcd818": "#999",
+      "--token-0d3c4e1f-33e0-4ebe-bdfa-af3c0ffb2b6e": "#ffffff1a",
+      "--token-ea7f6847-c578-4b96-834f-9880ebd5b2c8": "#ffffffa6",
+      "--token-565b745b-c313-43ee-aacc-dc06f90a5494": "#888",
+      "--token-1765427e-22ca-4432-9e46-90123c5bd8b0": "#0000000d",
+      "--token-3211d3ed-e082-412d-bec4-c06fb5bda768": "#666",
+      "--token-41903ea9-af7f-499e-a111-2c021ff53f36": "#fff",
+      "--token-7caf96a9-3685-4995-95cd-92a16705da21": "#09f",
+      "--token-8829ab2d-0ef5-4f78-a903-5d4c901eec75": "#333",
+      "--token-b8a0b4cf-70ff-4994-abad-931092f52d53": "#222",
+      "--token-e79b6732-da94-4bb4-b89e-c6c710bf538f": "#0000000a",
+      "--token-e2c6fd82-c978-4415-a4b5-37700001c928": "#09f",
+      "--token-86436fc2-2fa7-4338-9d69-653ef2fe605e": "#212121",
+      "--token-d127865a-b3de-47e9-b49b-fec1a4c5c097": "#0000001a",
+      "--token-df2a444d-c73c-41a8-b32b-15a8977e2f19": "#000",
+      "--token-224bfd43-9bd7-4029-a74c-dfb7dcb6da6e": "#cbff00",
+      "--token-08cb9138-e90e-4825-9f55-0aaa0c506cd8": "#000",
+      "--token-d8cf0a03-9d51-4c74-8f74-1ce6a40b7a93": "#1d1d1d",
+      "--token-7e405047-a8f7-4a29-ba60-27706f8aef99": "#ffffff0d",
+      "--token-f2ab3b7f-4a45-442b-ac7e-6535e4f5eaa4": "#1d1d1d",
+      "--token-34da55f6-98ee-406d-9f22-8bd807975463": "#141414",
+      "--token-e20050d3-1c28-4712-bab1-33daddb2d8d3": "#1d1d1d",
+      "--token-dfb83e06-5dc9-4927-841f-fa3a5687bbf5": "#0006",
+      "--token-ab22db3f-51d4-457b-b74d-36a1761e9043": "#f2f2f2",
+      "--token-1e7cee86-5b3c-4a5e-b650-927c556a0730": "#000",
+      "--token-494c7bf8-981d-4262-955c-7770a66e4aca": "#999",
+      "--token-f4d7f1ab-60e4-4112-93dc-10fa3370595e": "#0d6",
+      "--token-3636b58d-af99-4283-ab2c-55c8fcdd5b26": "#1f1f1f",
+      "--token-28fd9ca0-18c8-4b2c-b240-cbd29f83e8a5": "#666",
+      "--token-80b6d9ee-6797-4273-85d5-55a0c0e39c2c": "#666",
+      "--token-81dfd308-4a2d-423f-8ca6-7e503f3bc16a": "#333"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"framer-p8y6nc\" data-framer-name=\"Header\"><div class=\"framer-rd4qms\" data-framer-name=\"Content\"><div class=\"framer-10v2ys1\" data-framer-component-type=\"RichTextContainer\" style=\"transform:none\"><h1 class=\"framer-text framer-styles-preset-1gzpg4m\" data-styles-preset=\"gM4yNG9Qq\" dir=\"auto\" style=\"--framer-text-alignment:start\">Framer is the AI website builder for standout sites</h1></div><div class=\"framer-11qzz2h\" data-framer-name=\"CTA\"><div class=\"framer-6hnbw7\"><div class=\"ssr-var\u2026",
+    "heroHtml": "<div class=\"framer-10v2ys1\" data-framer-component-type=\"RichTextContainer\" style=\"transform:none\"><h1 class=\"framer-text framer-styles-preset-1gzpg4m\" data-styles-preset=\"gM4yNG9Qq\" dir=\"auto\" style=\"--framer-text-alignment:start\">Framer is the AI website builder for standout sites</h1></div>",
+    "footerHtml": "<footer class=\"framer-6IRPH framer-LAek5 framer-3wgpx framer-v-3wgpx\" data-framer-name=\"Desktop\" style=\"background-color: rgb(0, 0, 0); max-width: 100%; width: 100%; opacity: 1;\"><div class=\"framer-1pwa3xt\" style=\"opacity: 1;\"><div class=\"framer-1gmkxuw-container\" style=\"opacity: 1;\"><!--$--><a class=\"framer-WFgEA framer-qdeek2 framer-v-qdeek2 framer-4n26gx\" data-framer-name=\"On\" data-highlight=\"true\" href=\"./\" data-framer-page-link-current=\"true\" tabindex=\"0\" style=\"height: 100%; opacity: 1;\"><\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.framer.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 6,
+    "section_count": 6,
+    "nav_count": 1,
+    "button_count": 5,
+    "img_count": 99,
+    "footer_count": 1
+  }
+}

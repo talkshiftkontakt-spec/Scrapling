@@ -1,0 +1,2336 @@
+{
+  "name": "canva",
+  "url": "https://www.canva.com",
+  "category": "ecommerce",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/canva-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/canva-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/canva-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/canva-full.png",
+  "design": {
+    "url": "https://www.canva.com/",
+    "title": "Canva: Visual Suite for Everyone",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 8039
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "x1ghz6dp",
+          "x1717udv",
+          "xng3xce",
+          "xc342km",
+          "xe8uvvx",
+          "x9dqhi0",
+          "x9f619",
+          "x1a2a7pz"
+        ],
+        "text": "Canva home Design Product Plans Business Education Help Sign up Log in",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 80
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Times New Roman\"",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Sheets",
+        "Docs",
+        "Whiteboards",
+        "Presentations",
+        "Social",
+        "Photo Editor",
+        "Videos",
+        "Print",
+        "Websites",
+        "PDF Editor",
+        "Business cards",
+        "Invitations",
+        "Flyers",
+        "Brochures",
+        "T-shirts",
+        "Mugs",
+        "Stickers",
+        "Hoodies",
+        "Labels",
+        "Posters",
+        "Photo editor",
+        "Background remover",
+        "Photo collages",
+        "Mockups",
+        "Image enhancer",
+        "AI image generator",
+        "AI photo editor",
+        "AI art generator",
+        "Draw",
+        "Logos"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "x1ghz6dp",
+          "x1717udv",
+          "xng3xce",
+          "xc342km",
+          "xe8uvvx",
+          "x9dqhi0",
+          "x9f619",
+          "x1a2a7pz"
+        ],
+        "text": "Download Canva for free Windows Mac Product Latest launches Visual Suite Canva AI Brand management Social media Features Print Apps Marketplace Affinity Plans Pricing Pro Business ",
+        "top": 6619,
+        "left": 0,
+        "width": 1440,
+        "height": 1420
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(246, 247, 248))",
+        "fontFamily": "\"Times New Roman\"",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "48px 0px 0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "k4pGfw"
+        ],
+        "text": "What will you design today? Make AI-powered social posts, videos, presentations, and more with Canva. Start designing Tools to power your best work AI Presentations Social Vide",
+        "top": 80,
+        "left": 0,
+        "width": 1440,
+        "height": 6539
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [],
+        "top": 80,
+        "height": 0,
+        "width": 1376,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [
+          "TMg_1g",
+          "Mb3Pew"
+        ],
+        "top": 80,
+        "height": 982,
+        "width": 1376,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "What will you design today?",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "classes": [
+          "cUPK7A"
+        ],
+        "top": 1062,
+        "height": 1477,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Tools to power your best work",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "classes": [],
+        "top": 2539,
+        "height": 1030,
+        "width": 1376,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "All the tools. All in one place.",
+        "headingTag": "h2",
+        "childCount": 5
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "classes": [
+          "cUPK7A"
+        ],
+        "top": 3664,
+        "height": 742,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Templates for absolutely anything",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "classes": [],
+        "top": 4502,
+        "height": 1445,
+        "width": 1376,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Unlock Canva\u2019s creative ecosystem",
+        "headingTag": "h2",
+        "childCount": 7
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "classes": [
+          "cUPK7A",
+          "theme",
+          "dark",
+          "x1jwjm5l",
+          "x1aafrix",
+          "xntwwlm"
+        ],
+        "top": 5947,
+        "height": 672,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(90deg, rgb(0, 196, 204), rgb(90, 50, 250), rgb(125, 42, 232))",
+        "heading": "Start designing with Canva",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Digital design",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Digital design",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Digital design",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Digital design",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Print design",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Print design",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Print design",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Print design",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Images and photos",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Images and photos",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Images and photos",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Images and photos",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Videos and audio",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Videos and audio",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Videos and audio",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Videos and audio",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Product",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Product",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Product",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Product",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Canva AI",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Canva AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Canva AI",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Canva AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All Canva AI",
+        "style": {
+          "color": "rgb(158, 158, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(158, 158, 255)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "All Canva AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Plans",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Plans",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Plans",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Plans",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Canva for business",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Canva for business",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Canva for business",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Canva for business",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Business plans",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Business plans",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All Canva for business",
+        "style": {
+          "color": "rgb(158, 158, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(158, 158, 255)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "All Canva for business",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Solutions",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Solutions",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Solutions",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Solutions",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All solutions",
+        "style": {
+          "color": "rgb(158, 158, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(158, 158, 255)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "All solutions",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Features",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Features",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Features",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Features",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All features",
+        "style": {
+          "color": "rgb(158, 158, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(158, 158, 255)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "All features",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Resources",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Resources",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Resources",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Reports",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "11.7px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "11.7px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Reports",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All resources",
+        "style": {
+          "color": "rgb(158, 158, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(158, 158, 255)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "All resources",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Canva for education",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "15px",
+          "fontWeight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "12.45px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Canva for education",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Canva home",
+        "href": "https://www.canva.com/",
+        "style": {
+          "color": "rgb(163, 112, 252)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Times New Roman\"",
+          "fontSize": "10px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(163, 112, 252)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "WkdUeQ",
+            "_3bC2IQ"
+          ],
+          "text": "Canva home",
+          "top": 24,
+          "left": 48,
+          "width": 90,
+          "height": 32
+        }
+      },
+      {
+        "text": "Design",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Design",
+          "top": 24,
+          "left": 513,
+          "width": 62,
+          "height": 32
+        }
+      },
+      {
+        "text": "Product",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Product",
+          "top": 24,
+          "left": 579,
+          "width": 71,
+          "height": 32
+        }
+      },
+      {
+        "text": "Plans",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Plans",
+          "top": 24,
+          "left": 653,
+          "width": 53,
+          "height": 32
+        }
+      },
+      {
+        "text": "Business",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Business",
+          "top": 24,
+          "left": 710,
+          "width": 76,
+          "height": 32
+        }
+      },
+      {
+        "text": "Education",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Education",
+          "top": 24,
+          "left": 790,
+          "width": 85,
+          "height": 32
+        }
+      },
+      {
+        "text": "Help",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 8px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Help",
+          "top": 24,
+          "left": 879,
+          "width": 48,
+          "height": 32
+        }
+      },
+      {
+        "text": "Sign up",
+        "href": "/signup/",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Canva Sans\", \"Noto Sans Variable\", \"Noto Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "_5KtATA",
+            "Xj0kcw",
+            "LQzFZw",
+            "VgvqkQ",
+            "Qfw6fw",
+            "Sp3u_w",
+            "Gcy95A",
+            "_8ERLTg"
+          ],
+          "text": "Sign up",
+          "top": 24,
+          "left": 1246,
+          "width": 74,
+          "height": 32
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/login/",
+        "style": {
+          "color": "rgb(15, 16, 21)",
+          "backgroundColor": "rgba(255, 255, 255, 0.898)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Canva Sans\", \"Noto Sans Variable\", \"Noto Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+          "border": "0px none rgb(15, 16, 21)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "_5KtATA",
+            "Xj0kcw",
+            "LQzFZw",
+            "VgvqkQ",
+            "Qfw6fw",
+            "Sp3u_w",
+            "Gcy95A",
+            "_8ERLTg"
+          ],
+          "text": "Log in",
+          "top": 24,
+          "left": 1328,
+          "width": 64,
+          "height": 32
+        }
+      },
+      {
+        "text": "Start designing",
+        "href": null,
+        "style": {
+          "color": "rgb(15, 16, 21)",
+          "backgroundColor": "rgba(255, 255, 255, 0.898)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Canva Sans\", \"Noto Sans Variable\", \"Noto Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "rgba(255, 255, 255, 0.08) 0px 24px 24px -18px inset, rgba(255, 255, 255, 0.25) 0px 1px 0.5px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0.5px 0px inset, rgba(0, 0, 0, 0.14) 0px 1px 2px 0px, rgba(0, 0, 0, 0.07) 0px 3px 4px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+          "border": "0px none rgb(15, 16, 21)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "_5KtATA",
+            "LQzFZw",
+            "VgvqkQ",
+            "Qfw6fw",
+            "Sp3u_w",
+            "Gcy95A",
+            "_8ERLTg",
+            "hw3gKA"
+          ],
+          "text": "Start designing",
+          "top": 310,
+          "left": 626,
+          "width": 188,
+          "height": 56
+        }
+      },
+      {
+        "text": "Play",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "1px 6px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "OagC9Q"
+          ],
+          "text": "",
+          "top": 430,
+          "left": 202,
+          "width": 1037,
+          "height": 583
+        }
+      },
+      {
+        "text": "Play",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(16, 18, 25, 0.698)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "48px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "120px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "_P7wfg"
+          ],
+          "text": "",
+          "top": 942,
+          "left": 1166,
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "text": "AI",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(98deg, rgb(0, 196, 204) -9%, rgb(90, 50, 250) 78%, rgb(118, 48, 215) 158%)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "_R_355b_-tab-_R_155b_0",
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "AI",
+          "top": 1259,
+          "left": 306,
+          "width": 110,
+          "height": 64
+        }
+      },
+      {
+        "text": "Presentations",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "_R_355b_-tab-_R_155b_1",
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Presentations",
+          "top": 1259,
+          "left": 424,
+          "width": 214,
+          "height": 64
+        }
+      },
+      {
+        "text": "Social",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "_R_355b_-tab-_R_155b_2",
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Social",
+          "top": 1259,
+          "left": 646,
+          "width": 145,
+          "height": 64
+        }
+      },
+      {
+        "text": "Video",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "_R_355b_-tab-_R_155b_3",
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Video",
+          "top": 1259,
+          "left": 799,
+          "width": 142,
+          "height": 64
+        }
+      },
+      {
+        "text": "Print Shop",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "_R_355b_-tab-_R_155b_4",
+          "classes": [
+            "PuABGQ",
+            "x1ghz6dp",
+            "x1717udv",
+            "xng3xce",
+            "xc342km",
+            "xe8uvvx",
+            "x9dqhi0",
+            "x9f619"
+          ],
+          "text": "Print Shop",
+          "top": 1259,
+          "left": 949,
+          "width": 184,
+          "height": 64
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://static.canva.com/web/images/856bac30504ecac8dbd38dbee61de1f1.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "x1lliihq",
+            "x5yr21d",
+            "xh8yej3"
+          ],
+          "text": "",
+          "top": 24,
+          "left": 48,
+          "width": 90,
+          "height": 34
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://content-management-files.canva.com/fe41bde6-c112-4bf0-82cc-6fcdf10d9a0d/cc26-hype-reel-placeholder-iteration.jpg",
+        "alt": "The text \"Introducing Canva AI 2.0\" surrounded by abstract graphics",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "im1gjQ"
+          ],
+          "text": "",
+          "top": 430,
+          "left": 202,
+          "width": 1037,
+          "height": 583
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://content-management-files.canva.com/8e9c29f1-e3ca-42ea-85b7-d2a764c34a69/cc26-hype-reel.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": "_R_935b_",
+          "classes": [
+            "_5W2YuQ"
+          ],
+          "text": "",
+          "top": 430,
+          "left": 202,
+          "width": 1037,
+          "height": 583
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "x1lliihq",
+            "x5yr21d",
+            "xh8yej3"
+          ],
+          "text": "",
+          "top": 6667,
+          "left": 48,
+          "width": 90,
+          "height": 34
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://content-management-files.canva.com/6122da46-4357-4423-a18e-35bee4a9a33e/GetItOnGooglePlay_Badge_Web_color.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "TR_qYw"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://content-management-files.canva.com/38c1cf77-57db-46b6-8d00-82a93ecf99ac/Download_on_the_App_Store_Badge.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "TR_qYw"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://static.canva.com/web/images/feec6d380199ac0280be1fc284ce931a.svg",
+        "alt": "California Consumer Privacy Act (CCPA) Opt-Out Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 7984,
+          "left": 1126,
+          "width": 30,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://bat.bing.com/action/0?ti=56000504&tm=gtm002&Ver=2&mid=2056bd88-193d-43ab-aaf8-00b4768906e6&bo=1&sid=27d5c140829311f1ac05cd1b85737386&vid=27d5a3a0829311f19c9a1bcd82a319d8&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Canva%3A%20Visual%20Suite%20for%20Everyone&kw=online%20design%20website,graphic%20design%20software,free%20online%20design%20software,free%20design%20media%20and%20templates,Canva&p=https%3A%2F%2Fwww.canva.com%2F&r=https%3A%2F%2Fwww.google.com%2F&lt=1085&evt=pageLoad&sv=2&cdb=AQAQ&rn=15001",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": "batBeacon114654640693",
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1654
+      },
+      {
+        "value": "rgb(15, 16, 21)",
+        "count": 708
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 78
+      },
+      {
+        "value": "rgba(15, 16, 21, 0)",
+        "count": 70
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.898)",
+        "count": 69
+      },
+      {
+        "value": "rgb(0, 0, 238)",
+        "count": 50
+      },
+      {
+        "value": "rgba(16, 18, 25, 0.698)",
+        "count": 17
+      },
+      {
+        "value": "rgb(139, 61, 255)",
+        "count": 11
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "count": 10
+      },
+      {
+        "value": "rgb(151, 41, 255)",
+        "count": 10
+      },
+      {
+        "value": "rgb(163, 112, 252)",
+        "count": 8
+      },
+      {
+        "value": "rgb(255, 97, 5)",
+        "count": 8
+      },
+      {
+        "value": "rgb(255, 61, 77)",
+        "count": 8
+      },
+      {
+        "value": "rgb(233, 80, 247)",
+        "count": 8
+      },
+      {
+        "value": "rgba(15, 16, 21, 0.85)",
+        "count": 4
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Times New Roman",
+        "count": 896
+      },
+      {
+        "value": "Canva Sans",
+        "count": 321
+      },
+      {
+        "value": "Arial",
+        "count": 57
+      }
+    ],
+    "radii": [
+      {
+        "value": "12px",
+        "count": 148
+      },
+      {
+        "value": "24px",
+        "count": 26
+      },
+      {
+        "value": "10px",
+        "count": 13
+      },
+      {
+        "value": "9999px",
+        "count": 9
+      },
+      {
+        "value": "50%",
+        "count": 3
+      },
+      {
+        "value": "20px",
+        "count": 1
+      },
+      {
+        "value": "16px",
+        "count": 1
+      },
+      {
+        "value": "48px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+      "rgba(255, 255, 255, 0.08) 0px 24px 24px -18px inset, rgba(255, 255, 255, 0.25) 0px 1px 0.5px 0px inset, rgba(0, 0, 0, 0.25) 0px -1px 0.5px 0px inset, rgba(0, 0, 0, 0.14) 0px 1px 2px 0px, rgba(0, 0, 0, 0.07) 0px 3px 4px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+      "rgba(64, 79, 109, 0.06) 0px 0px 0px 0.5px, rgba(21, 30, 130, 0.12) 0px 8px 16px 0px, rgba(21, 30, 130, 0.06) 0px 24px 24px 0px",
+      "rgba(64, 79, 109, 0.07) 0px 0px 0px 0.5px, rgba(21, 30, 130, 0.12) 0px 2px 5px 0px, rgba(21, 30, 130, 0.06) 0px 6px 12px 0px"
+    ],
+    "cssVars": {
+      "--tk9EiQ": "light",
+      "--xpFk1A": "#f3f4f7",
+      "--ODN7ig": "0px",
+      "--xzVIoQ": "var(--ODN7ig)",
+      "--MDiH4g": "var(--xzVIoQ)",
+      "--cqVKuA": "var(--MDiH4g)",
+      "--WHMN3A": "var(--xzVIoQ)",
+      "--DAc5KA": "var(--WHMN3A)",
+      "--9D8kEw": "var(--DAc5KA)",
+      "--SDc9Dw": "var(--9D8kEw)",
+      "--aLHwgA": "var(--DAc5KA)",
+      "--51vLnw": "var(--aLHwgA)",
+      "--kxq1gA": "var(--cqVKuA)",
+      "--WBWqqg": "var(--kxq1gA)",
+      "--wsix4w": "var(--cqVKuA)",
+      "--np7iJA": "var(--wsix4w)",
+      "--djlACw": "1 1 0%",
+      "--ch6mcw": "var(--djlACw)",
+      "--Z_Miqg": "flex-start",
+      "--LsJ77A": "var(--Z_Miqg)",
+      "--TPF5Nw": "stretch",
+      "--80mGfw": "var(--TPF5Nw)",
+      "--8-Ea9Q": "unset",
+      "--TW9Q9A": "var(--8-Ea9Q)",
+      "--PmK0MA": "0",
+      "--HlviUw": "var(--PmK0MA)",
+      "--lIX0Wg": "0",
+      "--yi87cg": "var(--lIX0Wg)",
+      "--ohDgOg": "var(--yi87cg)",
+      "--hx4cXA": "var(--yi87cg)",
+      "--UOvbuw": "var(--ohDgOg)",
+      "--fqqbsg": "var(--hx4cXA)",
+      "--S8wiIA": "1",
+      "--039ymw": "var(--S8wiIA)",
+      "--PsEauw": "auto",
+      "--Kt27rA": "var(--PsEauw)",
+      "--QrbJUA": "stretch",
+      "--vUMXuQ": "var(--QrbJUA)",
+      "--tFxMoA": "stretch",
+      "--DZcelw": "var(--tFxMoA)",
+      "--9en39A": "start",
+      "--sV-EpA": "var(--9en39A)",
+      "--WF3kKw": "flex-start",
+      "--iXQvmQ": "var(--WF3kKw)",
+      "--dVJz5A": "0",
+      "--8L3TXg": "var(--dVJz5A)",
+      "--tFO5VA": "var(--8L3TXg)",
+      "--iW_2KA": "var(--8L3TXg)",
+      "--wn0iRQ": "var(--tFO5VA)",
+      "--T4TVNQ": "var(--iW_2KA)",
+      "--NZu1Zw": "0",
+      "--B5MwdA": "var(--NZu1Zw)",
+      "--okeDpw": "stretch",
+      "--lbR7PA": "var(--okeDpw)",
+      "--safe-area-inset-top": "0px",
+      "--safe-area-inset-bottom": "0px",
+      "--safe-area-inset-left": "0px",
+      "--safe-area-inset-right": "0px",
+      "--Kd3K9A": "#8b3dff",
+      "--DVEAGQ": "#7630d7",
+      "--V0s6Og": "#612dae",
+      "--PqRKXQ": "#fff",
+      "--R-jrhg": "#0f101500",
+      "--GXtk9g": "#404f6d0f",
+      "--xGXQgA": "#39466024",
+      "--oAdupw": "#0f1015",
+      "--8-4niA": "#35415a33",
+      "--wd-tZA": "#0f101500",
+      "--ntzWpQ": "#404f6d0f",
+      "--BorQ6g": "#39466024",
+      "--O8dBuQ": "#0f1015",
+      "--EvA8JQ": "#13162099",
+      "--gIrJLw": "#101219b2",
+      "--XxI4hg": "#0f1015d9",
+      "--SvgSpA": "#13162099",
+      "--N8Oz5g": "#fff",
+      "--4zRigw": "#ffffffb2",
+      "--wv7owA": "#db142c",
+      "--m9I-bA": "#b61629",
+      "--Hxdoag": "#911826"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 x1a2a7pz xh8yej3 x1qjc9v5 xl56j7k xxtcm4k x1qyk479 SzJA6w _4CiF0g E7KJ0g\" style=\"--x-display:flex;--x-flexDirection:column;--foNLgg:1\"><div class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 x1a2a7pz Gm2LsA fA_rnA\"></div><div class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 x1a2a7pz xh8yej3 NNbVxg\"><div class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 x1a2a7pz xh8yej3 _6QpqYA _h2n8A\u2026",
+    "heroHtml": "<div class=\"theme dark x1jwjm5l x1aafrix xntwwlm\"><h1 class=\"_7ATl0g tixXLw KtqWWg RXmvXw MW34IQ B8t6MQ T5LNnw bG0Uaw\" style=\"\"><span class=\"vtsHJg\"><span class=\"dIH_FQ\">What will you design today?</span></span></h1><span class=\"x1lliihq x2lah0s x11lv39n x1ca76lx xtlhp39 x4h0bxt x1f3rlcv xsl0rpr xpg4x96\" style=\"--x-5qo2oh:24px;--x-1ipfxcv:24px;--x-dmxlzl:24px;--x-1600g0r:24px;--x-m6n0iu:32px\" aria-hidden=\"true\"></span><span class=\"_7ATl0g tixXLw KtqWWg RXmvXw B8t6MQ T5LNnw bG0Uaw\"><span class=\"c\u2026",
+    "footerHtml": "<footer class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 x1a2a7pz xh8yej3 xl56j7k xxtcm4k x1g9dkuz x79p663 x1bwx1w x1fr8b35 xipwfb x12057cm x1r67q4j xxygao x1de9wke x3bxb3u x1qhagn5 STbrdg wZ3rOA Ij3RKw\" style=\"--x-display:flex;--x-16k533w:16px;--x-cqejz1:16px;--x-1jvk7sl:0px;--x-7s0zkv:0px;--x-1sfnfyj:0px;--x-paddingBlockStart:48px;--x-k9he3k:48px;--x-1wiv5y0:48px;--x-1v35pem:0px;--x-1khj6nr:0px;--x-w920wb:0px\"><div class=\"x1ghz6dp x1717udv xng3xce xc342km xe8uvvx x9dqhi0 x9f619 \u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.canva.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 36,
+    "section_count": 0,
+    "nav_count": 3,
+    "button_count": 29,
+    "img_count": 33,
+    "footer_count": 1
+  }
+}

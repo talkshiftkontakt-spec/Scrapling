@@ -1,0 +1,2086 @@
+{
+  "name": "lovable",
+  "url": "https://lovable.dev",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/lovable-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/lovable-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/lovable-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/lovable-full.png",
+  "design": {
+    "url": "https://lovable.dev/",
+    "title": "AI App Builder | Vibe Code Apps & Websites with AI, Fast",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 4196
+    },
+    "themeGuess": "dark",
+    "luminance": 0.12128549019607844,
+    "bodyStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(31, 31, 30)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(65, 65, 61)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "flex",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(13, 13, 12)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(65, 65, 61)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "relative"
+        ],
+        "text": "Solutions Resources Community Enterprise Pricing Security",
+        "top": 16,
+        "left": 321,
+        "width": 541,
+        "height": 32
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(39, 39, 37)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Community",
+        "Enterprise",
+        "Pricing",
+        "Security",
+        "Careers",
+        "Press & media",
+        "Enterprise",
+        "Security",
+        "Trust center",
+        "Partnerships",
+        "Pricing",
+        "Student discount",
+        "Founders",
+        "Product Managers",
+        "Designers",
+        "Marketers",
+        "Sales",
+        "Ops",
+        "People",
+        "Prototyping",
+        "Internal Tools",
+        "Download apps",
+        "Connections",
+        "Changelog",
+        "Status",
+        "Learn",
+        "Templates",
+        "Guides",
+        "Connectors"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "border-muted-border",
+          "bg-muted",
+          "rounded-4",
+          "relative",
+          "border",
+          "p-6",
+          "sm:p-8",
+          "md:p-10"
+        ],
+        "text": "Company Careers Press & media Enterprise Security Trust center Partnerships Product Pricing Student discount Founders Product Managers Designers Marketers Sales Ops People Prototyp",
+        "top": 3482,
+        "left": 80,
+        "width": 1280,
+        "height": 634
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(39, 39, 37)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "16px",
+        "boxShadow": "none",
+        "border": "1px solid rgb(64, 64, 63)",
+        "padding": "56px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main-content",
+        "classes": [
+          "min-w-0"
+        ],
+        "text": "New Lovable apps now work in ChatGPT and Claude Build something Lovable Create apps and websites by chatting with AI Ask Lovable to create a landing page for my... Build Tea",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 2912
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "relative",
+          "w-full"
+        ],
+        "top": 0,
+        "height": 2912,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build something Lovable",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "flex",
+          "min-h-screen",
+          "w-full",
+          "flex-col",
+          "items-center"
+        ],
+        "top": 0,
+        "height": 900,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build something Lovable",
+        "headingTag": "h2",
+        "childCount": 4
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "mx-auto",
+          "max-w-5xl",
+          "py-20"
+        ],
+        "top": 900,
+        "height": 288,
+        "width": 1024,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [],
+        "top": 1188,
+        "height": 448,
+        "width": 1120,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Meet Lovable",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [],
+        "top": 1796,
+        "height": 552,
+        "width": 1120,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Discover templates",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [],
+        "top": 2508,
+        "height": 404,
+        "width": 1120,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Lovable in numbers",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [],
+        "top": 4196,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Build something Lovable",
+        "style": {
+          "color": "rgb(252, 251, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "600",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 10px",
+          "display": "flex",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-foreground",
+            "mb-2",
+            "flex",
+            "items-center",
+            "gap-1",
+            "text-3xl",
+            "leading-none",
+            "font-semibold"
+          ],
+          "text": "Build something Lovable",
+          "top": 351,
+          "left": 451,
+          "width": 537,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Meet Lovable",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "600",
+          "lineHeight": "52.8px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 40px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-4xl",
+            "leading-[1.1]",
+            "font-semibold",
+            "tracking-tight",
+            "md:text-5xl",
+            "mb-10"
+          ],
+          "text": "Meet Lovable",
+          "top": 1188,
+          "left": 160,
+          "width": 1120,
+          "height": 53
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Start with an idea",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "39.6px",
+          "letterSpacing": "-0.9px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-semibold",
+            "text-3xl",
+            "leading-[1.1]",
+            "tracking-tight",
+            "md:text-4xl",
+            "mb-2"
+          ],
+          "text": "Start with an idea",
+          "top": 1281,
+          "left": 768,
+          "width": 512,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Watch it come to life",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "39.6px",
+          "letterSpacing": "-0.9px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-semibold",
+            "text-3xl",
+            "leading-[1.1]",
+            "tracking-tight",
+            "md:text-4xl",
+            "mb-2"
+          ],
+          "text": "Watch it come to life",
+          "top": 1410,
+          "left": 768,
+          "width": 512,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Refine and ship",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "39.6px",
+          "letterSpacing": "-0.9px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "font-semibold",
+            "text-3xl",
+            "leading-[1.1]",
+            "tracking-tight",
+            "md:text-4xl",
+            "mb-2"
+          ],
+          "text": "Refine and ship",
+          "top": 1539,
+          "left": 768,
+          "width": 512,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Discover templates",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "600",
+          "lineHeight": "52.8px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 10px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-4xl",
+            "leading-[1.1]",
+            "font-semibold",
+            "tracking-tight",
+            "md:text-5xl",
+            "mb-2.5"
+          ],
+          "text": "Discover templates",
+          "top": 1796,
+          "left": 160,
+          "width": 407,
+          "height": 53
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Lovable in numbers",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "600",
+          "lineHeight": "52.8px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 10px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-4xl",
+            "leading-[1.1]",
+            "font-semibold",
+            "tracking-tight",
+            "md:text-5xl",
+            "mb-2.5"
+          ],
+          "text": "Lovable in numbers",
+          "top": 2508,
+          "left": 160,
+          "width": 433,
+          "height": 53
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "AI App Builder",
+        "style": {
+          "color": "rgb(197, 193, 186)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "mb-2",
+            "text-center",
+            "text-xl",
+            "font-normal",
+            "text-muted-foreground",
+            "block"
+          ],
+          "text": "AI App Builder",
+          "top": 3072,
+          "left": 432,
+          "width": 576,
+          "height": 30
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Ready to build?",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "60px",
+          "fontWeight": "600",
+          "lineHeight": "66px",
+          "letterSpacing": "-1.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "font-semibold",
+            "text-4xl",
+            "leading-[1.1]",
+            "tracking-tight",
+            "md:text-6xl",
+            "mb-8",
+            "text-center"
+          ],
+          "text": "Ready to build?",
+          "top": 3110,
+          "left": 432,
+          "width": 576,
+          "height": 66
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Company",
+        "style": {
+          "color": "lab(67.9318 -0.204057 0.726843)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-tertiary-pulse",
+            "text-sm",
+            "font-normal"
+          ],
+          "text": "Company",
+          "top": 3539,
+          "left": 337,
+          "width": 168,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Product",
+        "style": {
+          "color": "lab(67.9318 -0.204057 0.726843)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-tertiary-pulse",
+            "text-sm",
+            "font-normal"
+          ],
+          "text": "Product",
+          "top": 3539,
+          "left": 536,
+          "width": 168,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "style": {
+          "color": "lab(67.9318 -0.204057 0.726843)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-tertiary-pulse",
+            "text-sm",
+            "font-normal"
+          ],
+          "text": "Resources",
+          "top": 3539,
+          "left": 736,
+          "width": 168,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Legal",
+        "style": {
+          "color": "lab(67.9318 -0.204057 0.726843)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-tertiary-pulse",
+            "text-sm",
+            "font-normal"
+          ],
+          "text": "Legal",
+          "top": 3539,
+          "left": 936,
+          "width": 168,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Community",
+        "style": {
+          "color": "lab(67.9318 -0.204057 0.726843)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-tertiary-pulse",
+            "text-sm",
+            "font-normal"
+          ],
+          "text": "Community",
+          "top": 3539,
+          "left": 1135,
+          "width": 168,
+          "height": 21
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 0px 4px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 2px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "group/landing-header-desktop-menu-trigger",
+            "py-1",
+            "pl-1.5",
+            "flex",
+            "items-center",
+            "gap-x-0.5",
+            "text-[15px]/[24px]",
+            "transition-colors"
+          ],
+          "text": "Solutions",
+          "top": 16,
+          "left": 321,
+          "width": 85,
+          "height": 32
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 0px 4px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 2px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "group/landing-header-desktop-menu-trigger",
+            "py-1",
+            "pl-1.5",
+            "flex",
+            "items-center",
+            "gap-x-0.5",
+            "text-[15px]/[24px]",
+            "transition-colors"
+          ],
+          "text": "Resources",
+          "top": 16,
+          "left": 421,
+          "width": 94,
+          "height": 32
+        }
+      },
+      {
+        "text": "Community",
+        "href": "/community",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "px-1.5",
+            "py-1",
+            "text-[15px]/[24px]",
+            "transition-colors",
+            "hover:text-foreground/80"
+          ],
+          "text": "Community",
+          "top": 18,
+          "left": 529,
+          "width": 88,
+          "height": 28
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise-landing",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "px-1.5",
+            "py-1",
+            "text-[15px]/[24px]",
+            "transition-colors",
+            "hover:text-foreground/80"
+          ],
+          "text": "Enterprise",
+          "top": 18,
+          "left": 630,
+          "width": 80,
+          "height": 28
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "px-1.5",
+            "py-1",
+            "text-[15px]/[24px]",
+            "transition-colors",
+            "hover:text-foreground/80"
+          ],
+          "text": "Pricing",
+          "top": 18,
+          "left": 725,
+          "width": 58,
+          "height": 28
+        }
+      },
+      {
+        "text": "Security",
+        "href": "/security",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "4px 6px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "px-1.5",
+            "py-1",
+            "text-[15px]/[24px]",
+            "transition-colors",
+            "hover:text-foreground/80"
+          ],
+          "text": "Security",
+          "top": 18,
+          "left": 796,
+          "width": 66,
+          "height": 28
+        }
+      },
+      {
+        "text": "Log in",
+        "href": null,
+        "style": {
+          "color": "lab(100 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "login-link",
+          "classes": [
+            "btn-primitive",
+            "relative",
+            "isolate",
+            "box-border",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Log in",
+          "top": 16,
+          "left": 1118,
+          "width": 60,
+          "height": 32
+        }
+      },
+      {
+        "text": "Get started",
+        "href": null,
+        "style": {
+          "color": "lab(11.6997 -0.388153 1.46558)",
+          "backgroundColor": "lab(100 0 0 / 0.96)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "signup-link",
+          "classes": [
+            "btn-primitive",
+            "relative",
+            "isolate",
+            "box-border",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Get started",
+          "top": 16,
+          "left": 1187,
+          "width": 93,
+          "height": 32
+        }
+      },
+      {
+        "text": "New\nLovable apps now work in ChatGPT and Claude",
+        "href": "https://lovable.dev/blog/agent-integrations",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "oklab(0 0 0 / 0.4)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "480",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 0px 0.5px, rgba(255, 255, 255, 0.12) 0px 0px 0px 0.5px inset, rgba(0, 0, 0, 0.02) 0px 2px 2px -1px, rgba(0, 0, 0, 0.02) 0px 4px 4px -2px",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "8px 12px 8px 8px",
+          "margin": "0px 0px 24px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "flex",
+            "items-center",
+            "gap-2",
+            "rounded-full",
+            "bg-white/40",
+            "py-2",
+            "ps-2"
+          ],
+          "text": "New Lovable apps now work in ChatGPT and Claude",
+          "top": 285,
+          "left": 527,
+          "width": 386,
+          "height": 42
+        }
+      },
+      {
+        "text": "Build",
+        "href": null,
+        "style": {
+          "color": "lab(100 0 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "2px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "base-ui-_R_1rdbf35ff5oncgpdpfknrhldb_",
+          "classes": [
+            "btn-primitive",
+            "relative",
+            "isolate",
+            "box-border",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Build",
+          "top": 535,
+          "left": 896,
+          "width": 75,
+          "height": 32
+        }
+      },
+      {
+        "text": "Start with an idea\n\nDescribe the app or website you want to create or drop in sc",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "cursor-pointer",
+            "text-start",
+            "transition-opacity",
+            "duration-200",
+            "ease-out",
+            "opacity-100"
+          ],
+          "text": "Start with an idea Describe the app or website you want to create or drop in screenshots and docs",
+          "top": 1281,
+          "left": 768,
+          "width": 512,
+          "height": 97
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Maison Editorial home goods storefront",
+          "top": 1924,
+          "left": 160,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Inspo Canvas Spatial canvas for collecting, arranging, and sharing visual inspiration with drag-and-drop images, text, and AI image generation",
+          "top": 1924,
+          "left": 446,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Personal blog Muted, intimate design",
+          "top": 1924,
+          "left": 732,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Fashion blog Minimal, playful design",
+          "top": 1924,
+          "left": 1018,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Continuum A calm, distraction-free habit tracker with streak counters, calendar heatmaps, and motivational insights",
+          "top": 2148,
+          "left": 160,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Lovable slides Code-powered presentation builder",
+          "top": 2148,
+          "left": 446,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Prompt Frame Creative Portfolio Dark-first premium aesthetic",
+          "top": 2148,
+          "left": 732,
+          "width": 262,
+          "height": 200
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(39, 39, 37)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "flex-col"
+          ],
+          "text": "Ecommerce Store Website Template Premium design for webstore",
+          "top": 2148,
+          "left": 1018,
+          "width": 262,
+          "height": 200
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-contain"
+          ],
+          "text": "",
+          "top": -630,
+          "left": -720,
+          "width": 2880,
+          "height": 2904
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://storage.googleapis.com/lovable-assets/videos/homepage/scene-1.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 1383,
+          "left": 240,
+          "width": 400,
+          "height": 150
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://storage.googleapis.com/lovable-assets/videos/homepage/scene-2.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 1318,
+          "left": 240,
+          "width": 400,
+          "height": 280
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://storage.googleapis.com/lovable-assets/videos/homepage/scene-3.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 1318,
+          "left": 240,
+          "width": 400,
+          "height": 280
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://assets.lovable.dev/templates/maison-artisan-home-lifestyle-store-template-screenshot.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 1924,
+          "left": 160,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://storage.googleapis.com/lovable-assets/templates/inspo.jpg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 1924,
+          "left": 446,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a8b116a9-20b6-43a8-ae91-693ba5a35c3b/id-preview-172571d0--7410f81b-8218-4f2d-bb32-1ba1f84eabb2.lovable.app-1760028648399.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 1924,
+          "left": 732,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://assets.lovable.dev/templates/vesper-screenshot.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 1924,
+          "left": 1018,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://storage.googleapis.com/lovable-assets/templates/continuum.jpg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 2148,
+          "left": 160,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://assets.lovable.dev/templates/lovable-slides-final.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 2148,
+          "left": 446,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://assets.lovable.dev/templates/prompt-frame-portfolio-screenshot.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 2148,
+          "left": 732,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=750,f=auto,fit=scale-down/https://assets.lovable.dev/templates/ecommerce-store-1-screenshot.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-3",
+            "border",
+            "border-muted-border"
+          ],
+          "text": "",
+          "top": 2148,
+          "left": 1018,
+          "width": 262,
+          "height": 147
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://lovable.dev/cdn-cgi/image/width=3840,f=auto,fit=scale-down,quality=50/img/background/pulse.webp",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "object-top",
+            "blur-xs"
+          ],
+          "text": "",
+          "top": 2320,
+          "left": -720,
+          "width": 2880,
+          "height": 3600
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(39, 39, 37)",
+        "count": 618
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 409
+      },
+      {
+        "value": "lab(100 0 0)",
+        "count": 148
+      },
+      {
+        "value": "rgb(252, 251, 248)",
+        "count": 18
+      },
+      {
+        "value": "lab(67.9318 -0.204057 0.726843)",
+        "count": 13
+      },
+      {
+        "value": "lab(11.6997 -0.388153 1.46558)",
+        "count": 9
+      },
+      {
+        "value": "rgb(64, 64, 63)",
+        "count": 9
+      },
+      {
+        "value": "oklch(1 0 0)",
+        "count": 8
+      },
+      {
+        "value": "oklab(0.987773 -0.0000603199 0.00420386 / 0.7)",
+        "count": 6
+      },
+      {
+        "value": "rgb(197, 193, 186)",
+        "count": 5
+      },
+      {
+        "value": "lab(94.8354 -0.348836 -5.3088)",
+        "count": 2
+      },
+      {
+        "value": "lab(12.7156 -0.20165 0.728554)",
+        "count": 2
+      },
+      {
+        "value": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.08)",
+        "count": 2
+      },
+      {
+        "value": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.5)",
+        "count": 2
+      },
+      {
+        "value": "lab(49.8943 -0.875205 3.29613 / 0.16)",
+        "count": 2
+      },
+      {
+        "value": "rgb(65, 65, 61)",
+        "count": 1
+      },
+      {
+        "value": "rgb(28, 28, 28)",
+        "count": 1
+      },
+      {
+        "value": "lab(100 0 0 / 0.96)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Camera Plain Variable",
+        "count": 617
+      }
+    ],
+    "radii": [
+      {
+        "value": "3.35544e+07px",
+        "count": 24
+      },
+      {
+        "value": "12px",
+        "count": 16
+      },
+      {
+        "value": "8px",
+        "count": 13
+      },
+      {
+        "value": "16px",
+        "count": 5
+      },
+      {
+        "value": "24px",
+        "count": 3
+      },
+      {
+        "value": "28px",
+        "count": 2
+      }
+    ],
+    "shadows": [
+      "oklch(1 0 0 / 0.25) 0px 0px 0px 0.5px inset",
+      "color(srgb 0.0860863 0.086119 0.0860608 / 0.12) 0px 2px 2px -1px, color(srgb 0.0860863 0.086119 0.0860608 / 0.12) 0px 4px 4px -2px",
+      "rgba(0, 0, 0, 0) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0) 0px -1px 0px 0px inset, color(srgb 0.973351 0.977465 0.947855) 0px 0.5px 0px 0px inset, color(srgb 0.973351 0.977465 0.947855) 0px -0.5px 0px 0px inset",
+      "rgb(255, 255, 255) 0px 0px 0px 0.5px inset",
+      "oklch(1 0 0 / 0) 0px 0.5px 0px 0px inset, oklch(0 0 0 / 0) 0px -0.5px 0px 0px inset",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 0px 0.5px, rgba(255, 255, 255, 0.12) 0px 0px 0px 0.5px inset, rgba(0, 0, 0, 0.02) 0px 2px 2px -1px, rgba(0, 0, 0, 0.02) 0px 4px 4px -2px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.88) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.999998 -0.00000980496 0.0000234246 / 0.5) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(100 0 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "oklch(0 0 0 / 0.12) 0px 2px 2px -1px, oklch(0 0 0 / 0.12) 0px 4px 4px -2px",
+      "rgba(0, 0, 0, 0) 0px 2px 0px -1px inset, rgba(0, 0, 0, 0) 0px -2px 0px -1px inset"
+    ],
+    "cssVars": {
+      "--NOTE": "\"Must not have `position: static`\"",
+      "--silk-100-lvh-dvh-pct": "max(100%,100vh)",
+      "--silk-aY": "1",
+      "--silk-default-top": "0",
+      "--silk-default-left": "0",
+      "--silk-default-bottom": "0",
+      "--silk-default-right": "0",
+      "--silk-aL": "var(--silk-aL-from-props,1px)",
+      "--silk-aJ": "1px",
+      "--silk-aN": "10px",
+      "--silk-aD": "initial",
+      "--silk-aE": "initial",
+      "--silk-aF": "initial",
+      "--silk-aG": "initial",
+      "--silk-aH": "initial",
+      "--silk-aI": "initial",
+      "--silk-aK": "initial",
+      "--silk-aO": "var(--silk-aD,100%)",
+      "--silk-aP": "var(--silk-aE,100%)",
+      "--silk-aQ": "min(300px,var(--silk-aO))",
+      "--silk-aR": "2px",
+      "--silk-aS": "calc(-1*(var(--silk-aQ) - var(--silk-aR)))",
+      "--silk-aT": "calc(2*var(--silk-aO))",
+      "--silk-aV": "calc(var(--silk-aO) - var(--silk-aF) - var(--silk-aL))",
+      "--INFO": "This element prevents \u201cswipe from edge to go back\u201c on iOS.See the Silk Sheet docs.",
+      "--silk-default-width": "100%",
+      "--silk-default-height": "50%",
+      "--silk-aW": "calc(100% + var(--silk-aF) - var(--silk-aB))",
+      "--silk-aX": "calc(var(--silk-aO) - var(--silk-aB) + var(--silk-aA))",
+      "--debug-color": "#209928",
+      "--grid-template": "0px max-content 0px max-content 0px max-content 0px",
+      "--border-default": "1px",
+      "--bg-depth": "#f0f0f0",
+      "--bg-base": "#f5f5f5",
+      "--bg-primary": "#fafafa",
+      "--bg-secondary": "#fff",
+      "--bg-tertiary": "#fff",
+      "--bg-quaternary": "#fff",
+      "--bg-accent": "#1f55f1",
+      "--bg-accent-translucent": "#1f55f129",
+      "--bg-destructive": "#e12429",
+      "--bg-destructive-translucent": "#e1242929",
+      "--bg-special": "#8e48ff",
+      "--bg-special-translucent": "#8e48ff29",
+      "--bg-positive": "#338500",
+      "--bg-positive-translucent": "#33850029",
+      "--bg-attention": "#ce4700",
+      "--bg-attention-translucent": "#ce470029",
+      "--bg-highlight": "#dc207a",
+      "--bg-highlight-translucent": "#dc207a29",
+      "--bg-translucent": "#fffc",
+      "--bg-scrim": "#fffc",
+      "--bg-muted": "#77777129",
+      "--bg-inverse": "#000000e0",
+      "--fg-inverse": "#fafafa",
+      "--fg-primary": "#030303",
+      "--fg-secondary": "#2e2e2d",
+      "--fg-tertiary": "#636363",
+      "--fg-quaternary": "#9b9b9b",
+      "--fg-emphasis": "#fff",
+      "--fg-accent": "#123ec5",
+      "--fg-destructive": "#b90e19",
+      "--fg-special": "#713ec8",
+      "--fg-positive": "#296807",
+      "--fg-attention": "#a53803",
+      "--fg-highlight": "#b40d61",
+      "--border-depth": "#c4c4c466",
+      "--border-base": "#c9c9c966",
+      "--border-primary": "#cecece66",
+      "--border-secondary": "#d3d3d366",
+      "--border-tertiary": "#d3d3d366",
+      "--border-quaternary": "#d3d3d366",
+      "--border-accent": "#4279ff66",
+      "--border-destructive": "#fd504a66",
+      "--border-special": "#a475ff66",
+      "--border-positive": "#50a13066",
+      "--border-attention": "#ed642f66",
+      "--border-highlight": "#f7509566",
+      "--border-translucent": "#72727029",
+      "--border-glow-on-surface-hover": "#77777552"
+    },
+    "metaTheme": "#1c1c1c"
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"mx-auto mt-20 mb-20 px-6 pt-8 md:mt-32 md:mb-44 md:max-w-xl md:px-0\"><h1 class=\"mb-2 text-center text-xl font-normal text-muted-foreground block\">AI App Builder</h1><h2 class=\"font-semibold text-4xl leading-[1.1] tracking-tight md:text-6xl mb-8 text-center\"><span style=\"background-image:linear-gradient(90deg,hsl(var(--foreground)) 0,hsl(var(--foreground)) 33.33%,#82BCFF 40%,#2483FF 45%,#FF66F4 50%,#FF3029 55%,#FE7B02 60%,transparent 66.67%,transparent);background-size:300% 100%;backg\u2026",
+    "footerHtml": "<footer class=\"border-muted-border bg-muted rounded-4 relative border p-6 sm:p-8 md:p-10 lg:p-14\"><nav class=\"grid grid-cols-2 gap-x-8 gap-y-12 sm:grid-cols-3 lg:grid-cols-6 lg:grid-rows-2\"><div class=\"col-span-2 flex h-full justify-between sm:col-span-3 lg:col-span-1 lg:flex-col\"><a class=\"w-fit transition-transform hover:animate-[heartbeat_1s_ease-in-out]\" href=\"/home\"><svg role=\"img\" aria-label=\"Lovable\" viewBox=\"0 0 23 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 size-8\u2026"
+  },
+  "status": 200,
+  "final_url": "https://lovable.dev/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 5,
+    "section_count": 6,
+    "nav_count": 2,
+    "button_count": 16,
+    "img_count": 9,
+    "footer_count": 1
+  }
+}

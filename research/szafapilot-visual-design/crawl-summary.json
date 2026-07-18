@@ -1,0 +1,452 @@
+{
+  "total": 30,
+  "ok": 30,
+  "with_design": 30,
+  "with_viewport": 30,
+  "sites": [
+    {
+      "name": "stripe",
+      "url": "https://stripe.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "sohne-var"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/stripe-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/stripe-full.png",
+      "error": null
+    },
+    {
+      "name": "linear",
+      "url": "https://linear.app",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Inter Variable",
+        "Berkeley Mono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/linear-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/linear-full.png",
+      "error": null
+    },
+    {
+      "name": "notion",
+      "url": "https://www.notion.so",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "NotionInter",
+        "Lyon Text"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/notion-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/notion-full.png",
+      "error": null
+    },
+    {
+      "name": "vercel",
+      "url": "https://vercel.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "GeistSans",
+        "Geist Mono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/vercel-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/vercel-full.png",
+      "error": null
+    },
+    {
+      "name": "attio",
+      "url": "https://attio.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "unknown",
+      "fonts": [
+        "inter",
+        "JetBrains Mono",
+        "interDisplay"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/attio-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/attio-full.png",
+      "error": null
+    },
+    {
+      "name": "mercury",
+      "url": "https://mercury.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "arcadia",
+        "arcadiaDisplay"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/mercury-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/mercury-full.png",
+      "error": null
+    },
+    {
+      "name": "ramp",
+      "url": "https://ramp.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "unknown",
+      "fonts": [
+        "SF Pro",
+        "lausanne",
+        "TWK Lausanne",
+        "Material Icons Outlined"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/ramp-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/ramp-full.png",
+      "error": null
+    },
+    {
+      "name": "intercom",
+      "url": "https://www.intercom.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Saans",
+        "SaansMono",
+        "Serrif",
+        "LLMedium",
+        "system-ui"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/intercom-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/intercom-full.png",
+      "error": null
+    },
+    {
+      "name": "supabase",
+      "url": "https://supabase.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "unknown",
+      "fonts": [
+        "Inter",
+        "Source Code Pro",
+        "Manrope"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/supabase-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/supabase-full.png",
+      "error": null
+    },
+    {
+      "name": "framer",
+      "url": "https://www.framer.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "sans-serif",
+        "Inter",
+        "Inter Variable",
+        "Input Mono Regular",
+        "GT Walsheim Medium"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/framer-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/framer-full.png",
+      "error": null
+    },
+    {
+      "name": "webflow",
+      "url": "https://webflow.com",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "WF Visual Sans Variable",
+        "WFVisualSans-Mono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/webflow-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/webflow-full.png",
+      "error": null
+    },
+    {
+      "name": "relume",
+      "url": "https://www.relume.io",
+      "category": "premium-saas",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "Relative",
+        "Relative Faux"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/relume-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/relume-full.png",
+      "error": null
+    },
+    {
+      "name": "perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "system-ui",
+        "monospace"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/perplexity-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/perplexity-full.png",
+      "error": null
+    },
+    {
+      "name": "clay",
+      "url": "https://www.clay.com",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "Roobertvf",
+        "Phosphor"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/clay-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/clay-full.png",
+      "error": null
+    },
+    {
+      "name": "cursor",
+      "url": "https://cursor.com",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "CursorGothic",
+        "system-ui",
+        "berkeleyMono",
+        "EB Garamond",
+        "Lato"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/cursor-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/cursor-full.png",
+      "error": null
+    },
+    {
+      "name": "lovable",
+      "url": "https://lovable.dev",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Camera Plain Variable"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/lovable-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/lovable-full.png",
+      "error": null
+    },
+    {
+      "name": "granola",
+      "url": "https://www.granola.ai",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "melange",
+        "quadrant",
+        "-apple-system"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/granola-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/granola-full.png",
+      "error": null
+    },
+    {
+      "name": "raycast",
+      "url": "https://www.raycast.com",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Inter",
+        "SF Pro Text",
+        "SF Pro",
+        "GeistMono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-full.png",
+      "error": null
+    },
+    {
+      "name": "loom",
+      "url": "https://www.loom.com",
+      "category": "ai-native",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Charlie Text",
+        "Charlie Display"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/loom-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/loom-full.png",
+      "error": null
+    },
+    {
+      "name": "zapier",
+      "url": "https://zapier.com",
+      "category": "automation",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "Inter",
+        "DegularDisplay",
+        "Degular Display",
+        "Serrif",
+        "Arial"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/zapier-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/zapier-full.png",
+      "error": null
+    },
+    {
+      "name": "make",
+      "url": "https://www.make.com",
+      "category": "automation",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Inter"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/make-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/make-full.png",
+      "error": null
+    },
+    {
+      "name": "retool",
+      "url": "https://retool.com",
+      "category": "automation",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "ui-sans-serif",
+        "saansFont",
+        "pxGroteskFont",
+        "ui-monospace"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/retool-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/retool-full.png",
+      "error": null
+    },
+    {
+      "name": "airtable",
+      "url": "https://www.airtable.com",
+      "category": "automation",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "Haas",
+        "Haas Groot Disp"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/airtable-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/airtable-full.png",
+      "error": null
+    },
+    {
+      "name": "shopify",
+      "url": "https://www.shopify.com",
+      "category": "ecommerce",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "NeueHaasGrotesk",
+        "Inter-Variable",
+        "ui-monospace"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/shopify-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/shopify-full.png",
+      "error": null
+    },
+    {
+      "name": "partiful",
+      "url": "https://partiful.com",
+      "category": "marketplace",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "sans-serif",
+        "TWK Lausanne Pan 550",
+        "TWK Lausanne Pan 400",
+        "TWK Lausanne Pan 700",
+        ".SFNSDisplay"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/partiful-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/partiful-full.png",
+      "error": null
+    },
+    {
+      "name": "canva",
+      "url": "https://www.canva.com",
+      "category": "ecommerce",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Times New Roman",
+        "Canva Sans",
+        "Arial"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/canva-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/canva-full.png",
+      "error": null
+    },
+    {
+      "name": "arc",
+      "url": "https://arc.net",
+      "category": "chrome-extension",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "Marlin Soft SQ",
+        "Marlin",
+        "InterVariable",
+        "-apple-system",
+        "ABC Favorit Mono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/arc-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/arc-full.png",
+      "error": null
+    },
+    {
+      "name": "raycast-store",
+      "url": "https://www.raycast.com/store",
+      "category": "chrome-extension",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "Inter"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-store-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-store-full.png",
+      "error": null
+    },
+    {
+      "name": "datadog",
+      "url": "https://www.datadoghq.com",
+      "category": "dashboard",
+      "ok": true,
+      "theme": "light",
+      "fonts": [
+        "NationalWeb"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/datadog-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/datadog-full.png",
+      "error": null
+    },
+    {
+      "name": "figma",
+      "url": "https://www.figma.com",
+      "category": "dashboard",
+      "ok": true,
+      "theme": "dark",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/figma-viewport.png",
+      "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/figma-full.png",
+      "error": null
+    }
+  ]
+}

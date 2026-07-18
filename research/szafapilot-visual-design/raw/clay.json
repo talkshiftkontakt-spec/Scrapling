@@ -1,0 +1,3369 @@
+{
+  "name": "clay",
+  "url": "https://www.clay.com",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/clay-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/clay-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/clay-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/clay-full.png",
+  "design": {
+    "url": "https://www.clay.com/",
+    "title": "Clay | Build systems to grow revenue",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 10100
+    },
+    "themeGuess": "light",
+    "luminance": 0.9999999999999999,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "fontFamily": "Roobertvf, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "nav-c"
+        ],
+        "text": "Back Product Product Use Cases Use Cases Solutions Solutions Resources Resources Company Company Pricing Pricing \u2318 K Log in Get a demo Start free trial FEATURES Clay",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 59
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Roobertvf, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Back",
+        "Product\n\nProduct",
+        "Use Cases\n\nUse Cases",
+        "Solutions\n\nSolutions",
+        "Resources\n\nResources",
+        "Company\n\nCompany",
+        "Pricing\n\nPricing",
+        "Log in",
+        "Get a demo",
+        "Start free trial",
+        "Claygents\n\nResearch target companies and people with AI",
+        "Waterfall\n\nCombine multiple data providers for the best coverage",
+        "Signals and Intent\n\nTrack job changes promotions or other signals",
+        "Data marketplace\n\nBuy data from 200+ providers in one place",
+        "Ads\n\nSync targeted ad audiences to Linkedin, Meta, and Google",
+        "Audiences\n\nCentralize your first and third party data sources in Clay",
+        "Sequencer\n\nUse Clay's native sequencer or automate messaging",
+        "Agent plugin\n\nBuild in Clay directly via a coding agent with API and CLI",
+        "Sculptor",
+        "Functions",
+        "AI formatting",
+        "Clay MCP",
+        "Clay for Salesforce",
+        "Changelog",
+        "Security at Clay",
+        "CLAY MCP\n\nGive reps the best prospecting data in their AI tools",
+        "CRM enrichment",
+        "Rep prospecting",
+        "Automated inbound"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "section_footer"
+        ],
+        "text": "Turn your growth ideas into reality today Start for free today. No credit card required. Start free trial Get a demo USE CASES Automated inbound Account research ABM PLG assist ",
+        "top": 8607,
+        "left": 0,
+        "width": 1440,
+        "height": 1493
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 253, 249)",
+        "backgroundImage": "linear-gradient(rgb(255, 255, 255), rgb(255, 253, 249) 15%)",
+        "fontFamily": "Roobertvf, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "page-content"
+        ],
+        "text": "Back Product Product Use Cases Use Cases Solutions Solutions Resources Resources Company Company Pricing Pricing \u2318 K Log in Get a demo Start free trial FEATURES Clay",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 10100
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [],
+        "top": 0,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [
+          "nav2_wrap",
+          "cl-nav-fixed"
+        ],
+        "top": 0,
+        "height": 59,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 1,
+        "height": 463,
+        "width": 1366,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 1,
+        "height": 328,
+        "width": 1366,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 1,
+        "height": 328,
+        "width": 1366,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 1,
+        "height": 336,
+        "width": 1366,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 1,
+        "height": 328,
+        "width": 1366,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "nav__section--main"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "section_home-hero"
+        ],
+        "top": 0,
+        "height": 1072,
+        "width": 1440,
+        "backgroundColor": "rgb(3, 93, 68)",
+        "backgroundImage": null,
+        "heading": "Build systems to grow revenue",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "section_home-logo"
+        ],
+        "top": 844,
+        "height": 506,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "section_home-flow"
+        ],
+        "top": 1350,
+        "height": 946,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "GTM engineers build on Clay",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "classes": [
+          "test-hide_base"
+        ],
+        "top": 2296,
+        "height": 519,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "What do you want to build?",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 16,
+        "tag": "section",
+        "classes": [
+          "section_input-action"
+        ],
+        "top": 2296,
+        "height": 519,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "What do you want to build?",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 17,
+        "tag": "section",
+        "classes": [
+          "section_home-features"
+        ],
+        "top": 2814,
+        "height": 3004,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build, test, and scale any GTM play you can imagine.",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 18,
+        "tag": "section",
+        "classes": [
+          "section_home-reps"
+        ],
+        "top": 5818,
+        "height": 941,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build systems that make reps more productive",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 19,
+        "tag": "section",
+        "classes": [
+          "section_home-customer"
+        ],
+        "top": 6760,
+        "height": 805,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Hear from the teams that grow with Clay",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 20,
+        "tag": "section",
+        "classes": [
+          "section_home-updates"
+        ],
+        "top": 7565,
+        "height": 1043,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(255, 255, 255, 0) 35%, rgb(255, 255, 255))",
+        "heading": "Learn more about GTM engineering",
+        "headingTag": "h3",
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Build systems to grow revenue",
+        "style": {
+          "color": "rgb(254, 253, 251)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "88px",
+          "fontWeight": "575",
+          "lineHeight": "88px",
+          "letterSpacing": "-3.52px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(254, 253, 251)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "heading-style-h1",
+            "cc-home-hero"
+          ],
+          "text": "Build systems to grow revenue",
+          "top": 604,
+          "left": 128,
+          "width": 720,
+          "height": 176
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "GTM engineers build on Clay",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "72px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h2"
+          ],
+          "text": "GTM engineers build on Clay",
+          "top": 1414,
+          "left": 277,
+          "width": 886,
+          "height": 72
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "What do you want to build?",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "What do you want to build?",
+          "top": 2408,
+          "left": 441,
+          "width": 557,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build, test, and scale any GTM play you can imagine.",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Build, test, and scale any GTM play you can imagine.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Get data from the most complete data marketplace",
+        "style": {
+          "color": "rgb(0, 20, 51)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 20, 51)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Get data from the most complete data marketplace",
+          "top": 2974,
+          "left": 128,
+          "width": 592,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Create agents who mimic your best reps",
+        "style": {
+          "color": "rgb(56, 16, 5)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(56, 16, 5)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3",
+            "u-text-balance"
+          ],
+          "text": "Create agents who mimic your best reps",
+          "top": 3697,
+          "left": 128,
+          "width": 480,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Orchestrate workflows across tools in real time",
+        "style": {
+          "color": "rgb(16, 43, 3)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(16, 43, 3)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3",
+            "u-text-balance"
+          ],
+          "text": "Orchestrate workflows across tools in real time",
+          "top": 4420,
+          "left": 128,
+          "width": 544,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Launch new plays as fast as you have ideas",
+        "style": {
+          "color": "rgb(70, 2, 47)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(70, 2, 47)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3",
+            "u-text-balance"
+          ],
+          "text": "Launch new plays as fast as you have ideas",
+          "top": 5143,
+          "left": 128,
+          "width": 480,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build systems that make reps more productive",
+        "style": {
+          "color": "rgb(27, 26, 24)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(27, 26, 24)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3",
+            "u-text-balance"
+          ],
+          "text": "Build systems that make reps more productive",
+          "top": 5900,
+          "left": 128,
+          "width": 560,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Hear from the teams that grow with Clay",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Hear from the teams that grow with Clay",
+          "top": 6824,
+          "left": 440,
+          "width": 560,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Learn more about GTM engineering",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Learn more about GTM engineering",
+          "top": 7629,
+          "left": 358,
+          "width": 725,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Sculpt: The go-to-market conference returns in 2026",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-size-large",
+            "text-weight-medium"
+          ],
+          "text": "Sculpt: The go-to-market conference returns in 2026",
+          "top": 8109,
+          "left": 104,
+          "width": 368,
+          "height": 62
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Get started with Clay",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-size-large",
+            "text-weight-medium"
+          ],
+          "text": "Get started with Clay",
+          "top": 7744,
+          "left": 536,
+          "width": 233,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "How Clay Uses Clay: ABM campaigns to break into Tier 1 accounts",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-size-large",
+            "text-weight-medium"
+          ],
+          "text": "How Clay Uses Clay: ABM campaigns to break into Tier 1 accounts",
+          "top": 8096,
+          "left": 536,
+          "width": 368,
+          "height": 94
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Sandra has built the Clay community in Lagos",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-size-large",
+            "text-weight-medium"
+          ],
+          "text": "Sandra has built the Clay community in Lagos",
+          "top": 8352,
+          "left": 291,
+          "width": 325,
+          "height": 62
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Where girls often choose between career or marriage, she carved her own path",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "31.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-size-large",
+            "text-weight-medium"
+          ],
+          "text": "Where girls often choose between career or marriage, she carved her own path",
+          "top": 8356,
+          "left": 968,
+          "width": 368,
+          "height": 94
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Turn your growth ideas into reality today",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "lineHeight": "48.4px",
+          "letterSpacing": "-0.88px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 17.6px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Turn your growth ideas into reality today",
+          "top": 8687,
+          "left": 400,
+          "width": 640,
+          "height": 97
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "USE CASES",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "USE CASES",
+          "top": 9266,
+          "left": 128,
+          "width": 128,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Customers",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "Customers",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "PRODUCT",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "PRODUCT",
+          "top": 9266,
+          "left": 373,
+          "width": 200,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "BLOG",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "BLOG",
+          "top": 9266,
+          "left": 618,
+          "width": 205,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "RESOURCES",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "RESOURCES",
+          "top": 9266,
+          "left": 862,
+          "width": 125,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "COMPANY",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "COMPANY",
+          "top": 9266,
+          "left": 1107,
+          "width": 120,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Legal",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "Legal",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "CUSTOMERS",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "CUSTOMERS",
+          "top": 9633,
+          "left": 128,
+          "width": 205,
+          "height": 13
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "LEGAL",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "13.2px",
+          "letterSpacing": "1.44px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "footer-list-header"
+          ],
+          "text": "LEGAL",
+          "top": 9633,
+          "left": 1107,
+          "width": 122,
+          "height": 13
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "href": "/",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__brand--link",
+            "w-inline-block",
+            "w--current"
+          ],
+          "text": "",
+          "top": 17,
+          "left": 61,
+          "width": 72,
+          "height": 23
+        }
+      },
+      {
+        "text": "Product\n\nProduct",
+        "href": "#",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Product Product",
+          "top": 8,
+          "left": 159,
+          "width": 67,
+          "height": 42
+        }
+      },
+      {
+        "text": "Use Cases\n\nUse Cases",
+        "href": "#",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Use Cases Use Cases",
+          "top": 8,
+          "left": 231,
+          "width": 82,
+          "height": 42
+        }
+      },
+      {
+        "text": "Solutions\n\nSolutions",
+        "href": "#",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Solutions Solutions",
+          "top": 8,
+          "left": 317,
+          "width": 76,
+          "height": 42
+        }
+      },
+      {
+        "text": "Resources\n\nResources",
+        "href": "#",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Resources Resources",
+          "top": 8,
+          "left": 397,
+          "width": 83,
+          "height": 42
+        }
+      },
+      {
+        "text": "Company\n\nCompany",
+        "href": "#",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Company Company",
+          "top": 8,
+          "left": 484,
+          "width": 78,
+          "height": 42
+        }
+      },
+      {
+        "text": "Pricing\n\nPricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "10.4px 8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__list--link",
+            "w-inline-block"
+          ],
+          "text": "Pricing Pricing",
+          "top": 8,
+          "left": 566,
+          "width": 61,
+          "height": 42
+        }
+      },
+      {
+        "text": "\u2318\nK",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12.8px",
+          "fontWeight": "400",
+          "lineHeight": "19.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "6.4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "3.2px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "nav_search",
+            "is--n-menu"
+          ],
+          "text": "\u2318 K",
+          "top": 11,
+          "left": 1012,
+          "width": 70,
+          "height": 35
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "https://app.clay.com/",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "12.8px",
+          "fontWeight": "500",
+          "lineHeight": "19.2px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "3.2px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav_2_menu-item",
+            "is--n-menu",
+            "w-inline-block"
+          ],
+          "text": "Log in",
+          "top": 12,
+          "left": 1083,
+          "width": 61,
+          "height": 32
+        }
+      },
+      {
+        "text": "Get a demo",
+        "href": "/demo",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(243, 242, 237)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "13.92px",
+          "fontWeight": "500",
+          "lineHeight": "20.88px",
+          "letterSpacing": "-0.1392px",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 16px",
+          "margin": "0px 8px 0px 0px",
+          "display": "flex",
+          "gap": "6.96px",
+          "maxWidth": "fit-content",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn",
+            "u-bg-oat-200",
+            "u-text-black",
+            "u-mr-0-5",
+            "w-inline-block",
+            "cc-small"
+          ],
+          "text": "Get a demo",
+          "top": 9,
+          "left": 1144,
+          "width": 107,
+          "height": 39
+        }
+      },
+      {
+        "text": "Start free trial",
+        "href": "https://app.clay.com/signup?source=nav&su=1874ef78-a025-4835-857f-ba3563020f3b",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "13.92px",
+          "fontWeight": "500",
+          "lineHeight": "20.88px",
+          "letterSpacing": "-0.1392px",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6.96px",
+          "maxWidth": "fit-content",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn",
+            "w-inline-block",
+            "cc-small"
+          ],
+          "text": "Start free trial",
+          "top": 9,
+          "left": 1258,
+          "width": 121,
+          "height": 39
+        }
+      },
+      {
+        "text": "Claygents\n\nResearch target companies and people with AI",
+        "href": "/claygent",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Claygents Research target companies and people with AI",
+          "top": 103,
+          "left": 167,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Waterfall\n\nCombine multiple data providers for the best coverage",
+        "href": "/waterfall-enrichment",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Waterfall Combine multiple data providers for the best coverage",
+          "top": 187,
+          "left": 167,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Signals and Intent\n\nTrack job changes promotions or other signals",
+        "href": "/signals",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Signals and Intent Track job changes promotions or other signals",
+          "top": 271,
+          "left": 167,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Data marketplace\n\nBuy data from 200+ providers in one place",
+        "href": "/integrations",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Data marketplace Buy data from 200+ providers in one place",
+          "top": 356,
+          "left": 167,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Ads\n\nSync targeted ad audiences to Linkedin, Meta, and Google",
+        "href": "/ads",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Ads Sync targeted ad audiences to Linkedin, Meta, and Google",
+          "top": 103,
+          "left": 467,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Audiences\n\nCentralize your first and third party data sources in Clay",
+        "href": "/audiences",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Audiences Centralize your first and third party data sources in Clay",
+          "top": 187,
+          "left": 467,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Sequencer\n\nUse Clay's native sequencer or automate messaging",
+        "href": "/sequencer",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Sequencer Use Clay's native sequencer or automate messaging",
+          "top": 271,
+          "left": 467,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Agent plugin\n\nBuild in Clay directly via a coding agent with API and CLI",
+        "href": "/agent-plugin",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Agent plugin Build in Clay directly via a coding agent with API and CLI",
+          "top": 356,
+          "left": 467,
+          "width": 299,
+          "height": 84
+        }
+      },
+      {
+        "text": "Sculptor",
+        "href": "/sculptor",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Sculptor",
+          "top": 103,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "text": "Functions",
+        "href": "/functions",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Functions",
+          "top": 133,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "text": "AI formatting",
+        "href": "/ai-formula",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "AI formatting",
+          "top": 162,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "text": "Clay MCP",
+        "href": "/mcp",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Clay MCP",
+          "top": 192,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "text": "Clay for Salesforce",
+        "href": "/sdr",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Clay for Salesforce",
+          "top": 221,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "text": "Changelog",
+        "href": "/changelog",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "4.96px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__content--link",
+            "w-inline-block"
+          ],
+          "text": "Changelog",
+          "top": 251,
+          "left": 766,
+          "width": 200,
+          "height": 30
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "CLAY MCP Give reps the best prospecting data in their AI tools",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 359
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 359
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "CRM ENRICHMENT Keep your CRM clean with the highest quality data",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "INTERCOM Grew their outbound-sourced pipeline by +140%",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "CLAY COMMUNITY In Nigeria, she built a life where money wouldn\u2019t decide",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 232
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 232
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "ARTICLE \u2013 NY TIMES Clay allows employees to sell shares at a $5b valuation.",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 224
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "Clay MCPGive reps the best prospecting data in their AI tools",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "CRM enrichmentKeep your CRM clean with the highest quality data",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "nav__ad--card-bg"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Roobertvf, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__ad--card",
+            "w-inline-block"
+          ],
+          "text": "Intercom Grew their outbound-sourced pipeline by +140%",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69d5e1ece9bc0e6bbc08127c_sculpt-Logo-Container.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "sculpt-logo"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif",
+        "alt": "Clay logo, go to homepage",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "u-img-cover"
+          ],
+          "text": "",
+          "top": 17,
+          "left": 61,
+          "width": 72,
+          "height": 23
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Claygents",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 114,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abca946b59ed38891ca_3d-icon-wave.avif",
+        "alt": "Waterfall",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 198,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1e25139458afbc01799d0_Signals%2C%20satellite%20dish%2C%20monitor.png",
+        "alt": "Signals and Intent",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 282,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc88fb18290e684672_3d-icon-wire.avif",
+        "alt": "Data marketplace",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 367,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6994e3f966056e5cbb08f379_ads-icon%201.png",
+        "alt": "Ads",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 114,
+          "left": 473,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf18dcd166ee8066e89_Audiences.webp",
+        "alt": "Audiences",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 198,
+          "left": 473,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf1b91a6faab45a7707_image.webp",
+        "alt": "Sequencer",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 282,
+          "left": 473,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c285d30643c440dfd33e_3d-icon-changelog.avif",
+        "alt": "Agent plugin",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 367,
+          "left": 473,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Sculptor",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Functions",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "AI formatting",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Clay MCP",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Clay for Salesforce",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Changelog",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif",
+        "alt": "Security at Clay",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61702af2e3966e09c4101538/6a591a9e3e484c06e9ad7def_MCP.jpg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "u-img-cover"
+          ],
+          "text": "",
+          "top": 81,
+          "left": 966,
+          "width": 307,
+          "height": 359
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66e48d7baf0d1ed31e280380_RevOps.avif",
+        "alt": "CRM enrichment",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 92,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998db679952f9e02725f1bc_prospecting.webp",
+        "alt": "Rep prospecting",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "loam---web-library--u-img-cover"
+          ],
+          "text": "",
+          "top": 134,
+          "left": 173,
+          "width": 20,
+          "height": 20
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1733
+      },
+      {
+        "value": "rgb(123, 121, 116)",
+        "count": 180
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 98
+      },
+      {
+        "value": "rgb(254, 253, 251)",
+        "count": 66
+      },
+      {
+        "value": "rgb(121, 117, 109)",
+        "count": 52
+      },
+      {
+        "value": "rgb(244, 243, 240)",
+        "count": 46
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(0, 0, 0) rgba(123, 121, 116, 0.15)",
+        "count": 34
+      },
+      {
+        "value": "rgb(239, 238, 236)",
+        "count": 10
+      },
+      {
+        "value": "rgba(209, 205, 199, 0.5)",
+        "count": 2
+      },
+      {
+        "value": "rgb(238, 247, 115)",
+        "count": 2
+      },
+      {
+        "value": "rgb(0, 0, 0) rgb(244, 243, 240)",
+        "count": 1
+      },
+      {
+        "value": "rgb(243, 242, 237)",
+        "count": 1
+      },
+      {
+        "value": "rgb(3, 93, 68)",
+        "count": 1
+      },
+      {
+        "value": "rgb(203, 216, 16)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Roobertvf",
+        "count": 1067
+      },
+      {
+        "value": "Phosphor",
+        "count": 5
+      }
+    ],
+    "radii": [
+      {
+        "value": "18px",
+        "count": 70
+      },
+      {
+        "value": "8px",
+        "count": 39
+      },
+      {
+        "value": "16px",
+        "count": 7
+      },
+      {
+        "value": "6.08px",
+        "count": 5
+      },
+      {
+        "value": "0px 0px 24px 24px",
+        "count": 2
+      },
+      {
+        "value": "4px",
+        "count": 2
+      },
+      {
+        "value": "12px",
+        "count": 2
+      },
+      {
+        "value": "10px",
+        "count": 1
+      },
+      {
+        "value": "48px",
+        "count": 1
+      }
+    ],
+    "shadows": [],
+    "cssVars": {
+      "--loam---web-library_color---neutral--black<deleted|variable-c36ac7e1-8fbe-02c8-b299-0725f37835b2>": "#1d1c1a",
+      "--loam---web-library_typography---type-paragraph-lg--font-size-md<deleted|variable-3827e11e-d6de-b750-0856-4c4d5e1bb735>": "1.25rem",
+      "--loam---web-library_typography---type-paragraph-lg--font-size-sm<deleted|variable-9571b88c-f7e6-8499-c3a7-32a45a896135>": "1.1rem",
+      "--loam---web-library_typography---type-paragraph-lg--font-size-xs<deleted|variable-38530925-3ceb-57ba-088c-852cfb39886b>": "1.1rem",
+      "--loam---web-library_components---card--border-radius": "0rem",
+      "--loam---web-library_typography---type-paragraph-sm--font-size-md<deleted|variable-d3d68428-70a0-977a-0d70-9c457da2b393>": ".9rem",
+      "--loam---web-library_typography---type-paragraph-sm--font-size-sm<deleted|variable-72d16686-a186-d070-910a-692704466993>": ".9rem",
+      "--loam---web-library_typography---type-paragraph-sm--font-size-xs<deleted|variable-23972735-f258-b87d-6bd1-1d87d97061ab>": ".9rem",
+      "--loam---web-library_swatches---neutrals--black": "var(--loam---web-library_swatches---oat--500)",
+      "--loam---web-library_swatches---neutrals--white": "var(--loam---web-library_swatches---oat--100)",
+      "--loam---web-library_components---button--vertical-padding": ".7em",
+      "--loam---web-library_components---button--horizontal-padding": "1em",
+      "--loam---web-library_components---button--border-radius": ".5rem",
+      "--loam---web-library---colors--primary-action": "var(--loam---web-library_swatches---neutrals--black)",
+      "--loam---web-library_components---button--font": "var(--loam---web-library_typography---fonts--primary-font)",
+      "--loam---web-library_color---neutral--white<deleted|variable-60877714-a487-5b45-6934-ca3dedc18d43>": "white",
+      "--loam---web-library_components---button--font-size": "1rem",
+      "--loam---web-library_components---button--line-height": "1.3em",
+      "--loam---web-library_components---button--font-weight": "400",
+      "--loam---web-library_components---button--letter-spacing": "0em",
+      "--loam---web-library---colors--text": "var(--loam---web-library_swatches---neutrals--black)",
+      "--loam---web-library_color---secondary--yellow<deleted|variable-9968a3b0-2914-6749-6f13-da8b7daee1ee>": "#f8d47a",
+      "--loam---web-library_color---secondary--blue<deleted|variable-79ac7cfe-5399-ceee-c3b8-67b92fc66a66>": "#0073e6",
+      "--loam---web-library_size---2rem": "2rem",
+      "--loam---web-library_size---3rem": "3rem",
+      "--loam---web-library_layout---spacing--margin-md": "2em",
+      "--loam---web-library_layout---grid--gap-main": "40px",
+      "--loam---web-library---colors--border<deleted|variable-153c7f1c-5103-5586-e137-6fbaee48816e>": "#302f2c",
+      "--loam---web-library_components---card--padding": "clamp(var(--loam---web-library_components---card--padding-min-rem)*1rem,((var(--loam---web-library_components---card--pa",
+      "--loam---web-library_layout---spacing--margin-sm": "1em",
+      "--loam---web-library_swatches---blueberry--400": "#3859f9",
+      "--loam---web-library_swatches---lemon--300": "#fcbe11",
+      "--loam---web-library_swatches---dragonfruit--400": "#cc089e",
+      "--loam---web-library_components---section--padding": "clamp(var(--loam---web-library_components---section--padding-min-rem)*1rem,((var(--loam---web-library_components---secti",
+      "--loam---web-library_color---neutral--dark-gray<deleted|variable-de016915-e214-0c44-8dc6-99c5e63efd24>": "#302f2c",
+      "--loam---web-library---colors--background": "var(--loam---web-library_swatches---neutrals--white)",
+      "--loam---web-library_components---container--max-width": "calc(var(--loam---web-library_layout---fluid--max)*1rem)",
+      "--loam---web-library_size---1rem<deleted|variable-3c645c3e-b052-b047-6eda-1a769561b8ef>": "1rem",
+      "--loam---web-library_size---1-5rem<deleted|variable-146589cc-aa2e-3bc2-53f5-3d60513477a2>": "1.5rem",
+      "--loam---web-library_size---5rem<deleted|variable-f904182c-04e2-ed66-2493-1ea4d1d21d01>": "5rem",
+      "--loam---web-library_typography---eyebrow--bottom-margin": "1.5em",
+      "--loam---web-library_typography---eyebrow--font": "var(--loam---web-library_typography---fonts--secondary-font)",
+      "--loam---web-library_typography---eyebrow--font-size": "clamp(var(--loam---web-library_typography---eyebrow--font-size-min-rem)*1rem,((var(--loam---web-library_typography---eye",
+      "--loam---web-library_typography---eyebrow--line-height": "1.2",
+      "--loam---web-library_typography---eyebrow--font-weight": "500",
+      "--loam---web-library_size---0-75rem<deleted|variable-542c8d19-850e-821d-31d4-748e41fb5473>": ".75rem",
+      "--loam---web-library_layout---grid--gap-sm": "8px",
+      "--loam---web-library_layout---grid--gap-md": "24px",
+      "--fonts--body-font": "var(--fonts--primary-font-family)",
+      "--paragraph--default": "1rem",
+      "--fonts--heading-font": "var(--fonts--primary-font-family)",
+      "--heading-\u2013-h1--line-height": "1em",
+      "--heading-\u2013-h1--font-size": "3.75rem",
+      "--heading-\u2013-h2--font-size": "2.75rem",
+      "--heading-\u2013-h2--line-height": "1.1em",
+      "--heading-\u2013-h3--font-size": "2rem",
+      "--heading-\u2013-h3--line-height": "1.1em",
+      "--heading-\u2013-h4--font-size": "1.5rem",
+      "--heading-\u2013-h4--line-height": "1.2em",
+      "--color--blue-500<deleted|variable-ebe93488-89c6-a5cd-d5e1-dded8473b4b5>": "#038ff7",
+      "--_swatches---color--black": "#000",
+      "--_swatches---color--oat-700": "#85817a",
+      "--color--clay-black<deleted|variable-26800bf5>": "var(--_swatches---color--black)",
+      "--archive--medium-purple<deleted|variable-7fcb262b>": "#9170e6",
+      "--_swatches---color--white": "white",
+      "--archive--slate-grey<deleted|variable-1ed44f93>": "#676d7e",
+      "--archive--alice-blue<deleted|variable-4b33b3bb>": "#f3f7fe",
+      "--white<deleted|variable-d7626ba4>": "white",
+      "--archive--dark-grey<deleted|variable-eb42266a>": "#a0a0a0",
+      "--_swatches---color--oat-600": "#9f9b93",
+      "--_swatches---color--oat-800": "#55534e",
+      "--_swatches---color--grey-200": "#e6e8ec",
+      "--_swatches---color--grey-50": "#f7f8f9",
+      "--_theme--chips---background": "var(--_swatches---color--blueberry-900)",
+      "--_theme--chips---text": "var(--_swatches---color--white)",
+      "--_swatches---color--grey-700": "#525a69",
+      "--_typography---paragraph-regular--font-size": "var(--loam---web-library_typography--restart---paragraph-regular--font-size)",
+      "--_swatches---color--grey-900": "#282c35",
+      "--_swatches---color--oat-100": "#f9f8f6",
+      "--spacing--0-5rem": ".5rem"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"home-hero_title\"><div class=\"eyebrow_stack\"><div class=\"eyebrow u-mb-0 cc-lemon\">Latest launch:&nbsp;</div><a data-hover-arrow=\"right\" data-module=\"hover-arrow\" data-wf-native-id-path=\"0b35c0b2-7e6a-ea24-4cc7-071b7dfd1c7f\" data-wf-ao-click-engagement-tracking=\"true\" data-wf-element-id=\"0b35c0b2-7e6a-ea24-4cc7-071b7dfd1c7f\" href=\"/mcp\" class=\"eyebrow_link w-inline-block\"><div class=\"eyebrow u-mb-0\">MCP IN&nbsp;CLAY</div><div class=\"clip\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"\u2026",
+    "footerHtml": "<footer data-mode=\"dark\" class=\"section_footer\"><div class=\"footer-action_intro\"><div class=\"footer-action_title\"><h2>Turn your growth ideas into reality today</h2></div><div class=\"footer-action_description\"><p>Start for free today. No credit card required.</p></div><div class=\"flex-row flex-gap-sm flex-x-center flex-col\"><a class=\"btn w-inline-block\" data-wf-component-context=\"%5B%7B%22componentId%22%3A%22a01b9f18-0442-8066-c108-fac9dcac4e4a%22%2C%22instanceId%22%3A%224769e884-473a-c5fb-e057-0\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.clay.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 2,
+    "section_count": 18,
+    "nav_count": 1,
+    "button_count": 71,
+    "img_count": 324,
+    "footer_count": 1
+  }
+}

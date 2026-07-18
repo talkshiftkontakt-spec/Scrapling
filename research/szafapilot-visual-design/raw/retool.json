@@ -1,0 +1,2795 @@
+{
+  "name": "retool",
+  "url": "https://retool.com",
+  "category": "automation",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/retool-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/retool-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/retool-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/retool-full.png",
+  "design": {
+    "url": "https://retool.com/",
+    "title": "Build internal software better, with AI. | Retool",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 9662
+    },
+    "themeGuess": "dark",
+    "luminance": 0.08235294117647059,
+    "bodyStyle": {
+      "color": "rgb(233, 235, 223)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(233, 235, 223)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(21, 21, 21)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "GlobalNavigationContentDefault-module__VJd2Lq__globalNavigationContent",
+          "fixed",
+          "top-0",
+          "z-nav",
+          "lg:block"
+        ],
+        "text": "A new building experience is here. Learn more \u2197 BACK Solution Audience Resources Use cases Pricing Search \u2318K Sign in Book a demo Start for free AppGen Generate apps that are built",
+        "top": 0,
+        "left": 0,
+        "width": 1425,
+        "height": 120
+      },
+      "style": {
+        "color": "rgb(233, 235, 223)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(233, 235, 223)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "2240px",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "A new building experience is here.\nLearn more \u2197",
+        "Use cases",
+        "Pricing",
+        "Sign in",
+        "Book a demo",
+        "Start for free",
+        "AppGen\n\nGenerate apps that are built for business\u2014on your data, in your cloud, and secure by default.",
+        "Build",
+        "Launch",
+        "Scale",
+        "Govern",
+        "Agents",
+        "App builder",
+        "AI primitives",
+        "Workflows",
+        "Database",
+        "External apps",
+        "Mobile apps",
+        "Self-hosting",
+        "Data",
+        "Engineering",
+        "Operations",
+        "Financial services",
+        "Manufacturing",
+        "Enterprise",
+        "Startups",
+        "Agencies",
+        "Integrations",
+        "Templates"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "!dark",
+          "bg-footer-background",
+          "border-t-hairline",
+          "border-surface-details-neutral-alpha-20"
+        ],
+        "text": "PLATFORM Build Launch Scale Govern CAPABILITIES AppGen Agents AI primitives App builder Mobile apps Workflows Database External apps Self-hosting AUDIENCE Data Engineering Operatio",
+        "top": 8720,
+        "left": 0,
+        "width": 1425,
+        "height": 942
+      },
+      "style": {
+        "color": "rgb(233, 235, 223)",
+        "backgroundColor": "rgb(21, 21, 21)",
+        "backgroundImage": "none",
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main-content",
+        "classes": [
+          "relative",
+          "overflow-x-clip",
+          "max-w-viewport-width",
+          "mx-auto"
+        ],
+        "text": "Build anywhere. Ship in Retool. Create a vendor onboarding tracker that pulls vendor status from our @PostgreSQL database and flags incomplete submissions. NEW Explore the new Reto",
+        "top": 40,
+        "left": 0,
+        "width": 1425,
+        "height": 8680
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "overflow-clip"
+        ],
+        "top": 40,
+        "height": 8680,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build anywhere.\nShip in Retool.",
+        "headingTag": "h1",
+        "childCount": 7
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "hero-homepage-m4",
+          "relative",
+          "z-auto"
+        ],
+        "top": 40,
+        "height": 1040,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build anywhere.\nShip in Retool.",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "z-0",
+          "flex",
+          "flex-col",
+          "gap-y-10",
+          "py-10"
+        ],
+        "top": 1096,
+        "height": 588,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Apps that mean business",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "z-0",
+          "story-scroll",
+          "grid-wrapper",
+          "mt-10",
+          "lg:mt-20"
+        ],
+        "top": 1764,
+        "height": 4076,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "z-0",
+          "feature-column-list",
+          "bg-surface-background-base",
+          "lg:pb-30",
+          "pt-10"
+        ],
+        "top": 5660,
+        "height": 496,
+        "width": 1425,
+        "backgroundColor": "rgb(21, 21, 21)",
+        "backgroundImage": null,
+        "heading": "Why enterprises choose Retool",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "z-0",
+          "results-homepage",
+          "grid-wrapper",
+          "items-start",
+          "py-10"
+        ],
+        "top": 6156,
+        "height": 1009,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Trusted by 10,000+ teams to generate production-ready AI applications",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "relative",
+          "z-auto"
+        ],
+        "top": 7165,
+        "height": 887,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Start today",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "slice-section",
+          "z-0",
+          "resources-grid",
+          "grid-wrapper",
+          "gap-y-10",
+          "py-10"
+        ],
+        "top": 8053,
+        "height": 668,
+        "width": 1425,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Get the latest from Retool",
+        "headingTag": "h2",
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Build anywhere.\nShip in Retool.",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "72px",
+          "fontWeight": "300",
+          "lineHeight": "75.6px",
+          "letterSpacing": "-1.584px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "headline-md",
+            "sm:headline-xl",
+            "text-center"
+          ],
+          "text": "Build anywhere. Ship in Retool.",
+          "top": 160,
+          "left": 475,
+          "width": 475,
+          "height": 151
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Apps that mean business",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "50.4px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-surface-text-primary",
+            "text-pretty",
+            "headline-sm",
+            "lg:headline-md",
+            "text-center"
+          ],
+          "text": "Apps that mean business",
+          "top": 1136,
+          "left": 33,
+          "width": 1360,
+          "height": 50
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Why enterprises choose Retool",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "50.4px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-surface-text-primary",
+            "text-pretty",
+            "headline-md"
+          ],
+          "text": "Why enterprises choose Retool",
+          "top": 5740,
+          "left": 33,
+          "width": 920,
+          "height": 50
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Production-ready from day one",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary",
+            "text-pretty"
+          ],
+          "text": "Production-ready from day one",
+          "top": 5894,
+          "left": 33,
+          "width": 427,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "From one great app to operational excellence",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary",
+            "text-pretty"
+          ],
+          "text": "From one great app to operational excellence",
+          "top": 5894,
+          "left": 499,
+          "width": 427,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "More teams building, no new risk",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary",
+            "text-pretty"
+          ],
+          "text": "More teams building, no new risk",
+          "top": 5894,
+          "left": 966,
+          "width": 427,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by 10,000+ teams to generate production-ready AI applications",
+        "style": {
+          "color": "rgb(203, 204, 196)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "300",
+          "lineHeight": "27px",
+          "letterSpacing": "0.18px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(203, 204, 196)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-surface-text-muted",
+            "text-pretty",
+            "text-body-lg"
+          ],
+          "text": "Trusted by 10,000+ teams to generate production-ready AI applications",
+          "top": 7104,
+          "left": 73,
+          "width": 572,
+          "height": 27
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Ramp saved $8M and 20,000+ hours",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "312px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-pretty",
+            "max-w-13em",
+            "pr-grid-col",
+            "xl:pr-0"
+          ],
+          "text": "Ramp saved $8M and 20,000+ hours",
+          "top": 6294,
+          "left": 74,
+          "width": 312,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "10x reduction in dev time across 1600 studios",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "312px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-pretty",
+            "max-w-13em",
+            "pr-grid-col",
+            "xl:pr-0"
+          ],
+          "text": "10x reduction in dev time across 1600 studios",
+          "top": 6294,
+          "left": 527,
+          "width": 312,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "10x increase in patients treated",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "312px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-pretty",
+            "max-w-13em",
+            "pr-grid-col",
+            "xl:pr-0"
+          ],
+          "text": "10x increase in patients treated",
+          "top": 6566,
+          "left": 527,
+          "width": 312,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Doordash saved $6M and 36,000+ hours",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "312px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-pretty",
+            "max-w-13em",
+            "pr-grid-col",
+            "xl:pr-0"
+          ],
+          "text": "Doordash saved $6M and 36,000+ hours",
+          "top": 6837,
+          "left": 527,
+          "width": 312,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "$3M+ profit generated and 80% faster development",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "312px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-pretty",
+            "max-w-13em",
+            "pr-grid-col",
+            "xl:pr-0"
+          ],
+          "text": "$3M+ profit generated and 80% faster development",
+          "top": 6837,
+          "left": 980,
+          "width": 312,
+          "height": 58
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Start today",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "60px",
+          "fontWeight": "300",
+          "lineHeight": "63px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "640px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-160",
+            "headline-md",
+            "sm:headline-lg",
+            "text-pretty",
+            "text-center",
+            "text-surface-text-primary"
+          ],
+          "text": "Start today",
+          "top": 7285,
+          "left": 574,
+          "width": 276,
+          "height": 63
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Get the latest from Retool",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-xs",
+            "grid-start-inner",
+            "col-end-20",
+            "col-span-8",
+            "lg:col-start-2"
+          ],
+          "text": "Get the latest from Retool",
+          "top": 8093,
+          "left": 33,
+          "width": 720,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Ship vibe-coded apps to production",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary"
+          ],
+          "text": "Ship vibe-coded apps to production",
+          "top": 8581,
+          "left": 57,
+          "width": 632,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "What \u201cprompt to production\u201d actually means for enterprise IT",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary"
+          ],
+          "text": "What \u201cprompt to production\u201d actually means for enterprise IT",
+          "top": 8190,
+          "left": 737,
+          "width": 292,
+          "height": 86
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "The State of AI Governance in 2026",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "headline-xxs",
+            "text-surface-text-primary"
+          ],
+          "text": "The State of AI Governance in 2026",
+          "top": 8447,
+          "left": 737,
+          "width": 292,
+          "height": 58
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "BACK",
+        "href": null,
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "pxGroteskFont, \"pxGroteskFont Fallback\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "14.4px",
+          "letterSpacing": "0.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "8px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "absolute",
+            "left-0",
+            "whitespace-nowrap",
+            "h-nav-height",
+            "py-2",
+            "text-string",
+            "transition-transform-opacity",
+            "duration-400"
+          ],
+          "text": "BACK",
+          "top": 56,
+          "left": 33,
+          "width": 42,
+          "height": 80
+        }
+      },
+      {
+        "text": "Solution",
+        "href": null,
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "hover:!opacity-100",
+            "group-hover:opacity-40",
+            "focus-visible:!opacity-100",
+            "group-focus-within:opacity-40",
+            "transition-opacity",
+            "duration-400"
+          ],
+          "text": "Solution",
+          "top": 60,
+          "left": 165,
+          "width": 64,
+          "height": 40
+        }
+      },
+      {
+        "text": "Audience",
+        "href": null,
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "hover:!opacity-100",
+            "group-hover:opacity-40",
+            "focus-visible:!opacity-100",
+            "group-focus-within:opacity-40",
+            "transition-opacity",
+            "duration-400"
+          ],
+          "text": "Audience",
+          "top": 60,
+          "left": 252,
+          "width": 70,
+          "height": 40
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "hover:!opacity-100",
+            "group-hover:opacity-40",
+            "focus-visible:!opacity-100",
+            "group-focus-within:opacity-40",
+            "transition-opacity",
+            "duration-400"
+          ],
+          "text": "Resources",
+          "top": 60,
+          "left": 347,
+          "width": 77,
+          "height": 40
+        }
+      },
+      {
+        "text": "Search\n\u2318K",
+        "href": null,
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "pxGroteskFont, \"pxGroteskFont Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "16.8px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "group/search-launcher",
+            "relative",
+            "inline-flex",
+            "items-center",
+            "overflow-hidden",
+            "gap-2",
+            "pt-1",
+            "text-caption"
+          ],
+          "text": "Search \u2318K",
+          "top": 67,
+          "left": 605,
+          "width": 61,
+          "height": 26
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": "https://login.retool.com/auth/login?source=navbarcta",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "pxGroteskFont, \"pxGroteskFont Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(233, 235, 223)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "cursor-pointer",
+            "flex",
+            "items-center",
+            "justify-center",
+            "h-10",
+            "text-caption-action",
+            "text-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Sign in",
+          "top": 60,
+          "left": 1063,
+          "width": 68,
+          "height": 40
+        }
+      },
+      {
+        "text": "Book a demo",
+        "href": "/demo?meeting_page_source=navbarcta",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "pxGroteskFont, \"pxGroteskFont Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(139, 134, 127)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "cursor-pointer",
+            "flex",
+            "items-center",
+            "justify-center",
+            "px-5",
+            "h-10",
+            "text-caption-action",
+            "text-center"
+          ],
+          "text": "Book a demo",
+          "top": 60,
+          "left": 1138,
+          "width": 125,
+          "height": 40
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "https://login.retool.com/auth/signup?source=navbarcta",
+        "style": {
+          "color": "rgb(21, 21, 21)",
+          "backgroundColor": "rgb(233, 235, 223)",
+          "backgroundImage": "none",
+          "fontFamily": "pxGroteskFont, \"pxGroteskFont Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(21, 21, 21)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "cursor-pointer",
+            "flex",
+            "items-center",
+            "justify-center",
+            "px-5",
+            "h-10",
+            "text-caption-action",
+            "text-center"
+          ],
+          "text": "Start for free",
+          "top": 60,
+          "left": 1271,
+          "width": 121,
+          "height": 40
+        }
+      },
+      {
+        "text": "AppGen\n\nGenerate apps that are built for business\u2014on your data, in your cloud, a",
+        "href": "/ai-app-generation",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px 16px 16px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "flex",
+            "flex-col",
+            "gap-1",
+            "w-full",
+            "pr-4",
+            "pb-4",
+            "group/item"
+          ],
+          "text": "AppGen Generate apps that are built for business\u2014on your data, in your cloud, and secure by default.",
+          "top": 147,
+          "left": 28,
+          "width": 222,
+          "height": 112
+        }
+      },
+      {
+        "text": "Build",
+        "href": "/build-enterprise-apps",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Build",
+          "top": 152,
+          "left": 264,
+          "width": 80,
+          "height": 37
+        }
+      },
+      {
+        "text": "Launch",
+        "href": "/launch-enterprise-apps",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Launch",
+          "top": 189,
+          "left": 264,
+          "width": 106,
+          "height": 37
+        }
+      },
+      {
+        "text": "Scale",
+        "href": "/scale-enterprise-apps",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Scale",
+          "top": 225,
+          "left": 264,
+          "width": 85,
+          "height": 37
+        }
+      },
+      {
+        "text": "Govern",
+        "href": "/govern-enterprise-apps",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Govern",
+          "top": 262,
+          "left": 264,
+          "width": 105,
+          "height": 37
+        }
+      },
+      {
+        "text": "Agents",
+        "href": "/build-enterprise-apps/agents",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Agents",
+          "top": 152,
+          "left": 500,
+          "width": 102,
+          "height": 37
+        }
+      },
+      {
+        "text": "App builder",
+        "href": "/build-enterprise-apps/apps",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "App builder",
+          "top": 189,
+          "left": 500,
+          "width": 150,
+          "height": 37
+        }
+      },
+      {
+        "text": "AI primitives",
+        "href": "/ai",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "AI primitives",
+          "top": 225,
+          "left": 500,
+          "width": 155,
+          "height": 37
+        }
+      },
+      {
+        "text": "Workflows",
+        "href": "/build-enterprise-apps/workflows",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Workflows",
+          "top": 262,
+          "left": 500,
+          "width": 138,
+          "height": 37
+        }
+      },
+      {
+        "text": "Database",
+        "href": "/build-enterprise-apps/database",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Database",
+          "top": 299,
+          "left": 500,
+          "width": 127,
+          "height": 37
+        }
+      },
+      {
+        "text": "External apps",
+        "href": "/launch-enterprise-apps/external",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "External apps",
+          "top": 336,
+          "left": 500,
+          "width": 168,
+          "height": 37
+        }
+      },
+      {
+        "text": "Mobile apps",
+        "href": "/launch-enterprise-apps/mobile",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Mobile apps",
+          "top": 373,
+          "left": 500,
+          "width": 156,
+          "height": 37
+        }
+      },
+      {
+        "text": "Self-hosting",
+        "href": "/govern-enterprise-apps/self-hosted",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Self-hosting",
+          "top": 409,
+          "left": 500,
+          "width": 153,
+          "height": 37
+        }
+      },
+      {
+        "text": "Data",
+        "href": "/for/data-teams",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Data",
+          "top": 152,
+          "left": 28,
+          "width": 77,
+          "height": 37
+        }
+      },
+      {
+        "text": "Engineering",
+        "href": "/for/engineering-teams",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Engineering",
+          "top": 189,
+          "left": 28,
+          "width": 154,
+          "height": 37
+        }
+      },
+      {
+        "text": "Operations",
+        "href": "/for/operations-teams",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Operations",
+          "top": 225,
+          "left": 28,
+          "width": 144,
+          "height": 37
+        }
+      },
+      {
+        "text": "Financial services",
+        "href": "/for/financial-services",
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionArrow-module__LlPYFa__actionArrow",
+            "ActionArrow-module__LlPYFa__isSmall",
+            "ActionArrow-module__LlPYFa__isIdle",
+            "duration-600",
+            "relative",
+            "block",
+            "whitespace-nowrap",
+            "w-fit"
+          ],
+          "text": "Financial services",
+          "top": 152,
+          "left": 306,
+          "width": 210,
+          "height": 37
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(233, 235, 223, 0.12)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "group/card",
+            "flex",
+            "w-full",
+            "border-hairline",
+            "hover:border-accent-base-color",
+            "border-subnav-hover-stroke-accent",
+            "transition-colors",
+            "duration-150"
+          ],
+          "text": "Resource Hub NEW Explore collections and more Featured Collection Build with AI Learn how to build agents, AI-powered workflows, and full-stack applications with AI-assisted dev",
+          "top": 459,
+          "left": 14,
+          "width": 795,
+          "height": 170
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "28px 0px 28px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "flex",
+            "flex-col",
+            "gap-1",
+            "justify-center",
+            "pl-3",
+            "py-7",
+            "transition-colors",
+            "duration-150"
+          ],
+          "text": "Resource Hub NEW Explore collections and more",
+          "top": 460,
+          "left": 15,
+          "width": 257,
+          "height": 168
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "NavItemFeaturedCard-module__wQy9cG__titleLink",
+            "flex",
+            "items-center",
+            "headline-xxs"
+          ],
+          "text": "Resource Hub NEW",
+          "top": 517,
+          "left": 27,
+          "width": 245,
+          "height": 29
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "380",
+          "lineHeight": "28.8px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "inline-block",
+            "relative",
+            "will-change-transform",
+            "-translate-x-2",
+            "opacity-0",
+            "group-hover/title:translate-x-0",
+            "group-hover/title:opacity-100",
+            "group-focus-visible/title:translate-x-0"
+          ],
+          "text": "",
+          "top": 513,
+          "left": 218,
+          "width": 28,
+          "height": 29
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(233, 235, 223)",
+          "backgroundColor": "rgb(21, 21, 21)",
+          "backgroundImage": "none",
+          "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(233, 235, 223)",
+          "padding": "24px 0px 24px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "flex",
+            "flex-col",
+            "gap-1",
+            "flex-1",
+            "justify-center",
+            "bg-surface-background-base",
+            "transition-colors",
+            "duration-150"
+          ],
+          "text": "Featured Collection Build with AI Learn how to build agents, AI-powered workflows, and full-stack applications with AI-assisted development.",
+          "top": 472,
+          "left": 448,
+          "width": 347,
+          "height": 144
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b_s/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/bombora/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/equativ/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/experian/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/eyeota/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/g/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/index/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/l/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/n/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/o/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/outbrain/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/pubmatic/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/taboola/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/triplelift/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/x/out?af0=f214e846&adroll_fpc=15acef07d80bdca3071c1c677079f72a-1784370329942&pv=21200181503.723034&arrfrr=https%3A%2F%2Fretool.com%2F&advertisable=TAYHWOLAKFD6LOW6X7DQWB",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://retool.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fbclf52sw%2Fproduction%2F5df87453ca5a48329270a939bc4c2152e287c8e1-2880x1620.jpg&w=320&q=75",
+        "alt": "Stylized image of an animated building with the word \"building\" on it",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-full",
+            "drag-none",
+            "object-cover",
+            "object-center"
+          ],
+          "text": "",
+          "top": 472,
+          "left": 288,
+          "width": 160,
+          "height": 144
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://dqpcjghenxt8u.cloudfront.net/video/M4+Teaser+Sample+Loop.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "hidden",
+            "md:block",
+            "h-full",
+            "w-full",
+            "object-cover",
+            "rounded-b-36"
+          ],
+          "text": "",
+          "top": 40,
+          "left": 40,
+          "width": 1345,
+          "height": 824
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://dqpcjghenxt8u.cloudfront.net/api-integration-logos/postgresql.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "tokenDomV3-module__oK1JDq__tokenIcon"
+          ],
+          "text": "",
+          "top": 437,
+          "left": 412,
+          "width": 11,
+          "height": 11
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://dqpcjghenxt8u.cloudfront.net/icons/external-imports/import-react.png",
+        "alt": "React App logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "h-full",
+            "rounded-[5px]",
+            "overflow-hidden",
+            "ring-1",
+            "ring-[#E9EAE7]",
+            "object-contain",
+            "select-none"
+          ],
+          "text": "",
+          "top": 595,
+          "left": 445,
+          "width": 20,
+          "height": 20
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(233, 235, 223)",
+        "count": 2138
+      },
+      {
+        "value": "rgba(21, 21, 21, 0.6)",
+        "count": 140
+      },
+      {
+        "value": "rgba(233, 235, 223, 0.12)",
+        "count": 139
+      },
+      {
+        "value": "rgb(21, 21, 21)",
+        "count": 129
+      },
+      {
+        "value": "rgb(203, 204, 196)",
+        "count": 104
+      },
+      {
+        "value": "rgba(233, 235, 223, 0.6)",
+        "count": 30
+      },
+      {
+        "value": "rgb(36, 36, 36)",
+        "count": 27
+      },
+      {
+        "value": "rgb(139, 134, 127)",
+        "count": 21
+      },
+      {
+        "value": "rgba(233, 235, 223, 0.4)",
+        "count": 12
+      },
+      {
+        "value": "rgb(247, 248, 244)",
+        "count": 11
+      },
+      {
+        "value": "rgb(182, 184, 175)",
+        "count": 10
+      },
+      {
+        "value": "rgba(21, 21, 21, 0.12)",
+        "count": 8
+      },
+      {
+        "value": "rgba(21, 21, 21, 0.063)",
+        "count": 4
+      },
+      {
+        "value": "rgb(217, 217, 217)",
+        "count": 4
+      },
+      {
+        "value": "rgb(67, 62, 56)",
+        "count": 3
+      },
+      {
+        "value": "rgb(81, 141, 210)",
+        "count": 2
+      },
+      {
+        "value": "rgba(247, 248, 244, 0.867)",
+        "count": 2
+      },
+      {
+        "value": "rgba(21, 21, 21, 0)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "ui-sans-serif",
+        "count": 841
+      },
+      {
+        "value": "saansFont",
+        "count": 449
+      },
+      {
+        "value": "pxGroteskFont",
+        "count": 227
+      },
+      {
+        "value": "ui-monospace",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 28
+      },
+      {
+        "value": "5px",
+        "count": 24
+      },
+      {
+        "value": "9999px",
+        "count": 11
+      },
+      {
+        "value": "36px",
+        "count": 6
+      },
+      {
+        "value": "16px",
+        "count": 5
+      },
+      {
+        "value": "20px",
+        "count": 4
+      },
+      {
+        "value": "8px",
+        "count": 4
+      },
+      {
+        "value": "12px",
+        "count": 4
+      },
+      {
+        "value": "0px 0px 36px 36px",
+        "count": 2
+      },
+      {
+        "value": "24px",
+        "count": 2
+      },
+      {
+        "value": "50%",
+        "count": 2
+      },
+      {
+        "value": "6px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.35) 0px 68px 116px 0px",
+      "rgb(255, 255, 255) 0px 0px 0px 0px, rgb(233, 234, 231) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+    ],
+    "cssVars": {
+      "--variable-editable-opacity": "1",
+      "--underline-duration": ".8s",
+      "--icon-y-offset": "8%",
+      "--shimmer-stop-1": "var(--surface-text-primary)",
+      "--shimmer-stop-2": "var(--surface-details-neutral-alpha-40)",
+      "--shimmer-stop-3": "var(--surface-text-primary)",
+      "--shimmer-duration": "6s",
+      "--arrow-width": ".4375rem",
+      "--arrow-height": ".75rem",
+      "--track-scroll-progress": "min(calc((var(--scroll-items-total) - 1) / var(--scroll-items-total)), calc(var(--scroll-progress) / var(--cards-fractio",
+      "--track-scroll-current": "calc((0rem - var(--card-width)) * var(--scroll-items-total) * var(--track-scroll-progress))",
+      "--track-scroll-max": "calc((0rem - var(--card-width)) * (var(--scroll-items-total) - 1.2))",
+      "--track-scroll": "max(var(--track-scroll-current), var(--track-scroll-max))",
+      "--card-cols": "24",
+      "--card-width": "calc(var(--dvt-grid-col,2.5rem) * var(--card-cols))",
+      "--card-height": "50vh",
+      "--bottom-padding": "50vh",
+      "--cards-fraction": "1",
+      "--sticky-viewport-height": "calc(100vh - var(--dvt-nav-height))",
+      "--canvas-width": "130vmax",
+      "--canvas-height": "100vmax",
+      "--section-height": "100vmax",
+      "--x-unit": "1vmax",
+      "--x-factor": "2",
+      "--x-calc": "calc((var(--x) * var(--x-unit)) * var(--x-factor))",
+      "--y-unit": "1vmax",
+      "--y-factor": "2.5",
+      "--y-calc": "calc((var(--y) * var(--y-unit)) * var(--y-factor))",
+      "--scale-factor": ".5",
+      "--media-cols": "16",
+      "--media-height": "calc(var(--dvt-grid-col) * var(--media-cols) * 3 / 4)",
+      "--margin-bottom": "0",
+      "--logo-width": "5.4rem",
+      "--logo-height": "1.125rem",
+      "--hero-col-1-count": "24",
+      "--hero-col-1": "calc(var(--dvt-grid-col) * var(--hero-col-1-count))",
+      "--interface-width": "calc(var(--dvt-grid-col) * 24)",
+      "--window-width": "calc(var(--dvt-grid-col) * 22)",
+      "--line": "calc((var(--dvt-grid-col) * 4) + var(--dvt-grid-outer))",
+      "--inner": "calc(var(--strip-width-viewport) / var(--strip-width))",
+      "--inner-percent": "calc(var(--inner) * 100% - 100%)",
+      "--offset-x": "calc(var(--y-progress) * var(--inner-percent))",
+      "--x-offset": "-.35rem",
+      "--y-offset": ".1rem",
+      "--max-width": "16rem",
+      "--effective-angle": "0deg",
+      "--h": "25vmin",
+      "--w": "calc((100vw + var(--h) * sin(var(--effective-angle))) / cos(var(--effective-angle)))",
+      "--fill-top-pct": "33%",
+      "--video-col": "21",
+      "--video-col-calc": "calc(var(--dvt-grid-col) * var(--video-col))",
+      "--details-col": "1fr",
+      "--tw-border-spacing-x": "0",
+      "--tw-border-spacing-y": "0",
+      "--tw-translate-x": "0",
+      "--tw-translate-y": "0",
+      "--tw-rotate": "0",
+      "--tw-skew-x": "0",
+      "--tw-skew-y": "0",
+      "--tw-scale-x": "1",
+      "--tw-scale-y": "1",
+      "--tw-scroll-snap-strictness": "proximity",
+      "--tw-ring-offset-width": "0px",
+      "--tw-ring-offset-color": "#fff",
+      "--tw-ring-color": "#3b82f680",
+      "--tw-ring-offset-shadow": "0 0 #0000",
+      "--tw-ring-shadow": "0 0 #0000",
+      "--tw-shadow": "0 0 #0000",
+      "--tw-shadow-colored": "0 0 #0000",
+      "--tw-content": "\"\"",
+      "--raw-dark-black-0-alpha-80": "#000c",
+      "--raw-dark-black-0-alpha-60": "#0009",
+      "--raw-dark-black-2-alpha-0": "#15151500",
+      "--raw-dark-black-2-alpha-6": "#15151510",
+      "--raw-dark-black-2-alpha-12": "#1515151f",
+      "--raw-dark-black-2-alpha-24": "#1515153d",
+      "--raw-dark-black-2-alpha-40": "#15151566",
+      "--raw-dark-black-2-alpha-60": "#15151599",
+      "--raw-light-white-2-alpha-0": "#e9ebdf00",
+      "--raw-light-white-2-alpha-6": "#e9ebdf10"
+    },
+    "metaTheme": "#151515"
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"GlobalNavigationContentDefault-module__VJd2Lq__globalNavigationContent fixed top-0 z-nav lg:block\"><div data-banner-event-launch=\"true\" class=\"relative overflow-clip bg-[linear-gradient(90deg,#233427_0%,#385056_26.05%,#7D6EA5_51.26%,#B498D7_77.04%,#B0CCEA_100%)] transition-[margin-top] duration-400 ease-ease-in-out\" style=\"height: auto;\"><div class=\"grid-wrapper h-banner-height\" style=\"opacity: 1;\"><div class=\"grid-span-start-inner-to-end-inner flex justify-between items-center mi\u2026",
+    "heroHtml": "<div class=\"grid-span-start-inner-to-end-inner flex flex-col items-center gap-8\"><h1 aria-label=\"Build anywhere. Ship in Retool.\" class=\"headline-md sm:headline-xl text-center\"><span class=\"block text-pretty text-surface-text-primary\">Build anywhere.</span><span class=\"block text-pretty text-surface-text-opacity-alpha-60\">Ship in Retool.</span></h1><div class=\"flex justify-center w-full px-grid-col light text-surface-text-primary\"><div aria-live=\"polite\" aria-atomic=\"true\" class=\"sr-only\">Create\u2026",
+    "footerHtml": "<footer class=\"!dark bg-footer-background border-t-hairline border-surface-details-neutral-alpha-20\" aria-hidden=\"false\"><div class=\"grid-wrapper grid-rows-[auto_1fr] overflow-hidden pt-20 pb-10 md:pt-30 lg:pt-40\"><div id=\"global-footer\" class=\"subgrid-item self-start col-start-2 col-end-26 md:col-end-36\"><div class=\"subgrid-item col-span-26 gap-y-10 md:col-span-36 lg:col-span-28 lg:gap-y-16\"><div class=\"subgrid-item col-span-26 gap-y-10 md:col-span-36 lg:col-span-28 lg:gap-y-16\"><div class=\"fle\u2026"
+  },
+  "status": 200,
+  "final_url": "https://retool.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 5,
+    "section_count": 7,
+    "nav_count": 2,
+    "button_count": 38,
+    "img_count": 156,
+    "footer_count": 1
+  }
+}

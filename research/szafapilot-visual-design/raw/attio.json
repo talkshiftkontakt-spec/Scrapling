@@ -1,0 +1,3042 @@
+{
+  "name": "attio",
+  "url": "https://attio.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/attio-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/attio-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/attio-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/attio-full.png",
+  "design": {
+    "url": "https://attio.com/",
+    "title": "Attio: The CRM for agentic revenue",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 17668
+    },
+    "themeGuess": "unknown",
+    "luminance": null,
+    "bodyStyle": {
+      "color": "lab(10.7201 -0.0959039 -1.54182)",
+      "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+      "backgroundImage": "none",
+      "fontFamily": "inter, \"inter Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "-0.16px",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "lab(10.7201 -0.0959039 -1.54182)",
+      "backgroundColor": "lab(0 0 0)",
+      "backgroundImage": "none",
+      "fontFamily": "inter, \"inter Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "-0.16px",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "border-subtle-stroke",
+          "border-b",
+          "bg-primary-background/95",
+          "transition-colors",
+          "duration-250",
+          "dark:bg-primary-background"
+        ],
+        "text": "Orchestrate revenue agents with the new Workflows Platform Resources Customers Pricing Sign in Start for free",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 116
+      },
+      "style": {
+        "color": "lab(10.7201 -0.0959039 -1.54182)",
+        "backgroundColor": "oklab(0.999997 0.0000899732 0.000023365 / 0.95)",
+        "backgroundImage": "none",
+        "fontFamily": "inter, \"inter Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.16px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Orchestrate revenue agents with the new Workflows",
+        "Customers",
+        "Pricing",
+        "Ask AttioSearch and create with AI",
+        "AINative to your CRM",
+        "Data modelSync and enrich your data",
+        "Universal ContextThe AI context layer",
+        "WorkflowsOrchestrate any revenue motion",
+        "SequencesPersonalized outreach",
+        "Call IntelligenceRecord and analyze meetings",
+        "ReportingInsights in real time",
+        "Developer PlatformBuild with the Attio MCP, API, and SDK",
+        "Apps & integrationsConnect all your favorite tools",
+        "Attio 101",
+        "Hire an expert",
+        "Startup program",
+        "Talk to sales",
+        "Help centerLearn more about Attio\u2019s features",
+        "AcademyEssential Attio features explained",
+        "Developer docsStart building Attio apps",
+        "Partner programsDevelopers, creators, consultants",
+        "Changelog",
+        "Announcements",
+        "Engineering blog",
+        "Careers",
+        "Sign in",
+        "Start for free",
+        "Build pipeline",
+        "Convert leads"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "relative",
+          "flex",
+          "min-h-[40svh]",
+          "w-full",
+          "flex-col",
+          "justify-between",
+          "bg-primary-background",
+          "dark:bg-primary-background"
+        ],
+        "text": "Platform Refer a team New Changelog Gmail extension iOS app Android app Company Customers Announcements Engineering blog New Careers Manifesto Become a partner Import from Salesfor",
+        "top": 17011,
+        "left": 0,
+        "width": 1440,
+        "height": 657
+      },
+      "style": {
+        "color": "lab(10.7201 -0.0959039 -1.54182)",
+        "backgroundColor": "lab(4.67701 0 0)",
+        "backgroundImage": "none",
+        "fontFamily": "inter, \"inter Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "22px",
+        "letterSpacing": "-0.16px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [],
+        "text": "GTM lessons from Elena Verna and more Welcome to agentic revenue. Attio is the CRM that builds pipeline, advances deals, and grows accounts around the clock. Talk to sales Start ",
+        "top": 116,
+        "left": 0,
+        "width": 1440,
+        "height": 16895
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "border-subtle-stroke",
+          "border-b",
+          "bg-primary-background"
+        ],
+        "top": 116,
+        "height": 1207,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": "Welcome to agentic revenue.",
+        "headingTag": "h1",
+        "childCount": 2
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "border-subtle-stroke",
+          "border-b",
+          "bg-secondary-background"
+        ],
+        "top": 1323,
+        "height": 291,
+        "width": 1440,
+        "backgroundColor": "lab(98.2947 0.128329 -0.513124)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "bg-secondary-background"
+        ],
+        "top": 1614,
+        "height": 6479,
+        "width": 1440,
+        "backgroundColor": "lab(98.2947 0.128329 -0.513124)",
+        "backgroundImage": null,
+        "heading": "The intelligent system that never sleeps.\nPicks up leads at 2am. Catches renewals before they slip. Hands you the answer",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "isolate",
+          "bg-secondary-background"
+        ],
+        "top": 8094,
+        "height": 1097,
+        "width": 1440,
+        "backgroundColor": "lab(98.2947 0.128329 -0.513124)",
+        "backgroundImage": null,
+        "heading": "Live from day one. Connect your inbox and calendar. Attio learns your business and builds itself around it, before your ",
+        "headingTag": "h2",
+        "childCount": 4
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "classes": [
+          "relative",
+          "isolate"
+        ],
+        "top": 9192,
+        "height": 4517,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Universal Context\u2122",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "dark",
+          "bg-primary-background",
+          "text-primary-foreground"
+        ],
+        "top": 9192,
+        "height": 2573,
+        "width": 1440,
+        "backgroundColor": "lab(4.67701 0 0)",
+        "backgroundImage": null,
+        "heading": "Universal Context\u2122",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "z-10",
+          "overflow-hidden",
+          "px-6",
+          "pb-18",
+          "text-center"
+        ],
+        "top": 11097,
+        "height": 668,
+        "width": 1392,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Your whole stack, connected.",
+        "headingTag": "h3",
+        "childCount": 3
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "dark",
+          "bg-primary-background",
+          "text-primary-foreground"
+        ],
+        "top": 11765,
+        "height": 593,
+        "width": 1440,
+        "backgroundColor": "lab(4.67701 0 0)",
+        "backgroundImage": null,
+        "heading": "SDK. API. MCP.\nBuild anything on Attio.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "z-0",
+          "-mt-[100svh]",
+          "flex",
+          "flex-col",
+          "bg-primary-background"
+        ],
+        "top": 11459,
+        "height": 2250,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "overflow-hidden",
+          "bg-primary-background"
+        ],
+        "top": 13710,
+        "height": 760,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": "Run at any scale. Production-grade for your team and agents.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "border-subtle-stroke",
+          "border-t",
+          "bg-primary-background"
+        ],
+        "top": 14470,
+        "height": 937,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": "Trusted by 30,000+ customers.\nFrom first agent to enterprise scale.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "classes": [
+          "bg-primary-background",
+          "max-lg:hidden"
+        ],
+        "top": 15407,
+        "height": 128,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "bg-primary-background"
+        ],
+        "top": 15536,
+        "height": 930,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": "Better as you grow. New features every week to keep pace with you.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "classes": [
+          "bg-primary-background",
+          "max-lg:hidden"
+        ],
+        "top": 16466,
+        "height": 128,
+        "width": 1440,
+        "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "dark",
+          "relative",
+          "overflow-hidden",
+          "border-subtle-stroke",
+          "border-t",
+          "bg-primary-background"
+        ],
+        "top": 16594,
+        "height": 417,
+        "width": 1440,
+        "backgroundColor": "lab(4.67701 0 0)",
+        "backgroundImage": null,
+        "heading": "Agentic revenue runs on Attio.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [],
+        "top": 17668,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Welcome to agentic revenue.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "64px",
+          "fontWeight": "600",
+          "lineHeight": "60.8px",
+          "letterSpacing": "-1.28px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-display",
+            "font-semibold",
+            "text-primary-foreground",
+            "leading-[0.95]"
+          ],
+          "text": "Welcome to agentic revenue.",
+          "top": 278,
+          "left": 318,
+          "width": 805,
+          "height": 61
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Welcome to agentic revenue.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "56px",
+          "fontWeight": "600",
+          "lineHeight": "53.2px",
+          "letterSpacing": "-1.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "4px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "mt-2",
+            "text-balance",
+            "text-heading-md",
+            "text-primary-foreground",
+            "leading-[0.95]",
+            "sm:mt-1",
+            "sm:text-heading-lg",
+            "sm:tracking-[-0.02em]"
+          ],
+          "text": "Welcome to agentic revenue.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The intelligent system that never sleeps.\nPicks up leads at 2am. Catches renewals before they slip. Hands you the answer before you ask.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "896px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-primary-foreground",
+            "max-w-[896px]"
+          ],
+          "text": "The intelligent system that never sleeps. Picks up leads at 2am. Catches renewals before they slip. Hands you the answer before you ask.",
+          "top": 1814,
+          "left": 83,
+          "width": 896,
+          "height": 132
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Your team, amplified. Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "27.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "560px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "max-w-[560px]",
+            "text-balance",
+            "font-display",
+            "text-2xl",
+            "text-primary-foreground",
+            "leading-[1.15]"
+          ],
+          "text": "Your team, amplified. Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win.",
+          "top": 2139,
+          "left": 430,
+          "width": 560,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Speed to lead, every time. New leads get enriched, scored, and routed to the right rep before they ever cool off.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "27.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "560px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "max-w-[560px]",
+            "text-balance",
+            "font-display",
+            "text-2xl",
+            "text-primary-foreground",
+            "leading-[1.15]"
+          ],
+          "text": "Speed to lead, every time. New leads get enriched, scored, and routed to the right rep before they ever cool off.",
+          "top": 3550,
+          "left": 430,
+          "width": 560,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Run every motion, your way. Pipeline built for how you sell, while agents brief the meetings and keep deals moving.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "27.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "560px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "max-w-[560px]",
+            "text-balance",
+            "font-display",
+            "text-2xl",
+            "text-primary-foreground",
+            "leading-[1.15]"
+          ],
+          "text": "Run every motion, your way. Pipeline built for how you sell, while agents brief the meetings and keep deals moving.",
+          "top": 4481,
+          "left": 430,
+          "width": 560,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "For the people who own the number. Ask any revenue question. From the weekly forecast to performance by rep, get the answer in seconds.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "27.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "560px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "max-w-[560px]",
+            "text-balance",
+            "font-display",
+            "text-2xl",
+            "text-primary-foreground",
+            "leading-[1.15]"
+          ],
+          "text": "For the people who own the number. Ask any revenue question. From the weekly forecast to performance by rep, get the answer in seconds.",
+          "top": 5892,
+          "left": 430,
+          "width": 560,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Keep more. Grow more. Agents track the whole book, so you save what's slipping and grow what's rising.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "27.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "560px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "max-w-[560px]",
+            "text-balance",
+            "font-display",
+            "text-2xl",
+            "text-primary-foreground",
+            "leading-[1.15]"
+          ],
+          "text": "Keep more. Grow more. Agents track the whole book, so you save what's slipping and grow what's rising.",
+          "top": 6823,
+          "left": 430,
+          "width": 560,
+          "height": 55
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Live from day one. Connect your inbox and calendar. Attio learns your business and builds itself around it, before your first agent even get",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "926px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-primary-foreground",
+            "max-w-[926px]"
+          ],
+          "text": "Live from day one. Connect your inbox and calendar. Attio learns your business and builds itself around it, before your first agent even gets to work.",
+          "top": 8423,
+          "left": 257,
+          "width": 926,
+          "height": 132
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Universal Context\u2122",
+        "style": {
+          "color": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "96px",
+          "fontWeight": "600",
+          "lineHeight": "96px",
+          "letterSpacing": "-2.304px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-full",
+            "text-balance",
+            "font-display",
+            "font-semibold",
+            "text-[40px]",
+            "text-white-200",
+            "leading-none",
+            "tracking-[-0.024em]"
+          ],
+          "text": "Universal Context\u2122",
+          "top": 9502,
+          "left": 340,
+          "width": 759,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All of the signals, none of the noise. Ready to act on.",
+        "style": {
+          "color": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "478px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "max-w-[478px]",
+            "text-white-200"
+          ],
+          "text": "All of the signals, none of the noise. Ready to act on.",
+          "top": 10489,
+          "left": 82,
+          "width": 478,
+          "height": 88
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "All of the signals, none of the noise. Ready to act on.",
+        "style": {
+          "color": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "478px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "max-w-[478px]",
+            "text-white-200"
+          ],
+          "text": "All of the signals, none of the noise. Ready to act on.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Your whole stack, connected.",
+        "style": {
+          "color": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "24px 0px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "696px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "mt-6",
+            "max-w-[696px]",
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-white-200"
+          ],
+          "text": "Your whole stack, connected.",
+          "top": 11297,
+          "left": 466,
+          "width": 508,
+          "height": 44
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "SDK. API. MCP.\nBuild anything on Attio.",
+        "style": {
+          "color": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-white-200"
+          ],
+          "text": "SDK. API. MCP. Build anything on Attio.",
+          "top": 11926,
+          "left": 115,
+          "width": 397,
+          "height": 88
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Run at any scale. Production-grade for your team and agents.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "880px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[22em]",
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-primary-foreground"
+          ],
+          "text": "Run at any scale. Production-grade for your team and agents.",
+          "top": 13910,
+          "left": 83,
+          "width": 464,
+          "height": 132
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by 30,000+ customers.\nFrom first agent to enterprise scale.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "880px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[22em]",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-primary-foreground",
+            "text-balance"
+          ],
+          "text": "Trusted by 30,000+ customers. From first agent to enterprise scale.",
+          "top": 14671,
+          "left": 83,
+          "width": 611,
+          "height": 88
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Better as you grow. New features every week to keep pace with you.",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "880px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[22em]",
+            "text-balance",
+            "font-medium",
+            "text-heading-responsive-md",
+            "text-primary-foreground"
+          ],
+          "text": "Better as you grow. New features every week to keep pace with you.",
+          "top": 15736,
+          "left": 83,
+          "width": 880,
+          "height": 88
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "What's new in Workflows",
+        "style": {
+          "color": "lab(14.599 -0.159428 -2.99254)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.18px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flow-root",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "line-clamp-2",
+            "text-balance",
+            "text-lg",
+            "text-secondary-foreground",
+            "transition-colors",
+            "group-hover:text-primary-foreground"
+          ],
+          "text": "What's new in Workflows",
+          "top": 15990,
+          "left": 108,
+          "width": 270,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "New activity timeline",
+        "style": {
+          "color": "lab(14.599 -0.159428 -2.99254)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.18px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flow-root",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "line-clamp-2",
+            "text-balance",
+            "text-lg",
+            "text-secondary-foreground",
+            "transition-colors",
+            "group-hover:text-primary-foreground"
+          ],
+          "text": "New activity timeline",
+          "top": 15990,
+          "left": 426,
+          "width": 270,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Calls on mobile",
+        "style": {
+          "color": "lab(14.599 -0.159428 -2.99254)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.18px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flow-root",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "line-clamp-2",
+            "text-balance",
+            "text-lg",
+            "text-secondary-foreground",
+            "transition-colors",
+            "group-hover:text-primary-foreground"
+          ],
+          "text": "Calls on mobile",
+          "top": 15990,
+          "left": 745,
+          "width": 270,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "More App Store updates",
+        "style": {
+          "color": "lab(14.599 -0.159428 -2.99254)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.18px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flow-root",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "line-clamp-2",
+            "text-balance",
+            "text-lg",
+            "text-secondary-foreground",
+            "transition-colors",
+            "group-hover:text-primary-foreground"
+          ],
+          "text": "More App Store updates",
+          "top": 15990,
+          "left": 1064,
+          "width": 270,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Agentic revenue runs on Attio.",
+        "style": {
+          "color": "lab(99.9987 0.0337958 0.000309944)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "56px",
+          "letterSpacing": "-0.84px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "672px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "max-w-[12em]",
+            "text-balance",
+            "text-center",
+            "font-display",
+            "font-medium",
+            "leading-[1]"
+          ],
+          "text": "Agentic revenue runs on Attio.",
+          "top": 16715,
+          "left": 384,
+          "width": 672,
+          "height": 112
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Platform",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Platform",
+          "top": 17092,
+          "left": 488,
+          "width": 232,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Company",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Company",
+          "top": 17288,
+          "left": 488,
+          "width": 232,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Import from",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Import from",
+          "top": 17092,
+          "left": 720,
+          "width": 232,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Attio for",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Attio for",
+          "top": 17316,
+          "left": 720,
+          "width": 232,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Apps",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Apps",
+          "top": 17092,
+          "left": 952,
+          "width": 232,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Resources",
+        "style": {
+          "color": "lab(37.426 -1.09151 -9.33263)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "4px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "py-1",
+            "text-caption-foreground",
+            "text-sm"
+          ],
+          "text": "Resources",
+          "top": 17092,
+          "left": 1183,
+          "width": 232,
+          "height": 28
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Orchestrate revenue agents with the new Workflows",
+        "href": "/platform/workflows",
+        "style": {
+          "color": "lab(99.9987 0.0337958 0.000309944)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "flex",
+            "size-full",
+            "items-center",
+            "justify-center",
+            "gap-1.5",
+            "text-primary-foreground"
+          ],
+          "text": "Orchestrate revenue agents with the new Workflows",
+          "top": 0,
+          "left": 72,
+          "width": 1296,
+          "height": 48
+        }
+      },
+      {
+        "text": "Attio homepage",
+        "href": "/",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "8px 4px",
+          "margin": "-8px -4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "-mx-1",
+            "-my-2",
+            "rounded-xl",
+            "px-1",
+            "py-2"
+          ],
+          "text": "",
+          "top": 62,
+          "left": 20,
+          "width": 111,
+          "height": 40
+        }
+      },
+      {
+        "text": "Platform",
+        "href": null,
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "0px 8px 0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Platform",
+          "top": 64,
+          "left": 163,
+          "width": 105,
+          "height": 36
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "0px 8px 0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Resources",
+          "top": 64,
+          "left": 274,
+          "width": 120,
+          "height": 36
+        }
+      },
+      {
+        "text": "Customers",
+        "href": "/customers",
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Customers",
+          "top": 64,
+          "left": 400,
+          "width": 103,
+          "height": 36
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Pricing",
+          "top": 64,
+          "left": 509,
+          "width": 75,
+          "height": 36
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": "https://app.attio.com/",
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(83.208 -0.844151 -5.26234)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Sign in",
+          "top": 64,
+          "left": 1225,
+          "width": 71,
+          "height": 36
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "https://app.attio.com/welcome/sign-in",
+        "style": {
+          "color": "lab(96.1596 -0.0828803 -1.13571)",
+          "backgroundColor": "lab(12.7212 0.103362 -2.22102)",
+          "backgroundImage": "radial-gradient(at 50% -10%, lab(12.7212 0.103362 -2.22102) 0%, lab(12.7212 0.103362 -2.22102) 100%)",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(37.426 -1.09151 -9.33263)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Start for free",
+          "top": 64,
+          "left": 1306,
+          "width": 110,
+          "height": 36
+        }
+      },
+      {
+        "text": "GTM lessons from Elena Verna and more",
+        "href": "https://atlas.attio.com",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "13px",
+          "boxShadow": "none",
+          "border": "1px solid lab(94.3726 -0.157326 -2.23036)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "block",
+            "border",
+            "border-weak-stroke",
+            "active:border-subtle-stroke",
+            "transition-colors",
+            "duration-300"
+          ],
+          "text": "GTM lessons from Elena Verna and more",
+          "top": 212,
+          "left": 579,
+          "width": 283,
+          "height": 30
+        }
+      },
+      {
+        "text": "Talk to sales",
+        "href": null,
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(83.208 -0.844151 -5.26234)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Talk to sales",
+          "top": 446,
+          "left": 606,
+          "width": 108,
+          "height": 36
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "https://app.attio.com/welcome/sign-in",
+        "style": {
+          "color": "lab(96.1596 -0.0828803 -1.13571)",
+          "backgroundColor": "lab(12.7212 0.103362 -2.22102)",
+          "backgroundImage": "radial-gradient(at 50% -10%, lab(12.7212 0.103362 -2.22102) 0%, lab(12.7212 0.103362 -2.22102) 100%)",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(37.426 -1.09151 -9.33263)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Start for free",
+          "top": 446,
+          "left": 724,
+          "width": 110,
+          "height": 36
+        }
+      },
+      {
+        "text": "Read the Taskrabbit customer story",
+        "href": "/customers/taskrabbit",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "flex",
+            "h-24",
+            "items-center",
+            "justify-center",
+            "bg-secondary-background",
+            "px-6",
+            "group"
+          ],
+          "text": "",
+          "top": 1323,
+          "left": 581,
+          "width": 277,
+          "height": 96
+        }
+      },
+      {
+        "text": "Read the Granola customer story",
+        "href": "/customers/granola",
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "lab(98.2947 0.128329 -0.513124)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(86.0989 -0.77799 -4.0961)",
+          "padding": "0px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "flex",
+            "h-24",
+            "items-center",
+            "justify-center",
+            "bg-secondary-background",
+            "px-6",
+            "group"
+          ],
+          "text": "",
+          "top": 1323,
+          "left": 860,
+          "width": 277,
+          "height": 96
+        }
+      },
+      {
+        "text": "Continue",
+        "href": null,
+        "style": {
+          "color": "lab(96.1596 -0.0828803 -1.13571)",
+          "backgroundColor": "lab(12.7212 0.103362 -2.22102)",
+          "backgroundImage": "radial-gradient(at 50% -10%, lab(12.7212 0.103362 -2.22102) 0%, lab(12.7212 0.103362 -2.22102) 100%)",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(37.426 -1.09151 -9.33263)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Continue",
+          "top": 827,
+          "left": 37,
+          "width": 86,
+          "height": 36
+        }
+      },
+      {
+        "text": "Reject",
+        "href": null,
+        "style": {
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "backgroundColor": "lab(99.9987 0.0337958 0.000309944)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.07px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "1px solid lab(83.208 -0.844151 -5.26234)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal 6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "text-nowrap",
+            "border",
+            "transition-colors"
+          ],
+          "text": "Reject",
+          "top": 827,
+          "left": 131,
+          "width": 67,
+          "height": 36
+        }
+      },
+      {
+        "text": "Open Intercom Messenger",
+        "href": null,
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgb(56, 58, 59)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px",
+          "border": "0px none lab(10.7201 -0.0959039 -1.54182)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "48px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "intercom-lightweight-app-launcher",
+            "intercom-launcher"
+          ],
+          "text": "",
+          "top": 832,
+          "left": 1372,
+          "width": 48,
+          "height": 48
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": "home-2026-generate-pipeline",
+          "classes": [
+            "scroll-mt-[calc(var(--site-header-height)+88px)]!",
+            "border-subtle-stroke",
+            "border-b",
+            "last:border-b-0",
+            "lg:scroll-mt-(--site-header-height)!"
+          ],
+          "text": "Your team, amplified. Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win. Companies to work A L +1 Share Ask Attio All Companies View ",
+          "top": 2027,
+          "left": 373,
+          "width": 1043,
+          "height": 1412
+        }
+      },
+      {
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": "home-2026-convert-leads",
+          "classes": [
+            "scroll-mt-[calc(var(--site-header-height)+88px)]!",
+            "border-subtle-stroke",
+            "border-b",
+            "last:border-b-0",
+            "lg:scroll-mt-(--site-header-height)!"
+          ],
+          "text": "Speed to lead, every time. New leads get enriched, scored, and routed to the right rep before they ever cool off. Trigger Record created New record created Web agent Enrich lea",
+          "top": 3438,
+          "left": 373,
+          "width": 1043,
+          "height": 931
+        }
+      },
+      {
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": "home-2026-run-sales-motions",
+          "classes": [
+            "scroll-mt-[calc(var(--site-header-height)+88px)]!",
+            "border-subtle-stroke",
+            "border-b",
+            "last:border-b-0",
+            "lg:scroll-mt-(--site-header-height)!"
+          ],
+          "text": "Run every motion, your way. Pipeline built for how you sell, while agents brief the meetings and keep deals moving. Discovery 2 Lumio AI Sep 30, 2026 USD $20,800 A Amelia Carter Se",
+          "top": 4369,
+          "left": 373,
+          "width": 1043,
+          "height": 1411
+        }
+      },
+      {
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": "home-2026-forecast-revenue",
+          "classes": [
+            "scroll-mt-[calc(var(--site-header-height)+88px)]!",
+            "border-subtle-stroke",
+            "border-b",
+            "last:border-b-0",
+            "lg:scroll-mt-(--site-header-height)!"
+          ],
+          "text": "For the people who own the number. Ask any revenue question. From the weekly forecast to performance by rep, get the answer in seconds. What is the estimate of this week\u2019s closed-",
+          "top": 5780,
+          "left": 373,
+          "width": 1043,
+          "height": 931
+        }
+      },
+      {
+        "style": {
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "inter, \"inter Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(91.5182 -0.365466 -2.84777)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "article",
+          "id": "home-2026-retain-and-expand",
+          "classes": [
+            "scroll-mt-[calc(var(--site-header-height)+88px)]!",
+            "border-subtle-stroke",
+            "border-b",
+            "last:border-b-0",
+            "lg:scroll-mt-(--site-header-height)!"
+          ],
+          "text": "Keep more. Grow more. Agents track the whole book, so you save what's slipping and grow what's rising. Book Size - ARR US EMEA 1.4m 0.7m 0.0m Q1 Q2 Q3 Q4 Q1 Q2 Account Health H",
+          "top": 6711,
+          "left": 373,
+          "width": 1043,
+          "height": 1382
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/6b7e650997/navigation-ask-attio-light-2.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/94a08879f5/navigation-ask-attio-dark-3.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/319415fd4d/navigation-ai-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/55885fd463/navigation-ai-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/7b06c284d7/navigation-data-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/4bb779e3e2/navigation-data-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/cf8e6abe56/navigation-collaboration-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/b713f5083d/navigation-collaboration-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/6743992848/navigation-automations-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/5896c5b8f9/navigation-automations-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/14aed3d456/navigation-sequences-light-2.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/3e327ffb27/navigation-sequences-dark-3.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/ad095944db/navigation-call-intelligence-light-2.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/deb8841150/navigation-call-intelligence-dark-3.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/decb52824c/navigation-reporting-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/b6b9e9c1aa/navigation-reporting-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/fb1260fbb3/navigation-developers-light-2.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/9c597c0ee9/navigation-dev-platform-dark-3.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/806419c41d/navigation-apps-light.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "size-10",
+            "dark:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://a.storyblok.com/f/234930/40x40/a63d1eb790/navigation-apps-dark.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "isolate",
+            "hidden",
+            "size-10",
+            "dark:block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "lab(86.0989 -0.77799 -4.0961)",
+        "count": 1763
+      },
+      {
+        "value": "lab(10.7201 -0.0959039 -1.54182)",
+        "count": 1214
+      },
+      {
+        "value": "lab(99.9987 0.0337958 0.000309944)",
+        "count": 140
+      },
+      {
+        "value": "lab(37.426 -1.09151 -9.33263)",
+        "count": 136
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.5)",
+        "count": 112
+      },
+      {
+        "value": "rgb(36, 38, 41)",
+        "count": 97
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.63)",
+        "count": 68
+      },
+      {
+        "value": "rgb(238, 239, 241)",
+        "count": 57
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.55)",
+        "count": 48
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05)",
+        "count": 44
+      },
+      {
+        "value": "rgb(16, 17, 18)",
+        "count": 36
+      },
+      {
+        "value": "lab(91.5182 -0.365466 -2.84777)",
+        "count": 31
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.4)",
+        "count": 31
+      },
+      {
+        "value": "lab(98.2947 0.128329 -0.513124)",
+        "count": 22
+      },
+      {
+        "value": "lab(14.599 -0.159428 -2.99254)",
+        "count": 21
+      },
+      {
+        "value": "rgb(80, 81, 85)",
+        "count": 20
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.06)",
+        "count": 20
+      },
+      {
+        "value": "lab(50.3787 -1.31875 -9.56043)",
+        "count": 19
+      }
+    ],
+    "fonts": [
+      {
+        "value": "inter",
+        "count": 1932
+      },
+      {
+        "value": "JetBrains Mono",
+        "count": 43
+      },
+      {
+        "value": "interDisplay",
+        "count": 14
+      }
+    ],
+    "radii": [
+      {
+        "value": "3.35544e+07px",
+        "count": 95
+      },
+      {
+        "value": "8px",
+        "count": 62
+      },
+      {
+        "value": "12px",
+        "count": 41
+      },
+      {
+        "value": "6px",
+        "count": 29
+      },
+      {
+        "value": "10px",
+        "count": 23
+      },
+      {
+        "value": "5px",
+        "count": 21
+      },
+      {
+        "value": "7px",
+        "count": 20
+      },
+      {
+        "value": "9px",
+        "count": 17
+      },
+      {
+        "value": "4.8px",
+        "count": 14
+      },
+      {
+        "value": "15px",
+        "count": 6
+      },
+      {
+        "value": "12px 12px 0px 0px",
+        "count": 6
+      },
+      {
+        "value": "16px",
+        "count": 4
+      }
+    ],
+    "shadows": [
+      "oklch(0 0 0 / 0.01) 0px 1px 2px 0px, oklch(0 0 0 / 0.02) 0px 2px 4px -1px, oklch(0 0 0 / 0.03) 0px 4px 8px -2px",
+      "rgba(11, 13, 24, 0.06) 0px 0px 0px 1px, rgba(11, 13, 24, 0.024) 0px 1px 2px 0px, rgba(11, 13, 24, 0.03) 0px 3px 6px 0px, rgba(11, 13, 24, 0.035) 0px 8px 14px 0px, rgba(11, 13, 24, 0.04) 0px 16px 28px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 40, 64, 0.18) 0px 0px 2px 0px, rgba(0, 0, 0, 0.04) 0px 1px 3px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 12px 30px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(15, 107, 233, 0.12) 0px 2px 4px -2px, rgba(15, 107, 233, 0.08) 0px 3px 6px -2px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(99.9987 0.0337958 0.000309944) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0.04) 0px 1px 3px 0px, rgba(28, 40, 64, 0.18) 0px 0px 2px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 22, 62, 0.01) 0px 0px 1px 1px, rgba(0, 22, 62, 0.04) 0px 4px 12px -1px, rgba(0, 22, 62, 0.18) 0px 1px 3px -1px"
+    ],
+    "cssVars": {
+      "--button-primary-bg-from": "var(--button-primary-bg-hover-from)",
+      "--button-primary-bg-to": "var(--button-primary-bg-hover-to)",
+      "--button-primary-bg-fallback": "var(--color-black-200)",
+      "--button-primary-border": "var(--color-black-600)",
+      "--button-primary-text": "var(--color-white-300)",
+      "--button-primary-bg-hover-from": "var(--color-black-600)",
+      "--button-primary-bg-hover-to": "var(--color-black-200)",
+      "--button-primary-bg-hover-fallback": "var(--color-black-500)",
+      "--button-primary-border-hover": "var(--color-black-600)",
+      "--button-primary-text-hover": "var(--color-white-100)",
+      "--button-primary-bg-focus-from": "var(--color-black-600)",
+      "--button-primary-bg-focus-to": "var(--color-black-200)",
+      "--button-primary-bg-focus-fallback": "var(--color-black-500)",
+      "--button-primary-border-focus": "var(--color-black-600)",
+      "--button-primary-text-focus": "var(--color-white-100)",
+      "--button-primary-bg-active-from": "var(--color-black-500)",
+      "--button-primary-bg-active-to": "var(--color-black-500)",
+      "--button-primary-bg-active-fallback": "var(--color-black-600)",
+      "--button-primary-border-active": "var(--color-black-600)",
+      "--button-primary-text-active": "var(--color-white-100)",
+      "--button-primary-bg-disabled-from": "var(--color-white-900)",
+      "--button-primary-bg-disabled-to": "var(--color-white-900)",
+      "--button-primary-bg-disabled-fallback": "var(--color-white-900)",
+      "--button-primary-border-disabled": "var(--color-white-900)",
+      "--button-primary-text-disabled-foreground": "var(--color-white-100)",
+      "--button-outline-bg": "var(--color-white-100)",
+      "--button-outline-border": "var(--color-white-800)",
+      "--button-outline-text": "var(--color-black-400)",
+      "--button-outline-bg-hover": "var(--color-white-100)",
+      "--button-outline-border-hover": "var(--color-black-700)",
+      "--button-outline-text-hover": "var(--color-black-400)",
+      "--button-outline-bg-focus": "var(--color-white-100)",
+      "--button-outline-border-focus": "var(--color-black-700)",
+      "--button-outline-text-focus": "var(--color-black-400)",
+      "--button-outline-bg-active": "var(--color-white-300)",
+      "--button-outline-border-active": "var(--color-black-500)",
+      "--button-outline-text-active": "var(--color-black-300)",
+      "--button-outline-bg-disabled": "var(--color-white-100)",
+      "--button-outline-border-disabled": "var(--color-white-500)",
+      "--button-outline-text-disabled-foreground": "var(--color-white-800)",
+      "--button-ghost-bg": "transparent",
+      "--button-ghost-text": "var(--color-black-400)",
+      "--button-ghost-bg-hover": "var(--color-white-300)",
+      "--button-ghost-text-hover": "var(--color-black-300)",
+      "--button-ghost-bg-focus": "var(--color-white-300)",
+      "--button-ghost-text-focus": "var(--color-black-300)",
+      "--button-ghost-bg-active": "var(--color-white-400)",
+      "--button-ghost-text-active": "var(--color-black-200)",
+      "--button-ghost-bg-disabled": "transparent",
+      "--button-ghost-text-disabled-foreground": "var(--color-white-900)",
+      "--border-offset": "120px",
+      "--font-jetbrains-mono": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+      "--font-inter": "\"inter\", \"inter Fallback\"",
+      "--font-inter-display": "\"interDisplay\", \"interDisplay Fallback\"",
+      "--font-tiempos-text": "\"tiemposText\", \"tiemposText Fallback\"",
+      "--mobile-nav-drawer-overlay-z-index": "90",
+      "--mobile-nav-drawer-content-z-index": "91",
+      "--site-header-z-index": "92",
+      "--navigation-menu-z-index": "93",
+      "--dialog-overlay-z-index": "100",
+      "--dialog-content-z-index": "101",
+      "--context-menu-portal-z-index": "200",
+      "--context-menu-positioner-z-index": "201",
+      "--context-menu-popup-z-index": "202",
+      "--style-overlay-z-index": "999",
+      "--site-header-height": "calc(var(--site-header-polaris-toolbar-height) + var(--site-header-nav-height) + var(--site-header-subheader-height) + v",
+      "--site-header-nav-height": "52px",
+      "--site-header-banner-hidden-height": "0px",
+      "--site-header-banner-visible-height": "48px",
+      "--site-header-banner-height": "var(--site-header-banner-hidden-height)",
+      "--site-header-polaris-toolbar-hidden-height": "0px",
+      "--site-header-polaris-toolbar-visible-height": "36px",
+      "--site-header-polaris-toolbar-height": "var(--site-header-polaris-toolbar-hidden-height)",
+      "--site-header-subheader-desktop-height": "0px",
+      "--site-header-subheader-mobile-hidden-height": "0px",
+      "--site-header-subheader-mobile-visible-height": "63px",
+      "--site-header-subheader-mobile-height": "var(--site-header-subheader-mobile-hidden-height)",
+      "--site-header-subheader-height": "var(--site-header-subheader-desktop-height)",
+      "--color-page-background": "var(--color-primary-background)",
+      "--color-banner-background": "var(--color-black-0)"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"border-subtle-stroke border-b bg-primary-background/95 transition-colors duration-250 dark:bg-primary-background\"><div class=\"absolute inset-0 -z-1 backdrop-blur-md\"></div><div class=\"site-banner dark isolate flex h-(--site-header-banner-visible-height) w-full items-center justify-center bg-(--color-banner-background)\" style=\"box-shadow:0px 1px 2px 0px oklch(0 0 0 / 0.01),0px 2px 4px -1px oklch(0 0 0 / 0.02),0px 4px 8px -2px oklch(0 0 0 / 0.03)\"><div class=\"container flex h-full i\u2026",
+    "heroHtml": "<div class=\"flex flex-col items-center gap-9\"><div style=\"filter: blur(0px); opacity: 1;\"><div data-visual-test=\"blackout\"><a href=\"https://atlas.attio.com\" class=\"group relative block border border-weak-stroke active:border-subtle-stroke transition-colors duration-300 ease-in-out\" style=\"border-radius:13px\"><div class=\"absolute -inset-px\" style=\"opacity: 1;\"><div class=\"h-full w-full bg-[conic-gradient(from_var(--angle)_at_var(--x)_var(--y)_in_oklch,#A3ECE900,#A3ECE9_20deg,#709FF5_100deg,#709FF\u2026",
+    "footerHtml": "<footer class=\"relative flex min-h-[40svh] w-full flex-col justify-between bg-primary-background dark:bg-primary-background dark\"><span aria-hidden=\"true\" class=\"hidden\"></span><svg width=\"100%\" height=\"1\" class=\"text-subtle-stroke\"><line x1=\"0\" y1=\"0.5\" x2=\"100%\" y2=\"0.5\" stroke=\"currentColor\" stroke-linecap=\"round\"></line></svg><div class=\"container flex-1\"><div class=\"grid grid-cols-12 gap-y-12 px-px pt-20 pb-12\"><div class=\"col-[1/2] max-lg:col-[1/3] max-md:col-[1/4] max-xs:col-[1/5]\"><a cla\u2026"
+  },
+  "status": 200,
+  "final_url": "https://attio.com/",
+  "html_signals": {
+    "h1_count": 2,
+    "h2_count": 16,
+    "section_count": 13,
+    "nav_count": 4,
+    "button_count": 23,
+    "img_count": 105,
+    "footer_count": 1
+  }
+}

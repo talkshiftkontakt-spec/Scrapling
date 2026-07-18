@@ -1,0 +1,1651 @@
+{
+  "name": "datadog",
+  "url": "https://www.datadoghq.com",
+  "category": "dashboard",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/datadog-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/datadog-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/datadog-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/datadog-full.png",
+  "design": {
+    "url": "https://www.datadoghq.com/",
+    "title": "Cloud Monitoring as a Service | Datadog",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 5143
+    },
+    "themeGuess": "light",
+    "luminance": 0.9999999999999999,
+    "bodyStyle": {
+      "color": "rgb(33, 37, 41)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "300",
+      "lineHeight": "31.4286px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(33, 37, 41)",
+      "padding": "129px 0px 0px",
+      "margin": "30px 0px 0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"apple color emoji\", \"segoe ui emoji\", \"segoe ui symbol\", \"noto color emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "main-nav"
+        ],
+        "text": "PRODUCT CUSTOMERS PRICING SOLUTIONS DOCS ABOUT BLOG LOGIN GET STARTED FREE",
+        "top": 30,
+        "left": 0,
+        "width": 1440,
+        "height": 130
+      },
+      "style": {
+        "color": "rgb(33, 37, 41)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "300",
+        "lineHeight": "31.4286px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0.07) 0px 0px 8px 8px",
+        "border": "0px solid rgb(33, 37, 41)",
+        "padding": "0px",
+        "margin": "30px 0px 0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "PRODUCT",
+        "View pricing",
+        "Infrastructure Monitoring",
+        "Metrics",
+        "Network Monitoring",
+        "Container Monitoring",
+        "Kubernetes Autoscaling",
+        "Serverless",
+        "Cloud Cost Management",
+        "Cloudcraft",
+        "Storage Management",
+        "GPU Monitoring",
+        "Application Performance Monitoring",
+        "Universal Service Monitoring",
+        "Continuous Profiler",
+        "Dynamic Instrumentation",
+        "Agent Observability",
+        "Database Monitoring",
+        "Data Streams Monitoring",
+        "Quality Monitoring",
+        "Jobs Monitoring",
+        "Log Management",
+        "Sensitive Data Scanner",
+        "Audit Trail",
+        "Observability Pipelines",
+        "Error Tracking",
+        "BYOC Log Management",
+        "SecurityOutpace AI-powered attacks with unified security and observabilityLearn more",
+        "Code Security",
+        "Software Composition Analysis"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "pt-3",
+          "pt-md-36",
+          "pt-lg-5",
+          "pb-3",
+          "pb-md-36",
+          "pb-lg-16"
+        ],
+        "text": "FREE TRIAL Download mobile app PRODUCT Infrastructure Monitoring Network Monitoring Container Monitoring Serverless Cloud Cost Management Cloudcraft Kubernetes Autoscaling Appli",
+        "top": 3837,
+        "left": 0,
+        "width": 1440,
+        "height": 1306
+      },
+      "style": {
+        "color": "rgba(255, 255, 255, 0.5)",
+        "backgroundColor": "rgb(17, 6, 23)",
+        "backgroundImage": "none",
+        "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "300",
+        "lineHeight": "31.4286px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgba(255, 255, 255, 0.5)",
+        "padding": "50px 0px 16px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [],
+        "text": "Products Infrastructure From overview to deep details, fast Learn more Log Management APM Bits AI Security Network Monitoring Synthetic Monitoring Real User Monitoring Serverless D",
+        "top": 2065,
+        "left": 0,
+        "width": 1440,
+        "height": 1772
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "html",
+        "classes": [
+          "announcement"
+        ],
+        "top": 0,
+        "height": 5143,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "AI-Powered Observability and Security",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "tw-bg-black",
+          "tw-text-white",
+          "tw-overflow-x-clip"
+        ],
+        "top": 2065,
+        "height": 764,
+        "width": 1440,
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Products",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [],
+        "top": 2829,
+        "height": 1008,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "AI-Powered Observability and Security",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "68px",
+          "fontWeight": "600",
+          "lineHeight": "68px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "tw-text-h1-bold--corp-ui",
+            "tw-font-semibold"
+          ],
+          "text": "AI-Powered Observability and Security",
+          "top": 239,
+          "left": 64,
+          "width": 1312,
+          "height": 68
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Define and track KPIs for successfully moving your data and applications to AWS",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "8px 0px 27px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Define and track KPIs for successfully moving your data and applications to AWS",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Define and track KPIs for successfully moving your data and applications to Azure",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "8px 0px 27px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Define and track KPIs for successfully moving your data and applications to Azure",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Define and track KPIs for successfullymoving your data and applications to GCP",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "8px 0px 27px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Define and track KPIs for successfullymoving your data and applications to GCP",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Datadog has been recognized as a Leader in the Gartner Magic Quadrant\u2122 for Digital Experience Monitoring",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "8px 0px 27px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Datadog has been recognized as a Leader in the Gartner Magic Quadrant\u2122 for Digital Experience Monitoring",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Datadog has been named a leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Observability Platforms",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "8px 0px 27px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Datadog has been named a leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Observability Platforms",
+          "top": 1848,
+          "left": 64,
+          "width": 865,
+          "height": 80
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Products",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "600",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "tw-font-bold",
+            "tw-text-38",
+            "tw-leading-42",
+            "tablet:tw-text-48",
+            "tablet:tw-leading-48"
+          ],
+          "text": "Products",
+          "top": 2145,
+          "left": 64,
+          "width": 1312,
+          "height": 40
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Datadog named a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Observability Platfor",
+        "href": "https://www.datadoghq.com/resources/gartner-magic-quadrant-observability-platforms-2026/?utm_source=inbound&utm_medium=corpsite-display&utm_campaign=dg-apm-ww-announcement-corpsite-announcement-gartnermq2026-obsplat",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "fw-semibold",
+            "text-nowrap"
+          ],
+          "text": "Datadog named a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Observability Platforms",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 30
+        }
+      },
+      {
+        "text": "PRODUCT",
+        "href": "https://www.datadoghq.com/product/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "dropdown"
+          ],
+          "text": "PRODUCT",
+          "top": 73,
+          "left": 64,
+          "width": 96,
+          "height": 44
+        }
+      },
+      {
+        "text": "CUSTOMERS",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "customers-menu"
+          ],
+          "text": "CUSTOMERS",
+          "top": 73,
+          "left": 160,
+          "width": 116,
+          "height": 44
+        }
+      },
+      {
+        "text": "PRICING",
+        "href": "https://www.datadoghq.com/pricing/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "pricing-menu"
+          ],
+          "text": "PRICING",
+          "top": 73,
+          "left": 275,
+          "width": 87,
+          "height": 44
+        }
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "https://www.datadoghq.com/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "dropdown"
+          ],
+          "text": "SOLUTIONS",
+          "top": 73,
+          "left": 363,
+          "width": 109,
+          "height": 44
+        }
+      },
+      {
+        "text": "DOCS",
+        "href": "https://docs.datadoghq.com/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "docs-menu"
+          ],
+          "text": "DOCS",
+          "top": 73,
+          "left": 472,
+          "width": 66,
+          "height": 44
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.datadoghq.com/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "js-logo-download",
+            "d-none",
+            "d-lg-flex",
+            "flex-column",
+            "align-items-center",
+            "justify-content-center",
+            "position-relative"
+          ],
+          "text": "",
+          "top": 48,
+          "left": 674,
+          "width": 93,
+          "height": 94
+        }
+      },
+      {
+        "text": "ABOUT",
+        "href": "https://www.datadoghq.com/about/leadership/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "dropdown"
+          ],
+          "text": "ABOUT",
+          "top": 73,
+          "left": 908,
+          "width": 76,
+          "height": 44
+        }
+      },
+      {
+        "text": "BLOG",
+        "href": "https://www.datadoghq.com/blog/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "dropdown"
+          ],
+          "text": "BLOG",
+          "top": 73,
+          "left": 983,
+          "width": 65,
+          "height": 44
+        }
+      },
+      {
+        "text": "LOGIN",
+        "href": "https://app.datadoghq.com/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 12px 9.5px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "LOGIN",
+          "top": 73,
+          "left": 1048,
+          "width": 72,
+          "height": 44
+        }
+      },
+      {
+        "text": "Search toggle",
+        "href": "#",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(85, 85, 85)",
+          "padding": "8.5px 16px 9.5px 12px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "js-search-toggle",
+            "d-inline-block"
+          ],
+          "text": "",
+          "top": 73,
+          "left": 1121,
+          "width": 49,
+          "height": 44
+        }
+      },
+      {
+        "text": "GET STARTED FREE",
+        "href": "https://www.datadoghq.com/",
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "25.7143px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgba(0, 0, 0, 0)",
+          "padding": "8.5px 28px 9.5px",
+          "margin": "0px 0px 0px 10px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "sign-up-trigger",
+            "btn",
+            "btn-gradient",
+            "js-cta-topRight"
+          ],
+          "text": "GET STARTED FREE",
+          "top": 73,
+          "left": 1180,
+          "width": 196,
+          "height": 44
+        }
+      },
+      {
+        "text": "FREE TRIAL",
+        "href": "#",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(99, 44, 166)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "lineHeight": "18px",
+          "letterSpacing": "0.08px",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "js-cta-HeaderCTA",
+            "btn",
+            "tw-bg-primary",
+            "tw-text-white",
+            "sign-up-trigger",
+            "d-inline-flex",
+            "justify-content-center",
+            "align-items-center"
+          ],
+          "text": "FREE TRIAL",
+          "top": 395,
+          "left": 479,
+          "width": 235,
+          "height": 54
+        }
+      },
+      {
+        "text": "SEE THE PLATFORM",
+        "href": "#",
+        "style": {
+          "color": "rgb(99, 44, 166)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "lineHeight": "18px",
+          "letterSpacing": "0.08px",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(99, 44, 166)",
+          "padding": "14px 24px 16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn",
+            "tw-border",
+            "tw-border-primary",
+            "tw-text-primary",
+            "modal-tour",
+            "js-video-tour",
+            "tw-w-full",
+            "tw-h-full"
+          ],
+          "text": "SEE THE PLATFORM",
+          "top": 395,
+          "left": 726,
+          "width": 235,
+          "height": 54
+        }
+      },
+      {
+        "text": "LG Electronics Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-end",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 135,
+          "width": 118,
+          "height": 52
+        }
+      },
+      {
+        "text": "Ita\u00fa Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-start",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 321,
+          "width": 52,
+          "height": 52
+        }
+      },
+      {
+        "text": "Perplexity AI Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-end",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 441,
+          "width": 179,
+          "height": 52
+        }
+      },
+      {
+        "text": "FICO Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-start",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 688,
+          "width": 145,
+          "height": 52
+        }
+      },
+      {
+        "text": "MidJourney Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-end",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 901,
+          "width": 156,
+          "height": 52
+        }
+      },
+      {
+        "text": "Dust AI Customer Logo",
+        "href": "https://www.datadoghq.com/customers/",
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 37, 41)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "tw-justify-self-start",
+            "tablet:tw-justify-self-center"
+          ],
+          "text": "",
+          "top": 1157,
+          "left": 1126,
+          "width": 179,
+          "height": 52
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "31.4286px",
+          "letterSpacing": "normal",
+          "borderRadius": "5px",
+          "boxShadow": "rgba(0, 0, 0, 0.2) 0px 4px 10px 0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "padding": "14px",
+          "margin": "0px",
+          "display": "none",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "shadow-card-nohover",
+            "position-absolute",
+            "bg-white",
+            "text-start",
+            "logo-download-div",
+            "js-logo-download-div"
+          ],
+          "text": "White modal up arrow Looking for Datadog logos?You can find the logo assets on our press page.Download Media Assets",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b_s/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/bombora/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/equativ/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/experian/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/eyeota/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/g/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/index/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/l/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/n/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/o/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/outbrain/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/pubmatic/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/taboola/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/triplelift/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/x/out?af0=f214e846&adroll_fpc=af4bf6efbb7748f47f0fbec4b02cfc95-1784370419000&pv=38964131931.90966&arrfrr=https%3A%2F%2Fwww.datadoghq.com%2F&advertisable=AWPYDAH5JJH2JGSUWJVDKM",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://corp.dd-static.net/img/dd_logo_n_70x75.png?ch=Width,DPR&fit=max&auto=format&w=70&h=75&dpr=2",
+        "alt": "DataDog",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "bits-logo-lg"
+          ],
+          "text": "",
+          "top": 48,
+          "left": 685,
+          "width": 70,
+          "height": 75
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://corp.dd-static.net/img/dd-logo-n-200.png?ch=Width,DPR&fit=max&auto=format&h=14&auto=format&w=807&dpr=2",
+        "alt": "DataDog",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "datadog-text-logo-lg"
+          ],
+          "text": "",
+          "top": 128,
+          "left": 674,
+          "width": 93,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://corp.dd-static.net/img/datadog_rbg_n_2x.png?format=png",
+        "alt": "Datadog Logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "bits-logo-mobile",
+            "d-inline-block"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://corp.dd-static.net//video/home/homepage-animation-1080.mp4?auto=format&fit=max",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": "datadog-video",
+          "classes": [],
+          "text": "",
+          "top": 345,
+          "left": 64,
+          "width": 1312,
+          "height": 738
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 514
+      },
+      {
+        "value": "rgb(33, 37, 41)",
+        "count": 254
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "count": 221
+      },
+      {
+        "value": "rgb(85, 85, 85)",
+        "count": 37
+      },
+      {
+        "value": "rgb(99, 44, 166)",
+        "count": 17
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 5
+      },
+      {
+        "value": "rgb(238, 238, 238)",
+        "count": 1
+      },
+      {
+        "value": "rgb(246, 246, 246)",
+        "count": 1
+      },
+      {
+        "value": "rgb(17, 6, 23)",
+        "count": 1
+      },
+      {
+        "value": "rgb(97, 97, 97)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "NationalWeb",
+        "count": 523
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 6
+      },
+      {
+        "value": "6px",
+        "count": 1
+      },
+      {
+        "value": "3px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.07) 0px 0px 8px 8px"
+    ],
+    "cssVars": {
+      "--tw-content": "''",
+      "--tw-bg-opacity": "1",
+      "--tw-text-opacity": "1",
+      "--tw-numeric-spacing": "proportional-nums",
+      "--tw-border-spacing-x": "0",
+      "--tw-border-spacing-y": "0",
+      "--tw-translate-x": "0",
+      "--tw-translate-y": "0",
+      "--tw-rotate": "0",
+      "--tw-skew-x": "0",
+      "--tw-skew-y": "0",
+      "--tw-scale-x": "1",
+      "--tw-scale-y": "1",
+      "--tw-scroll-snap-strictness": "proximity",
+      "--tw-ring-offset-width": "0px",
+      "--tw-ring-offset-color": "#fff",
+      "--tw-ring-color": "rgb(59 130 246 / 0.5)",
+      "--tw-ring-offset-shadow": "0 0 #0000",
+      "--tw-ring-shadow": "0 0 #0000",
+      "--tw-shadow": "0 0 #0000",
+      "--tw-shadow-colored": "0 0 #0000",
+      "--callout-bg-gradient": "linear-gradient(360deg, #8904FF, #110617)",
+      "--callout-background": "url(https://corp.dd-static.net/img/homepage/reinvent_high_res_banner_desktop.png)"
+    },
+    "metaTheme": "#ffffff"
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"intro-header header-home tw-mt-12 tablet:tw-mt-18 desktop:tw-mt-20 desktop:tw-flex desktop:tw-flex-col\"><div class=\"tw-flex tw-flex-col\"><div class=\"container tw-text-center desktop:tw-z-10\"><h1 class=\"tw-text-h1-bold--corp-ui tw-font-semibold\">AI-Powered Observability and Security</h1><span class=\"tw-block tw-text-subtitle-1--corp-ui tablet:tw-text-24 tablet:tw-leading-28 desktop:tw-text-32 desktop:tw-leading-38 tw-mt-3 tablet:tw-mt-5\">See inside any stack, any app, at any scale,\u2026",
+    "heroHtml": "<div class=\"container tw-text-center desktop:tw-z-10\"><h1 class=\"tw-text-h1-bold--corp-ui tw-font-semibold\">AI-Powered Observability and Security</h1><span class=\"tw-block tw-text-subtitle-1--corp-ui tablet:tw-text-24 tablet:tw-leading-28 desktop:tw-text-32 desktop:tw-leading-38 tw-mt-3 tablet:tw-mt-5\">See inside any stack, any app, at any scale,&nbsp;anywhere.</span></div>",
+    "footerHtml": "<footer x-data=\"{\n        openSection: 'resources',\n        desktop: true,\n        reactOnResize() {\n            if (window.innerWidth &gt;= 992) {\n                this.desktop = true;\n            } else {\n                this.desktop = false;\n            }\n        }\n    }\" x-init=\"reactOnResize()\" @resize.window.throttle.200ms=\"reactOnResize()\" class=\"pt-3 pt-md-36 pt-lg-5 pb-3 pb-md-36 pb-lg-16\"><div class=\"container pb-lg-3\"><div class=\"row\"><div class=\"col-12 col-lg-3 order-0\"><a href=\"#\" cl\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.datadoghq.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 6,
+    "section_count": 2,
+    "nav_count": 1,
+    "button_count": 17,
+    "img_count": 49,
+    "footer_count": 1
+  }
+}

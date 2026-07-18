@@ -1,0 +1,2029 @@
+{
+  "name": "raycast",
+  "url": "https://www.raycast.com",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/raycast-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/raycast-full.png",
+  "design": {
+    "url": "https://www.raycast.com/",
+    "title": "Raycast - Your shortcut to everything",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 15626
+    },
+    "themeGuess": "dark",
+    "luminance": 0.031105098039215684,
+    "bodyStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(7, 8, 10)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": null,
+      "style": null,
+      "navLinks": []
+    },
+    "footer": {
+      "box": null,
+      "style": null
+    },
+    "main": {
+      "box": {
+        "tag": "body",
+        "id": null,
+        "classes": [],
+        "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download Your shortcut to everything. A collection of powerful productivity tools all within an extendable launcher. ",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 15626
+      }
+    },
+    "sections": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Your shortcut to everything.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "600",
+          "lineHeight": "70.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "540px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [],
+          "text": "Your shortcut to everything.",
+          "top": 370,
+          "left": 450,
+          "width": 540,
+          "height": 141
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Take shortcuts, not detours.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Take shortcuts, not detours.",
+          "top": 1388,
+          "left": 545,
+          "width": 350,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "It\u2019s not about saving time.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "It\u2019s not about saving time.",
+          "top": 2821,
+          "left": 142,
+          "width": 272,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "There\u2019s an extension for that.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "There\u2019s an extension for that.",
+          "top": 3483,
+          "left": 118,
+          "width": 432,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Plus thousands more...",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "40px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Plus thousands more...",
+          "top": 4079,
+          "left": 7237,
+          "width": 267,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Your Mac just got smarter.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Your Mac just got smarter.",
+          "top": 4834,
+          "left": 533,
+          "width": 374,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Built for professionals like you.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Built for professionals like you.",
+          "top": 6187,
+          "left": 520,
+          "width": 400,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Don't repeat yourself.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Don't repeat yourself.",
+          "top": 7287,
+          "left": 527,
+          "width": 387,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Stay in the loop.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Stay in the loop.",
+          "top": 9193,
+          "left": 477,
+          "width": 486,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build the perfect tools.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "400",
+          "lineHeight": "65.52px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Build the perfect tools.",
+          "top": 10432,
+          "left": 211,
+          "width": 307,
+          "height": 197
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Take the short way.",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Take the short way.",
+          "top": 13964,
+          "left": 547,
+          "width": 347,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "0px",
+          "fontWeight": "700",
+          "lineHeight": "0px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "GlobalBanner_graphic__mBCWI"
+          ],
+          "text": "",
+          "top": 645,
+          "left": 1164,
+          "width": 235,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Meet Glaze",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": "radix-_r_7_",
+          "classes": [
+            "GlobalBanner_title__c7R6b"
+          ],
+          "text": "Meet Glaze",
+          "top": 705,
+          "left": 1164,
+          "width": 235,
+          "height": 16
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Store",
+        "href": "/store",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Store",
+          "top": 34,
+          "left": 406,
+          "width": 53,
+          "height": 41
+        }
+      },
+      {
+        "text": "Windows",
+        "href": "/windows",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Windows",
+          "top": 34,
+          "left": 632,
+          "width": 79,
+          "height": 41
+        }
+      },
+      {
+        "text": "Teams",
+        "href": "/teams",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Teams",
+          "top": 34,
+          "left": 727,
+          "width": 61,
+          "height": 41
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Enterprise",
+          "top": 34,
+          "left": 804,
+          "width": 87,
+          "height": 41
+        }
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Blog",
+          "top": 34,
+          "left": 907,
+          "width": 47,
+          "height": 41
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Pricing",
+          "top": 34,
+          "left": 970,
+          "width": 64,
+          "height": 41
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/users/sign_in",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Log in",
+          "top": 34,
+          "left": 1090,
+          "width": 58,
+          "height": 41
+        }
+      },
+      {
+        "text": "Download",
+        "href": null,
+        "style": {
+          "color": "rgb(47, 48, 49)",
+          "backgroundColor": "rgb(230, 230, 230)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "8px",
+          "boxShadow": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+          "border": "0px none rgb(47, 48, 49)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Button_button__JJiqJ",
+            "Button_light__KdYEB",
+            "Navbar_downloadButton__yQ3j6"
+          ],
+          "text": "Download",
+          "top": 36,
+          "left": 1172,
+          "width": 117,
+          "height": 36
+        }
+      },
+      {
+        "text": "Download for Mac",
+        "href": null,
+        "style": {
+          "color": "rgb(47, 48, 49)",
+          "backgroundColor": "rgb(230, 230, 230)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "8px",
+          "boxShadow": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+          "border": "0px none rgb(47, 48, 49)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Button_button__JJiqJ",
+            "Button_light__KdYEB"
+          ],
+          "text": "Download for Mac",
+          "top": 797,
+          "left": 499,
+          "width": 173,
+          "height": 36
+        }
+      },
+      {
+        "text": "Download for Windows (beta)",
+        "href": "https://ray.so/download-windows",
+        "style": {
+          "color": "rgb(47, 48, 49)",
+          "backgroundColor": "rgb(230, 230, 230)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "8px",
+          "boxShadow": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+          "border": "0px none rgb(47, 48, 49)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Button_button__JJiqJ",
+            "Button_light__KdYEB"
+          ],
+          "text": "Download for Windows (beta)",
+          "top": 797,
+          "left": 688,
+          "width": 253,
+          "height": 36
+        }
+      },
+      {
+        "text": "Meet Glaze\nLearn more",
+        "href": "/blog/meet-glaze",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 13, 14)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16.1px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "1000px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "4px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "13px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "HeroAnnouncement_announcement__TOQds"
+          ],
+          "text": "Meet Glaze Learn more",
+          "top": 909,
+          "left": 614,
+          "width": 213,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "https://glaze.app",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "0px",
+          "fontWeight": "700",
+          "lineHeight": "0px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 645,
+          "left": 1164,
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "text": "",
+        "href": "https://ray.so/ph-glaze",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 808,
+          "left": 1164,
+          "width": 223,
+          "height": 48
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionHighlight_extensionCardWrapper__BE6OW"
+          ],
+          "text": "Linear Create, search and modify your issues without leaving your keyboard.",
+          "top": 3627,
+          "left": 118,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ExtensionCard_link__Uj5vM"
+          ],
+          "text": "Linear Create, search and modify your issues without leaving your keyboard.",
+          "top": 3627,
+          "left": 118,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(138deg, rgba(32, 35, 91, 0.7) 22%, rgba(7, 9, 33, 0.7) 82%)",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(7, 13, 79, 0.05) 0px 0px 20px 3px, rgba(7, 13, 79, 0.05) 0px 0px 40px 20px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px inset",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_card__g21uG"
+          ],
+          "text": "Linear Create, search and modify your issues without leaving your keyboard.",
+          "top": 3627,
+          "left": 118,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "24px 24px 0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "24px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_headerContainer__48wVu"
+          ],
+          "text": "Linear Create, search and modify your issues without leaving your keyboard.",
+          "top": 3627,
+          "left": 118,
+          "width": 360,
+          "height": 176
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_header__Mx3up"
+          ],
+          "text": "Linear",
+          "top": 3651,
+          "left": 142,
+          "width": 312,
+          "height": 52
+        }
+      },
+      {
+        "style": {
+          "color": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "rgba(0, 0, 0, 0.28) 0px 1.189px 2.377px 0px",
+          "border": "0px none rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "-2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ExtensionCard_icon__514rr"
+          ],
+          "text": "",
+          "top": 3649,
+          "left": 140,
+          "width": 56,
+          "height": 56
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "20.7px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_title__qWIv2"
+          ],
+          "text": "Linear",
+          "top": 3667,
+          "left": 206,
+          "width": 200,
+          "height": 21
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(230, 230, 230)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1))",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset",
+          "border": "0px none rgb(230, 230, 230)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "ExtensionCard_action__Os3w0"
+          ],
+          "text": "",
+          "top": 3659,
+          "left": 418,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "25.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "p",
+          "id": null,
+          "classes": [
+            "ExtensionCard_description__z_Oaf"
+          ],
+          "text": "Create, search and modify your issues without leaving your keyboard.",
+          "top": 3727,
+          "left": 142,
+          "width": 312,
+          "height": 51
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(255, 255, 255, 0.05)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_divider__hPrH4"
+          ],
+          "text": "",
+          "top": 3802,
+          "left": 142,
+          "width": 312,
+          "height": 1
+        }
+      },
+      {
+        "style": {
+          "color": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ExtensionCard_image__amxYw"
+          ],
+          "text": "",
+          "top": 3803,
+          "left": 118,
+          "width": 360,
+          "height": 360
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionHighlight_extensionCardWrapper__BE6OW"
+          ],
+          "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages",
+          "top": 3627,
+          "left": 534,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ExtensionCard_link__Uj5vM"
+          ],
+          "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages",
+          "top": 3627,
+          "left": 534,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "radial-gradient(94.21% 78.4% at 50% 29.91%, rgba(43, 94, 180, 0.7), rgba(13, 16, 35, 0.42))",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(7, 13, 79, 0.1) 0px 0px 20px 3px, rgba(85, 0, 98, 0.1) 0px 0px 40px 20px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px inset",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_card__g21uG"
+          ],
+          "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages",
+          "top": 3627,
+          "left": 534,
+          "width": 360,
+          "height": 536
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "24px 24px 0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "24px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ExtensionCard_headerContainer__48wVu"
+          ],
+          "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages",
+          "top": 3627,
+          "left": 534,
+          "width": 360,
+          "height": 176
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 120,
+          "width": 1200,
+          "height": 940
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfeatureBackground.7492bde9.png&w=3840&q=100",
+        "alt": "Frame Background Image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1510,
+          "left": 70,
+          "width": 1300,
+          "height": 733
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwallpaper.f51cbd64.png&w=48&q=70",
+        "alt": "mini version of desktop wallpaper image that is in the clipboard history",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1714,
+          "left": 361,
+          "width": 20,
+          "height": 9
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmangos.6b2d28e6.jpeg&w=48&q=70",
+        "alt": "mini version of picture of two mangos",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2072,
+          "left": 361,
+          "width": 20,
+          "height": 13
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic.1bc3e3ac.jpeg&w=48&q=70",
+        "alt": "mini version of a magician with a magic stick and a hat",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2113,
+          "left": 361,
+          "width": 20,
+          "height": 11
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic-at-your-fingertips.10b9ee35.png&w=48&q=70",
+        "alt": "mini version of magic at your fingertips screenshot",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2154,
+          "left": 361,
+          "width": 20,
+          "height": 10
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+        "alt": "Clipboard History Command Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2051,
+          "left": 358,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-package-bg.84229341.png&w=48&q=70",
+        "alt": "Store Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1710,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+        "alt": "Store Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1750,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+        "alt": "Search Files Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1790,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+        "alt": "Calendar Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1830,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+        "alt": "Dictionary Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1870,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-calculator-history.a26c44ed.png&w=48&q=70",
+        "alt": "Dictionary Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1947,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+        "alt": "Calendar Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1987,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+        "alt": "Store Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2027,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+        "alt": "Search Files Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2266,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+        "alt": "Dictionary Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2306,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-google.4d4566ad.png&w=48&q=70",
+        "alt": "Google Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2346,
+          "left": 3914,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-duckduckgo.163fb12f.png&w=48&q=70",
+        "alt": "Duck Duck Go Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2386,
+          "left": 3914,
+          "width": 20,
+          "height": 19
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&w=128&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ExtensionCard_icon__514rr"
+          ],
+          "text": "",
+          "top": 3649,
+          "left": 140,
+          "width": 56,
+          "height": 56
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 2995
+      },
+      {
+        "value": "rgb(106, 107, 108)",
+        "count": 271
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.6)",
+        "count": 164
+      },
+      {
+        "value": "rgb(67, 67, 69)",
+        "count": 121
+      },
+      {
+        "value": "rgb(156, 156, 157)",
+        "count": 120
+      },
+      {
+        "value": "rgb(230, 230, 230)",
+        "count": 107
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.4)",
+        "count": 88
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.05)",
+        "count": 84
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 49
+      },
+      {
+        "value": "rgb(47, 48, 49)",
+        "count": 30
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.06)",
+        "count": 10
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgba(255, 255, 255, 0.1)",
+        "count": 9
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.2)",
+        "count": 8
+      },
+      {
+        "value": "rgb(8, 9, 12)",
+        "count": 6
+      },
+      {
+        "value": "rgb(69, 35, 36)",
+        "count": 4
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.08)",
+        "count": 4
+      },
+      {
+        "value": "rgb(255, 99, 99)",
+        "count": 4
+      },
+      {
+        "value": "rgba(142, 140, 144, 0.2)",
+        "count": 4
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter",
+        "count": 1633
+      },
+      {
+        "value": "SF Pro Text",
+        "count": 370
+      },
+      {
+        "value": "SF Pro",
+        "count": 37
+      },
+      {
+        "value": "GeistMono",
+        "count": 25
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 105
+      },
+      {
+        "value": "11px",
+        "count": 105
+      },
+      {
+        "value": "6px",
+        "count": 62
+      },
+      {
+        "value": "12px",
+        "count": 55
+      },
+      {
+        "value": "20px",
+        "count": 35
+      },
+      {
+        "value": "16px",
+        "count": 29
+      },
+      {
+        "value": "99999px",
+        "count": 24
+      },
+      {
+        "value": "4px",
+        "count": 18
+      },
+      {
+        "value": "9px",
+        "count": 12
+      },
+      {
+        "value": "100%",
+        "count": 10
+      },
+      {
+        "value": "2px",
+        "count": 6
+      },
+      {
+        "value": "5px",
+        "count": 6
+      }
+    ],
+    "shadows": [
+      "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+      "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+      "rgba(245, 48, 107, 0.1) 0px 0px 20px 0px",
+      "rgba(255, 255, 255, 0.03) 0px 0px 40px 20px, rgba(255, 255, 255, 0.3) 0px 0.5px 0px 0px inset",
+      "rgba(255, 255, 255, 0.19) 0px 0px 2px 0px, rgba(255, 255, 255, 0.1) 0px 0.5px 0px 0px inset",
+      "rgba(0, 0, 0, 0.4) 0px 4px 40px 8px, rgba(0, 0, 0, 0.8) 0px 0px 0px 0.5px, rgba(255, 255, 255, 0.3) 0px 0.5px 0px 0px inset",
+      "rgba(0, 0, 0, 0.2) 0px 0px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 2px 0px, rgba(0, 0, 0, 0.1) 0px 4px 3px 0px, rgba(0, 0, 0, 0.03) 0px 7px 3px 0px, rgba(0, 0, 0, 0) 0px 12px 3px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "rgba(0, 0, 0, 0.03) 0px 8.077px 3.462px 0px, rgba(0, 0, 0, 0.25) 0px 4.615px 4.615px 0px, rgba(255, 255, 255, 0.19) 0px 1.154px 0px 0px inset, rgba(255, 255, 255, 0.25) 0px 0px 6px 0px",
+      "rgba(0, 0, 0, 0.03) 0px 7px 3px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "rgba(0, 0, 0, 0.4) 0px 1.5px 0.5px 2.5px, rgb(0, 0, 0) 0px 0px 0.5px 1px, rgba(0, 0, 0, 0.25) 0px 2px 1px 1px inset, rgba(255, 255, 255, 0.2) 0px 1px 1px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset"
+    ],
+    "cssVars": {
+      "--bg-opacity": "0",
+      "--background-opacity": "0",
+      "--graphic-width": "270px",
+      "--reel-gap": "var(--spacing-7)",
+      "--radius": "8px",
+      "--border": "2.5px",
+      "--scroll-progress": "0",
+      "--gap": "0.4rem",
+      "--split": "50%",
+      "--card-padding": "32px",
+      "--font-inter": "\"Inter\",\"Inter Fallback\"",
+      "--font-jetbrains-mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\"",
+      "--font-geist-mono": "\"GeistMono\",ui-monospace,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace",
+      "--size": "32px",
+      "--rounding-none": "0px",
+      "--rounding-xs": "4px",
+      "--rounding-sm": "6px",
+      "--rounding-normal": "8px",
+      "--rounding-md": "12px",
+      "--rounding-lg": "16px",
+      "--rounding-xl": "20px",
+      "--rounding-xxl": "24px",
+      "--rounding-full": "100%",
+      "--spacing-none": "0px",
+      "--spacing-0-5": "4px",
+      "--spacing-1": "8px",
+      "--spacing-1-5": "12px",
+      "--spacing-2": "16px",
+      "--spacing-2-5": "20px",
+      "--spacing-3": "24px",
+      "--spacing-4": "32px",
+      "--spacing-5": "40px",
+      "--spacing-6": "48px",
+      "--spacing-7": "56px",
+      "--spacing-8": "64px",
+      "--spacing-9": "80px",
+      "--spacing-10": "96px",
+      "--spacing-11": "112px",
+      "--spacing-12": "168px",
+      "--spacing-13": "224px",
+      "--Base-White": "#ffffff",
+      "--grey-50": "#e6e6e6",
+      "--grey-100": "#cdcece",
+      "--grey-200": "#9c9c9d",
+      "--grey-300": "#6a6b6c",
+      "--grey-400": "#434345",
+      "--grey-500": "#2f3031",
+      "--grey-600": "#1b1c1e",
+      "--grey-700": "#111214",
+      "--grey-800": "#0c0d0f",
+      "--grey-900": "#07080a",
+      "--Base-Black": "#000000",
+      "--main-font": "var(--font-inter),sans-serif",
+      "--monospace-font": "var(--font-jetbrains-mono),Menlo,Monaco,Courier,monospace",
+      "--container-xs-width": "746px",
+      "--container-sm-width": "1064px",
+      "--container-width": "1204px",
+      "--container-lg-width": "1280px",
+      "--grid-gap": "32px",
+      "--navbar-width": "var(--container-width)",
+      "--background": "var(--grey-900)",
+      "--reverse-background": "#ffffff",
+      "--font-color-rgb": "255,255,255",
+      "--reverse-font-color-rgb": "0,0,0",
+      "--lines-color-rgb": "255,255,255",
+      "--radius-md": "6px",
+      "--blue-dark": "#56c2ff",
+      "--red-dark": "rgba(255,99,99,1)",
+      "--color-bg": "var(--grey-900)",
+      "--color-bg-100": "rgb(16,17,17)",
+      "--color-bg-200": "rgb(24,25,26)",
+      "--color-bg-300": "rgb(49,49,51)",
+      "--color-bg-400": "rgb(73,75,77)",
+      "--color-fg": "hsl(240,11%,96%)",
+      "--color-fg-200": "rgb(194,199,202)",
+      "--color-fg-300": "#78787c",
+      "--color-fg-400": "rgb(94,99,102)",
+      "--color-yellow": "hsl(43,100%,60%)",
+      "--color-yellow-transparent": "hsla(43,100%,60%,0.15)",
+      "--color-red": "hsl(0,100%,69%)"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"page_heroText___VRvH page_fadeInUp__yDeSr\"><h1>Your shortcut to everything.</h1><p class=\"page_fadeInUpStagger__UbVUU\"><span data-br=\"_R_24inpfb3b_\" data-brr=\"1\" style=\"display:inline-block;vertical-align:top;text-decoration:inherit;text-wrap:balance\">A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</span><script>self.__wrap_n!=1&&self.__wrap_b(\"_R_24inpfb3b_\",1)</script></p></div>",
+    "footerHtml": null
+  },
+  "status": 200,
+  "final_url": "https://www.raycast.com/",
+  "html_signals": {
+    "h1_count": 3,
+    "h2_count": 8,
+    "section_count": 0,
+    "nav_count": 0,
+    "button_count": 7,
+    "img_count": 117,
+    "footer_count": 0
+  }
+}

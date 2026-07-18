@@ -1,0 +1,2618 @@
+{
+  "name": "linear",
+  "url": "https://linear.app",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/linear-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/linear-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/linear-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/linear-full.png",
+  "design": {
+    "url": "https://linear.app/",
+    "title": "Linear \u2013 The system for product development",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 10898
+    },
+    "themeGuess": "dark",
+    "luminance": 0.0347435294117647,
+    "bodyStyle": {
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgb(8, 9, 10)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(247, 248, 248)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgb(8, 9, 10)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(247, 248, 248)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "TZTsQG_header",
+          "TZTsQG_header"
+        ],
+        "text": "Product Resources Customers Pricing Now Contact Log in Sign up",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 73
+      },
+      "style": {
+        "color": "rgb(247, 248, 248)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(11, 11, 11, 0.8) 0%, oklab(0.149576 0.00000680983 0.00000298768 / 0.761905) 100%)",
+        "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "Jmh1Wq_footer"
+        ],
+        "text": "Product Intake Plan Build Diffs Monitor Pricing Security Features Asks Agents Coding Sessions Customer Requests Insights Mobile Integrations Changelog Company About Customers Caree",
+        "top": 10404,
+        "left": 0,
+        "width": 1440,
+        "height": 494
+      },
+      "style": {
+        "color": "rgb(247, 248, 248)",
+        "backgroundColor": "rgb(8, 9, 10)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "100%",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "_5l06ia_content"
+        ],
+        "text": "The product development system for teams and agents The product development system for teams and agents Purpose-built for planning and building products. Designed for the AI era. ",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 10404
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [],
+        "top": 0,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [],
+        "top": 72,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "classes": [
+          "_7bwwmq_root",
+          "_7bwwmq_homepage"
+        ],
+        "top": 72,
+        "height": 10332,
+        "width": 1436,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+        "headingTag": "h1",
+        "childCount": 39
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [],
+        "top": 1239,
+        "height": 0,
+        "width": 232,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "b-30Va_root",
+          "b-30Va_rootHomepage"
+        ],
+        "top": 2481,
+        "height": 1224,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Make product operations self-driving",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "b-30Va_root",
+          "b-30Va_rootHomepage"
+        ],
+        "top": 3715,
+        "height": 1216,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Define the product direction",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "b-30Va_root",
+          "b-30Va_rootHomepage"
+        ],
+        "top": 4942,
+        "height": 1172,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Move work forward across teams and agents",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "b-30Va_root",
+          "b-30Va_rootHomepage"
+        ],
+        "top": 6124,
+        "height": 1090,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Review PRs and agent output",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "b-30Va_root",
+          "b-30Va_rootHomepage"
+        ],
+        "top": 7224,
+        "height": 1196,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Understand progress at scale",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "Dc5tqa_container",
+          "hide-laptop"
+        ],
+        "top": 9164,
+        "height": 564,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "dYXc1G_homepagePrefooter"
+        ],
+        "top": 9952,
+        "height": 228,
+        "width": 1344,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Built for the future. Available today.",
+        "headingTag": "h2",
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "510",
+          "lineHeight": "64px",
+          "letterSpacing": "-1.408px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 0px -2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "bpRfIm",
+            "Fzcv4W_insetLarge",
+            "QI8oKG_title"
+          ],
+          "text": "The product development system for teams and agents The product development system for teams and agents",
+          "top": 272,
+          "left": 78,
+          "width": 1282,
+          "height": 128
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Faster app launch",
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "590",
+          "lineHeight": "26.6px",
+          "letterSpacing": "-0.24px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "glNJGr"
+          ],
+          "text": "Faster app launch",
+          "top": 628,
+          "left": 369,
+          "width": 614,
+          "height": 27
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and bui",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 32px",
+          "margin": "0px 0px 0px -2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1250px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kejphQ",
+            "Fzcv4W_inset",
+            "Fzcv4W_insetLarge"
+          ],
+          "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+          "top": 1531,
+          "left": 46,
+          "width": 1250,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Make product operations self-driving",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "541.688px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kxzSeX",
+            "b-30Va_title"
+          ],
+          "text": "Make product operations self-driving",
+          "top": 2609,
+          "left": 78,
+          "width": 542,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Define the product direction",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "541.688px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kxzSeX",
+            "b-30Va_title"
+          ],
+          "text": "Define the product direction",
+          "top": 3843,
+          "left": 78,
+          "width": 542,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Move work forward across teams and agents",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "541.688px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kxzSeX",
+            "b-30Va_title"
+          ],
+          "text": "Move work forward across teams and agents",
+          "top": 5070,
+          "left": 78,
+          "width": 542,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Review PRs and agent output",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "541.688px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kxzSeX",
+            "b-30Va_title"
+          ],
+          "text": "Review PRs and agent output",
+          "top": 6252,
+          "left": 78,
+          "width": 542,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Understand progress at scale",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "541.688px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "kxzSeX",
+            "b-30Va_title"
+          ],
+          "text": "Understand progress at scale",
+          "top": 7352,
+          "left": 78,
+          "width": 542,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Changelog",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "510",
+          "lineHeight": "48px",
+          "letterSpacing": "-1.056px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "imSSFJ"
+          ],
+          "text": "Changelog",
+          "top": 8582,
+          "left": 78,
+          "width": 224,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Built for the future. Available today.",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "72px",
+          "fontWeight": "510",
+          "lineHeight": "72px",
+          "letterSpacing": "-1.584px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "722.25px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "sc-KOGVz",
+            "hAELVf",
+            "dYXc1G_heading"
+          ],
+          "text": "Built for the future. Available today.",
+          "top": 9952,
+          "left": 359,
+          "width": 722,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Product",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Product",
+          "top": 10461,
+          "left": 304,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Features",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Features",
+          "top": 10461,
+          "left": 528,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Company",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Company",
+          "top": 10461,
+          "left": 752,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Resources",
+          "top": 10461,
+          "left": 976,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Connect",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Connect",
+          "top": 10461,
+          "left": 1200,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Legal",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "19.5px",
+          "letterSpacing": "-0.13px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "Jmh1Wq_sectionTitle"
+          ],
+          "text": "Legal",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Skip to content \u2192",
+        "href": "#skip-nav",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(94, 106, 210)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "510",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "LSqk9q_root"
+          ],
+          "text": "Skip to content \u2192",
+          "top": 72,
+          "left": 0,
+          "width": 1440,
+          "height": 32
+        }
+      },
+      {
+        "text": "Navigate to home",
+        "href": "/homepage",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px 8px",
+          "margin": "0px 0px 0px -8px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_logoLink",
+            "I_mUeq_root"
+          ],
+          "text": "",
+          "top": 20,
+          "left": 71,
+          "width": 104,
+          "height": 32
+        }
+      },
+      {
+        "text": "Product",
+        "href": null,
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_pt9jat6_-trigger-product",
+          "classes": [
+            "TZTsQG_anchor",
+            "TZTsQG_trigger",
+            "hCgVwa_reset-button"
+          ],
+          "text": "Product",
+          "top": 20,
+          "left": 741,
+          "width": 72,
+          "height": 32
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_pt9jat6_-trigger-resources",
+          "classes": [
+            "TZTsQG_anchor",
+            "TZTsQG_trigger",
+            "hCgVwa_reset-button"
+          ],
+          "text": "Resources",
+          "top": 20,
+          "left": 813,
+          "width": 89,
+          "height": 32
+        }
+      },
+      {
+        "text": "Customers",
+        "href": "/customers",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_anchor",
+            "I_mUeq_root"
+          ],
+          "text": "Customers",
+          "top": 20,
+          "left": 902,
+          "width": 91,
+          "height": 32
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_anchor",
+            "I_mUeq_root"
+          ],
+          "text": "Pricing",
+          "top": 20,
+          "left": 992,
+          "width": 67,
+          "height": 32
+        }
+      },
+      {
+        "text": "Now",
+        "href": "/now",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_anchor",
+            "I_mUeq_root"
+          ],
+          "text": "Now",
+          "top": 20,
+          "left": 1059,
+          "width": 52,
+          "height": 32
+        }
+      },
+      {
+        "text": "Contact",
+        "href": "/contact",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_anchor",
+            "I_mUeq_root"
+          ],
+          "text": "Contact",
+          "top": 20,
+          "left": 1111,
+          "width": 72,
+          "height": 32
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/login",
+        "style": {
+          "color": "rgb(138, 143, 152)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "19.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px none rgb(138, 143, 152)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "TZTsQG_anchor",
+            "I_mUeq_root"
+          ],
+          "text": "Log in",
+          "top": 20,
+          "left": 1218,
+          "width": 62,
+          "height": 32
+        }
+      },
+      {
+        "text": "Sign up",
+        "href": "/signup",
+        "style": {
+          "color": "rgb(8, 9, 10)",
+          "backgroundColor": "rgb(229, 229, 230)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 8px 2px 0px, rgba(0, 0, 0, 0.01) 0px 5px 2px 0px, rgba(0, 0, 0, 0.04) 0px 3px 2px 0px, rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1px 0px",
+          "border": "1px solid rgb(229, 229, 230)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "S36ykG_root",
+            "S36ykG_variant-invert",
+            "S36ykG_size-small",
+            "S36ykG_variant",
+            "I_mUeq_root"
+          ],
+          "text": "Sign up",
+          "top": 20,
+          "left": 1288,
+          "width": 73,
+          "height": 32
+        }
+      },
+      {
+        "text": "New\nCoding Sessions \u2192",
+        "href": "https://linear.app/coding-sessions",
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hide-tablet",
+            "QI8oKG_newFeatureLink",
+            "I_mUeq_root"
+          ],
+          "text": "New Coding Sessions \u2192",
+          "top": 432,
+          "left": 1182,
+          "width": 178,
+          "height": 25
+        }
+      },
+      {
+        "text": "Linear",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px 4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "base-ui-_R_dd5a90qt9jat6_",
+          "classes": [
+            "M1bpsa_switchWorkspaceButton"
+          ],
+          "text": "Linear",
+          "top": 543,
+          "left": 76,
+          "width": 97,
+          "height": 28
+        }
+      },
+      {
+        "text": "Inbox",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Inbox",
+          "top": 583,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "My issues",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "My issues",
+          "top": 613,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Reviews",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Reviews",
+          "top": 643,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Pulse",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Pulse",
+          "top": 673,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Workspace",
+        "href": null,
+        "style": {
+          "color": "rgb(98, 102, 109)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(98, 102, 109)",
+          "padding": "0px 6px 0px 4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem",
+            "M1bpsa_collapsible"
+          ],
+          "text": "Workspace",
+          "top": 713,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Initiatives",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Initiatives",
+          "top": 741,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Projects",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Projects",
+          "top": 771,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "More",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "More",
+          "top": 801,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Favorites",
+        "href": null,
+        "style": {
+          "color": "rgb(98, 102, 109)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(98, 102, 109)",
+          "padding": "0px 6px 0px 4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem",
+            "M1bpsa_collapsible"
+          ],
+          "text": "Favorites",
+          "top": 841,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Faster app launch",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(255, 255, 255, 0.04)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Faster app launch",
+          "top": 869,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Agent tasks",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Agent tasks",
+          "top": 899,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "UI Refresh",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "UI Refresh",
+          "top": 929,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      },
+      {
+        "text": "Agents Insights",
+        "href": null,
+        "style": {
+          "color": "rgb(208, 214, 224)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "510",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(208, 214, 224)",
+          "padding": "0px 6px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "M1bpsa_navItem"
+          ],
+          "text": "Agents Insights",
+          "top": 959,
+          "left": 76,
+          "width": 210,
+          "height": 28
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(15, 16, 17)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(255, 255, 255, 0.05)",
+          "padding": "0px 24px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "GJ9TEa_carouselCard",
+            "NAY0wa_item"
+          ],
+          "text": "Built for purposeLinear is shaped by the practices and principles of world-class product teams.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(15, 16, 17)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(255, 255, 255, 0.05)",
+          "padding": "0px 24px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "GJ9TEa_carouselCard",
+            "NAY0wa_item"
+          ],
+          "text": "Powered by AI agentsDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(15, 16, 17)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(255, 255, 255, 0.05)",
+          "padding": "0px 24px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "GJ9TEa_carouselCard",
+            "NAY0wa_item"
+          ],
+          "text": "Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%), linear-gradient(rgb(178, 213, 255) 0%, rgb(223, 209, 255) 100%)",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "20px 60px 28px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Dc5tqa_mobileCard",
+            "NAY0wa_item"
+          ],
+          "text": "You\u2019ll probably build a better product, just because of the craft that using Linear infuses on your brain.Gabriel PealOpenAI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(228, 242, 34)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "20px 60px 28px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Dc5tqa_mobileCard",
+            "NAY0wa_item"
+          ],
+          "text": "Our speed is intense and Linear helps us be action biased.Nik KoblovRamp",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(28, 133, 232)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "20px 60px 28px 28px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Dc5tqa_mobileCard",
+            "NAY0wa_item"
+          ],
+          "text": "Linear is excellent, just excellent. It has the right opinions for fast moving teams.Kaz NejatianOpendoor",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "12px 12px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "Dc5tqa_customerCards"
+          ],
+          "text": "You\u2019ll probably build a better product, just because of the craft that using Linear infuses on your brain. Gabriel Peal Staff Software Engineer, OpenAI Our speed is intense and L",
+          "top": 9164,
+          "left": 48,
+          "width": 1344,
+          "height": 492
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%), linear-gradient(rgb(178, 213, 255) 0%, rgb(223, 209, 255) 100%)",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "24px 32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Dc5tqa_customerCard",
+            "Dc5tqa_primary",
+            "I_mUeq_root"
+          ],
+          "text": "You\u2019ll probably build a better product, just because of the craft that using Linear infuses on your brain. Gabriel Peal Staff Software Engineer, OpenAI",
+          "top": 9176,
+          "left": 60,
+          "width": 880,
+          "height": 480
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(247, 248, 248)",
+          "backgroundColor": "rgb(228, 242, 34)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(247, 248, 248)",
+          "padding": "24px 32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Dc5tqa_customerCard",
+            "Dc5tqa_secondary",
+            "I_mUeq_root"
+          ],
+          "text": "Our speed is intense and Linear helps us be action biased. Nik Koblov Head of Engineering, Ramp",
+          "top": 9176,
+          "left": 948,
+          "width": 432,
+          "height": 480
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c7b144b7-4ef0-4991-9bcb-617c6a37d200/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 527,
+          "left": 12,
+          "width": 1416,
+          "height": 768
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/6600ca96-e49b-4fd9-c03a-7979faddad00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c7fa8f5f-d439-4329-6a65-de549b51e300/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 491,
+          "left": 0,
+          "width": 1440,
+          "height": 804
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&q=95&auto=format&dpr=2",
+        "alt": "Avatar of Karri",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "sx-16rqkct",
+            "sx-h8yej3",
+            "sx-5yr21d",
+            "sx-47corl",
+            "sx-l1xv1r"
+          ],
+          "text": "",
+          "top": 789,
+          "left": 370,
+          "width": 14,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&q=95&auto=format&dpr=2",
+        "alt": "Avatar of Karri",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "sx-16rqkct",
+            "sx-h8yej3",
+            "sx-5yr21d",
+            "sx-47corl",
+            "sx-l1xv1r"
+          ],
+          "text": "",
+          "top": 874,
+          "left": 369,
+          "width": 14,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/f28b59f4-538c-4517-cfd7-510913015200/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 945,
+          "left": 369,
+          "width": 14,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c2f6447a-d507-43c1-f3ab-3f2c6fbceb00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 1040,
+          "left": 369,
+          "width": 14,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c2f6447a-d507-43c1-f3ab-3f2c6fbceb00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 756,
+          "left": 980,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/f28b59f4-538c-4517-cfd7-510913015200/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 802,
+          "left": 980,
+          "width": 14,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/f28b59f4-538c-4517-cfd7-510913015200/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 676,
+          "left": 1082,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c2f6447a-d507-43c1-f3ab-3f2c6fbceb00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "Codex",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 708,
+          "left": 1102,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/086b510a-f5da-414b-bc9d-228afb968600/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 2945,
+          "left": 913,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/302b16a5-f9ca-42f2-dbae-3c76f19b2d00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 3049,
+          "left": 913,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/1eb8f8b2-3593-473f-ba8a-acac99aa0300/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 3153,
+          "left": 913,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/6550520e-9e50-441d-b9e8-579be321f900/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 2945,
+          "left": 1229,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/4d3381aa-fb2f-4d3d-1a06-957fc616d400/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 3049,
+          "left": 1229,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/7ea107e7-c1a0-4c99-756d-5837fd91f200/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 3153,
+          "left": 1229,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c8aeedda-7726-4a4f-226a-f573f85d8d00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "didier",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "qM9FAa_avatar",
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 2850,
+          "left": 80,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/580cd9c0-2770-4fe4-1ad2-95c76fc6f000/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "lena",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "qM9FAa_avatar",
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 2938,
+          "left": 80,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c8aeedda-7726-4a4f-226a-f573f85d8d00/f=auto,dpr=2,fit=scale-down,metadata=none",
+        "alt": "didier",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "qM9FAa_avatar",
+            "Sz_9La_root"
+          ],
+          "text": "",
+          "top": 3026,
+          "left": 80,
+          "width": 36,
+          "height": 36
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(247, 248, 248)",
+        "count": 1654
+      },
+      {
+        "value": "rgb(98, 102, 109)",
+        "count": 666
+      },
+      {
+        "value": "rgb(208, 214, 224)",
+        "count": 286
+      },
+      {
+        "value": "rgb(226, 228, 231)",
+        "count": 239
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 204
+      },
+      {
+        "value": "rgb(138, 143, 152)",
+        "count": 134
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.05)",
+        "count": 86
+      },
+      {
+        "value": "rgb(247, 156, 224)",
+        "count": 82
+      },
+      {
+        "value": "rgb(247, 191, 139)",
+        "count": 44
+      },
+      {
+        "value": "rgb(208, 214, 224) rgb(208, 214, 224) rgb(208, 214, 224) rgba(0, 0, 0, 0)",
+        "count": 28
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.02)",
+        "count": 20
+      },
+      {
+        "value": "rgb(255, 223, 159)",
+        "count": 20
+      },
+      {
+        "value": "rgb(131, 220, 220)",
+        "count": 18
+      },
+      {
+        "value": "rgb(143, 166, 255)",
+        "count": 16
+      },
+      {
+        "value": "rgba(0, 255, 5, 0.1)",
+        "count": 16
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.08)",
+        "count": 15
+      },
+      {
+        "value": "rgb(247, 248, 248) rgb(247, 248, 248) rgba(255, 255, 255, 0.05)",
+        "count": 7
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.03)",
+        "count": 6
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter Variable",
+        "count": 1494
+      },
+      {
+        "value": "Berkeley Mono",
+        "count": 258
+      }
+    ],
+    "radii": [
+      {
+        "value": "2px",
+        "count": 42
+      },
+      {
+        "value": "6px",
+        "count": 40
+      },
+      {
+        "value": "50%",
+        "count": 38
+      },
+      {
+        "value": "4px",
+        "count": 21
+      },
+      {
+        "value": "9999px",
+        "count": 14
+      },
+      {
+        "value": "12px 12px 0px 0px",
+        "count": 11
+      },
+      {
+        "value": "12px",
+        "count": 10
+      },
+      {
+        "value": "8px",
+        "count": 10
+      },
+      {
+        "value": "22px",
+        "count": 5
+      },
+      {
+        "value": "2px 0px 0px 2px",
+        "count": 4
+      },
+      {
+        "value": "0px 2px 2px 0px",
+        "count": 4
+      },
+      {
+        "value": "16px",
+        "count": 3
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 8px 2px 0px, rgba(0, 0, 0, 0.01) 0px 5px 2px 0px, rgba(0, 0, 0, 0.04) 0px 3px 2px 0px, rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1px 0px",
+      "rgba(0, 0, 0, 0.1) 0px 0px 0px 2px",
+      "rgba(0, 0, 0, 0.2) 0px 0px 0px 1px",
+      "rgb(35, 37, 42) 0px 0px 0px 1px inset",
+      "rgba(0, 0, 0, 0.4) 0px 2px 4px 0px",
+      "rgba(0, 0, 0, 0.03) 0px 1.2px 0px 0px"
+    ],
+    "cssVars": {},
+    "metaTheme": "#08090a"
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"TZTsQG_header TZTsQG_header\"><nav aria-label=\"Main\" data-orientation=\"horizontal\" dir=\"ltr\" class=\"TZTsQG_menuRoot\"><div class=\"TZTsQG_innerWrapper\"><div style=\"position:relative\"><ul data-orientation=\"horizontal\" class=\"TZTsQG_list\" aria-label=\"Site navigation\" dir=\"ltr\"><li class=\"TZTsQG_logoItem TZTsQG_item\"><span data-state=\"closed\" style=\"-webkit-touch-callout:none;display:flex\"><a href=\"/homepage\" aria-label=\"Navigate to home\" data-radix-collection-item=\"\" class=\"TZTsQG_logo\u2026",
+    "heroHtml": "<div class=\"QI8oKG_container Fzcv4W_inset\"><h1 class=\"sc-KOGVz bpRfIm Fzcv4W_insetLarge QI8oKG_title\"><span aria-hidden=\"true\"><span style=\"display: inline-block; opacity: 1; filter: blur(0px); transform: translateY(0%);\" class=\"show-mobile\">The product</span><span class=\"show-mobile\"> </span><span style=\"display: inline-block; opacity: 1; filter: blur(0px); transform: translateY(0%);\" class=\"show-mobile\">development</span><span class=\"show-mobile\"> </span><span style=\"display: inline-block; opa\u2026",
+    "footerHtml": "<footer class=\"Jmh1Wq_footer\"><div class=\"Jmh1Wq_wrapper\"><div class=\"Jmh1Wq_inner\"><div class=\"hide-mobile Jmh1Wq_logoColumn\"><a href=\"/\" class=\"Jmh1Wq_logoWrapper I_mUeq_root I_mUeq_variant-fade\" rel=\"noopener\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 100 100\" fill=\"currentColor\" aria-label=\"Linear Logo\" size=\"20\" color=\"currentColor\"><path d=\"M1.22541 61.5228c-.2225-.9485.90748-1.5459 1.59638-.857L39.3342 97.1782c.6889.6889.0915 1.8189-.857 1.5964C20.0515 94.4522 5.54779 79.9485 1.22541 61.52\u2026"
+  },
+  "status": 200,
+  "final_url": "https://linear.app/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 8,
+    "section_count": 9,
+    "nav_count": 2,
+    "button_count": 89,
+    "img_count": 32,
+    "footer_count": 1
+  }
+}
