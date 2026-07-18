@@ -1,0 +1,3571 @@
+{
+  "name": "cursor",
+  "url": "https://cursor.com",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/cursor-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/cursor-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/cursor-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/cursor-full.png",
+  "design": {
+    "url": "https://cursor.com/",
+    "title": "Cursor: AI coding agent",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 8277
+    },
+    "themeGuess": "dark",
+    "luminance": 0.07027372549019607,
+    "bodyStyle": {
+      "color": "rgb(237, 236, 236)",
+      "backgroundColor": "rgb(20, 18, 11)",
+      "backgroundImage": "none",
+      "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(237, 236, 236)",
+      "padding": "52px 0px 0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": "site-header",
+        "classes": [
+          "bg-theme-bg",
+          "px-g2",
+          "fixed",
+          "top-0",
+          "left-0",
+          "z-50",
+          "w-full"
+        ],
+        "text": "Skip to content Cursor Product \u2193 Enterprise Pricing Resources \u2193 Sign in Contact sales Download",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 52
+      },
+      "style": {
+        "color": "rgb(237, 236, 236)",
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": "none",
+        "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(237, 236, 236)",
+        "padding": "0px 20px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Skip to content",
+        "Cursor",
+        "Product",
+        "Enterprise",
+        "Pricing",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Download",
+        "Agents",
+        "Teams",
+        "Enterprise"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": "site-footer",
+        "classes": [
+          "pt-v3",
+          "pb-v3",
+          "md:pb-g3",
+          "px-g2",
+          "bg-theme-card-hex",
+          "relative"
+        ],
+        "text": "Product Agents Teams Enterprise Pricing Code Review CLI Cloud Agents Composer Marketplace \u2197 Resources Download Changelog Docs Learn \u2197 Forum \u2197 Help \u2197 Workshops Status \u2197 Company Care",
+        "top": 7751,
+        "left": 0,
+        "width": 1440,
+        "height": 526
+      },
+      "style": {
+        "color": "rgb(237, 236, 236)",
+        "backgroundColor": "rgb(27, 25, 19)",
+        "backgroundImage": "none",
+        "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(237, 236, 236)",
+        "padding": "67.2px 20px 30px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main",
+        "classes": [],
+        "text": "Cursor is your coding agent for building ambitious software. Download for Linux \u2913 Request a demo \u2192 This element contains an interactive demo for sighted users showing multiple Curs",
+        "top": 52,
+        "left": 0,
+        "width": 1440,
+        "height": 7699
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [],
+        "top": 52,
+        "height": 0,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 0
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text"
+        ],
+        "top": 52,
+        "height": 1086,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Cursor is your coding agent for building ambitious software.",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "pb-v1.5",
+          "pt-0"
+        ],
+        "top": 1138,
+        "height": 177,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Trusted every day by teams that build world-class software",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "section",
+          "section--flush-x"
+        ],
+        "top": 1315,
+        "height": 3203,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Agents turn ideas into code",
+        "headingTag": "h3",
+        "childCount": 4
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "section--flush-y"
+        ],
+        "top": 1382,
+        "height": 715,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Agents turn ideas into code",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "section--flush-y"
+        ],
+        "top": 2187,
+        "height": 715,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Works autonomously, runs in parallel",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "section--flush-y"
+        ],
+        "top": 2991,
+        "height": 685,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "In every tool, at every step",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "section--flush-y"
+        ],
+        "top": 3766,
+        "height": 685,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Automate repetitive work",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "overflow-hidden"
+        ],
+        "top": 4518,
+        "height": 724,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "The new way to build software.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text"
+        ],
+        "top": 5242,
+        "height": 739,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Stay on the frontier",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "bg-theme-bg",
+          "text-theme-text",
+          "section"
+        ],
+        "top": 5981,
+        "height": 334,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Changelog",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text"
+        ],
+        "top": 6315,
+        "height": 694,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Cursor is an applied research team focused on building the future of software development.",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text"
+        ],
+        "top": 7009,
+        "height": 395,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Recent highlights",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "section",
+          "bg-theme-bg",
+          "text-theme-text",
+          "section--headline"
+        ],
+        "top": 7404,
+        "height": 346,
+        "width": 1440,
+        "backgroundColor": "rgb(20, 18, 11)",
+        "backgroundImage": null,
+        "heading": "Try Cursor now.",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Cursor is your coding agent for building ambitious software.",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "32.5px",
+          "letterSpacing": "-0.325px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 22.4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "type-md-lg",
+            "text-balance",
+            "mb-v1"
+          ],
+          "text": "Cursor is your coding agent for building ambitious software.",
+          "top": 164,
+          "left": 70,
+          "width": 658,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mission Control Interface",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "lineHeight": "31px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-0",
+            "mb-1",
+            "text-[20px]",
+            "font-bold"
+          ],
+          "text": "Mission Control Interface",
+          "top": 512,
+          "left": 804,
+          "width": 392,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trigger",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "21.7px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "8px 0px 2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-2",
+            "mb-0.5",
+            "text-[14px]",
+            "font-semibold"
+          ],
+          "text": "Trigger",
+          "top": 607,
+          "left": 804,
+          "width": 392,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "View Behavior",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "21.7px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "8px 0px 2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-2",
+            "mb-0.5",
+            "text-[14px]",
+            "font-semibold"
+          ],
+          "text": "View Behavior",
+          "top": 685,
+          "left": 804,
+          "width": 392,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted every day by teams that build world-class software",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 22.4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "type-sm",
+            "mb-v1"
+          ],
+          "text": "Trusted every day by teams that build world-class software",
+          "top": 1138,
+          "left": 70,
+          "width": 1300,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Agents turn ideas into code",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-md",
+            "text-pretty"
+          ],
+          "text": "Agents turn ideas into code",
+          "top": 1663,
+          "left": 90,
+          "width": 383,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mission Control Interface",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "lineHeight": "31px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-0",
+            "mb-1",
+            "text-[20px]",
+            "font-bold"
+          ],
+          "text": "Mission Control Interface",
+          "top": 1551,
+          "left": 949,
+          "width": 452,
+          "height": 31
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trigger",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "21.7px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "8px 0px 2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-2",
+            "mb-0.5",
+            "text-[14px]",
+            "font-semibold"
+          ],
+          "text": "Trigger",
+          "top": 1646,
+          "left": 949,
+          "width": 452,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "View Behavior",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "21.7px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "8px 0px 2px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mt-2",
+            "mb-0.5",
+            "text-[14px]",
+            "font-semibold"
+          ],
+          "text": "View Behavior",
+          "top": 1724,
+          "left": 949,
+          "width": 452,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Works autonomously, runs in parallel",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-md",
+            "text-pretty"
+          ],
+          "text": "Works autonomously, runs in parallel",
+          "top": 2464,
+          "left": 968,
+          "width": 383,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "In every tool, at every step",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-md",
+            "text-pretty"
+          ],
+          "text": "In every tool, at every step",
+          "top": 3244,
+          "left": 90,
+          "width": 383,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "#feature-realtime-sync",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Lato, \"Lato Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "21.3333px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text-pri",
+            "type-slack-lg-semibold",
+            "truncate"
+          ],
+          "text": "#feature-realtime-sync",
+          "top": 3081,
+          "left": 611,
+          "width": 166,
+          "height": 21
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Automate repetitive work",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-md",
+            "text-pretty"
+          ],
+          "text": "Automate repetitive work",
+          "top": 4028,
+          "left": 968,
+          "width": 383,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The new way to build software.",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "lineHeight": "43.2px",
+          "letterSpacing": "-0.72px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "type-lg",
+            "text-balance",
+            "mx-auto"
+          ],
+          "text": "The new way to build software.",
+          "top": 4585,
+          "left": 315,
+          "width": 810,
+          "height": 43
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Stay on the frontier",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "type-md",
+            "text-balance"
+          ],
+          "text": "Stay on the frontier",
+          "top": 5309,
+          "left": 70,
+          "width": 486,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Use the best model for every task",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.08px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Use the best model for every task",
+          "top": 5376,
+          "left": 88,
+          "width": 392,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Complete codebase understanding",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.08px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Complete codebase understanding",
+          "top": 5376,
+          "left": 524,
+          "width": 392,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Develop enduring software",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "0.08px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Develop enduring software",
+          "top": 5376,
+          "left": 961,
+          "width": 392,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Changelog",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 22.4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-theme-text",
+            "mb-v1",
+            "type-md"
+          ],
+          "text": "Changelog",
+          "top": 6048,
+          "left": 70,
+          "width": 1300,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Cursor is an applied research team focused on building the future of software development.",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-md",
+            "text-pretty"
+          ],
+          "text": "Cursor is an applied research team focused on building the future of software development.",
+          "top": 6600,
+          "left": 90,
+          "width": 383,
+          "height": 86
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Recent highlights",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "28.6px",
+          "letterSpacing": "-0.11px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 22.4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "type-md",
+            "text-theme-text",
+            "mb-v1"
+          ],
+          "text": "Recent highlights",
+          "top": 7076,
+          "left": 70,
+          "width": 1300,
+          "height": 29
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Try Cursor now.",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "72px",
+          "fontWeight": "400",
+          "lineHeight": "79.2px",
+          "letterSpacing": "-2.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px 0px 22.4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "type-xl",
+            "sm:type-2xl",
+            "text-balance",
+            "mx-auto",
+            "mb-v1"
+          ],
+          "text": "Try Cursor now.",
+          "top": 7471,
+          "left": 315,
+          "width": 810,
+          "height": 79
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Product",
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px 0px 4.66667px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-sm",
+            "text-theme-text-sec",
+            "pb-v2.5/12"
+          ],
+          "text": "Product",
+          "top": 7818,
+          "left": 70,
+          "width": 252,
+          "height": 26
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px 0px 4.66667px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-sm",
+            "text-theme-text-sec",
+            "pb-v2.5/12"
+          ],
+          "text": "Resources",
+          "top": 7818,
+          "left": 332,
+          "width": 252,
+          "height": 26
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Company",
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px 0px 4.66667px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-sm",
+            "text-theme-text-sec",
+            "pb-v2.5/12"
+          ],
+          "text": "Company",
+          "top": 7818,
+          "left": 594,
+          "width": 252,
+          "height": 26
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Legal",
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px 0px 4.66667px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-sm",
+            "text-theme-text-sec",
+            "pb-v2.5/12"
+          ],
+          "text": "Legal",
+          "top": 7818,
+          "left": 856,
+          "width": 252,
+          "height": 26
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Connect",
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px 0px 4.66667px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "type-base",
+            "md:type-sm",
+            "text-theme-text-sec",
+            "pb-v2.5/12"
+          ],
+          "text": "Connect",
+          "top": 7818,
+          "left": 1118,
+          "width": 252,
+          "height": 26
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Cursor",
+        "href": "/home",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "focus-visible:focus-visible",
+            "relative",
+            "top-[0.2rem]",
+            "left-[-2px]",
+            "inline-flex"
+          ],
+          "text": "Cursor",
+          "top": 14,
+          "left": 68,
+          "width": 96,
+          "height": 24
+        }
+      },
+      {
+        "text": "Product",
+        "href": "/product",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "5.6px 15px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__btn"
+          ],
+          "text": "Product",
+          "top": 9,
+          "left": 541,
+          "width": 83,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/product",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 50,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/cloud",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 80,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/composer",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 111,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/mobile",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 141,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/automate",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 171,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/cli",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 202,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "https://cursor.com/marketplace",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 232,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/bugbot",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 262,
+          "left": 556,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "5.6px 15px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__link"
+          ],
+          "text": "Enterprise",
+          "top": 9,
+          "left": 624,
+          "width": 98,
+          "height": 34
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "5.6px 15px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__link"
+          ],
+          "text": "Pricing",
+          "top": 9,
+          "left": 721,
+          "width": 77,
+          "height": 34
+        }
+      },
+      {
+        "text": "Resources",
+        "href": "/changelog",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "5.6px 15px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__btn"
+          ],
+          "text": "Resources",
+          "top": 9,
+          "left": 798,
+          "width": 100,
+          "height": 34
+        }
+      },
+      {
+        "text": "",
+        "href": "/changelog",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 50,
+          "left": 813,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/blog",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 50,
+          "left": 951,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/docs",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 80,
+          "left": 813,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/community",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 80,
+          "left": 951,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "https://cursor.com/help",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 111,
+          "left": 813,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/workshops",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 111,
+          "left": 951,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "https://forum.cursor.com/",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 141,
+          "left": 813,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "",
+        "href": "/careers",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "4.66667px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "nav__sub-nav__link",
+            "py-v2.5/12"
+          ],
+          "text": "",
+          "top": 141,
+          "left": 951,
+          "width": 128,
+          "height": 30
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": "/dashboard",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "4px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn--quinary"
+          ],
+          "text": "Sign in",
+          "top": 11,
+          "left": 1103,
+          "width": 54,
+          "height": 31
+        }
+      },
+      {
+        "text": "Contact sales",
+        "href": "/contact-sales?source=navbar",
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.943853 0.00107113 0.000336707 / 0.2)",
+          "padding": "5.6px 10.5px 5.88px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn",
+            "btn--ghost",
+            "btn--sm",
+            "hidden",
+            "lg:inline-flex"
+          ],
+          "text": "Contact sales",
+          "top": 12,
+          "left": 1164,
+          "width": 110,
+          "height": 27
+        }
+      },
+      {
+        "text": "Download",
+        "href": "/download",
+        "style": {
+          "color": "rgb(20, 18, 11)",
+          "backgroundColor": "rgb(237, 236, 236)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(237, 236, 236)",
+          "padding": "5.6px 10.5px 5.88px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn",
+            "btn--primary",
+            "btn--sm",
+            "max-sm:hidden"
+          ],
+          "text": "Download",
+          "top": 12,
+          "left": 1282,
+          "width": 88,
+          "height": 27
+        }
+      },
+      {
+        "text": "Download for Linux\n\u2913",
+        "href": "https://api2.cursor.sh/updates/download/golden/linux-x64-deb/cursor/3.12",
+        "style": {
+          "color": "rgb(20, 18, 11)",
+          "backgroundColor": "rgb(237, 236, 236)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(237, 236, 236)",
+          "padding": "12.48px 21.6px 12.8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "btn"
+          ],
+          "text": "Download for Linux \u2913",
+          "top": 251,
+          "left": 70,
+          "width": 201,
+          "height": 43
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "4px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 0px 16px 0px, rgba(0, 0, 0, 0.008) 0px 0px 8px 0px",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "7.9px 15px 12.8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "card--sub-nav",
+            "card--flyout",
+            "type-sm",
+            "shadow-[var(--shadow-flyout)]"
+          ],
+          "text": "",
+          "top": 42,
+          "left": 541,
+          "width": 158,
+          "height": 263
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "4px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 0px 16px 0px, rgba(0, 0, 0, 0.008) 0px 0px 8px 0px",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "7.9px 15px 12.8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "card",
+            "card--sub-nav",
+            "card--flyout",
+            "type-sm",
+            "shadow-[var(--shadow-flyout)]"
+          ],
+          "text": "",
+          "top": 42,
+          "left": 798,
+          "width": 296,
+          "height": 142
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(oklab(0.943853 0.00107113 0.000336707 / 0.05) 0%, oklab(0.943853 0.00107113 0.000336707 / 0.05) 100%), linear-gradient(rgb(27, 25, 19) 0%, rgb(27, 25, 19) 100%)",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "media-border-container",
+            "relative",
+            "grid",
+            "grid-cols-1",
+            "grid-rows-1",
+            "bg-[image:var(--color-theme-card-03)]"
+          ],
+          "text": "This element contains an interactive demo for sighted users showing multiple Cursor interfaces: Cursor Desktop interface, Cursor CLI interface. The interface is displayed over a su",
+          "top": 351,
+          "left": 70,
+          "width": 1300,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "aside",
+          "id": null,
+          "classes": [
+            "bg-theme-card",
+            "text-theme-text",
+            "h-full",
+            "w-full"
+          ],
+          "text": "IN PROGRESS 2 Analyze Tab vs Agent Usage Patterns Fetching data Plan Mission Control Generating plan READY FOR REVIEW 4 Build Landing Page now Done. Fonts preload in the head, crit",
+          "top": 429,
+          "left": 180,
+          "width": 219,
+          "height": 592
+        }
+      },
+      {
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.9)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.9)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "text-theme-text/90",
+            "bg-theme-card",
+            "no-scrollbar",
+            "flex",
+            "h-8",
+            "items-center",
+            "gap-0",
+            "overflow-x-auto"
+          ],
+          "text": "feature-prd.md presence.ts",
+          "top": 429,
+          "left": 740,
+          "width": 520,
+          "height": 30
+        }
+      },
+      {
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.9)",
+          "backgroundColor": "rgb(20, 18, 11)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "0px 8px 0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": "tab-src/lib/collaboration/presence.ts",
+          "classes": [
+            "group/tab",
+            "border-theme-border-02",
+            "flex",
+            "h-full",
+            "cursor-pointer",
+            "items-center",
+            "gap-2",
+            "border-r"
+          ],
+          "text": "presence.ts",
+          "top": 429,
+          "left": 873,
+          "width": 112,
+          "height": 30
+        }
+      },
+      {
+        "style": {
+          "color": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "backgroundColor": "rgb(43, 41, 35)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "3.35544e+07px",
+          "boxShadow": "none",
+          "border": "0px solid oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "flex",
+            "h-5",
+            "w-5",
+            "items-center",
+            "justify-center",
+            "rounded-full",
+            "transition-all",
+            "duration-150"
+          ],
+          "text": "",
+          "top": 980,
+          "left": 698,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 70,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 234,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 398,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 561,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 725,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 889,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 1053,
+          "width": 154,
+          "height": 100
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(237, 236, 236)",
+          "backgroundColor": "rgb(27, 25, 19)",
+          "backgroundImage": "none",
+          "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(237, 236, 236)",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "px-g0.75",
+            "flex",
+            "h-[4rem]",
+            "w-full",
+            "items-center",
+            "justify-center",
+            "sm:h-[4.5rem]",
+            "md:h-[6.25rem]"
+          ],
+          "text": "",
+          "top": 1181,
+          "left": 1216,
+          "width": 154,
+          "height": 100
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "video",
+        "src": "https://cursor.com/marketing-static/logo/logo-dark-theme.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "video-smooth",
+            "h-full",
+            "w-auto",
+            "transition-opacity",
+            "duration-500"
+          ],
+          "text": "",
+          "top": 14,
+          "left": 68,
+          "width": 22,
+          "height": 24
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-cc24ca462279ca23250c.jpg&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "wallpaper-brightness-dark"
+          ],
+          "text": "",
+          "top": 351,
+          "left": 70,
+          "width": 1300,
+          "height": 720
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/demos/cursor-wallpaper.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 2502,
+          "left": 367,
+          "width": 292,
+          "height": 164
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-85923e7fafe00c9c0d1f.jpg&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "scale-[1.1]",
+            "transform",
+            "wallpaper-brightness-dark"
+          ],
+          "text": "",
+          "top": 2976,
+          "left": 471,
+          "width": 924,
+          "height": 715
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-85923e7fafe00c9c0d1f.jpg&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 3009,
+          "left": 513,
+          "width": 840,
+          "height": 650
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fswhitmore.png&w=48&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "member-1",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "border-theme-card-hex",
+            "-ml-2",
+            "rounded-full",
+            "border",
+            "object-cover",
+            "first:ml-0",
+            "h-6",
+            "w-6"
+          ],
+          "text": "",
+          "top": 3087,
+          "left": 1042,
+          "width": 24,
+          "height": 24
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Feric.jpeg&w=48&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "member-2",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "border-theme-card-hex",
+            "-ml-2",
+            "rounded-full",
+            "border",
+            "object-cover",
+            "first:ml-0",
+            "h-6",
+            "w-6"
+          ],
+          "text": "",
+          "top": 3087,
+          "left": 1058,
+          "width": 24,
+          "height": 24
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Frikki.jpg&w=48&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "member-3",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "border-theme-card-hex",
+            "-ml-2",
+            "rounded-full",
+            "border",
+            "object-cover",
+            "first:ml-0",
+            "h-6",
+            "w-6"
+          ],
+          "text": "",
+          "top": 3087,
+          "left": 1074,
+          "width": 24,
+          "height": 24
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fryo.png&w=48&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "member-4",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "border-theme-card-hex",
+            "-ml-2",
+            "rounded-full",
+            "border",
+            "object-cover",
+            "first:ml-0",
+            "h-6",
+            "w-6"
+          ],
+          "text": "",
+          "top": 3087,
+          "left": 1090,
+          "width": 24,
+          "height": 24
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fswhitmore.png&w=64&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "swhitmore avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-8",
+            "w-8",
+            "rounded",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 3144,
+          "left": 611,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Feric.jpeg&w=64&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "eric avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-8",
+            "w-8",
+            "rounded",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 3195,
+          "left": 611,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Ficon-192x192.png&w=64&q=70&dpl=dpl_EqTDBitee6GV4yVvMZYiTY4JULhs",
+        "alt": "Cursor avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-8",
+            "w-8",
+            "rounded",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 3274,
+          "left": 611,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Finternal-brand%2Finternal-brand-023-3291bb4c.jpg&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "scale-[1.1]",
+            "transform",
+            "wallpaper-brightness-dark"
+          ],
+          "text": "",
+          "top": 3751,
+          "left": 46,
+          "width": 924,
+          "height": 715
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Finternal-brand%2Finternal-brand-023-3291bb4c.jpg&w=3840&q=70",
+        "alt": "Abstract waves background",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "absolute",
+            "inset-0",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 3783,
+          "left": 88,
+          "width": 840,
+          "height": 650
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fdiana-hu-avatar.png&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 4866,
+          "left": 88,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-b7d40eac35d910f3448b.png&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 4866,
+          "left": 524,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fandrej-karpathy-avatar.png&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 4866,
+          "left": 961,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fpatrick-collison-avatar.png&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 5116,
+          "left": 88,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fshadcn-avatar.png&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 5116,
+          "left": 524,
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fgreg-brockman-avatar.jpg&w=96&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "h-full",
+            "w-full",
+            "object-cover"
+          ],
+          "text": "",
+          "top": 5116,
+          "left": 961,
+          "width": 40,
+          "height": 40
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(237, 236, 236)",
+        "count": 2527
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+        "count": 499
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.5)",
+        "count": 98
+      },
+      {
+        "value": "rgb(20, 18, 11)",
+        "count": 62
+      },
+      {
+        "value": "rgb(27, 25, 19)",
+        "count": 61
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.1)",
+        "count": 61
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.4)",
+        "count": 50
+      },
+      {
+        "value": "rgb(192, 133, 50)",
+        "count": 31
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.2)",
+        "count": 24
+      },
+      {
+        "value": "rgb(245, 78, 0)",
+        "count": 22
+      },
+      {
+        "value": "rgb(237, 236, 236) rgb(237, 236, 236) color(srgb 0.929412 0.92549 0.92549 / 0.06)",
+        "count": 15
+      },
+      {
+        "value": "rgb(38, 36, 30)",
+        "count": 14
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 12
+      },
+      {
+        "value": "rgb(32, 30, 24)",
+        "count": 8
+      },
+      {
+        "value": "oklab(0.943853 0.00107113 0.000336707 / 0.9)",
+        "count": 8
+      },
+      {
+        "value": "lab(59.0978 -58.6621 41.2579)",
+        "count": 8
+      },
+      {
+        "value": "lab(48.4493 77.4328 61.5452)",
+        "count": 6
+      },
+      {
+        "value": "rgb(74, 222, 128)",
+        "count": 6
+      }
+    ],
+    "fonts": [
+      {
+        "value": "CursorGothic",
+        "count": 992
+      },
+      {
+        "value": "system-ui",
+        "count": 328
+      },
+      {
+        "value": "berkeleyMono",
+        "count": 198
+      },
+      {
+        "value": "EB Garamond",
+        "count": 79
+      },
+      {
+        "value": "Lato",
+        "count": 69
+      },
+      {
+        "value": "-apple-system",
+        "count": 9
+      },
+      {
+        "value": "CursorIcons16",
+        "count": 8
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 137
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 93
+      },
+      {
+        "value": "8px",
+        "count": 31
+      },
+      {
+        "value": "10px",
+        "count": 8
+      },
+      {
+        "value": "2px",
+        "count": 5
+      },
+      {
+        "value": "1.5px",
+        "count": 5
+      },
+      {
+        "value": "3px",
+        "count": 2
+      },
+      {
+        "value": "12px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 0px 16px 0px, rgba(0, 0, 0, 0.008) 0px 0px 8px 0px",
+      "rgba(0, 0, 0, 0.14) 0px 28px 70px 0px, rgba(0, 0, 0, 0.1) 0px 14px 32px 0px, oklab(0.943853 0.00107113 0.000336707 / 0.1) 0px 0px 0px 1px",
+      "rgba(0, 0, 0, 0.3) 0px 22px 70px 4px, rgba(0, 0, 0, 0.15) 0px 0px 0px 0.5px",
+      "rgba(0, 0, 0, 0.25) 0px 25px 50px -12px, rgba(0, 0, 0, 0.15) 0px 12px 24px -8px, oklab(0.943853 0.00107113 0.000336707 / 0.1) 0px 0px 0px 0.5px",
+      "rgba(0, 0, 0, 0.35) 0px 8px 30px 0px, rgba(0, 0, 0, 0.15) 0px 0px 0px 0.5px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "oklab(0.943853 0.00107113 0.000336707 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.28) 0px 18px 36px -18px",
+      "rgb(32, 30, 24) 0px 0px 0px 2px"
+    ],
+    "cssVars": {
+      "--font-sans": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "--font-berkeley-mono": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+      "--font-serif": "\"EB Garamond\", Iowan Old Style, Palatino Linotype, URW Palladio L, P052, ui-serif, Georgia, Cambria, Times New Roman, Ti",
+      "--color-bg": "var(--color-theme-bg)",
+      "--color-text-primary": "var(--color-theme-text)",
+      "--color-text-muted": "var(--color-theme-text-sec)",
+      "--color-text-secondary": "var(--color-theme-text-sec)",
+      "--color-border": "var(--color-theme-border-02)",
+      "--color-accent": "var(--color-theme-accent)",
+      "--color-code-bg": "var(--color-theme-card-hex)",
+      "--color-code-text": "var(--color-theme-text)",
+      "--color-bg-hover": "var(--color-theme-card-hover-hex)",
+      "--color-border-bright": "var(--color-theme-border-02-5)",
+      "--color-success": "var(--color-theme-product-ansi-green)",
+      "--color-success-bg": "color-mix(in srgb, var(--color-theme-product-ansi-green) 15%, transparent)",
+      "--color-error": "var(--color-theme-product-ansi-red)",
+      "--color-error-bg": "color-mix(in srgb, var(--color-theme-product-ansi-red) 15%, transparent)",
+      "--color-warning": "var(--color-theme-accent)",
+      "--color-warning-bg": "color-mix(in srgb, var(--color-theme-accent) 15%, transparent)",
+      "--color-accent-bg": "color-mix(in srgb, var(--color-theme-accent) 10%, transparent)",
+      "--color-accent-bg-strong": "color-mix(in srgb, var(--color-theme-accent) 25%, transparent)",
+      "--color-info": "var(--color-theme-border-03)",
+      "--font-mono": "var(--font-berkeley-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+      "--spacing-xs": "var(--spacing-g0\\.25)",
+      "--spacing-sm": "var(--spacing-g0\\.5)",
+      "--spacing-md": "var(--spacing-g1)",
+      "--spacing-lg": "var(--spacing-g1\\.5)",
+      "--spacing-xl": "var(--spacing-g2)",
+      "--spacing-2xl": "var(--spacing-g3)",
+      "--transition-fast": "var(--duration)",
+      "--color-bg-elevated": "var(--color-theme-card-hex)",
+      "--color-timeline-thinking": "#dfa88f",
+      "--color-timeline-grep": "#9fc9a2",
+      "--color-timeline-read": "#9fbbe0",
+      "--color-timeline-edit": "#c0a8dd",
+      "--toast-icon-margin-start": "-3px",
+      "--toast-icon-margin-end": "4px",
+      "--toast-svg-margin-start": "-1px",
+      "--toast-svg-margin-end": "0px",
+      "--toast-button-margin-start": "auto",
+      "--toast-button-margin-end": "0",
+      "--toast-close-button-start": "0",
+      "--toast-close-button-end": "unset",
+      "--toast-close-button-transform": "translate(-35%, -35%)",
+      "--gray1": "hsl(0, 0%, 99%)",
+      "--gray2": "hsl(0, 0%, 97.3%)",
+      "--gray3": "hsl(0, 0%, 95.1%)",
+      "--gray4": "hsl(0, 0%, 93%)",
+      "--gray5": "hsl(0, 0%, 90.9%)",
+      "--gray6": "hsl(0, 0%, 88.7%)",
+      "--gray7": "hsl(0, 0%, 85.8%)",
+      "--gray8": "hsl(0, 0%, 78%)",
+      "--gray9": "hsl(0, 0%, 56.1%)",
+      "--gray10": "hsl(0, 0%, 52.3%)",
+      "--gray11": "hsl(0, 0%, 43.5%)",
+      "--gray12": "hsl(0, 0%, 9%)",
+      "--border-radius": "8px",
+      "--y": "translateY(100%)",
+      "--lift-amount": "calc(var(--lift) * var(--gap))",
+      "--lift": "1",
+      "--scale": "var(--toasts-before) * 0.05 + 1",
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray4)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "hsl(143, 85%, 96%)",
+      "--success-border": "hsl(145, 92%, 87%)",
+      "--success-text": "hsl(140, 100%, 27%)",
+      "--info-bg": "hsl(208, 100%, 97%)",
+      "--info-border": "hsl(221, 91%, 93%)",
+      "--info-text": "hsl(210, 92%, 45%)",
+      "--warning-bg": "hsl(49, 100%, 97%)",
+      "--warning-border": "hsl(49, 91%, 84%)",
+      "--warning-text": "hsl(31, 92%, 45%)",
+      "--error-bg": "hsl(359, 100%, 97%)",
+      "--error-border": "hsl(359, 100%, 94%)",
+      "--error-text": "hsl(360, 100%, 45%)",
+      "--normal-bg-hover": "hsl(0, 0%, 12%)",
+      "--normal-border-hover": "hsl(0, 0%, 25%)",
+      "--size": "16px"
+    },
+    "metaTheme": "#f7f7f4"
+  },
+  "snippets": {
+    "headerHtml": "<header id=\"site-header\" class=\"bg-theme-bg px-g2 fixed top-0 left-0 z-50 w-full\"><div class=\"relative z-2 container grid h-[var(--site-header-height)] grid-cols-[1fr_auto_auto] items-center lg:grid-cols-[auto_1fr_auto]\"><a href=\"#main\" class=\"skipnav btn btn--sm\">Skip to content</a><div class=\"col-start-1 col-end-2 row-start-1 row-end-2\"><a class=\"focus-visible:focus-visible relative top-[0.2rem] left-[-2px] inline-flex\" aria-label=\"Homepage\" href=\"/home\"><div><div class=\"pointer-events-none ab\u2026",
+    "heroHtml": "<div class=\"text-left  mb-v2.5 max-w-prose\"><h1 class=\"type-md-lg text-balance  mb-v1\">Cursor is your coding agent for building ambitious software.</h1><div class=\"flex justify-start gap-x-g1 items-center\"><div class=\"\"><div class=\"hidden items-center md:flex\"><a class=\"btn\" href=\"https://api2.cursor.sh/updates/download/golden/linux-x64-deb/cursor/3.12\">Download for Linux<div aria-hidden=\"true\" class=\"btn-icon\"><span class=\"icon-glyph-08\" aria-hidden=\"true\">\u2913</span></div></a></div><div class=\"fl\u2026",
+    "footerHtml": "<footer id=\"site-footer\" class=\"pt-v3 pb-v3 md:pb-g3 px-g2 bg-theme-card-hex relative\"><div class=\"mb-v4.5 container\"><nav><div class=\"gap-x-g1 gap-y-v2 grid grid-cols-2 md:grid-cols-5\"><div><h3 class=\"type-base md:type-sm text-theme-text-sec pb-v2.5/12\">Product</h3><ul class=\"space-y-0\"><li><a class=\"type-base md:type-sm py-v2.5/12 footer-link inline-block hover:text-theme-text group\" href=\"/en-US/product\">Agents</a></li><li><a class=\"type-base md:type-sm py-v2.5/12 footer-link inline-block hov\u2026"
+  },
+  "status": 200,
+  "final_url": "https://cursor.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 13,
+    "section_count": 14,
+    "nav_count": 3,
+    "button_count": 84,
+    "img_count": 32,
+    "footer_count": 1
+  }
+}

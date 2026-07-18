@@ -1,0 +1,2646 @@
+{
+  "name": "intercom",
+  "url": "https://www.intercom.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/intercom-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/intercom-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/intercom-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/intercom-full.png",
+  "design": {
+    "url": "https://www.intercom.com/",
+    "title": "Intercom | The only helpdesk designed for the AI Agent era",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 15007
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": "shared-header",
+        "classes": [
+          "shared-header",
+          "text-nav-content-primary",
+          "bg-nav-background",
+          "z-1000",
+          "border-nav-border/30",
+          "fixed",
+          "left-0",
+          "top-0"
+        ],
+        "text": "Introducing Intercom 2 \u2013 Discover over 60 product updates. Learn more Product Customers Resources Pricing Log in Contact sales View demo Start free trial Fin AI Agent",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 108
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none oklab(0 0 0 / 0.15)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Introducing Intercom 2 \u2013 Discover over 60 product updates.\nLearn more",
+        "Fin",
+        "Log in",
+        "Contact sales",
+        "View demo",
+        "Start free trial",
+        "Customers",
+        "Pricing",
+        "Log in",
+        "Contact sales",
+        "View demo",
+        "Start free trial",
+        "Fin AI Agent"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "z-1",
+          "relative",
+          "w-full",
+          "overflow-hidden",
+          "flex",
+          "flex-col",
+          "gap-0",
+          "text-body-sm"
+        ],
+        "text": "HELPDESK FEATURES Intercom 2 Inbox Copilot Tickets Omnichannel Help Center Apps & Integrations Reporting Knowledge Hub Outbound FIN FEATURES Fin overview Capabilities AI Engine PRI",
+        "top": 14493,
+        "left": 0,
+        "width": 1440,
+        "height": 494
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "0px",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [],
+        "text": "Introducing Intercom 2 \u2013 Discover over 60 product updates. Learn more Product Customers Resources Pricing Log in Contact sales View demo Start free trial Fin AI Agent The only help",
+        "top": 112,
+        "left": 0,
+        "width": 1440,
+        "height": 14281
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "text-off-black",
+          "selection:bg-off-black",
+          "bg-white",
+          "selection:text-white"
+        ],
+        "top": 112,
+        "height": 14281,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "The only helpdesk designed\nfor the AI Agent era",
+        "headingTag": "h1",
+        "childCount": 9
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "mt-16.5",
+          "container",
+          "relative",
+          "mx-auto",
+          "pt-8",
+          "md:pt-12"
+        ],
+        "top": 112,
+        "height": 1267,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The only helpdesk designed\nfor the AI Agent era",
+        "headingTag": "h1",
+        "childCount": 4
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "container",
+          "relative",
+          "mx-auto",
+          "py-6",
+          "md:py-12",
+          "lg:py-16"
+        ],
+        "top": 1379,
+        "height": 516,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "bg-off-white",
+          "container",
+          "relative",
+          "mx-auto",
+          "py-20",
+          "md:py-28"
+        ],
+        "top": 1895,
+        "height": 4099,
+        "width": 1440,
+        "backgroundColor": "rgb(250, 249, 246)",
+        "backgroundImage": null,
+        "heading": "A complete solution for AI and human agents",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "container",
+          "relative",
+          "mx-auto",
+          "bg-white",
+          "py-20",
+          "md:py-28"
+        ],
+        "top": 5994,
+        "height": 5262,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "A fully-featured\nAI-powered helpdesk",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "bg-off-white",
+          "container",
+          "relative",
+          "mx-auto",
+          "py-20",
+          "md:py-28"
+        ],
+        "top": 11256,
+        "height": 1168,
+        "width": 1440,
+        "backgroundColor": "rgb(250, 249, 246)",
+        "backgroundImage": null,
+        "heading": "A true partner with\ndeep domain expertise",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "bg-chalk",
+          "container",
+          "relative",
+          "mx-auto",
+          "py-10",
+          "md:py-16"
+        ],
+        "top": 12424,
+        "height": 560,
+        "width": 1440,
+        "backgroundColor": "rgb(241, 238, 233)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "bg-off-white",
+          "container",
+          "relative",
+          "mx-auto",
+          "overflow-hidden",
+          "py-12"
+        ],
+        "top": 12984,
+        "height": 657,
+        "width": 1440,
+        "backgroundColor": "rgb(250, 249, 246)",
+        "backgroundImage": null,
+        "heading": "Transparent pricing",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "my-5",
+          "lg:my-20"
+        ],
+        "top": 13721,
+        "height": 672,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Perfect customer experiences, powered by Intercom",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "xl:py-54",
+          "container",
+          "relative",
+          "mx-auto",
+          "overflow-hidden",
+          "bg-white"
+        ],
+        "top": 13721,
+        "height": 672,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Perfect customer experiences, powered by Intercom",
+        "headingTag": "h2",
+        "childCount": 3
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The only helpdesk designed\nfor the AI Agent era",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "400",
+          "lineHeight": "80px",
+          "letterSpacing": "-2.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "text-heading-2"
+          ],
+          "text": "The only helpdesk designed for the AI Agent era",
+          "top": 160,
+          "left": 16,
+          "width": 933,
+          "height": 160
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "A complete solution for AI and human agents",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "400",
+          "lineHeight": "54px",
+          "letterSpacing": "-1.6px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-heading-3"
+          ],
+          "text": "A complete solution for AI and human agents",
+          "top": 2007,
+          "left": 135,
+          "width": 577,
+          "height": 108
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI-powered agent workspace",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5"
+          ],
+          "text": "AI-powered agent workspace",
+          "top": 2441,
+          "left": 135,
+          "width": 420,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "A seamless experience for customers and agents",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "A seamless experience for customers and agents",
+          "top": 3794,
+          "left": 135,
+          "width": 512,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI-powered Insights across every interaction",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "AI-powered Insights across every interaction",
+          "top": 3794,
+          "left": 728,
+          "width": 512,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "A self-improving system",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "A self-improving system",
+          "top": 4574,
+          "left": 135,
+          "width": 512,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "A world-class AI Agent",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-4",
+            "text-balance"
+          ],
+          "text": "A world-class AI Agent",
+          "top": 4867,
+          "left": 255,
+          "width": 345,
+          "height": 80
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "A fully-featured\nAI-powered helpdesk",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "400",
+          "lineHeight": "54px",
+          "letterSpacing": "-1.6px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-heading-3"
+          ],
+          "text": "A fully-featured AI-powered helpdesk",
+          "top": 6106,
+          "left": 135,
+          "width": 577,
+          "height": 108
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Resolve queries faster",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-4",
+            "mb-6",
+            "md:mb-8"
+          ],
+          "text": "Resolve queries faster",
+          "top": 6531,
+          "left": 135,
+          "width": 1171,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Copilot+-Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Copilot+-Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves m",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI-enhanced ticketing+-Convert any conversation into a ticket with one click, automatically categorized, prioritized, and routed to the righ",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "AI-enhanced ticketing+-Convert any conversation into a ticket with one click, automatically categorized, prioritized, and routed to the right team, so every issue reaches the right",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "No code automations+-Build powerful automations to route conversations, manage SLAs, and configure escalation triggers, without any engineer",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "No code automations+-Build powerful automations to route conversations, manage SLAs, and configure escalation triggers, without any engineering support.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Deliver tailored experiences\nacross every channel",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-4"
+          ],
+          "text": "Deliver tailored experiences across every channel",
+          "top": 7398,
+          "left": 135,
+          "width": 1171,
+          "height": 80
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Engage customers\nat the right moment",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-4",
+            "mb-6",
+            "md:mb-8"
+          ],
+          "text": "Engage customers at the right moment",
+          "top": 8840,
+          "left": 135,
+          "width": 1171,
+          "height": 80
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Onboarding tools+-Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get ",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Onboarding tools+-Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get more value from your product, all withou",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Outbound notifications+-Keep customers informed about new features, known issues, and policy changes with in-product messages, mobile push n",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Outbound notifications+-Keep customers informed about new features, known issues, and policy changes with in-product messages, mobile push notifications, and banners.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Targeted messaging sequences+-Build omnichannel message journeys with a no-code visual builder, targeting customers precisely based on live ",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Targeted messaging sequences+-Build omnichannel message journeys with a no-code visual builder, targeting customers precisely based on live behavioral data, product usage, and cust",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Monitor and improve\nevery interaction",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "-1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-4",
+            "mb-6",
+            "md:mb-8"
+          ],
+          "text": "Monitor and improve every interaction",
+          "top": 9714,
+          "left": 135,
+          "width": 1171,
+          "height": 80
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Insights+-The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are ",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Insights+-The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are asking, how they feel, and what's changi",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Always-on QA+-Monitor every AI and human conversation in real time, with AI-powered scoring against your custom standards and instant alerts",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Always-on QA+-Monitor every AI and human conversation in real time, with AI-powered scoring against your custom standards and instant alerts the moment quality drops.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Reporting+-Access pre-built reports covering every support use case, and a fully customizable report builder with advanced filters and chart",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "group"
+          ],
+          "text": "Reporting+-Access pre-built reports covering every support use case, and a fully customizable report builder with advanced filters and chart visualisations.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "A true partner with\ndeep domain expertise",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "400",
+          "lineHeight": "54px",
+          "letterSpacing": "-1.6px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-heading-3"
+          ],
+          "text": "A true partner with deep domain expertise",
+          "top": 11368,
+          "left": 135,
+          "width": 815,
+          "height": 108
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "The company you can trust",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "The company you can trust",
+          "top": 12181,
+          "left": 135,
+          "width": 348,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Expert support, at every stage",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "Expert support, at every stage",
+          "top": 12181,
+          "left": 530,
+          "width": 348,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "The AI Agent Blueprint",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "512px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5",
+            "w-11/12",
+            "max-w-lg"
+          ],
+          "text": "The AI Agent Blueprint",
+          "top": 12181,
+          "left": 926,
+          "width": 348,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Transparent pricing",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "400",
+          "lineHeight": "54px",
+          "letterSpacing": "-1.6px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 48px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-heading-3",
+            "mb-6",
+            "md:mb-12"
+          ],
+          "text": "Transparent pricing",
+          "top": 13064,
+          "left": 16,
+          "width": 1408,
+          "height": 54
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Intercom with Fin",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 20px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-heading-5"
+          ],
+          "text": "Intercom with Fin",
+          "top": 13230,
+          "left": 633,
+          "width": 175,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Perfect customer experiences, powered by Intercom",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "400",
+          "lineHeight": "80px",
+          "letterSpacing": "-2.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(17, 17, 17)",
+          "padding": "0px",
+          "margin": "0px 0px 40px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-heading-2",
+            "mb-10",
+            "text-balance"
+          ],
+          "text": "Perfect customer experiences, powered by Intercom",
+          "top": 13937,
+          "left": 187,
+          "width": 1065,
+          "height": 160
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Introducing Intercom 2 \u2013 Discover over 60 product updates.\nLearn more",
+        "href": "/intercom2",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "8px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "w-full",
+            "py-2"
+          ],
+          "text": "Introducing Intercom 2 \u2013 Discover over 60 product updates. Learn more",
+          "top": 0,
+          "left": 0,
+          "width": 1400,
+          "height": 34
+        }
+      },
+      {
+        "text": "Product",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "8px 4px 8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-1",
+            "whitespace-nowrap",
+            "rounded-md",
+            "py-2",
+            "pl-3",
+            "pr-1"
+          ],
+          "text": "Product",
+          "top": 55,
+          "left": 54,
+          "width": 96,
+          "height": 40
+        }
+      },
+      {
+        "text": "Customers",
+        "href": "/customers",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hover:bg-nav-hover",
+            "flex",
+            "h-10",
+            "items-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "px-3",
+            "focus-visible:outline-2"
+          ],
+          "text": "Customers",
+          "top": 55,
+          "left": 150,
+          "width": 101,
+          "height": 40
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "8px 4px 8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "flex",
+            "items-center",
+            "gap-1",
+            "whitespace-nowrap",
+            "rounded-md",
+            "py-2",
+            "pl-3",
+            "pr-1"
+          ],
+          "text": "Resources",
+          "top": 55,
+          "left": 252,
+          "width": 114,
+          "height": 40
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hover:bg-nav-hover",
+            "flex",
+            "h-10",
+            "items-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "px-3",
+            "focus-visible:outline-2"
+          ],
+          "text": "Pricing",
+          "top": 55,
+          "left": 366,
+          "width": 73,
+          "height": 40
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "https://app.intercom.com/admins/sign_in",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hover:bg-nav-hover",
+            "flex",
+            "h-10",
+            "items-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "px-3"
+          ],
+          "text": "Log in",
+          "top": 55,
+          "left": 848,
+          "width": 66,
+          "height": 40
+        }
+      },
+      {
+        "text": "Contact sales",
+        "href": "/contact-sales",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hover:bg-nav-hover",
+            "flex",
+            "h-10",
+            "items-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "px-3",
+            "focus-visible:outline-2"
+          ],
+          "text": "Contact sales",
+          "top": 55,
+          "left": 915,
+          "width": 119,
+          "height": 40
+        }
+      },
+      {
+        "text": "View demo",
+        "href": "/view-demos",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "hover:bg-nav-hover",
+            "flex",
+            "h-10",
+            "items-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "px-3",
+            "focus-visible:outline-2"
+          ],
+          "text": "View demo",
+          "top": 55,
+          "left": 1034,
+          "width": 103,
+          "height": 40
+        }
+      },
+      {
+        "text": "Start free trial",
+        "href": "https://app.intercom.com/admins/sign_up?solution_id=29",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(0, 0, 0)",
+          "padding": "12px 16px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "duration-400",
+            "ease-out-quart",
+            "relative",
+            "inline-flex",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Start free trial",
+          "top": 54,
+          "left": 1144,
+          "width": 123,
+          "height": 42
+        }
+      },
+      {
+        "text": "Fin AI Agent",
+        "href": "https://fin.ai",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(0, 0, 0)",
+          "padding": "12px 16px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "duration-400",
+            "ease-out-quart",
+            "relative",
+            "cursor-pointer",
+            "justify-center",
+            "whitespace-nowrap",
+            "rounded-md",
+            "text-center"
+          ],
+          "text": "Fin AI Agent",
+          "top": 54,
+          "left": 1289,
+          "width": 139,
+          "height": 42
+        }
+      },
+      {
+        "text": "Start free trial",
+        "href": "https://app.intercom.com/admins/sign_up?solution_id=29",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(17, 17, 17)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px 14px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "font-inherit",
+            "h-(--button-height)",
+            "rounded-(--button-radius)",
+            "px-(--button-padding-x)",
+            "m-0",
+            "inline-flex",
+            "select-none",
+            "items-center"
+          ],
+          "text": "Start free trial",
+          "top": 304,
+          "left": 1084,
+          "width": 124,
+          "height": 40
+        }
+      },
+      {
+        "text": "View demo",
+        "href": "/view-demos",
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(17, 17, 17)",
+          "padding": "0px 14px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "font-inherit",
+            "h-(--button-height)",
+            "rounded-(--button-radius)",
+            "px-(--button-padding-x)",
+            "m-0",
+            "inline-flex",
+            "select-none",
+            "items-center"
+          ],
+          "text": "View demo",
+          "top": 304,
+          "left": 1216,
+          "width": 110,
+          "height": 40
+        }
+      },
+      {
+        "text": "Intercom, the fully-featured helpdesk",
+        "href": null,
+        "style": {
+          "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.5)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.177637 0.00000810623 0.00000356138 / 0.05)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "overflow-hidden",
+            "focus-visible:outline-2",
+            "focus-visible:outline-offset-2",
+            "border-current/10",
+            "data-selected:z-1",
+            "data-selected:text-current",
+            "data-selected:bg-off-white"
+          ],
+          "text": "Intercom, the fully-featured helpdesk",
+          "top": 711,
+          "left": 133,
+          "width": 352,
+          "height": 58
+        }
+      },
+      {
+        "text": "Integrated with Fin AI Agent",
+        "href": null,
+        "style": {
+          "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.5)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.177637 0.00000810623 0.00000356138 / 0.05)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "overflow-hidden",
+            "focus-visible:outline-2",
+            "focus-visible:outline-offset-2",
+            "border-current/10",
+            "data-selected:z-1",
+            "data-selected:text-current",
+            "data-selected:bg-off-white"
+          ],
+          "text": "Integrated with Fin AI Agent",
+          "top": 711,
+          "left": 485,
+          "width": 274,
+          "height": 58
+        }
+      },
+      {
+        "text": "AI-powered Insights",
+        "href": null,
+        "style": {
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgb(250, 249, 246)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.177637 0.00000810623 0.00000356138 / 0.1)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "overflow-hidden",
+            "focus-visible:outline-2",
+            "focus-visible:outline-offset-2",
+            "border-current/10",
+            "data-selected:z-1",
+            "data-selected:text-current",
+            "data-selected:bg-off-white"
+          ],
+          "text": "AI-powered Insights",
+          "top": 711,
+          "left": 759,
+          "width": 274,
+          "height": 58
+        }
+      },
+      {
+        "text": "Self-improving system",
+        "href": null,
+        "style": {
+          "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.5)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.177637 0.00000810623 0.00000356138 / 0.05)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "relative",
+            "overflow-hidden",
+            "focus-visible:outline-2",
+            "focus-visible:outline-offset-2",
+            "border-current/10",
+            "data-selected:z-1",
+            "data-selected:text-current",
+            "data-selected:bg-off-white"
+          ],
+          "text": "Self-improving system",
+          "top": 711,
+          "left": 1033,
+          "width": 274,
+          "height": 58
+        }
+      },
+      {
+        "text": "Close",
+        "href": null,
+        "style": {
+          "color": "rgb(85, 85, 85)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")",
+          "fontFamily": "LLMedium, sans-serif",
+          "fontSize": "14.4px",
+          "fontWeight": "400",
+          "lineHeight": "38px",
+          "letterSpacing": "0.144px",
+          "borderRadius": "2px",
+          "boxShadow": "none",
+          "border": "0px none rgb(85, 85, 85)",
+          "padding": "0px",
+          "margin": "-10px -10px 0px 0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "onetrust-close-btn-handler",
+            "onetrust-close-btn-ui",
+            "banner-close-button",
+            "ot-close-icon"
+          ],
+          "text": "",
+          "top": 720,
+          "left": 662,
+          "width": 44,
+          "height": 44
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_01.webp&w=256&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Kite flying over the ocean with a boat on the water",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[91px]"
+          ],
+          "text": "",
+          "top": 460,
+          "left": 0,
+          "width": 98,
+          "height": 122
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_02.webp&w=384&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Silhouettes of two people cast in shadow on a gridded surface",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[127px]"
+          ],
+          "text": "",
+          "top": 429,
+          "left": 217,
+          "width": 134,
+          "height": 185
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_03.webp&w=640&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Sunset sky with birds in flight",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[166px]"
+          ],
+          "text": "",
+          "top": 460,
+          "left": 471,
+          "width": 184,
+          "height": 122
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_04.webp&w=384&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Close-up portrait of a person's eye and face",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[127px]"
+          ],
+          "text": "",
+          "top": 428,
+          "left": 775,
+          "width": 143,
+          "height": 187
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_05.webp&w=640&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Black ink illustration of a flower",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[127px]"
+          ],
+          "text": "",
+          "top": 392,
+          "left": 1038,
+          "width": 185,
+          "height": 259
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_06.webp&w=256&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Colorful balloons bunched together",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "min-w-[91px]"
+          ],
+          "text": "",
+          "top": 460,
+          "left": 1342,
+          "width": 98,
+          "height": 122
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-1%2FIntercom_Hero_Tab1_Helpdesk_bg.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Decorative background image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-cover"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 1308,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-1%2FIntercom_Hero_Tab1_Helpdesk_product_mob.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 769,
+          "left": 1308,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-2%2FIntercom_Hero_Tab2_Complex_bg.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Decorative background image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-cover"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 134,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-2%2FIntercom_Hero_Tab2_Complex_product_mob.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 769,
+          "left": 134,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_bg.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Decorative background image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-cover"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 133,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_product_mob.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_product.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product UI",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 133,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_bg.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Decorative background image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-cover"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 4828,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_product_mob.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_product.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Product UI",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "object-contain"
+          ],
+          "text": "",
+          "top": 769,
+          "left": 4828,
+          "width": 1173,
+          "height": 611
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Complete_illo.webp&w=640&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Copilot product UI",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "ml-auto",
+            "hidden",
+            "lg:col-span-3",
+            "lg:col-start-8",
+            "lg:block",
+            "xl:col-span-2",
+            "xl:col-start-9"
+          ],
+          "text": "",
+          "top": 2007,
+          "left": 1084,
+          "width": 221,
+          "height": 215
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_01-switching_sm.webp&w=3840&q=75&dpl=dpl_2xPoAPrASMf99swo579epp2Bv3yY",
+        "alt": "Clouds",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full"
+          ],
+          "text": "",
+          "top": 2925,
+          "left": 135,
+          "width": 221,
+          "height": 221
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(17, 17, 17)",
+        "count": 948
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 357
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)",
+        "count": 188
+      },
+      {
+        "value": "rgb(211, 206, 198)",
+        "count": 162
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 68
+      },
+      {
+        "value": "rgb(0, 7, 203)",
+        "count": 50
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.2)",
+        "count": 42
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.7)",
+        "count": 36
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.8)",
+        "count": 34
+      },
+      {
+        "value": "oklab(0 0 0 / 0.7)",
+        "count": 32
+      },
+      {
+        "value": "oklab(0 0 0 / 0.6)",
+        "count": 26
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.5)",
+        "count": 21
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.6)",
+        "count": 18
+      },
+      {
+        "value": "rgb(241, 238, 233)",
+        "count": 10
+      },
+      {
+        "value": "rgb(222, 219, 214)",
+        "count": 9
+      },
+      {
+        "value": "rgb(250, 249, 246)",
+        "count": 6
+      },
+      {
+        "value": "rgb(0, 12, 225)",
+        "count": 6
+      },
+      {
+        "value": "oklab(0.177637 0.00000810623 0.00000356138 / 0.3)",
+        "count": 4
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Saans",
+        "count": 819
+      },
+      {
+        "value": "SaansMono",
+        "count": 130
+      },
+      {
+        "value": "Serrif",
+        "count": 34
+      },
+      {
+        "value": "LLMedium",
+        "count": 11
+      },
+      {
+        "value": "system-ui",
+        "count": 6
+      },
+      {
+        "value": "ui-sans-serif",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 10
+      },
+      {
+        "value": "6px",
+        "count": 9
+      },
+      {
+        "value": "50%",
+        "count": 2
+      },
+      {
+        "value": "9px",
+        "count": 1
+      },
+      {
+        "value": "8px",
+        "count": 1
+      },
+      {
+        "value": "2px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px"
+    ],
+    "cssVars": {
+      "--color-cream": "#f4f3ec",
+      "--color-cream-light": "#fbfaf7",
+      "--color-black": "#17100e",
+      "--color-focus-outline": "#000ce1",
+      "--color-white": "#fff",
+      "--color-pink": "#ff00af",
+      "--color-pink-light": "#ff7ad5",
+      "--color-pink-lightest": "#ffcbef",
+      "--color-orange": "#ff5600",
+      "--color-orange-light": "#ffa77a",
+      "--color-orange-lightest": "#fdc",
+      "--color-yellow": "#f6f431",
+      "--color-yellow-light": "#faf994",
+      "--color-yellow-lightest": "#fdfdd6",
+      "--color-blue": "#000ce1",
+      "--color-blue-light": "#7a7eef",
+      "--color-blue-lightest": "#cccef8",
+      "--color-navy": "#020917",
+      "--color-teal": "#00edc8",
+      "--color-teal-light": "#79f6e2",
+      "--color-teal-lightest": "#ccfaf4",
+      "--color-green": "#00da00",
+      "--color-green-light": "#7aec7a",
+      "--color-green-lightest": "#ccf8cb",
+      "--color-success": "#1bb157",
+      "--color-success-dark": "#128a40",
+      "--color-success-light": "#d7efdc",
+      "--color-error": "#fd3a57",
+      "--color-error-dark": "#b41d34",
+      "--color-error-light": "#fed9db",
+      "--color-warning": "#fbc916",
+      "--color-warning-dark": "#6f5502",
+      "--color-warning-light": "#feedaf",
+      "--body-bg": "var(--color-cream)",
+      "--bento-bg": "var(--color-cream)",
+      "--color-dark": "#080e1c",
+      "--color-nav-dark": "#17100ecc",
+      "--color-nav-light": "#fffc",
+      "--color-nav-light-secondary": "#17100e1a",
+      "--color-border-nav-dark": "#fff3",
+      "--color-border-nav-light": "#17100e1a",
+      "--color-nav-tray-light": "#f3f3f3",
+      "--shadow-nav-light-menu": "0px 4px 37px 0px #00000040",
+      "--ease-in-quad": "cubic-bezier(.55, .085, .68, .53)",
+      "--ease-out-quad": "cubic-bezier(.25, .46, .45, .94)",
+      "--ease-in-out-quad": "cubic-bezier(.455, .03, .515, .955)",
+      "--ease-in-quart": "cubic-bezier(.895, .03, .685, .22)",
+      "--ease-out-quart": "cubic-bezier(.165, .84, .44, 1)",
+      "--ease-in-out-quart": "cubic-bezier(.77, 0, .175, 1)",
+      "--ease-in-quint": "cubic-bezier(.755, .05, .855, .06)",
+      "--ease-out-quint": "cubic-bezier(.23, 1, .32, 1)",
+      "--ease-in-out-quint": "cubic-bezier(.86, 0, .07, 1)",
+      "--ease-in-expo": "cubic-bezier(.95, .05, .795, .035)",
+      "--ease-out-expo": "cubic-bezier(.19, 1, .22, 1)",
+      "--ease-in-out-expo": "cubic-bezier(1, 0, 0, 1)",
+      "--ease-in-circ": "cubic-bezier(.6, .04, .98, .335)",
+      "--ease-out-circ": "cubic-bezier(.075, .82, .165, 1)",
+      "--ease-in-out-circ": "cubic-bezier(.785, .135, .15, .86)",
+      "--ease-in-cubic": "cubic-bezier(.55, .055, .675, .19)",
+      "--ease-out-cubic": "cubic-bezier(.215, .61, .355, 1)",
+      "--ease-in-out-cubic": "cubic-bezier(.645, .045, .355, 1)",
+      "--font-sans": "var(--font-MediumLL), ui-sans-serif, system-ui, sans-serif",
+      "--font-serif": "var(--font-IvoryLL), ui-serif, Georgia, Cambria",
+      "--font-mono": "var(--font-DmMono), ui-monospace, monospace",
+      "--color-off-black": "#111",
+      "--color-off-white": "#faf9f6",
+      "--color-chalk": "#f1eee9",
+      "--color-canvas": "#e7e3db",
+      "--color-linen": "#dedbd6",
+      "--color-clay": "#d3cec6",
+      "--color-fin": "#ff5600",
+      "--color-helpdesk": "#0007cb",
+      "--color-operator": "#441572",
+      "--color-sales": "#055895",
+      "--color-sales-accent": "#a3b3ff",
+      "--color-ecom": "#2f6a5e",
+      "--color-ecom-accent": "#e2f947",
+      "--color-voice-accent": "#b9fe6f",
+      "--color-voice-accent-green": "#37b54a",
+      "--color-blueprint-pale-blue": "#f3f9ff"
+    },
+    "metaTheme": "#050505"
+  },
+  "snippets": {
+    "headerHtml": "<header id=\"shared-header\" class=\"shared-header text-nav-content-primary bg-nav-background z-1000 border-nav-border/30 fixed left-0 top-0 w-full border-b min-[1140px]:border-none [body:has([data-hide-header])_&amp;]:hidden!\"><div class=\"top-banner flex items-center justify-center gap-2 mb-2 bg-nav-background-highlight text-nav-content-primary text-center text-sm\"><a href=\"/intercom2\" class=\"w-full py-2\"><div class=\"relative flex max-w-[92svw] items-center justify-start overflow-hidden md:hidden\"\u2026",
+    "heroHtml": "<div class=\"col-span-12 md:col-span-10 lg:col-span-8\"><h1 class=\"text-heading-2\">The only helpdesk designed<br class=\"hidden lg:block\"> for the AI Agent era</h1></div>",
+    "footerHtml": "<footer class=\"z-1 relative w-full overflow-hidden flex flex-col gap-0 text-body-sm **:data-[slot=label]:text-label-lg-mobile! **:data-[slot=mobile-tab]:text-label-lg-mobile! **:data-[slot=mobile-tab]:font-mono **:data-[slot=label]:text-current/60 **:data-[slot=label]:font-mono **:[a]:text-body-mobile! **:[button]:text-body-mobile!\"><div class=\"mx-auto w-full max-w-[1600px] px-3 hidden grid-cols-2 gap-6 md:grid md:grid-cols-5 md:px-6\"><div><div class=\"flex flex-col gap-3 pb-8\"><span data-slot=\"l\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.intercom.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 5,
+    "section_count": 9,
+    "nav_count": 2,
+    "button_count": 39,
+    "img_count": 92,
+    "footer_count": 1
+  }
+}

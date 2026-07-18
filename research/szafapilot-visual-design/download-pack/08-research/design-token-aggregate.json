@@ -1,0 +1,3876 @@
+{
+  "theme_distribution": {
+    "dark": 18,
+    "light": 9,
+    "unknown": 3
+  },
+  "top_fonts": [
+    [
+      "Inter",
+      6
+    ],
+    [
+      "Inter Variable",
+      2
+    ],
+    [
+      "SF Pro",
+      2
+    ],
+    [
+      "sans-serif",
+      2
+    ],
+    [
+      "system-ui",
+      2
+    ],
+    [
+      "sohne-var",
+      1
+    ],
+    [
+      "Berkeley Mono",
+      1
+    ],
+    [
+      "NotionInter",
+      1
+    ],
+    [
+      "Lyon Text",
+      1
+    ],
+    [
+      "GeistSans",
+      1
+    ],
+    [
+      "Geist Mono",
+      1
+    ],
+    [
+      "inter",
+      1
+    ],
+    [
+      "JetBrains Mono",
+      1
+    ],
+    [
+      "interDisplay",
+      1
+    ],
+    [
+      "arcadia",
+      1
+    ],
+    [
+      "arcadiaDisplay",
+      1
+    ],
+    [
+      "lausanne",
+      1
+    ],
+    [
+      "TWK Lausanne",
+      1
+    ],
+    [
+      "Saans",
+      1
+    ],
+    [
+      "SaansMono",
+      1
+    ],
+    [
+      "Serrif",
+      1
+    ],
+    [
+      "Source Code Pro",
+      1
+    ],
+    [
+      "Manrope",
+      1
+    ],
+    [
+      "WF Visual Sans Variable",
+      1
+    ],
+    [
+      "WFVisualSans-Mono",
+      1
+    ]
+  ],
+  "categories": {
+    "premium-saas": [
+      "stripe",
+      "linear",
+      "notion",
+      "vercel",
+      "attio",
+      "mercury",
+      "ramp",
+      "intercom",
+      "supabase",
+      "framer",
+      "webflow",
+      "relume"
+    ],
+    "ai-native": [
+      "perplexity",
+      "clay",
+      "cursor",
+      "lovable",
+      "granola",
+      "raycast",
+      "loom"
+    ],
+    "automation": [
+      "zapier",
+      "make",
+      "retool",
+      "airtable"
+    ],
+    "ecommerce": [
+      "shopify",
+      "canva"
+    ],
+    "marketplace": [
+      "partiful"
+    ],
+    "chrome-extension": [
+      "arc",
+      "raycast-store"
+    ],
+    "dashboard": [
+      "datadog",
+      "figma"
+    ]
+  },
+  "sites": [
+    {
+      "name": "stripe",
+      "url": "https://stripe.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "sohne-var"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(83, 58, 253)",
+        "rgb(6, 27, 49)",
+        "rgb(80, 97, 122)",
+        "rgb(100, 116, 141)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 238)",
+        "rgb(255, 97, 24)"
+      ],
+      "radii": [
+        "6px",
+        "4px",
+        "1px",
+        "5px",
+        "8px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.1) 0px 30px 60px -50px, rgba(50, 50, 93, 0.25) 0px 30px 60px -10px",
+        "rgba(23, 23, 23, 0.08) 0px 15px 35px 0px"
+      ],
+      "h1": {
+        "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models\u2014from your firs",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "fontFamily": "sohne-var, \"SF Pro Display\", sans-serif",
+        "letterSpacing": "-0.96px",
+        "lineHeight": "55.2px",
+        "color": "rgb(129, 184, 26)"
+      },
+      "button_samples": [
+        {
+          "text": "Stripe homepage",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(83, 58, 253)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(6, 27, 49)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(6, 27, 49)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        },
+        {
+          "text": "Developers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(6, 27, 49)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(6, 27, 49)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(6, 27, 49)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        }
+      ],
+      "section_count": 16,
+      "section_heights": [
+        0,
+        0,
+        685,
+        2196,
+        560,
+        977,
+        4610,
+        1388
+      ],
+      "nav_links": [
+        "Pricing",
+        "Sign in",
+        "Start now",
+        "Contact sales",
+        "Sign in\nSign in",
+        "Contact sales",
+        "Stripe for enterprises",
+        "Stripe for startups",
+        "Stripe for platforms"
+      ],
+      "scroll_height": 14620,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "sohne-var, \"SF Pro Display\", sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 2,
+        "h2_count": 5,
+        "section_count": 15,
+        "nav_count": 1,
+        "button_count": 30,
+        "img_count": 46,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/stripe-viewport.jpg",
+      "full_screenshot": "screenshots/stripe-full.jpg"
+    },
+    {
+      "name": "linear",
+      "url": "https://linear.app",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "Inter Variable",
+        "Berkeley Mono"
+      ],
+      "top_colors": [
+        "rgb(247, 248, 248)",
+        "rgb(98, 102, 109)",
+        "rgb(208, 214, 224)",
+        "rgb(226, 228, 231)",
+        "rgb(255, 255, 255)",
+        "rgb(138, 143, 152)",
+        "rgba(255, 255, 255, 0.05)",
+        "rgb(247, 156, 224)"
+      ],
+      "radii": [
+        "2px",
+        "6px",
+        "50%",
+        "4px",
+        "9999px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 8px 2px 0px, rgba(0, 0, 0, 0.01) 0px 5px 2px 0px, rgba(0, 0, 0, 0.04) 0px 3px 2px 0px, rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1px 0px",
+        "rgba(0, 0, 0, 0.1) 0px 0px 0px 2px"
+      ],
+      "h1": {
+        "text": "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+        "fontSize": "64px",
+        "fontWeight": "510",
+        "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "letterSpacing": "-1.408px",
+        "lineHeight": "64px",
+        "color": "rgb(247, 248, 248)"
+      },
+      "button_samples": [
+        {
+          "text": "Skip to content \u2192",
+          "bg": "rgb(94, 106, 210)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px 16px"
+        },
+        {
+          "text": "Navigate to home",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(247, 248, 248)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "0px 8px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(138, 143, 152)",
+          "radius": "9999px",
+          "fontSize": "13px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(138, 143, 152)",
+          "radius": "9999px",
+          "fontSize": "13px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Customers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(138, 143, 152)",
+          "radius": "9999px",
+          "fontSize": "13px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(138, 143, 152)",
+          "radius": "9999px",
+          "fontSize": "13px",
+          "padding": "0px 12px"
+        }
+      ],
+      "section_count": 11,
+      "section_heights": [
+        0,
+        0,
+        10332,
+        0,
+        1224,
+        1216,
+        1172,
+        1090
+      ],
+      "nav_links": [
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ],
+      "scroll_height": 10898,
+      "body_bg": "rgb(8, 9, 10)",
+      "body_font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "meta_theme": "#08090a",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 8,
+        "section_count": 9,
+        "nav_count": 2,
+        "button_count": 89,
+        "img_count": 32,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/linear-viewport.jpg",
+      "full_screenshot": "screenshots/linear-full.jpg"
+    },
+    {
+      "name": "notion",
+      "url": "https://www.notion.so",
+      "category": "premium-saas",
+      "theme": "light",
+      "fonts": [
+        "NotionInter",
+        "Lyon Text"
+      ],
+      "top_colors": [
+        "rgba(0, 0, 0, 0.898)",
+        "rgba(0, 0, 0, 0.95)",
+        "rgb(163, 158, 152)",
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0.54)",
+        "rgb(0, 0, 0)",
+        "rgba(255, 255, 255, 0)",
+        "rgb(49, 48, 46)"
+      ],
+      "radii": [
+        "8px",
+        "4px",
+        "12px",
+        "9999px",
+        "16px"
+      ],
+      "shadow_count": 3,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 1px 0px 0px",
+        "rgba(0, 0, 0, 0.01) 0px 0.175px 1.041px 0px, rgba(0, 0, 0, 0.02) 0px 0.8px 2.925px 0px, rgba(0, 0, 0, 0.027) 0px 2.025px 7.847px 0px, rgba(0, 0, 0, 0.04) 0px 4px 18px 0px"
+      ],
+      "h1": {
+        "text": "Where teams and agents \nShip\n together.",
+        "fontSize": "96px",
+        "fontWeight": "600",
+        "fontFamily": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "letterSpacing": "-4.6px",
+        "lineHeight": "100px",
+        "color": "rgba(0, 0, 0, 0.95)"
+      },
+      "button_samples": [
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.898)",
+          "radius": "4px",
+          "fontSize": "16px",
+          "padding": "5px 10px"
+        },
+        {
+          "text": "Capture",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.95)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Find",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.95)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Automate",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.95)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.898)",
+          "radius": "4px",
+          "fontSize": "16px",
+          "padding": "5px 10px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgba(0, 0, 0, 0.95)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "3px 16px 3px 8px"
+        }
+      ],
+      "section_count": 6,
+      "section_heights": [
+        1433,
+        1449,
+        188,
+        772,
+        580,
+        486
+      ],
+      "nav_links": [
+        "Developers",
+        "Enterprise"
+      ],
+      "scroll_height": 4662,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 6,
+        "section_count": 3,
+        "nav_count": 2,
+        "button_count": 8,
+        "img_count": 46,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/notion-viewport.jpg",
+      "full_screenshot": "screenshots/notion-full.jpg"
+    },
+    {
+      "name": "vercel",
+      "url": "https://vercel.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "GeistSans",
+        "Geist Mono"
+      ],
+      "top_colors": [
+        "rgb(31, 31, 31)",
+        "rgb(237, 237, 237)",
+        "rgb(161, 161, 161)",
+        "rgb(136, 136, 136)",
+        "rgb(10, 10, 10)",
+        "rgb(143, 143, 143)",
+        "lab(80.976 0 -0.0000119209)",
+        "rgb(135, 135, 135)"
+      ],
+      "radii": [
+        "6px",
+        "3.35544e+07px",
+        "2px",
+        "8px",
+        "100%"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(0, 0, 0) 0px 0px 0px 2px, rgb(82, 168, 255) 0px 0px 0px 4px",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.13) 0px 1px 0px 0px"
+      ],
+      "h1": {
+        "text": "Agentic Infrastructure",
+        "fontSize": "64px",
+        "fontWeight": "400",
+        "fontFamily": "GeistSans, \"GeistSans Fallback\"",
+        "letterSpacing": "-3.84px",
+        "lineHeight": "64px",
+        "color": "rgb(237, 237, 237)"
+      },
+      "button_samples": [
+        {
+          "text": "Skip to content",
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(82, 168, 255)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "0px 4px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 161, 161)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 237)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 237)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 237)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 237)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        }
+      ],
+      "section_count": 12,
+      "section_heights": [
+        0,
+        4659,
+        836,
+        2363,
+        112,
+        112,
+        112,
+        718
+      ],
+      "nav_links": [],
+      "scroll_height": 5333,
+      "body_bg": "rgb(0, 0, 0)",
+      "body_font": "GeistSans, \"GeistSans Fallback\"",
+      "meta_theme": "#000000",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 17,
+        "section_count": 10,
+        "nav_count": 3,
+        "button_count": 10,
+        "img_count": 19,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/vercel-viewport.jpg",
+      "full_screenshot": "screenshots/vercel-full.jpg"
+    },
+    {
+      "name": "attio",
+      "url": "https://attio.com",
+      "category": "premium-saas",
+      "theme": "unknown",
+      "fonts": [
+        "inter",
+        "JetBrains Mono",
+        "interDisplay"
+      ],
+      "top_colors": [
+        "lab(86.0989 -0.77799 -4.0961)",
+        "lab(10.7201 -0.0959039 -1.54182)",
+        "lab(99.9987 0.0337958 0.000309944)",
+        "lab(37.426 -1.09151 -9.33263)",
+        "rgba(0, 0, 0, 0.5)",
+        "rgb(36, 38, 41)",
+        "rgba(0, 0, 0, 0.63)",
+        "rgb(238, 239, 241)"
+      ],
+      "radii": [
+        "3.35544e+07px",
+        "8px",
+        "12px",
+        "6px",
+        "10px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "oklch(0 0 0 / 0.01) 0px 1px 2px 0px, oklch(0 0 0 / 0.02) 0px 2px 4px -1px, oklch(0 0 0 / 0.03) 0px 4px 8px -2px",
+        "rgba(11, 13, 24, 0.06) 0px 0px 0px 1px, rgba(11, 13, 24, 0.024) 0px 1px 2px 0px, rgba(11, 13, 24, 0.03) 0px 3px 6px 0px, rgba(11, 13, 24, 0.035) 0px 8px 14px 0px, rgba(11, 13, 24, 0.04) 0px 16px 28px 0px"
+      ],
+      "h1": {
+        "text": "Welcome to agentic revenue.",
+        "fontSize": "64px",
+        "fontWeight": "600",
+        "fontFamily": "interDisplay, \"interDisplay Fallback\"",
+        "letterSpacing": "-1.28px",
+        "lineHeight": "60.8px",
+        "color": "lab(10.7201 -0.0959039 -1.54182)"
+      },
+      "button_samples": [
+        {
+          "text": "Orchestrate revenue agents with the new Workflows",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(99.9987 0.0337958 0.000309944)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Attio homepage",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(10.7201 -0.0959039 -1.54182)",
+          "radius": "12px",
+          "fontSize": "16px",
+          "padding": "8px 4px"
+        },
+        {
+          "text": "Platform",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "radius": "10px",
+          "fontSize": "15px",
+          "padding": "0px 8px 0px 12px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "radius": "10px",
+          "fontSize": "15px",
+          "padding": "0px 8px 0px 12px"
+        },
+        {
+          "text": "Customers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "radius": "10px",
+          "fontSize": "15px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(20.5697 -0.638425 -4.44436)",
+          "radius": "10px",
+          "fontSize": "15px",
+          "padding": "0px 12px"
+        }
+      ],
+      "section_count": 16,
+      "section_heights": [
+        1207,
+        291,
+        6479,
+        1097,
+        4517,
+        2573,
+        668,
+        593
+      ],
+      "nav_links": [
+        "Orchestrate revenue agents with the new Workflows",
+        "Customers",
+        "Pricing",
+        "Ask AttioSearch and create with AI",
+        "AINative to your CRM",
+        "Data modelSync and enrich your data",
+        "Universal ContextThe AI context layer",
+        "WorkflowsOrchestrate any revenue motion",
+        "SequencesPersonalized outreach",
+        "Call IntelligenceRecord and analyze meetings",
+        "ReportingInsights in real time",
+        "Developer PlatformBuild with the Attio MCP, API, and SDK"
+      ],
+      "scroll_height": 17668,
+      "body_bg": "lab(99.9987 0.0337958 0.000309944)",
+      "body_font": "inter, \"inter Fallback\"",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 2,
+        "h2_count": 16,
+        "section_count": 13,
+        "nav_count": 4,
+        "button_count": 23,
+        "img_count": 105,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/attio-viewport.jpg",
+      "full_screenshot": "screenshots/attio-full.jpg"
+    },
+    {
+      "name": "mercury",
+      "url": "https://mercury.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "arcadia",
+        "arcadiaDisplay"
+      ],
+      "top_colors": [
+        "rgb(237, 237, 243)",
+        "rgb(0, 0, 0)",
+        "rgb(195, 195, 204)",
+        "rgb(255, 255, 255)",
+        "rgba(175, 178, 206, 0.36)",
+        "rgb(30, 30, 42)",
+        "rgb(23, 23, 33)",
+        "rgba(175, 178, 206, 0.2)"
+      ],
+      "radii": [
+        "4px",
+        "12px",
+        "8px",
+        "40px",
+        "32px"
+      ],
+      "shadow_count": 2,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 28, 35, 0.02) 0px 10px 16px 0px, rgba(28, 28, 35, 0.04) 0px 6px 10px 0px, rgba(28, 28, 35, 0.09) 0px 0px 3px 0px",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 3px 0px, rgba(0, 0, 0, 0.05) 0px 8px 12px 0px, rgba(0, 0, 0, 0.05) 0px 12px 20px 0px"
+      ],
+      "h1": {
+        "text": "Radically different banking",
+        "fontSize": "49.3472px",
+        "fontWeight": "480",
+        "fontFamily": "arcadiaDisplay, \"arcadiaDisplay Fallback\"",
+        "letterSpacing": "normal",
+        "lineHeight": "54.2819px",
+        "color": "rgb(237, 237, 243)"
+      },
+      "button_samples": [
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "4px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "40px",
+          "fontSize": "16px",
+          "padding": "0px 20px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "40px",
+          "fontSize": "16px",
+          "padding": "0px 20px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "40px",
+          "fontSize": "16px",
+          "padding": "0px 20px"
+        },
+        {
+          "text": "About",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "40px",
+          "fontSize": "16px",
+          "padding": "0px 20px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 237, 243)",
+          "radius": "40px",
+          "fontSize": "16px",
+          "padding": "0px 20px"
+        }
+      ],
+      "section_count": 15,
+      "section_heights": [
+        72,
+        2250,
+        972,
+        393,
+        668,
+        1130,
+        338,
+        732
+      ],
+      "nav_links": [
+        "Try the demo",
+        "Checking & Savings",
+        "Working Capital Loans",
+        "Venture Debt",
+        "Treasury by Mercury Advisory",
+        "Business Credit Cards",
+        "Expense Management",
+        "Payments",
+        "Invoicing",
+        "Accounting Automations",
+        "Command",
+        "Insights"
+      ],
+      "scroll_height": 12814,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "arcadia, \"arcadia Fallback\"",
+      "meta_theme": "#171721",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 9,
+        "section_count": 14,
+        "nav_count": 2,
+        "button_count": 37,
+        "img_count": 39,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/mercury-viewport.jpg",
+      "full_screenshot": "screenshots/mercury-full.jpg"
+    },
+    {
+      "name": "ramp",
+      "url": "https://ramp.com",
+      "category": "premium-saas",
+      "theme": "unknown",
+      "fonts": [
+        "SF Pro",
+        "lausanne",
+        "TWK Lausanne",
+        "Material Icons Outlined"
+      ],
+      "top_colors": [
+        "lab(2.83994 0.367254 0.969091)",
+        "lab(100 0 0)",
+        "lab(2.83994 0.367254 0.969091 / 0.6)",
+        "rgba(33, 33, 33, 0.1)",
+        "rgba(33, 33, 33, 0.05)",
+        "lab(95.604 0.426412 1.20401)",
+        "oklab(0.2145 0.00152552 0.000480294 / 0.05)",
+        "lab(92.1406 -20.4979 84.7726)"
+      ],
+      "radii": [
+        "12px",
+        "6px",
+        "4px",
+        "3.35544e+07px",
+        "10px"
+      ],
+      "shadow_count": 1,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.6) 0px 0px 2px 0px inset"
+      ],
+      "h1": {
+        "text": "Time is money. Save both.",
+        "fontSize": "64px",
+        "fontWeight": "400",
+        "fontFamily": "lausanne, \"lausanne Fallback\"",
+        "letterSpacing": "-0.01px",
+        "lineHeight": "64px",
+        "color": "lab(2.83994 0.367254 0.969091)"
+      },
+      "button_samples": [
+        {
+          "text": "___",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Partners",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Customers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        }
+      ],
+      "section_count": 9,
+      "section_heights": [
+        1013,
+        10471,
+        637,
+        1256,
+        2700,
+        2834,
+        179,
+        871
+      ],
+      "nav_links": [
+        "Learn more",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo"
+      ],
+      "scroll_height": 13048,
+      "body_bg": "lab(100 0 0)",
+      "body_font": "lausanne, \"lausanne Fallback\"",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 12,
+        "section_count": 8,
+        "nav_count": 1,
+        "button_count": 25,
+        "img_count": 62,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/ramp-viewport.jpg",
+      "full_screenshot": "screenshots/ramp-full.jpg"
+    },
+    {
+      "name": "intercom",
+      "url": "https://www.intercom.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "Saans",
+        "SaansMono",
+        "Serrif",
+        "LLMedium",
+        "system-ui"
+      ],
+      "top_colors": [
+        "rgb(17, 17, 17)",
+        "rgb(0, 0, 0)",
+        "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)",
+        "rgb(211, 206, 198)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 7, 203)",
+        "oklab(0.177637 0.00000810623 0.00000356138 / 0.2)",
+        "oklab(0.177637 0.00000810623 0.00000356138 / 0.7)"
+      ],
+      "radii": [
+        "4px",
+        "6px",
+        "50%",
+        "9px",
+        "8px"
+      ],
+      "shadow_count": 1,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px"
+      ],
+      "h1": {
+        "text": "The only helpdesk designed\nfor the AI Agent era",
+        "fontSize": "80px",
+        "fontWeight": "400",
+        "fontFamily": "Saans, \"Saans Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "letterSpacing": "-2.4px",
+        "lineHeight": "80px",
+        "color": "rgb(17, 17, 17)"
+      },
+      "button_samples": [
+        {
+          "text": "Introducing Intercom 2 \u2013 Discover over 60 product updates.\nLearn more",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "8px 0px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "8px 4px 8px 12px"
+        },
+        {
+          "text": "Customers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "8px 4px 8px 12px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "0px 12px"
+        },
+        {
+          "text": "Log in",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "6px",
+          "fontSize": "16px",
+          "padding": "0px 12px"
+        }
+      ],
+      "section_count": 10,
+      "section_heights": [
+        14281,
+        1267,
+        516,
+        4099,
+        5262,
+        1168,
+        560,
+        657
+      ],
+      "nav_links": [
+        "Introducing Intercom 2 \u2013 Discover over 60 product updates.\nLearn more",
+        "Fin",
+        "Log in",
+        "Contact sales",
+        "View demo",
+        "Start free trial",
+        "Customers",
+        "Pricing",
+        "Log in",
+        "Contact sales",
+        "View demo",
+        "Start free trial"
+      ],
+      "scroll_height": 15007,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "meta_theme": "#050505",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 5,
+        "section_count": 9,
+        "nav_count": 2,
+        "button_count": 39,
+        "img_count": 92,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/intercom-viewport.jpg",
+      "full_screenshot": "screenshots/intercom-full.jpg"
+    },
+    {
+      "name": "supabase",
+      "url": "https://supabase.com",
+      "category": "premium-saas",
+      "theme": "unknown",
+      "fonts": [
+        "Inter",
+        "Source Code Pro",
+        "Manrope"
+      ],
+      "top_colors": [
+        "oklch(0.95 0.001485 159 / 0.075125)",
+        "oklch(0.95 0.00275 159)",
+        "oklch(0.684 0.00275 159)",
+        "oklch(0.19 0.0025 159)",
+        "rgb(255, 255, 255)",
+        "oklch(0.215 0.0025 159)",
+        "rgb(62, 207, 142)",
+        "oklch(0.95 0.001375 159 / 0.134738)"
+      ],
+      "radii": [
+        "8px",
+        "3.35544e+07px",
+        "4px",
+        "16px",
+        "6px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px"
+      ],
+      "h1": {
+        "text": "Build in a weekend\nScale to millions",
+        "fontSize": "46px",
+        "fontWeight": "500",
+        "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "46px",
+        "color": "oklch(0.95 0.00275 159)"
+      },
+      "button_samples": [
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "8px"
+        },
+        {
+          "text": "Developers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "8px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "8px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "8px"
+        },
+        {
+          "text": "Docs",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0.00275 159)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "8px"
+        }
+      ],
+      "section_count": 9,
+      "section_heights": [
+        949,
+        270,
+        862,
+        696,
+        898,
+        812,
+        909,
+        373
+      ],
+      "nav_links": [
+        "Pricing",
+        "Docs",
+        "Blog",
+        "106.4K",
+        "Sign in",
+        "Start your project",
+        "Start your project",
+        "Request a demo"
+      ],
+      "scroll_height": 7691,
+      "body_bg": "oklch(0.19 0.0025 159)",
+      "body_font": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 10,
+        "section_count": 9,
+        "nav_count": 2,
+        "button_count": 16,
+        "img_count": 57,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/supabase-viewport.jpg",
+      "full_screenshot": "screenshots/supabase-full.jpg"
+    },
+    {
+      "name": "framer",
+      "url": "https://www.framer.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "sans-serif",
+        "Inter",
+        "Inter Variable",
+        "Input Mono Regular",
+        "GT Walsheim Medium"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(153, 153, 153)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 238)",
+        "rgb(102, 102, 102)",
+        "rgb(36, 36, 36)",
+        "rgb(0, 153, 255)",
+        "rgba(255, 255, 255, 0.1)"
+      ],
+      "radii": [
+        "8px",
+        "15px",
+        "6px",
+        "5px",
+        "4px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.15) 0px 10px 20px 0px, rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+        "rgb(17, 17, 17) 0px 0px 0px 2px"
+      ],
+      "h1": {
+        "text": "Framer is the AI website builder for standout sites",
+        "fontSize": "54px",
+        "fontWeight": "500",
+        "fontFamily": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+        "letterSpacing": "-2.16px",
+        "lineHeight": "54px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "Framer",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Community",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        }
+      ],
+      "section_count": 6,
+      "section_heights": [
+        1193,
+        1358,
+        3157,
+        1817,
+        1217,
+        819
+      ],
+      "nav_links": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Get started for free",
+        "Download app"
+      ],
+      "scroll_height": 10923,
+      "body_bg": "rgb(0, 0, 0)",
+      "body_font": "sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 6,
+        "section_count": 6,
+        "nav_count": 1,
+        "button_count": 5,
+        "img_count": 99,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/framer-viewport.jpg",
+      "full_screenshot": "screenshots/framer-full.jpg"
+    },
+    {
+      "name": "webflow",
+      "url": "https://webflow.com",
+      "category": "premium-saas",
+      "theme": "dark",
+      "fonts": [
+        "WF Visual Sans Variable",
+        "WFVisualSans-Mono"
+      ],
+      "top_colors": [
+        "rgb(255, 255, 255)",
+        "rgb(108, 167, 255)",
+        "rgb(8, 8, 8)",
+        "rgb(255, 166, 102)",
+        "rgb(171, 171, 171)",
+        "rgb(96, 237, 118)",
+        "rgb(23, 23, 23)",
+        "rgb(54, 54, 54)"
+      ],
+      "radii": [
+        "8px",
+        "4px",
+        "50%",
+        "2px 2px 0px 0px",
+        "0px 0px 8px 8px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 100px inset",
+        "rgba(0, 0, 0, 0) 0px 84px 24px 0px, rgba(0, 0, 0, 0.01) 0px 54px 22px 0px, rgba(0, 0, 0, 0.04) 0px 30px 18px 0px, rgba(0, 0, 0, 0.08) 0px 13px 13px 0px, rgba(0, 0, 0, 0.09) 0px 3px 7px 0px"
+      ],
+      "h1": {
+        "text": "Make your website a growth engine",
+        "fontSize": "80px",
+        "fontWeight": "600",
+        "fontFamily": "\"WF Visual Sans Variable\", Arial, sans-serif",
+        "letterSpacing": "-0.8px",
+        "lineHeight": "83.2px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "New for Enterprise: Webflow AEO. Own your visibility in AI search \u2192",
+          "bg": "rgb(20, 110, 245)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "12px 0px"
+        },
+        {
+          "text": "SKIP TO MAIN CONTENT",
+          "bg": "rgb(20, 110, 245)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "12px",
+          "padding": "9.6px 18px"
+        },
+        {
+          "text": "Home Page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Platform",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15.9808px",
+          "padding": "20.775px 0px 19.177px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15.9808px",
+          "padding": "20.775px 0px 19.177px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15.9808px",
+          "padding": "20.775px 0px 19.177px"
+        }
+      ],
+      "section_count": 8,
+      "section_heights": [
+        8363,
+        1134,
+        467,
+        1170,
+        285,
+        1079,
+        2155,
+        1125
+      ],
+      "nav_links": [
+        "Design",
+        "Edit content",
+        "Interactions",
+        "Collaboration",
+        "Page building",
+        "CMS",
+        "Hosting",
+        "Localize",
+        "Security",
+        "Shared Libraries",
+        "Analyze",
+        "Optimize"
+      ],
+      "scroll_height": 10859,
+      "body_bg": "rgb(8, 8, 8)",
+      "body_font": "\"WF Visual Sans Variable\", Arial, sans-serif",
+      "meta_theme": "#146EF5",
+      "html_signals": {
+        "h1_count": 2,
+        "h2_count": 31,
+        "section_count": 7,
+        "nav_count": 9,
+        "button_count": 48,
+        "img_count": 177,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/webflow-viewport.jpg",
+      "full_screenshot": "screenshots/webflow-full.jpg"
+    },
+    {
+      "name": "relume",
+      "url": "https://www.relume.io",
+      "category": "premium-saas",
+      "theme": "light",
+      "fonts": [
+        "Relative",
+        "Relative Faux"
+      ],
+      "top_colors": [
+        "rgb(22, 22, 22)",
+        "rgb(104, 104, 104)",
+        "rgb(255, 255, 255)",
+        "rgb(98, 72, 255)",
+        "rgb(34, 34, 34)",
+        "rgb(241, 240, 238)",
+        "rgb(228, 226, 223)",
+        "rgba(0, 0, 0, 0.15)"
+      ],
+      "radii": [
+        "8px",
+        "16px",
+        "6px",
+        "10px",
+        "7.6px"
+      ],
+      "shadow_count": 3,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.08) 0px 8px 10px -4px, rgba(0, 0, 0, 0.05) 0px 2px 10px 2px",
+        "rgba(255, 116, 72, 0.5) 0px 5px 8px -2px"
+      ],
+      "h1": {
+        "text": "Websites designed & built faster with AI",
+        "fontSize": "88px",
+        "fontWeight": "400",
+        "fontFamily": "\"Relative Faux\", sans-serif",
+        "letterSpacing": "-1.76px",
+        "lineHeight": "96.8px",
+        "color": "rgb(22, 22, 22)"
+      },
+      "button_samples": [
+        {
+          "text": "Learn\u00a0More",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 72, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(22, 22, 22)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "8px 12px"
+        },
+        {
+          "text": "Community",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(22, 22, 22)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "8px 12px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(22, 22, 22)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "8px 12px"
+        },
+        {
+          "text": "Learn",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(22, 22, 22)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "8px 12px"
+        }
+      ],
+      "section_count": 6,
+      "section_heights": [
+        206,
+        2621,
+        1116,
+        1092,
+        819,
+        1223
+      ],
+      "nav_links": [
+        "AI Site BuilderCreate Sitemaps & Wireframes in minutes",
+        "Webflow Library1k+ Client-First Webflow components",
+        "Figma Library1k+ Figma components",
+        "React Library1k+ React components",
+        "Style Guide BuilderOn-brand design concepts in minutes",
+        "Claude Design\u00a0ExportYour design system - native in Claude Design",
+        "Relume Library MCPThe Relume library - now inside your AI editor",
+        "Relume IpsumAI copywriting in Figma",
+        "View all",
+        "July 1, 2026The Relume Library MCP, Now Live in Your AI Editor",
+        "July 1, 2026The Relume Library MCP, Now Live in Your AI Editor",
+        "May 6, 2026Your Design System, Native in Claude Design"
+      ],
+      "scroll_height": 9648,
+      "body_bg": "rgb(241, 240, 238)",
+      "body_font": "Relative, sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 3,
+        "h2_count": 20,
+        "section_count": 6,
+        "nav_count": 4,
+        "button_count": 0,
+        "img_count": 186,
+        "footer_count": 0
+      },
+      "viewport_screenshot": "screenshots/relume-viewport.jpg",
+      "full_screenshot": "screenshots/relume-full.jpg"
+    },
+    {
+      "name": "perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "ai-native",
+      "theme": "dark",
+      "fonts": [
+        "system-ui",
+        "monospace"
+      ],
+      "top_colors": [
+        "rgb(242, 242, 242)",
+        "rgb(130, 182, 255)",
+        "rgb(182, 182, 182)"
+      ],
+      "radii": [],
+      "shadow_count": 0,
+      "shadow_samples": [],
+      "h1": {
+        "text": "www.perplexity.ai",
+        "fontSize": "40px",
+        "fontWeight": "600",
+        "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "letterSpacing": "normal",
+        "lineHeight": "50px",
+        "color": "rgb(242, 242, 242)"
+      },
+      "button_samples": [],
+      "section_count": 0,
+      "section_heights": [],
+      "nav_links": [],
+      "scroll_height": 900,
+      "body_bg": "rgb(0, 0, 0)",
+      "body_font": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 2,
+        "section_count": 0,
+        "nav_count": 0,
+        "button_count": 0,
+        "img_count": 1,
+        "footer_count": 0
+      },
+      "viewport_screenshot": "screenshots/perplexity-viewport.jpg",
+      "full_screenshot": "screenshots/perplexity-full.jpg"
+    },
+    {
+      "name": "clay",
+      "url": "https://www.clay.com",
+      "category": "ai-native",
+      "theme": "light",
+      "fonts": [
+        "Roobertvf",
+        "Phosphor"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(123, 121, 116)",
+        "rgb(255, 255, 255)",
+        "rgb(254, 253, 251)",
+        "rgb(121, 117, 109)",
+        "rgb(244, 243, 240)",
+        "rgb(255, 255, 255) rgb(0, 0, 0) rgba(123, 121, 116, 0.15)",
+        "rgb(239, 238, 236)"
+      ],
+      "radii": [
+        "18px",
+        "8px",
+        "16px",
+        "6.08px",
+        "0px 0px 24px 24px"
+      ],
+      "shadow_count": 0,
+      "shadow_samples": [],
+      "h1": {
+        "text": "Build systems to grow revenue",
+        "fontSize": "88px",
+        "fontWeight": "575",
+        "fontFamily": "Roobertvf, Arial, sans-serif",
+        "letterSpacing": "-3.52px",
+        "lineHeight": "88px",
+        "color": "rgb(254, 253, 251)"
+      },
+      "button_samples": [
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Product\n\nProduct",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "10.4px 8px"
+        },
+        {
+          "text": "Use Cases\n\nUse Cases",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "10.4px 8px"
+        },
+        {
+          "text": "Solutions\n\nSolutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "10.4px 8px"
+        },
+        {
+          "text": "Resources\n\nResources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "10.4px 8px"
+        },
+        {
+          "text": "Company\n\nCompany",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "10.4px 8px"
+        }
+      ],
+      "section_count": 21,
+      "section_heights": [
+        0,
+        59,
+        463,
+        328,
+        328,
+        336,
+        328,
+        0
+      ],
+      "nav_links": [
+        "Back",
+        "Product\n\nProduct",
+        "Use Cases\n\nUse Cases",
+        "Solutions\n\nSolutions",
+        "Resources\n\nResources",
+        "Company\n\nCompany",
+        "Pricing\n\nPricing",
+        "Log in",
+        "Get a demo",
+        "Start free trial",
+        "Claygents\n\nResearch target companies and people with AI",
+        "Waterfall\n\nCombine multiple data providers for the best coverage"
+      ],
+      "scroll_height": 10100,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "Roobertvf, Arial, sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 2,
+        "section_count": 18,
+        "nav_count": 1,
+        "button_count": 71,
+        "img_count": 324,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/clay-viewport.jpg",
+      "full_screenshot": "screenshots/clay-full.jpg"
+    },
+    {
+      "name": "cursor",
+      "url": "https://cursor.com",
+      "category": "ai-native",
+      "theme": "dark",
+      "fonts": [
+        "CursorGothic",
+        "system-ui",
+        "berkeleyMono",
+        "EB Garamond",
+        "Lato"
+      ],
+      "top_colors": [
+        "rgb(237, 236, 236)",
+        "oklab(0.943853 0.00107113 0.000336707 / 0.6)",
+        "oklab(0.943853 0.00107113 0.000336707 / 0.5)",
+        "rgb(20, 18, 11)",
+        "rgb(27, 25, 19)",
+        "oklab(0.943853 0.00107113 0.000336707 / 0.1)",
+        "oklab(0.943853 0.00107113 0.000336707 / 0.4)",
+        "rgb(192, 133, 50)"
+      ],
+      "radii": [
+        "4px",
+        "3.35544e+07px",
+        "8px",
+        "10px",
+        "2px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 0px 16px 0px, rgba(0, 0, 0, 0.008) 0px 0px 8px 0px",
+        "rgba(0, 0, 0, 0.14) 0px 28px 70px 0px, rgba(0, 0, 0, 0.1) 0px 14px 32px 0px, oklab(0.943853 0.00107113 0.000336707 / 0.1) 0px 0px 0px 1px"
+      ],
+      "h1": {
+        "text": "Cursor is your coding agent for building ambitious software.",
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "letterSpacing": "-0.325px",
+        "lineHeight": "32.5px",
+        "color": "rgb(237, 236, 236)"
+      },
+      "button_samples": [
+        {
+          "text": "Cursor",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "5.6px 15px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "4.66667px 0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "4.66667px 0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "4.66667px 0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 236, 236)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "4.66667px 0px"
+        }
+      ],
+      "section_count": 14,
+      "section_heights": [
+        0,
+        1086,
+        177,
+        3203,
+        715,
+        715,
+        685,
+        685
+      ],
+      "nav_links": [
+        "Skip to content",
+        "Cursor",
+        "Product",
+        "Enterprise",
+        "Pricing",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Download",
+        "Agents"
+      ],
+      "scroll_height": 8277,
+      "body_bg": "rgb(20, 18, 11)",
+      "body_font": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "meta_theme": "#f7f7f4",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 13,
+        "section_count": 14,
+        "nav_count": 3,
+        "button_count": 84,
+        "img_count": 32,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/cursor-viewport.jpg",
+      "full_screenshot": "screenshots/cursor-full.jpg"
+    },
+    {
+      "name": "lovable",
+      "url": "https://lovable.dev",
+      "category": "ai-native",
+      "theme": "dark",
+      "fonts": [
+        "Camera Plain Variable"
+      ],
+      "top_colors": [
+        "rgb(39, 39, 37)",
+        "rgb(255, 255, 255)",
+        "lab(100 0 0)",
+        "rgb(252, 251, 248)",
+        "lab(67.9318 -0.204057 0.726843)",
+        "lab(11.6997 -0.388153 1.46558)",
+        "rgb(64, 64, 63)",
+        "oklch(1 0 0)"
+      ],
+      "radii": [
+        "3.35544e+07px",
+        "12px",
+        "8px",
+        "16px",
+        "24px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "oklch(1 0 0 / 0.25) 0px 0px 0px 0.5px inset",
+        "color(srgb 0.0860863 0.086119 0.0860608 / 0.12) 0px 2px 2px -1px, color(srgb 0.0860863 0.086119 0.0860608 / 0.12) 0px 4px 4px -2px"
+      ],
+      "h1": {
+        "text": "AI App Builder",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "fontFamily": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "30px",
+        "color": "rgb(197, 193, 186)"
+      },
+      "button_samples": [
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 0px 4px 6px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 0px 4px 6px"
+        },
+        {
+          "text": "Community",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 6px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 6px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 6px"
+        },
+        {
+          "text": "Security",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "15px",
+          "padding": "4px 6px"
+        }
+      ],
+      "section_count": 7,
+      "section_heights": [
+        2912,
+        900,
+        288,
+        448,
+        552,
+        404,
+        0
+      ],
+      "nav_links": [
+        "Community",
+        "Enterprise",
+        "Pricing",
+        "Security",
+        "Careers",
+        "Press & media",
+        "Enterprise",
+        "Security",
+        "Trust center",
+        "Partnerships",
+        "Pricing",
+        "Student discount"
+      ],
+      "scroll_height": 4196,
+      "body_bg": "rgb(31, 31, 30)",
+      "body_font": "\"Camera Plain Variable\", ui-sans-serif, system-ui, sans-serif",
+      "meta_theme": "#1c1c1c",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 5,
+        "section_count": 6,
+        "nav_count": 2,
+        "button_count": 16,
+        "img_count": 9,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/lovable-viewport.jpg",
+      "full_screenshot": "screenshots/lovable-full.jpg"
+    },
+    {
+      "name": "granola",
+      "url": "https://www.granola.ai",
+      "category": "ai-native",
+      "theme": "light",
+      "fonts": [
+        "melange",
+        "quadrant",
+        "-apple-system"
+      ],
+      "top_colors": [
+        "rgb(227, 227, 227)",
+        "rgb(41, 41, 41)",
+        "rgb(14, 15, 12)",
+        "rgb(255, 255, 255)",
+        "rgb(114, 114, 110)",
+        "oklab(0 0 0 / 0.1)",
+        "rgb(0, 0, 0)",
+        "rgba(71, 67, 42, 0.2)"
+      ],
+      "radii": [
+        "3.35544e+07px",
+        "4px",
+        "8px",
+        "16px",
+        "6px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 36px 0px",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px"
+      ],
+      "h1": {
+        "text": "The AI notepad for back-to-back meetings",
+        "fontSize": "86.4px",
+        "fontWeight": "400",
+        "fontFamily": "quadrant, \"quadrant Fallback\"",
+        "letterSpacing": "-1.728px",
+        "lineHeight": "80.352px",
+        "color": "rgb(41, 41, 41)"
+      },
+      "button_samples": [
+        {
+          "text": "Granola home",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px 0px 0px 4px"
+        },
+        {
+          "text": "Notepad\n\nThe AI notepad for people in back-to-back meetings",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "10px 48px 10px 16px"
+        },
+        {
+          "text": "Chat\n\nAI chat that already knows what you're working on",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "10px 48px 10px 16px"
+        },
+        {
+          "text": "Granola for mobile\n\nMeeting notes on the go and for your phone calls",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "10px 48px 10px 16px"
+        },
+        {
+          "text": "How Granola approaches transparency and keeps attendees informed\nLearn more \u2192",
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "8px",
+          "fontSize": "16px",
+          "padding": "12px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 41, 41)",
+          "radius": "3.35544e+07px",
+          "fontSize": "14px",
+          "padding": "6px 12px"
+        }
+      ],
+      "section_count": 14,
+      "section_heights": [
+        13418,
+        900,
+        900,
+        900,
+        0,
+        709,
+        464,
+        2452
+      ],
+      "nav_links": [
+        "Notepad\n\nThe AI notepad for people in back-to-back meetings",
+        "Chat\n\nAI chat that already knows what you're working on",
+        "How Granola approaches transparency and keeps attendees informed\nLearn more \u2192",
+        "Enterprise",
+        "Pricing",
+        "Blog",
+        "Careers",
+        "Download"
+      ],
+      "scroll_height": 14310,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "melange, \"melange Fallback\"",
+      "meta_theme": "#ffffff",
+      "html_signals": {
+        "h1_count": 3,
+        "h2_count": 8,
+        "section_count": 13,
+        "nav_count": 1,
+        "button_count": 11,
+        "img_count": 122,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/granola-viewport.jpg",
+      "full_screenshot": "screenshots/granola-full.jpg"
+    },
+    {
+      "name": "raycast",
+      "url": "https://www.raycast.com",
+      "category": "ai-native",
+      "theme": "dark",
+      "fonts": [
+        "Inter",
+        "SF Pro Text",
+        "SF Pro",
+        "GeistMono"
+      ],
+      "top_colors": [
+        "rgb(255, 255, 255)",
+        "rgb(106, 107, 108)",
+        "rgba(255, 255, 255, 0.6)",
+        "rgb(67, 67, 69)",
+        "rgb(156, 156, 157)",
+        "rgb(230, 230, 230)",
+        "rgba(255, 255, 255, 0.4)",
+        "rgba(255, 255, 255, 0.05)"
+      ],
+      "radii": [
+        "8px",
+        "11px",
+        "6px",
+        "12px",
+        "20px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+        "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset"
+      ],
+      "h1": {
+        "text": "Your shortcut to everything.",
+        "fontSize": "64px",
+        "fontWeight": "600",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "70.4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "Store",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Windows",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Teams",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Blog",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        }
+      ],
+      "section_count": 0,
+      "section_heights": [],
+      "nav_links": [],
+      "scroll_height": 15626,
+      "body_bg": "rgb(7, 8, 10)",
+      "body_font": "Inter, \"Inter Fallback\", sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 3,
+        "h2_count": 8,
+        "section_count": 0,
+        "nav_count": 0,
+        "button_count": 7,
+        "img_count": 117,
+        "footer_count": 0
+      },
+      "viewport_screenshot": "screenshots/raycast-viewport.jpg",
+      "full_screenshot": "screenshots/raycast-full.jpg"
+    },
+    {
+      "name": "loom",
+      "url": "https://www.loom.com",
+      "category": "ai-native",
+      "theme": "dark",
+      "fonts": [
+        "Charlie Text",
+        "Charlie Display"
+      ],
+      "top_colors": [
+        "rgb(41, 42, 46)",
+        "rgb(16, 18, 20)",
+        "rgb(255, 255, 255)",
+        "rgb(24, 104, 219)",
+        "rgb(233, 242, 254)",
+        "rgb(0, 0, 0)",
+        "rgb(191, 99, 243)",
+        "rgb(255, 97, 61)"
+      ],
+      "radii": [
+        "9999px",
+        "68.9231px",
+        "41.6923px",
+        "12px",
+        "50%"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 4.45038px",
+        "rgba(0, 0, 0, 0.25) 0px 15px 50px 0px"
+      ],
+      "h1": {
+        "text": "One video is worth a thousand words",
+        "fontSize": "63.2692px",
+        "fontWeight": "700",
+        "fontFamily": "\"Charlie Display\", sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "65.104px",
+        "color": "rgb(16, 18, 20)"
+      },
+      "button_samples": [
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Apps",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 16px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 16px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 16px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 16px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(41, 42, 46)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 16px"
+        }
+      ],
+      "section_count": 17,
+      "section_heights": [
+        1275,
+        777,
+        816,
+        960,
+        2504,
+        585,
+        686,
+        476
+      ],
+      "nav_links": [
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales",
+        "record your screen",
+        "Chrome extension",
+        "desktop app",
+        "mobile app",
+        "Download now"
+      ],
+      "scroll_height": 12562,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "\"Charlie Text\", sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 11,
+        "section_count": 17,
+        "nav_count": 1,
+        "button_count": 22,
+        "img_count": 85,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/loom-viewport.jpg",
+      "full_screenshot": "screenshots/loom-full.jpg"
+    },
+    {
+      "name": "zapier",
+      "url": "https://zapier.com",
+      "category": "automation",
+      "theme": "light",
+      "fonts": [
+        "Inter",
+        "DegularDisplay",
+        "Degular Display",
+        "Serrif",
+        "Arial"
+      ],
+      "top_colors": [
+        "rgb(32, 21, 21)",
+        "rgb(54, 52, 46)",
+        "rgb(255, 254, 251)",
+        "rgb(236, 234, 227)",
+        "rgb(197, 192, 177)",
+        "rgb(255, 79, 0)",
+        "rgb(96, 93, 82)",
+        "rgb(248, 244, 240)"
+      ],
+      "radii": [
+        "4px",
+        "50%",
+        "8px",
+        "14px",
+        "5px"
+      ],
+      "shadow_count": 1,
+      "shadow_samples": [
+        "rgba(255, 79, 0, 0.18) 0px 0px 0px 4.42178px"
+      ],
+      "h1": {
+        "text": "The automation layer for agentic AI",
+        "fontSize": "40px",
+        "fontWeight": "500",
+        "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "36px",
+        "color": "rgb(32, 21, 21)"
+      },
+      "button_samples": [
+        {
+          "text": "Skip to content",
+          "bg": "rgb(56, 25, 51)",
+          "color": "rgb(255, 254, 251)",
+          "radius": "0px 0px 6px 6px",
+          "fontSize": "14px",
+          "padding": "4px 16px 8px"
+        },
+        {
+          "text": "Zapier",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(32, 21, 21)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(32, 21, 21)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "6px 10px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(32, 21, 21)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "6px 10px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(32, 21, 21)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "6px 10px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(32, 21, 21)",
+          "radius": "4px",
+          "fontSize": "14px",
+          "padding": "6px 10px"
+        }
+      ],
+      "section_count": 16,
+      "section_heights": [
+        736,
+        119,
+        1370,
+        371,
+        1016,
+        2044,
+        1523,
+        918
+      ],
+      "nav_links": [
+        "Skip to content",
+        "Zap workflowsDo-it-yourself automation for workflows",
+        "Zapier MCPAdd Zapier to your AI chat",
+        "Zapier SDKInstall Zapier to your AI coding agent",
+        "TablesStore data your Zap workflows can read and update",
+        "App integrationsExplore 9,000+ app connections",
+        "AI automation \ud83e\ude84Cutting-edge AI to upgrade your workflows",
+        "SecurityEnterprise-grade security",
+        "Explore templates",
+        "Explore use cases",
+        "Join Zapier Early Access",
+        "FormsCapture inputs that trigger workflows"
+      ],
+      "scroll_height": 14236,
+      "body_bg": "rgb(255, 254, 251)",
+      "body_font": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 16,
+        "section_count": 13,
+        "nav_count": 7,
+        "button_count": 56,
+        "img_count": 123,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/zapier-viewport.jpg",
+      "full_screenshot": "screenshots/zapier-full.jpg"
+    },
+    {
+      "name": "make",
+      "url": "https://www.make.com",
+      "category": "automation",
+      "theme": "dark",
+      "fonts": [
+        "Inter"
+      ],
+      "top_colors": [
+        "rgb(34, 0, 65)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 238)",
+        "rgb(240, 36, 246)",
+        "rgb(68, 189, 50)",
+        "rgba(255, 255, 255, 0.75)",
+        "rgba(116, 38, 185, 0.698)",
+        "rgb(255, 0, 154)"
+      ],
+      "radii": [
+        "24px",
+        "12px",
+        "50%",
+        "10px",
+        "100px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+        "rgba(0, 0, 0, 0.01) 0px 13px 5px 0px, rgba(0, 0, 0, 0.02) 0px 7px 4px 0px, rgba(0, 0, 0, 0.04) 0px 3px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+      ],
+      "h1": {
+        "text": "The visual AI automation platform",
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "fontFamily": "Inter, \"Inter Fallback\"",
+        "letterSpacing": "-1.92px",
+        "lineHeight": "60px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "Home",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Product overview\nFind out more about the Make platform",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Apps\nBrowse our library of over +3,000 pre-built apps",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Enterprise\nScale securely with visual-first AI-powered enterprise automation",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Make Grid\nTake control of your whole automation landscape",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "What\u2019s new in Make\nKeep up with our latest developments",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        }
+      ],
+      "section_count": 40,
+      "section_heights": [
+        772,
+        439,
+        332,
+        45,
+        905,
+        68,
+        68,
+        549
+      ],
+      "nav_links": [
+        "Talk to sales",
+        "Sign in",
+        "Get started free",
+        "Product overview\nFind out more about the Make platform",
+        "Apps\nBrowse our library of over +3,000 pre-built apps",
+        "Enterprise\nScale securely with visual-first AI-powered enterprise automation",
+        "Make Grid\nTake control of your whole automation landscape",
+        "What\u2019s new in Make\nKeep up with our latest developments",
+        "Learn about Make\nLearn more about our mission and values",
+        "Automation with AI\nRevolutionize your work with AI and Make",
+        "Agentic automation\nAI-powered automation that adapts in real time to your business needs",
+        "Make AI Agents\nBuild transparent AI agents that take action and orchestrate complex workflows across 3,000+ apps"
+      ],
+      "scroll_height": 7145,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "Inter, \"Inter Fallback\"",
+      "meta_theme": "#ffffff",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 17,
+        "section_count": 46,
+        "nav_count": 1,
+        "button_count": 31,
+        "img_count": 44,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/make-viewport.jpg",
+      "full_screenshot": "screenshots/make-full.jpg"
+    },
+    {
+      "name": "retool",
+      "url": "https://retool.com",
+      "category": "automation",
+      "theme": "dark",
+      "fonts": [
+        "ui-sans-serif",
+        "saansFont",
+        "pxGroteskFont",
+        "ui-monospace"
+      ],
+      "top_colors": [
+        "rgb(233, 235, 223)",
+        "rgba(21, 21, 21, 0.6)",
+        "rgba(233, 235, 223, 0.12)",
+        "rgb(21, 21, 21)",
+        "rgb(203, 204, 196)",
+        "rgba(233, 235, 223, 0.6)",
+        "rgb(36, 36, 36)",
+        "rgb(139, 134, 127)"
+      ],
+      "radii": [
+        "4px",
+        "5px",
+        "9999px",
+        "36px",
+        "16px"
+      ],
+      "shadow_count": 2,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.35) 0px 68px 116px 0px",
+        "rgb(255, 255, 255) 0px 0px 0px 0px, rgb(233, 234, 231) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+      ],
+      "h1": {
+        "text": "Build anywhere.\nShip in Retool.",
+        "fontSize": "72px",
+        "fontWeight": "300",
+        "fontFamily": "saansFont, \"saansFont Fallback\", sans-serif",
+        "letterSpacing": "-1.584px",
+        "lineHeight": "75.6px",
+        "color": "rgb(233, 235, 223)"
+      },
+      "button_samples": [
+        {
+          "text": "BACK",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "8px 0px"
+        },
+        {
+          "text": "Solution",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Audience",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Search\n\u2318K",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "4px 0px 0px"
+        },
+        {
+          "text": "Sign in",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(233, 235, 223)",
+          "radius": "9999px",
+          "fontSize": "14px",
+          "padding": "0px 12px"
+        }
+      ],
+      "section_count": 8,
+      "section_heights": [
+        8680,
+        1040,
+        588,
+        4076,
+        496,
+        1009,
+        887,
+        668
+      ],
+      "nav_links": [
+        "A new building experience is here.\nLearn more \u2197",
+        "Use cases",
+        "Pricing",
+        "Sign in",
+        "Book a demo",
+        "Start for free",
+        "AppGen\n\nGenerate apps that are built for business\u2014on your data, in your cloud, and secure by default.",
+        "Build",
+        "Launch",
+        "Scale",
+        "Govern",
+        "Agents"
+      ],
+      "scroll_height": 9662,
+      "body_bg": "rgb(21, 21, 21)",
+      "body_font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "meta_theme": "#151515",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 5,
+        "section_count": 7,
+        "nav_count": 2,
+        "button_count": 38,
+        "img_count": 156,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/retool-viewport.jpg",
+      "full_screenshot": "screenshots/retool-full.jpg"
+    },
+    {
+      "name": "airtable",
+      "url": "https://www.airtable.com",
+      "category": "automation",
+      "theme": "light",
+      "fonts": [
+        "Haas",
+        "Haas Groot Disp"
+      ],
+      "top_colors": [
+        "rgb(24, 29, 38)",
+        "rgb(51, 56, 64)",
+        "rgb(68, 68, 68)",
+        "rgb(51, 51, 51)",
+        "rgba(4, 14, 32, 0.69)",
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(65, 69, 77)"
+      ],
+      "radii": [
+        "12px",
+        "32px",
+        "50%",
+        "16px",
+        "24px"
+      ],
+      "shadow_count": 3,
+      "shadow_samples": [
+        "rgba(15, 48, 106, 0.05) 0px 0px 20px 0px",
+        "rgba(0, 0, 0, 0.32) 0px 0px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px, rgba(45, 127, 249, 0.28) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px inset"
+      ],
+      "h1": {
+        "text": "All your teams, all their workflows\u2014connected in one workspace",
+        "fontSize": "40px",
+        "fontWeight": "400",
+        "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "48px",
+        "color": "rgb(51, 56, 64)"
+      },
+      "button_samples": [
+        {
+          "text": "Airtable home or view your bases",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "0px"
+        },
+        {
+          "text": "Platform",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "12px 48px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "12px 48px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "12px 48px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(24, 29, 38)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "12px 48px"
+        }
+      ],
+      "section_count": 29,
+      "section_heights": [
+        42,
+        989,
+        989,
+        989,
+        191,
+        191,
+        92,
+        3141
+      ],
+      "nav_links": [
+        "Try it now",
+        "Airtable home or view your bases"
+      ],
+      "scroll_height": 7785,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "\"Haas Groot Disp\", Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 7,
+        "section_count": 22,
+        "nav_count": 25,
+        "button_count": 32,
+        "img_count": 55,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/airtable-viewport.jpg",
+      "full_screenshot": "screenshots/airtable-full.jpg"
+    },
+    {
+      "name": "shopify",
+      "url": "https://www.shopify.com",
+      "category": "ecommerce",
+      "theme": "dark",
+      "fonts": [
+        "NeueHaasGrotesk",
+        "Inter-Variable",
+        "ui-monospace"
+      ],
+      "top_colors": [
+        "rgb(229, 231, 235)",
+        "rgb(255, 255, 255)",
+        "rgb(161, 161, 170)",
+        "rgb(0, 0, 0)",
+        "rgb(54, 244, 164)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "rgb(6, 26, 28)",
+        "rgb(157, 171, 173)"
+      ],
+      "radii": [
+        "12px",
+        "3.35544e+07px",
+        "4px",
+        "8px",
+        "9999px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 0px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.2) 0px 5px 10px 0px"
+      ],
+      "h1": {
+        "text": "Be the next\nAI all-star",
+        "fontSize": "96px",
+        "fontWeight": "400",
+        "fontFamily": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "96px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "Skip to Content",
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "9999px",
+          "fontSize": "16px",
+          "padding": "8px 20px"
+        },
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "0px"
+        },
+        {
+          "text": "Get started fast\n\nYou could be selling by tomorrow.",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        },
+        {
+          "text": "Switch to Shopify\n\nGet more customers. Make more sales.",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        },
+        {
+          "text": "Trusted by enterprise brands\n\nNo matter your size, complexity, or ambition.",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        },
+        {
+          "text": "World's best checkout\n\nProven to convert better.",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "14px",
+          "padding": "0px"
+        }
+      ],
+      "section_count": 18,
+      "section_heights": [
+        824,
+        653,
+        653,
+        653,
+        1477,
+        828,
+        931,
+        857
+      ],
+      "nav_links": [
+        "Get started fast\n\nYou could be selling by tomorrow.",
+        "Switch to Shopify\n\nGet more customers. Make more sales.",
+        "Trusted by enterprise brands\n\nNo matter your size, complexity, or ambition.",
+        "World's best checkout\n\nProven to convert better.",
+        "Sidekick\n\nYour commerce-obsessed AI assistant.",
+        "Website Builder",
+        "Themes",
+        "Domains",
+        "Customer Accounts",
+        "Sidekick",
+        "Online",
+        "AI Chats"
+      ],
+      "scroll_height": 11336,
+      "body_bg": "rgb(0, 0, 0)",
+      "body_font": "NeueHaasGrotesk, Helvetica, Arial, sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 5,
+        "section_count": 14,
+        "nav_count": 1,
+        "button_count": 6,
+        "img_count": 55,
+        "footer_count": 2
+      },
+      "viewport_screenshot": "screenshots/shopify-viewport.jpg",
+      "full_screenshot": "screenshots/shopify-full.jpg"
+    },
+    {
+      "name": "partiful",
+      "url": "https://partiful.com",
+      "category": "marketplace",
+      "theme": "light",
+      "fonts": [
+        "sans-serif",
+        "TWK Lausanne Pan 550",
+        "TWK Lausanne Pan 400",
+        "TWK Lausanne Pan 700",
+        ".SFNSDisplay"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 238)",
+        "rgba(0, 0, 0, 0.6)",
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0.8)",
+        "rgba(0, 0, 0, 0.4)",
+        "rgba(0, 0, 0, 0.3)",
+        "rgba(0, 0, 0, 0.05)"
+      ],
+      "radii": [
+        "12px",
+        "4px",
+        "8px",
+        "12px 12px 0px 0px",
+        "16px"
+      ],
+      "shadow_count": 3,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px, rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px, rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px, rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px",
+        "rgba(0, 0, 0, 0.1) 0px 0px 20px 0px"
+      ],
+      "h1": {
+        "text": "Parties are back",
+        "fontSize": "112px",
+        "fontWeight": "825",
+        "fontFamily": "\"TWK Lausanne Pan 850\", sans-serif",
+        "letterSpacing": "-3.36px",
+        "lineHeight": "89.6px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Login",
+          "bg": "rgba(255, 255, 255, 0.1)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "4px",
+          "fontSize": "12px",
+          "padding": "0px 24px"
+        },
+        {
+          "text": "Create",
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "4px",
+          "fontSize": "12px",
+          "padding": "0px 24px"
+        },
+        {
+          "text": "\ud83c\udf9f\ufe0f\n\ud83c\udf9f\ufe0f\nNew! Sell tickets on Partiful",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "0px",
+          "fontSize": "12px",
+          "padding": "0px"
+        },
+        {
+          "text": "Create invite",
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 238)",
+          "radius": "4px",
+          "fontSize": "12px",
+          "padding": "0px 24px"
+        }
+      ],
+      "section_count": 2,
+      "section_heights": [
+        100,
+        288
+      ],
+      "nav_links": [
+        "Summer Parties",
+        "Birthdays",
+        "Dinners",
+        "Explore",
+        "Housewarmings",
+        "For Orgs",
+        "Login",
+        "Create",
+        "\ud83c\udf9f\ufe0f\n\ud83c\udf9f\ufe0f\nNew! Sell tickets on Partiful"
+      ],
+      "scroll_height": 9714,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 6,
+        "h2_count": 14,
+        "section_count": 2,
+        "nav_count": 1,
+        "button_count": 2,
+        "img_count": 91,
+        "footer_count": 0
+      },
+      "viewport_screenshot": "screenshots/partiful-viewport.jpg",
+      "full_screenshot": "screenshots/partiful-full.jpg"
+    },
+    {
+      "name": "canva",
+      "url": "https://www.canva.com",
+      "category": "ecommerce",
+      "theme": "dark",
+      "fonts": [
+        "Times New Roman",
+        "Canva Sans",
+        "Arial"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(15, 16, 21)",
+        "rgb(255, 255, 255)",
+        "rgba(15, 16, 21, 0)",
+        "rgba(255, 255, 255, 0.898)",
+        "rgb(0, 0, 238)",
+        "rgba(16, 18, 25, 0.698)",
+        "rgb(139, 61, 255)"
+      ],
+      "radii": [
+        "12px",
+        "24px",
+        "10px",
+        "9999px",
+        "50%"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset",
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset"
+      ],
+      "h1": null,
+      "button_samples": [
+        {
+          "text": "Canva home",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(163, 112, 252)",
+          "radius": "0px",
+          "fontSize": "10px",
+          "padding": "0px"
+        },
+        {
+          "text": "Design",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "12px",
+          "fontSize": "13.3333px",
+          "padding": "4px 8px"
+        },
+        {
+          "text": "Product",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "12px",
+          "fontSize": "13.3333px",
+          "padding": "4px 8px"
+        },
+        {
+          "text": "Plans",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "12px",
+          "fontSize": "13.3333px",
+          "padding": "4px 8px"
+        },
+        {
+          "text": "Business",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "12px",
+          "fontSize": "13.3333px",
+          "padding": "4px 8px"
+        },
+        {
+          "text": "Education",
+          "bg": "rgba(255, 255, 255, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "12px",
+          "fontSize": "13.3333px",
+          "padding": "4px 8px"
+        }
+      ],
+      "section_count": 7,
+      "section_heights": [
+        0,
+        982,
+        1477,
+        1030,
+        742,
+        1445,
+        672
+      ],
+      "nav_links": [
+        "Sheets",
+        "Docs",
+        "Whiteboards",
+        "Presentations",
+        "Social",
+        "Photo Editor",
+        "Videos",
+        "Print",
+        "Websites",
+        "PDF Editor",
+        "Business cards",
+        "Invitations"
+      ],
+      "scroll_height": 8039,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "\"Times New Roman\"",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 36,
+        "section_count": 0,
+        "nav_count": 3,
+        "button_count": 29,
+        "img_count": 33,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/canva-viewport.jpg",
+      "full_screenshot": "screenshots/canva-full.jpg"
+    },
+    {
+      "name": "arc",
+      "url": "https://arc.net",
+      "category": "chrome-extension",
+      "theme": "light",
+      "fonts": [
+        "Marlin Soft SQ",
+        "Marlin",
+        "InterVariable",
+        "-apple-system",
+        "ABC Favorit Mono"
+      ],
+      "top_colors": [
+        "rgb(49, 57, 251)",
+        "rgb(255, 252, 236)",
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 250, 221)",
+        "rgb(105, 105, 105)",
+        "rgb(39, 2, 194)",
+        "rgba(0, 0, 0, 0.65)"
+      ],
+      "radii": [
+        "8px",
+        "10px",
+        "22px",
+        "4px"
+      ],
+      "shadow_count": 2,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.25) 0px 2px 8px 0px",
+        "rgba(0, 0, 0, 0.1) 0px 5px 5px 0px"
+      ],
+      "h1": {
+        "text": "Arc is the Chrome  replacement I've been  waiting for.",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "letterSpacing": "-1.6px",
+        "lineHeight": "31.2px",
+        "color": "rgb(255, 252, 236)"
+      },
+      "button_samples": [
+        {
+          "text": "Max",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "8px 10px"
+        },
+        {
+          "text": "Mobile",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "8px 10px"
+        },
+        {
+          "text": "Developers",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "8px 10px"
+        },
+        {
+          "text": "Students",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "8px 10px"
+        },
+        {
+          "text": "Blog",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "8px",
+          "fontSize": "14px",
+          "padding": "8px 10px"
+        },
+        {
+          "text": "Try Dia",
+          "bg": "rgba(0, 0, 0, 0.85)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "22px",
+          "fontSize": "24px",
+          "padding": "8px 22px 8px 8px"
+        }
+      ],
+      "section_count": 7,
+      "section_heights": [
+        617,
+        920,
+        3556,
+        1080,
+        1041,
+        1041,
+        140
+      ],
+      "nav_links": [
+        "Max",
+        "Mobile",
+        "Developers",
+        "Students",
+        "Blog"
+      ],
+      "scroll_height": 6125,
+      "body_bg": "rgb(255, 252, 236)",
+      "body_font": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "meta_theme": "rgba(49, 57, 251, 1)",
+      "html_signals": {
+        "h1_count": 2,
+        "h2_count": 0,
+        "section_count": 5,
+        "nav_count": 1,
+        "button_count": 7,
+        "img_count": 3,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/arc-viewport.jpg",
+      "full_screenshot": "screenshots/arc-full.jpg"
+    },
+    {
+      "name": "raycast-store",
+      "url": "https://www.raycast.com/store",
+      "category": "chrome-extension",
+      "theme": "dark",
+      "fonts": [
+        "Inter"
+      ],
+      "top_colors": [
+        "rgb(156, 156, 157)",
+        "rgb(255, 255, 255)",
+        "rgb(106, 107, 108)",
+        "rgba(255, 255, 255, 0.06)",
+        "rgba(255, 255, 255, 0.4)",
+        "rgb(47, 48, 49)",
+        "rgb(12, 13, 15)",
+        "rgb(7, 8, 10)"
+      ],
+      "radii": [
+        "8px",
+        "99999px",
+        "12px",
+        "6px",
+        "10px"
+      ],
+      "shadow_count": 4,
+      "shadow_samples": [
+        "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+        "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset"
+      ],
+      "h1": {
+        "text": "Store",
+        "fontSize": "80px",
+        "fontWeight": "600",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "letterSpacing": "1.2px",
+        "lineHeight": "86px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "button_samples": [
+        {
+          "text": "Store",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Windows",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Teams",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Enterprise",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Blog",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(156, 156, 157)",
+          "radius": "6px",
+          "fontSize": "14px",
+          "padding": "12px 8px"
+        }
+      ],
+      "section_count": 0,
+      "section_heights": [],
+      "nav_links": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "306"
+      ],
+      "scroll_height": 4330,
+      "body_bg": "rgb(7, 8, 10)",
+      "body_font": "Inter, \"Inter Fallback\", sans-serif",
+      "meta_theme": null,
+      "html_signals": {
+        "h1_count": 3,
+        "h2_count": 4,
+        "section_count": 0,
+        "nav_count": 1,
+        "button_count": 17,
+        "img_count": 44,
+        "footer_count": 0
+      },
+      "viewport_screenshot": "screenshots/raycast-store-viewport.jpg",
+      "full_screenshot": "screenshots/raycast-store-full.jpg"
+    },
+    {
+      "name": "datadog",
+      "url": "https://www.datadoghq.com",
+      "category": "dashboard",
+      "theme": "light",
+      "fonts": [
+        "NationalWeb"
+      ],
+      "top_colors": [
+        "rgb(255, 255, 255)",
+        "rgb(33, 37, 41)",
+        "rgba(255, 255, 255, 0.5)",
+        "rgb(85, 85, 85)",
+        "rgb(99, 44, 166)",
+        "rgb(0, 0, 0)",
+        "rgb(238, 238, 238)",
+        "rgb(246, 246, 246)"
+      ],
+      "radii": [
+        "4px",
+        "6px",
+        "3px"
+      ],
+      "shadow_count": 1,
+      "shadow_samples": [
+        "rgba(0, 0, 0, 0.07) 0px 0px 8px 8px"
+      ],
+      "h1": {
+        "text": "AI-Powered Observability and Security",
+        "fontSize": "68px",
+        "fontWeight": "600",
+        "fontFamily": "NationalWeb, Helvetica, Arial, sans-serif",
+        "letterSpacing": "normal",
+        "lineHeight": "68px",
+        "color": "rgb(33, 37, 41)"
+      },
+      "button_samples": [
+        {
+          "text": "Datadog named a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Observability Platfor",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "radius": "0px",
+          "fontSize": "20px",
+          "padding": "0px"
+        },
+        {
+          "text": "PRODUCT",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(85, 85, 85)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8.5px 12px 9.5px"
+        },
+        {
+          "text": "CUSTOMERS",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(85, 85, 85)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8.5px 12px 9.5px"
+        },
+        {
+          "text": "PRICING",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(85, 85, 85)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8.5px 12px 9.5px"
+        },
+        {
+          "text": "SOLUTIONS",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(85, 85, 85)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8.5px 12px 9.5px"
+        },
+        {
+          "text": "DOCS",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(85, 85, 85)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8.5px 12px 9.5px"
+        }
+      ],
+      "section_count": 3,
+      "section_heights": [
+        5143,
+        764,
+        1008
+      ],
+      "nav_links": [
+        "PRODUCT",
+        "View pricing",
+        "Infrastructure Monitoring",
+        "Metrics",
+        "Network Monitoring",
+        "Container Monitoring",
+        "Kubernetes Autoscaling",
+        "Serverless",
+        "Cloud Cost Management",
+        "Cloudcraft",
+        "Storage Management",
+        "GPU Monitoring"
+      ],
+      "scroll_height": 5143,
+      "body_bg": "rgb(255, 255, 255)",
+      "body_font": "NationalWeb, Helvetica, Arial, sans-serif",
+      "meta_theme": "#ffffff",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 6,
+        "section_count": 2,
+        "nav_count": 1,
+        "button_count": 17,
+        "img_count": 49,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/datadog-viewport.jpg",
+      "full_screenshot": "screenshots/datadog-full.jpg"
+    },
+    {
+      "name": "figma",
+      "url": "https://www.figma.com",
+      "category": "dashboard",
+      "theme": "dark",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "top_colors": [
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "oklch(0 0 none / 0.54)",
+        "rgba(255, 255, 255, 0.6)",
+        "rgba(255, 255, 255, 0.24)",
+        "rgba(255, 255, 255, 0.16)",
+        "oklch(0 0 none / 0)",
+        "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) oklch(0 0 none / 0.16)"
+      ],
+      "radii": [
+        "9999px",
+        "2px",
+        "50%",
+        "4px",
+        "8px"
+      ],
+      "shadow_count": 2,
+      "shadow_samples": [
+        "oklch(0 0 none / 0.16) 0px 1px 0px 0px",
+        "oklch(0 0 none / 0.16) 0px 0px 0px 1px inset"
+      ],
+      "h1": {
+        "text": "The intelligent canvas for infinite creativity",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "fontFamily": "figmaSans, \"figmaSans Fallback\", \"SF Pro Display\", system-ui, helvetica, sans-serif",
+        "letterSpacing": "-1.25px",
+        "lineHeight": "56px",
+        "color": "rgb(0, 0, 0)"
+      },
+      "button_samples": [
+        {
+          "text": "Products",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8px"
+        },
+        {
+          "text": "Solutions",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8px"
+        },
+        {
+          "text": "Community",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8px"
+        },
+        {
+          "text": "Resources",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "18px",
+          "padding": "8px"
+        },
+        {
+          "text": "Pricing",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "8px"
+        },
+        {
+          "text": "Log in",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "radius": "0px",
+          "fontSize": "16px",
+          "padding": "8px"
+        }
+      ],
+      "section_count": 8,
+      "section_heights": [
+        860,
+        1065,
+        1089,
+        1609,
+        1113,
+        660,
+        400,
+        898
+      ],
+      "nav_links": [
+        "Design and explore",
+        "Build and ship products",
+        "Figma DesignDesign and prototype in one place",
+        "Figma MakePrompt to code anything you can imagine",
+        "Figma WeaveAI workflows for imagery, video, audio, and more",
+        "Dev ModeTranslate designs into code",
+        "Figma MotionNewAnimate your designs",
+        "FigJamCollaborate with a digital whiteboard",
+        "Figma SlidesCo-create presentations",
+        "Figma DrawIllustrate with advanced vector tools",
+        "Figma SitesBetaPublish fully responsive websites",
+        "Figma BuzzBetaProduce on-brand assets at scale"
+      ],
+      "scroll_height": 8936,
+      "body_bg": "rgba(0, 0, 0, 0)",
+      "body_font": "figmaSans, \"figmaSans Fallback\", \"SF Pro Display\", system-ui, helvetica, sans-serif",
+      "meta_theme": "#ffffff",
+      "html_signals": {
+        "h1_count": 1,
+        "h2_count": 31,
+        "section_count": 8,
+        "nav_count": 7,
+        "button_count": 20,
+        "img_count": 85,
+        "footer_count": 1
+      },
+      "viewport_screenshot": "screenshots/figma-viewport.jpg",
+      "full_screenshot": "screenshots/figma-full.jpg"
+    }
+  ]
+}

@@ -1,0 +1,2834 @@
+{
+  "name": "supabase",
+  "url": "https://supabase.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/supabase-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/supabase-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/supabase-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/supabase-full.png",
+  "design": {
+    "url": "https://supabase.com/",
+    "title": "Supabase | The Postgres Development Platform",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 7691
+    },
+    "themeGuess": "unknown",
+    "luminance": null,
+    "bodyStyle": {
+      "color": "oklch(0.95 0.00275 159)",
+      "backgroundColor": "oklch(0.19 0.0025 159)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "450",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "450",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "relative",
+          "z-40",
+          "border-default",
+          "border-b",
+          "backdrop-blur-xs",
+          "transition-all",
+          "duration-300"
+        ],
+        "text": "Product Developers Solutions Pricing Docs Blog 106.4K Sign in Start your project",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 65
+      },
+      "style": {
+        "color": "oklch(0.95 0.00275 159)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "450",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Pricing",
+        "Docs",
+        "Blog",
+        "106.4K",
+        "Sign in",
+        "Start your project",
+        "Start your project",
+        "Request a demo"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "bg-alternative"
+        ],
+        "text": "Footer We protect your data. More on Security SOC2 Type 2 Certified HIPAA Compliant ISO 27001 Certified Twitter GitHub Discord Youtube TikTok Instagram Get product updates and new",
+        "top": 6595,
+        "left": 0,
+        "width": 1440,
+        "height": 1097
+      },
+      "style": {
+        "color": "oklch(0.95 0.00275 159)",
+        "backgroundColor": "oklch(0.19 0.0025 159)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "450",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "relative",
+          "min-h-screen"
+        ],
+        "text": "Build in a weekend Scale to millions Start your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings. St",
+        "top": 65,
+        "left": 0,
+        "width": 1440,
+        "height": 6530
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "relative"
+        ],
+        "top": 451,
+        "height": 949,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Postgres Database",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [],
+        "top": 1400,
+        "height": 270,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "border-b",
+          "border-border"
+        ],
+        "top": 1670,
+        "height": 862,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Stay productive and manage your app\nwithout leaving the dashboard",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [],
+        "top": 2533,
+        "height": 696,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Use Supabase with\nReact",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "border-b",
+          "border-border"
+        ],
+        "top": 3229,
+        "height": 898,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Kickstart your next project\nwith production ready templates",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [],
+        "top": 4126,
+        "height": 812,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "How industry leaders\nare building with Supabase",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [],
+        "top": 4938,
+        "height": 909,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Join the community",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "border-b",
+          "border-border",
+          "overflow-hidden"
+        ],
+        "top": 5847,
+        "height": 373,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Open source from day one",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [],
+        "top": 6220,
+        "height": 375,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Build in a weekend, scale to millions",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Build in a weekend\nScale to millions",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "46px",
+          "fontWeight": "500",
+          "lineHeight": "46px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "text-foreground",
+            "text-4xl",
+            "sm:text-5xl",
+            "sm:leading-none"
+          ],
+          "text": "Build in a weekend Scale to millions",
+          "top": 225,
+          "left": 176,
+          "width": 536,
+          "height": 92
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Postgres Database",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Postgres Database",
+          "top": 484,
+          "left": 227,
+          "width": 145,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Authentication",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Authentication",
+          "top": 476,
+          "left": 777,
+          "width": 116,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Edge Functions",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Edge Functions",
+          "top": 476,
+          "left": 1052,
+          "width": 118,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Storage",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Storage",
+          "top": 888,
+          "left": 227,
+          "width": 61,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Realtime",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Realtime",
+          "top": 888,
+          "left": 502,
+          "width": 68,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Vector",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Vector",
+          "top": 888,
+          "left": 777,
+          "width": 50,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Data APIs",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "Data APIs",
+          "top": 888,
+          "left": 1052,
+          "width": 73,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Stay productive and manage your app\nwithout leaving the dashboard",
+        "style": {
+          "color": "oklch(0.684 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-2xl",
+            "md:text-4xl",
+            "text-foreground-lighter"
+          ],
+          "text": "Stay productive and manage your app without leaving the dashboard",
+          "top": 1758,
+          "left": 176,
+          "width": 1088,
+          "height": 76
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Use Supabase with\nReact",
+        "style": {
+          "color": "oklch(0.684 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-2xl",
+            "md:text-4xl",
+            "text-foreground-lighter"
+          ],
+          "text": "Use Supabase with React",
+          "top": 2629,
+          "left": 176,
+          "width": 544,
+          "height": 76
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Kickstart your next project\nwith production ready templates",
+        "style": {
+          "color": "oklch(0.684 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "576px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-2xl",
+            "md:text-4xl",
+            "text-foreground-lighter",
+            "max-w-xl"
+          ],
+          "text": "Kickstart your next project with production ready templates",
+          "top": 3325,
+          "left": 176,
+          "width": 527,
+          "height": 76
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "How industry leaders\nare building with Supabase",
+        "style": {
+          "color": "oklch(0.684 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "576px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-2xl",
+            "md:text-4xl",
+            "text-foreground-lighter",
+            "max-w-xl"
+          ],
+          "text": "How industry leaders are building with Supabase",
+          "top": 4222,
+          "left": 176,
+          "width": 436,
+          "height": 76
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Join the community",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-2xl",
+            "md:text-4xl",
+            "text-center"
+          ],
+          "text": "Join the community",
+          "top": 5018,
+          "left": 560,
+          "width": 319,
+          "height": 38
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Open source from day one",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "37.7778px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-4xl",
+            "text-foreground",
+            "text-balance"
+          ],
+          "text": "Open source from day one",
+          "top": 5943,
+          "left": 176,
+          "width": 512,
+          "height": 38
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Build in a weekend, scale to millions",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "600",
+          "lineHeight": "40.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "h2"
+          ],
+          "text": "Build in a weekend, scale to millions",
+          "top": 6348,
+          "left": 434,
+          "width": 572,
+          "height": 41
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Footer",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Manrope, \"Manrope Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "-1px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "footerHeading",
+          "classes": [
+            "sr-only"
+          ],
+          "text": "Footer",
+          "top": 6594,
+          "left": -1,
+          "width": 1,
+          "height": 1
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "href": "/",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": "radix-_R_5b55tqlb_",
+          "classes": [
+            "block",
+            "w-auto",
+            "h-6",
+            "focus-visible:ring-2",
+            "focus-visible:outline-hidden",
+            "focus-visible:ring-foreground-lighter",
+            "focus-visible:ring-offset-4",
+            "focus-visible:ring-offset-background-alternative"
+          ],
+          "text": "",
+          "top": 20,
+          "left": 176,
+          "width": 124,
+          "height": 24
+        }
+      },
+      {
+        "text": "Product",
+        "href": null,
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_9b55tqlb_-trigger-radix-_R_5pb55tqlb_",
+          "classes": [
+            "group",
+            "relative",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center"
+          ],
+          "text": "Product",
+          "top": 15,
+          "left": 332,
+          "width": 87,
+          "height": 34
+        }
+      },
+      {
+        "text": "Developers",
+        "href": null,
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_9b55tqlb_-trigger-radix-_R_9pb55tqlb_",
+          "classes": [
+            "group",
+            "relative",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center"
+          ],
+          "text": "Developers",
+          "top": 15,
+          "left": 423,
+          "width": 110,
+          "height": 34
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_9b55tqlb_-trigger-radix-_R_dpb55tqlb_",
+          "classes": [
+            "group",
+            "relative",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center"
+          ],
+          "text": "Solutions",
+          "top": 15,
+          "left": 536,
+          "width": 96,
+          "height": 34
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/menu-item",
+            "flex",
+            "items-center",
+            "text-sm",
+            "hover:text-foreground",
+            "select-none",
+            "gap-3",
+            "rounded-md"
+          ],
+          "text": "Pricing",
+          "top": 14,
+          "left": 637,
+          "width": 63,
+          "height": 35
+        }
+      },
+      {
+        "text": "Docs",
+        "href": "/docs",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/menu-item",
+            "flex",
+            "items-center",
+            "text-sm",
+            "hover:text-foreground",
+            "select-none",
+            "gap-3",
+            "rounded-md"
+          ],
+          "text": "Docs",
+          "top": 14,
+          "left": 703,
+          "width": 50,
+          "height": 35
+        }
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "8px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "12px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/menu-item",
+            "flex",
+            "items-center",
+            "text-sm",
+            "hover:text-foreground",
+            "select-none",
+            "gap-3",
+            "rounded-md"
+          ],
+          "text": "Blog",
+          "top": 14,
+          "left": 758,
+          "width": 46,
+          "height": 35
+        }
+      },
+      {
+        "text": "106.4K",
+        "href": "https://github.com/supabase/supabase",
+        "style": {
+          "color": "oklch(0.798 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "450",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "4px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center",
+            "font-regular",
+            "ease-out"
+          ],
+          "text": "106.4K",
+          "top": 19,
+          "left": 977,
+          "width": 89,
+          "height": 26
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": "https://supabase.com/dashboard",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.95 0.00275 159 / 0.0328947)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "450",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001375 159 / 0.134738)",
+          "padding": "4px 10px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center",
+            "font-regular",
+            "ease-out"
+          ],
+          "text": "Sign in",
+          "top": 19,
+          "left": 1074,
+          "width": 61,
+          "height": 26
+        }
+      },
+      {
+        "text": "Start your project",
+        "href": "https://supabase.com/dashboard/sign-up",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgb(0, 98, 57)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "450",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.7623 -0.144565 0.0545538 / 0.3)",
+          "padding": "4px 10px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center",
+            "font-regular",
+            "ease-out"
+          ],
+          "text": "Start your project",
+          "top": 19,
+          "left": 1143,
+          "width": 121,
+          "height": 26
+        }
+      },
+      {
+        "text": "Start your project",
+        "href": "https://supabase.com/dashboard",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgb(0, 98, 57)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid oklab(0.7623 -0.144565 0.0545538 / 0.3)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center",
+            "font-regular"
+          ],
+          "text": "Start your project",
+          "top": 349,
+          "left": 176,
+          "width": 150,
+          "height": 38
+        }
+      },
+      {
+        "text": "Request a demo",
+        "href": "/contact/sales",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.95 0.00275 159 / 0.0328947)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "450",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001375 159 / 0.134738)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "relative",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "space-x-2",
+            "text-center",
+            "font-regular"
+          ],
+          "text": "Request a demo",
+          "top": 349,
+          "left": 334,
+          "width": 141,
+          "height": 38
+        }
+      },
+      {
+        "text": "Postgres Database\n\nEvery project is a full Postgres database, the world's most t",
+        "href": "/database",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Postgres Database Every project is a full Postgres database, the world's most trusted relational database. 100% portable Built-in Auth with RLS Easy to extend",
+          "top": 451,
+          "left": 176,
+          "width": 538,
+          "height": 400
+        }
+      },
+      {
+        "text": "Authentication\n\nAdd user sign ups and logins,\nsecuring your data with Row Level ",
+        "href": "/auth",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Authentication Add user sign ups and logins, securing your data with Row Level Security.",
+          "top": 451,
+          "left": 726,
+          "width": 263,
+          "height": 400
+        }
+      },
+      {
+        "text": "Edge Functions\n\nEasily write custom code\nwithout deploying or scaling servers.\n\n",
+        "href": "/edge-functions",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Edge Functions Easily write custom code without deploying or scaling servers. $ supabase functions deploy",
+          "top": 451,
+          "left": 1001,
+          "width": 263,
+          "height": 400
+        }
+      },
+      {
+        "text": "Storage\n\nStore, organize, and serve large files, from videos to images.",
+        "href": "/storage",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Storage Store, organize, and serve large files, from videos to images.",
+          "top": 863,
+          "left": 176,
+          "width": 263,
+          "height": 400
+        }
+      },
+      {
+        "text": "Realtime\n\nBuild multiplayer experiences\nwith real-time data synchronization.",
+        "href": "/realtime",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Realtime Build multiplayer experiences with real-time data synchronization.",
+          "top": 863,
+          "left": 451,
+          "width": 263,
+          "height": 400
+        }
+      },
+      {
+        "text": "Vector\n\nIntegrate your favorite ML-models to store, index and search vector embe",
+        "href": "/modules/vector",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Vector Integrate your favorite ML-models to store, index and search vector embeddings. OpenAI Hugging Face",
+          "top": 863,
+          "left": 726,
+          "width": 263,
+          "height": 400
+        }
+      },
+      {
+        "text": "Data APIs\n\nInstant ready-to-use REST APIs.",
+        "href": "https://supabase.com/docs/guides/api",
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "20px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group",
+            "relative",
+            "w-full",
+            "sm:h-[400px]",
+            "flex",
+            "flex-col",
+            "gap-5",
+            "lg:flex-row"
+          ],
+          "text": "Data APIs Instant ready-to-use REST APIs.",
+          "top": 863,
+          "left": 1001,
+          "width": 263,
+          "height": 400
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@nerdburn It\u2019s fun, feels lightweight, and really quick to spin up user auth and a few tables. Almost too easy! Highly recommend.",
+          "top": 5226,
+          "left": -16,
+          "width": 288,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@nerdburn It\u2019s fun, feels lightweight, and really quick to spin up user auth and a few tables. Almost too easy! Highly recommend.",
+          "top": 5226,
+          "left": -16,
+          "width": 288,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@TyronBache Really impressed with @supabase's Assistant. It has helped me troubleshoot and solve complex CORS Configuration issues on Pinger.",
+          "top": 5426,
+          "left": -16,
+          "width": 288,
+          "height": 237
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@TyronBache Really impressed with @supabase's Assistant. It has helped me troubleshoot and solve complex CORS Configuration issues on Pinger.",
+          "top": 5426,
+          "left": -16,
+          "width": 288,
+          "height": 237
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@BowTiedQilin Working with @supabase has been one of the best dev experiences I've had lately. Incredibly easy to set up, great documentation, and so many fewer hoops to jump thr",
+          "top": 5671,
+          "left": -16,
+          "width": 288,
+          "height": 350
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@BowTiedQilin Working with @supabase has been one of the best dev experiences I've had lately. Incredibly easy to set up, great documentation, and so many fewer hoops to jump thr",
+          "top": 5671,
+          "left": -16,
+          "width": 288,
+          "height": 350
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@patrickc Very impressed by @supabase's growth. For new startups, they seem to have gone from \"promising\" to \"standard\" in remarkably short order.",
+          "top": 5286,
+          "left": 280,
+          "width": 288,
+          "height": 215
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@patrickc Very impressed by @supabase's growth. For new startups, they seem to have gone from \"promising\" to \"standard\" in remarkably short order.",
+          "top": 5286,
+          "left": 280,
+          "width": 288,
+          "height": 215
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@MinimEditor I\u2019ve always used Supabase just as a database. Yesterday, I helped debug a founder\u2019s vibe-coding project built with React + React Router \u2014 no backend server. The \u201cbac",
+          "top": 5508,
+          "left": 280,
+          "width": 288,
+          "height": 395
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@MinimEditor I\u2019ve always used Supabase just as a database. Yesterday, I helped debug a founder\u2019s vibe-coding project built with React + React Router \u2014 no backend server. The \u201cbac",
+          "top": 5508,
+          "left": 280,
+          "width": 288,
+          "height": 395
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@adm_lawson Love supabse edge functions. Cursor+Supabase+MCP+Docker desktop is all I need",
+          "top": 5911,
+          "left": 280,
+          "width": 288,
+          "height": 170
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@adm_lawson Love supabse edge functions. Cursor+Supabase+MCP+Docker desktop is all I need",
+          "top": 5911,
+          "left": 280,
+          "width": 288,
+          "height": 170
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@Aliahsan_sfv Okay, I finally tried Supabase today and wow... why did I wait so long? \ud83d\ude05 Went from 'how do I even start' to having auth + database + real-time updates working in l",
+          "top": 5326,
+          "left": 576,
+          "width": 288,
+          "height": 282
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "oklch(0.215 0.0025 159)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "1px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "24px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "bg-surface-75",
+            "border",
+            "group-hover/tweet-card:border-foreground-muted",
+            "transition-colors",
+            "rounded-2xl",
+            "p-6",
+            "drop-shadow-xs"
+          ],
+          "text": "@Aliahsan_sfv Okay, I finally tried Supabase today and wow... why did I wait so long? \ud83d\ude05 Went from 'how do I even start' to having auth + database + real-time updates working in l",
+          "top": 5326,
+          "left": 576,
+          "width": 288,
+          "height": 282
+        }
+      },
+      {
+        "style": {
+          "color": "oklch(0.95 0.00275 159)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "450",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid oklch(0.95 0.001485 159 / 0.075125)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "block",
+            "group/tweet-card"
+          ],
+          "text": "@orlandopedro_ Love @supabase custom domains makes the auth so much better",
+          "top": 5616,
+          "left": 576,
+          "width": 288,
+          "height": 192
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://supabase.com/_next/image?url=%2Fimages%2Findex%2Fproducts%2Fdatabase-dark.png&w=3840&q=100",
+        "alt": "Supabase Postgres database",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "antialiased",
+            "inset-0",
+            "object-contain",
+            "object-center",
+            "z-0"
+          ],
+          "text": "",
+          "top": 452,
+          "left": 457,
+          "width": 256,
+          "height": 398
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/_next/image?url=%2Fimages%2Findex%2Fproducts%2Fdatabase-light.png&w=3840&q=100",
+        "alt": "Supabase Postgres database",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "antialiased",
+            "inset-0",
+            "object-contain",
+            "object-center",
+            "z-0",
+            "w-full"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/auth.svg",
+        "alt": "Supabase Authentication user db rows",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center",
+            "xl:object-bottom"
+          ],
+          "text": "",
+          "top": 452,
+          "left": 727,
+          "width": 261,
+          "height": 398
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/auth-active.svg",
+        "alt": "Supabase Authentication user db rows",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center",
+            "xl:object-bottom",
+            "opacity-0"
+          ],
+          "text": "",
+          "top": 452,
+          "left": 727,
+          "width": 261,
+          "height": 398
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/auth-light.svg",
+        "alt": "Supabase Authentication user db rows",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center",
+            "xl:object-bottom"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/auth-active-light.svg",
+        "alt": "Supabase Authentication user db rows",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center",
+            "xl:object-bottom",
+            "opacity-0",
+            "group-hover:opacity-100"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/edge-functions-dark.svg",
+        "alt": "Supabase Edge Functions globe",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center"
+          ],
+          "text": "",
+          "top": 452,
+          "left": 1002,
+          "width": 261,
+          "height": 398
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/edge-functions-light.svg",
+        "alt": "Supabase Edge Functions globe",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "inset-0",
+            "object-cover",
+            "object-center"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/realtime-dark.svg",
+        "alt": "Supabase Realtime",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "object-cover",
+            "xl:object-center",
+            "inset-0"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 452,
+          "width": 261,
+          "height": 406
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/realtime-light.svg",
+        "alt": "Supabase Realtime",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "object-cover",
+            "xl:object-center",
+            "inset-0"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/vector-dark.svg",
+        "alt": "Supabase Vector graph",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "inset-0",
+            "z-0",
+            "object-contain",
+            "object-center"
+          ],
+          "text": "",
+          "top": 904,
+          "left": 695,
+          "width": 325,
+          "height": 358
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/vector-light.svg",
+        "alt": "Supabase Vector graph",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "inset-0",
+            "z-0",
+            "object-contain",
+            "object-center"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-dark.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "h-full!",
+            "object-contain",
+            "aspect-330/430!"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 657,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-light.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:block",
+            "h-full!",
+            "aspect-330/430!",
+            "not-sr-only"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 956,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-dark.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "h-full!",
+            "object-contain",
+            "aspect-330/430!"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 962,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-light.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:block",
+            "h-full!",
+            "aspect-330/430!",
+            "not-sr-only"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 1261,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-dark.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "h-full!",
+            "object-contain",
+            "aspect-330/430!"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 1267,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-lines-light.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:block",
+            "h-full!",
+            "aspect-330/430!",
+            "not-sr-only"
+          ],
+          "text": "",
+          "top": 864,
+          "left": 1567,
+          "width": 299,
+          "height": 390
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-dark.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "hidden",
+            "dark:block",
+            "absolute",
+            "h-full!",
+            "aspect-330/430",
+            "inset-0",
+            "z-10",
+            "object-contain"
+          ],
+          "text": "",
+          "top": 858,
+          "left": 1002,
+          "width": 261,
+          "height": 398
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://supabase.com/images/index/products/data-apis-light.svg",
+        "alt": "Supabase restful DataAPIs",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "dark:hidden",
+            "absolute",
+            "h-full",
+            "aspect-330/430",
+            "inset-0",
+            "z-10",
+            "object-contain",
+            "-mt-1.5"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "oklch(0.95 0.001485 159 / 0.075125)",
+        "count": 2274
+      },
+      {
+        "value": "oklch(0.95 0.00275 159)",
+        "count": 1697
+      },
+      {
+        "value": "oklch(0.684 0.00275 159)",
+        "count": 471
+      },
+      {
+        "value": "oklch(0.19 0.0025 159)",
+        "count": 66
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 56
+      },
+      {
+        "value": "oklch(0.215 0.0025 159)",
+        "count": 42
+      },
+      {
+        "value": "rgb(62, 207, 142)",
+        "count": 22
+      },
+      {
+        "value": "oklch(0.95 0.001375 159 / 0.134738)",
+        "count": 19
+      },
+      {
+        "value": "oklab(0.684 -0.00256735 0.000985512 / 0.1)",
+        "count": 19
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 15
+      },
+      {
+        "value": "rgb(189, 164, 255)",
+        "count": 13
+      },
+      {
+        "value": "oklch(0.798 0.00275 159)",
+        "count": 10
+      },
+      {
+        "value": "oklch(0.95 0.00275 159 / 0.0328947)",
+        "count": 6
+      },
+      {
+        "value": "oklab(0.684 -0.00256735 0.000985512 / 0.3)",
+        "count": 6
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.6)",
+        "count": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.65)",
+        "count": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "count": 5
+      },
+      {
+        "value": "rgb(255, 205, 161)",
+        "count": 3
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter",
+        "count": 2195
+      },
+      {
+        "value": "Source Code Pro",
+        "count": 77
+      },
+      {
+        "value": "Manrope",
+        "count": 31
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 72
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 61
+      },
+      {
+        "value": "4px",
+        "count": 27
+      },
+      {
+        "value": "16px",
+        "count": 16
+      },
+      {
+        "value": "6px",
+        "count": 13
+      },
+      {
+        "value": "12px",
+        "count": 7
+      },
+      {
+        "value": "11px",
+        "count": 7
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 2
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "rgba(255, 255, 255, 0.12) 0px 0px 0px 1px inset",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.999994 0.0000455678 0.0000200868 / 0.3) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+    ],
+    "cssVars": {
+      "--toast-icon-margin-start": "-3px",
+      "--toast-icon-margin-end": "4px",
+      "--toast-svg-margin-start": "-1px",
+      "--toast-svg-margin-end": "0px",
+      "--toast-button-margin-start": "auto",
+      "--toast-button-margin-end": "0",
+      "--toast-close-button-start": "0",
+      "--toast-close-button-end": "unset",
+      "--toast-close-button-transform": "translate(-35%, -35%)",
+      "--gray1": "hsl(0, 0%, 99%)",
+      "--gray2": "hsl(0, 0%, 97.3%)",
+      "--gray3": "hsl(0, 0%, 95.1%)",
+      "--gray4": "hsl(0, 0%, 93%)",
+      "--gray5": "hsl(0, 0%, 90.9%)",
+      "--gray6": "hsl(0, 0%, 88.7%)",
+      "--gray7": "hsl(0, 0%, 85.8%)",
+      "--gray8": "hsl(0, 0%, 78%)",
+      "--gray9": "hsl(0, 0%, 56.1%)",
+      "--gray10": "hsl(0, 0%, 52.3%)",
+      "--gray11": "hsl(0, 0%, 43.5%)",
+      "--gray12": "hsl(0, 0%, 9%)",
+      "--border-radius": "8px",
+      "--y": "translateY(100%)",
+      "--lift-amount": "calc(var(--lift) * var(--gap))",
+      "--lift": "1",
+      "--scale": "var(--toasts-before) * .05 + 1",
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray4)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "hsl(143, 85%, 96%)",
+      "--success-border": "hsl(145, 92%, 91%)",
+      "--success-text": "hsl(140, 100%, 27%)",
+      "--info-bg": "hsl(208, 100%, 97%)",
+      "--info-border": "hsl(221, 91%, 91%)",
+      "--info-text": "hsl(210, 92%, 45%)",
+      "--warning-bg": "hsl(49, 100%, 97%)",
+      "--warning-border": "hsl(49, 91%, 91%)",
+      "--warning-text": "hsl(31, 92%, 45%)",
+      "--error-bg": "hsl(359, 100%, 97%)",
+      "--error-border": "hsl(359, 100%, 94%)",
+      "--error-text": "hsl(360, 100%, 45%)",
+      "--size": "16px"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header><div class=\"section-container relative py-16 sm:py-18 md:py-24 pt-12 pb-8 md:pt-40! md:pb-16\"><div class=\"flex flex-col gap-6 lg:gap-8\"><div class=\"grid grid-cols-1 lg:grid-cols-2 gap-4 items-end\"><h1 class=\"text-foreground text-4xl sm:text-5xl sm:leading-none\"><span class=\"block\">Build in a weekend</span><span class=\"text-brand block\">Scale to millions</span></h1><p class=\"text-foreground-lighter text-balance\">Start your project with a Postgres database. Add Authentication, Data APIs, E\u2026",
+    "heroHtml": "<div class=\"grid grid-cols-1 lg:grid-cols-2 gap-4 items-end\"><h1 class=\"text-foreground text-4xl sm:text-5xl sm:leading-none\"><span class=\"block\">Build in a weekend</span><span class=\"text-brand block\">Scale to millions</span></h1><p class=\"text-foreground-lighter text-balance\">Start your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings.</p></div>",
+    "footerHtml": "<footer class=\"bg-alternative\"><h2 id=\"footerHeading\" class=\"sr-only\">Footer</h2><div class=\"w-full py-0!\"><div class=\"section-container relative py-16 sm:py-18 md:py-24 grid grid-cols-2 md:flex items-center justify-between text-foreground md:justify-center gap-8 md:gap-16 xl:gap-28 py-6! md:py-10! text-sm\"><div class=\"flex flex-col md:flex-row gap-2 md:items-center\">We protect your data.<a class=\"text-brand-link hover:underline\" href=\"/security\">More on Security</a></div><ul class=\"flex flex-co\u2026"
+  },
+  "status": 200,
+  "final_url": "https://supabase.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 10,
+    "section_count": 9,
+    "nav_count": 2,
+    "button_count": 16,
+    "img_count": 57,
+    "footer_count": 1
+  }
+}

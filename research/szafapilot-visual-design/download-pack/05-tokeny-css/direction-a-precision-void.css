@@ -1,0 +1,76 @@
+/* Szafapilot — Direction A: Precision Void
+   Podmień font-face URL-e na lokalne / CDN zgodne z licencją. */
+
+:root {
+  --sp-font-display: "Satoshi", "Cabinet Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  --sp-font-mono: "IBM Plex Mono", "Geist Mono", ui-monospace, monospace;
+
+  --sp-bg: #0f0e0c;
+  --sp-bg-elevated: #181714;
+  --sp-text: #f5f5f4;
+  --sp-text-muted: #a1a1aa;
+  --sp-border: rgba(255, 255, 255, 0.1);
+  --sp-accent: #2dd4bf;
+  --sp-cta-bg: #fafaf9;
+  --sp-cta-fg: #0c0a09;
+  --sp-cta-secondary-bg: transparent;
+  --sp-cta-secondary-border: rgba(255, 255, 255, 0.18);
+
+  --sp-radius-control: 8px;
+  --sp-radius-button: 999px;
+  --sp-radius-stage: 20px;
+
+  --sp-shadow-stage: 0 24px 80px rgba(0, 0, 0, 0.45);
+  --sp-space-section: 96px;
+  --sp-content-max: 1120px;
+
+  --sp-h1-size: clamp(2.25rem, 4vw, 3.75rem);
+  --sp-h1-tracking: -0.04em;
+  --sp-body-size: 1rem;
+  --sp-body-leading: 1.5;
+}
+
+body {
+  margin: 0;
+  background: var(--sp-bg);
+  color: var(--sp-text);
+  font-family: var(--sp-font-body);
+  font-size: var(--sp-body-size);
+  line-height: var(--sp-body-leading);
+}
+
+h1, .display {
+  font-family: var(--sp-font-display);
+  font-size: var(--sp-h1-size);
+  letter-spacing: var(--sp-h1-tracking);
+  font-weight: 650;
+  line-height: 1.05;
+}
+
+.btn-primary {
+  background: var(--sp-cta-bg);
+  color: var(--sp-cta-fg);
+  border-radius: var(--sp-radius-button);
+  border: 0;
+  padding: 0.85rem 1.25rem;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background: var(--sp-cta-secondary-bg);
+  color: var(--sp-text);
+  border-radius: var(--sp-radius-button);
+  border: 1px solid var(--sp-cta-secondary-border);
+  padding: 0.85rem 1.25rem;
+}
+
+.stage {
+  border: 1px solid var(--sp-border);
+  border-radius: var(--sp-radius-stage);
+  background: var(--sp-bg-elevated);
+  box-shadow: var(--sp-shadow-stage);
+}
+
+.accent { color: var(--sp-accent); }
+.mono { font-family: var(--sp-font-mono); }

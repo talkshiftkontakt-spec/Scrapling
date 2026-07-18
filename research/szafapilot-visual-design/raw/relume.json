@@ -1,0 +1,2957 @@
+{
+  "name": "relume",
+  "url": "https://www.relume.io",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/relume-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/relume-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/relume-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/relume-full.png",
+  "design": {
+    "url": "https://www.relume.ai/",
+    "title": "Relume \u2014 Websites designed & built faster with AI | AI website builder",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 9648
+    },
+    "themeGuess": "light",
+    "luminance": 0.9414439215686274,
+    "bodyStyle": {
+      "color": "rgb(22, 22, 22)",
+      "backgroundColor": "rgb(241, 240, 238)",
+      "backgroundImage": "none",
+      "fontFamily": "Relative, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(22, 22, 22)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "div",
+        "id": null,
+        "classes": [
+          "navbar-new_component",
+          "w-nav"
+        ],
+        "text": "Products Community PricingLearnContact Sales Log inStart for free Start for free",
+        "top": 35,
+        "left": 0,
+        "width": 1440,
+        "height": 80
+      },
+      "style": {
+        "color": "rgb(22, 22, 22)",
+        "backgroundColor": "rgba(241, 240, 238, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Relative, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(22, 22, 22)",
+        "padding": "0px 40px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "AI Site BuilderCreate Sitemaps & Wireframes in minutes",
+        "Webflow Library1k+ Client-First Webflow components",
+        "Figma Library1k+ Figma components",
+        "React Library1k+ React components",
+        "Style Guide BuilderOn-brand design concepts in minutes",
+        "Claude Design\u00a0ExportYour design system - native in Claude Design",
+        "Relume Library MCPThe Relume library - now inside your AI editor",
+        "Relume IpsumAI copywriting in Figma",
+        "View all",
+        "July 1, 2026The Relume Library MCP, Now Live in Your AI Editor",
+        "July 1, 2026The Relume Library MCP, Now Live in Your AI Editor",
+        "May 6, 2026Your Design System, Native in Claude Design",
+        "May 6, 2026Your Design System, Native in Claude Design",
+        "Join the Community",
+        "Community Love",
+        "Showcase",
+        "Inspiration Feed",
+        "Pricing",
+        "Learn",
+        "Apply",
+        "Apply",
+        "Contact Sales",
+        "Sign in",
+        "Start for free",
+        "Launch",
+        "Use example",
+        "PlanSitemapsQuickly map out your website pages with an AI-generated sitemapGive it a try",
+        "StructureWireframesEffortlessly structure your pages and copy with distraction-free wireframesGive it a try",
+        "ConceptualiseStyle GuideInstantly create design concepts and apply the winning style across pagesGive it a try",
+        "example"
+      ]
+    },
+    "footer": {
+      "box": null,
+      "style": null
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "main-wrapper"
+        ],
+        "text": "1 Million+ Designers & Developers trust Relume Websites designed & built faster with AI Use AI as your design ally, not a replacement. Instantly generate Sitemaps, Wireframes and ",
+        "top": 115,
+        "left": 0,
+        "width": 1440,
+        "height": 8736
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "section_new-home_logo"
+        ],
+        "top": 1775,
+        "height": 206,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Used by leading brands and companies from across the globe",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "section_new-home_primary-feature"
+        ],
+        "top": 1981,
+        "height": 2621,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Prompt to",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "section_new-home_secondary-features"
+        ],
+        "top": 4601,
+        "height": 1116,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Cross-team",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "section_new-home_relume-library"
+        ],
+        "top": 5717,
+        "height": 1092,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Our Building Blocks",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "section_new-home_showcase"
+        ],
+        "top": 6809,
+        "height": 819,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "section_community"
+        ],
+        "top": 7627,
+        "height": 1223,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Helping Lumers streamline their workflow and deliver faster",
+        "headingTag": "h2",
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Websites designed & built faster with AI",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Relative Faux\", sans-serif",
+          "fontSize": "88px",
+          "fontWeight": "400",
+          "lineHeight": "96.8px",
+          "letterSpacing": "-1.76px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "new-home_header_heading-copy"
+          ],
+          "text": "Websites designed & built faster with AI",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sitemaps",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Sitemaps",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Wireframes",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Wireframes",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Style Guide",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Style Guide",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Websites designed & built faster with AI",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Relative Faux\", sans-serif",
+          "fontSize": "96px",
+          "fontWeight": "400",
+          "lineHeight": "105.6px",
+          "letterSpacing": "-1.92px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "new-home_header_heading"
+          ],
+          "text": "Websites designed & built faster with AI",
+          "top": 276,
+          "left": 240,
+          "width": 960,
+          "height": 211
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sitemaps",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Sitemaps",
+          "top": 1101,
+          "left": 217,
+          "width": 164,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Wireframes",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Wireframes",
+          "top": 1101,
+          "left": 619,
+          "width": 202,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Style Guide",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Style Guide",
+          "top": 1101,
+          "left": 1041,
+          "width": 201,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Used by leading brands and companies from across the globe",
+        "style": {
+          "color": "rgba(22, 22, 22, 0.75)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "21.6px",
+          "letterSpacing": "-0.36px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgba(22, 22, 22, 0.75)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-size-medium",
+            "text-weight-normal",
+            "text-color-grey"
+          ],
+          "text": "Used by leading brands and companies from across the globe",
+          "top": 1775,
+          "left": 336,
+          "width": 768,
+          "height": 22
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Prompt to",
+        "style": {
+          "color": "rgb(104, 104, 104)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(104, 104, 104)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-tagline"
+          ],
+          "text": "Prompt to",
+          "top": 2425,
+          "left": 120,
+          "width": 520,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sitemap",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "67.2px",
+          "letterSpacing": "-1.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h1"
+          ],
+          "text": "Sitemap",
+          "top": 2459,
+          "left": 120,
+          "width": 203,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Map out key content",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "Map out key content",
+          "top": 2869,
+          "left": 120,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Scope projects better",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "Scope projects better",
+          "top": 2869,
+          "left": 405,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sitemap to",
+        "style": {
+          "color": "rgb(104, 104, 104)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(104, 104, 104)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-tagline"
+          ],
+          "text": "Sitemap to",
+          "top": 3177,
+          "left": 800,
+          "width": 520,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Wireframe",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "67.2px",
+          "letterSpacing": "-1.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h1"
+          ],
+          "text": "Wireframe",
+          "top": 3211,
+          "left": 800,
+          "width": 257,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Editing super powers",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "Editing super powers",
+          "top": 3642,
+          "left": 800,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "No AI-template gimmicks",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "No AI-template gimmicks",
+          "top": 3642,
+          "left": 1085,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Wireframes to",
+        "style": {
+          "color": "rgb(104, 104, 104)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(104, 104, 104)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-tagline"
+          ],
+          "text": "Wireframes to",
+          "top": 3981,
+          "left": 120,
+          "width": 520,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Style Guide",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "67.2px",
+          "letterSpacing": "-1.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h1"
+          ],
+          "text": "Style Guide",
+          "top": 4015,
+          "left": 120,
+          "width": 282,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Streamline approvals",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "Streamline approvals",
+          "top": 4394,
+          "left": 120,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Build faster",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "28px",
+          "letterSpacing": "-0.4px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h6"
+          ],
+          "text": "Build faster",
+          "top": 4394,
+          "left": 405,
+          "width": 236,
+          "height": 28
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Cross-team",
+        "style": {
+          "color": "rgb(104, 104, 104)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(104, 104, 104)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-tagline"
+          ],
+          "text": "Cross-team",
+          "top": 5021,
+          "left": 144,
+          "width": 128,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Collaboration",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Collaboration",
+          "top": 5059,
+          "left": 144,
+          "width": 242,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Export to",
+        "style": {
+          "color": "rgb(104, 104, 104)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "33.6px",
+          "letterSpacing": "-0.48px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(104, 104, 104)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-tagline"
+          ],
+          "text": "Export to",
+          "top": 5021,
+          "left": 800,
+          "width": 100,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Figma, Webflow, React &\u00a0Claude Design",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Figma, Webflow, React & Claude Design",
+          "top": 5059,
+          "left": 800,
+          "width": 496,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Native in\nClaude Design.",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.8px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h3"
+          ],
+          "text": "Native in Claude Design.",
+          "top": 5404,
+          "left": 768,
+          "width": 263,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Our Building Blocks",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "67.2px",
+          "letterSpacing": "-1.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "heading-style-h1"
+          ],
+          "text": "Our Building Blocks",
+          "top": 5874,
+          "left": 80,
+          "width": 702,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Figma Library",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "38.4px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h4"
+          ],
+          "text": "Figma Library",
+          "top": 6313,
+          "left": 109,
+          "width": 353,
+          "height": 38
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Webflow Library",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "38.4px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h4"
+          ],
+          "text": "Webflow Library",
+          "top": 6313,
+          "left": 544,
+          "width": 353,
+          "height": 38
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "React Library",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "38.4px",
+          "letterSpacing": "-0.64px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "heading-style-h4"
+          ],
+          "text": "React Library",
+          "top": 6313,
+          "left": 978,
+          "width": 353,
+          "height": 38
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Learn\u00a0More",
+        "href": "/relume-library-mcp",
+        "style": {
+          "color": "rgb(98, 72, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(98, 72, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "banner-claude_cta",
+            "w-inline-block"
+          ],
+          "text": "Learn More",
+          "top": 7,
+          "left": 888,
+          "width": 94,
+          "height": 21
+        }
+      },
+      {
+        "text": "",
+        "href": "/?r=0",
+        "style": {
+          "color": "rgb(51, 51, 51)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(51, 51, 51)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar-new_logo-link",
+            "w-nav-brand"
+          ],
+          "text": "",
+          "top": 58,
+          "left": 40,
+          "width": 340,
+          "height": 34
+        }
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": "w-dropdown-toggle-0",
+          "classes": [
+            "navbar_dropdown-toggle",
+            "w-dropdown-toggle"
+          ],
+          "text": "Products",
+          "top": 55,
+          "left": 464,
+          "width": 113,
+          "height": 40
+        }
+      },
+      {
+        "text": "Community",
+        "href": null,
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": "w-dropdown-toggle-1",
+          "classes": [
+            "navbar_dropdown-toggle",
+            "w-dropdown-toggle"
+          ],
+          "text": "Community",
+          "top": 55,
+          "left": 578,
+          "width": 129,
+          "height": 40
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar_link",
+            "w-nav-link"
+          ],
+          "text": "Pricing",
+          "top": 55,
+          "left": 706,
+          "width": 75,
+          "height": 40
+        }
+      },
+      {
+        "text": "Learn",
+        "href": "/resources",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar_link",
+            "w-nav-link"
+          ],
+          "text": "Learn",
+          "top": 55,
+          "left": 781,
+          "width": 66,
+          "height": 40
+        }
+      },
+      {
+        "text": "Contact Sales",
+        "href": "/contact-sales",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar_link",
+            "w-nav-link"
+          ],
+          "text": "Contact Sales",
+          "top": 55,
+          "left": 848,
+          "width": 128,
+          "height": 40
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/app/login",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar-new_cta-button-secondary",
+            "w-nav-link"
+          ],
+          "text": "Log in",
+          "top": 55,
+          "left": 1189,
+          "width": 68,
+          "height": 40
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "/app/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(22, 22, 22)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "2px solid rgba(0, 0, 0, 0)",
+          "padding": "10px 16px",
+          "margin": "0px 0px 0px 8px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar-new_cta-button",
+            "w-button"
+          ],
+          "text": "Start for free",
+          "top": 55,
+          "left": 1265,
+          "width": 135,
+          "height": 40
+        }
+      },
+      {
+        "text": "",
+        "href": "/?r=0",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(241, 240, 238, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "320px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar-new_logo-button",
+            "w-inline-block"
+          ],
+          "text": "",
+          "top": 51,
+          "left": 32,
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "text": "Start for free",
+        "href": "/app/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(22, 22, 22)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "2px solid rgba(0, 0, 0, 0)",
+          "padding": "10px 16px",
+          "margin": "0px 0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "navbar_button",
+            "w-button"
+          ],
+          "text": "Start for free",
+          "top": 56,
+          "left": 1265,
+          "width": 135,
+          "height": 40
+        }
+      },
+      {
+        "text": "Plan\nSitemaps\nQuickly map out your website pages with an AI-generated sitemap\nGi",
+        "href": "https://relume.io/app/project/create?#mode=sitemap",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "new-home_header_feature-link",
+            "w-inline-block"
+          ],
+          "text": "Plan Sitemaps Quickly map out your website pages with an AI-generated sitemap Give it a try",
+          "top": 1027,
+          "left": 100,
+          "width": 397,
+          "height": 636
+        }
+      },
+      {
+        "text": "Structure\nWireframes\nEffortlessly structure your pages and copy with distraction",
+        "href": "https://relume.io/app/project/create?#mode=wireframe",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "new-home_header_feature-link",
+            "w-inline-block"
+          ],
+          "text": "Structure Wireframes Effortlessly structure your pages and copy with distraction-free wireframes Give it a try",
+          "top": 1027,
+          "left": 521,
+          "width": 397,
+          "height": 636
+        }
+      },
+      {
+        "text": "Conceptualise\nStyle Guide\nInstantly create design concepts and apply the winning",
+        "href": "https://relume.io/app/project/create?#mode=styleguide",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "new-home_header_feature-link",
+            "w-inline-block"
+          ],
+          "text": "Conceptualise Style Guide Instantly create design concepts and apply the winning style across pages Give it a try",
+          "top": 1027,
+          "left": 943,
+          "width": 397,
+          "height": 636
+        }
+      },
+      {
+        "text": "Shuffle",
+        "href": "#",
+        "style": {
+          "color": "rgb(98, 72, 255)",
+          "backgroundColor": "rgb(224, 218, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "0px none rgb(98, 72, 255)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "new-home_header_shuffle-button",
+            "w-inline-block"
+          ],
+          "text": "Shuffle",
+          "top": 669,
+          "left": 51,
+          "width": 93,
+          "height": 32
+        }
+      },
+      {
+        "text": "Cookie Settings",
+        "href": "#",
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": "w-node-_026c7a93-a3d5-dfa1-6d38-d0da94423970-94423962",
+          "classes": [
+            "fs-cc-banner_text-link",
+            "button-text-link"
+          ],
+          "text": "Cookie Settings",
+          "top": 820,
+          "left": 48,
+          "width": 118,
+          "height": 24
+        }
+      },
+      {
+        "text": "Accept Cookies",
+        "href": "#",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(22, 22, 22)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "2px solid rgb(22, 22, 22)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "fs-cc-banner_button",
+            "w-button"
+          ],
+          "text": "Accept Cookies",
+          "top": 812,
+          "left": 178,
+          "width": 153,
+          "height": 40
+        }
+      },
+      {
+        "text": "Open Intercom Messenger",
+        "href": null,
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgb(22, 22, 22)",
+          "backgroundImage": "none",
+          "fontFamily": "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "48px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "intercom-lightweight-app-launcher",
+            "intercom-launcher"
+          ],
+          "text": "",
+          "top": 828,
+          "left": 1368,
+          "width": 48,
+          "height": 48
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card"
+          ],
+          "text": "Prompt to Sitemap The best way to start off your new project. Use AI to map out all your key pages with just a few sentences about your company. Effortlessly create a complete sit",
+          "top": 2345,
+          "left": 40,
+          "width": 1360,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "80px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content"
+          ],
+          "text": "Prompt to Sitemap The best way to start off your new project. Use AI to map out all your key pages with just a few sentences about your company. Effortlessly create a complete sit",
+          "top": 2345,
+          "left": 40,
+          "width": 680,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-wrapper",
+            "is-sitemap"
+          ],
+          "text": "Prompt to Sitemap The best way to start off your new project. Use AI to map out all your key pages with just a few sentences about your company. Effortlessly create a complete sit",
+          "top": 2425,
+          "left": 120,
+          "width": 520,
+          "height": 560
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-top"
+          ],
+          "text": "Prompt to Sitemap The best way to start off your new project. Use AI to map out all your key pages with just a few sentences about your company. Effortlessly create a complete sit",
+          "top": 2425,
+          "left": 120,
+          "width": 520,
+          "height": 233
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card"
+          ],
+          "text": "Sitemap to Wireframe Achieve your first draft in the first minute. Sit back and watch Ai magically turn your Sitemap into wireframes in one click generating real components un-sty",
+          "top": 3097,
+          "left": 40,
+          "width": 1360,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "80px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content"
+          ],
+          "text": "Sitemap to Wireframe Achieve your first draft in the first minute. Sit back and watch Ai magically turn your Sitemap into wireframes in one click generating real components un-sty",
+          "top": 3097,
+          "left": 720,
+          "width": 680,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-wrapper",
+            "is-wireframe"
+          ],
+          "text": "Sitemap to Wireframe Achieve your first draft in the first minute. Sit back and watch Ai magically turn your Sitemap into wireframes in one click generating real components un-sty",
+          "top": 3177,
+          "left": 800,
+          "width": 520,
+          "height": 560
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-top"
+          ],
+          "text": "Sitemap to Wireframe Achieve your first draft in the first minute. Sit back and watch Ai magically turn your Sitemap into wireframes in one click generating real components un-sty",
+          "top": 3177,
+          "left": 800,
+          "width": 520,
+          "height": 233
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "0px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card"
+          ],
+          "text": "New Wireframes to Style Guide In freelancing and agency work, time is money. Streamline one of the most time-consuming stages of web design with our Style Guide Builder\u2014create vis",
+          "top": 3849,
+          "left": 40,
+          "width": 1360,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "80px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content"
+          ],
+          "text": "New Wireframes to Style Guide In freelancing and agency work, time is money. Streamline one of the most time-consuming stages of web design with our Style Guide Builder\u2014create vis",
+          "top": 3849,
+          "left": 40,
+          "width": 680,
+          "height": 720
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-wrapper",
+            "is-sitemap"
+          ],
+          "text": "New Wireframes to Style Guide In freelancing and agency work, time is money. Streamline one of the most time-consuming stages of web design with our Style Guide Builder\u2014create vis",
+          "top": 3929,
+          "left": 120,
+          "width": 520,
+          "height": 560
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_primary-feature_card-content-top"
+          ],
+          "text": "New Wireframes to Style Guide In freelancing and agency work, time is money. Streamline one of the most time-consuming stages of web design with our Style Guide Builder\u2014create vis",
+          "top": 3929,
+          "left": 120,
+          "width": 520,
+          "height": 285
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new-home_collab-feature_card"
+          ],
+          "text": "Sue Lang \u2022 49 minutes ago I\u2019ve actioned all your comments. Let me know what you think! Reply Cross-team Collaboration Collaborate with the team and clients. Share projects and lea",
+          "top": 4633,
+          "left": 80,
+          "width": 624,
+          "height": 691
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "48px 64px 64px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new_secondary-feature_card-content"
+          ],
+          "text": "Cross-team Collaboration Collaborate with the team and clients. Share projects and leave comments to streamline communication and get your designs approved.",
+          "top": 4973,
+          "left": 80,
+          "width": 624,
+          "height": 351
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(22, 22, 22)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Relative, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(22, 22, 22)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "new_secondary-feature_card-content-top"
+          ],
+          "text": "Cross-team Collaboration Collaborate with the team and clients. Share projects and leave comments to streamline communication and get your designs approved.",
+          "top": 5021,
+          "left": 144,
+          "width": 496,
+          "height": 191
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65b1a12e3211534c63d294b5_Guest%20Green%20Cursor.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "cursor"
+          ],
+          "text": "",
+          "top": 448,
+          "left": 712,
+          "width": 72,
+          "height": 48
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/658a0bd1a643c0b4588a80af_relume%20logo%20no%20symbol.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar-new_logo",
+            "hide-tablet"
+          ],
+          "text": "",
+          "top": 58,
+          "left": 40,
+          "width": 111,
+          "height": 34
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/659f6c11eb69d1510ba12158_Dashboard%20Logo.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar-new_logo",
+            "show-tablet"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65b1a6353fe69352be714507_Site%20Builder%20Icon%20(Smooth).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65b1a5bb449e0bb467854101_Webflow%20Library%20Icon%20(Smooth).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65b1a5a9ac8d073ce51206c9_Figma%20Library%20Icon%20(Smooth).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65f8e468c7cfd863aef27641_React%20Library%20Icon%20(Smooth).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/69255a297b7ba6ed1ec0f453_Style%20Guide%20(Smooth)No%20Gradient.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/6a43225197ad7187ef4aa106_icon_claude-design.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/6a42c10cbd163af206c377d2_icon_mcp-library.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65b29814eab2ab3c2b0c9501_Relume%20Ipsum%20Icon%20(Smooth)No%20Gradient.svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_dropdown-link-product-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6a445b58505466c5e1b33cfa_image.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_whats-new-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6a445b58505466c5e1b33cfa_image.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_whats-new-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6a445be4852e3addbfe301b8_claude.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_whats-new-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/61789b489343c8242282a0ae/6a445be4852e3addbfe301b8_claude.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar_whats-new-image"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/65ab316a98b1254dc17f79f1_relume%20logo%20symbol%20with%20shadow.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "navbar-new_logo-image"
+          ],
+          "text": "",
+          "top": 58,
+          "left": 38,
+          "width": 37,
+          "height": 40
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/67c02b2d7cb6996af16a4085_Sitemap%20Image%20Left%20(v2).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "header_sitemap-image-left"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/67c02b2dc8dce8bbfcf1a6c2_Sitemap%20Image%20Middle%201%20(v2).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "header_sitemap-image-middle1"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/67c0292a44f7e798c49d136f_Sitemap%20Image%20Middle%202%20(v2).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "header_sitemap-image-middle2"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/67c02b2ddbf69cb9c14d41c3_Sitemap%20Image%20Right%20(v2).svg",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "header_sitemap-image-right"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(22, 22, 22)",
+        "count": 1588
+      },
+      {
+        "value": "rgb(104, 104, 104)",
+        "count": 60
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 35
+      },
+      {
+        "value": "rgb(98, 72, 255)",
+        "count": 31
+      },
+      {
+        "value": "rgb(34, 34, 34)",
+        "count": 20
+      },
+      {
+        "value": "rgb(241, 240, 238)",
+        "count": 15
+      },
+      {
+        "value": "rgb(228, 226, 223)",
+        "count": 9
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.15)",
+        "count": 7
+      },
+      {
+        "value": "rgba(22, 22, 22, 0.15)",
+        "count": 5
+      },
+      {
+        "value": "rgb(51, 51, 51)",
+        "count": 4
+      },
+      {
+        "value": "rgba(22, 22, 22, 0.75)",
+        "count": 4
+      },
+      {
+        "value": "rgba(22, 22, 22, 0.6)",
+        "count": 4
+      },
+      {
+        "value": "rgba(22, 22, 22, 0)",
+        "count": 3
+      },
+      {
+        "value": "rgb(224, 218, 255)",
+        "count": 2
+      },
+      {
+        "value": "rgba(241, 240, 238, 0)",
+        "count": 2
+      },
+      {
+        "value": "rgba(104, 104, 104, 0.9)",
+        "count": 2
+      },
+      {
+        "value": "rgba(22, 22, 22, 0.08)",
+        "count": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Relative",
+        "count": 870
+      },
+      {
+        "value": "Relative Faux",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 58
+      },
+      {
+        "value": "16px",
+        "count": 19
+      },
+      {
+        "value": "6px",
+        "count": 16
+      },
+      {
+        "value": "10px",
+        "count": 15
+      },
+      {
+        "value": "7.6px",
+        "count": 8
+      },
+      {
+        "value": "14px",
+        "count": 6
+      },
+      {
+        "value": "5px",
+        "count": 3
+      },
+      {
+        "value": "100%",
+        "count": 1
+      },
+      {
+        "value": "320px",
+        "count": 1
+      },
+      {
+        "value": "0px 0px 16px 16px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.08) 0px 8px 10px -4px, rgba(0, 0, 0, 0.05) 0px 2px 10px 2px",
+      "rgba(255, 116, 72, 0.5) 0px 5px 8px -2px",
+      "rgba(0, 0, 0, 0.2) 0px 24px 48px 12px"
+    ],
+    "cssVars": {
+      "--light-grey-1": "#f1f0ee",
+      "--black": "#161616",
+      "--purple": "#6248ff",
+      "--light-grey-2": "#e4e2df",
+      "--white": "white",
+      "--orange": "#ff7448",
+      "--red": "#ff4848",
+      "--medium-grey": "#686868",
+      "--dark-gray": "#222",
+      "--tertiary-button-hover": "#241a0b0d",
+      "--light-grey-3": "#d8d5d1",
+      "--error": "#df3434",
+      "--outlines": "#16161626",
+      "--lavender-blush": "#faeeee",
+      "--green": "#2baa6d",
+      "--light-purple": "#e0daff",
+      "--code-block-background": "#222",
+      "--light-orange": "#fff1ed",
+      "--buttonHeight": "40px",
+      "--background": "#161616",
+      "--hoverBackground": "rgb(62, 62, 62)",
+      "--buttonFocusColor": "#ffffff",
+      "--diameter": "10px"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<div data-animation=\"default\" class=\"navbar-new_component w-nav\" data-easing2=\"ease\" fs-scrolldisable-element=\"smart-nav\" data-easing=\"ease\" data-collapse=\"medium\" data-w-id=\"da9abc01-baa4-7555-33da-e30fc4c12385\" role=\"banner\" data-duration=\"400\"><div class=\"navbar-new_container\"><a href=\"/?r=0\" aria-current=\"page\" class=\"navbar-new_logo-link w-nav-brand\"><img src=\"https://cdn.prod.website-files.com/6177739448baa66404ce1d9c/658a0bd1a643c0b4588a80af_relume%20logo%20no%20symbol.png\" loading=\"lazy\"\u2026",
+    "heroHtml": "<div class=\"home-exp5_header_one-center\"><h1 class=\"new-home_header_heading-copy\">Websites designed &amp; built faster with AI</h1><p class=\"home-exp5_header_subheading\">Use AI as your design ally, not a replacement. Instantly generate Sitemaps, Wireframes and Style Guides for marketing websites\u2014all in minutes</p></div>",
+    "footerHtml": null
+  },
+  "status": 200,
+  "final_url": "https://www.relume.ai/",
+  "html_signals": {
+    "h1_count": 3,
+    "h2_count": 20,
+    "section_count": 6,
+    "nav_count": 4,
+    "button_count": 0,
+    "img_count": 186,
+    "footer_count": 0
+  }
+}

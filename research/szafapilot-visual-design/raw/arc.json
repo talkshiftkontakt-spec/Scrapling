@@ -1,0 +1,927 @@
+{
+  "name": "arc",
+  "url": "https://arc.net",
+  "category": "chrome-extension",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/arc-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/arc-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/arc-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/arc-full.png",
+  "design": {
+    "url": "https://arc.net/",
+    "title": "Arc from The Browser Company",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 6125
+    },
+    "themeGuess": "light",
+    "luminance": 0.9862062745098038,
+    "bodyStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 252, 236)",
+      "backgroundImage": "none",
+      "fontFamily": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "c-gqwkJN",
+          "c-gqwkJN-ejCoEP-direction-row",
+          "c-gqwkJN-jroWjL-align-center",
+          "c-gqwkJN-awKDG-justify-start",
+          "c-gqwkJN-kVNAnR-wrap-no-wrap",
+          "c-gqwkJN-iPeWlq-gap-16"
+        ],
+        "text": "Max Mobile Developers Students Blog",
+        "top": 30,
+        "left": 80,
+        "width": 465,
+        "height": 36
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "16px",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Max",
+        "Mobile",
+        "Developers",
+        "Students",
+        "Blog"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "c-fQOTre",
+          "c-fQOTre-iHvQKn-css"
+        ],
+        "text": "Enter your new home on the internet Download Arc for Windows PRODUCT Download Privacy Policy Terms of Use Security Arc Max Arc for iPhone Integrations Credits RESOURCES Resource Ce",
+        "top": 5623,
+        "left": 0,
+        "width": 1440,
+        "height": 502
+      },
+      "style": {
+        "color": "rgb(255, 252, 236)",
+        "backgroundColor": "rgb(49, 57, 251)",
+        "backgroundImage": "url(\"https://arc.net/noise-light.png\")",
+        "fontFamily": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(255, 252, 236)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "c-gtTkau"
+        ],
+        "text": "Meet Dia, the next evolution of Arc Weekly security updates, SOC 2 certification, and the Arc DNA you know (and love). Try Dia Arc is the Chrome replacement I've been waiting for",
+        "top": 90,
+        "left": 0,
+        "width": 1440,
+        "height": 5160
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "c-kXWSNC"
+        ],
+        "top": 90,
+        "height": 617,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 252, 236)",
+        "backgroundImage": "url(\"https://arc.net/images/dia-background-image.png\")",
+        "heading": null,
+        "headingTag": null,
+        "childCount": 5
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "c-gujhdE"
+        ],
+        "top": 707,
+        "height": 920,
+        "width": 1440,
+        "backgroundColor": "rgb(49, 57, 251)",
+        "backgroundImage": "url(\"https://arc.net/noise-light.png\")",
+        "heading": "Arc is the Chrome  replacement I've been  waiting for.",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "classes": [
+          "c-ivWXJT"
+        ],
+        "top": 1694,
+        "height": 3556,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 4
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "c-OBxzD"
+        ],
+        "top": 1822,
+        "height": 1080,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "c-OBxzD"
+        ],
+        "top": 2902,
+        "height": 1041,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "c-OBxzD"
+        ],
+        "top": 3942,
+        "height": 1041,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 3
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "c-OBxzD"
+        ],
+        "top": 4983,
+        "height": 140,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Arc is the Chrome  replacement I've been  waiting for.",
+        "style": {
+          "color": "rgb(255, 252, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "lineHeight": "31.2px",
+          "letterSpacing": "-1.6px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 252, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "none",
+          "gap": "normal",
+          "maxWidth": "1296px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "c-ilJunU"
+          ],
+          "text": "Arc is the Chrome replacement I've been waiting for.",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Arc is the Chrome replacement I've been waiting for.",
+        "style": {
+          "color": "rgb(255, 252, 236)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "45.51px",
+          "fontWeight": "700",
+          "lineHeight": "42.25px",
+          "letterSpacing": "-1.8204px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 252, 236)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "700px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "c-cWWJcT"
+          ],
+          "text": "Arc is the Chrome replacement I've been waiting for.",
+          "top": 857,
+          "left": 391,
+          "width": 659,
+          "height": 93
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Max",
+        "href": "/max",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.28px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-bsQNRu",
+            "c-bsQNRu-iifBZxa-css"
+          ],
+          "text": "Max",
+          "top": 30,
+          "left": 136,
+          "width": 69,
+          "height": 36
+        }
+      },
+      {
+        "text": "Mobile",
+        "href": "/search",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.28px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-bsQNRu",
+            "c-bsQNRu-iifBZxa-css"
+          ],
+          "text": "Mobile",
+          "top": 30,
+          "left": 213,
+          "width": 84,
+          "height": 36
+        }
+      },
+      {
+        "text": "Developers",
+        "href": "/developers",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.28px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-bsQNRu",
+            "c-bsQNRu-iifBZxa-css"
+          ],
+          "text": "Developers",
+          "top": 30,
+          "left": 305,
+          "width": 95,
+          "height": 36
+        }
+      },
+      {
+        "text": "Students",
+        "href": "/students",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.28px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-bsQNRu",
+            "c-bsQNRu-iifBZxa-css"
+          ],
+          "text": "Students",
+          "top": 30,
+          "left": 408,
+          "width": 79,
+          "height": 36
+        }
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Marlin Soft SQ\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.28px",
+          "borderRadius": "8px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "padding": "8px 10px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-bsQNRu",
+            "c-bsQNRu-iifBZxa-css"
+          ],
+          "text": "Blog",
+          "top": 30,
+          "left": 495,
+          "width": 50,
+          "height": 36
+        }
+      },
+      {
+        "text": "Try Dia",
+        "href": "https://diabrowser.com?utm_campaign=arc-cta",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0.85)",
+          "backgroundImage": "none",
+          "fontFamily": "\"ABC Oracle\", Helvetica, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "22px",
+          "boxShadow": "rgba(0, 0, 0, 0.25) 0px 2px 8px 0px",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "8px 22px 8px 8px",
+          "margin": "37px 612.891px 0px",
+          "display": "flex",
+          "gap": "16px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "c-koCplY"
+          ],
+          "text": "Try Dia",
+          "top": 279,
+          "left": 613,
+          "width": 214,
+          "height": 76
+        }
+      },
+      {
+        "text": "Download Arc for Windows",
+        "href": "https://releases.arc.net/windows/ArcInstaller.exe",
+        "style": {
+          "color": "rgb(255, 250, 221)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 250, 221)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Download Arc for Windows",
+          "top": 1094,
+          "left": 441,
+          "width": 273,
+          "height": 45
+        }
+      },
+      {
+        "text": "Download Arc for Windows",
+        "href": null,
+        "style": {
+          "color": "rgb(39, 2, 194)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "29px",
+          "letterSpacing": "-0.14px",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 5px 5px 0px",
+          "border": "0px none rgb(39, 2, 194)",
+          "padding": "8px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "c-bCeQxv",
+            "c-bCeQxv-jbZBFp-size-large",
+            "c-bCeQxv-ebGbss-type-primaryLight",
+            "c-bCeQxv-obFYN-border-false",
+            "c-bCeQxv-fitBEy-shadow-true"
+          ],
+          "text": "Download Arc for Windows",
+          "top": 1094,
+          "left": 441,
+          "width": 273,
+          "height": 45
+        }
+      },
+      {
+        "text": "Download Arc for Mac",
+        "href": "https://releases.arc.net/release/Arc-latest.dmg",
+        "style": {
+          "color": "rgb(255, 250, 221)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 250, 221)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "Download Arc for Mac",
+          "top": 1094,
+          "left": 726,
+          "width": 273,
+          "height": 45
+        }
+      },
+      {
+        "text": "Download Arc for Mac",
+        "href": null,
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(39, 2, 194)",
+          "backgroundImage": "none",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "29px",
+          "letterSpacing": "-0.14px",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 5px 5px 0px",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "8px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "10px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "c-bCeQxv",
+            "c-bCeQxv-jbZBFp-size-large",
+            "c-bCeQxv-dQyHWl-type-primaryLightAlt",
+            "c-bCeQxv-obFYN-border-false",
+            "c-bCeQxv-fitBEy-shadow-true"
+          ],
+          "text": "Download Arc for Mac",
+          "top": 1094,
+          "left": 726,
+          "width": 273,
+          "height": 45
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://arc.net/images/dia_app_icon.png",
+        "alt": "Dia Icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "c-kebRsL"
+          ],
+          "text": "",
+          "top": 287,
+          "left": 621,
+          "width": 60,
+          "height": 60
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://arc.net/images/dia-hero-image.png",
+        "alt": "Dia Hero Image",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "c-elxicI"
+          ],
+          "text": "",
+          "top": 380,
+          "left": 120,
+          "width": 1200,
+          "height": 693
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://arc.net/video/ArcDiaPLG_Video.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "c-eebHKF"
+          ],
+          "text": "",
+          "top": 452,
+          "left": 480,
+          "width": 720,
+          "height": 501
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://arc.net/_next/image?url=%2Fbrowser-mmmhome.png&w=3840&q=100",
+        "alt": "Screenshot of Arc by The Browser Company of New York",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "c-dkzSUV"
+          ],
+          "text": "",
+          "top": 1099,
+          "left": -15,
+          "width": 1470,
+          "height": 882
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://arc.net/zero-chrome.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1855,
+          "left": 0,
+          "width": 1440,
+          "height": 960
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://arc.net/space-swiping.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2896,
+          "left": 0,
+          "width": 1440,
+          "height": 960
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://arc.net/theme-picker.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 3936,
+          "left": 0,
+          "width": 1440,
+          "height": 960
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(49, 57, 251)",
+        "count": 240
+      },
+      {
+        "value": "rgb(255, 252, 236)",
+        "count": 107
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 96
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 48
+      },
+      {
+        "value": "rgb(255, 250, 221)",
+        "count": 40
+      },
+      {
+        "value": "rgb(105, 105, 105)",
+        "count": 18
+      },
+      {
+        "value": "rgb(39, 2, 194)",
+        "count": 13
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.65)",
+        "count": 2
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.85)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Marlin Soft SQ",
+        "count": 113
+      },
+      {
+        "value": "Marlin",
+        "count": 96
+      },
+      {
+        "value": "InterVariable",
+        "count": 44
+      },
+      {
+        "value": "-apple-system",
+        "count": 9
+      },
+      {
+        "value": "ABC Favorit Mono",
+        "count": 9
+      },
+      {
+        "value": "ABC Oracle",
+        "count": 6
+      },
+      {
+        "value": "Exposure VAR",
+        "count": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 9
+      },
+      {
+        "value": "10px",
+        "count": 3
+      },
+      {
+        "value": "22px",
+        "count": 1
+      },
+      {
+        "value": "4px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0.25) 0px 2px 8px 0px",
+      "rgba(0, 0, 0, 0.1) 0px 5px 5px 0px"
+    ],
+    "cssVars": {
+      "--sxs": "0 t-kuJjET",
+      "--padding": "32px",
+      "--page-padding-left": "max(env(safe-area-inset-left), var(--padding))",
+      "--page-padding-right": "max(env(safe-area-inset-right), var(--padding))",
+      "--max-width": "1280px",
+      "--navbar-height": "64px",
+      "--mobile-cta-height": "56px",
+      "--announcement-banner-height": "0px",
+      "--announcement-banner-height-desktop": "0px"
+    },
+    "metaTheme": "rgba(49, 57, 251, 1)"
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"c-ckytNz\"><h1 class=\"c-ilJunU\"><span aria-hidden=\"true\" class=\"c-gzjVCE\"></span>Arc is the Chrome <span class=\"c-kSpLvA\"></span> replacement I've been <span class=\"c-kSpLvA\"></span> waiting for.<span aria-hidden=\"true\" class=\"c-gzjVCE\"></span></h1><h1 class=\"c-cWWJcT\"><span aria-hidden=\"true\" class=\"c-gzjVCE\"></span>Arc is the Chrome replacement <span class=\"c-kSpLvA\"></span> I've been waiting for.<span aria-hidden=\"true\" class=\"c-gzjVCE\"></span></h1><a href=\"https://www.theverge.com\u2026",
+    "footerHtml": "<footer class=\"c-fQOTre c-fQOTre-iHvQKn-css\"><aside class=\"c-glZFUG c-glZFUG-iHvQKn-css\"><div class=\"c-gpgGSD\"><div class=\"c-cFXDkl\">Enter <em>your</em> new home on the internet</div><div class=\"PJLV PJLV-icmpvrW-css\"><div class=\"PJLV PJLV-ifbylVT-css\"><span class=\"c-PJLV c-PJLV-bkUkCi-os-other\"><div class=\"PJLV PJLV-icmpvrW-css\"><a tabindex=\"-1\" href=\"https://releases.arc.net/windows/ArcInstaller.exe\"><button class=\"c-bCeQxv c-bCeQxv-jbZBFp-size-large c-bCeQxv-ebGbss-type-primaryLight c-bCeQxv-\u2026"
+  },
+  "status": 200,
+  "final_url": "https://arc.net/",
+  "html_signals": {
+    "h1_count": 2,
+    "h2_count": 0,
+    "section_count": 5,
+    "nav_count": 1,
+    "button_count": 7,
+    "img_count": 3,
+    "footer_count": 1
+  }
+}

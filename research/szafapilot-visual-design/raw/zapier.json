@@ -1,0 +1,3425 @@
+{
+  "name": "zapier",
+  "url": "https://zapier.com",
+  "category": "automation",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/zapier-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/zapier-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/zapier-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/zapier-full.png",
+  "design": {
+    "url": "https://zapier.com/",
+    "title": "Zapier: Automate AI Workflows, Agents, and Apps",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 14236
+    },
+    "themeGuess": "light",
+    "luminance": 0.9960627450980392,
+    "bodyStyle": {
+      "color": "rgb(32, 21, 21)",
+      "backgroundColor": "rgb(255, 254, 251)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(32, 21, 21)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Times New Roman\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "zapier-marketing-ui-header-aA9JGvbY",
+          "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+        ],
+        "text": "Skip to content Products Solutions Resources Enterprise Pricing GitHub Explore apps Contact sales Log in Sign up",
+        "top": 0,
+        "left": 0,
+        "width": 1425,
+        "height": 56
+      },
+      "style": {
+        "color": "rgb(32, 21, 21)",
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "0px 40px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Skip to content",
+        "Zap workflowsDo-it-yourself automation for workflows",
+        "Zapier MCPAdd Zapier to your AI chat",
+        "Zapier SDKInstall Zapier to your AI coding agent",
+        "TablesStore data your Zap workflows can read and update",
+        "App integrationsExplore 9,000+ app connections",
+        "AI automation \ud83e\ude84Cutting-edge AI to upgrade your workflows",
+        "SecurityEnterprise-grade security",
+        "Explore templates",
+        "Explore use cases",
+        "Join Zapier Early Access",
+        "FormsCapture inputs that trigger workflows",
+        "CanvasPlan and map your workflows with AI",
+        "AgentsCreate your own AI assistants for any task",
+        "ChatbotsAnswer customer questions with AI chatbots",
+        "RevOpsDrive revenue through automation",
+        "MarketingMultiply campaign effectiveness and ROI",
+        "ITBetter manage systems with automation",
+        "HREmpower your HR team with AI automation",
+        "SalesClose more deals",
+        "Customer SupportElevate customer satisfaction",
+        "LeadersStreamline decision-making processes",
+        "Executive AssistantsEliminate repetitive admin tasks",
+        "NetSuite",
+        "Salesforce",
+        "HubSpot",
+        "Slack",
+        "ChatGPT (OpenAI)",
+        "Microsoft Dynamics CRM"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "zapier-marketing-ui-footer-RCaLgZDF",
+          "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+        ],
+        "text": "Apps by title 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Top searches Slack integrations Salesforce integrations HubSpot CRM integrations PayPal integrations Asana int",
+        "top": 13690,
+        "left": 0,
+        "width": 1425,
+        "height": 545
+      },
+      "style": {
+        "color": "rgb(32, 21, 21)",
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "",
+        "padding": "40px 20px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "main",
+        "classes": [
+          "zapier-marketing-ui-main-HzX0cpui"
+        ],
+        "text": "The automation layer for agentic AI One MCP connection. 9,000+ apps. Set your policies and work across any model, surface, or agent harness \u2014 without connections or rules breaking",
+        "top": 56,
+        "left": 0,
+        "width": 1425,
+        "height": 13634
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "div",
+        "classes": [
+          "WireframeHero_root__cVSxB"
+        ],
+        "top": 56,
+        "height": 736,
+        "width": 1425,
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": null,
+        "heading": "The automation layer for agentic AI",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [
+          "hybrid-toolkit-eyebrow-row"
+        ],
+        "top": 792,
+        "height": 119,
+        "width": 1280,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "YOUR COMPLETE TOOLKIT FOR AI AUTOMATION",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "zapier-marketing-ui-section-USbmstWl",
+          "zapier-marketing-ui-ptNone-zwfNLg9d",
+          "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+        ],
+        "top": 911,
+        "height": 1370,
+        "width": 1425,
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": null,
+        "heading": "AI Workflows",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "classes": [
+          "CustomerStoriesHero_root__AXCKK"
+        ],
+        "top": 2281,
+        "height": 371,
+        "width": 1425,
+        "backgroundColor": "rgb(236, 234, 227)",
+        "backgroundImage": null,
+        "heading": "For the Fortune 500 and first-time founders",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "zapier-marketing-ui-section-USbmstWl",
+          "zapier-marketing-ui-ptNone-zwfNLg9d",
+          "zapier-marketing-ui-bgNeutral300-gF6KdCpb"
+        ],
+        "top": 2652,
+        "height": 1016,
+        "width": 1425,
+        "backgroundColor": "rgb(236, 234, 227)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "GrowthSection_root__K9ncH"
+        ],
+        "top": 3668,
+        "height": 2044,
+        "width": 1425,
+        "backgroundColor": "rgb(32, 21, 21)",
+        "backgroundImage": null,
+        "heading": "No AI hype here. Just results.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "UseCaseGallery_root__068JF"
+        ],
+        "top": 5711,
+        "height": 1523,
+        "width": 1425,
+        "backgroundColor": "rgb(248, 244, 240)",
+        "backgroundImage": null,
+        "heading": "Real teams, real AI workflows, real results",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "zapier-marketing-ui-section-USbmstWl",
+          "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+        ],
+        "top": 7235,
+        "height": 918,
+        "width": 1425,
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": null,
+        "heading": "AI that drives real outcomes",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "AIAutomationSection_root__MiBKc"
+        ],
+        "top": 8153,
+        "height": 1981,
+        "width": 1425,
+        "backgroundColor": "rgb(236, 234, 227)",
+        "backgroundImage": null,
+        "heading": "AI + automation, all in one place",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "OperationsSection_root__olxrU"
+        ],
+        "top": 10133,
+        "height": 1943,
+        "width": 1425,
+        "backgroundColor": "rgb(255, 254, 251)",
+        "backgroundImage": null,
+        "heading": "Move fast.\nStay in control.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "zapier-marketing-ui-section-USbmstWl",
+          "zapier-marketing-ui-bgNeutral300-gF6KdCpb"
+        ],
+        "top": 12076,
+        "height": 936,
+        "width": 1425,
+        "backgroundColor": "rgb(236, 234, 227)",
+        "backgroundImage": null,
+        "heading": "Security built into every workflow",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "EnterpriseCTASection_root__V__UH"
+        ],
+        "top": 13012,
+        "height": 678,
+        "width": 1425,
+        "backgroundColor": "rgb(248, 244, 240)",
+        "backgroundImage": null,
+        "heading": "Ready to transform how your enterprise uses AI?",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "ot-sdk-row",
+          "ot-cat-grp"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Customize which cookies to allow",
+        "headingTag": "h3",
+        "childCount": 4
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "ot-hide",
+          "ot-hosts-ui",
+          "ot-pc-scrollbar",
+          "ot-enbl-chr"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Cookie List",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [
+          "ot-host-cnt",
+          "ot-pc-scrollbar"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The automation layer for agentic AI",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "WireframeHero_heading__JjytM"
+          ],
+          "text": "The automation layer for agentic AI",
+          "top": 174,
+          "left": 130,
+          "width": 576,
+          "height": 36
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "YOUR COMPLETE TOOLKIT FOR AI AUTOMATION",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "uppercase"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [],
+          "text": "YOUR COMPLETE TOOLKIT FOR AI AUTOMATION",
+          "top": 864,
+          "left": 578,
+          "width": 285,
+          "height": 15
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI Workflows",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm"
+          ],
+          "text": "AI Workflows",
+          "top": 2003,
+          "left": 73,
+          "width": 390,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "For the Fortune 500 and first-time founders",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Degular Display\", DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "CustomerStoriesHero_heading__tNms1"
+          ],
+          "text": "For the Fortune 500 and first-time founders",
+          "top": 2412,
+          "left": 73,
+          "width": 1280,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "No AI hype here. Just results.",
+        "style": {
+          "color": "rgb(248, 244, 240)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(248, 244, 240)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "GrowthSection_heading___QnWG"
+          ],
+          "text": "No AI hype here. Just results.",
+          "top": 3856,
+          "left": 122,
+          "width": 1182,
+          "height": 72
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Real teams, real AI workflows, real results",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "768px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "UseCaseGallery_heading__H2kMe"
+          ],
+          "text": "Real teams, real AI workflows, real results",
+          "top": 5834,
+          "left": 73,
+          "width": 768,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Capture every lead, everywhere",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "500",
+          "lineHeight": "61.6px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "UseCaseGallery_tabHeading__KMbXv"
+          ],
+          "text": "Capture every lead, everywhere",
+          "top": 6215,
+          "left": 73,
+          "width": 608,
+          "height": 123
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "AI that drives real outcomes",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Degular Display\", DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1024px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingLG-jZ-BOKqG",
+            "zapier-marketing-ui-textBalance-R8PQEvg1",
+            "zapier-marketing-ui-containerLG--8m-T1s-"
+          ],
+          "text": "AI that drives real outcomes",
+          "top": 7355,
+          "left": 457,
+          "width": 511,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI Marketing Tracker",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "AI Marketing Tracker",
+          "top": 7560,
+          "left": 98,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Renewal Risk Alerts",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "Renewal Risk Alerts",
+          "top": 7560,
+          "left": 532,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Deal Desk Approvals",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "Deal Desk Approvals",
+          "top": 7560,
+          "left": 967,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI FAQ Assistant",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "AI FAQ Assistant",
+          "top": 7819,
+          "left": 98,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Inbound Message Routing",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "Inbound Message Routing",
+          "top": 7819,
+          "left": 532,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "IT Help Desk Automation",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "600",
+          "lineHeight": "25px",
+          "letterSpacing": "-0.5px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingXS-j1OSlsXm",
+            "zapier-marketing-ui-heading-CDw8ZLUB"
+          ],
+          "text": "IT Help Desk Automation",
+          "top": 7819,
+          "left": 967,
+          "width": 361,
+          "height": 25
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "AI + automation, all in one place",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Degular Display\", DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "AIAutomationSection_heading__lN0oY"
+          ],
+          "text": "AI + automation, all in one place",
+          "top": 8283,
+          "left": 73,
+          "width": 737,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Move fast.\nStay in control.",
+        "style": {
+          "color": "rgb(54, 52, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(54, 52, 46)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "OperationsSection_heading__XWbgw"
+          ],
+          "text": "Move fast. Stay in control.",
+          "top": 10229,
+          "left": 73,
+          "width": 480,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Security built into every workflow",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Degular Display\", DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1024px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-headingLG-jZ-BOKqG",
+            "zapier-marketing-ui-textBalance-R8PQEvg1",
+            "zapier-marketing-ui-containerLG--8m-T1s-"
+          ],
+          "text": "Security built into every workflow",
+          "top": 12230,
+          "left": 408,
+          "width": 610,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "SOC 2 (Type II) & SOC 3",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_featureTitle__CDm21",
+            "zapier-marketing-ui-body-isAafWVy"
+          ],
+          "text": "SOC 2 (Type II) & SOC 3",
+          "top": 12477,
+          "left": 90,
+          "width": 223,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "GDPR & CCPA",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_featureTitle__CDm21",
+            "zapier-marketing-ui-body-isAafWVy"
+          ],
+          "text": "GDPR & CCPA",
+          "top": 12477,
+          "left": 345,
+          "width": 223,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "SSO + user provisioning",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_featureTitle__CDm21",
+            "zapier-marketing-ui-body-isAafWVy"
+          ],
+          "text": "SSO + user provisioning",
+          "top": 12477,
+          "left": 601,
+          "width": 223,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "AI model opt-out",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_featureTitle__CDm21",
+            "zapier-marketing-ui-body-isAafWVy"
+          ],
+          "text": "AI model opt-out",
+          "top": 12477,
+          "left": 856,
+          "width": 223,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Observability",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.32px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_featureTitle__CDm21",
+            "zapier-marketing-ui-body-isAafWVy"
+          ],
+          "text": "Observability",
+          "top": 12477,
+          "left": 1112,
+          "width": 224,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Platform controls",
+        "style": {
+          "color": "rgb(255, 79, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 79, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "SecuritySection_controlsTitle__H0d0v"
+          ],
+          "text": "Platform controls",
+          "top": 12744,
+          "left": 655,
+          "width": 114,
+          "height": 14
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Ready to transform how your enterprise uses AI?",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "DegularDisplay, \"DegularDisplay Fallback\", Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif, sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "500",
+          "lineHeight": "72px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "848px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "EnterpriseCTASection_heading__fKFUa"
+          ],
+          "text": "Ready to transform how your enterprise uses AI?",
+          "top": 13076,
+          "left": 80,
+          "width": 848,
+          "height": 144
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Apps by title",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "alphabet-nav-heading",
+          "classes": [
+            "zapier-marketing-ui-heading-uMV8Y6co"
+          ],
+          "text": "Apps by title",
+          "top": 13731,
+          "left": 113,
+          "width": 1200,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Top searches",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "_R_58lubrlb_",
+          "classes": [
+            "zapier-marketing-ui-heading-nyisigAb"
+          ],
+          "text": "Top searches",
+          "top": 13839,
+          "left": 113,
+          "width": 176,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Popular apps",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "_R_98lubrlb_",
+          "classes": [
+            "zapier-marketing-ui-heading-nyisigAb"
+          ],
+          "text": "Popular apps",
+          "top": 13839,
+          "left": 403,
+          "width": 97,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trending apps",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "_R_d8lubrlb_",
+          "classes": [
+            "zapier-marketing-ui-heading-nyisigAb"
+          ],
+          "text": "Trending apps",
+          "top": 13839,
+          "left": 615,
+          "width": 118,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Top apps by category",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "_R_h8lubrlb_",
+          "classes": [
+            "zapier-marketing-ui-heading-nyisigAb"
+          ],
+          "text": "Top apps by category",
+          "top": 13839,
+          "left": 849,
+          "width": 145,
+          "height": 24
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Our best content",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "_R_l8lubrlb_",
+          "classes": [
+            "zapier-marketing-ui-heading-nyisigAb"
+          ],
+          "text": "Our best content",
+          "top": 13839,
+          "left": 1109,
+          "width": 203,
+          "height": 24
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Skip to content",
+        "href": "#main",
+        "style": {
+          "color": "rgb(255, 254, 251)",
+          "backgroundColor": "rgb(56, 25, 51)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px 0px 6px 6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 254, 251)",
+          "padding": "4px 16px 8px",
+          "margin": "0px 646.766px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-skip-vQgSFwuD",
+            "zapier-marketing-ui-bgPlum-HjurIPjf",
+            "zapier-marketing-ui-bodySM-xItt0jSf"
+          ],
+          "text": "Skip to content",
+          "top": 0,
+          "left": 647,
+          "width": 131,
+          "height": 33
+        }
+      },
+      {
+        "text": "Zapier",
+        "href": "/",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-logo-QUpmTRZF",
+            "zapier-marketing-ui-relative-akoQRNue",
+            "zapier-marketing-ui-flex-3DCW-0eq",
+            "zapier-marketing-ui-itemsCenter-N5yrITr9",
+            "zapier-marketing-ui-justifyCenter-CyQEuPTK"
+          ],
+          "text": "",
+          "top": 14,
+          "left": 40,
+          "width": 104,
+          "height": 28
+        }
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-trigger-okSsn37g",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Products",
+          "top": 10,
+          "left": 160,
+          "width": 97,
+          "height": 36
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-trigger-okSsn37g",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Solutions",
+          "top": 10,
+          "left": 261,
+          "width": 99,
+          "height": 36
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-trigger-okSsn37g",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Resources",
+          "top": 10,
+          "left": 364,
+          "width": 108,
+          "height": 36
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Enterprise",
+          "top": 10,
+          "left": 476,
+          "width": 88,
+          "height": 36
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Pricing",
+          "top": 10,
+          "left": 567,
+          "width": 66,
+          "height": 36
+        }
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/zapier",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "GitHub",
+          "top": 10,
+          "left": 902,
+          "width": 88,
+          "height": 36
+        }
+      },
+      {
+        "text": "Explore apps",
+        "href": "/apps",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Explore apps",
+          "top": 10,
+          "left": 993,
+          "width": 128,
+          "height": 36
+        }
+      },
+      {
+        "text": "Contact sales",
+        "href": "/l/contact-sales?demo_source=cs_nav_header",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Contact sales",
+          "top": 10,
+          "left": 1125,
+          "width": 110,
+          "height": 36
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/app/login",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "6px 10px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-subtle-qwuszJf0",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Log in",
+          "top": 10,
+          "left": 1240,
+          "width": 61,
+          "height": 36
+        }
+      },
+      {
+        "text": "Sign up",
+        "href": "/sign-up",
+        "style": {
+          "color": "rgb(255, 254, 251)",
+          "backgroundColor": "rgb(255, 79, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "18px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(255, 79, 0)",
+          "padding": "6px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "4px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-button-18BedXz4",
+            "zapier-marketing-ui-navLink-Ece2kIH4",
+            "zapier-marketing-ui-pill-0VL0mBed",
+            "zapier-marketing-ui-brand-NLNcGpbI",
+            "zapier-marketing-ui-xsmall-QS3d-CHx"
+          ],
+          "text": "Sign up",
+          "top": 10,
+          "left": 1308,
+          "width": 77,
+          "height": 36
+        }
+      },
+      {
+        "text": "Start free with email",
+        "href": "/sign-up",
+        "style": {
+          "color": "rgb(255, 254, 251)",
+          "backgroundColor": "rgb(255, 79, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "18px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(255, 79, 0)",
+          "padding": "12px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "WireframeHero_button__hGZ_L"
+          ],
+          "text": "Start free with email",
+          "top": 331,
+          "left": 130,
+          "width": 225,
+          "height": 48
+        }
+      },
+      {
+        "text": "Start free with Google",
+        "href": "/google-sso/start?scopes=basic&from=/&domain_capture_enabled=true",
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "18px",
+          "letterSpacing": "normal",
+          "borderRadius": "4px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(32, 21, 21)",
+          "padding": "12px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "6px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "WireframeHero_button__hGZ_L",
+            "WireframeHero_buttonSecondary__u_jW0"
+          ],
+          "text": "Start free with Google",
+          "top": 331,
+          "left": 370,
+          "width": 274,
+          "height": 48
+        }
+      },
+      {
+        "text": "AI Workflows",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "AI Workflows",
+          "top": 936,
+          "left": 267,
+          "width": 122,
+          "height": 41
+        }
+      },
+      {
+        "text": "AI Agents",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "AI Agents",
+          "top": 936,
+          "left": 389,
+          "width": 99,
+          "height": 41
+        }
+      },
+      {
+        "text": "AI Chatbots",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "AI Chatbots",
+          "top": 936,
+          "left": 488,
+          "width": 112,
+          "height": 41
+        }
+      },
+      {
+        "text": "Tables",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "Tables",
+          "top": 936,
+          "left": 600,
+          "width": 78,
+          "height": 41
+        }
+      },
+      {
+        "text": "Forms",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "Forms",
+          "top": 936,
+          "left": 678,
+          "width": 75,
+          "height": 41
+        }
+      },
+      {
+        "text": "Canvas",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "Canvas",
+          "top": 936,
+          "left": 753,
+          "width": 84,
+          "height": 41
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "Enterprise",
+          "top": 936,
+          "left": 836,
+          "width": 103,
+          "height": 41
+        }
+      },
+      {
+        "text": "Functions",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "Functions",
+          "top": 936,
+          "left": 939,
+          "width": 99,
+          "height": 41
+        }
+      },
+      {
+        "text": "9,000 apps+",
+        "href": null,
+        "style": {
+          "color": "rgb(96, 93, 82)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-bodySM-xItt0jSf",
+            "zapier-marketing-ui-textNeutral700-jWmLI5IQ",
+            "ProductGallery_tab__xL9kf"
+          ],
+          "text": "9,000 apps+",
+          "top": 936,
+          "left": 1039,
+          "width": 120,
+          "height": 41
+        }
+      },
+      {
+        "text": "Play video",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-overlay-msfN2mFI"
+          ],
+          "text": "",
+          "top": 1058,
+          "left": 153,
+          "width": 1120,
+          "height": 765
+        }
+      },
+      {
+        "text": "Play video",
+        "href": null,
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-overlay-msfN2mFI"
+          ],
+          "text": "",
+          "top": 1058,
+          "left": 153,
+          "width": 1120,
+          "height": 765
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCardWrapper__Y2r_W",
+            "zapier-marketing-ui-reveal-tf2-Jbgm"
+          ],
+          "text": "Let AI handle your IT support tickets",
+          "top": 1993,
+          "left": 527,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "5px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "32px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCard__kAU67"
+          ],
+          "text": "Let AI handle your IT support tickets",
+          "top": 1993,
+          "left": 527,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCardWrapper__Y2r_W",
+            "zapier-marketing-ui-reveal-tf2-Jbgm"
+          ],
+          "text": "Turn sales calls into coaching moments",
+          "top": 1993,
+          "left": 956,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "5px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "32px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCard__kAU67"
+          ],
+          "text": "Turn sales calls into coaching moments",
+          "top": 1993,
+          "left": 956,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(32, 21, 21)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCardWrapper__Y2r_W"
+          ],
+          "text": "See more templates",
+          "top": 1969,
+          "left": 1384,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "5px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "32px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ProductGallery_templateCard__kAU67"
+          ],
+          "text": "See more templates",
+          "top": 1969,
+          "left": 1384,
+          "width": 397,
+          "height": 192
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(197, 192, 177)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "CarouselSection_card__upaJc"
+          ],
+          "text": "With Zapier Agents, I'm getting insights I didn't even ask for. \u2014 Spencer Siviglia, Director of Operations at Toyota of Orlando 30k+ lead records managed automatically 20+ hour",
+          "top": 2676,
+          "left": 73,
+          "width": 628,
+          "height": 643
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(197, 192, 177)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "CarouselSection_card__upaJc"
+          ],
+          "text": "What used to be overwhelming is now scalable. With Zapier, I don't have to choose between doing good work and doing a lot of it. \u2014 Andrew Harding, VP of Marketing and Content Partn",
+          "top": 2676,
+          "left": 1353,
+          "width": 628,
+          "height": 775
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(197, 192, 177)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "CarouselSection_card__upaJc"
+          ],
+          "text": "Zapier lets us spin up and test automations in hours, not full engineering sprints. \u2014 Korey Marciniak, Senior Manager of Customer Support Strategy and Operations 13% of support e",
+          "top": 2676,
+          "left": 2633,
+          "width": 628,
+          "height": 636
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "AI Marketing Tracker Track campaigns and generate cross-channel AI reports. Try now",
+          "top": 7491,
+          "left": 73,
+          "width": 411,
+          "height": 235
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "Renewal Risk Alerts Detect at-risk renewals early and alert teams. Try now",
+          "top": 7491,
+          "left": 507,
+          "width": 411,
+          "height": 235
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "Deal Desk Approvals Route HubSpot deal approvals into Slack for faster decisions. Try now",
+          "top": 7491,
+          "left": 942,
+          "width": 411,
+          "height": 235
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "AI FAQ Assistant Answer questions and triage requests in Slack with AI. Try now",
+          "top": 7750,
+          "left": 73,
+          "width": 411,
+          "height": 235
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "Inbound Message Routing Classify and route inbound messages across channels automatically. Try now",
+          "top": 7750,
+          "left": 507,
+          "width": 411,
+          "height": 235
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(32, 21, 21)",
+          "backgroundColor": "rgb(255, 254, 251)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, Inter, \"Inter Fallback\", system-ui, ui-sans-serif, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(236, 234, 227)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-card-LzN-3SCW",
+            "zapier-marketing-ui-bgNeutral100-KdxIGCuw"
+          ],
+          "text": "IT Help Desk Automation Automate IT requests with AI chatbots. Try now",
+          "top": 7750,
+          "left": 942,
+          "width": 411,
+          "height": 235
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/64yaBgfJOEJnmjkJMHZv55/9ef5f2b3507f25e5fa8a7fbf5d311292/image.png",
+        "alt": "NetSuite icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/5rPjlc8CXD5XNlBOmjINoa/c74b55a72c4060bf66d2c35ca8b97364/image.png",
+        "alt": "Salesforce icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/7J47So5k3dPnnaRfIHRRnQ/8917dbefd21ff3eabeaa808419d6fa8f/image.png",
+        "alt": "HubSpot icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/7jJuREwPnVQNv2slLgt65C/5aa2ce2d5801249d7d3db4ade47a3e10/image.png",
+        "alt": "Slack icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/74ts5M76XL1PFd8SpE7G9V/a3452726979346ceee5ebd0642bba2a4/image.png",
+        "alt": "OpenAI icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/3IhYNy1iCskZWmfCVkB3bU/017bac2d15252eb4d529d5450b6f6889/image.png",
+        "alt": "Microsoft Dynamics CRM icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/1VAVaYTPinZhsHNIEmakvM/6f728ab1af54653db45b21173982246a/image.png",
+        "alt": "Microsoft Teams icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/789Gm82oDCH7oRcDFMgPeq/6c5b891341c31b4b55570ee023909264/image.png",
+        "alt": "Zendesk icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/2I2hoyS2c8mhYrL9K2unH9/14e44999749f945cf28fa3ee7b4d29eb/image.png",
+        "alt": "Jira icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/1fEWwLStt15PDgzhXVwkYg/214dae86676d06fbd5770b9d79ac5ef2/Close_AI_Execution_Gap_Guide_Q1_2026.png",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-image-Xpe0WJxH"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/3UuwNWMryCD20V4kN2G2sw/3ce5a32666441be3baaf8950e7462925/image.png",
+        "alt": "Three phases to move from disconnected AI pilots to orchestrated systems that scale.",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "zapier-marketing-ui-image-Xpe0WJxH"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://zapier.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fzapier-media%2Fimage%2Fupload%2Fq_auto%2Ff_auto%2Fv1764802908%2FHomepage%2FHero-Image-Dec_2_sontfe.png&w=1200&q=75",
+        "alt": "An illustration of several shapes representing AI orchestration",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_heroImg__f2yp_"
+          ],
+          "text": "",
+          "top": 136,
+          "left": 770,
+          "width": 526,
+          "height": 329
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/1LFBnZZbKGy8GN1UHGkgfI/a937e7fd0e4515904dcaf6a5cc33ffe5/nvidia.svg",
+        "alt": "Nvidia",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 637,
+          "left": 173,
+          "width": 96,
+          "height": 19
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/4kpKO7XWbxPokn69zrQb49/56be295bf5b4841770b6beb5631787ac/3977e69ed6f656ef769a8a06835010530e3a7bc908c811fc802881da657739a01bbf9cc782025551aac98e6b5f392beaac27e365c9008d47c6606dc26002.svg",
+        "alt": "Google",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 631,
+          "left": 381,
+          "width": 80,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/1X0xLSFTaEMwH93NgKP2cD/e02c91d81574837fc57d0f28519e8509/meta.svg",
+        "alt": "Meta",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 639,
+          "left": 573,
+          "width": 72,
+          "height": 14
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/608GEPXO4qkJu56jjNoVPz/7ba8f7fe3dcbde34da7c84e6bab22b0c/lowes.svg",
+        "alt": "Lowe's",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 631,
+          "left": 757,
+          "width": 80,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://res.cloudinary.com/zapier-media/image/upload/v1711677771/Solutions/Company%20Size/Enterprise/April%202%20launch/logo-allstate_l4zjni.svg",
+        "alt": "Allstate",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 636,
+          "left": 949,
+          "width": 96,
+          "height": 22
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/6A4VRwEyPOzIqSjODMEGaY/b7e2b1c8bb90a8f18263fa7664ef45ef/samsung.svg",
+        "alt": "Samsung",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 639,
+          "left": 1157,
+          "width": 96,
+          "height": 15
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/7gu3rUoGqUZtEoQModuM55/c46bc09bdc342953e86fe361159fa7ba/mastercard.svg",
+        "alt": "Mastercard",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 718,
+          "left": 301,
+          "width": 96,
+          "height": 17
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://images.ctfassets.net/27w7hkots21d/6fW1WrGfqmRKZ6y3CBmtMs/2f3d11eb5cd5f5dfe7476ad642623f65/35fad3c46bf116ba804a86a21fe536cd4cd212120d6bff135251f711f89dd9f6b02fd3930e8585eee00a266a5f3fa9f1adcbf906c8d121e0e3c2bdb1451f.svg",
+        "alt": "HP",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "WireframeHero_staticLogoImg__nlXVH"
+          ],
+          "text": "",
+          "top": 711,
+          "left": 509,
+          "width": 32,
+          "height": 32
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(32, 21, 21)",
+        "count": 1057
+      },
+      {
+        "value": "rgb(54, 52, 46)",
+        "count": 537
+      },
+      {
+        "value": "rgb(255, 254, 251)",
+        "count": 195
+      },
+      {
+        "value": "rgb(236, 234, 227)",
+        "count": 144
+      },
+      {
+        "value": "rgb(197, 192, 177)",
+        "count": 107
+      },
+      {
+        "value": "rgb(255, 79, 0)",
+        "count": 103
+      },
+      {
+        "value": "rgb(96, 93, 82)",
+        "count": 86
+      },
+      {
+        "value": "rgb(248, 244, 240)",
+        "count": 22
+      },
+      {
+        "value": "rgba(54, 52, 46, 0.7)",
+        "count": 10
+      },
+      {
+        "value": "rgba(54, 52, 46, 0.75)",
+        "count": 9
+      },
+      {
+        "value": "rgb(96, 93, 82) rgb(96, 93, 82) rgb(96, 93, 82) rgb(236, 234, 227)",
+        "count": 8
+      },
+      {
+        "value": "rgb(32, 21, 21) rgb(32, 21, 21) rgb(197, 192, 177)",
+        "count": 6
+      },
+      {
+        "value": "rgb(54, 52, 46) rgb(32, 21, 21) rgb(32, 21, 21) rgb(54, 52, 46)",
+        "count": 4
+      },
+      {
+        "value": "rgb(54, 52, 46) rgb(255, 254, 251) rgb(255, 254, 251) rgb(54, 52, 46)",
+        "count": 4
+      },
+      {
+        "value": "rgb(54, 52, 46) rgb(197, 192, 177) rgb(197, 192, 177) rgb(54, 52, 46)",
+        "count": 4
+      },
+      {
+        "value": "rgb(54, 52, 46) rgb(54, 52, 46) rgb(32, 21, 21)",
+        "count": 3
+      },
+      {
+        "value": "rgb(32, 21, 21) rgb(236, 234, 227)",
+        "count": 2
+      },
+      {
+        "value": "rgb(147, 144, 132)",
+        "count": 2
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter",
+        "count": 1086
+      },
+      {
+        "value": "DegularDisplay",
+        "count": 12
+      },
+      {
+        "value": "Degular Display",
+        "count": 8
+      },
+      {
+        "value": "Serrif",
+        "count": 5
+      },
+      {
+        "value": "Arial",
+        "count": 4
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "count": 27
+      },
+      {
+        "value": "50%",
+        "count": 10
+      },
+      {
+        "value": "8px",
+        "count": 5
+      },
+      {
+        "value": "14px",
+        "count": 5
+      },
+      {
+        "value": "5px",
+        "count": 3
+      },
+      {
+        "value": "0px 0px 6px 6px",
+        "count": 1
+      },
+      {
+        "value": "18px",
+        "count": 1
+      },
+      {
+        "value": "20px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(255, 79, 0, 0.18) 0px 0px 0px 4.42178px"
+    ],
+    "cssVars": {
+      "--cookie-consent-color-gray-warm-1": "#fffdf9",
+      "--cookie-consent-color-gray-warm-2": "#f5f3eb",
+      "--cookie-consent-color-gray-warm-3": "#ece9df",
+      "--cookie-consent-color-gray-warm-6": "#88827e",
+      "--cookie-consent-color-gray-warm-10": "#201515",
+      "--cookie-consent-color-ui-primary-strongest": "#503ebd",
+      "--cookie-consent-color-ui-primary-weakest": "#f7f6fD",
+      "--cookie-consent-color-brand-night": "#2b2358",
+      "--cookie-consent-color-status-success": "#2ea343",
+      "--cookie-consent-button-all": "unset",
+      "--cookie-consent-button-box-sizing": "border-box",
+      "--cookie-consent-button-cursor": "pointer",
+      "--cookie-consent-button-display": "flex",
+      "--cookie-consent-button-align-items": "center",
+      "--cookie-consent-button-justify-content": "center",
+      "--cookie-consent-button-text-align": "center",
+      "--cookie-consent-button-padding": "8px 12px",
+      "--cookie-consent-button-font-size": "14px",
+      "--cookie-consent-button-font-weight": "600",
+      "--cookie-consent-button-height": "36px",
+      "--cookie-consent-button-border-radius": "5px",
+      "--cookie-consent-button-transition": "all 200ms ease-in-out"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"zapier-marketing-ui-header-aA9JGvbY zapier-marketing-ui-bgNeutral100-KdxIGCuw\"><div class=\"zapier-marketing-ui-flex-3DCW-0eq zapier-marketing-ui-itemsCenter-N5yrITr9 zapier-marketing-ui-gap4--ZE-xH-X\"><a class=\"zapier-marketing-ui-skip-vQgSFwuD zapier-marketing-ui-bgPlum-HjurIPjf zapier-marketing-ui-bodySM-xItt0jSf\" href=\"#main\">Skip to content</a><a class=\"zapier-marketing-ui-logo-QUpmTRZF zapier-marketing-ui-relative-akoQRNue zapier-marketing-ui-flex-3DCW-0eq zapier-marketing-ui\u2026",
+    "heroHtml": "<div><h1 class=\"WireframeHero_heading__JjytM\">The automation layer for agentic AI</h1><p class=\"WireframeHero_subheading__Qq2g6\">One MCP connection. 9,000+ apps. Set your policies and work across any model, surface, or agent harness \u2014 without connections or rules breaking.</p><div class=\"WireframeHero_buttons__Uf_G3\"><a class=\"WireframeHero_button__hGZ_L\" href=\"/sign-up\">Start free with email</a><a class=\"WireframeHero_button__hGZ_L WireframeHero_buttonSecondary__u_jW0\" href=\"/google-sso/start?s\u2026",
+    "footerHtml": "<footer class=\"zapier-marketing-ui-footer-RCaLgZDF zapier-marketing-ui-bgNeutral100-KdxIGCuw\"><div class=\"zapier-marketing-ui-content-eBSnqbwO\"><div class=\"zapier-marketing-ui-root-rpSLHiEl\"><h2 class=\"zapier-marketing-ui-heading-uMV8Y6co\" id=\"alphabet-nav-heading\">Apps by title</h2><nav><ul class=\"zapier-marketing-ui-list-mtHppiX4\" aria-labelledby=\"alphabet-nav-heading\"><li><a class=\"zapier-marketing-ui-link-39a01h26\" href=\"/find-apps/0-9\" aria-label=\"Apps beginning with 0-9\">0-9</a></li><li><a\u2026"
+  },
+  "status": 200,
+  "final_url": "https://zapier.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 16,
+    "section_count": 13,
+    "nav_count": 7,
+    "button_count": 56,
+    "img_count": 123,
+    "footer_count": 1
+  }
+}

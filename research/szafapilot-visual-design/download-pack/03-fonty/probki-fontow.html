@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Szafapilot — próbki fontów (anty-AI-slop)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f1ec;
+      --ink: #141414;
+      --muted: #5c5a55;
+      --line: #e4e0d8;
+      --card: #fffcf7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      line-height: 1.55;
+    }
+    header {
+      padding: 48px 24px 24px;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    header h1 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-weight: 500;
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      margin: 0 0 12px;
+    }
+    header p { color: var(--muted); max-width: 58ch; margin: 0; }
+    .note {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--card);
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 8px 24px 64px;
+      display: grid;
+      gap: 16px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 22px 18px;
+    }
+    article h2 {
+      margin: 0 0 6px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+      font-family: "Source Sans 3", sans-serif;
+    }
+    .sample-display {
+      font-size: clamp(2rem, 4.5vw, 3.2rem);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      margin: 10px 0 8px;
+    }
+    .sample-body { font-size: 1.05rem; color: var(--muted); margin: 0; }
+    .meta { margin-top: 14px; font-size: 0.85rem; color: var(--muted); }
+    .serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 500; letter-spacing: -0.015em; }
+    .serif2 { font-family: "Newsreader", Georgia, serif; font-weight: 550; }
+    .serif3 { font-family: "Fraunces", Georgia, serif; font-weight: 550; }
+    .sans { font-family: "Source Sans 3", sans-serif; font-weight: 650; }
+    .mono { font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 1.35rem; letter-spacing: -0.02em; }
+    .bad {
+      opacity: 0.55;
+      border-style: dashed;
+    }
+    .bad .sample-display {
+      font-family: Inter, Roboto, Arial, sans-serif;
+      font-weight: 700;
+    }
+    footer {
+      max-width: 920px;
+      margin: 0 auto 48px;
+      padding: 0 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Próbki kierunku typograficznego</h1>
+    <p>Porównanie zestawów, które wyglądają jak produkt z charakterem vs. domyślny stack AI. Satoshi / Switzer doładuj lokalnie z Fontshare (nie są tu z Google Fonts).</p>
+    <div class="note"><strong>Szybki wybór Szafapilot:</strong> Instrument Serif (H1) + Source Sans 3 (UI) + IBM Plex Mono — albo Satoshi + Source Sans 3 jeśli wolisz pełny sans.</div>
+  </header>
+  <main>
+    <article>
+      <h2>Editorial — Instrument Serif + Source Sans 3</h2>
+      <div class="sample-display serif">Szafapilot wygląda jak decyzja, nie jak szablon.</div>
+      <p class="sample-body">Body w Source Sans 3. Serif zostaje na display — nie wrzucaj go do buttonów ani nav.</p>
+      <p class="meta">Kierunek E · najmocniejszy anti-slop</p>
+    </article>
+    <article>
+      <h2>Editorial alt — Newsreader</h2>
+      <div class="sample-display serif2">Spokojniejszy serif, nadal nie-Inter.</div>
+      <p class="sample-body">Dobry gdy Instrument Serif jest zbyt „ostentacyjny” dla Twojej kategorii.</p>
+    </article>
+    <article>
+      <h2>Editorial alt — Fraunces</h2>
+      <div class="sample-display serif3">Więcej charakteru optycznego, soft optical size.</div>
+      <p class="sample-body">Używaj ostrożnie — łatwo przegrzać „quirky”.</p>
+    </article>
+    <article>
+      <h2>Soft Instrument — Source Sans 3 jako display+body</h2>
+      <div class="sample-display sans">Czysty grotesk bez Inter.</div>
+      <p class="sample-body">Na produkcji podmień display na Satoshi/Switzer z Fontshare — tu fallback Google.</p>
+      <p class="meta">Kierunek B / D</p>
+    </article>
+    <article>
+      <h2>Mono — IBM Plex Mono</h2>
+      <div class="sample-display mono">agent.thinking · 1.2s · sku:PL-004</div>
+      <p class="sample-body">Tylko meta, composer, ID, logi. Nie dekoruj całego marketingu monospacem.</p>
+    </article>
+    <article class="bad">
+      <h2>Unikaj — Inter / Roboto / Arial stack</h2>
+      <div class="sample-display">Ten stack krzyczy „AI landing template”.</div>
+      <p class="sample-body">Nawet dobry layout z tym fontem wygląda generycznie. Zamień display w pierwszej kolejności.</p>
+    </article>
+  </main>
+  <footer>
+    Otwórz lokalnie w przeglądarce. Pełne rekomendacje: <code>03-fonty/FONT_KIT.md</code>
+  </footer>
+</body>
+</html>

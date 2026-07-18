@@ -1,0 +1,2536 @@
+{
+  "name": "ramp",
+  "url": "https://ramp.com",
+  "category": "premium-saas",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/ramp-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/ramp-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/ramp-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/ramp-full.png",
+  "design": {
+    "url": "https://ramp.com/",
+    "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 13048
+    },
+    "themeGuess": "unknown",
+    "luminance": null,
+    "bodyStyle": {
+      "color": "lab(2.83994 0.367254 0.969091)",
+      "backgroundColor": "lab(100 0 0)",
+      "backgroundImage": "none",
+      "fontFamily": "lausanne, \"lausanne Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid lab(2.83994 0.367254 0.969091)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "lausanne, \"lausanne Fallback\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [],
+        "text": "close New: AI Token Spend Management \u2014 see, understand, and control your AI bill. Learn more Products Partners Solutions Resources Customers Pricing Sign in See a demo",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 102
+      },
+      "style": {
+        "color": "lab(2.83994 0.367254 0.969091)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "lausanne, \"lausanne Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid lab(2.83994 0.367254 0.969091)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Learn more",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "relative"
+        ],
+        "text": "About us Careers Emerging talent Customers Help center Product releases Ramp for Agents Ramp Labs API documentation Versus Products Corporate cards Expense management Spend managem",
+        "top": 11586,
+        "left": 0,
+        "width": 1440,
+        "height": 1455
+      },
+      "style": {
+        "color": "lab(2.83994 0.367254 0.969091)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "lausanne, \"lausanne Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid lab(2.83994 0.367254 0.969091)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [],
+        "text": "US CORPORATE PAYMENTS PROCESSED BY RAMP: Time is money. Save both. Cards, expenses, bill payments, and banking* \u2013 in the blink of AI. Email Get started for free AGENTS AT WORK TODA",
+        "top": 102,
+        "left": 0,
+        "width": 1440,
+        "height": 11484
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "relative"
+        ],
+        "top": 102,
+        "height": 1013,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Time is money. Save both.",
+        "headingTag": "h1",
+        "childCount": 3
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [],
+        "top": 1115,
+        "height": 10471,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Join 70,000 of the world\u2019s most ambitious companies growing 3.2x faster than the average American business.",
+        "headingTag": "h2",
+        "childCount": 8
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [],
+        "top": 1115,
+        "height": 637,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Join 70,000 of the world\u2019s most ambitious companies growing 3.2x faster than the average American business.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "spacer-t-l"
+        ],
+        "top": 1880,
+        "height": 1256,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "One platform for all of finance.\nAgents for every workflow, working 24/7.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "spacer-t-l"
+        ],
+        "top": 3264,
+        "height": 2700,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Systems that never spoke",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "mt-10",
+          "md:spacer-t-l"
+        ],
+        "top": 6092,
+        "height": 2834,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Built on the intelligence of 70k+ finance teams.\nOne platform for the agentic era.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "spacer-t-l"
+        ],
+        "top": 9054,
+        "height": 179,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "spacer-t-l"
+        ],
+        "top": 9361,
+        "height": 871,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Scale the team.\nShrink the paperwork.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "spacer-t-l"
+        ],
+        "top": 10360,
+        "height": 856,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "We've got the receipts.",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Time is money. Save both.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "64px",
+          "fontWeight": "400",
+          "lineHeight": "64px",
+          "letterSpacing": "-0.01px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1050px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xl",
+            "text-primary",
+            "max-w-[1050px]",
+            "text-balance"
+          ],
+          "text": "Time is money. Save both.",
+          "top": 229,
+          "left": 64,
+          "width": 1050,
+          "height": 46
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Join 70,000 of the world\u2019s most ambitious companies growing 3.2x faster than the average American business.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "656px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-s",
+            "text-primary",
+            "max-w-[656px]",
+            "text-balance",
+            "mb-8"
+          ],
+          "text": "Join 70,000 of the world\u2019s most ambitious companies growing 3.2x faster than the average American business.",
+          "top": 1235,
+          "left": 64,
+          "width": 656,
+          "height": 84
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "One platform for all of finance.\nAgents for every workflow, working 24/7.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "42px",
+          "letterSpacing": "-0.005px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "755px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-m",
+            "max-w-[755px]",
+            "text-primary"
+          ],
+          "text": "One platform for all of finance. Agents for every workflow, working 24/7.",
+          "top": 1880,
+          "left": 64,
+          "width": 755,
+          "height": 84
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Cards & Expenses that handle themselves",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "300px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xs",
+            "max-w-[300px]",
+            "text-primary"
+          ],
+          "text": "Cards & Expenses that handle themselves",
+          "top": 2136,
+          "left": 97,
+          "width": 300,
+          "height": 45
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Procure to pay without chasing approvals",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "300px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xs",
+            "max-w-[300px]",
+            "text-primary"
+          ],
+          "text": "Procure to pay without chasing approvals",
+          "top": 2136,
+          "left": 765,
+          "width": 300,
+          "height": 45
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Accounting automation eliminates month-end madness",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "300px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xs",
+            "max-w-[300px]",
+            "text-primary",
+            "max-xl:text-[20px]!",
+            "max-xl:leading-[24px]!"
+          ],
+          "text": "Accounting automation eliminates month-end madness",
+          "top": 2643,
+          "left": 97,
+          "width": 300,
+          "height": 73
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Banking that flows money to the highest return",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "300px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xs",
+            "max-w-[300px]",
+            "text-primary",
+            "max-xl:text-[20px]!",
+            "max-xl:leading-[24px]!"
+          ],
+          "text": "Banking that flows money to the highest return",
+          "top": 2643,
+          "left": 542,
+          "width": 300,
+          "height": 45
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "200+ Integrations to the tools you already use",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "300px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "leading-trim",
+            "headline-xs",
+            "max-w-[300px]",
+            "text-primary",
+            "max-xl:text-[20px]!",
+            "max-xl:leading-[24px]!"
+          ],
+          "text": "200+ Integrations to the tools you already use",
+          "top": 2643,
+          "left": 988,
+          "width": 300,
+          "height": 45
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Systems that never spoke",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "50px",
+          "letterSpacing": "-0.01px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-primary",
+            "headline-l",
+            "max-w-[960px]",
+            "mx-auto",
+            "leading-trim"
+          ],
+          "text": "Systems that never spoke",
+          "top": 3328,
+          "left": 444,
+          "width": 551,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Built on the intelligence of 70k+ finance teams.\nOne platform for the agentic era.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "50px",
+          "letterSpacing": "-0.01px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1090px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-l",
+            "w-full",
+            "max-w-[1090px]"
+          ],
+          "text": "Built on the intelligence of 70k+ finance teams. One platform for the agentic era.",
+          "top": 6092,
+          "left": 219,
+          "width": 1002,
+          "height": 100
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Introducing Stack by Ramp. The AI operating system built for today's top accounting firms.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "533px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-s",
+            "w-full",
+            "max-w-[533px]"
+          ],
+          "text": "Introducing Stack by Ramp. The AI operating system built for today's top accounting firms.",
+          "top": 6395,
+          "left": 64,
+          "width": 533,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Keep your finance team focused on strategy. Let agents handle the busywork.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "533px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-s",
+            "w-full",
+            "max-w-[533px]"
+          ],
+          "text": "Keep your finance team focused on strategy. Let agents handle the busywork.",
+          "top": 7283,
+          "left": 843,
+          "width": 533,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "AI that learns from your team. And gets smarter with every team that joins.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "533px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-s",
+            "w-full",
+            "max-w-[533px]"
+          ],
+          "text": "AI that learns from your team. And gets smarter with every team that joins.",
+          "top": 8171,
+          "left": 64,
+          "width": 533,
+          "height": 64
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Scale the team.\nShrink the paperwork.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "50px",
+          "letterSpacing": "-0.01px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px 176px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-primary",
+            "headline-l",
+            "max-w-[960px]",
+            "mx-auto",
+            "text-balance",
+            "leading-trim"
+          ],
+          "text": "Scale the team. Shrink the paperwork.",
+          "top": 9361,
+          "left": 240,
+          "width": 960,
+          "height": 84
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Set user access on autopilot.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "leading-trim",
+            "text-primary",
+            "headline-s"
+          ],
+          "text": "Set user access on autopilot.",
+          "top": 10107,
+          "left": 64,
+          "width": 533,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "One platform for all your global spend.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-balance",
+            "leading-trim",
+            "text-primary",
+            "headline-s"
+          ],
+          "text": "One platform for all your global spend.",
+          "top": 10107,
+          "left": 732,
+          "width": 533,
+          "height": 20
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "We've got the receipts.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "400",
+          "lineHeight": "50px",
+          "letterSpacing": "-0.01px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px 176px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "960px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-primary",
+            "headline-l",
+            "max-w-[960px]",
+            "mx-auto",
+            "leading-trim"
+          ],
+          "text": "We've got the receipts.",
+          "top": 10403,
+          "left": 240,
+          "width": 960,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Time is money. Save both.",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "headline-xs",
+            "text-center",
+            "text-primary"
+          ],
+          "text": "Time is money. Save both.",
+          "top": 11344,
+          "left": 581,
+          "width": 278,
+          "height": 28
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "___",
+        "href": "#",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "___",
+          "top": 0,
+          "left": 0,
+          "width": 54,
+          "height": 22
+        }
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_l5fiv5tclb_-trigger-Products",
+          "classes": [
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "gap-2"
+          ],
+          "text": "Products",
+          "top": 49,
+          "left": 155,
+          "width": 105,
+          "height": 44
+        }
+      },
+      {
+        "text": "Partners",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_l5fiv5tclb_-trigger-Partners",
+          "classes": [
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "gap-2"
+          ],
+          "text": "Partners",
+          "top": 49,
+          "left": 260,
+          "width": 101,
+          "height": 44
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_l5fiv5tclb_-trigger-Solutions",
+          "classes": [
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "gap-2"
+          ],
+          "text": "Solutions",
+          "top": 49,
+          "left": 360,
+          "width": 107,
+          "height": 44
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "radix-_R_l5fiv5tclb_-trigger-Resources",
+          "classes": [
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center",
+            "gap-2"
+          ],
+          "text": "Resources",
+          "top": 49,
+          "left": 467,
+          "width": 115,
+          "height": 44
+        }
+      },
+      {
+        "text": "Customers",
+        "href": "/customers",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/link",
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center"
+          ],
+          "text": "Customers",
+          "top": 49,
+          "left": 582,
+          "width": 93,
+          "height": 44
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "14px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 12px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/link",
+            "group",
+            "inline-flex",
+            "h-11",
+            "w-max",
+            "cursor-pointer",
+            "items-center",
+            "justify-center"
+          ],
+          "text": "Pricing",
+          "top": 49,
+          "left": 676,
+          "width": 68,
+          "height": 44
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [],
+          "text": "Sign in",
+          "top": 53,
+          "left": 1178,
+          "width": 75,
+          "height": 34
+        }
+      },
+      {
+        "text": "Sign in",
+        "href": "https://app.ramp.com/sign-in",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(255, 255, 255, 0.05)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "10.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.6) 0px 0px 2px 0px inset",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "12px 16px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/link",
+            "body-s",
+            "body-s",
+            "block",
+            "w-full",
+            "flex-1",
+            "rounded-md",
+            "bg-(--nav-button-bg)"
+          ],
+          "text": "Sign in",
+          "top": 53,
+          "left": 1178,
+          "width": 75,
+          "height": 34
+        }
+      },
+      {
+        "text": "See a demo",
+        "href": "/see-a-demo",
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(92.1406 -20.4979 84.7726)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "10.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "12px 16px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/link",
+            "lg:flex-auto",
+            "relative",
+            "flex",
+            "justify-center",
+            "items-center",
+            "text-center",
+            "rounded-md"
+          ],
+          "text": "See a demo",
+          "top": 53,
+          "left": 1269,
+          "width": 107,
+          "height": 34
+        }
+      },
+      {
+        "text": "banking*",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091 / 0.6)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091 / 0.6)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [],
+          "text": "banking*",
+          "top": 299,
+          "left": 359,
+          "width": 72,
+          "height": 24
+        }
+      },
+      {
+        "text": "Get started for free",
+        "href": null,
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(92.1406 -20.4979 84.7726)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "10.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "body-m",
+            "leading-[.675rem]",
+            "relative",
+            "flex",
+            "justify-center",
+            "items-center",
+            "text-center",
+            "rounded-md"
+          ],
+          "text": "Get started for free",
+          "top": 361,
+          "left": 333,
+          "width": 176,
+          "height": 51
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(95.604 0.426412 1.20401)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(33, 33, 33, 0.1)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__root",
+            "relative",
+            "overflow-hidden",
+            "rounded-xl",
+            "border",
+            "border-black-100",
+            "bg-grayLight",
+            "flex"
+          ],
+          "text": "Cards & Expenses that handle themselves arrow_outward",
+          "top": 2103,
+          "left": 64,
+          "width": 644,
+          "height": 483
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__arrowIcon"
+          ],
+          "text": "arrow_outward",
+          "top": 2146,
+          "left": 657,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(95.604 0.426412 1.20401)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(33, 33, 33, 0.1)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__root",
+            "relative",
+            "overflow-hidden",
+            "rounded-xl",
+            "border",
+            "border-black-100",
+            "bg-grayLight",
+            "flex"
+          ],
+          "text": "Procure to pay without chasing approvals arrow_outward",
+          "top": 2103,
+          "left": 732,
+          "width": 644,
+          "height": 483
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__arrowIcon"
+          ],
+          "text": "arrow_outward",
+          "top": 2146,
+          "left": 1325,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(95.604 0.426412 1.20401)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(33, 33, 33, 0.1)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__root",
+            "relative",
+            "overflow-hidden",
+            "rounded-xl",
+            "border",
+            "border-black-100",
+            "bg-grayLight",
+            "flex"
+          ],
+          "text": "Accounting automation eliminates month-end madness arrow_outward",
+          "top": 2610,
+          "left": 64,
+          "width": 421,
+          "height": 526
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__arrowIcon"
+          ],
+          "text": "arrow_outward",
+          "top": 2653,
+          "left": 434,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(95.604 0.426412 1.20401)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(33, 33, 33, 0.1)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__root",
+            "relative",
+            "overflow-hidden",
+            "rounded-xl",
+            "border",
+            "border-black-100",
+            "bg-grayLight",
+            "flex"
+          ],
+          "text": "Banking that flows money to the highest return arrow_outward",
+          "top": 2610,
+          "left": 509,
+          "width": 421,
+          "height": 526
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__arrowIcon"
+          ],
+          "text": "arrow_outward",
+          "top": 2653,
+          "left": 880,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "lab(95.604 0.426412 1.20401)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgba(33, 33, 33, 0.1)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__root",
+            "relative",
+            "overflow-hidden",
+            "rounded-xl",
+            "border",
+            "border-black-100",
+            "bg-grayLight",
+            "flex"
+          ],
+          "text": "200+ Integrations to the tools you already use arrow_outward",
+          "top": 2610,
+          "left": 955,
+          "width": 421,
+          "height": 526
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PlatformCard-module__MXf3fW__arrowIcon"
+          ],
+          "text": "arrow_outward",
+          "top": 2653,
+          "left": 1325,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "group/link",
+            "group/card",
+            "block"
+          ],
+          "text": "Set user access on autopilot. Provision cards, permissions, and limits automatically based on role, location, department and custom fields. Enterprise Solutions",
+          "top": 9552,
+          "left": 64,
+          "width": 644,
+          "height": 680
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "16px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "relative",
+            "flex",
+            "w-full",
+            "flex-col",
+            "space-y-6",
+            "lg:space-y-10",
+            "justify-start",
+            "KbCard-module__kYLy0q__kbcard-l"
+          ],
+          "text": "Set user access on autopilot. Provision cards, permissions, and limits automatically based on role, location, department and custom fields. Enterprise Solutions",
+          "top": 9552,
+          "left": 64,
+          "width": 644,
+          "height": 680
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px 0px 40px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "overflow-hidden",
+            "KbCard-module__kYLy0q__kbcard-media"
+          ],
+          "text": "",
+          "top": 9552,
+          "left": 64,
+          "width": 644,
+          "height": 515
+        }
+      },
+      {
+        "style": {
+          "color": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "100%",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "w-full",
+            "lg:transition-transform",
+            "lg:duration-300",
+            "lg:group-hover/card:scale-102"
+          ],
+          "text": "",
+          "top": 9552,
+          "left": 64,
+          "width": 644,
+          "height": 515
+        }
+      },
+      {
+        "style": {
+          "color": "lab(2.83994 0.367254 0.969091)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "lausanne, \"lausanne Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid lab(2.83994 0.367254 0.969091)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "533px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "KbCard-module__kYLy0q__kbcard-content",
+            "space-y-4",
+            "max-w-[533px]",
+            "lg:space-y-6"
+          ],
+          "text": "Set user access on autopilot. Provision cards, permissions, and limits automatically based on role, location, department and custom fields. Enterprise Solutions",
+          "top": 10107,
+          "left": 64,
+          "width": 533,
+          "height": 125
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/b_s/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/bombora/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/equativ/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/experian/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/eyeota/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/g/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/index/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/l/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/n/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/o/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/outbrain/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/pubmatic/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/taboola/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/triplelift/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://d.adroll.com/cm/x/out?af0=f214e846&adroll_fpc=effb7c1dfdb0c7c83562ca2245974adc-1784369992458&pv=18565174071.827854&arrfrr=https%3A%2F%2Framp.com%2F&advertisable=HPBFOULJSRGITHZ4WRAFBE",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "canvas",
+        "src": null,
+        "alt": null,
+        "box": {
+          "tag": "canvas",
+          "id": null,
+          "classes": [
+            "block",
+            "h-full",
+            "w-full"
+          ],
+          "text": "",
+          "top": 102,
+          "left": 0,
+          "width": 1440,
+          "height": 1013
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://assets.ramp.com/nextjs/videos/homepage-hero-mobile-423.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "block",
+            "w-full",
+            "aspect-square",
+            "object-cover",
+            "rounded-xl",
+            "lg:hidden"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://assets.ramp.com/nextjs/videos/homepage-hero-423.webm",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "hidden",
+            "w-full",
+            "aspect-[1312/585]",
+            "object-cover",
+            "rounded-xl",
+            "lg:block"
+          ],
+          "text": "",
+          "top": 466,
+          "left": 65,
+          "width": 1310,
+          "height": 584
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://ramp.com/_next/static/media/SierraNevadaTinted.0drpu5a9eay6..svg?dpl=dpl_45XRH24uc3seWFu9LQNcU2M9ePxo",
+        "alt": "sierra-nevada",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "inline-block",
+            "opacity-40",
+            "h-6",
+            "w-auto",
+            "max-w-[120px]",
+            "lg:h-7"
+          ],
+          "text": "",
+          "top": 1492,
+          "left": 123,
+          "width": 47,
+          "height": 28
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "lab(2.83994 0.367254 0.969091)",
+        "count": 1669
+      },
+      {
+        "value": "lab(100 0 0)",
+        "count": 52
+      },
+      {
+        "value": "lab(2.83994 0.367254 0.969091 / 0.6)",
+        "count": 44
+      },
+      {
+        "value": "rgba(33, 33, 33, 0.1)",
+        "count": 17
+      },
+      {
+        "value": "rgba(33, 33, 33, 0.05)",
+        "count": 8
+      },
+      {
+        "value": "lab(95.604 0.426412 1.20401)",
+        "count": 5
+      },
+      {
+        "value": "oklab(0.2145 0.00152552 0.000480294 / 0.05)",
+        "count": 5
+      },
+      {
+        "value": "lab(92.1406 -20.4979 84.7726)",
+        "count": 3
+      },
+      {
+        "value": "lab(100 0 0 / 0.6)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "count": 1
+      },
+      {
+        "value": "lab(2.83994 0.367254 0.969091) lab(2.83994 0.367254 0.969091) rgba(33, 33, 33, 0.05)",
+        "count": 1
+      },
+      {
+        "value": "lab(8.86531 0.515342 0.18619)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.05)",
+        "count": 1
+      },
+      {
+        "value": "rgba(33, 33, 33, 0.024)",
+        "count": 1
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(31, 31, 29)",
+        "count": 1
+      },
+      {
+        "value": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.15)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "SF Pro",
+        "count": 460
+      },
+      {
+        "value": "lausanne",
+        "count": 333
+      },
+      {
+        "value": "TWK Lausanne",
+        "count": 78
+      },
+      {
+        "value": "Material Icons Outlined",
+        "count": 9
+      }
+    ],
+    "radii": [
+      {
+        "value": "12px",
+        "count": 24
+      },
+      {
+        "value": "6px",
+        "count": 13
+      },
+      {
+        "value": "4px",
+        "count": 9
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 6
+      },
+      {
+        "value": "10px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.6) 0px 0px 2px 0px inset"
+    ],
+    "cssVars": {
+      "--lausanne-ascent": "1866",
+      "--lausanne-descent": "-410",
+      "--lausanne-units-per-em": "2048",
+      "--white-rgb": "255,255,255",
+      "--white-0": "rgba(var(--white-rgb),0)",
+      "--white-25": "rgba(var(--white-rgb),.025)",
+      "--white-50": "rgba(var(--white-rgb),.05)",
+      "--white-100": "rgba(var(--white-rgb),.1)",
+      "--white-200": "rgba(var(--white-rgb),.2)",
+      "--white-300": "rgba(var(--white-rgb),.3)",
+      "--white-400": "rgba(var(--white-rgb),.4)",
+      "--white-500": "rgba(var(--white-rgb),.5)",
+      "--white-600": "rgba(var(--white-rgb),.6)",
+      "--white-700": "rgba(var(--white-rgb),.7)",
+      "--white-800": "rgba(var(--white-rgb),.8)",
+      "--white-900": "rgba(var(--white-rgb),.9)",
+      "--black-rgb": "33,33,33",
+      "--black-0": "rgba(var(--black-rgb),0)",
+      "--black-25": "rgba(var(--black-rgb),.025)",
+      "--black-50": "rgba(var(--black-rgb),.05)",
+      "--black-100": "rgba(var(--black-rgb),.1)",
+      "--black-200": "rgba(var(--black-rgb),.2)",
+      "--black-300": "rgba(var(--black-rgb),.3)",
+      "--black-400": "rgba(var(--black-rgb),.4)",
+      "--black-500": "rgba(var(--black-rgb),.5)",
+      "--black-600": "rgba(var(--black-rgb),.6)",
+      "--black-700": "rgba(var(--black-rgb),.7)",
+      "--black-800": "rgba(var(--black-rgb),.8)",
+      "--black-900": "rgba(var(--black-rgb),.9)",
+      "--black": "#1a1919",
+      "--dusk": "linear-gradient(in oklab to top,#e4ebf6 8%,#c3d3ef 20%,#5683d2 48%,#001b4a 100%)",
+      "--midnight": "linear-gradient(in oklab to bottom,#000 0%,#112d5b 100%)",
+      "--daylight": "linear-gradient(in oklab to bottom,#d2dff3 22%,#f2f5f9 93%)",
+      "--solar": "#e4f222",
+      "--solarLight": "#f5ff78",
+      "--smolder": "#17332d",
+      "--grayLight": "#f4f2f0",
+      "--grayMedium": "#d2cecb",
+      "--grayDark": "#6e6a68",
+      "--white": "#fff",
+      "--text-primary": "#0c0a08",
+      "--text-primaryReverse": "#fff",
+      "--text-hushed": "#0c0a0899",
+      "--text-hushedReverse": "#fff9",
+      "--blaze": "#e96516",
+      "--border-primary": "#d2cecb",
+      "--springLight": "#e4ebf6",
+      "--spring": "#5683d2",
+      "--z-header": "300",
+      "--z-overlay": "400",
+      "--z-modal": "500",
+      "--z-popover": "600",
+      "--z-tooltip": "700",
+      "--z-toast": "800",
+      "--z-navmenu": "900",
+      "--spacer-m": "40px",
+      "--spacer-l": "80px",
+      "--page-theme": "var(--white)",
+      "--nav-button-bg": "var(--black-50)",
+      "--nav-button-color": "var(--text-primary)",
+      "--nav-desktop-overlay-opacity": "0",
+      "--nav-button-border": "1.5px solid var(--white-0)",
+      "--nav-trigger-default-color": "var(--text-primary)",
+      "--nav-trigger-inactive-color": "var(--text-hushed)",
+      "--nav-hamburger-duration": ".25s",
+      "--nav-mobile-duration": ".24s",
+      "--nav-mobile-duration-slow": ".3s",
+      "--nav-mobile-easing": "cubic-bezier(.45, .05, .55, .95)",
+      "--nav-desktop-popup-duration": ".3s",
+      "--nav-desktop-popup-opacity-duration": ".24s",
+      "--nav-desktop-content-opacity-duration": ".25s",
+      "--nav-desktop-content-transform-duration": ".5s",
+      "--nav-desktop-underline-duration": ".2s",
+      "--nav-desktop-popup-easing": "cubic-bezier(.45, .05, .55, .95)",
+      "--nav-desktop-content-easing": "cubic-bezier(.4, 0, .2, 1)",
+      "--nav-desktop-chevron-easing": "cubic-bezier(.6, 0, .2, .5)",
+      "--font-size": "15px",
+      "--line-height": "21px",
+      "--card-height": "280px",
+      "--card-width": "444px"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"fixed inset-x-0 top-0 z-header h-(--nav-height)\"><div class=\"absolute inset-0 backdrop-blur-[25px] transition duration-0 delay-100\"></div><div class=\"fixed top-0 flex h-(--nav-height) w-full flex-col justify-between backdrop-opacity-100 transition-colors duration-100 border-b border-b-black-50 bg-white-500 text-primary NavbarClient-module__0lPMIq__navbar\"><style>\n      :root { --nav-banner-height: 40px; }\n      @media (max-width: 991px) { :root { --nav-banner-height: 70px; } }\n   \u2026",
+    "heroHtml": "<div class=\"mt-8\"><h1 class=\"leading-trim headline-xl text-primary max-w-[1050px] text-balance\">Time is money. Save both.</h1><div class=\"body-l text-hushed mt-6 max-w-[531px] text-pretty\">Cards, expenses, bill payments, and<!-- --> <button data-state=\"closed\"><span><span class=\"underline decoration-dotted decoration-black-200 underline-offset-4\">banking</span><sup class=\"top-0 text-[100%]\">*</sup></span></button> <!-- -->\u2013 in the blink of AI.</div></div>",
+    "footerHtml": "<footer style=\"--bg-color:var(--black)\" class=\"relative\" data-navbar-reverse=\"true\"><div class=\"absolute inset-x-0 top-[-24px] flex justify-between overflow-hidden\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"-webkit-transform:scale(1);transform:scale(1)\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 24H24C10.7452 24 0 13.2548 0 0V24Z\" fill=\"var(--bg-color)\"></path></svg><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xm\u2026"
+  },
+  "status": 200,
+  "final_url": "https://ramp.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 12,
+    "section_count": 8,
+    "nav_count": 1,
+    "button_count": 25,
+    "img_count": 62,
+    "footer_count": 1
+  }
+}

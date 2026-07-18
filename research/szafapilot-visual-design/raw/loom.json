@@ -1,0 +1,2373 @@
+{
+  "name": "loom",
+  "url": "https://www.loom.com",
+  "category": "ai-native",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/loom-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/loom-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/loom-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/loom-full.png",
+  "design": {
+    "url": "https://www.loom.com/",
+    "title": "Free screen recorder for Mac and PC | Loom",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 12562
+    },
+    "themeGuess": "dark",
+    "luminance": 0,
+    "bodyStyle": {
+      "color": "rgb(41, 42, 46)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Charlie Text\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(41, 42, 46)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "1440px",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": null,
+        "classes": [
+          "NewHeader_header__F2I_f"
+        ],
+        "text": "Apps Solutions Resources Enterprise Pricing Sign In Get Loom for free Contact Sales",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 90
+      },
+      "style": {
+        "color": "rgb(41, 42, 46)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Charlie Text\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(41, 42, 46)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "flex",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales",
+        "record your screen",
+        "Chrome extension",
+        "desktop app",
+        "mobile app",
+        "Download now"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "bg-thd-color-blue-10",
+          "overflow-hidden",
+          "max-w-100vw"
+        ],
+        "text": "Loom Footer Menu APP Pricing loomSDK Screen Recorder Screenshot Chrome Screen Recorder Mac Screen Recorder Windows Screen Recorder iPhone Screen Recorder Android Screen Recorder SO",
+        "top": 11865,
+        "left": 0,
+        "width": 1440,
+        "height": 697
+      },
+      "style": {
+        "color": "rgb(41, 42, 46)",
+        "backgroundColor": "rgb(233, 242, 254)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Charlie Text\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(41, 42, 46)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": "skip-to-content",
+        "classes": [],
+        "text": "One video is worth a thousand words Easily record and share AI-powered video messages with your teammates and customers to supercharge productivity Get Loom for free Install Chro",
+        "top": 90,
+        "left": 0,
+        "width": 1440,
+        "height": 12472
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "relative",
+          "pb-fluid-lg",
+          "bg-thd-color-white",
+          "relative",
+          "pt-fluid-lg"
+        ],
+        "top": 90,
+        "height": 1275,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "One video is worth a thousand words",
+        "headingTag": "h1",
+        "childCount": 2
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "classes": [
+          "mb-fluid-xs",
+          "py-fluid-lg",
+          "overflow-hidden"
+        ],
+        "top": 1365,
+        "height": 777,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Millions of people across 400,000 companies choose Loom",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "lg:px-fluid-base",
+          "mb-fluid-md",
+          "scroll-my-fluid-lg"
+        ],
+        "top": 2178,
+        "height": 816,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Ship faster with AI bug reports",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "max-w-screen-3xl",
+          "mx-auto",
+          "mb-fluid-lg",
+          "md:px-fluid-base",
+          "3xl:p-0"
+        ],
+        "top": 3085,
+        "height": 960,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The easiest screen recorder you\u2019ll ever use",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "classes": [
+          "mx-auto",
+          "px-fluid-base",
+          "3xl:p-0",
+          "max-w-screen-3xl"
+        ],
+        "top": 4156,
+        "height": 2504,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "So much more than a screen recorder",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [
+          "md:px-fluid-base",
+          "pb-fluid-lg"
+        ],
+        "top": 6661,
+        "height": 585,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Keep your content safe",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "mb-fluid-md"
+        ],
+        "top": 7246,
+        "height": 686,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Video messaging for all use cases",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "classes": [
+          "thd-container-max",
+          "flex",
+          "flex-col",
+          "items-center"
+        ],
+        "top": 7382,
+        "height": 476,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Sales",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "md:px-fluid-base",
+          "pb-fluid-lg",
+          "thd-container"
+        ],
+        "top": 8043,
+        "height": 590,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Powerful features for easy, custom recordings",
+        "headingTag": "h2",
+        "childCount": 3
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [
+          "md:px-fluid-base",
+          "pb-fluid-lg"
+        ],
+        "top": 8633,
+        "height": 1111,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "How to use async video messaging to improve communication",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "thd-container-max",
+          "flex",
+          "flex-col",
+          "items-center"
+        ],
+        "top": 8991,
+        "height": 535,
+        "width": 1154,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "When to Choose Synchronous Vs. Asynchronous Communication",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "md:px-fluid-base",
+          "pb-fluid-lg"
+        ],
+        "top": 9744,
+        "height": 1178,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Loom for Enterprise",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "ThreadTestimonialCarousel_container__3hu57",
+          "mb-fluid-lg",
+          "sm:gap-fluid-sm",
+          "pb-fluid-lg",
+          "lg:pb-0",
+          "lg:mb-fluid-lg"
+        ],
+        "top": 10923,
+        "height": 503,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "ot-sdk-row",
+          "ot-cat-grp"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 4
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "classes": [
+          "ot-hide",
+          "ot-hosts-ui",
+          "ot-pc-scrollbar"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Cookie List",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 16,
+        "tag": "section",
+        "classes": [
+          "ot-host-cnt",
+          "ot-pc-scrollbar"
+        ],
+        "top": 0,
+        "height": 0,
+        "width": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "One video is worth a thousand words",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1550.89px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-2xl",
+            "thd-heading-lg",
+            "mb-md"
+          ],
+          "text": "One video is worth a thousand words",
+          "top": 201,
+          "left": 212,
+          "width": 1015,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Millions of people across 400,000 companies choose Loom",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "44.1538px",
+          "fontWeight": "700",
+          "lineHeight": "50.4678px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 314.141px 0px 314.125px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "811.745px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "thd-heading-md",
+            "text-thd-color-black",
+            "thd-max-xl",
+            "flex",
+            "flex-col",
+            "text-center",
+            "items-center",
+            "mx-auto"
+          ],
+          "text": "Millions of people across 400,000 companies choose Loom",
+          "top": 1476,
+          "left": 314,
+          "width": 812,
+          "height": 101
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Ship faster with AI bug reports",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1163.17px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "thd-max-xl",
+            "thd-heading-lg",
+            "mb-md",
+            "lg:mb-lg"
+          ],
+          "text": "Ship faster with AI bug reports",
+          "top": 2331,
+          "left": 748,
+          "width": 545,
+          "height": 130
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The easiest screen recorder you\u2019ll ever use",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1163.17px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-xl",
+            "thd-heading-lg",
+            "mb-md",
+            "md:mb-lg"
+          ],
+          "text": "The easiest screen recorder you\u2019ll ever use",
+          "top": 3085,
+          "left": 147,
+          "width": 1147,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Lightning fast screen recording",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "32.5px",
+          "fontWeight": "700",
+          "lineHeight": "41.3725px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "398.45px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-lg",
+            "thd-heading-sm",
+            "mb-sm",
+            "lg:mb-md"
+          ],
+          "text": "Lightning fast screen recording",
+          "top": 3519,
+          "left": 286,
+          "width": 398,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "So much more than a screen recorder",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "775.446px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-lg",
+            "thd-heading-lg"
+          ],
+          "text": "So much more than a screen recorder",
+          "top": 4156,
+          "left": 332,
+          "width": 775,
+          "height": 130
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Edit your videos like a pro",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "32.5px",
+          "fontWeight": "700",
+          "lineHeight": "41.3725px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "md:thd-max-md",
+            "thd-heading-sm",
+            "mb-md"
+          ],
+          "text": "Edit your videos like a pro",
+          "top": 4595,
+          "left": 302,
+          "width": 286,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Share or embed video anywhere you work",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "32.5px",
+          "fontWeight": "700",
+          "lineHeight": "41.3725px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "md:thd-max-md",
+            "thd-heading-sm",
+            "mb-md"
+          ],
+          "text": "Share or embed video anywhere you work",
+          "top": 5407,
+          "left": 851,
+          "width": 286,
+          "height": 124
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Engage and connect with video",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "32.5px",
+          "fontWeight": "700",
+          "lineHeight": "41.3725px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "md:thd-max-md",
+            "thd-heading-sm",
+            "mb-md"
+          ],
+          "text": "Engage and connect with video",
+          "top": 6081,
+          "left": 302,
+          "width": 286,
+          "height": 83
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Keep your content safe",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "xl:max-w-none",
+            "thd-heading-lg",
+            "mb-lg"
+          ],
+          "text": "Keep your content safe",
+          "top": 6731,
+          "left": 406,
+          "width": 629,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Video messaging for all use cases",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1163.17px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-xl",
+            "thd-heading-lg"
+          ],
+          "text": "Video messaging for all use cases",
+          "top": 7246,
+          "left": 262,
+          "width": 917,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Sales",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 78.3281px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-heading-xs",
+            "lg",
+            "lg:text-center",
+            "lg:mx-auto"
+          ],
+          "text": "Sales",
+          "top": 7637,
+          "left": 151,
+          "width": 60,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Engineering",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 41.5px 0px 41.5156px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-heading-xs",
+            "lg",
+            "lg:text-center",
+            "lg:mx-auto"
+          ],
+          "text": "Engineering",
+          "top": 7637,
+          "left": 473,
+          "width": 134,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Customer support",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 9.15625px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-heading-xs",
+            "lg",
+            "lg:text-center",
+            "lg:mx-auto"
+          ],
+          "text": "Customer support",
+          "top": 7637,
+          "left": 801,
+          "width": 198,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Design",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px 69.7656px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-heading-xs",
+            "lg",
+            "lg:text-center",
+            "lg:mx-auto"
+          ],
+          "text": "Design",
+          "top": 7637,
+          "left": 1221,
+          "width": 77,
+          "height": 34
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Powerful features for easy, custom recordings",
+        "style": {
+          "color": "rgb(16, 18, 20)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(16, 18, 20)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1550.89px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-black",
+            "thd-max-2xl",
+            "thd-heading-lg"
+          ],
+          "text": "Powerful features for easy, custom recordings",
+          "top": 8043,
+          "left": 90,
+          "width": 1260,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "How to use async video messaging to improve communication",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "1163.17px",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "thd-max-xl",
+            "thd-heading-lg"
+          ],
+          "text": "How to use async video messaging to improve communication",
+          "top": 8766,
+          "left": 179,
+          "width": 1082,
+          "height": 130
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "When to Choose Synchronous Vs. Asynchronous Communication",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "thd-heading-xs",
+            "lg"
+          ],
+          "text": "When to Choose Synchronous Vs. Asynchronous Communication",
+          "top": 9062,
+          "left": 235,
+          "width": 393,
+          "height": 67
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Let Loom AI Do the Work: Say Goodbye to Manual Documentation",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "25.2692px",
+          "fontWeight": "700",
+          "lineHeight": "33.6839px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "thd-heading-xs",
+            "lg"
+          ],
+          "text": "Let Loom AI Do the Work: Say Goodbye to Manual Documentation",
+          "top": 9062,
+          "left": 811,
+          "width": 393,
+          "height": 101
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Loom for Enterprise",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Display\", sans-serif",
+          "fontSize": "63.2692px",
+          "fontWeight": "700",
+          "lineHeight": "65.104px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "text-thd-color-white",
+            "thd-max-lg",
+            "lg:max-w-none",
+            "thd-heading-lg",
+            "mb-sm"
+          ],
+          "text": "Loom for Enterprise",
+          "top": 9855,
+          "left": 449,
+          "width": 542,
+          "height": 65
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Loom Footer Menu",
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "0px",
+          "margin": "-1px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "sr-only"
+          ],
+          "text": "Loom Footer Menu",
+          "top": 11864,
+          "left": -1,
+          "width": 1,
+          "height": 1
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Manage Preferences",
+        "style": {
+          "color": "rgb(105, 105, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(105, 105, 105)",
+          "padding": "0px",
+          "margin": "10px 0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": "ot-pc-title",
+          "classes": [],
+          "text": "Manage Preferences",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Cookie List",
+        "style": {
+          "color": "rgb(105, 105, 105)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "20.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(105, 105, 105)",
+          "padding": "0px",
+          "margin": "0px 0px 0px 15px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [],
+          "text": "Cookie List",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "href": "/",
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 21,
+          "left": 36,
+          "width": 150,
+          "height": 48
+        }
+      },
+      {
+        "text": "Apps",
+        "href": null,
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg",
+            "after:content-['\u25bc']",
+            "after:text-[8px]",
+            "after:pl-6"
+          ],
+          "text": "Apps",
+          "top": 25,
+          "left": 481,
+          "width": 84,
+          "height": 40
+        }
+      },
+      {
+        "text": "Solutions",
+        "href": null,
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg",
+            "after:content-['\u25bc']",
+            "after:text-[8px]",
+            "after:pl-6"
+          ],
+          "text": "Solutions",
+          "top": 25,
+          "left": 564,
+          "width": 117,
+          "height": 40
+        }
+      },
+      {
+        "text": "Resources",
+        "href": null,
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg",
+            "after:content-['\u25bc']",
+            "after:text-[8px]",
+            "after:pl-6"
+          ],
+          "text": "Resources",
+          "top": 25,
+          "left": 681,
+          "width": 123,
+          "height": 40
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg"
+          ],
+          "text": "Enterprise",
+          "top": 26,
+          "left": 804,
+          "width": 109,
+          "height": 37
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "inline",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg"
+          ],
+          "text": "Pricing",
+          "top": 26,
+          "left": 914,
+          "width": 83,
+          "height": 37
+        }
+      },
+      {
+        "text": "Sign In",
+        "href": "/login",
+        "style": {
+          "color": "rgb(41, 42, 46)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(41, 42, 46)",
+          "padding": "8px 16px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "thd-button-xs",
+            "xl:thd-button-sm",
+            "thd-focus-thick",
+            "thd-focus-bg"
+          ],
+          "text": "Sign In",
+          "top": 25,
+          "left": 997,
+          "width": 83,
+          "height": 40
+        }
+      },
+      {
+        "text": "Get Loom for free",
+        "href": "/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(24, 104, 219)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "15.6154px",
+          "fontWeight": "400",
+          "lineHeight": "26.7648px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "7.80769px 15.6154px",
+          "margin": "0px 0px 0px 16px",
+          "display": "flex",
+          "gap": "15.6154px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ml-16",
+            "thd-button-nav",
+            "thd-button-secondary",
+            "w-content",
+            "thd-button-md",
+            "thd-body-sm",
+            "gap-[1em]",
+            "flex"
+          ],
+          "text": "Get Loom for free",
+          "top": 21,
+          "left": 1096,
+          "width": 159,
+          "height": 48
+        }
+      },
+      {
+        "text": "Contact Sales",
+        "href": "/connect/enterprise?campaign=7013i000000QYMqAAO",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(233, 242, 254)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "15.6154px",
+          "fontWeight": "400",
+          "lineHeight": "26.7648px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 4.45038px",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "7.80769px 15.6154px",
+          "margin": "0px 0px 0px 16px",
+          "display": "flex",
+          "gap": "15.6154px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ml-16",
+            "block",
+            "flex-shrink-0",
+            "thd-button-nav",
+            "thd-button-secondary",
+            "w-content",
+            "thd-button-md",
+            "thd-body-sm"
+          ],
+          "text": "Contact Sales",
+          "top": 21,
+          "left": 1271,
+          "width": 133,
+          "height": 48
+        }
+      },
+      {
+        "text": "Get Loom for free",
+        "href": "/signup",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(24, 104, 219)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "15.6154px",
+          "fontWeight": "700",
+          "lineHeight": "26.7648px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "15.6154px 23.4231px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "15.6154px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "thd-button-primary",
+            "w-content",
+            "md:mx-auto",
+            "thd-button-lg",
+            "thd-body-sm",
+            "gap-[1em]",
+            "flex",
+            "items-center"
+          ],
+          "text": "Get Loom for free",
+          "top": 416,
+          "left": 487,
+          "width": 177,
+          "height": 58
+        }
+      },
+      {
+        "text": "Install Chrome Extension\nOpen in new window",
+        "href": "https://chrome.google.com/webstore/detail/loom-%E2%80%93-screen-recorder-sc/liecbddmkiiihnedobmlmillhodjkdmb",
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(233, 242, 254)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Charlie Text\", sans-serif",
+          "fontSize": "15.6154px",
+          "fontWeight": "700",
+          "lineHeight": "26.7648px",
+          "letterSpacing": "normal",
+          "borderRadius": "9999px",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 4.45038px",
+          "border": "0px solid rgb(0, 0, 0)",
+          "padding": "15.6154px 23.4231px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "7.80769px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "thd-button-primary",
+            "w-content",
+            "thd-button-lg",
+            "thd-body-sm",
+            "gap-[.5em]",
+            "flex",
+            "items-center",
+            "whitespace-nowrap"
+          ],
+          "text": "Install Chrome Extension Open in new window",
+          "top": 416,
+          "left": 689,
+          "width": 264,
+          "height": 58
+        }
+      }
+    ],
+    "cards": [],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/ed2fbe013284dc7017af8a6b577d6a4134ad14b6-84x25.svg",
+        "alt": "HubSpot",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": -498,
+          "width": 131,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/f47c123a9e55ca281b42661d19d8ef2e58e32e83-152x23.svg",
+        "alt": "Lacoste",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1804,
+          "left": -256,
+          "width": 132,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/67138cbd05157ec4e867bfbc6e678901aa96d11a-130x22.svg",
+        "alt": "Postclick",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1803,
+          "left": -12,
+          "width": 132,
+          "height": 22
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/b74a41f0614f6c513da65947ffcd58d1c0022a57-550x160.png",
+        "alt": "LaunchDarkly",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": 231,
+          "width": 134,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/5341cc007b217389b1e1054798648aae770c2038-148x34.svg",
+        "alt": "Remote",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1799,
+          "left": 476,
+          "width": 131,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/60830ef0c286eeb2a042f4d6fa8bec4a8126bf41-50x50.svg",
+        "alt": "MetaLab",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1795,
+          "left": 718,
+          "width": 38,
+          "height": 38
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/aac6e2fb4cd24da5de4a5d1efb7e029d0b653064-540x67.svg",
+        "alt": "Atlassian",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1804,
+          "left": 866,
+          "width": 165,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/f588b9109e5d8830187c6fe95151f39f09c41791-115x32.svg",
+        "alt": "Juniper",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1799,
+          "left": 1142,
+          "width": 108,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/7d3fd0c273d97f58c53045d0235fb2f3b0024897-118x55.svg",
+        "alt": "Braze",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1795,
+          "left": 1361,
+          "width": 82,
+          "height": 38
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/2a70b94e8eb25577efda4dd0e4ec4d0b664b00a5-176x52.svg",
+        "alt": "Gtmhub",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": 1554,
+          "width": 132,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/7a7bcde3232541daf0aa5abb75c58118b20935f7-337x76.svg",
+        "alt": "Greenhouse",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1799,
+          "left": 1797,
+          "width": 133,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/696dce5e713a4edd80b7da60c54ecc789661e7e8-4723x1250.svg",
+        "alt": "Brex",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1799,
+          "left": 2041,
+          "width": 113,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/1721eca5cb378e1c0066c7fd47c4a4c0d038d373-157x50.svg",
+        "alt": "Fit Fab Fun",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": 2265,
+          "width": 122,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/ed2fbe013284dc7017af8a6b577d6a4134ad14b6-84x25.svg",
+        "alt": "HubSpot",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": 2498,
+          "width": 131,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/f47c123a9e55ca281b42661d19d8ef2e58e32e83-152x23.svg",
+        "alt": "Lacoste",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1804,
+          "left": 2740,
+          "width": 132,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/67138cbd05157ec4e867bfbc6e678901aa96d11a-130x22.svg",
+        "alt": "Postclick",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1803,
+          "left": 2983,
+          "width": 132,
+          "height": 22
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/b74a41f0614f6c513da65947ffcd58d1c0022a57-550x160.png",
+        "alt": "LaunchDarkly",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1794,
+          "left": 3226,
+          "width": 134,
+          "height": 39
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/5341cc007b217389b1e1054798648aae770c2038-148x34.svg",
+        "alt": "Remote",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1799,
+          "left": 3471,
+          "width": 131,
+          "height": 30
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/60830ef0c286eeb2a042f4d6fa8bec4a8126bf41-50x50.svg",
+        "alt": "MetaLab",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1795,
+          "left": 3714,
+          "width": 38,
+          "height": 38
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://cdn.sanity.io/images/pvn35iyy/production/aac6e2fb4cd24da5de4a5d1efb7e029d0b653064-540x67.svg",
+        "alt": "Atlassian",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "thd-filter",
+            "thd-logo",
+            "w-full",
+            "h-full",
+            "mx-auto"
+          ],
+          "text": "",
+          "top": 1804,
+          "left": 3862,
+          "width": 165,
+          "height": 20
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(41, 42, 46)",
+        "count": 890
+      },
+      {
+        "value": "rgb(16, 18, 20)",
+        "count": 526
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 142
+      },
+      {
+        "value": "rgb(24, 104, 219)",
+        "count": 125
+      },
+      {
+        "value": "rgb(233, 242, 254)",
+        "count": 42
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 12
+      },
+      {
+        "value": "rgb(191, 99, 243)",
+        "count": 10
+      },
+      {
+        "value": "rgb(255, 97, 61)",
+        "count": 8
+      },
+      {
+        "value": "rgb(72, 36, 93)",
+        "count": 5
+      },
+      {
+        "value": "rgb(201, 124, 244)",
+        "count": 2
+      },
+      {
+        "value": "rgb(130, 181, 54)",
+        "count": 2
+      },
+      {
+        "value": "rgb(18, 50, 99)",
+        "count": 2
+      },
+      {
+        "value": "rgb(21, 88, 188)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255, 97, 61, 0.125)",
+        "count": 1
+      },
+      {
+        "value": "rgb(41, 42, 46) rgba(0, 0, 0, 0.2) rgb(41, 42, 46) rgb(41, 42, 46)",
+        "count": 1
+      },
+      {
+        "value": "rgb(238, 215, 252)",
+        "count": 1
+      },
+      {
+        "value": "rgb(239, 255, 214)",
+        "count": 1
+      },
+      {
+        "value": "rgb(248, 238, 254)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Charlie Text",
+        "count": 829
+      },
+      {
+        "value": "Charlie Display",
+        "count": 30
+      }
+    ],
+    "radii": [
+      {
+        "value": "9999px",
+        "count": 62
+      },
+      {
+        "value": "68.9231px",
+        "count": 20
+      },
+      {
+        "value": "41.6923px",
+        "count": 15
+      },
+      {
+        "value": "12px",
+        "count": 4
+      },
+      {
+        "value": "50%",
+        "count": 2
+      },
+      {
+        "value": "6px",
+        "count": 2
+      },
+      {
+        "value": "41.6923px 0px 0px 41.6923px",
+        "count": 2
+      },
+      {
+        "value": "16px",
+        "count": 2
+      },
+      {
+        "value": "50px",
+        "count": 1
+      },
+      {
+        "value": "8px",
+        "count": 1
+      },
+      {
+        "value": "0px 41.6923px 41.6923px 0px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 4.45038px",
+      "rgba(0, 0, 0, 0.25) 0px 15px 50px 0px",
+      "rgba(0, 0, 0, 0.25) 0px 3.24px 3.24px 0px",
+      "rgba(255, 255, 255, 0.4) 0px 0px 0px 5px, rgba(0, 0, 0, 0.17) 0px 45.612px 86.879px 0px, rgba(0, 0, 0, 0.11) 0px 13.751px 26.192px 0px, rgba(0, 0, 0, 0.09) 0px 5.71104px 10.879px 0px, rgba(0, 0, 0, 0.06) 0px 2.06592px 3.93504px 0px",
+      "rgba(0, 0, 0, 0.04) 0px 2px 6px 0px, rgba(0, 0, 0, 0.06) 0px 5px 18px 0px, rgba(0, 0, 0, 0.1) 0px 24px 83px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 2px 6px 0px, rgba(0, 0, 0, 0.06) 0px 5px 18px 0px, rgba(0, 0, 0, 0.1) 0px 24px 83px 0px",
+      "rgba(0, 0, 0, 0.2) 0px 6px 6px 3px",
+      "rgba(0, 0, 0, 0.03) 0px 4px 6.4px 0px, rgba(0, 0, 0, 0.05) 0px 3px 9.6px 0px, rgba(0, 0, 0, 0.07) 0px 8px 32px 0px, rgba(0, 0, 0, 0.1) 0px 32px 96px 0px"
+    ],
+    "cssVars": {
+      "--tw-content": "\"\"",
+      "--tw-border-spacing-x": "0",
+      "--tw-border-spacing-y": "0",
+      "--tw-translate-x": "0",
+      "--tw-translate-y": "0",
+      "--tw-rotate": "0",
+      "--tw-skew-x": "0",
+      "--tw-skew-y": "0",
+      "--tw-scale-x": "1",
+      "--tw-scale-y": "1",
+      "--tw-scroll-snap-strictness": "proximity",
+      "--tw-ring-offset-width": "0px",
+      "--tw-ring-offset-color": "#fff",
+      "--tw-ring-color": "rgba(59,130,246,.5)",
+      "--tw-ring-offset-shadow": "0 0 #0000",
+      "--tw-ring-shadow": "0 0 #0000",
+      "--tw-shadow": "0 0 #0000",
+      "--tw-shadow-colored": "0 0 #0000",
+      "--focus-ring-radius": "0.375rem",
+      "--focus-ring-offset": "0.375rem",
+      "--content-bg-color": "var(--lns-color-blueDark)",
+      "--content-text-color": "var(--lns-color-offWhite)",
+      "--accent-bg-color": "var(--lns-color-blueLight)",
+      "--tableSpacing": "0.75rem",
+      "--box-w": "10rem",
+      "--box-h": "2.5rem",
+      "--re-circle-size": "calc(33.25 * 0.42 * var(--lns-unit, 8px))",
+      "--re-group-center-y": "calc(var(--re-circle-size) * (1 + 0.15) / 2)",
+      "--curtain-width": "2em",
+      "--curtain-padding": "calc(2 * var(--curtain-width))",
+      "--card-width": "calc(100vw - var(--curtain-padding))",
+      "--colGap": "1em",
+      "--degrees": "90deg",
+      "--control-width": "3.5em",
+      "--gap": "0.625rem",
+      "--margin-width": "calc(50% - var(--control-width) - (0.5 * var(--gap)))",
+      "--border-width": "0.375em",
+      "--focus-width": "calc(var(--border-width) * 0.45)",
+      "--focus-offset": "calc(var(--focus-width) + var(--border-width))",
+      "--focus-color-rg": "var(--thd-color-button-fr)"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header class=\"NewHeader_header__F2I_f\"><div class=\"hidden xl:block relative z-20\"></div><nav aria-label=\"primary\" class=\"px-fluid-base 4xl:px-0 my-auto relative z-10 h-[var(--thd-nav-h)]\"><div class=\"flex items-center justify-between max-w-screen-3xl mx-auto h-full\"><a href=\"/\"><svg width=\"150px\" height=\"48px\" viewBox=\"0 0 232 75\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Atlassian Loom Logo\"><path d=\"M181.37 52.212V65H177.414V51.108C177.414 46.968 175.758 45.128 171.986 45.128\u2026",
+    "heroHtml": "<div class=\"flex items-center gap-x-fixed-md\"><h1 class=\"text-thd-color-black thd-max-2xl thd-heading-lg mb-md\">One video is worth a thousand words</h1></div>",
+    "footerHtml": "<footer class=\"bg-thd-color-blue-10 overflow-hidden max-w-100vw\"><h3 class=\"sr-only\">Loom Footer Menu</h3><div class=\"max-w-screen-3xl px-fluid-base mx-auto mb-fluid-md\"><div class=\"w-full grid sm:grid-cols-footer-2 md:grid-cols-footer-3 lg:grid-cols-footer-4 2xl:grid-cols-footer-6 gap-y-fluid-lg justify-between 2xl:justify-between grid-cols-footer-2 justify-around\"><div class=\"text-thd-color-black\"><h4 class=\"thd-overline mb-fixed-md\">App</h4><ul><li class=\"mb-fixed-md last:mb-0\"><a _createdat=\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.loom.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 11,
+    "section_count": 17,
+    "nav_count": 1,
+    "button_count": 22,
+    "img_count": 85,
+    "footer_count": 1
+  }
+}

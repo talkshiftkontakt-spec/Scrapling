@@ -1,0 +1,2918 @@
+{
+  "name": "airtable",
+  "url": "https://www.airtable.com",
+  "category": "automation",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/airtable-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/airtable-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/airtable-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/airtable-full.png",
+  "design": {
+    "url": "https://www.airtable.com/",
+    "title": "Airtable: Build Enterprise-ready AI Workflows, Apps & Agents | Airtable",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 7785
+    },
+    "themeGuess": "light",
+    "luminance": 0.9999999999999999,
+    "bodyStyle": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "fontFamily": "\"Haas Groot Disp\", Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(51, 51, 51)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "flex",
+      "gap": "normal",
+      "maxWidth": "1440px",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "1440px",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "header",
+        "id": "marketingHeaderSharedRoot",
+        "classes": [
+          "Nav-module_headerWrap__3rK1K"
+        ],
+        "text": "Bring your Airtable data into Claude. Try it now Airtable home or view your bases Platform Solutions Resources Enterprise Pricing Book Demo Sign up for free Log in",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 121
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(51, 51, 51)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "Try it now",
+        "Airtable home or view your bases"
+      ]
+    },
+    "footer": {
+      "box": {
+        "tag": "footer",
+        "id": null,
+        "classes": [
+          "marketingFooterV2-module_footerWrap__2l-em"
+        ],
+        "text": "Airtable home Platform Solutions Resources Enterprise Pricing Book Demo Facebook Linkedin Twitter Instagram Youtube Platform AI App Building AI Agents Airtable Platform ",
+        "top": 7206,
+        "left": 0,
+        "width": 1440,
+        "height": 579
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "fontFamily": "\"Haas Groot Disp\", Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px solid rgb(51, 51, 51)",
+        "padding": "0px",
+        "margin": "0px",
+        "display": "block",
+        "gap": "normal",
+        "maxWidth": "none",
+        "textTransform": "none"
+      }
+    },
+    "main": {
+      "box": {
+        "tag": "main",
+        "id": null,
+        "classes": [
+          "MarketingPageBlocks-module__7rSsmW__root",
+          "font-body",
+          "text-text-body",
+          "w-full",
+          "min-w-0",
+          "pb-16"
+        ],
+        "text": "All your teams, all their workflows\u2014connected in one workspace Build AI-powered workflows that unify data, maximize collaboration, and set your teams up for long-term success. No ",
+        "top": 121,
+        "left": 0,
+        "width": 1440,
+        "height": 7085
+      }
+    },
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "classes": [
+          "Nav-module_beforeNavSection__lgBS3"
+        ],
+        "top": 0,
+        "height": 42,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 121,
+        "height": 989,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "All your teams, all their workflows\u2014connected in one workspace",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "classes": [
+          "ContentStack-module__s_ZFMG__root"
+        ],
+        "top": 121,
+        "height": 989,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "All your teams, all their workflows\u2014connected in one workspace",
+        "headingTag": "h1",
+        "childCount": 1
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__d1g50a__coreHeroImageCentered"
+        ],
+        "top": 121,
+        "height": 989,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "All your teams, all their workflows\u2014connected in one workspace",
+        "headingTag": "h1",
+        "childCount": 2
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 1110,
+        "height": 191,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Trusted by 500,000 leading teams",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "classes": [],
+        "top": 1110,
+        "height": 191,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Trusted by 500,000 leading teams",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "classes": [
+          "logobar-module-scss-module__FMYWJW__logobarWrap"
+        ],
+        "top": 1209,
+        "height": 92,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 1301,
+        "height": 3141,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Sophisticated workflows in minutes, not months",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "classes": [
+          "TabPanels-module__faJNNa__root",
+          "TabPanels-scrollable-module-scss-module__Ey7v5a__scrollableSection"
+        ],
+        "top": 1301,
+        "height": 3141,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Sophisticated workflows in minutes, not months",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "classes": [],
+        "top": 1394,
+        "height": 3048,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Production apps at prototype speed",
+        "headingTag": "h3",
+        "childCount": 1
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__uhM0BW__animatedMediaCard",
+          "TextMediaCard-module-scss-module__6l18Rq__textMediaCard"
+        ],
+        "top": 1442,
+        "height": 675,
+        "width": 1101,
+        "backgroundColor": "rgb(145, 46, 31)",
+        "backgroundImage": null,
+        "heading": "Production apps at prototype speed",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__uhM0BW__animatedMediaCardHeading"
+        ],
+        "top": 1491,
+        "height": 107,
+        "width": 1099,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Production apps at prototype speed",
+        "headingTag": "h3",
+        "childCount": 2
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__hmBoNG__textMediaCard",
+          "TextMediaCard-module-scss-module__6l18Rq__textMediaCard",
+          "index-module-scss-module__hmBoNG__textMediaCardTopMedia"
+        ],
+        "top": 2165,
+        "height": 675,
+        "width": 1101,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Don\u2019t just ask AI. Deploy it.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__hmBoNG__textMediaCardHeading"
+        ],
+        "top": 2692,
+        "height": 107,
+        "width": 1099,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Don\u2019t just ask AI. Deploy it.",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 4442,
+        "height": 1294,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "The path to 10x every person in your organization",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "classes": [
+          "CardGrid-module-scss-module__5N3nvG__bentoSection"
+        ],
+        "top": 4442,
+        "height": 1294,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "The path to 10x every person in your organization",
+        "headingTag": "h2",
+        "childCount": 2
+      },
+      {
+        "index": 16,
+        "tag": "section",
+        "classes": [
+          "index-module-scss-module__3yd1LW__bentoBoxSectionWrapper"
+        ],
+        "top": 4594,
+        "height": 1142,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 17,
+        "tag": "section",
+        "classes": [],
+        "top": 4658,
+        "height": 1014,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 5736,
+        "height": 581,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 19,
+        "tag": "section",
+        "classes": [],
+        "top": 5736,
+        "height": 581,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 20,
+        "tag": "section",
+        "classes": [],
+        "top": 5736,
+        "height": 581,
+        "width": 1376,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "classes": [
+          "mx-auto",
+          "w-full",
+          "max-w-marketing-content",
+          "px-6",
+          "marketing-content:px-0",
+          "MarketingPageBlocks-module__7rSsmW__containedSection"
+        ],
+        "top": 6317,
+        "height": 491,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 22,
+        "tag": "section",
+        "classes": [],
+        "top": 6317,
+        "height": 491,
+        "width": 1392,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 23,
+        "tag": "section",
+        "classes": [
+          "CustomerStories-module-scss-module__Za0PWq__carouselWrapper",
+          "CustomerStories-module-scss-module__Za0PWq__paddingTopNone",
+          "CustomerStories-module-scss-module__Za0PWq__paddingBottomNone",
+          "SectionWrapper-module-scss-module__r5PX6W__sectionWrap"
+        ],
+        "top": 6317,
+        "height": 491,
+        "width": 1392,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 24,
+        "tag": "section",
+        "classes": [
+          "CustomerStories-module-scss-module__Za0PWq__sliderInnerWrapper",
+          "CustomerStories-module-scss-module__Za0PWq__lonelySlide",
+          "Slider-module-scss-module__Tu7UxW__sliderWrap"
+        ],
+        "top": 6319,
+        "height": 487,
+        "width": 1388,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 1
+      },
+      {
+        "index": 25,
+        "tag": "section",
+        "classes": [
+          "VideoPane-module-scss-module__M6dF6a__videoPaneWrap",
+          "BkGrid-module-scss-module__XUexzW__bkGrid",
+          "BkGrid-module-scss-module__XUexzW__gap"
+        ],
+        "top": 6367,
+        "height": 439,
+        "width": 1388,
+        "backgroundColor": "rgb(204, 204, 204)",
+        "backgroundImage": null,
+        "heading": null,
+        "headingTag": null,
+        "childCount": 2
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "classes": [
+          "w-full",
+          "min-w-0"
+        ],
+        "top": 6808,
+        "height": 334,
+        "width": 1440,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": null,
+        "heading": "Start building with Airtable\n\nTeams at over 500,000 forward-thinking organizations use Airtable every day. Join them.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 27,
+        "tag": "section",
+        "classes": [
+          "section-themed-surface-module__9ccDKW__sectionThemed"
+        ],
+        "top": 6808,
+        "height": 334,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Start building with Airtable\n\nTeams at over 500,000 forward-thinking organizations use Airtable every day. Join them.",
+        "headingTag": "h2",
+        "childCount": 1
+      },
+      {
+        "index": 28,
+        "tag": "section",
+        "classes": [
+          "CTASection-module-scss-module__fCjkkW__ctaSectionGridContainer",
+          "CTASection-module-scss-module__fCjkkW__ctaSectionNewDesign"
+        ],
+        "top": 6808,
+        "height": 334,
+        "width": 1440,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": null,
+        "heading": "Start building with Airtable\n\nTeams at over 500,000 forward-thinking organizations use Airtable every day. Join them.",
+        "headingTag": "h2",
+        "childCount": 1
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "All your teams, all their workflows\u2014connected in one workspace",
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "lineHeight": "48px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortLg",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "index-module-scss-module__d1g50a__headline"
+          ],
+          "text": "All your teams, all their workflows\u2014connected in one workspace",
+          "top": 161,
+          "left": 267,
+          "width": 907,
+          "height": 96
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by 500,000 leading teams",
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "18.9px",
+          "letterSpacing": "0.16px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShort2xs",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__strong",
+            "LogosBarSection-module-scss-module__Aj_6TG__heading"
+          ],
+          "text": "Trusted by 500,000 leading teams",
+          "top": 1150,
+          "left": 32,
+          "width": 1376,
+          "height": 19
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Sophisticated workflows in minutes, not months",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Haas Groot Disp\", Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "36.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "48px 0px 0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "HeadingGroup-module__HOCJpW__heading"
+          ],
+          "text": "Sophisticated workflows in minutes, not months",
+          "top": 1301,
+          "left": 32,
+          "width": 1376,
+          "height": 85
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Production apps at prototype speed",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "32.4px",
+          "letterSpacing": "0.12px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortSmMd",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "index-module-scss-module__uhM0BW__headline",
+            "TextMediaCard-module-scss-module__6l18Rq__headline"
+          ],
+          "text": "Production apps at prototype speed",
+          "top": 1491,
+          "left": 356,
+          "width": 683,
+          "height": 39
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Don\u2019t just ask AI. Deploy it.",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortMl",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "index-module-scss-module__hmBoNG__headline",
+            "TextMediaCard-module-scss-module__6l18Rq__headline"
+          ],
+          "text": "Don\u2019t just ask AI. Deploy it.",
+          "top": 2692,
+          "left": 356,
+          "width": 683,
+          "height": 39
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Say hello to Omni",
+        "style": {
+          "color": "rgb(37, 79, 173)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(37, 79, 173)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortMl",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "TextMediaCard-module-scss-module__6l18Rq__headline"
+          ],
+          "text": "Say hello to Omni",
+          "top": 3195,
+          "left": 348,
+          "width": 406,
+          "height": 39
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The power of AI with the industrial-grade platform your business demands",
+        "style": {
+          "color": "rgb(33, 66, 36)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "lineHeight": "30px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(33, 66, 36)",
+          "padding": "40px 0px 0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortMl",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "ListCard-module-scss-module__b2YxAW__heading",
+            "TextMediaCard-module-scss-module__6l18Rq__headline"
+          ],
+          "text": "The power of AI with the industrial-grade platform your business demands",
+          "top": 3700,
+          "left": 348,
+          "width": 406,
+          "height": 157
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "The path to 10x every person in your organization",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "\"Haas Groot Disp\", Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "HeadingGroup-module__HOCJpW__heading"
+          ],
+          "text": "The path to 10x every person in your organization",
+          "top": 4506,
+          "left": 32,
+          "width": 1207,
+          "height": 40
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Start building with Airtable\n\nTeams at over 500,000 forward-thinking organizations use Airtable every day. Join them.",
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "40px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "BkText-module-scss-module__lpxhIa__typeShortMl",
+            "BkText-module-scss-module__lpxhIa__bkText",
+            "BkText-module-scss-module__lpxhIa__normal",
+            "CTASectionHeadline-module-scss-module__AcpDgq__heading",
+            "CTASectionHeadline-module-scss-module__AcpDgq__headingDesignV2",
+            "default"
+          ],
+          "text": "Start building with Airtable Teams at over 500,000 forward-thinking organizations use Airtable every day. Join them.",
+          "top": 6897,
+          "left": 73,
+          "width": 1294,
+          "height": 76
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Airtable home or view your bases",
+        "href": "https://www.airtable.com/",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "0px",
+          "margin": "22px 0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": "nav-brand",
+          "classes": [
+            "Brand-module_brandWrap__1dhJu"
+          ],
+          "text": "Airtable home or view your bases",
+          "top": 66,
+          "left": 32,
+          "width": 140,
+          "height": 32
+        }
+      },
+      {
+        "text": "Platform",
+        "href": null,
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "20.8px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(24, 29, 38)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "2fd413c59b3139ddedf42bef43cd1e68",
+          "classes": [
+            "Drawer-module_navDrawerToggle__3u0CY"
+          ],
+          "text": "Platform",
+          "top": 71,
+          "left": 204,
+          "width": 81,
+          "height": 21
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 188,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/app-building",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 263,
+          "left": -124,
+          "width": 726,
+          "height": 78
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/ai-agents",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 340,
+          "left": -124,
+          "width": 726,
+          "height": 78
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/portals",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 418,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/hyperdb",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 493,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "a805d03fe9a662a0d79d8b5b5bd60d4c",
+          "classes": [
+            "DrawerNested-module_nestedToggle__1QzdG"
+          ],
+          "text": "",
+          "top": 568,
+          "left": -124,
+          "width": 726,
+          "height": 50
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/automations",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 188,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/connected-data",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 263,
+          "left": -97,
+          "width": 480,
+          "height": 96
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/interface-designer",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 358,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/reporting",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 433,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/views",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 508,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/governance",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 583,
+          "left": -97,
+          "width": 480,
+          "height": 96
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform/ai",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 678,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/whatsnew",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "v2-module_hideSubTextThruXl__1_0Z3",
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 753,
+          "left": -97,
+          "width": 480,
+          "height": 50
+        }
+      },
+      {
+        "text": "",
+        "href": null,
+        "style": {
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": "68de6693f5eb9d2e3fc56969fcab6e09",
+          "classes": [
+            "DrawerNested-module_nestedToggle__1QzdG"
+          ],
+          "text": "",
+          "top": 677,
+          "left": -124,
+          "width": 726,
+          "height": 50
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations/slack",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 188,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations/google-drive",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 263,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations/salesforce",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 337,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations/jira",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 412,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations/zendesk",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 487,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/integrations",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "24px 0px 0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "v2-module_resourceHubHomeLink__1g8SP",
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_",
+            "DrawerLink-module_center__H-2Wf"
+          ],
+          "text": "",
+          "top": 586,
+          "left": -97,
+          "width": 480,
+          "height": 50
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/downloads",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "v2-module_hideSubTextThruXl__1_0Z3",
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 727,
+          "left": -124,
+          "width": 726,
+          "height": 50
+        }
+      },
+      {
+        "text": "",
+        "href": "https://www.airtable.com/platform",
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "20.8px",
+          "letterSpacing": "0.16px",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(24, 29, 38)",
+          "padding": "16px 24px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "ActionButton-module_actionButton__25MzN",
+            "ActionButton-module_secondary__Ml-Vz"
+          ],
+          "text": "",
+          "top": 440,
+          "left": 665,
+          "width": 209,
+          "height": 55
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgb(240, 246, 255)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "PromoCard-module_promoBarWrap__2DYf8",
+            "PromoCard-module_promoBarblue__2dL3b"
+          ],
+          "text": "Bring your Airtable data into Claude. Try it now",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 42
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "17.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "12px 64px 12px 32px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "PromoCard-module_promoBarInner__23VO8"
+          ],
+          "text": "Bring your Airtable data into Claude. Try it now",
+          "top": 0,
+          "left": 0,
+          "width": 1440,
+          "height": 42
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(51, 56, 64)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "17.5px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(51, 56, 64)",
+          "padding": "0px",
+          "margin": "0px 8px",
+          "display": "inline-block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "PromoCard-module_promoLinkWrap__E00S3",
+            "mx-1",
+            "inline",
+            "md:mx-2",
+            "md:inline-block"
+          ],
+          "text": "Try it now",
+          "top": 12,
+          "left": 777,
+          "width": 88,
+          "height": 18
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(37, 79, 173)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "0px none rgb(37, 79, 173)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "PromoCard-module_promoLink__3MoH1"
+          ],
+          "text": "Try it now",
+          "top": 12,
+          "left": 777,
+          "width": 88,
+          "height": 18
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(37, 79, 173)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "0.14px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(37, 79, 173)",
+          "padding": "0px",
+          "margin": "0px 0px 0px 4px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "svg",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 15,
+          "left": 847,
+          "width": 18,
+          "height": 12
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 188,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 263,
+          "left": -124,
+          "width": 726,
+          "height": 78
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 340,
+          "left": -124,
+          "width": 726,
+          "height": 78
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 418,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 493,
+          "left": -124,
+          "width": 726,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 188,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 263,
+          "left": -97,
+          "width": 480,
+          "height": 96
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 358,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 433,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(24, 29, 38)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Haas, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "26px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px solid rgb(24, 29, 38)",
+          "padding": "12px 48px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "DrawerLink-module_drawerLinkWrap__30FY8",
+            "PromoCard-module_drawerLinkInsidePromoCard__3kc2V",
+            "DrawerGroup-module_drawerLinkInsideDrawerGroup__1C7D_"
+          ],
+          "text": "",
+          "top": 508,
+          "left": -97,
+          "width": 480,
+          "height": 75
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://static.airtable.com/images/marketing-nav-platform-graphic.webp",
+        "alt": null,
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Img-module_wrapper__2Pl65"
+          ],
+          "text": "",
+          "top": 543,
+          "left": 665,
+          "width": 384,
+          "height": 264
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://static.airtable.com/images/marketing-nav-solution.webp",
+        "alt": null,
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Img-module_wrapper__2Pl65"
+          ],
+          "text": "",
+          "top": 570,
+          "left": 665,
+          "width": 384,
+          "height": 268
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://static.airtable.com/images/marketing-nav-resource.webp",
+        "alt": null,
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Img-module_wrapper__2Pl65"
+          ],
+          "text": "",
+          "top": 625,
+          "left": 665,
+          "width": 384,
+          "height": 260
+        }
+      },
+      {
+        "tag": "video",
+        "src": "https://cdn.sanity.io/files/hlcyrtq5/production/16f7e8526058f2d34ce24e5ef3933bc3783cea4b.mp4",
+        "alt": null,
+        "box": {
+          "tag": "video",
+          "id": null,
+          "classes": [
+            "MediaComponentBlock-module__0ynjlG__mediaVideo"
+          ],
+          "text": "",
+          "top": 444,
+          "left": 163,
+          "width": 1114,
+          "height": 150
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 1",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": -119,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 2",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 81,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 3",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 281,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 4",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 481,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 5",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 681,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 6",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 881,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 7",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 1081,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 8",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 1281,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 9",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 1481,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 10",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 1681,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 12",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 1881,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 13",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 2081,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 14",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 2281,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 15",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 2481,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 16",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 2681,
+          "width": 168,
+          "height": 52
+        }
+      },
+      {
+        "tag": "img",
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "alt": "Logo 17",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1209,
+          "left": 2881,
+          "width": 168,
+          "height": 52
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(24, 29, 38)",
+        "count": 1014
+      },
+      {
+        "value": "rgb(51, 56, 64)",
+        "count": 604
+      },
+      {
+        "value": "rgb(68, 68, 68)",
+        "count": 358
+      },
+      {
+        "value": "rgb(51, 51, 51)",
+        "count": 282
+      },
+      {
+        "value": "rgba(4, 14, 32, 0.69)",
+        "count": 136
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 90
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 85
+      },
+      {
+        "value": "rgb(65, 69, 77)",
+        "count": 55
+      },
+      {
+        "value": "rgb(37, 79, 173)",
+        "count": 30
+      },
+      {
+        "value": "rgb(146, 151, 160)",
+        "count": 17
+      },
+      {
+        "value": "rgb(10, 46, 14)",
+        "count": 16
+      },
+      {
+        "value": "rgb(248, 250, 252)",
+        "count": 13
+      },
+      {
+        "value": "rgb(170, 45, 0)",
+        "count": 13
+      },
+      {
+        "value": "rgb(250, 145, 224)",
+        "count": 13
+      },
+      {
+        "value": "rgb(252, 180, 42)",
+        "count": 13
+      },
+      {
+        "value": "rgb(33, 66, 36)",
+        "count": 11
+      },
+      {
+        "value": "rgb(224, 226, 230)",
+        "count": 8
+      },
+      {
+        "value": "rgb(4, 14, 32)",
+        "count": 8
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Haas",
+        "count": 1310
+      },
+      {
+        "value": "Haas Groot Disp",
+        "count": 87
+      }
+    ],
+    "radii": [
+      {
+        "value": "12px",
+        "count": 13
+      },
+      {
+        "value": "32px",
+        "count": 8
+      },
+      {
+        "value": "50%",
+        "count": 6
+      },
+      {
+        "value": "16px",
+        "count": 5
+      },
+      {
+        "value": "24px",
+        "count": 5
+      },
+      {
+        "value": "2px",
+        "count": 4
+      },
+      {
+        "value": "10px",
+        "count": 3
+      },
+      {
+        "value": "999px",
+        "count": 2
+      },
+      {
+        "value": "20px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(15, 48, 106, 0.05) 0px 0px 20px 0px",
+      "rgba(0, 0, 0, 0.32) 0px 0px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px, rgba(45, 127, 249, 0.28) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px inset",
+      "rgba(0, 0, 0, 0.32) 0px 0px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px, rgba(0, 0, 0, 0.08) 0px 1px 3px 0px, rgba(1, 20, 53, 0.12) 0px 0px 0px 1px inset"
+    ],
+    "cssVars": {
+      "--tw-border-spacing-x": "0",
+      "--tw-border-spacing-y": "0",
+      "--tw-translate-x": "0",
+      "--tw-translate-y": "0",
+      "--tw-rotate": "0",
+      "--tw-skew-x": "0",
+      "--tw-skew-y": "0",
+      "--tw-scale-x": "1",
+      "--tw-scale-y": "1",
+      "--tw-scroll-snap-strictness": "proximity",
+      "--tw-ring-offset-width": "0px",
+      "--tw-ring-offset-color": "#fff",
+      "--tw-ring-color": "#3b82f680",
+      "--tw-ring-offset-shadow": "0 0 #0000",
+      "--tw-ring-shadow": "0 0 #0000",
+      "--tw-shadow": "0 0 #0000",
+      "--tw-shadow-colored": "0 0 #0000",
+      "--tw-content": "\"\"",
+      "--marketing-content-max-width": "1536px",
+      "--tw-space-y-reverse": "0",
+      "--tw-border-opacity": "1",
+      "--tw-bg-opacity": "1",
+      "--mainNavWidth": "702px",
+      "--mainNavHeight": "79px",
+      "--mainNavColor": "#181d26",
+      "--mainNavBackground": "#fff",
+      "--mainNavCtaColor": "#fff",
+      "--mainNavCtaBackground": "#0768f8",
+      "--mainNavAccentCtaColor": "#949494",
+      "--mainNavAccentBackground": "#f2f4f7",
+      "--mainNavButtonBackgroundPrimary": "#1b61c9",
+      "--mainNavButtonBackgroundPrimaryHover": "linear-gradient(0deg,#00000040,#00000040),#254fad",
+      "--mainNavButtonBackgroundPrimaryActive": "#1a3866",
+      "--mainNavButtonBackgroundPrimaryFocus": "#254fad",
+      "--mainNavButtonBackgroundPrimaryLoading": "#1a3866",
+      "--mainNavButtonBackgroundPrimaryDisabled": "#e0e2e6",
+      "--mainNavButtonTextPrimary": "#fff",
+      "--mainNavButtonTextPrimaryHover": "#fff",
+      "--mainNavButtonTextPrimaryActive": "#fff",
+      "--mainNavButtonTextPrimaryFocus": "#fff",
+      "--mainNavButtonTextPrimaryLoading": "#fff",
+      "--mainNavButtonTextPrimaryDisabled": "#41454d",
+      "--mainNavButtonShadowPrimary": "0px 0px 1px #00000052,0px 0px 2px #00000014,0px 1px 3px #2d7ff947,inset 0px 0px 0px .5px #0000000f",
+      "--mainNavButtonShadowPrimaryHover": "0px 0px 1px #00000052,0px 0px 3px #0000001c,0px 1px 4px #2d7ff97a,inset 0px 0px 0px .5px #0000001f",
+      "--mainNavButtonShadowPrimaryActive": "0px 0px 1px #00000052,0px 0px 3px #0000001c,0px 1px 4px #2d7ff97a,inset 0px 0px 0px .5px #0000001f",
+      "--mainNavButtonShadowPrimaryFocus": "0px 0px 0px 2px #0768f880,0px 0px 1px #00000052,0px 0px 2px #00000014,0px 1px 3px #2d7ff947,inset 0px 0px 0px .5px #0000",
+      "--mainNavButtonShadowPrimaryLoading": "0px 0px 1px #00000052,0px 0px 3px #0000001c,0px 1px 4px #2d7ff97a,inset 0px 0px 0px .5px #0000001f",
+      "--mainNavButtonShadowPrimaryDisabled": "inset 0 0 0 1px #9297a0",
+      "--mainNavButtonFilterPrimary": "none",
+      "--mainNavButtonFilterPrimaryHover": "none",
+      "--mainNavButtonFilterPrimaryActive": "none",
+      "--mainNavButtonFilterPrimaryFocus": "none",
+      "--mainNavButtonFilterPrimaryLoading": "none",
+      "--mainNavButtonFilterPrimaryDisabled": "none",
+      "--mainNavButtonBackgroundSecondary": "#ffffff3d",
+      "--mainNavButtonBackgroundSecondaryHover": "#0d52ac14",
+      "--mainNavButtonBackgroundSecondaryActive": "#ffffffa6",
+      "--mainNavButtonBackgroundSecondaryFocus": "#ffffffa6",
+      "--mainNavButtonBackgroundSecondaryLoading": "#ffffffa6",
+      "--mainNavButtonBackgroundSecondaryDisabled": "#e0e2e6",
+      "--mainNavButtonTextSecondary": "#181d26",
+      "--mainNavButtonTextSecondaryHover": "#254fad",
+      "--mainNavButtonTextSecondaryActive": "#070c14d1",
+      "--mainNavButtonTextSecondaryFocus": "#040e20b0",
+      "--mainNavButtonTextSecondaryLoading": "#040e20b0",
+      "--mainNavButtonTextSecondaryDisabled": "#040e20b0",
+      "--mainNavButtonShadowSecondary": "0px 0px 1px #00000052,0px 0px 2px #00000014,0px 1px 3px #00000014,inset 0 0 0 1px #0114351f",
+      "--mainNavButtonShadowSecondaryHover": "0px 0px 1px #00000052,0px 0px 2px #00000014,0px 1px 3px #00000014,inset 0 0 0 1px #458fff",
+      "--mainNavButtonShadowSecondaryActive": "0px 0px 1px #00000052,0px 0px 3px #0000001c,0px 1px 4px #0000001f,inset 0 0 0 1px #000e263b",
+      "--mainNavButtonShadowSecondaryFocus": "0px 0px 0px 2px #0768f880,0px 0px 1px #00000052,0px 0px 3px #0000001c,0px 1px 4px #0000001f,inset 0 0 0 1px #020d206e",
+      "--mainNavButtonShadowSecondaryLoading": "0px 0px 1px #00000052,0px 0px 2px #00000014,0px 1px 3px #00000014,inset 0 0 0 1px #0114351f",
+      "--mainNavButtonShadowSecondaryDisabled": "inset 0 0 0 1px #9297a0",
+      "--mainNavButtonFilterSecondary": "blur(6px)",
+      "--mainNavButtonFilterSecondaryHover": "blur(6px)",
+      "--mainNavButtonFilterSecondaryActive": "none",
+      "--mainNavButtonFilterSecondaryFocus": "none",
+      "--mainNavButtonFilterSecondaryLoading": "none",
+      "--mainNavButtonFilterSecondaryDisabled": "none",
+      "--wordmark-width": "98px",
+      "--promoBarBgColor": "#f2f4f7"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": "<header id=\"marketingHeaderSharedRoot\" class=\"Nav-module_headerWrap__3rK1K\"><nav class=\"Nav-module_headerInnerWrap__WHzem\"><span class=\"Nav-module_drawerRectSpacer__36KhV\"></span><section class=\"Nav-module_beforeNavSection__lgBS3\"><div class=\"PromoCard-module_promoBarWrap__2DYf8 PromoCard-module_promoBarblue__2dL3b\" style=\"background-color:#F0F6FF;color:#333840;--promoBarColor:#254FAD\"><div class=\"PromoCard-module_promoBarInner__23VO8\"><p class=\"inline\">Bring your Airtable data into Claude.<span\u2026",
+    "heroHtml": "<div class=\"index-module-scss-module__d1g50a__heroTop\"><h1 class=\"BkText-module-scss-module__lpxhIa__typeShortLg BkText-module-scss-module__lpxhIa__bkText BkText-module-scss-module__lpxhIa__normal index-module-scss-module__d1g50a__headline\">All your teams, all their workflows\u2014connected in one workspace</h1></div>",
+    "footerHtml": "<footer class=\"marketingFooterV2-module_footerWrap__2l-em\"><div class=\"Wrapper-module_gridWrap__1Zo9Q marketingFooterV2-module_footerContentWrap__1IDSy\"><nav class=\"marketingFooterV2-module_navWrap__2Pafd\" aria-label=\"Footer navigation\"><div class=\"marketingFooterV2-module_logo__1qUaG\"><a class=\"marketingFooterV2-module_logoIcon__2FR_M marketingFooterV2-module_navLink__29DjE BkLink-module_bkLink__2Rqnp\" href=\"https://www.airtable.com/\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"2\u2026"
+  },
+  "status": 200,
+  "final_url": "https://www.airtable.com/",
+  "html_signals": {
+    "h1_count": 1,
+    "h2_count": 7,
+    "section_count": 22,
+    "nav_count": 25,
+    "button_count": 32,
+    "img_count": 55,
+    "footer_count": 1
+  }
+}

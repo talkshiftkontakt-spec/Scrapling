@@ -1,0 +1,1982 @@
+{
+  "name": "raycast-store",
+  "url": "https://www.raycast.com/store",
+  "category": "chrome-extension",
+  "stealth": false,
+  "ok": true,
+  "viewport_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-store-viewport.png",
+  "artifact_viewport": "/opt/cursor/artifacts/szafapilot-visual-research/raycast-store-viewport.png",
+  "full_screenshot": "/workspace/research/szafapilot-visual-design/screenshots/raycast-store-full.png",
+  "artifact_full": "/opt/cursor/artifacts/szafapilot-visual-research/raycast-store-full.png",
+  "design": {
+    "url": "https://www.raycast.com/store",
+    "title": "Raycast - Store",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "scrollHeight": 4330
+    },
+    "themeGuess": "dark",
+    "luminance": 0.031105098039215684,
+    "bodyStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(7, 8, 10)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "htmlStyle": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "display": "block",
+      "gap": "normal",
+      "maxWidth": "none",
+      "textTransform": "none"
+    },
+    "header": {
+      "box": {
+        "tag": "nav",
+        "id": null,
+        "classes": [
+          "Pagination_pagination__kkt9q"
+        ],
+        "text": "1 2 3 4 5 306",
+        "top": 2927,
+        "left": 150,
+        "width": 1140,
+        "height": 36
+      },
+      "style": {
+        "color": "rgb(106, 107, 108)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "17.25px",
+        "letterSpacing": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "border": "0px none rgb(106, 107, 108)",
+        "padding": "0px",
+        "margin": "64px 0px 0px",
+        "display": "flex",
+        "gap": "8px",
+        "maxWidth": "none",
+        "textTransform": "none"
+      },
+      "navLinks": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "306"
+      ]
+    },
+    "footer": {
+      "box": null,
+      "style": null
+    },
+    "main": {
+      "box": {
+        "tag": "body",
+        "id": null,
+        "classes": [],
+        "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download Store Sprinkle a little magic on your day. Connect your tools, and take your daily workflow to the next leve",
+        "top": 0,
+        "left": 0,
+        "width": 1440,
+        "height": 4330
+      }
+    },
+    "sections": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Store",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "80px",
+          "fontWeight": "600",
+          "lineHeight": "86px",
+          "letterSpacing": "1.2px",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px 36px",
+          "margin": "0px 0px 20px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [],
+          "text": "Store",
+          "top": 558,
+          "left": 578,
+          "width": 284,
+          "height": 86
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Explore",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "500",
+          "lineHeight": "46px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 16px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "page_exploreHeader__Ltl59"
+          ],
+          "text": "Explore",
+          "top": 947,
+          "left": 150,
+          "width": 1140,
+          "height": 46
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Featured",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "page_sectionHeader__k1tkH"
+          ],
+          "text": "Featured",
+          "top": 1064,
+          "left": 150,
+          "width": 1140,
+          "height": 23
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Kaomoji Search",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_title__Xz_rm"
+          ],
+          "text": "Kaomoji Search",
+          "top": 1298,
+          "left": 255,
+          "width": 150,
+          "height": 23
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Can I Use",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_title__Xz_rm"
+          ],
+          "text": "Can I Use",
+          "top": 1298,
+          "left": 674,
+          "width": 92,
+          "height": 23
+        }
+      },
+      {
+        "tag": "h2",
+        "text": "Mole",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_title__Xz_rm"
+          ],
+          "text": "Mole",
+          "top": 1298,
+          "left": 1087,
+          "width": 47,
+          "height": 23
+        }
+      },
+      {
+        "tag": "h3",
+        "text": "Extensions",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h3",
+          "id": null,
+          "classes": [
+            "page_sectionHeader__k1tkH"
+          ],
+          "text": "Extensions",
+          "top": 1756,
+          "left": 150,
+          "width": 1140,
+          "height": 23
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "0px",
+          "fontWeight": "700",
+          "lineHeight": "0px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 12px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": null,
+          "classes": [
+            "GlobalBanner_graphic__mBCWI"
+          ],
+          "text": "",
+          "top": 645,
+          "left": 1164,
+          "width": 235,
+          "height": 48
+        }
+      },
+      {
+        "tag": "h1",
+        "text": "Meet Glaze",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "16px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h1",
+          "id": "radix-_r_1_",
+          "classes": [
+            "GlobalBanner_title__c7R6b"
+          ],
+          "text": "Meet Glaze",
+          "top": 705,
+          "left": 1164,
+          "width": 235,
+          "height": 16
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Store",
+        "href": "/store",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Store",
+          "top": 34,
+          "left": 406,
+          "width": 53,
+          "height": 41
+        }
+      },
+      {
+        "text": "Windows",
+        "href": "/windows",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Windows",
+          "top": 34,
+          "left": 632,
+          "width": 79,
+          "height": 41
+        }
+      },
+      {
+        "text": "Teams",
+        "href": "/teams",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Teams",
+          "top": 34,
+          "left": 727,
+          "width": 61,
+          "height": 41
+        }
+      },
+      {
+        "text": "Enterprise",
+        "href": "/enterprise",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Enterprise",
+          "top": 34,
+          "left": 804,
+          "width": 87,
+          "height": 41
+        }
+      },
+      {
+        "text": "Blog",
+        "href": "/blog",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Blog",
+          "top": 34,
+          "left": 907,
+          "width": 47,
+          "height": 41
+        }
+      },
+      {
+        "text": "Pricing",
+        "href": "/pricing",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Pricing",
+          "top": 34,
+          "left": 970,
+          "width": 64,
+          "height": 41
+        }
+      },
+      {
+        "text": "Log in",
+        "href": "/users/sign_in",
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "0.2px",
+          "borderRadius": "6px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "12px 8px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "NavLink_navLink__REP72"
+          ],
+          "text": "Log in",
+          "top": 34,
+          "left": 1090,
+          "width": 58,
+          "height": 41
+        }
+      },
+      {
+        "text": "Download",
+        "href": null,
+        "style": {
+          "color": "rgb(47, 48, 49)",
+          "backgroundColor": "rgb(230, 230, 230)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "0.2px",
+          "borderRadius": "8px",
+          "boxShadow": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+          "border": "0px none rgb(47, 48, 49)",
+          "padding": "8px 12px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "8px",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "Button_button__JJiqJ",
+            "Button_light__KdYEB",
+            "Navbar_downloadButton__yQ3j6"
+          ],
+          "text": "Download",
+          "top": 36,
+          "left": 1172,
+          "width": 117,
+          "height": 36
+        }
+      },
+      {
+        "text": "Search...",
+        "href": null,
+        "style": {
+          "color": "rgb(106, 107, 108)",
+          "backgroundColor": "rgb(12, 13, 15)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "17.25px",
+          "letterSpacing": "normal",
+          "borderRadius": "12px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(47, 48, 49)",
+          "padding": "16px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "button",
+          "id": null,
+          "classes": [
+            "StoreHeader_searchInput__YpZXj"
+          ],
+          "text": "Search...",
+          "top": 784,
+          "left": 482,
+          "width": 476,
+          "height": 51
+        }
+      },
+      {
+        "text": "Kaomoji Search\n\nSearch and copy to the clipboard different kaomoji (ascii/unicod",
+        "href": "/yalishanda/kaomoji-search",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+          "border": "1px solid rgba(255, 255, 255, 0.06)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_card__gJLxu"
+          ],
+          "text": "Kaomoji Search Search and copy to the clipboard different kaomoji (ascii/unicode emotes).",
+          "top": 1145,
+          "left": 150,
+          "width": 359,
+          "height": 364
+        }
+      },
+      {
+        "text": "Can I Use\n\nCan I Use provides up-to-date browser support for front-end web techn",
+        "href": "/thomaslombart/can-i-use",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+          "border": "1px solid rgba(255, 255, 255, 0.06)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_card__gJLxu"
+          ],
+          "text": "Can I Use Can I Use provides up-to-date browser support for front-end web technologies on desktop and mobile web browsers.",
+          "top": 1145,
+          "left": 541,
+          "width": 359,
+          "height": 364
+        }
+      },
+      {
+        "text": "Mole\n\nDeep clean and optimize your Mac",
+        "href": "/jlrochin/mole",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+          "border": "1px solid rgba(255, 255, 255, 0.06)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_card__gJLxu"
+          ],
+          "text": "Mole Deep clean and optimize your Mac",
+          "top": 1145,
+          "left": 931,
+          "width": 359,
+          "height": 364
+        }
+      },
+      {
+        "text": "",
+        "href": "https://glaze.app",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "0px",
+          "fontWeight": "700",
+          "lineHeight": "0px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 645,
+          "left": 1164,
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "text": "",
+        "href": "https://ray.so/ph-glaze",
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "inline-flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 808,
+          "left": 1164,
+          "width": 223,
+          "height": 48
+        }
+      }
+    ],
+    "cards": [
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "grid",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_cardWrapper__4i74D"
+          ],
+          "text": "Kaomoji Search Search and copy to the clipboard different kaomoji (ascii/unicode emotes). Alexander Ignatov Install Extension",
+          "top": 1145,
+          "left": 150,
+          "width": 359,
+          "height": 364
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "10px",
+          "boxShadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+          "border": "1px solid rgba(255, 255, 255, 0.06)",
+          "padding": "32px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_card__gJLxu"
+          ],
+          "text": "Kaomoji Search Search and copy to the clipboard different kaomoji (ascii/unicode emotes).",
+          "top": 1145,
+          "left": 150,
+          "width": 359,
+          "height": 364
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(7, 8, 10)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "20px",
+          "boxShadow": "none",
+          "border": "2px solid rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_extensionFeaturedIcon__I2dPD"
+          ],
+          "text": "",
+          "top": 1178,
+          "left": 281,
+          "width": 96,
+          "height": 96
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 179, 255, 0.1)",
+          "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(0, 179, 255, 0.15), rgba(0, 179, 255, 0))",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "18px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_extensionFeaturedIconInner__MeNgL"
+          ],
+          "text": "",
+          "top": 1180,
+          "left": 283,
+          "width": 92,
+          "height": 92
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "lineHeight": "23px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "h2",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_title__Xz_rm"
+          ],
+          "text": "Kaomoji Search",
+          "top": 1298,
+          "left": 255,
+          "width": 150,
+          "height": 23
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(106, 107, 108)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "17.25px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(106, 107, 108)",
+          "padding": "0px",
+          "margin": "0px 0px 24px",
+          "display": "flow-root",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "p",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_description__53Tu0"
+          ],
+          "text": "Search and copy to the clipboard different kaomoji (ascii/unicode emotes).",
+          "top": 1329,
+          "left": 183,
+          "width": 293,
+          "height": 35
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_metadataSlot__5h7y3"
+          ],
+          "text": "",
+          "top": 1387,
+          "left": 259,
+          "width": 141,
+          "height": 88
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "500",
+          "lineHeight": "14.95px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_link__5fZ4i"
+          ],
+          "text": "",
+          "top": 1387,
+          "left": 259,
+          "width": 141,
+          "height": 20
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "500",
+          "lineHeight": "14.95px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "0px",
+          "margin": "0px 0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_owner__qkHyw"
+          ],
+          "text": "",
+          "top": 1390,
+          "left": 287,
+          "width": 113,
+          "height": 15
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_installButtonWrapper__y8QJT"
+          ],
+          "text": "",
+          "top": 1439,
+          "left": 259,
+          "width": 141,
+          "height": 36
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "none",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_shareButtonWrapper__1OX7d"
+          ],
+          "text": "Share",
+          "top": 0,
+          "left": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_metadataSlotContent__qJQGR"
+          ],
+          "text": "Alexander Ignatov Install Extension",
+          "top": 1392,
+          "left": 259,
+          "width": 141,
+          "height": 84
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "500",
+          "lineHeight": "14.95px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "0px",
+          "margin": "0px 0px 32px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "a",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_link__5fZ4i"
+          ],
+          "text": "Alexander Ignatov",
+          "top": 1392,
+          "left": 259,
+          "width": 141,
+          "height": 20
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(156, 156, 157)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "500",
+          "lineHeight": "14.95px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(156, 156, 157)",
+          "padding": "0px",
+          "margin": "0px 0px 0px 8px",
+          "display": "block",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "span",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_owner__qkHyw"
+          ],
+          "text": "Alexander Ignatov",
+          "top": 1395,
+          "left": 287,
+          "width": 113,
+          "height": 15
+        }
+      },
+      {
+        "style": {
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "flex",
+          "gap": "normal",
+          "maxWidth": "none",
+          "textTransform": "none"
+        },
+        "box": {
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "FeaturedExtensionCard_installButtonWrapper__y8QJT"
+          ],
+          "text": "Install Extension",
+          "top": 1444,
+          "left": 259,
+          "width": 141,
+          "height": 32
+        }
+      }
+    ],
+    "images": [
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstore-apps-header-bg%402x.08ed63fa.png&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "StoreHeader_headerBg__1y_1e"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 188,
+          "width": 1064,
+          "height": 560
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstore-apps-header-fg%402x.de05e687.png&w=3840&q=70",
+        "alt": "",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "StoreHeader_headerFg__W2iXP"
+          ],
+          "text": "",
+          "top": 0,
+          "left": 188,
+          "width": 1064,
+          "height": 560
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Ffr7l9gmwhznzyhffjtn2iofvmxe1&w=128&q=70",
+        "alt": "Kaomoji Search logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1194,
+          "left": 297,
+          "width": 64,
+          "height": 64
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fcx6qno9g563rvfdccsk30jvw4tvn&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1387,
+          "left": 259,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fcx6qno9g563rvfdccsk30jvw4tvn&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1392,
+          "left": 259,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fnjczy6lbxbv5k5mbhkbjh4wn5bnj&w=128&q=70",
+        "alt": "Can I Use logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1194,
+          "left": 688,
+          "width": 64,
+          "height": 64
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fql6fbvd1c0o5ipcyx0x9fsp4mgd0&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1387,
+          "left": 653,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fql6fbvd1c0o5ipcyx0x9fsp4mgd0&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1392,
+          "left": 653,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F00l953c9z8z0rj0ternowqbqc2m7&w=128&q=70",
+        "alt": "Mole logo",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1194,
+          "left": 1079,
+          "width": 64,
+          "height": 64
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F4u3t0693czy4hih2oghmp7w1e83q&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1370,
+          "left": 1074,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F4u3t0693czy4hih2oghmp7w1e83q&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1392,
+          "left": 1074,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Flytazd7b3j4ujen5eig3c5lwzg5w&w=64&q=70",
+        "alt": "Kill Process icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1870,
+          "left": 183,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fggm68kkfzdyw6g8d6cv3sq4zn64f&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1970,
+          "left": 183,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fggm68kkfzdyw6g8d6cv3sq4zn64f&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1971,
+          "left": 182,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fjlv6dvdvfqi16mpfqq7kscoa5nbx&w=64&q=70",
+        "alt": "Google Chrome icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 1870,
+          "left": 765,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fqn3q9w5zodmigpsohdsiogyu3un6&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1970,
+          "left": 765,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fqn3q9w5zodmigpsohdsiogyu3un6&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 1971,
+          "left": 764,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Fddzvvju73rz05h9zrpsppxrcueoj&w=64&q=70",
+        "alt": "Color Picker icon",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [],
+          "text": "",
+          "top": 2080,
+          "left": 183,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F0pxp15wpgafuv7tspd7lbrubag0m&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 2180,
+          "left": 183,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "img",
+        "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F0pxp15wpgafuv7tspd7lbrubag0m&w=48&q=70",
+        "alt": "Avatar",
+        "box": {
+          "tag": "img",
+          "id": null,
+          "classes": [
+            "Avatar_avatar__UnKOO"
+          ],
+          "text": "",
+          "top": 2181,
+          "left": 182,
+          "width": 20,
+          "height": 20
+        }
+      }
+    ],
+    "colors": [
+      {
+        "value": "rgb(156, 156, 157)",
+        "count": 439
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 315
+      },
+      {
+        "value": "rgb(106, 107, 108)",
+        "count": 104
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.06)",
+        "count": 25
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.4)",
+        "count": 20
+      },
+      {
+        "value": "rgb(47, 48, 49)",
+        "count": 9
+      },
+      {
+        "value": "rgb(12, 13, 15)",
+        "count": 9
+      },
+      {
+        "value": "rgb(7, 8, 10)",
+        "count": 3
+      },
+      {
+        "value": "rgba(0, 179, 255, 0.1)",
+        "count": 3
+      },
+      {
+        "value": "rgb(27, 28, 30)",
+        "count": 3
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.05)",
+        "count": 3
+      },
+      {
+        "value": "rgb(230, 230, 230)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.06) rgba(255, 255, 255, 0.06) rgb(255, 255, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "count": 1
+      },
+      {
+        "value": "rgb(205, 206, 206)",
+        "count": 1
+      },
+      {
+        "value": "rgb(27, 28, 30) rgb(255, 255, 255) rgb(255, 255, 255)",
+        "count": 1
+      },
+      {
+        "value": "rgb(27, 28, 30) rgb(156, 156, 157) rgb(156, 156, 157)",
+        "count": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 1
+      }
+    ],
+    "fonts": [
+      {
+        "value": "Inter",
+        "count": 506
+      }
+    ],
+    "radii": [
+      {
+        "value": "8px",
+        "count": 27
+      },
+      {
+        "value": "99999px",
+        "count": 26
+      },
+      {
+        "value": "12px",
+        "count": 23
+      },
+      {
+        "value": "6px",
+        "count": 14
+      },
+      {
+        "value": "10px",
+        "count": 6
+      },
+      {
+        "value": "4px",
+        "count": 4
+      },
+      {
+        "value": "20px",
+        "count": 3
+      },
+      {
+        "value": "18px",
+        "count": 3
+      },
+      {
+        "value": "100px",
+        "count": 2
+      },
+      {
+        "value": "999999px",
+        "count": 2
+      },
+      {
+        "value": "16px",
+        "count": 1
+      }
+    ],
+    "shadows": [
+      "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+      "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+      "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+      "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset",
+      "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset"
+    ],
+    "cssVars": {
+      "--bg-opacity": "0",
+      "--background-opacity": "0",
+      "--graphic-width": "270px",
+      "--reel-gap": "var(--spacing-7)",
+      "--radius": "8px",
+      "--border": "2.5px",
+      "--scroll-progress": "0",
+      "--gap": "0.4rem",
+      "--split": "50%",
+      "--card-padding": "32px",
+      "--font-inter": "\"Inter\",\"Inter Fallback\"",
+      "--font-jetbrains-mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\"",
+      "--font-geist-mono": "\"GeistMono\",ui-monospace,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace",
+      "--size": "32px",
+      "--rounding-none": "0px",
+      "--rounding-xs": "4px",
+      "--rounding-sm": "6px",
+      "--rounding-normal": "8px",
+      "--rounding-md": "12px",
+      "--rounding-lg": "16px",
+      "--rounding-xl": "20px",
+      "--rounding-xxl": "24px",
+      "--rounding-full": "100%",
+      "--spacing-none": "0px",
+      "--spacing-0-5": "4px",
+      "--spacing-1": "8px",
+      "--spacing-1-5": "12px",
+      "--spacing-2": "16px",
+      "--spacing-2-5": "20px",
+      "--spacing-3": "24px",
+      "--spacing-4": "32px",
+      "--spacing-5": "40px",
+      "--spacing-6": "48px",
+      "--spacing-7": "56px",
+      "--spacing-8": "64px",
+      "--spacing-9": "80px",
+      "--spacing-10": "96px",
+      "--spacing-11": "112px",
+      "--spacing-12": "168px",
+      "--spacing-13": "224px",
+      "--Base-White": "#ffffff",
+      "--grey-50": "#e6e6e6",
+      "--grey-100": "#cdcece",
+      "--grey-200": "#9c9c9d",
+      "--grey-300": "#6a6b6c",
+      "--grey-400": "#434345",
+      "--grey-500": "#2f3031",
+      "--grey-600": "#1b1c1e",
+      "--grey-700": "#111214",
+      "--grey-800": "#0c0d0f",
+      "--grey-900": "#07080a",
+      "--Base-Black": "#000000",
+      "--main-font": "var(--font-inter),sans-serif",
+      "--monospace-font": "var(--font-jetbrains-mono),Menlo,Monaco,Courier,monospace",
+      "--container-xs-width": "746px",
+      "--container-sm-width": "1064px",
+      "--container-width": "1204px",
+      "--container-lg-width": "1280px",
+      "--grid-gap": "32px",
+      "--navbar-width": "var(--container-width)",
+      "--background": "var(--grey-900)",
+      "--reverse-background": "#ffffff",
+      "--font-color-rgb": "255,255,255",
+      "--reverse-font-color-rgb": "0,0,0",
+      "--lines-color-rgb": "255,255,255",
+      "--radius-md": "6px",
+      "--blue-dark": "#56c2ff",
+      "--red-dark": "rgba(255,99,99,1)",
+      "--color-bg": "var(--grey-900)",
+      "--color-bg-100": "rgb(16,17,17)",
+      "--color-bg-200": "rgb(24,25,26)",
+      "--color-bg-300": "rgb(49,49,51)",
+      "--color-bg-400": "rgb(73,75,77)",
+      "--color-fg": "hsl(240,11%,96%)",
+      "--color-fg-200": "rgb(194,199,202)",
+      "--color-fg-300": "#78787c",
+      "--color-fg-400": "rgb(94,99,102)",
+      "--color-yellow": "hsl(43,100%,60%)",
+      "--color-yellow-transparent": "hsla(43,100%,60%,0.15)",
+      "--color-red": "hsl(0,100%,69%)"
+    },
+    "metaTheme": null
+  },
+  "snippets": {
+    "headerHtml": null,
+    "heroHtml": "<div class=\"StoreHeader_headerContent__NwxEp\"><h1>Store</h1><p>Sprinkle a little magic on your day. Connect your tools, and take your daily workflow to the next level. </p><div class=\"StoreHeader_storeSearch__Yduf6\"><button class=\"StoreHeader_searchInput__YpZXj\">Search...</button><div class=\"StoreHeader_searchShortcut__4KKJg\"><span class=\"StoreHeader_searchKey__MUzhe\">\u2318</span><span class=\"StoreHeader_searchKey__MUzhe\">K</span></div></div></div>",
+    "footerHtml": null
+  },
+  "status": 200,
+  "final_url": "https://www.raycast.com/store",
+  "html_signals": {
+    "h1_count": 3,
+    "h2_count": 4,
+    "section_count": 0,
+    "nav_count": 1,
+    "button_count": 17,
+    "img_count": 44,
+    "footer_count": 0
+  }
+}
